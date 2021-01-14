@@ -329,3 +329,6 @@ table.profile_menu:before {
     clear: left;
     border-bottom: 1px solid #999999 !important;
 }
+table[style="margin-bottom: 10px;"],table.profile_menu {
+    margin-bottom: 5px !important;
+}
