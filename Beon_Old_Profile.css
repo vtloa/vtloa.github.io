@@ -309,3 +309,23 @@ div.profile_friend_info,.profile_blogentry {padding-left: 7px !important;}
 }
 
 div#profile_friends {padding-bottom: 8px;}
+
+table.profile_menu,td.profile_menu1 a, div.nolink {
+    border: none;border: none !important;
+}
+table.profile_menu {
+    border: 1px solid #999999 !important;
+    border-radius: 2px;
+}
+
+table.profile_menu:before {
+    content: 'Функции:';
+    display: block;
+    padding: 2px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 13px;
+    clear: left;
+    border-bottom: 1px solid #999999 !important;
+}
