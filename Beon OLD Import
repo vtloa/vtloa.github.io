@@ -1,0 +1,505 @@
+/*---------------------*/
+
+.card {border: none;border-radius: 0px;}
+.category {margin-left: 2px;}
+
+.profile_comment_body {max-width: 90% !important;}
+
+#user_status {margin: auto;}
+.commentEditLink {
+font-size: 10px;
+text-decoration: underline !important; text-decoration: underline;}
+
+.profile_comment_author a {text-decoration: underline;}
+
+.btn-outline-success {filter: grayscale(1);}
+.card-body .p-1 {display: block;}
+
+.post_text.pl-3 {
+padding-left: 5px !important;
+padding-left: 5px;}
+
+.additional_info.pl-3 { text-align: right !important;
+font-size: 11px !important;
+font-size: 11px;
+padding-top: 10px;
+padding-left: 0px !important;}
+
+.profile_postcomment:after {
+content: 'Пожалуйста, относитесь к собеседникам уважительно, не используйте нецензурные слова, не злоупотребляйте заглавными буквами, не публикуйте рекламу и объявления о купле/продаже, а также материалы, нарушающие сетевой этикет или законы РФ. Ваш ip-адрес записывается.';
+width: 90%;
+display: block;
+font-size: 13px;
+color: black;}
+
+.comment_headline {
+font-size: 0px;
+background: transparent;}
+
+a.top_menu_item {
+display: list-item !important;
+font-size: 10px !important;
+margin-left: 10px;}
+
+[src="/images/button_down.svg"] {
+filter: invert(1) opacity(0.5);
+width: 16px !important;}
+
+[src="/images/notify.svg"] {
+width: 16px !important;
+filter: opacity(0.5);}
+
+button.btn.btn-primary {padding: 0px;}
+
+[style="margin-bottom: 20px;"],button.btn.btn-primary,.copyright,#comment_user_status {font-size: 11px; font-size: 11px !important;}
+
+[src="./images/logo_new.png"],.top_menu_link img,h6.card-subtitle.mb-2.text-muted.post_date a,[onclick*="newmessage"],
+.card-header,.blog_leftprofile {display: none;}
+
+[href="./"]:before {
+content: 'Интердеменшон' !important;
+width: 153px !important;
+display: block !important;
+text-align: center !important;
+margin: auto !important;
+margin-bottom: auto !important;
+margin-bottom: 43px !important;
+color: black;}
+
+blockquote.blockquote {border-color: #6666ff;}
+
+.card.mt-3.blog_leftmenu {
+margin-top: 0px !important;
+margin-top: 0px;
+border-top: 0px;
+border-radius: 0px 0px 3px 3px !important;
+border-radius: 0px 0px 3px 3px;
+border-color: #dddddd;}
+
+.copyright {
+border-top: 1px solid #d6d6d6 !important;
+text-align: left !important;
+text-transform: initial !important;
+color: #666666 !important;
+padding: 15px !important;
+width: 99% !important;
+padding-top: 54px !important;}
+
+a.copyright {
+display: block !important;
+border: none !important;
+padding: 0px !important;
+width: 10% !important;}
+
+.card.mb-2.post_home:first-child {margin-top: 15px !important;}
+.card.mb-2.post_home {margin-top: 100px;}
+.card.mb-2.post_home:first-child h6.card-subtitle.mb-2.text-muted.post_date {display: none !important;}
+
+.card.p-1 {
+border: solid 1px #dddddd !important; border: solid 1px #dddddd;
+padding: 6px;
+border-bottom: 0px; border-bottom: 0px !important;
+padding-top: 10px !important;
+padding-bottom: 30px !important;}
+
+button.button_down {background: transparent !important;}
+#comment_user_status { margin-top: 0px !important;
+padding: 4px; padding-top: 0px !important;
+background: transparent !important;}
+
+.comment_headline { margin-top: 25px; border: none !important;}
+
+* { font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif !important; font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
+
+/*-------ДЕКОРАТИВНОЕ------------*/
+
+.card.blog_gifts { overflow: hidden;}
+div[id^="comment_"] {background-color: #;}
+
+/*-----------------*/
+
+.body {width: 100% !important; padding-top: 50px;}
+p {margin-bottom: 0px !important;margin-bottom: 0px;}
+a { font-weight: lighter !important;font-weight: lighter;}
+a { color: #0048AB !important;color: #0048AB;}
+a:visited { color: #811C90 !important;color: #811C90;}
+
+div#righthome { margin-left: 6px !important;}
+
+.p-1 { display: block !important;
+padding-top: 5px !important;
+padding: 0px !important; }
+
+.blog_leftprofile {font-size: 12px;}
+.seBlogColumnRightPadding {padding: 0px !important; padding: 0px;}
+.top_header { padding-top: 10px !important;
+position: static !important;
+box-shadow: 0 0 0px black !important;
+background: transparent !important;
+padding-left: 0px !important;}
+
+.top_menu {
+border: 1px solid #EBEBEB;
+border-radius: 10px 0 0 10px !important;
+background: #F7F7F7;
+display: block !important;
+height: 75px !important;
+padding-top: 25px !important;
+padding-left: 60px !important;
+width: 101% !important;}
+a.top_menu_item,p.card-link {font-size: 10px !important;}
+
+.card-body {padding: 5px;}
+.content:before {
+content: 'Интердеменшон' !important;
+display: block;
+padding-top: 9px;
+padding-bottom: 9px;
+position: absolute;
+margin-top: -50px;
+width: 99%;
+font-weight: bold;
+font-size: 12px;
+background: content-box;
+border-top: 1px solid #dddddd !important;
+border-bottom: 1px solid #dddddd !important;}
+
+.content:after {
+content: 'Интердеменшон' !important;
+display: block;
+padding-top: 9px;
+padding-bottom: 9px;
+position: absolute;
+margin-top: -50px;
+width: 99%;
+font-weight: bold;
+font-size: 12px;
+background: content-box;
+border-top: 1px solid #dddddd !important;
+border-bottom: 1px solid #dddddd !important;
+margin-top: 20px;}
+
+.post {padding-left: 3px !important;}
+
+.text-muted {
+position: absolute !important;
+margin-top: -5em !important;
+margin-left: -3px !important;
+padding: 5px !important;
+width: 100% !important;
+text-transform: lowercase;
+font-size: 18px !important;
+color: black !important;}
+
+.category {text-align: left !important; font-size: 10px;}
+.category a:before {content: url(https://beon.vip/uploads_user/2000/1948/1471310502f15a543c878afbcbbd9338.png) !important; }
+
+.text-muted a:before {content: url(https://beon.vip/uploads_user/2000/1948/0d5ca7e24a1f0bd4f266199af98baaac.png) !important;}
+
+.seBlogColumnRightPadding:before {
+content: 'О себе:';
+font-size: 75%;
+display: block;
+color: #FFFFFF;
+font-weight: bold;
+padding: 0.4em 0.6em 0.4em 0.5em;
+background-color: #990000;
+border-radius: 2px;
+width: 100% !important;}
+
+.blog_leftsearch:before {
+content: 'Поиск:';
+width: 100%;
+font-size: 75%;
+display: block;
+color: #FFFFFF;
+font-weight: bold;
+padding: 0.4em 0.6em 0.4em 0.5em;
+background-color: #1f6598;
+border-radius: 2px;
+}
+
+.card.blog_categories:before {
+content: 'Мои категории:';
+width: 100%;
+font-size: 75%;
+display: block;
+color: #FFFFFF;
+font-weight: bold;
+padding: 0.4em 0.6em 0.4em 0.5em;
+background-color: #990000;
+border-radius: 2px;
+}
+
+.card.blog_gifts:before {
+content: 'Мне подарили:';
+width: 100%;
+font-size: 75%;
+display: block;
+color: #FFFFFF;
+font-weight: bold;
+padding: 0.4em 0.6em 0.4em 0.5em;
+background-color: #f57a28;
+border-radius: 2px;
+}
+
+input[type="text"] {
+width: 200px;
+height: 20px;
+}
+
+.seBlogCategoryList {padding: 0px !important;}
+
+.p-1.float-left {
+width: 100px;
+height: 100px;
+display: block !important;
+padding-left: 10px !important;
+}
+
+.card.mb-2.post_home {
+background: transparent;
+}
+
+button.btn.btn-primary {
+background-color: transparent;
+color: #666;
+border: none !important; border: none;
+}
+
+img.photo {border: none !important; border: none;}
+
+/*коммент*/
+
+.seBlogComments { margin-top: 10px;}
+
+div.profile_comment_links {font-size: 10px; margin-top: 20px !important;}
+
+div[id^="comment_"] { background-color: !important;
+margin-top: 40px !important; }
+
+div[id^="comment_s"] { background: transparent !important; }
+
+.profile_comment_author:before {content: url(https://beon.vip/uploads_user/2000/1948/0d5ca7e24a1f0bd4f266199af98baaac.png);}
+.profile_comment_author {
+padding-left: 0px !important;
+padding-left: 0px;}
+
+.profile_postcomment {
+padding-left: 5px !important;
+border-radius: 0px !important;
+padding-top: 30px !important;
+padding-right: 0px !important;
+border: none !important;
+}
+
+.comment_headline {
+border-radius: 0px !important;
+padding: 0px !important;}
+
+#comment_body { border-radius: 0px !important; margin-top: 10px !important;}
+
+div#postcomment_userphotos { border: none !important;border: none; width: 130px !important;}
+
+.userphoto_comment img {
+border: 0px;
+background: transparent;}
+
+div#bbcode {
+position: absolute !important;
+margin-top: -307px !important;
+display: flex !important;
+flex-flow: inherit;
+background-color: #eeeeee !important;
+border: 1px solid #999999 !important;
+border-radius: 4px;
+padding-left: 3px;
+}
+
+img[align="left"]:after {content: 'Дневник';}
+
+h2.card-title {text-decoration: underline; font-size: 22px; margin-bottom: 2px;}
+
+.profile_comment_body {padding: 0px !important;}
+
+div#lefthome {width: 32% !important;}
+
+.content {
+width: 99% !important;
+padding: 0px !important;}
+
+.category {color: #666666;}
+
+p.card-link,a.copyright {
+color: #0048ab !important;
+text-decoration: underline !important;}
+
+.card-link + .card-link {
+margin: 0px;
+text-decoration: underline; font-size: 10px;}
+
+p.card-link:before {
+content: url(https://beon.vip/uploads_user/2000/1948/e23710b7284827bf6f25a0b67e92cba7.png);
+padding: 4px; }
+
+a.card-link:before {
+content: '| ' !important;
+color: black !important;}
+
+a:hover {color: #990000 !important;}
+
+a.page-link {
+margin-top: 23px !important;
+text-transform: lowercase;}
+
+#comment_body {height: 250px !important;}
+
+.card.blog_categories {color: transparent;}
+
+.card.blog_categories a {font-size: 20px !important;}
+
+.gifts-list .p-1 {
+display: block;
+width: 70px;
+overflow: hidden;
+text-align: center;
+margin: 3px !important;
+padding: 1px !important;
+float: left !important;
+font-size: 100% !important;
+white-space: nowrap;}
+
+.profile_comment_date {
+text-align: left !important;
+font-size: 10px !important;
+padding-top: 9px !important;}
+
+[src="/templates/images/smiles/bad.gif"],
+[src="/templates/images/smiles/biggrin.gif"],
+[src="/templates/images/smiles/blum.gif"],
+[src="/templates/images/smiles/blush.gif"] ,
+[src="/templates/images/smiles/cray.gif"] ,
+[src="/templates/images/smiles/crazy.gif"],
+[src="/templates/images/smiles/dance.gif"],
+[src="/templates/images/smiles/diablo.gif"] ,
+[src="/templates/images/smiles/dirol.gif"],
+[src="/templates/images/smiles/drinks.gif"],
+[src="/templates/images/smiles/fool.gif"],
+[src="/templates/images/smiles/good.gif"],
+[src="/templates/images/smiles/kiss_mini.gif"] ,
+[src="/templates/images/smiles/man_in_love.gif"] ,
+[src="/templates/images/smiles/music.gif"],
+[src="/templates/images/smiles/nea.gif"] ,
+[src="/templates/images/smiles/pardon.gif"] ,
+[src="/templates/images/smiles/rofl.gif"] ,
+[src="/templates/images/smiles/rolleyes.gif"] ,
+[src="/templates/images/smiles/sad.gif"] ,
+[src="/templates/images/smiles/scratch_one-s_head.gif"] ,
+[src="/templates/images/smiles/shok.gif"] ,
+[src="/templates/images/smiles/shout.gif"] ,
+[src="/templates/images/smiles/unknw.gif"] ,
+[src="/templates/images/smiles/wacko2.gif"],
+[src="/templates/images/smiles/wink.gif"] ,
+[src="/templates/images/smiles/yahoo.gif"],
+[src="/templates/images/smiles/angel.gif"],[src="/templates/images/smiles/smile.gif"],[src="/images/fffuuusmiles/fair.gif"] {display: none;}
+
+[src="/images/bbcode/smile.gif"] {content: url(https://beon.vip/images/beonsmiles/sun-glasses.png);}
+
+.comment_headline:before {
+content: 'Добавить новый комментарий';
+font-weight: bold;
+font-size: 13px;}
+
+.comment_headline {font-size: 0px;}
+
+.comment_headline a {font-size: 14px;}
+
+input#comment_submit {
+background: url(https://beon.vip/uploads_user/10000/9068/c6ce6249cf385ea7b507f45b515e0bff.png) no-repeat;
+background-size: auto;
+width: 253px !important;
+color: transparent;
+border-radius: 0.20rem;
+border-width: 1px;
+border-style: outset;
+border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+border-image: initial;}
+
+[style="text-align: right; margin-top: 5px;"] {text-align: left !important;}
+
+a.commentReply,.profile_comment_links {font-size: 0px;}
+
+a.commentReply:before {
+content: 'Прокомментировать';
+text-decoration: underline;
+font-size: 10px;}
+
+.commentDeleteLink {
+text-decoration: underline !important;
+font-size: 10px !important;
+padding-left: 5px !important;}
+
+div#designs {
+position: absolute !important;
+top: 16px !important;
+right: 23px !important;
+content: url(https://beon.vip/uploads_user/10000/9068/b6408718d42b3d569d0815a61004ee31.png);
+width: 16px !important;
+height: 16px !important;
+}
+
+/*ФЛАГИ*/
+
+.profile_comment_author [href="https://beon.vip/ontologia/"]:after {
+content: url(https://beon.vip/uploads_image/67/23/672339c57943bc5179b21f2a673bb90e.gif);padding-left: 5px;}
+
+.profile_comment_author [href="https://beon.vip/you/"]:after {
+content: url(https://beon.vip/uploads_user/1000/968/8f7dfd1a686f995148328a581e4cf130.gif); padding-left: 5px;}
+.profile_comment_author [href="https://beon.vip/Satan/"]:after {
+content: url(https://beon.vip/uploads_user/1000/968/8f7dfd1a686f995148328a581e4cf130.gif); padding-left: 5px;}
+.profile_comment_author [href="https://beon.vip/evol/"]:after {
+content: url(https://beon.vip/uploads_user/1000/968/8f7dfd1a686f995148328a581e4cf130.gif); padding-left: 5px;}
+
+.top_menu_link a {
+font-size: 11px !important;
+text-transform: unset !important;
+color: #666666 !important;
+}
+
+[src="/images/bbcode/b.gif"] {content: url(https://beon.vip/uploads_user/10000/9068/86a8e6287604317b6a733ec8dbb2351d.gif); padding-top: 3px; height: 18px;}
+[src="/images/bbcode/i.gif"]{content: url(https://beon.vip/uploads_user/10000/9068/118558da392f4966bef4bba5c7a49922.gif); padding-top: 3px; height: 18px;}
+[src="/images/bbcode/u.gif"]{content: url(https://beon.vip/uploads_user/10000/9068/52c304a681e09a17c68f9f2144888199.gif); padding-top: 3px; height: 18px;}
+[src="/images/bbcode/img.gif"] {padding-top: 3px; height: 18px;}
+div#smiles {padding: 3px;}
+
+/*фиксы*/
+
+.card.blog_categories .card-body,
+.gifts-list,
+.blog_leftsearch .card-body {
+border: 1px solid #dddddd !important; border: 1px solid #dddddd;
+border-radius: 3px 3px 3px 3px !important;border-radius: 3px 3px 3px 3px;}
+.card.mt-3.blog_leftmenu {
+border: 1px solid #dddddd !important;border: 1px solid #dddddd;
+border-top: 0px !important; border-top: 0px;}
+
+.copyright:before {
+content: 'Copyright © 2001—2021 BeOn Авторами текстов, изображений и видео, размещённых на этой странице, являются пользователи сайта.' !important;
+white-space: pre-wrap;
+display: block;
+width: 20%;}
+
+.copyright:after {
+content: 'If you would like to report an abuse of our service, such as a spam message, please contact us. Если Вы хотите пожаловаться на содержимое этой страницы, пожалуйста, напишите нам.' !important;
+text-align: right !important;
+display: block;
+color: #cc3300;
+font-size: 13px;}
+
+.copyright a:after,.copyright a:before {content: '' !important;}
+.blog_leftsearch,.blog_gifts,.blog_categories {margin-bottom: 3px !important;}
+.blog_gifts {margin-top: 3px !important;}
+.card.mt-3.blog_leftmenu {margin-bottom: 5px !important;}
+a.page-link {z-index: 2222;background: transparent;}
+a.page-link:hover {background: transparent;}
+.card.p-1 {border-radius: 3px 3px 0px 0px !important;border-radius: 3px 3px 0px 0px;} 
