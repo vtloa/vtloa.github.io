@@ -241,9 +241,6 @@ table.body {
 td.profile,.album_item {border: none !important;border: none;}
 
 
-
-[style="margin-bottom: 10px;"]:nth-child(3),
-[style="margin-bottom: 10px;"]:nth-child(6),
 [href*="javascript:TB_show('Добавить в мои друзья'"],.he_styler_customize_btn,img.button {display: none;}
 
 
