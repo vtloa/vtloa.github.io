@@ -1,0 +1,312 @@
+* { font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif !important; font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
+@media screen and (max-width: 1024px) {.content {flex-direction: column-reverse !important;}
+td.profile_leftside {width: 100% !important; float: left !important;}
+td.profile_rightside{width: 100% !important; float: right !important;}
+div#profile_profile {position: absolute !important;left: 21px !important;
+top: 185px !important;
+margin-top: 0px !important;}}
+
+.profile_field_value {
+    max-height: 220px;
+    overflow: hidden !important;
+    width: 90%;
+}
+
+.profile_photo img {
+    max-width: 180px !important;
+    z-index: 222 !important;
+    position: relative !important;
+}
+
+.copyright {
+border-top: 1px solid #d6d6d6 !important;
+text-align: left !important;
+text-transform: initial !important;
+color: #666666 !important;
+padding: 15px !important;
+width: 99% !important;
+padding-top: 54px !important;}
+
+a.copyright {
+display: block !important;
+border: none !important;
+padding: 0px !important;
+width: 10% !important;
+color: #0048AB !important;color: #0048AB;}
+
+p {margin-bottom: 0px !important;margin-bottom: 0px;}
+a { font-weight: lighter !important;font-weight: lighter;}
+a { color: #0048AB !important;color: #0048AB;}
+a:visited { color: #811C90 !important;color: #811C90;}
+a:hover {color: #990000 !important;}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/82185a8abd60126bc218d6c69ed2510a.png);
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+div.profile_field_value {
+    max-height: 220px;
+    overflow: hidden !important;}
+
+td.profile_photo {
+    vertical-align: baseline !important;
+    padding: 5px;
+    height: 330px !important;}
+
+div#profile_profile {
+    position: absolute !important;
+    left: 21px;
+    margin-top: 40px !important;}
+
+
+.profile_photo img {
+    margin-left: auto !important;
+    display: block !important;}
+
+div#actions {display: none;}
+
+.header {
+    padding: 2px !important;
+    padding: 2px;
+    border-radius: 2px 2px 0px 0px;
+    background: #dddddd !important;
+    background: #dddddd;
+    font-weight: bold;
+    font-size: 13px !important;
+    font-size: 13px;
+    border: 1px solid #999999 !important;border: 1px solid #999999;
+    border-bottom: none;
+    color: black !important;
+    color: black;
+}
+
+
+.top_menu {
+    border: 1px solid #EBEBEB;
+    border-radius: 10px 0 0 10px !important;
+    background: #F7F7F7;
+    display: block !important;
+    height: 75px !important;
+    padding-top: 25px !important;
+    padding-left: 60px !important;
+    width: 101% !important;}
+
+.top_header {
+    padding-top: 10px !important;
+    position: static !important;
+    box-shadow: 0 0 0px black !important;
+    background: transparent !important;
+    padding-left: 0px !important;}
+
+.top_menu_link a {
+    font-size: 11px !important;
+    text-transform: unset !important;
+    color: #666666 !important;}
+
+a.top_menu_item {
+    display: list-item !important;
+    font-size: 11px !important;
+    margin-left: 10px;}
+
+button.btn.btn-primary {
+    background-color: transparent;
+    color: #666;
+    border: none !important;
+    border: none;}
+
+button.button_down {
+    background: transparent !important;
+}
+
+[style="margin-bottom: 20px;"], button.btn.btn-primary, .copyright, #comment_user_status {
+    font-size: 11px;
+    font-size: 11px !important;}
+
+[src="/images/button_down.svg"] {
+    filter: invert(1) opacity(0.5);
+    width: 16px !important;}
+
+[src="/images/notify.svg"] {
+    width: 16px !important;
+    filter: opacity(0.5);}
+
+.top_menu_link img,
+ h6.card-subtitle.mb-2.text-muted.post_date a,
+[onclick*="newmessage"],
+.card-header,
+.blog_leftprofile {display: none;}
+
+
+
+/*----------------------*/
+
+td.profile_leftside,td.profile_rightside {
+    width: 50%;
+    padding: 5px !important;}
+
+td {font-size: 13px;}
+.browse_friends_result {font-size: 14px;}
+
+
+.profile_leftside:before {
+    content: 'Информация о пользователе:';
+    display: block;
+    padding: 2px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 13px;
+    clear: left;
+    border: 1px solid #999999 !important;border: 1px solid #999999;}
+
+div#profile_album:before {
+    content: 'Мои изображения в альбоме:';
+    display: block;
+    border-bottom: 1px solid #999999;
+    padding: 2px;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 10pt;
+    clear: left;}
+
+
+
+/*ОТДЕЛЬНЫЕ БЛОКИ*/
+
+td#profile_tabs_friends,
+td#profile_tabs_blog,
+td#profile_tabs_gift,
+td#profile_tabs_comments,
+td#profile_tabs_profile,
+.profile_headline,
+td.profile_tab_end,td#profile_tabs_album,div#profile_comments {display: none !important;}
+
+div#profile_friends,div#profile_blog,div#profile_album {display: block !important;}
+
+div#profile_friends:before {
+    content: 'Я читаю:';
+    display: block;
+    border-bottom: 1px solid #999999;
+    padding: 2px;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 10pt;
+    clear: left;}
+
+div#profile_blog:before {
+    content: 'Последние записи в дневнике:';
+    display: block;
+    border-bottom: 1px solid #999999;
+    padding: 2px;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 10pt;
+    clear: left;}
+
+.profile_content {
+    padding: 0px !important;
+    border: none !important;}
+
+table.body {
+    width: 99%;
+    padding-top: 0px !important;}
+
+
+.profile_friend_photo,[onclick^="$('profile_friends_searchbox"],img.icon{display: none;}
+
+.profile_friend_name [href^="https://beon.vip/"]:before {
+    content: url(https://beon.vip/uploads_image/85/00/850063d2c3e8b6e5bd82d26b73bee541.png);
+    padding-right: 1px;
+}
+
+.browse_friends_result {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+}
+
+.profile_friend_details {
+    font-size: 0px;
+}
+
+.profile_friend_info a,.profile_blogentry_title a,.profile_leftside a,div#profile_profile a {
+    font-weight: normal;
+    text-decoration: underline;}
+
+
+
+td.profile,.album_item {border: none !important;border: none;}
+
+
+
+table.profile_menu,
+[style="margin-bottom: 10px;"]:nth-child(3),
+[style="margin-bottom: 10px;"]:nth-child(6),
+[href*="javascript:TB_show('Добавить в мои друзья'"],.he_styler_customize_btn,img.button {display: none;}
+
+
+
+td.header:after {content: ':';}
+
+
+div#profile_friends,div#profile_blog,div#profile_album {
+    border: 1px solid #999999 !important; border: 1px solid #999999;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+
+
+.profile_photo,td.profile {
+    border: 1px solid #999999 !important;
+    border: 1px solid #999999;
+    margin-bottom: 5px;
+    border-top: 0px !important;
+    border-top: 0px;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.album_item img {
+    max-width: 300px !important;
+    width: 100%;}
+
+td.header{
+    padding: 2px !important;padding: 2px;
+    border-radius: 2px 2px 0px 0px;
+    background: #dddddd !important; background: #dddddd;
+    font-weight: bold;
+    font-size: 13px !important;font-size: 13px;
+    border: 1px solid #999999 !important;
+    border-bottom: 1px solid #999999;
+    color: black !important; color: black;}
+
+
+
+
+[style="float: left;"] a[href^="https://beon.vip/"] {font-size: 0px;}
+[style="float: left;"] a[href^="https://beon.vip/"]:before {
+    content: 'подробнее >>';
+    font-size: 13px;
+    padding-left: 4px;}
+
+
+div.profile_friend_info,.profile_blogentry {padding-left: 7px !important;}
+
+.profile_blogentry {
+    padding-top: 0px !important;
+    border-top: 0px !important;}
+
+.page_header {
+    background: content-box;
+    border-top: 1px solid #dddddd !important;border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd !important;border-bottom: 1px solid #dddddd;
+    padding: 5px;
+    color: black !important;color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+div#profile_friends {padding-bottom: 8px;}
