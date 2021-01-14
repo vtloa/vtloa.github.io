@@ -273,14 +273,18 @@ div#profile_friends,div#profile_blog,div#profile_album {
     width: 100%;}
 
 td.header{
-    padding: 2px !important;padding: 2px;
+    padding: 2px;
+    padding: 2px !important;
     border-radius: 2px 2px 0px 0px;
-    background: #dddddd !important; background: #dddddd;
+    background: #dddddd !important; 
+    background: #dddddd;
     font-weight: bold;
-    font-size: 13px !important;font-size: 13px;
+    font-size: 13px !important;
+    font-size: 13px;
     border: 1px solid #999999 !important;
     border-bottom: 1px solid #999999;
-    color: black !important; color: black;}
+    color: black !important; 
+    color: black;}
 
 
 
