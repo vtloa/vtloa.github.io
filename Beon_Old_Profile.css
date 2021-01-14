@@ -330,6 +330,6 @@ table.profile_menu:before {
     border-bottom: 1px solid #999999 !important;
 }
 
-table[style="margin-bottom: 10px;"],table.profile_menu {margin-bottom: 5px !important;}
+table[style="margin-bottom: 10px;"],table.profile_menu {margin-bottom: 5px !important; margin-bottom: 5px;}
 
 #profile_friends [style="margin-bottom: 10px;"] {display: none;}
