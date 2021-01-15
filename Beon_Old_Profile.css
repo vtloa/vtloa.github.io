@@ -1,10 +1,4 @@
 * { font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif !important; font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
-@media screen and (max-width: 1024px) {.content {flex-direction: column-reverse !important;}
-td.profile_leftside {width: 100% !important; float: left !important;}
-td.profile_rightside{width: 100% !important; float: right !important;}
-div#profile_profile {position: absolute !important;left: 21px !important;
-top: 185px !important;
-margin-top: 0px !important;}}
 
 .profile_field_value {
     max-height: 220px;
