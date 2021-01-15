@@ -8,7 +8,7 @@ margin-top: 0px !important;}}
 
 .profile_field_value {
     max-height: 220px;
-    overflow: hidden !important;
+    overflow-y: hidden !important;
     width: 90%;
 }
 
