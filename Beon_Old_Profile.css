@@ -84,11 +84,8 @@ div#actions {display: none;}
     border: 1px solid #EBEBEB;
     border-radius: 10px 0 0 10px !important;
     background: #F7F7F7;
-    display: block !important;
     height: 75px !important;
-    padding-top: 25px !important;
-    padding-left: 60px !important;
-    width: 101% !important;}
+    padding-left: 60px !important;}
 
 .top_header {
     padding-top: 10px !important;
