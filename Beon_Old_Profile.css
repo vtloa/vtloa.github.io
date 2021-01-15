@@ -1,7 +1,7 @@
 * { font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif !important; font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
 
 @media screen and (max-width: 500px){div#profile_profile {
-    position: unset;
+    position: unset !important;
     left: 0;
     margin-top: 0;
     border-radius: 2px;
@@ -70,7 +70,7 @@ td.profile_photo {
     height: 330px !important;}
 
 div#profile_profile {
-    position: absolute !important;
+    position: absolute;
     left: 21px;
     margin-top: 40px !important;}
 
