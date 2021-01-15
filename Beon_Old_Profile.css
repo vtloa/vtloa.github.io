@@ -18,6 +18,9 @@ div#profile_profile:before {
     font-weight: bold;
     font-size: 13px;
     border: 1px solid #999999;
+}
+td.profile_photo {
+    height: auto !important;
 }}
 
 
@@ -67,7 +70,7 @@ a:hover {color: #990000 !important;}
 td.profile_photo {
     vertical-align: baseline !important;
     padding: 5px;
-    height: 330px !important;}
+    height: 330px;}
 
 div#profile_profile {
     position: absolute;
