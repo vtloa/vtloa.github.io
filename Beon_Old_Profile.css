@@ -47,9 +47,6 @@ a:hover {color: #990000 !important;}
     margin-bottom: 15px;
 }
 
-div.profile_field_value {
-    max-height: 220px;
-    overflow: hidden !important;}
 
 td.profile_photo {
     vertical-align: baseline !important;
