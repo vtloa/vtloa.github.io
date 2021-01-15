@@ -1,6 +1,6 @@
 * { font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif !important; font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
 
-@media screen and (max-width: 450px){div#profile_profile {
+@media screen and (max-width: 500px){div#profile_profile {
     position: unset;
     left: 0;
     margin-top: 0;
