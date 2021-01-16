@@ -503,3 +503,4 @@ font-size: 13px;}
 a.page-link {z-index: 2222;background: transparent;}
 a.page-link:hover {background: transparent;}
 .card.p-1 {border-radius: 3px 3px 0px 0px !important;border-radius: 3px 3px 0px 0px;} 
+.card.mt-3.blog_leftmenu .card-body {border-radius: 0px 0px 3px 3px;}
