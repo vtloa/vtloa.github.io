@@ -29,7 +29,7 @@ div#comment_subscribe {outline: unset !important;}
 h6.card-subtitle.mb-2.text-muted.post_date {
     background: #0000000a !important;}
 
-.bg-light,#mobile_menu .menu_item_dropdown a,.portal_spacer {
+.bg-light,#mobile_menu .menu_item_dropdown a,.portal_spacer,div#mobile_menu {
     background-color: #e8e8e8;
     border: none;}
 
