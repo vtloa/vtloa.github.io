@@ -516,3 +516,4 @@ a.page-link:hover {background: transparent;}
     border-radius: 3px;
 }
 ul.seBlogCategoryList li {display: inline-flex;}
+li.p-1,.gifts-list a { font-size: 13px;}
