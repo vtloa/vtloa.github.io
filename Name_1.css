@@ -1,8 +1,3 @@
-для шапки
-[href="./"]:before {
-    content: 'Название' !important;
-}
+[href="./"]:before {content: 'Название' !important;}
 
-.content:before,.content:after {
-    content: 'Название 2' !important;
-}
+.content:before,.content:after {content: 'Название 2' !important;}
