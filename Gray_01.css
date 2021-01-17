@@ -43,10 +43,7 @@ button.btn.btn-outline-success {
     border-color: #d0d0d0;
     color: #747474;}
 
-div#mobile_menu button.btn.btn-primary {
-    background: #8dd440;
-    color: black;
-    font-size: 11px;;}
+
 
 .card,div#mobile_photo img,div#mobile_menu button.btn.btn-primary {border: none;}
 li.p-1 {color: #6c6c6c;}
@@ -55,3 +52,9 @@ li.p-1 {color: #6c6c6c;}
     color: snow;
     padding: 4px;}
 
+#mobile_menu .menu_item_dropdown a {color: #1b1a1a !important;}
+
+div#mobile_menu button.btn.btn-primary {
+    background: #8dd440;
+    color: black;
+    font-size: 11px !important;}
