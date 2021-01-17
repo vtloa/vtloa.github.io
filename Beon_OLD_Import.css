@@ -57,7 +57,7 @@ button.btn.btn-primary {padding: 0px;}
 .card-header,.blog_leftprofile {display: none;}
 
 [href="./"]:before {
-content: 'Интердеменшон' !important;
+content: 'Мой дневник' !important;
 width: 153px !important;
 display: block !important;
 text-align: center !important;
@@ -151,7 +151,7 @@ a.top_menu_item,p.card-link {font-size: 10px !important;}
 
 .card-body {padding: 5px;}
 .content:before {
-content: 'Интердеменшон' !important;
+content: 'Мой дневник' !important;
 display: block;
 padding-top: 9px;
 padding-bottom: 9px;
@@ -165,7 +165,7 @@ border-top: 1px solid #dddddd !important;
 border-bottom: 1px solid #dddddd !important;}
 
 .content:after {
-content: 'Интердеменшон' !important;
+content: 'Мой дневник' !important;
 display: block;
 padding-top: 9px;
 padding-bottom: 9px;
