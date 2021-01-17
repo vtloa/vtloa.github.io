@@ -496,6 +496,8 @@ display: block;
 color: #cc3300;
 font-size: 13px;}
 
+.card-body { font-size: 13px;}
+
 .copyright a:after,.copyright a:before {content: '' !important;}
 .blog_leftsearch,.blog_gifts,.blog_categories {margin-bottom: 3px !important;}
 .blog_gifts {margin-top: 3px !important;}
