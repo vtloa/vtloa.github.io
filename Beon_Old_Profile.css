@@ -355,3 +355,5 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {padd
 div#mobile_menu button.btn.btn-primary {
     background: #8dd440;
     color: black;}
+
+div#mobile_photo_wrap {color: black;}
