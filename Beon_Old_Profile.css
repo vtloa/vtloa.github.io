@@ -359,3 +359,4 @@ div#mobile_menu button.btn.btn-primary {
 div#mobile_photo_wrap {color: black;}
 #mobile_menu .menu_item_dropdown a:hover {background: #f3f0f0;}
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [src="./images/logo_new.png"] {margin: unset;}
+.btn-outline-success {color: #7b7b7b;border-color: #dddddd;}
