@@ -349,3 +349,9 @@ td.header{
     color: black;}
 
 img.photo {border: none;}
+#mobile_menu .menu_item_dropdown a,.portal_spacer,#mobile_photo_wrap {background: snow;}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {padding-left: 15px !important;}
+div#mobile_menu button.btn.btn-primary {
+    background: #8dd440;
+    color: black;}
