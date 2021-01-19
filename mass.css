@@ -1,0 +1,231 @@
+.top_menu_link a {
+    color: white !important;
+    font-size: 14px !important;
+}
+
+div.profile_comment_body img {
+    max-width: 80% !important;
+}
+
+body {
+    background: url() no-repeat fixed bottom;
+    background-size: cover;}
+
+div.profile_comment_body {max-width: 90% !important;}
+
+.page-link {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 0px !important;
+}
+
+
+.seBlogComments {
+    position: relative;
+    background-color: #000000db;
+    color: #82b0d6;
+    padding: 10px;
+}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_image/01/8f/018faf3cb2a86b87ea4d88f3c8fbea63.gif);
+    position: absolute;
+    left: -1.5%;
+    width: 8%;
+}
+
+button.btn.btn-primary,button.button_down {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: #4a8dab;
+}
+
+a.menu_item {
+    background-color: black !important;
+    color: #4a8dab !important;
+}
+
+img.photo {width: 150px;}
+#comment_user_status {width: 150px; font-size: 10px;}
+
+[style="overflow: hidden;"] {padding-left: 45px;}
+
+div#postcomment_userphotos {
+    width: 130px;
+    border: none;
+}
+
+
+
+.card-title [href="https://beon.vip/Asshole/blog/159849/"]:after {
+    content: '###МЫ ЗДЕСЬ###';
+    font-size: 50px;
+    display: block;
+    background-color: #0000005e;
+    font-family: fantasy;
+    text-shadow: 0 0 11px #167ac6;
+    transition: 1s;
+    color: #ffffff4d;
+}
+
+.card-title [href="https://beon.vip/Asshole/blog/159849/"]:before {
+    content: '';
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    bottom: 50%;
+    left: 46%;
+    color: #a96a6a;
+    transition: 1s;}
+
+.card-title [href="https://beon.vip/Asshole/blog/159849/"] {
+    position: absolute;
+    z-index: 444;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: block !important;
+    bottom: 200px;
+    background: indianred;
+    background: url() bottom no-repeat fixed;
+    background-size: cover;
+    background-position: 50% 140px;
+    filter: sepia(1) hue-rotate(165deg) brightness(0.6) contrast(1.9);
+    transition: 1s;
+}
+
+a, div, p {font-family: monospace;}
+
+.top_header {
+    background-color: #000000;
+    box-shadow: inherit;
+}
+
+div#lefthome, [href="browse_albums.php"],.top_menu_link img,.copyright {
+    display: none;
+}
+
+.content {width: 93% !important;  padding-top: 20% !important;}
+
+.post,a.page-link,.page-link:hover {
+    border: 1px solid #000;
+    background-color: #00000085;}
+
+
+
+[src="https://www.youtube.com/embed/gs3bDbMzm6s?autoplay=1"] {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: 100% !important;
+    height: 100% !important;}
+
+
+
+
+.post_container .post_text img {display: none;}
+.post>div, .post a {
+    text-align: end;
+    width: 50%;
+    color: #6fd8ff !important;
+    margin-left: auto;
+    padding: 10px;
+    text-shadow: 0 0 2px #007bff;}
+
+span,p { color: #6fd8ff !important; 
+          text-align: end !important; 
+          text-shadow: 0 0 2px #007bff;}
+hr {
+    background-color: #167ac6;
+    box-shadow: 0 0 8px 0px #0091ff;
+}
+
+
+.post_image {
+    position: absolute;
+    right: 50%;
+    top: 0px;
+}
+
+img.photo {
+    border: none;
+}
+
+[style="font-size: 11px; color: #333333; word-break: break-word; width: 100px; text-align: center;"],
+h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3,
+.post_image  {display: none;}
+h2.card-title {
+    font-size: 0px;
+}
+
+
+textarea#comment_body {
+    background-color: #9aacc9;
+    border: none;
+    box-shadow: inset 0 0 19px 1px #000000;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    position: fixed;
+    right: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #386f9a;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #000;
+}
+
+div#designs {
+    background-color: #000000d1;
+    color: #167ac6 !important;
+    border: 1px solid #000;
+    position: absolute;
+    width: 4%;
+    font-size: 12px;
+}
+
+
+.profile_comment_author [href="https://beon.vip/Asshole/"]:before {
+    content: url(https://beon.vip/uploads_image/d2/60/d2608b185c157ee37f6e232b25e34e74.png);
+    position: absolute;
+    margin-left: -42px;
+    margin-top: -34px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.profile_comment_author [href="https://beon.vip/evol/"]:before {
+    content: url(https://beon.vip/uploads_image/2b/c2/2bc20939f37701f72ddf9cefcda12cf2.png);
+    position: absolute;
+    margin-left: -176px;
+    margin-top: 115px;
+    filter: drop-shadow(2px 4px 6px black);
+    transform: scale(.7);
+}
+
+
+.profile_comment_author [href="https://beon.vip/Satan/"]:before {
+    content: url(https://beon.vip/uploads_image/02/5a/025a6ad1b1028fc7f3bfe165f3888118.png);
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -30px;
+    filter: drop-shadow(2px 4px 6px black);
+    transform: rotate(45deg);
+}
+
+.profile_comment_author [href="https://beon.vip/ontologia/"]:before {
+    content: url(https://beon.vip/uploads_image/ff/c1/ffc1782ea1bdc13cd81f9e538417704e.png);
+    position: absolute;
+    margin-left: -194px;
+    margin-top: 115px;
+    filter: drop-shadow(2px 4px 6px black);
+    transform: scale(.7);
+}
