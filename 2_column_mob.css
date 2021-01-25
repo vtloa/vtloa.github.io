@@ -1,4 +1,6 @@
-.blog_leftphoto img {width: 100%;}
+.blog_leftphoto img {
+    width: auto;
+    max-width: 100%;}
 
 .blog_leftprofile a {
     font-size: 20px;
