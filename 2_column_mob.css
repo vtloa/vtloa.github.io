@@ -139,4 +139,5 @@ a.page-link, a.page-link:hover {
 .modal-content {background: #121212;}
 .modal-header,.modal-footer,button.btn.btn-secondary {border: none;}
 button.btn.btn-secondary,.modal-header {background: #26737c;}
+#mobile_menu .menu_item_dropdown a {background: #121212;}
 
