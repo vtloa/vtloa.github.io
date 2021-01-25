@@ -271,17 +271,16 @@ button.btn.btn-primary:before {content: url(https://beon.vip/uploads_image/a3/01
 button#newupdates {padding-top: 13px;}
 
 
-.menu_item_dropdown a {
+.menu_item_dropdown a,.menu_item_dropdown {
     background: #121212 !important;
 }
 
 a.page-link,a.page-link:hover {
     background: #121212;
-    color: #616161;
-}
+    color: #616161;}
 
 a {transition: all 0.2s ease-in-out;}
 
-a:hover,h2.card-title a:hover,.additional_info.pl-3 a:hover {
+a:hover,h2.card-title a:hover,.additional_info.pl-3 a:hover,td.top_menu a:hover {
     color: #FF9800 !important;
     transition: all 0.2s ease-in-out;}
