@@ -1,4 +1,1 @@
-.blog_leftphoto img {
-    width: 100%;
-    max-width: 100%;
-}
+.blog_leftphoto img {width: 100% !important;}
