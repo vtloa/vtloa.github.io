@@ -518,3 +518,9 @@ a.page-link:hover {background: transparent;}
 ul.seBlogCategoryList li {display: inline-flex;}
 li.p-1,.gifts-list a { font-size: 13px;}
 ul.seBlogCategoryList {font-size: 5px;}
+
+
+.profile_comment_author a:after {
+    content: url(https://beon.vip/uploads_image/b6/69/b6695b564d07197f23dd3397bf33de8b.gif);
+    padding-left: 5px;
+}
