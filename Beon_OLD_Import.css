@@ -273,7 +273,7 @@ img.photo {border: none !important; border: none;}
 
 .seBlogComments { margin-top: 10px;}
 
-div.profile_comment_links {font-size: 10px; margin-top: 20px !important;}
+div.profile_comment_links {font-size: 10px; margin-top: 20px !important; color: transparent !important;}
 
 div[id^="comment_"] { background-color: !important;
 margin-top: 40px !important; }
