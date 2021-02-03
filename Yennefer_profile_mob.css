@@ -216,4 +216,4 @@ td.header {
 }
 
 td.profile_menu1 a {background: transparent !important;}
-.page_header {display: none;}
+.page_header {display: none !important;}
