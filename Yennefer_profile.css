@@ -35,5 +35,4 @@ td.profile_menu1 a {background: transparent !important;}
 td.profile_tab a {background: whitesmoke;}
 
 [href="search_advanced.php?cat_selected=1"],[href*="/group/"] {
-    color: #51a7e4 !important;
-    text-shadow: 0 0 2px #73e9ff;}
+    color: #51a7e4 !important;}
