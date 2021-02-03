@@ -206,7 +206,21 @@ input.button {
     text-transform: uppercase;
 }
 
-.profile_comment_body a {color: #7db3c3;}
 
 .profile_comment_links a {font-size: 12px;}
 #mobile_menu .menu_item_dropdown a:hover {background: #d4d4d45c;}
+
+[href="search_advanced.php?cat_selected=1"],[href*="/group/"] {
+    color: #51a7e4 !important;}
+
+.content a {color: #7db3c3 !important;}
+
+div#profile_gift .card-body {
+    margin: auto !important;
+    text-align: center !important;
+    background: transparent !important;}
+
+div#profile_gift .card-body img {
+    max-width: 73px !important;
+    display: block !important;
+    margin: auto !important;}
