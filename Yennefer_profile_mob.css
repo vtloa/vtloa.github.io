@@ -217,4 +217,5 @@ td.header {
 
 td.profile_menu1 a {background: transparent !important;}
 .page_header,.he_styler_customize_btn {display: none !important;}
-a {color: #7db3c3 !important;}
+
+td.profile_leftside a {color: #7db3c3 !important;}
