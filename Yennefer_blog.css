@@ -440,3 +440,13 @@ div#user_status {margin: auto;}
     filter: unset;
     transition: 0.3s;
 }
+
+.gifts-list .p-1 img {
+    width: 50px;
+}
+.gifts-list .p-1 {
+    width: 70px;
+    margin: auto;
+    text-align: center;
+    font-size: 0px;
+}
