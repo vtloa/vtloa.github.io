@@ -355,9 +355,7 @@ body {
 
 .blog_leftmenu {margin: 0px;}
 
-.seBlogColumnRightPadding {
-    position: sticky;
-    top: 10px;}
+
 
 li.p-1 {display: block;}
 
@@ -449,4 +447,12 @@ div#user_status {margin: auto;}
     margin: auto;
     text-align: center;
     font-size: 0px;
+}
+
+.blog_leftphoto img,.post_image img {
+    width: 160px;
+}
+
+[style="font-size: 11px; color: #333333; word-break: break-word; width: 100px; text-align: center;"] {
+    margin: auto;
 }
