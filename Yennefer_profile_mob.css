@@ -216,5 +216,5 @@ td.header {
 }
 
 td.profile_menu1 a {background: transparent !important;}
-.page_header {display: none !important;}
+.page_header,.he_styler_customize_btn {display: none !important;}
 .content a {color: #7db3c3 !important;}
