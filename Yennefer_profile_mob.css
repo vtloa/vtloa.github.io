@@ -214,3 +214,6 @@ td.header {
     display: block;
     border: none !important;
 }
+
+td.profile_menu1 a {background: transparent !important;}
+.page_header {display: none;}
