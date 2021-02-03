@@ -38,11 +38,11 @@ td.profile_tab a {background: whitesmoke;}
     color: #51a7e4 !important;}
 
 div#profile_gift .card-body {
-    margin: auto;
-    text-align: center;
-    background: transparent;}
+    margin: auto !important;
+    text-align: center !important;
+    background: transparent !important;}
 
 div#profile_gift .card-body img {
-    max-width: 73px;
-    display: block;
-    margin: auto;}
+    max-width: 73px !important;
+    display: block !important;
+    margin: auto !important;}
