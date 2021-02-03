@@ -36,3 +36,13 @@ td.profile_tab a {background: whitesmoke;}
 
 [href="search_advanced.php?cat_selected=1"],[href*="/group/"] {
     color: #51a7e4 !important;}
+
+div#profile_gift .card-body {
+    margin: auto;
+    text-align: center;
+}
+div#profile_gift .card-body img {
+    max-width: 73px;
+    display: block;
+    margin: auto;
+}
