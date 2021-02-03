@@ -189,7 +189,7 @@ input.button {
 .profile_comment_links a {font-size: 12px;}
 #mobile_menu .menu_item_dropdown a:hover {background: #d4d4d45c;}
 
-* {border: none;}
+* {border: none !important;}
 
 
 @media screen and (max-width: 1024px){td.header {
@@ -206,4 +206,13 @@ td.header {
     font-weight: 500;
     font-family: 'Jura';
     display: block;
+}
+
+.profile {
+    background: url(https://beon.vip/uploads_image/34/3e/343e52d60abbf883dee6ffa3c0351229.png) repeat-x;
+    background-color: #bdb2b23b;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 10px !important;
+    display: block;
+    border: none;
 }
