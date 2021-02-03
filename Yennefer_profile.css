@@ -40,9 +40,9 @@ td.profile_tab a {background: whitesmoke;}
 div#profile_gift .card-body {
     margin: auto;
     text-align: center;
-}
+    background: transparent;}
+
 div#profile_gift .card-body img {
     max-width: 73px;
     display: block;
-    margin: auto;
-}
+    margin: auto;}
