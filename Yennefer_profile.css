@@ -1,0 +1,39 @@
+a, button.btn.btn-primary,td.profile {font-family: 'Jura', sans-serif;}
+
+* {border: none !important;}
+
+.page_header,img.icon,img.button,.he_styler_customize_btn {display: none;}
+
+td.header {
+    background: #ffffff !important;
+    padding: 3px;
+    border-radius: 0px;
+    color: #b4acb7 !important;
+    box-shadow: -4px 4px 0px #6a6a8026;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Jura';
+    margin-left: -23px;
+    display: block;}
+
+.profile {
+    background: url(https://beon.vip/uploads_image/34/3e/343e52d60abbf883dee6ffa3c0351229.png) repeat-x;
+    background-color: #bdb2b23b;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 10px !important;
+    display: block;
+    border: none;}
+
+div#profile_profile {
+    background: url(https://beon.vip/uploads_image/92/e6/92e6fc14ab71bf1905b6a6a035a5a617.png);
+    padding: 10px;}
+
+.content a {color: #7db3c3;}
+
+td.profile_menu1 a {background: transparent !important;}
+
+td.profile_tab a {background: whitesmoke;}
+
+[href="search_advanced.php?cat_selected=1"],[href*="/group/"] {
+    color: #51a7e4 !important;
+    text-shadow: 0 0 2px #73e9ff;}
