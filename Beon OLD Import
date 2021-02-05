@@ -459,6 +459,8 @@ content: url(https://beon.vip/uploads_user/1000/968/8f7dfd1a686f995148328a581e4c
 content: url(https://beon.vip/uploads_user/1000/968/8f7dfd1a686f995148328a581e4cf130.gif); padding-left: 5px;}
 .profile_comment_author [href="https://beon.vip/evol/"]:after {
 content: url(https://beon.vip/uploads_user/1000/968/8f7dfd1a686f995148328a581e4cf130.gif); padding-left: 5px;}
+.profile_comment_author [href="https://beon.vip/LLL/"]:after {
+content: url(https://beon.vip/uploads_image/81/eb/81eb1ba03b6e7944a81288141ed0108d.gif);padding-left: 5px;}
 
 .top_menu_link a {
 font-size: 11px !important;
