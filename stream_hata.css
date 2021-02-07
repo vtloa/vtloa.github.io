@@ -1,0 +1,139 @@
+@font-face {
+font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    
+    src:    url('https://nomail.com.ua/files/eot/14ec5c31e12651a7586d103967b6bd99.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/14ec5c31e12651a7586d103967b6bd99.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/14ec5c31e12651a7586d103967b6bd99.woff2') format('woff2');
+}
+
+@font-face { font-family: 'ZrnicCyr-Normal';  src: local('ZrnicCyr-Normal'), url('https://nomail.com.ua/files/woff/14ec5c31e12651a7586d103967b6bd99.woff') format('woff'); }
+
+* {
+    border: none !important;
+}
+
+* {
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    font-size: 20px;
+}
+
+body {
+    background: url(https://beon.vip/uploads_image/0e/66/0e663c19e74e3eab912ff22ecfa03bf8.png) no-repeat fixed;
+    background-size: cover;
+}
+
+.content {
+    width: 80% !important;
+}
+div#postcomment_userphotos {
+    width: 140px;
+}
+
+
+.content {
+    background: linear-gradient(40deg, white,#ffffffbf, transparent) fixed;
+}
+[style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    background: url(https://i.pinimg.com/originals/c6/75/ef/c675ef1678b815ad09988b73d3c42a2f.png) no-repeat center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    height: 470px;}
+
+.card {border: none;}
+
+li.p-1 {
+    display: block;
+    padding: 0px !important;}
+
+
+.top_menu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #e87ea0;
+    width: 100%;
+}
+
+
+.top_header {
+    background: transparent;
+    box-shadow: unset;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+button.btn.btn-primary,button.button_down {
+    background: transparent;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+div#lefthome a {
+    color: #fe3475;
+    text-shadow: 0 0 4px #b72146;
+}
+div#lefthome {
+    position: absolute;
+    top: 80px;
+    margin-left: -1px;
+    background: #00000024;
+    height: 470px;
+    overflow: hidden;
+}
+
+.card-header,.card.blog_categories,.gifts-list,.blog_leftsearch {
+    display: none;
+}
+
+
+img.photo {
+    border: none;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+}
+
+a.page-link, a.page-link:hover {
+    background: transparent !important;
+    color: #e62c68;
+    border-radius: 0px !important;
+}
+.post {
+    padding: 20px;
+}
+
+
+h2.card-title a {
+    font-size: 40px;
+    color: #ff4278;
+}
+
+.copyright,div#designs {
+    display: none !important;
+}
+
+.post_container .post_text img {
+    max-width: 90%;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    position: fixed;
+    right: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: snow;
+}
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
