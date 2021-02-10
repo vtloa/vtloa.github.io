@@ -111,11 +111,11 @@ div#mobile_menu button.btn.btn-primary {
 }
 
 div#bbcode {
-    position: unset;
-    margin: 0px;
-    display: block;
-    background: transparent;
-    border: none;
-    border-radius: 0px;
-    padding: 0px;
+    position: unset !important;
+    margin: 0px !important;
+    display: block !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
 }
