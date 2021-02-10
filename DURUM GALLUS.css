@@ -60,9 +60,6 @@ div#mobile_menu button.btn.btn-primary {
     font-size: 11px !important;}
     
 
-[href="./"]:before {content: DURUM GALLUS' !important;}
-
-.content:before,.content:after {content: 'DURUM GALLUS' !important;}
 
 .fl_l {max-width: 30px;}
 
@@ -103,3 +100,6 @@ div#mobile_menu button.btn.btn-primary {
 [src="/images/fffuuusmiles/beaman.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/33.png); width: auto;}
 [src="/images/fffuuusmiles/rage.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/34.png); width: auto;}
 [src="/images/fffuuusmiles/fapfapfap.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/35.png); width: auto;}
+
+[href="./"]::before {content: 'DURUM GALLUS' !important;}
+.content:beforeб.content:after {content: 'DURUM GALLUS' !important;}
