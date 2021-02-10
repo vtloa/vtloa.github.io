@@ -1,0 +1,105 @@
+.top_header [align="left"] {
+    background: url() no-repeat fixed;
+    background-size: contain;
+    border-radius: 4px;}
+
+body {
+    background: url(https://i.pinimg.com/originals/ef/ce/a3/efcea36cd83e40c61a9ea083aa6ef9c5.gif) no-repeat fixed center;
+    background-size: cover;}
+
+.seBlogColumnRightPadding:before, .blog_leftsearch:before, .card.blog_categories:before, .card.blog_gifts:before {
+   background: #1b1a1a;}
+
+.seBlogColumnRightPadding:before, .blog_leftsearch:before, .card.blog_categories:before, .card.blog_gifts:before {}
+
+.card.p-1, .card.mt-3.blog_leftmenu, .card.blog_categories .card-body, .gifts-list, .blog_leftsearch .card-body {
+    background-color: #e9e9e9e8;
+    border: none !important;}
+
+.post,div[id^="comment_"] {
+    background-color: #1b1a1a;
+    outline: 1px dashed rgb(27 26 26) !important;
+    outline-offset: 4px;
+    border-radius: 2px;
+    color: #e9e9e9;}
+
+.content:before,.content:after {border-color: #feefeda6 !important;}
+div#comment_subscribe {outline: unset !important;}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    background: #0000000a !important;}
+
+.bg-light,#mobile_menu .menu_item_dropdown a,.portal_spacer,div#mobile_menu {
+    background-color: #e8e8e8;
+    border: none;}
+
+div#mobile_photo_wrap {
+    background: #1b1a1a;
+    border: none;}
+
+div#mobile_menu a {color: #1b1a1a;}
+
+button.btn.btn-outline-success {
+    border-color: #d0d0d0;
+    color: #747474;}
+
+
+
+.card,div#mobile_photo img,div#mobile_menu button.btn.btn-primary {border: none;}
+li.p-1 {color: #6c6c6c;}
+.card-header {
+    background: #1b1a1a;
+    color: snow;
+    padding: 4px;}
+
+#mobile_menu .menu_item_dropdown a {color: #1b1a1a !important;}
+
+div#mobile_menu button.btn.btn-primary {
+    background: #8dd440;
+    color: black;
+    font-size: 11px !important;}
+    
+
+[href="./"]:before {content: DURUM GALLUS' !important;}
+
+.content:before,.content:after {content: 'DURUM GALLUS' !important;}
+
+.fl_l {max-width: 30px;}
+
+#fffuuusmiles img {width: 100px; max-height: 100%;}
+
+[src="/images/fffuuusmiles/kiddingme.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/1.png); width: auto;}
+[src="/images/fffuuusmiles/hurts.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/2.png); width: auto;}
+[src="/images/fffuuusmiles/trolldance.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/9.png);width: auto;}
+[src="/images/fffuuusmiles/lawyerbeginner.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/4.png); width: auto;}
+[src="/images/fffuuusmiles/pickupmaster.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/5.png); width: auto;}
+[src="/images/fffuuusmiles/aimalaca.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/6.png); width: auto;}
+[src="/images/fffuuusmiles/cool.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/7.png); width: auto;}
+[src="/images/fffuuusmiles/doomed.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/8.png); width: auto;}
+[src="/images/fffuuusmiles/fair.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/39.png); width: auto; height:auto;}
+[src="/images/fffuuusmiles/foreveralone.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/10.png); width: auto;}
+[src="/images/fffuuusmiles/fu.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/11.png);width: auto;}
+[src="/images/fffuuusmiles/fuckyeah.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/12.png); width: auto;}
+[src="/images/fffuuusmiles/happy.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/13.png); width: auto;}
+[src="/images/fffuuusmiles/itsnotok.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/14.png);width: auto;}
+[src="/images/fffuuusmiles/lol.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/15.png); width: auto;}
+[src="/images/fffuuusmiles/megustagirl.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/16.png); width: auto;}
+[src="/images/fffuuusmiles/megustasmile.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/17.png); width: auto;}
+[src="/images/fffuuusmiles/muhaha.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/18.png); width: auto;}
+[src="/images/fffuuusmiles/ofcourse.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/19.png); width: auto;}
+[src="/images/fffuuusmiles/okay.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/20.png); width: auto;}
+[src="/images/fffuuusmiles/pfff.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/21.png); width: auto;}
+[src="/images/fffuuusmiles/please.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/22.png); width: auto;}
+[src="/images/fffuuusmiles/pokerface.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/23.png); width: auto;}
+[src="/images/fffuuusmiles/really.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/24.png); width: auto;}
+[src="/images/fffuuusmiles/shkololota.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/25.png); width: auto;}
+[src="/images/fffuuusmiles/suspiciou.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/26.png); width: auto;}
+[src="/images/fffuuusmiles/tobey.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/27.png); width: auto;}
+[src="/images/fffuuusmiles/trollbl.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/38.png); width: auto;}
+[src="/images/fffuuusmiles/whaaat.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/36.png); width: auto;}
+[src="/images/fffuuusmiles/yaoming.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/30.png); width: auto;}
+[src="/images/fffuuusmiles/yaominginv.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/37.png); width: auto;}
+[src="/images/fffuuusmiles/yaomingpff.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/32.png); width: auto;}
+[src="/images/fffuuusmiles/beaman.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/33.png); width: auto;}
+[src="/images/fffuuusmiles/rage.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/34.png); width: auto;}
+[src="/images/fffuuusmiles/fapfapfap.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/35.png); width: auto;}
