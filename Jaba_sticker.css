@@ -37,3 +37,22 @@
 [src="/images/fffuuusmiles/beaman.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/33.png); width: auto;}
 [src="/images/fffuuusmiles/rage.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/34.png); width: auto;}
 [src="/images/fffuuusmiles/fapfapfap.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/35.png); width: auto;}
+
+[src="/images/fffuuusmiles/fair.gif"] {display: inline !important;}
+
+div#bbcode {
+    position: unset !important;
+    margin: 0px !important;
+    display: block !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+
+div#bbcode [src="/images/fffuuusmiles/fair.gif"] {
+    width: 80px !important;
+    max-width: 80px !important;
+    height: 80px !important;
+}
