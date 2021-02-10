@@ -103,3 +103,9 @@ div#mobile_menu button.btn.btn-primary {
 
 [href="./"]::before {content: 'DURUM GALLUS' !important;}
 .content:before,.content:after {content: 'DURUM GALLUS' !important;}
+
+[src="/images/fffuuusmiles/fair.gif"] {
+    display: block !important;
+    width: 20px !important;
+    height: 20px !important;
+}
