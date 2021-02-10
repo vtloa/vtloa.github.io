@@ -109,3 +109,13 @@ div#mobile_menu button.btn.btn-primary {
     width: 20px !important;
     height: 20px !important;
 }
+
+div#bbcode {
+    position: unset;
+    margin: 0px;
+    display: block;
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+}
