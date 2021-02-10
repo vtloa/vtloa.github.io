@@ -102,4 +102,4 @@ div#mobile_menu button.btn.btn-primary {
 [src="/images/fffuuusmiles/fapfapfap.gif"] {content: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/35.png); width: auto;}
 
 [href="./"]::before {content: 'DURUM GALLUS' !important;}
-.content:beforeб.content:after {content: 'DURUM GALLUS' !important;}
+.content:before,.content:after {content: 'DURUM GALLUS' !important;}
