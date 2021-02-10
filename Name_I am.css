@@ -1,0 +1,3 @@
+[href="./"]:before {content: 'I am' !important;}
+
+.content:before,.content:after {content: 'I am' !important;}
