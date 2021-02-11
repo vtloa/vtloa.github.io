@@ -1,0 +1,14 @@
+.card.mb-2.post_home {position: static;}
+.card.mt-3.blog_leftmenu {padding-top: 40px;}
+
+.blog_leftphoto img {width: 100px;max-height: 100px;object-fit: cover;}
+
+.card.mb-2.post_home:first-child [src*="https://www.youtube.com/embed/"] {
+    position: absolute;
+    left: 1%;
+    top: 3.2%;
+    width: 23% !important;
+    max-width: 26% !important;
+    filter: grayscale(1) invert(1);
+    height: 46px !important;
+    transform: rotateX(56deg);}
