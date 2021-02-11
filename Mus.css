@@ -6,7 +6,7 @@
 .card.mb-2.post_home:first-child [src*="https://www.youtube.com/embed/"] {
     position: absolute;
     left: 1%;
-    top: 3.2%;
+    top: 320px;
     width: 23% !important;
     max-width: 26% !important;
     filter: grayscale(1) invert(1);
