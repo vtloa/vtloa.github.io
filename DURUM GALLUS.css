@@ -122,3 +122,10 @@ div#bbcode [src="/images/fffuuusmiles/fair.gif"] {
     max-width: 80px !important;
     height: 80px !important;
 }
+
+
+.post_text.pl-3 u {
+display: block;
+text-align: center;
+text-decoration: unset;
+}
