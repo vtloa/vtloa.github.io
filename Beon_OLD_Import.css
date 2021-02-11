@@ -526,3 +526,5 @@ ul.seBlogCategoryList {font-size: 5px;}
     content: url(https://beon.vip/uploads_image/b6/69/b6695b564d07197f23dd3397bf33de8b.gif);
     padding-left: 5px;
 }
+
+div[id^="comment_"] {padding-bottom: 5px;}
