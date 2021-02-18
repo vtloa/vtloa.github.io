@@ -1,0 +1,422 @@
+html {overflow-x: hidden;}
+
+/*КАРТИНКИ*/
+
+.post_container .post_text img {width: 500px; border: 1px solid #e5ff00;}
+/*____________________*/
+
+
+
+body {
+    background: url(https://beon.vip/uploads_user/2000/1948/f6e18d438246a5e4def892fb32ab69bf.png);
+    background-color: black;}
+
+.content {margin-top: 115px;}
+
+[href="./"]:before {
+    content: 'Beon.ru';
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 21px;
+    color: #0049ec;
+}
+
+
+.post_image,.blog_leftphoto,[src="./images/logo_new.png"],img.menu_icon2  {display: none;}
+    
+.card {border: none;}
+
+* {font-family: monospace;}
+
+.post_text.pl-3 p {text-align: left !important;}
+
+
+li.p-1 {display: block;}
+
+.top_header {
+    position: static !important;
+    background: black;}
+
+.seBlogColumnRightPadding {
+    border-right: 1px dashed #a6a6a6;
+}
+
+
+
+div#lefthome {width: 50%;}
+
+
+.content:before {
+    content: 'Terminal v.1.2.371';
+    position: fixed;
+    background: #e5ff00;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    color: #0049ec;
+    z-index: 444;}
+
+
+
+.card-header {
+    border-radius: 0px !important;
+    border-top: 1px dashed #a6a6a6;
+    border-bottom: 1px dashed #a6a6a6;
+    padding: 7px;
+    color: #a6a6a6;
+    letter-spacing: 10px;
+}
+
+li.p-1 a,ul.seBlogCategoryList a,ul.seBlogCategoryList li,.card-header a {color: #a6a6a6 !important; letter-spacing: 1px;}
+
+.text-muted, .text-muted a, p.card-link, .additional_info.pl-3 a, .category {
+    color: #0f45bf !important;
+    font-size: 12px;
+}
+.seBlogComments [style="margin-bottom: 20px;"] a {
+    color: #0f45bf !important;
+    font-weight: 100;
+}
+
+
+.card-body {
+    padding: 0px;
+}
+
+input[type="text"] {
+    background: transparent;
+    margin-top: 8px;
+}
+
+.blog_leftprofile a, h2.card-title a {
+    font-size: 25px;
+    color: #e5ff00;
+}
+
+
+
+.additional_info.pl-3,h6.card-subtitle.mb-2.text-muted.post_date {
+    padding: 0px !important;
+    border-top: 1px dashed #a6a6a6;
+    border-bottom: 1px dashed #a6a6a6;
+}
+.post_text.pl-3 {
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+a.page-link,a.page-link:hover {
+    margin-top: -10px;
+    margin-right: 7px !important;
+    background: transparent;
+    color: #006f80;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    border-radius: 0px !important;
+}
+
+.gifts-list {
+    font-size: 0px;
+}
+
+img.photo {
+    border: none;
+}
+
+div#user_status {
+    margin: auto;
+    color: #a6a6a6;
+    font-size: 10px;
+}
+
+.profile_comment_links a{
+    font-size: 10px;
+    color: #a6a6a6;
+}
+
+.profile_comment_body {
+    border: 1px dashed #a6a6a6;
+    padding: 20px !important;
+    color: #a6a6a6;
+}
+
+blockquote.blockquote {
+    color: #a6a6a6;
+    background: #222e41;
+    border-color: #a6a6a6;
+}
+
+.profile_comment_date {
+    text-align: left !important;
+    margin-top: 4px;
+}
+
+.profile_comment_author a {
+    color: #e7ff0f !important;
+}
+
+.profile_comment_links {
+    text-align: left !important;
+}
+
+.post_text.pl-3 {
+    color: #9b9b9b;
+}
+
+.top_header {
+    position: static !IMPORTANT;
+    background: #8d9d00;
+    height: 50px;
+}
+
+button.btn.btn-primary {
+    background: transparent;
+    border: none;
+}
+
+button.button_down {
+    background: transparent;
+}
+
+.top_menu_link a, button.btn.btn-primary {
+    color: #0049ec !important;
+    font-size: 15px !important;
+    text-transform: uppercase;
+}
+
+[src="/images/notify.svg"],[src="/images/button_down.svg"] {
+    width: 20px;
+    margin-top: 2px;
+}
+
+[src="/images/button_down.svg"] {
+    filter: invert(1);
+}
+
+div#designs {
+    color: #e5ff00 !important;
+    right: 24px !IMPORTANT;
+    top: 60px;
+    position: absolute !important;
+}
+
+div#lefthome {
+    transform: rotateX(180deg);
+    resize: horizontal;
+    overflow: hidden;
+    min-width: 200px;
+    max-width: 590px;
+    z-index: 122222;
+}
+
+.seBlogColumnRightPadding {
+    position: absolute;
+    bottom: 0px;
+    transform: rotateX(-180deg);
+}
+
+
+
+.card.mb-2.post_home {position: static;}
+
+
+.card-text [style="style"] [src^="https://www.youtube.com/embed/"] {
+    max-width: 100% !important;
+    width: 400px !important;
+    height: 50px !important;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    display: block !important;
+    margin-left: 1%;
+    border: 1px dashed #a6a6a6;
+    filter: hue-rotate(220deg);
+}
+
+div.menu_dropdown a {
+    background: #8d9d00 !important;
+}
+
+div.menu_dropdown {
+    border: none !important;
+}
+
+.modal-content {
+    background: black;
+    border-radius: 0px;
+    color: #6a6a6a;
+}
+
+.modal-header,.modal-footer {
+    border: none;
+}
+
+.modal {
+    background: #000000d1 !important;
+}
+
+button.btn.btn-secondary {
+    border-radius: 0px;
+    background: transparent;
+    border: none;
+}
+
+.updatesWrap {
+    border: 1px dashed;
+    padding: 20px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+    border-radius: 0px;
+}
+
+textarea#comment_body {
+    background: transparent;
+    border: none;
+    border-radius: 0px !important;
+    color: #9e9e9e !important;
+}
+
+div#postcomment_userphotos {
+    border: none;
+    width: 150px !important;
+}
+
+img.img-thumbnail {
+    border: none;
+    background: transparent;
+}
+
+.userphoto_selected {
+    background: transparent;
+    outline: 1px solid #e5ff00;
+}
+
+input#comment_submit {
+    background: transparent;
+    color: #767676;
+    width: 250px;
+}
+
+.comment_headline,.comment_headline a {
+    background: transparent;
+    color: #a6a6a6;
+}
+
+.card.mt-3.blog_leftmenu .card-body li {
+    display: inline;
+    border-left: 2px solid #a6a6a6;
+}
+
+.card.blog_categories .card-body {
+    overflow: hidden;
+}
+
+
+ul.seBlogCategoryList {
+    overflow: hidden;
+    animation: 8s anim1 infinite linear;
+    animation-delay: 0s;}
+
+
+@keyframes anim1 {
+   0% {transform: translatex(-100%);}
+   100% {transform: translatex(100%);}
+}
+
+.card.blog_categories .card-body {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    animation: 8s anim2 infinite linear;
+    animation-delay: 0s;
+    transform: rotateZ(7deg);
+    background: url(https://beon.vip/uploads_user/2000/1287/2280279575c0ead831d8644dcd594fff.gi);
+}
+
+@keyframes anim2 {
+   from {box-shadow: inset -321px -20px 50px 0px black;}
+   to     {box-shadow: inset 321px   10px 20px 0px black;}
+}
+
+
+ul.seBlogCategoryList a {
+    color: black !IMPORTANT;
+}
+
+ul.seBlogCategoryList li {
+    color: transparent !important;
+}
+
+.card.blog_categories .card-body:before {
+    content: '5233232532';
+    background: );
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+
+ul.seBlogCategoryList li {display: inline-flex;}
+
+ul.seBlogCategoryList  a{font-size: 18px;}
+
+ul.seBlogCategoryList a {transition: 0.5s ease-in-out;}
+
+ul.seBlogCategoryList a:hover {
+    color: #e5ff00 !important;
+    transition: 0.5s ease-in-out;
+}
+
+[style="style"]:before {
+    content: url(https://avatanplus.com/files/resources/original/5b772063987d416549568529.png);
+    position: absolute;
+    top: 100px;
+    left: 1%;
+}
+
+
+.blog_leftprofile {
+    background: url(https://beon.vip/uploads_user/2000/1948/68da0cad2d4d2158b1d412648dd49a9b.png) no-repeat center;
+}
+
+div#lefthome:before {
+    content: url(https://beon.vip/uploads_user/2000/1948/f14f4b7c5bf8819beac9cc5d118d0eca.png);
+    position: absolute;
+    right: -5px;
+    bottom: -23px;
+}
+
+.commentDeleteLink {
+    background: url(https://beon.vip/uploads_user/2000/1948/9adcbbffefeacddf7c435fdb16284360.png) no-repeat;
+}
+
+.profile_postcomment {
+    background: url(https://beon.vip/uploads_user/2000/1948/a79fafa54e313020b88341c8b7990ad3.png) no-repeat bottom left;
+    background-size: 140px;
+}
+
+.modal-header {
+    background: #dcf500;
+    padding: 10px;
+    color: #0f23ff;
+}
+
+.updatesWrap a,.updatesDelete a,button.btn.btn-secondary{
+    color: #a7a7a7;
+}
+
+[src="/images/page_load.gif"] {
+    content: url(https://media1.giphy.com/media/mFTRCmlZgMEr5CHmOV/giphy.gif);
+}
+
+div.menu_dropdown {
+    z-index: 4444444 !important;
+}
