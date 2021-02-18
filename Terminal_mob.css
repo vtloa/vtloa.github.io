@@ -1,0 +1,242 @@
+.bg-light {
+    background-color: #f8f9fa;
+    background: #8d9d00;
+    border: none;
+    margin-top: 10px;
+    height: 63px;
+}
+
+body,div#mobile_menu {
+    background: url(https://beon.vip/uploads_user/2000/1948/f6e18d438246a5e4def892fb32ab69bf.png);
+    background-color: black;
+}
+
+img.photo {
+    border: none;
+}
+
+.card-header {
+    border-radius: 0px;
+    border-top: 1px dashed #a6a6a6;
+    border-bottom: 1px dashed #a6a6a6;
+    padding: 7px;
+    color: #a6a6a6;
+    letter-spacing: 10px;
+}
+
+.card.mt-3.blog_leftmenu .card-body li {
+    display: inline;
+    border-left: 2px solid #a6a6a6;
+}
+
+li.p-1 a, ul.seBlogCategoryList a, ul.seBlogCategoryList li, .card-header a {
+    color: #a6a6a6;
+    letter-spacing: 1px;
+}
+
+.post_image {
+    display: none;
+}
+
+.blog_leftprofile a, h2.card-title a {
+    font-size: 25px;
+    color: #e5ff00;
+}
+
+.additional_info.pl-3, h6.card-subtitle.mb-2.text-muted.post_date {
+    padding: 0px;
+    border-top: 1px dashed #a6a6a6;
+    border-bottom: 1px dashed #a6a6a6;
+}
+
+.text-muted, .text-muted a, p.card-link, .additional_info.pl-3 a, .category {
+    color: #0f45bf;
+    font-size: 12px;
+}
+
+.post_text.pl-3 {
+    color: #9b9b9b;
+}
+
+a.page-link, a.page-link:hover {
+    margin-top: -10px;
+    margin-right: 7px;
+    background: transparent;
+    color: #006f80;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    border-radius: 0px;
+}
+
+.gifts-list {
+    font-size: 0px;
+}
+
+.post_text.pl-3 {
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.bg-light:before {
+    content: 'Terminal v.1.2.371';
+    position: fixed;
+    background: #e5ff00;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    color: #0049ec;
+    z-index: 444;
+}
+button.navbar-toggler {
+    border: none;
+    border-radius: 0px;
+}
+
+button.btn.btn-outline-success {
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/2000/1948/03acc2ae628286985163b4c60b767288.png);
+    width: 100px;
+}
+
+.modal-content {
+    background: black;
+    border-radius: 0px;
+    color: #6a6a6a;
+}
+
+.modal-header {
+    background: #dcf500;
+    padding: 10px;
+    color: #0f23ff;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+    border-radius: 0px;
+}
+
+.updatesWrap {
+    border: 1px dashed;
+    padding: 20px;
+}
+
+.updatesWrap a, .updatesDelete a, button.btn.btn-secondary {
+    color: #a7a7a7;
+}
+button.btn.btn-secondary {
+    border-radius: 0px;
+    background: transparent;
+    border: none;
+}
+
+div#designs {
+    color: #e5ff00;
+}
+
+div#postcomment_userphotos {
+    border: none;
+}
+
+img.img-thumbnail {
+    border: none;
+    background: transparent;
+}
+
+.profile_comment_body {
+    border: 1px dashed #a6a6a6;
+    padding: 20px;
+    color: #a6a6a6;
+}
+
+div#user_status {
+    margin: auto;
+    color: #a6a6a6;
+    font-size: 10px;
+}
+
+.profile_comment_author a {
+    color: #e7ff0f;
+}
+
+.profile_comment_date {
+    text-align: left;
+    margin-top: 4px;
+}
+.comment_headline, .comment_headline a {
+    background: transparent;
+    color: #a6a6a6;
+}
+
+input#comment_submit {
+    background: transparent;
+    color: #767676;
+    width: 250px;
+}
+
+textarea#comment_body {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    color: #9e9e9e;
+}
+
+.profile_comment_links {
+    text-align: left;
+}
+
+.profile_comment_links a {
+    font-size: 10px;
+    color: #a6a6a6;
+}
+
+.commentDeleteLink {
+    background: url(https://beon.vip/uploads_user/2000/1948/9adcbbffefeacddf7c435fdb16284360.png) no-repeat;
+}
+
+.seBlogComments [valign="top"] a {
+    font-size: 12px;
+    color: #0f45bf;
+}
+
+.seBlogComments [valign="top"] div.button {
+    padding-left: 15px;
+}
+
+blockquote {
+    border-left: 3px solid #35a5d8;
+    padding: 5px;
+    font-size: 12px;
+}
+
+input[type="text"] {
+    background: transparent;
+    margin-top: 8px;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+div#mobile_menu button.btn.btn-primary {
+    background: #8d9d00;
+    border: none;
+    color: #0050ff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+div#mobile_photo_wrap {
+    background: #e5ff00;
+    color: #0067ff;
+}
+
+img.menu_icon2 {
+    display: none;
+}
