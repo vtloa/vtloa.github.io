@@ -240,3 +240,8 @@ div#mobile_photo_wrap {
 img.menu_icon2 {
     display: none;
 }
+
+textarea#comment_body {
+    background: #0c0c0c;
+    background: #0c0c0c !important;
+}
