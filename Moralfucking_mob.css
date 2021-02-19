@@ -44,17 +44,12 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     border-radius: 4px;
     background-blend-mode: luminosity;}
 
-.seBlogColumnRightPadding:before, .blog_leftsearch:before, .card.blog_categories:before, .card.blog_gifts:before {
-    background: url(https://beon.vip/uploads_image/c1/2b/c12b31fc90dfccc39720cfeb52a65073.png) no-repeat center left;
-    color: #000 !important;
-    border-radius: 4px;}
 
 
 .seBlogColumnRightPadding a {color: #040404 !important;}
 
 h2.card-title a {color: #d52020;}
 
-.content:before,.content:after {border: none !important;}
 
 .top_header [align="left"] {
     height: 75px;
@@ -63,24 +58,11 @@ h2.card-title a {color: #d52020;}
     background: url() no-repeat center;
     background-size: 200px;}
 
-[href="./"]:before {
-    content: 'Moralfucking' !important;
-    padding-top: 19px !important;
-    color: #cf0000;
-    font-weight: bold;
-    text-shadow: 0 0 4px black;}
 
-.content:before, .content:after {
-    content: 'Moralfucking' !important;
-    color: transparent;}
 
 .copyright {border: none !important;}
 
-.comment_headline:before {
-    content: 'Добавить новый комментарий';
-    font-weight: bold;
-    font-size: 13px;
-    color: black;}
+
 
 #comment_subscribe {box-shadow: none;}
 
