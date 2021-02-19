@@ -1,0 +1,158 @@
+body {
+    background: url(https://i.pinimg.com/originals/da/ff/68/daff683f7cf6a679b4d18c737b4428b4.png) no-repeat left bottom fixed;
+    background-color: #b9bbbb;
+    background-size: cover;}
+
+
+.post {
+    padding: 15px;
+    border-radius: 3px;
+    background: url(https://beon.vip/uploads_user/2000/1948/25ef2f3889af12d39323d1aabe9a9324.png) fixed,
+    linear-gradient( 45deg , #000000ed, #21212140, #000000ed) fixed;
+    box-shadow: -4px 4px 5px #00000069;
+    color: #e9e9e9;
+    background-color: #5252526b;}
+
+.post_text.pl-3 {text-shadow: 0 0 3px black;}
+
+div[id^="comment_"] {
+    border-radius: 3px;
+    background: url(https://beon.vip/uploads_user/2000/1948/25ef2f3889af12d39323d1aabe9a9324.png) fixed,
+    linear-gradient( 45deg , #000000ed, #21212140, #000000ed) fixed;
+    box-shadow: -4px 4px 5px #00000069;
+    color: #e9e9e9;
+    background-color: #5252526b;}
+
+div.profile_comment_body {text-shadow: 0 0 4px black;}
+
+.card.p-1, .card.mt-3.blog_leftmenu, .card.blog_categories .card-body, .gifts-list, .blog_leftsearch .card-body {
+    background: url(https://beon.vip/uploads_user/2000/1948/25ef2f3889af12d39323d1aabe9a9324.png) 
+    fixed,url(https://beon.vip/uploads_user/4000/3125/92b8ee9bd8a4a4519fc9d72209a3c2ff.png) no-repeat fixed;
+    background-color: #0d0d0dc7;
+    box-shadow: -4px 4px 5px #00000069;
+    background-size: auto, contain;
+    background-position-x: -25px;}
+
+.card.p-1 {box-shadow: -2px -4px 4px #00000057;}
+
+
+.card.p-1,.card.mt-3.blog_leftmenu,.card.blog_categories .card-body, .gifts-list, .blog_leftsearch .card-body {border-color: #00000000 !important;}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    background: url(https://beon.vip/uploads_image/c1/2b/c12b31fc90dfccc39720cfeb52a65073.png) no-repeat center left;
+    color: #000 !important;
+    border-radius: 4px;
+    background-blend-mode: luminosity;}
+
+.seBlogColumnRightPadding:before, .blog_leftsearch:before, .card.blog_categories:before, .card.blog_gifts:before {
+    background: url(https://beon.vip/uploads_image/c1/2b/c12b31fc90dfccc39720cfeb52a65073.png) no-repeat center left;
+    color: #000 !important;
+    border-radius: 4px;}
+
+
+.seBlogColumnRightPadding a {color: #040404 !important;}
+
+h2.card-title a {color: #d52020;}
+
+.content:before,.content:after {border: none !important;}
+
+.top_header [align="left"] {
+    height: 75px;
+    display: block;
+    border-radius: 4px;
+    background: url() no-repeat center;
+    background-size: 200px;}
+
+[href="./"]:before {
+    content: 'Moralfucking' !important;
+    padding-top: 19px !important;
+    color: #cf0000;
+    font-weight: bold;
+    text-shadow: 0 0 4px black;}
+
+.content:before, .content:after {
+    content: 'Moralfucking' !important;
+    color: transparent;}
+
+.copyright {border: none !important;}
+
+.comment_headline:before {
+    content: 'Добавить новый комментарий';
+    font-weight: bold;
+    font-size: 13px;
+    color: black;}
+
+#comment_subscribe {box-shadow: none;}
+
+[style="font-size: 11px; color: #333333; word-break: break-word; width: 100px; text-align: center;"],#user_status {color: #636363 !important;}
+
+.blog_leftphoto img {max-height: 150px;}
+
+.card.mb-2.post_home:first-child [src*="https://www.youtube.com/embed/"] {margin-top: 50px;}
+
+a.page-link,a.page-link:hover {background: transparent;}
+
+h6.card-subtitle.mb-2.text-muted.post_date a {color: #d51f1f;}
+
+h6.card-subtitle.mb-2.text-muted.post_date {color: black;}
+
+.bg-light {
+     background: url(https://beon.vip/uploads_user/2000/1948/25ef2f3889af12d39323d1aabe9a9324.png) fixed,
+    linear-gradient( 45deg , #000000ed, #21212140, #000000ed) fixed;
+    border: none;}
+
+button.navbar-toggler {border: none;}
+
+button.btn.btn-outline-success {
+    background: transparent;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/2000/1948/03acc2ae628286985163b4c60b767288.png);
+    filter: grayscale(1) contrast(3.5);}
+
+@media screen and (max-width: 1024px) {
+   .card.p-1, .card.mt-3.blog_leftmenu, .card.blog_categories .card-body, .gifts-list, .blog_leftsearch .card-body {
+    background: url(https://beon.vip/uploads_user/2000/1948/25ef2f3889af12d39323d1aabe9a9324.png) 
+    fixed,url(https://beon.vip/uploads_user/4000/3125/92b8ee9bd8a4a4519fc9d72209a3c2ff.png) no-repeat fixed;
+    background-color: #0d0d0dc7;
+    box-shadow: -4px 4px 5px #00000069;
+    background-size: auto, cover;}
+
+.profile_comment_author a,.seBlogComments [valign="top"] a,.comment_headline a {color: #d52020;}
+.profile_comment_links a {font-size: 13px;color: #d52020;}
+div#designs {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: #151515;
+    width: 30px;
+    height: 30px;
+    color: transparent;}}
+
+.card-header {display: none;}
+
+div#mobile_photo_wrap {
+    background: url(https://beon.vip/uploads_user/4000/3125/92b8ee9bd8a4a4519fc9d72209a3c2ff.png) no-repeat fixed;
+    background-size: auto;
+    background-position-y: -400px;}
+
+div#mobile_menu {background: #1b1a1a;}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 13px;}
+
+img.menu_icon2 {display: none;}
+
+div#mobile_menu button.btn.btn-primary {
+    background: #b3b3b3;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;}
+
+div#postcomment_userphotos,.comment_headline,.profile_postcomment {border: none;}
+
+.blog_leftprofile a{color: black;}
