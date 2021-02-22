@@ -1,0 +1,242 @@
+
+body {
+    background-color: #fff;
+    background-image: url(https://www.transparenttextures.com/patterns/tileable-wood.png);
+    background-attachment: fixed;
+}
+
+
+@media screen and (max-width: 1024px){
+
+.content {
+    background: url(https://i.pinimg.com/originals/30/4d/38/304d3822095f056a2a193ae399f2d4c9.png) no-repeat fixed center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 98%;
+}
+
+div#lefthome {https://i.pinimg.com/originals/87/03/9e/87039e825cfdc8ca14dbf126df3dba15.png) no-repeat fixed bottom; 
+background-size: cover;
+border-radius: 10px;
+    width: 98%;
+}
+.bg-light {
+    background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+border: none;
+}
+
+.post {
+    background: #f2f2f2;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #00000030;
+    padding: 10px;
+    width: 98%;
+    margin: auto;
+}
+
+.post_container .post_text img {
+    max-width: 100% !important;
+}
+
+.card {
+    border: none;
+}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/e7254bb656f1638469d629c3da78a0e5.png);
+    filter: grayscale(1) invert(1) contrast(3.5);
+    height: 50px;
+}
+[src="/images/notify.svg"] {
+    filter: invert(1);
+}
+
+button.btn.btn-outline-success {
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1) contrast(8.5) brightness(2.5);
+}
+
+.blog_leftprofile a {
+    font-size: 25px;
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+    color: #2e2d33;
+    font-weight: 100;
+}
+
+.card.blog_categories a, .card-header a,.profile_comment_author a,div.profile_comment_links a,.comment_headline a {
+    color: #212529;
+}
+
+.seBlogComments [valign="top"] a {
+    font-size: 12px;
+    color: #0000003b;
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+}
+
+input#comment_submit {
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+    font-size: 16px;
+}
+
+div#designs {
+clip-path: polygon(0 0, 50% 100%, 100% 0);
+background: #313131;
+width: 30px;
+height: 25px !important; height: 25px;
+color: transparent !important; color: transparent;
+bottom: 10px !important; bottom: 10px;
+right: 10px !important; right: 10px;}
+
+.modal-content {
+    border: none !important;
+    border-radius: 10px !important;
+    background: #fafafa !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+.modal-header,.modal-footer {
+    border: none;
+}
+
+button.btn.btn-secondary {
+    background: #c3c3c3;
+    border: none;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.card-header {
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+}
+
+li.p-1 {
+    list-style: decimal;
+}
+
+.card-body {
+    background-color: #ffffff00;
+    background-image: url(https://www.transparenttextures.com/patterns/lined-paper.png);
+    margin-right: 40px !important;
+    padding: 10px;
+}
+
+.gifts-list {
+    font-size: 0px;
+}
+
+a.page-link {
+    margin-top: 15px;
+    background: #393434;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+
+h2.card-title {
+    text-align: right;
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+}
+
+h2.card-title a {
+    color: #2e2d33;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date, h6.card-subtitle.mb-2.text-muted.post_date a,p.card-link,.category, .category a {
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+    color: #2e2d336b;
+    font-size: 16px;
+}
+
+
+img.photo {
+    border: none;
+}
+
+a.card-link {
+    background: #c8e681;
+    border-radius: 20px;
+    padding: 4px;
+    color: #ffffff;
+    filter: grayscale(1);
+}
+
+a.card-link:hover {
+    filter: unset;
+}
+li.p-1,ul.seBlogCategoryList li,.profile_comment_author a {
+    font-family: 'fontefb5a8ec3c40bab52239aae193082dee';
+    font-size: 15px;
+}
+
+
+
+img.photo,.post_image a img {
+    border-radius: 5px;
+}
+
+div#user_status {
+    margin: auto;
+}
+
+.comment_headline {
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+.profile_postcomment,div#postcomment_userphotos {
+    border: none;
+}
+
+.profile_comment_links {
+    font-size: 12px;
+}
+
+div#mobile_photo_wrap {
+    background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+}
+
+div#mobile_menu {
+    background: #f6f6f6;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent;
+    color: #232323;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div#mobile_menu button.btn.btn-primary {
+    background: #616161;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.additional_info .card-link {
+    display: unset;
+}
+
+}
+
+
+
