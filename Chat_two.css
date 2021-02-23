@@ -321,3 +321,7 @@ div#lefthome:before {
 [style="padding: 10px; text-align: center; margin-top: 10px;"] {
     display: none;
 }
+
+div#lefthome a {
+    color: #707070;
+}
