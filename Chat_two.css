@@ -23,14 +23,7 @@ table.body {
 }
 
 
-[src="./images/logo_new.png"] {
-    display: none;
-}
-
-
-div#lefthome {
-}
-
+[src="./images/logo_new.png"] {display: none;}
 
 
 
@@ -251,9 +244,7 @@ div#postcomment_userphotos {
 
 
 
-div#lefthome a {
-    color: #767676;
-}
+div#lefthome a {color: #767676;}
 
 div#lefthome {
     position: fixed;
@@ -270,8 +261,20 @@ div#lefthome:hover {
     transition: 0.3s;
 }
 div#lefthome {
-    transform: translateY(305px);
+    transform: translateY(455px) translatex(240px);
     transition: 0.3s;
+}
+
+div#lefthome:before {
+    content: 'MENU ';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background: #b21212;
+    height: 40px;
+    width: 45px;
+    padding-top: 10px;
 }
 
 .post_image {
