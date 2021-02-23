@@ -255,3 +255,7 @@ button.btn.btn-secondary {
     padding: 3px;
     border-radius: 20px;
 }
+
+:focus {
+    outline: none !important;
+}
