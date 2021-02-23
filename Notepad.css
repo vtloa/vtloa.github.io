@@ -256,6 +256,6 @@ button.btn.btn-secondary {
     border-radius: 20px;
 }
 
-:focus {
+button#newupdates:focus {
     outline: none !important;
 }
