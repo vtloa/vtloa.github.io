@@ -19,7 +19,7 @@ table.body {
     left: 5%;
     top: 10px;
     max-width: 100% !important;
-    height: 750px !important;
+    height: 700px !important;
 }
 
 
@@ -82,16 +82,7 @@ div#user_status {
     color: #b21212;
 }
 
-.seBlogComments {
-    position: absolute;
-    left: 0px;
-    top: 300px;
-    width: 500px;
-    padding: 5px;
-    transition: 0.3s;
-    min-height: 420px;
-    border-radius: 5px;
-}
+
 .seBlogComments:hover1 {
     background: #181818;
     transition: 0.3s;
@@ -245,15 +236,17 @@ div#postcomment_userphotos {
     overflow-y: scroll;
     direction: rtl;
 }
+
+
 .seBlogComments {
     position: fixed;
     left: 0px;
-    bottom: 0px;
+    top: 25%;
     width: 500px;
     padding: 5px;
     transition: 0.3s;
-    min-height: 420px;
     border-radius: 5px;
+    height: 440px;
 }
 
 
@@ -297,4 +290,28 @@ div#lefthome {
     background-color: #1e191a;
     border-radius: 10px !important;
     box-shadow: inset 0 0 8px 0px black;
+}
+
+
+.top_header {
+    display: block !IMPORTANT;
+    position: static !IMPORTANT;
+    height: 0px;
+    background: transparent;
+    overflow: hidden;
+}
+
+[href="./"]:after {
+    content: 'Выйти';
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    color: #b21212;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+[style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    display: none;
 }
