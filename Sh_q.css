@@ -1,0 +1,562 @@
+@font-face {
+font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    
+    src:    url('https://nomail.com.ua/files/eot/cf3b746a44d8f4183bc9ba366bec8d61.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/cf3b746a44d8f4183bc9ba366bec8d61.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/cf3b746a44d8f4183bc9ba366bec8d61.woff2') format('woff2');}
+
+@font-face { font-family: 'DSEraserCyr';  src: local('DSEraserCyr'), url('https://nomail.com.ua/files/woff/cf3b746a44d8f4183bc9ba366bec8d61.woff') format('woff'); }
+
+* {cursor: url(https://beon.vip/uploads_user/10000/9068/5c55408eb9a1d703fd1be9e837ce2f5c.png), auto !important;}
+
+
+
+body {
+    background-color: #5a5a5a;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png);
+}
+
+a.top_menu_item, button.btn.btn-primary {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #5e5e5e !important;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h2.card-title a {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    display: block;
+    width: fit-content;
+    transform: rotate( 
+2deg
+ ) translate(-6px, -6px);
+    color: #cf2121;
+}
+
+.card-header {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #b9b9b8;
+    font-size: 27px;
+}
+
+.card-header a {color: #b9b9b8;}
+
+
+.post_text.pl-3 {
+    color: black;
+}
+
+
+li.p-1 {
+    display: block;
+}
+
+.card,img.photo {
+    border: none;
+}
+
+.post {
+    background-color: #e5e5e5;
+    background-image: url(https://www.transparenttextures.com/patterns/inflicted.png);
+    box-shadow: inset 0 0 5px #000000ad;
+    border-radius: 5px;
+}
+
+
+.card.mb-2.post_home {
+    background-color: #dbdbdb;
+    background-image: url(https://www.transparenttextures.com/patterns/starring.png);
+    padding: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px !important;
+    box-shadow: -9px 9px 5px #00000070;
+}
+
+.seBlogComments {
+    border-radius: 5px !important;
+    box-shadow: -9px 9px 5px #00000070;
+    background-color: #ffffff;
+    background-image: url(https://www.transparenttextures.com/patterns/type.png);
+}
+
+table.body {
+    width: 100%;
+        padding-top: 30px;
+}
+
+
+
+
+.post, .seBlogComments {padding: 20px;}
+
+
+
+.content,.modal-content {
+    background-color: #5a5a5a;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png);
+    padding: 0px !important;
+}
+
+div#TB_title {
+    background-color: #5a5a5a;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png);
+    padding: 0px !important;
+    border: none;
+}
+
+div#TB_ajaxContent {
+    background-color: #5a5a5a;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png);
+    color: #bebebe;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
+
+div#TB_title {
+    border: none !important;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #bebebe;
+}
+
+div#TB_window {
+    border: none;
+    background-color: #5a5a5a;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png);
+}
+
+[style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    background: url(https://i.pinimg.com/originals/21/19/51/211951be164955389aa932a88fdca162.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    transition: 0.5s;
+}
+
+[style="padding: 10px; text-align: center; margin-top: 10px;"]:hover1 {
+    background-size: 125%;
+    transition: 0.5s;
+}
+
+.top_header,div.copyright {
+    background-color: #090909f2;
+    background-image: url(https://www.transparenttextures.com/patterns/black-orchid.png);
+    height: 45px;
+}
+
+
+
+.top_menu {
+    display: block;
+    margin-top: -15px;
+    width: 90%;}
+
+[href="./"]:after {
+    content: 'Выйти';
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    font-size: 20px;
+    color: #c62b2c;
+    position: absolute;
+    right: 35px;
+    top: 5px;
+}
+
+
+[src="./images/logo_new.png"] {display: none;}
+
+button.btn.btn-primary,button.button_down {
+    background: transparent;
+    border: none;
+}
+
+
+
+
+div#lefthome {
+    width: 30%;
+}
+
+
+
+
+
+.blog_leftprofile {
+    display: none;
+}
+
+li.p-1 {
+    transform: rotate(
+357deg
+);
+}
+li.p-1 a,ul.seBlogCategoryList a,ul.seBlogCategoryList {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    font-size: 14px;
+    color: #a7adaf !important;
+}
+
+.gifts-list {
+    font-size: 0px;
+}
+
+.gifts-list:hover:before {
+    transform: translateX(-110%);
+    transition: 1s;
+}
+.gifts-list:before {
+    content: 'X';
+    font-size: 185px;
+    position: absolute;
+    top: 0px;
+    padding-left: 35%;
+    color: #b8b8b7;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    width: 100%;
+    background-color: #5c5c5c;
+    background-image: url(https://www.transparenttextures.com/patterns/rocky-wall.png);
+    border: 1px solid #7e7e7e;
+    transition: 1s;
+    overflow: hidden;
+}
+
+
+.card-body {
+    padding: 0px;
+    padding-left: 20px;
+}
+
+
+
+
+
+ul.seBlogCategoryList {
+    padding: 0px;
+}
+
+
+input[type="text"] {
+    background: #b8b8b7;
+    border: none;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    transform: rotate(
+1.3deg
+);
+    margin-top: 15px;
+    color: #c62b2c;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date a {
+    display: none;
+}
+
+
+.profile_comment_author a {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #51858e;
+    transform: rotate( 
+-2deg
+ );
+    display: block;
+    font-size: 17px;
+}
+
+.profile_comment_body {
+    color: black;
+    font-size: 15px;
+}
+
+.profile_comment_author {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -120px;
+}
+
+[style="margin-top: 10px; margin-bottom: 20px;"] {
+    margin-top: 70px !important;
+    margin-bottom: 0px !important;
+}
+
+[style="float: left; text-align: center; width: 110px;"] {
+    margin-top: 5px;
+}
+
+.profile_comment_date {
+    position: absolute;
+    right: 30px;
+}
+
+.seBlogComments [valign="top"] a {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #51858e;
+}
+
+.profile_comment_links a {
+    color: #515151;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.profile_comment_links {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    font-size: 0px;
+}
+
+[id^="comment_"] {
+    margin-top: 10px;
+}
+
+.profile_comment_links a, div#comment_subscribe, input#comment_submit,textarea#comment_body {
+    outline: none !important;
+    background: transparent;
+}
+
+.comment_headline {
+    border: none;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.profile_postcomment,div#postcomment_userphotos {
+    border: none !important;
+}
+
+input#comment_submit {
+    background: transparent;
+    border: none;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    font-size: 25px;
+    color: #676767;
+}
+
+div#user_status {
+    margin: auto;
+}
+
+
+textarea#comment_body {
+    border: none;
+    border-radius: 0px;
+    background: #cacaca;
+}
+
+img.img-thumbnail {
+    background: transparent;
+    border: none;
+}
+
+.userphoto_selected {
+    background: #51858e;
+}
+
+.additional_info.pl-3, .additional_info.pl-3 a {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #707070;
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: line-through !important;
+}
+
+
+button#newupdates:focus,button.button_down:focus {
+    outline: none !important;
+}
+
+[src="/images/button_down.svg"] {
+    display: none;
+}
+
+
+[src="/images/notify.svg"] {
+    filter: invert(1) opacity(0.3);
+}
+
+div.menu_dropdown {
+    border-radius: 0px !important;
+    background-color: #5a5a5a !important;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png) !important;
+    border: none !IMPORTANT;
+}
+
+a.menu_item {
+    background: transparent !important;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #b9b9b8 !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+
+.post:before {
+    content: url(https://beon.vip/uploads_image/4c/84/4c84a6e62c0e949a40b2ecb58c85a931.png);
+    position: absolute;
+    display: block;
+    top: -65px;
+    border-radius: 20px;
+    overflow: hidden;
+    left: 5px;
+    height: 80px;
+    filter: drop-shadow(-10px 0px 2px #00000078);
+}
+
+
+.post:after {
+    content: url(https://beon.vip/uploads_image/4c/84/4c84a6e62c0e949a40b2ecb58c85a931.png);
+    position: absolute;
+    display: block;
+    top: -65px;
+    right: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 80px;
+    filter: drop-shadow(-10px 0px 2px #00000078);
+}
+
+.card.mb-2.post_home:first-child .post:before {
+    height: 60px;
+    top: -53px;
+}
+
+.card.mb-2.post_home:first-child .post:after {
+    height: 60px;
+    top: -53px;
+}
+
+.card.mb-2.post_home {margin-top: 50px;}
+
+@media screen and (min-width: 1920) {
+[style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    background-size: cover;
+    height: 555px;
+    background-position: 0 -100px;}}
+
+div#lefthome:before {
+    content: 'Сдохнуть';
+    position: absolute;
+    margin-top: -45px;
+    background: #141414e8;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #d92224;
+    width: 24%;
+    border-radius: 0 10px 0 0;
+    font-size: 30px;
+    background-color: #000000f2;
+    background-image: url(https://www.transparenttextures.com/patterns/lined-paper.png);
+}
+
+a.page-link,a.page-link:hover {
+    right: 10px;
+    background: #151515 !important;
+    border-radius: 5px !important;
+    color: #7f7f7f;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
+
+div#designs {
+    position: absolute !important;
+    right: 10px !important;
+    color: #6f6f6f !important;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
+
+.seBlogComments>div {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    background-image: url(https://www.transparenttextures.com/patterns/lined-paper.png);
+    box-shadow: inset 0 0 5px #000000ad;
+}
+
+[id$="_postcomment"] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.seBlogComments {
+    position: sticky;
+    margin-top: 40px;
+}
+
+.seBlogComments:before {
+    content: url(https://beon.vip/uploads_image/4c/84/4c84a6e62c0e949a40b2ecb58c85a931.png);
+    position: absolute;
+    display: block;
+    top: -55px;
+    left: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 62px;
+    filter: drop-shadow(-10px 0px 2px #00000078);
+}
+
+.seBlogComments:after {
+    content: url(https://beon.vip/uploads_image/4c/84/4c84a6e62c0e949a40b2ecb58c85a931.png);
+    position: absolute;
+    display: block;
+    top: -55px;
+    right: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 62px;
+    filter: drop-shadow(-10px 0px 2px #00000078);
+}
+
+.modal-header,.modal-footer {
+    border: none;
+}
+
+.modal-content,.modal-header {
+    border-radius: 10px;
+}
+
+.modal-header {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #b7b7b7;
+}
+
+button.btn.btn-secondary {
+    background: transparent;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #b7b7b7;
+}
+
+.modal-body {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
+
+.comment_headline {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #969696;
+}
+
+.comment_headline a {
+    color: #51858e;
+}
+
+
+a.copyright {
+    background: transparent;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #7a7a7a !important;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    position: fixed;
+    right: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: url(https://beon.vip/uploads_image/4c/84/4c84a6e62c0e949a40b2ecb58c85a931.png) center no-repeat;
+    background-size: 100%;
+    border-radius: 20px !important;
+    overflow: hidden;
+    min-height: 100px !important;
+}
+::-webkit-scrollbar-track {
+    background-color: #151515;
+    border-radius: 20px;
+}
