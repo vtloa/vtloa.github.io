@@ -357,3 +357,7 @@ a.page-link, a.page-link:hover {
 .copyright a, .copyright {
     color: #8e8e8e;
 }
+
+button.btn.btn-outline-success:hover {
+    background: transparent;
+}
