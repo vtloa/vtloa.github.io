@@ -317,9 +317,6 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     background: transparent;
 }
 
-.profile_postcomment {
-    border: none !important;
-}
 
 div.profile_comment_body {
     max-width: 100% !important;
