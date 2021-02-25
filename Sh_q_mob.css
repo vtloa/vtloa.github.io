@@ -272,4 +272,11 @@ button.btn.btn-secondary {
 [id^="comment_"] {
     margin-top: 50px;
 }
+input#comment_submit {
+    font-size: 14px;
+}
+}
+
+.profile_postcomment {
+    border: none;
 }
