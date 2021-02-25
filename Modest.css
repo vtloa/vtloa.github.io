@@ -52,7 +52,9 @@ body {
 }
 
 
-
+.post_image img {
+    border-radius: 5px;
+}
 
 table.body {
     width: 100%;
