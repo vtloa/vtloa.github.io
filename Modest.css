@@ -439,7 +439,7 @@ ul.seBlogCategoryList {
 
 div.menu_dropdown {
     border-radius: 5px;
-    border: 2px solid #383838;
+    border: 2px solid #383838 !important;
     background-color: #e09d0d !important;
     background-image: url(https://www.transparenttextures.com/patterns/diagonales-decalees.png) !important;
 }
