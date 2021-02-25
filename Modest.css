@@ -323,12 +323,13 @@ div.profile_comment_body {
 }
 
 .profile_postcomment {
-    border-radius: 5px 5px 5px 5px !important;
-    box-shadow: 5px 5px 5px #00000073 !important;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px #00000073;
     border: 2px solid #383838 !important;
-    margin-bottom: 10px !important;
-    background-color: #a6a6a6 !important;
-    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png) !important;
+    border-top: 0px !IMPORTANT;
+    margin-bottom: 10px;
+    background-color: #a6a6a6;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
 }
 
 .comment_headline {
