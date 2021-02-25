@@ -278,5 +278,5 @@ input#comment_submit {
 }
 
 .profile_postcomment {
-    border: none;
+    border: none !important;
 }
