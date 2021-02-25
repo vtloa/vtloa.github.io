@@ -366,3 +366,27 @@ button.btn.btn-outline-success:hover {
 textarea#comment_body {
     border: 1px solid #5d5d5d;
 }
+
+.modal-header {
+    padding: 5px;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    background: #e09d0d;
+    padding: 1px;
+    box-shadow: -3px 3px 9px #00000075;
+    padding-left: 5px;
+    background-color: #e09d0d;
+    background-image: url(https://www.transparenttextures.com/patterns/diagonales-decalees.png);
+    border: 2px solid #383838;
+    color: #383838;
+}
+
+.modal-body {
+    background-color: #404040;
+    background-image: url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png);
+}
+
+.modal-footer {
+    background-color: #404040;
+    background-image: url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png);
+    border: none;
+}
