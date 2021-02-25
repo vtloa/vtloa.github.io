@@ -299,7 +299,7 @@ div#designs {
 div#righthome {border-radius: 10px;}
 div#designs {
     width: 70px;
-    height: 80px;
+    height: 80px !important;
 }}
 
 div#mobile_photo_wrap {
