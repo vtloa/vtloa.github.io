@@ -361,3 +361,8 @@ a.page-link, a.page-link:hover {
 button.btn.btn-outline-success:hover {
     background: transparent;
 }
+
+
+textarea#comment_body {
+    border: 1px solid #5d5d5d;
+}
