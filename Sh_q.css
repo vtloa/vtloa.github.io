@@ -544,6 +544,10 @@ a.copyright {
     color: #7a7a7a !important;
 }
 
+.gifts-list {
+    min-height: 160px;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
     position: fixed;
