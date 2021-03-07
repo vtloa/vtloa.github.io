@@ -272,4 +272,8 @@ button.btn.btn-secondary {
     font-size: 11px;
 }
 
+div.profile_comment_body a {
+    color: #a2a2a2 !important;
+}
+
 @media screen and (max-width: 1024px) {* {font-family: sans-serif !important;}}
