@@ -390,6 +390,5 @@ td.profile_rightside {
     filter: grayscale(1);
 }
 
-* {
-    font-family: sans-serif !important;
-}
+
+@media screen and (max-width: 1024px) {* {font-family: sans-serif !important;}}
