@@ -390,5 +390,9 @@ td.profile_rightside {
     filter: grayscale(1);
 }
 
+.updatesWrap a {
+    color: #d1342b;
+}
+
 
 @media screen and (max-width: 1024px) {* {font-family: sans-serif !important;}}
