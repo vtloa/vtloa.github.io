@@ -1,0 +1,331 @@
+@font-face {
+font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+    
+    src:    url('https://nomail.com.ua/files/eot/ff0993442e48a4cd3678b32f3a456061.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/ff0993442e48a4cd3678b32f3a456061.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/ff0993442e48a4cd3678b32f3a456061.woff2') format('woff2');
+}
+
+@font-face { font-family: 'FuturisCyrillic';  src: local('FuturisCyrillic'), url('https://nomail.com.ua/files/woff/ff0993442e48a4cd3678b32f3a456061.woff') format('woff'); }
+
+
+
+
+@font-face {
+font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    
+    src:    url('https://nomail.com.ua/files/eot/14ec5c31e12651a7586d103967b6bd99.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/14ec5c31e12651a7586d103967b6bd99.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/14ec5c31e12651a7586d103967b6bd99.woff2') format('woff2');
+}
+
+@font-face { font-family: 'ZrnicCyr-Normal';  src: local('ZrnicCyr-Normal'), url('https://nomail.com.ua/files/woff/14ec5c31e12651a7586d103967b6bd99.woff') format('woff'); }
+
+
+
+
+
+
+a,h6.card-subtitle.mb-2.text-muted.post_date,additional_info.pl-3 {
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+}
+
+
+body {
+    background: url(https://i.pinimg.com/originals/fc/14/19/fc1419eb1da88cb9fdcc769f8bf79223.png) no-repeat fixed;
+    background-size: contain;
+    background-color: #d8332a;
+}
+
+.top_header {
+    background: #181818;
+    height: 40px;
+}
+
+.content {
+    width: 50% !important;
+    border-radius: 20px;
+}
+
+.content, div#lefthome,.top_header,.modal-content {
+    box-shadow: 0 5px 14px #000000b5;
+    background-color: #181818;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);}
+
+li.p-1 {display: block;}
+
+.card-body,.seBlogColumnRightPadding,.content,.card-header,div#righthome{padding: 0px !important; padding: 0px;}
+.card-header {display: none;}
+
+.post_container .post_text img {max-width: 100%;}
+
+div#lefthome {
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    top: 100px;}
+
+[src="./images/logo_new.png"] {display: none;}
+
+button.btn.btn-primary,button.button_down {background: transparent;}
+
+
+.post {padding: 20px;}
+
+h2.card-title {font-size: 25px;}
+
+a.page-link {
+    border-radius: 0px !important;
+    background: #181818 !important;}
+
+div#designs {
+    left: 5px;
+    width: fit-content;
+    color: #303030 !important;
+    bottom: -20px !important;
+    text-transform: uppercase;
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';}
+
+.post_text.pl-3,h2.card-title a {color: #d32c27;}
+
+.additional_info.pl-3,
+.additional_info.pl-3 a,
+h6.card-subtitle.mb-2.text-muted.post_date,
+h6.card-subtitle.mb-2.text-muted.post_date a,
+[style="font-size: 11px; color: #333333; word-break: break-word; width: 100px; text-align: center;"],
+.seBlogColumnRightPadding a,
+.seBlogComments a,
+.profile_comment_date {color: #353535 !important;}
+
+font.disabled {color: #353535 !important; font-family: 'fontff0993442e48a4cd3678b32f3a456061';}
+
+
+.gifts-list {font-size: 0px;}
+
+.seBlogColumnRightPadding {text-align: center;}
+
+.blog_leftsearch {padding-left: 20%;}
+
+input[type="text"] {background: transparent;}
+
+td.top_menu {
+    margin-top: -17px;
+    display: block;
+    width: 100%;}
+
+a.top_menu_item, button.btn.btn-primary {
+    color: #d32c27 !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';}
+
+.seBlogComments [valign="top"] a {color: #d32c22;}
+
+.seBlogComments [valign="top"] {padding: 10px;}
+
+.seBlogComments {color: #d32c24;}
+
+.profile_comment_links {color: transparent;}
+
+.comment_headline {
+    margin-top: 30px;
+    background: transparent;}
+
+
+
+html {overflow-x: hidden;}
+
+div#lefthome:hover {
+    transform: translateX(0);
+    transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);}
+
+div#lefthome {
+    transform: translateX(75%);
+    transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);
+    border-radius: 20px 0px 0px 20px;}
+
+div#lefthome:hover .seBlogColumnRightPadding {
+    opacity: 1;
+    transition: 0.3s;}
+
+.seBlogColumnRightPadding {
+    opacity: 0;
+    transition: 0.3s;}
+
+div#lefthome:before {
+    content: 'menu';
+    position: absolute;
+    color: #181818;
+    left: -38px;
+    top: 20%;
+    padding-left: 2px;
+    background: #e93a30;
+    width: 60px;
+    border-radius: 10px 5px 5px 10px;
+    box-shadow: 1px 9px 13px #0000005c;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #e93a30;
+    background-image: url(https://www.transparenttextures.com/patterns/egg-shell.png);
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';}
+
+[src="/images/notify.svg"] {
+    filter: invert(1);
+    width: 21px;
+    margin-top: 3px;
+    opacity: 0.2;}
+
+[src="/images/button_down.svg"] {opacity: 0.2;}
+
+.post_image a img,img.photo {border-radius: 5px;}
+
+input#comment_submit {
+    background-color: #e93a30;
+    background-image: url(https://www.transparenttextures.com/patterns/egg-shell.png);
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-shadow: 2px 1px 7px black;
+    padding-bottom: 0px;
+    font-weight: bold;}
+
+textarea#comment_body:focus {background: #757575;}
+textarea#comment_body {background: #343333;}
+
+img.photo,
+.card,button.btn.btn-primary,
+button.button_down,
+.comment_headline,
+div#postcomment_userphotos,
+.profile_postcomment,
+textarea#comment_body,
+img.img-thumbnail,.modal-header,
+.modal-footer,.modal-header,
+.modal-footer,
+button.btn.btn-secondary,
+div.menu_dropdown,
+.comment_headline,input#comment_submit {border: none !important; border: none;}
+
+
+.profile_comment_author {border-bottom: 1px solid #353535;}
+
+blockquote.blockquote {
+    background: #1e1e1e;
+    border-color: #dd2f28;}
+
+div#user_status {margin: auto;}
+
+[style="margin-top: 10px; margin-bottom: 20px;"] {margin-top: 20px !important;}
+
+.copyright a {
+    color: #d8332a !important;
+    text-shadow: 1px 1px 2px black;}
+
+img.img-thumbnail {
+    background: transparent;
+    border-radius: 7px;}
+
+.userphoto_selected {
+    background: transparent;
+    outline: 1px solid #d8332a;}
+
+a.page-link,a.page-link:hover {
+    margin-top: 10px;
+    border-radius: 20px !important;
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    font-size: 17px;
+    color: #303030;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.modal {
+    background: #0000009c !important;
+}
+
+
+
+.modal-header, .modal-footer {
+    color: #d32c27;
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    text-transform: uppercase;
+}
+
+button.btn.btn-secondary {
+    background-color: #e93a30;
+    background-image: url(https://www.transparenttextures.com/patterns/egg-shell.png);
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: black;
+}
+
+button#newupdates:focus {
+    outline: none;
+}
+
+img.fl_l {
+    border-radius: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    display: block;
+    background: #d8332a;
+}
+::-webkit-scrollbar-track {
+    background: #181818;
+}
+
+.gifts-list img:hover {
+    filter: grayscale(0) brightness(0.9);
+}
+.gifts-list img {
+    filter: grayscale(1) brightness(0.2);
+}
+img.menu_icon2 {
+    display: none;
+}
+
+a.menu_item {
+    background: transparent !important;
+}
+
+div.menu_dropdown a {
+    color: #6f6f6f !important;
+    transition: 0.1s;
+}
+div.menu_dropdown {
+    background: #181818 !important;
+    text-transform: uppercase;
+    font-size: 11px;
+    box-shadow: 2px 4px 11px #00000091;
+    overflow: hidden;
+}
+
+.menu_item_dropdown a.menu_item:hover {
+    background: #2f2f2f !important;
+    color: #e3e3e3 !important;
+    transition: 0.1s;
+}
+
+.seBlogColumnRightPadding a:hover,
+h6.card-subtitle.mb-2.text-muted.post_date a:hover,
+.additional_info.pl-3 a:hover,
+.profile_comment_author a:hover,
+.profile_comment_links a:hover,
+.comment_headline a:hover {
+    color: #7f7f7f !important;
+    transition: 0.1s;
+    text-decoration: unset;
+}
+
+p.card-link {
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+}
