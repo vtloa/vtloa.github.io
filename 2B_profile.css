@@ -164,3 +164,7 @@ td.profile_rightside {
 .profile_field_value a {
     filter: grayscale(1);
 }
+
+.updatesWrap a {
+    color: #d1342b;
+}
