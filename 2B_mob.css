@@ -154,12 +154,10 @@ div#designs {
     height: 20px !important;
     color: transparent !important;
 }
-.additional_info.pl-3 a {
-    padding-left: 10px;
-}
+
 .additional_info.pl-3 {
-    display: flex;
-}}
+    font-size: 11px;}
+}
 
 
 
