@@ -1,0 +1,164 @@
+* {
+    border: none !important;
+}
+
+td.profile_menu1 a {
+    background: transparent !important;
+    color: #d32c27;
+}
+
+img.icon {
+    display: none;
+}
+
+.he_styler_customize_btn {
+    display: none;
+}
+
+.profile_tab2 a, .profile_tab2 a:hover {
+    color: black;
+    border-radius: 5px 5px 0 0;
+    background: transparent !important;
+    background-color: #d8332a !important;
+}
+
+.profile_tab a,.profile_tab a:hover {
+    background: transparent !important;
+    color: #353535;
+}
+
+td.header,td.profile,
+div#profile_profile,
+td.profile a,
+.profile_friend_options a,.profile_friend_details,
+.profile_blogentry_body,
+.album_item {color: #424242;font-family: 'fontff0993442e48a4cd3678b32f3a456061';}
+
+.browse_friends_result {
+    background: transparent !important;
+    color: #424242;
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+}
+
+.profile_friend_name a {
+    color: #d8332a !important;
+    border-bottom: 1px solid #d8332a !important;
+}
+
+[onclick="SocialEngine.Viewer.userStatusChange(); return false;"],
+div#profile_profile a,
+div#profile_friends_searchbox_link a,
+div.comment_headline a,
+.album_item_title a {color: #d8332a !important;}
+
+.page_header {display: none;}
+
+.profile_content {padding-left: 0px !important;}
+
+.gift-row a {
+    color: #484848;
+}
+.gift-row {
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+    color: #3a3a3a;
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+}
+.gift-row img {
+    max-width: 42px;
+}
+
+[href^="https://beon.vip/mf_gifts_user"],.profile_blogentry a {
+    color: #d8332a !important;
+}
+
+img.button {
+    display: none;
+}
+
+
+
+td.profile_leftside {
+    transform: translateX(75%);
+    transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);
+    border-radius: 20px 0px 0px 20px;
+}
+
+td.profile_leftside {
+    background-color: #181818;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+}
+
+td.profile_leftside {
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    top: 100px;
+}
+
+td.profile_leftside a, td.profile_leftside div, td.profile_leftside td {
+    opacity: 0;
+}
+
+td.profile_leftside:hover {
+    transform: translateX(0);
+    transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);
+}
+
+td.profile_leftside:hover td, td.profile_leftside:hover a, td.profile_leftside:hover div {
+    opacity: 1;
+    transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);
+}
+
+td.profile_leftside:before {
+    content: 'menu';
+    position: absolute;
+    color: #181818;
+    left: -38px;
+    top: 20%;
+    padding-left: 2px;
+    background: #e93a30;
+    width: 60px;
+    border-radius: 10px 5px 5px 10px;
+    box-shadow: 1px 9px 13px #0000005c;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #e93a30;
+    background-image: url(https://www.transparenttextures.com/patterns/egg-shell.png);
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+}
+
+td.profile_rightside {
+    padding-top: 10px !important;
+}
+
+.recentaction_div,.profile_blogentry_body {
+    background: #1e1e1e;
+}
+
+.profile_comment_body {
+    color: #d8332a;
+}
+
+.profile_comment_author a{
+    border-bottom: 1px solid #353535;
+    color: #353535 !important;
+}
+
+.profile_comment_links {
+    color: transparent;
+}
+.profile_comment_links a {
+    color: #353535;
+}
+
+
+.profile_field_value:hover,.recentaction_div:hover, .profile_blogentry_body:hover {
+    color: #686868;
+    transition: 0.1s;
+}
+
+.profile_field_value a {
+    filter: grayscale(1);
+}
