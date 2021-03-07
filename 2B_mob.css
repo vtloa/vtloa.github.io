@@ -188,7 +188,7 @@ div#mobile_photo img {
 #mobile_menu button.btn.btn-primary {
     color: #d8332a;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 11px !important;
 }
 
 img.menu_icon2 {
