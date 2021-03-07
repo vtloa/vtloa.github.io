@@ -346,3 +346,7 @@ div.profile_comment_body a {
 .updatesWrap a {
     color: #d1342b;
 }
+
+a:hover {
+    text-decoration: unset !important;
+}
