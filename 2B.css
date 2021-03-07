@@ -329,3 +329,12 @@ h6.card-subtitle.mb-2.text-muted.post_date a:hover,
 p.card-link {
     font-family: 'fontff0993442e48a4cd3678b32f3a456061';
 }
+
+[href="./"]:before {
+    content: 'BEON';
+    display: block;
+    padding-bottom: 5px;
+    color: #d32c27;
+    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    font-size: 20px;
+}
