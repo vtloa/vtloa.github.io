@@ -106,6 +106,8 @@ td.profile_leftside:hover {
     transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);
 }
 
+td.profile_leftside td, td.profile_leftside a, td.profile_leftside div {transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);}
+
 td.profile_leftside:hover td, td.profile_leftside:hover a, td.profile_leftside:hover div {
     opacity: 1;
     transition: 0.4s cubic-bezier(1, -0.02, 0.58, 1);
