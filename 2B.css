@@ -342,3 +342,7 @@ p.card-link {
 div.profile_comment_body a {
     color: #a2a2a2 !important;
 }
+
+.updatesWrap a {
+    color: #d1342b;
+}
