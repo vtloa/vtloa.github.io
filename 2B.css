@@ -338,3 +338,7 @@ p.card-link {
     font-family: 'font14ec5c31e12651a7586d103967b6bd99';
     font-size: 20px;
 }
+
+div.profile_comment_body a {
+    color: #a2a2a2 !important;
+}
