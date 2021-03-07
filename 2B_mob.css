@@ -60,7 +60,7 @@ input[type="text"] {background: transparent;}
 
 a.page-link, a.page-link:hover {
     margin-top: 10px;
-    border-radius: 20px;
+    border-radius: 20px !important;
     font-size: 17px;
     color: #303030;
     text-transform: uppercase;
@@ -150,9 +150,9 @@ table.body {
 div#designs {
     clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
     background: #c02d25;
-    width: 20px;
-    height: 20px;
-    color: transparent;
+    width: 20px !important;
+    height: 20px !important;
+    color: transparent !important;
 }
 .additional_info.pl-3 a {
     padding-left: 10px;
