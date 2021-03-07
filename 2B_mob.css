@@ -171,7 +171,7 @@ div#designs {
 }
 
 div#mobile_photo_wrap {
-    background: url(https://i.pinimg.com/originals/fc/14/19/fc1419eb1da88cb9fdcc769f8bf79223.png) no-repeat;
+    background: url(https://i.pinimg.com/originals/fc/14/19/fc1419eb1da88cb9fdcc769f8bf79223.png) no-repeat bottom left;
     background-size: contain;
     background-color: #d8332a;
     padding-top: 100px;
