@@ -389,3 +389,7 @@ td.profile_rightside {
 .profile_field_value a {
     filter: grayscale(1);
 }
+
+* {
+    font-family: sans-serif !important;
+}
