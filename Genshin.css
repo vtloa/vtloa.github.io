@@ -675,3 +675,7 @@ h2.card-title a:before {
     outline-offset: -5px;
     border-radius: 3px;
 }
+
+.post_text.pl-3 a {
+    color: #d7b184;
+}
