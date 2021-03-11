@@ -174,7 +174,7 @@ button.btn.btn-secondary:hover {
     font-size: 20px;
     background: linear-gradient(74deg, #152259, #171b34e3);
     border-radius: 3px;
-    box-shadow: 0 0 17px black;
+    box-shadow: 0 0 10px #1a2144;
     font-family: 'font101256d71b969fdd74e50f9f556e352c';
 }
 
