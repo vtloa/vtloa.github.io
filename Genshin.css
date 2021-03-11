@@ -517,12 +517,11 @@ img.photo {
 }
 
 .profile_comment_author {
-    background: #3b4150;
+    background: #c3b5a4;
     border-radius: 3px 0px 0px 3px;
     padding: 2px !important;
     height: 24px;
     padding-right: 7px !important;
-    font-family: 'font101256d71b969fdd74e50f9f556e352c';
 }
 
 
@@ -536,12 +535,11 @@ img.photo {
 .profile_comment_date {
     text-align: left !important;
     font-size: 14px !important;
-    background: #3b4150;
+    background: #c3b5a4;
     height: 24px;
     border-radius: 0px 3px 3px 0px;
-    color: #a7a7a7 !important;
+    color: #ffffff !important;
     padding: 2px !important;
-    font-family: 'font101256d71b969fdd74e50f9f556e352c';
     width: max-content;
     max-width: max-content;
     display: flex;
