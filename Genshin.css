@@ -301,7 +301,7 @@ h2.card-title {
     margin-top: 20px;
 }
 
-div#comment_subscribe,textarea#comment_body,input#comment_submit,.commentEditLink,.commentDeleteLink {
+div#comment_subscribe,textarea#comment_body,input#comment_submit,.commentEditLink,.commentDeleteLink,a#comment_next_page_bottom {
     padding: unset;
     padding-left: 0px;
     background: transparent;
