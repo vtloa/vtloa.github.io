@@ -232,7 +232,7 @@ button.btn.btn-secondary:hover {
 }
 
 
-.card.mb-2.post_home:nth-child(2) .post_container:before {
+.card.mb-2.post_home:nth-child(3) .post_container:before {
     content: 'New';
     position: absolute;
     right: 4%;
