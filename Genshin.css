@@ -656,3 +656,22 @@ h2.card-title a:before {
 ::-webkit-scrollbar-track {
     background: #434a5d;
 }
+
+
+
+.group_desc {
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    color: #73767d;
+    font-family: 'font101256d71b969fdd74e50f9f556e352c';
+    padding-top: 9px;
+    height: 40px;
+    background: #f4eee8;
+    outline: 1px dashed #d6cdc4;
+    outline-offset: -5px;
+    border-radius: 3px;
+}
