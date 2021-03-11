@@ -96,7 +96,7 @@ h2.card-title {
     text-align: center;
 }
 
-h2.card-title a, .post, h6.card-subtitle.mb-2.text-muted.post_date a, .profile_comment_links a {
+h2.card-title a, .post, h6.card-subtitle.mb-2.text-muted.post_a, .profile_comment_links a {
     color: #73767d !important;
 }
 
@@ -167,7 +167,7 @@ div#comment_subscribe a {
     margin-left: 10px;
 }
 .profile_comment_author {
-    background: #3b4150;
+    background: #c3b5a4;
     border-radius: 3px 0px 0px 3px;
     padding: 2px !important;
     height: 24px;
@@ -177,10 +177,10 @@ div#comment_subscribe a {
 .profile_comment_date {
     text-align: left !important;
     font-size: 14px !important;
-    background: #3b4150;
+    background: #c3b5a4;
     height: 24px;
     border-radius: 0px 3px 3px 0px;
-    color: #a7a7a7 !important;
+    color: #ffffff !important;
     padding: 2px !important;
     width: max-content;
     max-width: max-content;
