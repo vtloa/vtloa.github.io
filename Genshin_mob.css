@@ -226,6 +226,9 @@ input#comment_submit {
 input#comment_submit {
     width: 185px !important;
     font-size: 12px !important;
+}
+* {
+    font-family: sans-serif;
 }}
 
 .profile_comment_author a {
@@ -292,4 +295,11 @@ img.menu_icon2 {
 div#mobile_menu button.btn.btn-primary {
     background: linear-gradient(138deg, #a762a0, #193a99) !important;
     color: white;
+}
+
+.seBlogComments [valign="top"] a {
+    margin: auto;
+    color: #d7b184;
+    font-weight: 100;
+    text-transform: lowercase;
 }
