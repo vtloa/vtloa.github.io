@@ -1,0 +1,295 @@
+body {
+    background: url(https://assets-prd.ignimgs.com/2021/01/22/50859450942-0eeb7197fd-o-1611343121786.jpg) fixed;
+    background-size: cover;
+}
+#righthome {
+    border-radius: 15px;
+    background-color: #e5ded6;
+    background-image: url(https://www.transparenttextures.com/patterns/inspiration-geometry.png);
+    margin: auto;
+    border: 7px double #d1c3b38a;
+    padding-bottom: 10px;
+}
+
+.bg-light {
+    background: linear-gradient(45deg, #162256, #1a2244);
+    border: none;
+    border-bottom: 6px double #131e4d;
+}
+
+.blog_leftphoto img {
+    content: url(https://i.pinimg.com/originals/55/ad/f8/55adf8333940908c7bdc19d13d9fd521.png);
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    filter: drop-shadow(2px 4px 6px black) contrast(1.1) saturate(1.4);
+}
+
+.card,.comment_headline,.profile_postcomment,#postcomment_userphotos,.img-thumbnail {
+    border: none !important;border: none;
+}
+
+li.p-1 {
+    display: block;
+}
+
+.blog_leftprofile {
+    font-size: 20px;
+    background: linear-gradient(74deg, #152259, #171b34e3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #1a2144;
+}
+
+.card-header, .modal-header {
+    padding: 5px;
+    background: url(https://www.transparenttextures.com/patterns/white-wall-3-2.png),linear-gradient(45deg, #1077d0, #4793d5);
+    border-bottom: 6px double #326591;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 3px 3px 0 0 !important;
+}
+
+.card.mt-3.blog_leftmenu .card-body, .blog_leftsearch .card-body, .card.blog_categories .card-body, .card.group_members .card-body {
+    background: url(https://www.transparenttextures.com/patterns/skulls.png),linear-gradient(155deg, #3d3f86, #12a4b6);
+    background-color: #2975b6;
+    min-height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+li.p-1 a {
+    color: aliceblue !important;
+    font-size: 15px;
+}
+
+.blog_leftsearch input[type="text"] {
+    border: none;
+    background: #8a98d11f;
+    border-radius: 3px;
+}
+
+.blog_leftprofile a {
+    color: #fff9f1;
+}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_image/cb/da/cbda2819ed8ee79600bbf228dd3a9b00.png);
+    filter: invert(1)brightness(0.8);
+}
+[src="/images/notify.svg"] {
+    filter: invert(1);
+    opacity: 0.7;
+}
+
+
+
+.post_container {
+    background: #f4eee8;
+    outline: 1px dashed #d6cdc4;
+    outline-offset: -5px;
+    border-radius: 3px;
+}
+
+h2.card-title {
+    border-bottom: 1px solid #cbc7c1;
+    text-align: center;
+}
+
+h2.card-title a, .post, h6.card-subtitle.mb-2.text-muted.post_date a, .profile_comment_links a {
+    color: #73767d !important;
+}
+
+.additional_info.pl-3 a {
+    color: #cdab84;
+}
+button.navbar-toggler {
+    border: none;
+    filter: invert(1);
+}
+button.btn.btn-outline-success {
+    background: transparent;
+    border: none;
+    color: #b1b3b9;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button.btn.btn-primary.btn-block.btn-post {
+    background: #434a5d;
+    border-radius: 20px;
+    color: #e5ded6 !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+button.btn.btn-primary {
+    background: transparent;
+    border: none;
+}
+
+[id^="comment_"] {
+    padding: 5px;
+    padding-left: 10px;
+    background: #f4eee8;
+    outline: 1px dashed #d6cdc4;
+    outline-offset: -5px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+div#comment_subscribe, textarea#comment_body, input#comment_submit, .commentEditLink, .commentDeleteLink {
+    padding: unset;
+    padding-left: 0px;
+    background: transparent;
+    outline: none;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.comment_headline {
+    margin-top: 20px;
+    border: none;
+    background: transparent;
+    border-top: 1px solid #cbc7c1;
+    border-radius: 0px;
+    color: #73767d;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+div#comment_subscribe a {
+    margin-left: 10px;
+    color: #cdab84;
+}
+
+.profile_comment_author, div.profile_comment_body {
+    margin-left: 10px;
+}
+.profile_comment_author {
+    background: #3b4150;
+    border-radius: 3px 0px 0px 3px;
+    padding: 2px !important;
+    height: 24px;
+    padding-right: 7px !important;
+}
+
+.profile_comment_date {
+    text-align: left !important;
+    font-size: 14px !important;
+    background: #3b4150;
+    height: 24px;
+    border-radius: 0px 3px 3px 0px;
+    color: #a7a7a7 !important;
+    padding: 2px !important;
+    width: max-content;
+    max-width: max-content;
+    display: flex;
+}
+
+input#comment_submit:hover {
+    filter: brightness(1.2);
+    transition: 0.3s;
+}
+input#comment_submit {
+    background: url(https://beon.vip/uploads_user/10000/9068/11126966d0eb70f839c2c02453ca1acc.png) no-repeat left 4px center;
+    background-color: #434a5d;
+    border-radius: 20px;
+    color: #e5ded6 !important;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 250px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px){
+.post {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+.post_container {
+    padding: 10px;
+    background: #f4eee8;
+    outline: 1px dashed #d6cdc4;
+    outline-offset: -5px;
+    border-radius: 3px;
+}
+.seBlogComments {
+    width: 95%;
+    margin: auto;
+}
+input#comment_submit {
+    width: 185px !important;
+    font-size: 12px !important;
+}}
+
+.profile_comment_author a {
+    color: #f0f0f0 !important;
+    font-weight: bold;
+}
+
+.profile_comment_links {
+    color: transparent;
+    font-size: 13px;
+}
+
+h2.card-title a, .post, h6.card-subtitle.mb-2.text-muted.post_date a, .profile_comment_links a {
+    color: #73767d !important;
+}
+
+textarea#comment_body {
+    padding: 20px;
+    background: #f4eee8;
+    outline: 1px dashed #d6cdc4;
+    outline-offset: -5px;
+    border-radius: 3px;
+}
+
+.userphoto_selected {
+    background: transparent;
+    border: 4px solid #cbc7c1;
+    border-radius: 4px;
+}
+
+div#mobile_photo_wrap {
+    background: url(https://beon.vip/uploads_user/10000/9068/90c277fc863a585dd976daf0374a2d28.png) no-repeat;
+    background-size: cover;
+}
+
+div#mobile_photo img {
+    height: 200px;
+    opacity: 0;
+}
+
+div#mobile_menu {
+    background-color: #e5ded6;
+    background-image: url(https://www.transparenttextures.com/patterns/inspiration-geometry.png);
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    color: #202129;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#mobile_menu .menu_item_dropdown a:hover {
+    background: #d8cec3;
+}
+
+div#mobile_menu button.btn.btn-primary {
+    background: linear-gradient(138deg, #a762a0, #193a99) !important;
+    color: white;
+}
