@@ -18,11 +18,16 @@ body {
 }
 
 .blog_leftphoto img {
-    content: url(https://i.pinimg.com/originals/55/ad/f8/55adf8333940908c7bdc19d13d9fd521.png);
+    opacity: 0;
+    height: 325px;
+}
+
+.blog_leftphoto {
+    background: url(https://i.pinimg.com/originals/55/ad/f8/55adf8333940908c7bdc19d13d9fd521.png) no-repeat center;
     border: none;
-    width: 100%;
     border-radius: 5px;
-    filter: drop-shadow(2px 4px 6px black) contrast(1.1) saturate(1.4);
+    filter: contrast(1.1) saturate(1.4);
+    background-size: contain;
 }
 
 .card,.comment_headline,.profile_postcomment,#postcomment_userphotos,.img-thumbnail {
