@@ -26,7 +26,6 @@ body {
     background: url(https://i.pinimg.com/originals/55/ad/f8/55adf8333940908c7bdc19d13d9fd521.png) no-repeat center;
     border: none;
     border-radius: 5px;
-    filter: contrast(1.1) saturate(1.4);
     background-size: contain;
 }
 
