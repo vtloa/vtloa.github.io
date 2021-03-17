@@ -148,3 +148,15 @@ a.page-link {
     color: #1b1a1a;
     font-weight: bold;
 }
+
+
+img.photo {
+    border: none;
+}
+
+div[id^="comment_"] {
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
