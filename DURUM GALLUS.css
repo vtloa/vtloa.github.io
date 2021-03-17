@@ -253,5 +253,8 @@ a.page-link {
     border-radius: 3px !important;
     font-size: 13px;
 }
+.card.mb-2.post_home {
+    margin-top: 20px;
+}
 
 }
