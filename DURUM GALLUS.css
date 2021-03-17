@@ -256,5 +256,7 @@ a.page-link {
 .card.mb-2.post_home {
     margin-top: 20px;
 }
-
+.additional_info.pl-3 a,.post_text.pl-3 a {
+    color: #4d618e;
+}
 }
