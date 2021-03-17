@@ -180,3 +180,73 @@ img.img-thumbnail {
 button.navbar-toggler,button.btn.btn-outline-success {
     border: none;
 }
+
+
+/*FIX*/
+
+div#user_status {
+    margin: auto;
+}
+
+.profile_comment_author a {
+    color: #cbcbcb;
+}
+
+blockquote.blockquote {
+    background: #222222;
+    border-color: #4d618e;
+}
+
+button.btn.btn-outline-success {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #747474;
+}
+
+.comment_headline {
+    background: #1b1a1a;
+    color: #cbcbcb;
+}
+
+.comment_headline {
+    background: #1b1a1a85;
+    color: #cbcbcb;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.profile_comment_links {
+    font-size: 13px;
+    color: transparent;
+}
+
+.profile_comment_links a,.profile_comment_date {
+    color: #474747 !important;
+}
+
+.comment_headline a {
+    color: #f2f2f2;
+}
+
+h2.card-title a {
+    color: #cbcbcb;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date, h6.card-subtitle.mb-2.text-muted.post_date a {
+    font-size: 14px;
+    color: #a9a7a7;
+}
+
+.category a {
+    color: #4d618e;
+}
+
+.post {
+    padding: 5px;
+}
+
+.seBlogComments [valign="top"] a {
+    color: #787878;
+}
+.seBlogComments [valign="top"] {
+}
