@@ -154,11 +154,13 @@ img.photo {
     border: none;
 }
 
+@media screen and (max-width: 1024px) {
 div[id^="comment_"] {
     margin-top: 20px;
     padding-top: 1px;
     padding-left: 5px;
     padding-bottom: 10px;
+}
 }
 
 
