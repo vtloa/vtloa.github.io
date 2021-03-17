@@ -130,3 +130,21 @@ text-align: center;
 text-decoration: unset;
 }
 
+a.page-link {
+    position: absolute;
+    right: 3px;
+    margin-top: -25px;
+    background: #1b1a1a;
+    color: aliceblue;
+    border-radius: 3px !important;
+}
+
+.bg-light [src="./images/logo_new.png"] {
+    display: none;
+}
+
+.bg-light [href="./"]::before {
+    content: 'DURUM GALLUS' !important;
+    color: #1b1a1a;
+    font-weight: bold;
+}
