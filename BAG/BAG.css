@@ -1,0 +1,88 @@
+[id^="comment_"] {width: 50% !important;}
+
+div#lefthome {display: none !important;}
+
+div#comment_user_status {display: none !important;}
+
+
+html {overflow-x: hidden !important;}
+
+[href="./"]:before {
+    content: 'beon' !important;
+    position: absolute !important;
+    font-size: 20px;
+    bottom: 2px;
+    left: 20px;
+    color: #e01c1c;
+    font-family: serif;
+    filter: drop-shadow(2px 4px 6px black);}
+
+.comment_headline {width: 30% !important;}
+
+
+[id^="comment_2"]::after {
+    font-size: 12px;
+    content: ' (' attr(id) ') ';
+    background-color: white;
+    margin-top: -20px;
+    display: block;
+    position: absolute;
+    margin-left: 29%;
+    border: 1px solid;}
+
+
+[style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/Asshole/"]:before {
+    content: '1+1=v3';
+    display: table-header-group;
+    background-color: #ff8eba4d;
+    font-size: 15px;}
+
+
+[style="margin-top: 10px; margin-bottom: 20px;"] {
+    display: grid !important;}
+
+[id^="comment_"] [style="overflow: hidden;"]{
+    background-color: #ffffff;
+    border: 1px outset;
+    width: 90% !important;}
+
+div#comment_user_status {background-color: white;}
+
+
+div#postcomment_userphotos {display: contents !important;}
+
+img.img-thumbnail {width: 100px !important;}
+
+.profile_comment_links, .profile_comment_links a {
+    color: #d8d9db !important;
+    text-shadow: initial;}
+
+
+
+
+td.top_menu {display: none !important;}
+.top_header {display: none !important;}
+.copyright,div#designs,button.btn.btn-primary,div#he_styler {display: none !important;}
+div#designs {display: none !important;}
+
+* {display: inline-table; color: red !important; text-shadow: 0 0 1px red;} 
+
+[id^="comment_1"] [style="overflow: hidden;"] {background-color: #ffffff;}
+
+[type="text/css"] {
+    color: transparent !important;
+    text-shadow: initial;
+    display: none !important;}
+
+
+
+[src="https://www.youtube.com/embed/_Zmz7Q_VFl0"] {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+.seBlogComments,.post,.card.p-1,.card-body {position: relative !important;}
