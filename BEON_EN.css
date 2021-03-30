@@ -1,0 +1,453 @@
+[onmouseover="showMenu('menu_dropdown_profile');"],
+[onmouseover="showMenu('menu_dropdown_blog');"],
+[onmouseover="showMenu('menu_dropdown_tests');"],
+[onmouseover="showMenu('menu_dropdown_groups');"],
+[onmouseover="showMenu('menu_dropdown_messages');"],
+[onclick="window.location.href='/user_blog_entry.php';"] {font-size: 0px !important;}
+
+[onmouseover="showMenu('menu_dropdown_profile');"]:before {
+    content: 'Profile';
+    font-size: 20px;}
+
+[onmouseover="showMenu('menu_dropdown_blog');"]:before {
+    content: 'My diary';
+    font-size: 20px;}
+
+[onmouseover="showMenu('menu_dropdown_tests');"]:before {
+    content: 'Tests';
+    font-size: 20px;}
+
+[onmouseover="showMenu('menu_dropdown_groups');"]:before {
+    content: 'Groups';
+    font-size: 20px;}
+
+
+[onmouseover="showMenu('menu_dropdown_messages');"]:before {
+    content: 'Messages';
+    font-size: 20px;}
+
+
+[onclick="window.location.href='/user_blog_entry.php';"]:before {
+    content: 'Write!';
+    font-size: 20px;}
+
+
+.card-header {font-size: 0px;}
+
+.card.mt-3.blog_leftmenu .card-header:before {
+    content: 'Menu:';
+    font-size: 16px;}
+
+.blog_leftsearch .card-header:before {
+    content: 'Search:';
+    font-size: 16px;}
+
+.card.blog_categories .card-header:before {
+    content: 'Categories:';
+    font-size: 16px;}
+
+.card.blog_gifts .card-header:before {
+    content: 'Gift:';
+    font-size: 16px;
+}
+
+
+
+a.page-link,a.page-link:hover {
+    font-size: 0px;
+    margin-left: 10px;
+    background: transparent;
+    color: snow;
+}
+a.page-link:before {
+    content: 'Turn the page';
+    font-size: 16px;
+}
+
+.copyright [href="#"],[href="help.php"],[href="help_tos.php"],[href="help_contact.php"] {
+    font-size: 0px;
+}
+.copyright [href="#"]:before {
+    content: 'Mobile version';
+    font-size: 14px;
+}
+
+[href="help.php"]:before {
+    content: 'Help';
+    font-size: 14px;
+}
+
+[href="help_tos.php"]:before {
+    content: 'Rules';
+    font-size: 14px;
+}
+
+[href="help_contact.php"]:before {
+    content: 'Contact';
+    font-size: 14px;
+}
+
+[onclick="scrolltop(); return false;"] {
+    display: none;
+}
+
+
+li.p-1 a {
+    font-size: 0px;
+}
+
+.card.mt-3.blog_leftmenu li.p-1 [href$="/blog/"]:before {
+    content: 'Post overview';
+    font-size: 14px;
+}
+
+.card.mt-3.blog_leftmenu li.p-1 [href$="/blog/"]:before {
+    content: 'Post overview';
+    font-size: 14px;
+}
+
+.card.mt-3.blog_leftmenu li.p-1:nth-child(2) [href^="https://beon.vip/"]:before {
+    content: 'View Profile';
+    font-size: 14px;
+}
+
+.card.mt-3.blog_leftmenu li.p-1 [href$="&task=blogentry_main"]:before {
+    content: 'Post from home page';
+    font-size: 14px;
+}
+
+.card.mt-3.blog_leftmenu li.p-1 [href="https://beon.vip/you/blog/&task=quotes"]:before {
+    content: 'Quotes';
+    font-size: 14px;
+}
+
+[href^="mf_gifts_send.php?"]:before {
+    content: 'Send a gift';
+    font-size: 14px;
+}
+
+li.p-1 [href="user_blog.php"]:before {
+    content: 'Diary';
+    font-size: 14px;
+}
+
+[href="/user_edit_categories.php"]:before {
+    content: 'Categories';
+    font-size: 14px;
+}
+
+[href="/user_blog_settings.php"]:before {
+    content: 'Blog settings';
+    font-size: 14px;
+}
+
+[href="/user_editprofile.php"]:before {
+    content: 'Edit profile';
+    font-size: 14px;
+}
+
+li.p-1 [href="#"]:before {
+    content: 'Avatars';
+    font-size: 14px;
+}
+
+li.p-1 [href="/user_account.php"]:before {
+    content: 'Account setting';
+    font-size: 14px;
+}
+
+[href$="/blog/&category_id=0"] {
+    font-size: 0px;
+}
+[href$="/blog/&category_id=0"]:before {
+    content: 'No category ';
+    font-size: 14px;
+}
+
+p.card-link,a.card-link {
+    font-size: 0px;
+}
+p.card-link:before {
+    content: 'views';
+    font-size: 14px;
+}
+
+a.card-link:before {
+    content: 'comments';
+    font-size: 14px;}
+
+img.photo {border: none;}
+
+
+
+
+
+[href="user_editprofile.php"]:after {
+    content: 'Edit profile';
+    font-size: 14px;
+}
+
+
+[href="user_editprofile_photo.php"]:after {
+    content: 'Profile photo';
+    font-size: 14px;
+}
+
+div#menu_dropdown_profile .menu_item_dropdown a[href="#"]:after {
+    content: 'Avatars';
+    font-size: 14px;
+}
+
+[href="user_editprofile_style.php"]:after {
+    content: 'Profile desing';
+    font-size: 14px;
+}
+
+[href="user_account.php"]:after {
+    content: 'Account setting';
+    font-size: 14px;
+}
+
+[href="user_account_privacy.php"]:after {
+    content: 'Privacy setting';
+    font-size: 14px;
+}
+
+[href="user_vault.php"]:after {
+    content: 'Positivki';
+    font-size: 14px;
+}
+
+[href="search.php"]:after {
+    content: 'Search';
+    font-size: 14px;
+}
+
+[href="user_friends.php"]:after {
+    content: 'Friends';
+    font-size: 14px;
+}
+
+[href="user_logout.php"]:after {
+    content: 'Logout';
+    font-size: 14px;
+}
+
+[href="user_blog.php"]:after {
+    content: 'My blog';
+    font-size: 14px;
+}
+
+[href="user_blog_entry.php"]:after {
+    content: 'Write post';
+    font-size: 14px;
+}
+
+[href="user_blog_settings.php"]:after {
+    content: 'Blog desing';
+    font-size: 14px;
+}
+
+[href="browse_blogs.php"]:after {
+    content: 'Browse blogs';
+    font-size: 14px;
+}
+
+[href="user_quiz.php"]:after {
+    content: 'My tests';
+    font-size: 14px;
+}
+
+[href="quiz_general.php"]:after {
+    content: 'Add a tests';
+    font-size: 14px;
+}
+
+[href="browse_quiz.php?mode=popular"]:after {
+    content: 'Popular tests';
+    font-size: 14px;
+}
+
+[href="browse_quiz.php?mode=recently"]:after {
+    content: 'New tests';
+    font-size: 14px;
+}
+
+[href="user_groups.php"]:after {
+    content: 'My groups';
+    font-size: 14px;
+}
+
+[href="user_group_add.php"]:after {
+    content: 'Create group';
+    font-size: 14px;
+}
+
+div#menu_dropdown_groups [href="browse_groups.php"]:after {
+    content: 'All groups';
+    font-size: 14px;
+}
+
+div#menu_dropdown_messages [href="#"]:after {
+    content: 'Write messages';
+    font-size: 14px;
+}
+
+div#menu_dropdown_messages [href="user_messages.php"]:after {
+    content: 'Inbox';
+    font-size: 14px;
+}
+[href="user_messages_outbox.php"]:after {
+    content: 'Outbox';
+    font-size: 14px;
+}
+div#designs {font-size: 0px;}
+div#designs:before {
+    content: 'Disable desing ';
+    font-size: 14px;
+}
+
+.seBlogComments [cellpadding="0"] .button:nth-child(1) a:before {
+    content: 'Blog';
+    font-size: 14px;
+}
+
+.seBlogComments [cellpadding="0"] .button:nth-child(2) a:before {
+    content: 'Incorrect content';
+    font-size: 14px;
+}
+
+[href$="&task=add_quote"]:before {
+    content: 'Add quote';
+    font-size: 14px;
+}
+
+[href^="/user_blog_entry.php?blogentry_id="]:before {
+    content: 'Edit';
+    font-size: 14px;
+}
+
+[onclick^="SocialEngine.Blog.deleteBlog"]:before {
+    content: 'Delete';
+    font-size: 14px;
+}
+
+[href$="task=fixed"]:before {
+    content: 'Fixed post';
+    font-size: 14px;
+}
+
+.seBlogComments [valign="top"],.profile_comment_links a,[onclick^="subscribe"],.comment_headline {
+    font-size: 0;
+}
+
+
+
+a.commentReply:before {
+    content: 'Retry';
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.profile_comment_links [onclick^="newmessage"]:before {
+    content: 'Message';
+    font-size: 14px;
+}
+
+.commentDeleteLink:before {
+    content: 'Delete';
+    font-size: 14px;
+}
+
+[onclick^="subscribe"]:before {
+    content: 'Subscribe';
+    font-size: 14px;
+}
+
+.comment_headline:before {
+    content: 'Comments';
+    font-size: 14px;
+}
+
+a#attach_file_click:before {
+    content: 'Photo';
+    font-size: 14px;
+}
+
+[placeholder="Напишите что-нибудь..."]::placeholder {
+    background: url(https://beon.vip/uploads_user/10000/9068/854b2968c5dbd6744bdecdbe75efd3b0.png) no-repeat center left;
+    color: transparent;
+    opacity: 0.7;}
+
+
+input#comment_submit {
+    color: transparent;
+    background: url(https://beon.vip/uploads_user/10000/9068/8175d6178a3df6dde70977f4d52e13e3.png) no-repeat center;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #777777;
+    border-right: 1px solid #777777;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+.gifts-list {
+    font-size: 0px;
+}
+
+h5.modal-title {
+    font-size: 0px;
+}
+h5.modal-title:before {
+    content: 'Updates';
+    font-size: 20px;
+}
+
+button.btn.btn-secondary {
+    font-size: 0px;
+}
+button.btn.btn-secondary:before {
+    content: 'Close';
+    font-size: 16px;
+}
+
+.noUpdates {
+    font-size: 0px;
+}
+.noUpdates:before {
+    content: 'No updates';
+    font-size: 14px;
+}
+
+.updatesDelete a {
+    font-size: 0px;
+}
+.updatesDelete a:before {
+    content: 'Delete all updates';
+    font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+    color: transparent;
+}
+
+.menu_item_dropdown a {
+    font-size: 0px !important;
+}
+
+a#userphotos_click {
+    font-size: 0px;
+}
+a#userphotos_click:before {
+    content: 'Upload avatar';
+    font-size: 14px;
+}
+
+[onclick^="deleteuserphoto"] {
+    font-size: 0px;
+}
+[onclick^="deleteuserphoto"]:before {
+    content: 'Delete';
+    font-size: 14px;
+}
