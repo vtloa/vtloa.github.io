@@ -1,3 +1,7 @@
+a.top_menu_item,button.btn.btn-primary {
+    font-size: 0px !important;
+}
+
 [onmouseover="showMenu('menu_dropdown_profile');"],
 [onmouseover="showMenu('menu_dropdown_blog');"],
 [onmouseover="showMenu('menu_dropdown_tests');"],
