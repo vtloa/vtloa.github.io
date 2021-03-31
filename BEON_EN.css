@@ -196,7 +196,7 @@ font-size: 0px;
 a.card-link:before {
     content: 'Comments';
     font-size: 14px;
-    margin-left: -25px;
+    margin-left: -24px;
 }
 
 img.photo {border: none;}
