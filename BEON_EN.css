@@ -1,13 +1,16 @@
+.category a:before {
+    content: 'Category: ';
+    color: black;
+    font-size: 14px;
+}
+
 .category a {
     font-size: 14px;
 }
 .category {
     font-size: 0px;
 }
-.category:before {
-    content: 'Category: ';
-    font-size: 14px;
-}
+
 
 a.page-link:before {
 content: 'Turn the page';
