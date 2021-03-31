@@ -187,7 +187,7 @@ font-size: 0px;
 }
 
 a.card-link:before {
-    content: 'comments';
+    content: 'Comments';
     font-size: 14px;
     margin-left: -25px;
 }
