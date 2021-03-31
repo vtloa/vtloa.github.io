@@ -1,3 +1,7 @@
+.category a:hover {
+    text-decoration: unset !important;
+}
+
 .category a:before {
     content: 'Category: ';
     color: black;
