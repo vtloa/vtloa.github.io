@@ -137,11 +137,6 @@ content: 'Post from home page';
 font-size: 14px;
 }
 
-.card.mt-3.blog_leftmenu li.p-1 [href="https://beon.vip/you/blog/&task=quotes"]:before {
-content: 'Quotes';
-font-size: 14px;
-}
-
 [href^="mf_gifts_send.php?"]:before {
 content: 'Send a gift';
 font-size: 14px;
@@ -207,7 +202,7 @@ font-size: 14px;
 }
 
 [href="user_editprofile_photo.php"]:after {
-content: 'Profile photo';
+content: 'Profile picture';
 font-size: 14px;
 }
 
@@ -217,7 +212,7 @@ font-size: 14px;
 }
 
 [href="user_editprofile_style.php"]:after {
-content: 'Profile desing';
+content: 'Profile design';
 font-size: 14px;
 }
 
@@ -262,7 +257,7 @@ font-size: 14px;
 }
 
 [href="user_blog_settings.php"]:after {
-content: 'Blog desing';
+content: 'Blog design';
 font-size: 14px;
 }
 
@@ -321,7 +316,7 @@ font-size: 14px;
 }
 div#designs {font-size: 0px;}
 div#designs:before {
-content: 'Disable desing ';
+content: 'Disable design';
 font-size: 14px;
 }
 
@@ -476,7 +471,7 @@ font-size: 14px;
 }
 
 [href$="/blog/&task=quotes"]:before {
-content: 'Quotes';
+content: 'Bookmarks';
 font-size: 14px;
 }
 
