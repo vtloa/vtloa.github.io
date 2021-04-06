@@ -35,15 +35,15 @@ button.btn.btn-secondary {
 }
 
 
-.post a, .post,h6 {
-    color: black !important;
-}
+.post a, .post,h6 {color: black !important;}
 
 .additional_info.pl-3 {
     border-top: 1px solid black !important;
     width: 98%;
     margin: auto;
 }
+
+
 .card.mb-2.post_home:first-child .post {
     margin-top: 10px !important;
 }
@@ -57,18 +57,13 @@ button.btn.btn-secondary {
     border: 1px solid black !important;
 }
 
-a#comment_next_page_bottom {
-    color: black;
-}
+a#comment_next_page_bottom {color: black;}
 
-div#designs {
-    display: none !important;
-}
+div#designs {display: none !important;}
 
 a:hover {
     text-decoration: unset !important;
-    color: #888888 !important;
-}
+    color: #888888 !important;}
 
 
 
