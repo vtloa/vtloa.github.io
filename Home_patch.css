@@ -1,0 +1,136 @@
+
+.post a, .post,h6 {
+    color: black !important;
+}
+
+.additional_info.pl-3 {
+    border-top: 1px solid black !important;
+    width: 98%;
+    margin: auto;
+}
+.card.mb-2.post_home:first-child .post {
+    margin-top: 10px;
+}
+
+.post {
+    background: white;
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 100px;
+    border: 1px solid black !important;
+}
+
+a#comment_next_page_bottom {
+    color: black;
+}
+
+div#designs {
+    display: none !important;
+}
+
+a:hover {
+    text-decoration: unset !important;
+    color: #888888 !important;
+}
+
+.top_menu_link_container {
+    filter: invert(1) brightness(0.5);
+}
+
+[src="/images/notify.svg"] {
+    width: 20px;
+    filter: invert(1);
+}
+
+[href="./"]:before {
+    background: black;
+    color: white;
+    width: 47px;
+    padding: 10px;
+    padding-left: 8px;
+    border-radius: 100%;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+div#postcomment_userphotos {
+    position: fixed;
+    right: 9%;
+    top: 0px;
+    width: 10%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.top_header {
+    background: white;
+    box-shadow: 0 0 black;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid #5e5e5e !important;
+    height: 60px;
+    width: 30%;
+    right: 0px;
+    top: 0px;
+    transform: translateX(84%);
+    transition: 0.7s;
+    transition-delay: 1s;
+}
+
+[style="margin-left: auto; margin-right: auto;"] {
+    background: white;
+}
+
+.seBlogComments [style="margin-bottom: 20px;"] {
+    font-size: 11px;
+}
+
+[id^="comment_"]:nth-last-child(1) .profile_comment_body, [id^="comment_"]:nth-child(101) .profile_comment_body {
+    max-height: 180px;
+    border-radius: 0;
+}
+
+[id^="comment_"]:nth-child(101),div[id^="comment_"]:nth-last-child(1) {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px !important;
+}
+
+
+
+input#comment_submit {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.profile_postcomment {
+    width: 98%;
+    margin: auto;
+}
+
+textarea#comment_body {}
+
+[style="text-align: center;"]:hover,.seBlogComments [style="margin-bottom: 20px;"]:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+[style="text-align: center;"],.seBlogComments [style="margin-bottom: 20px;"] {
+    opacity: 0.2;
+    transition: 0.2s;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    position: fixed;
+    right: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    background-color: #fff;
+}
