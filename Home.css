@@ -312,17 +312,6 @@ div.profile_comment_body {
 
 
 
-
-
-
-[style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*SMALL евол*/ {
-    padding: 50px;
-    background: url(https://beon.vip/uploads_image/e6/90/e690cb8f2d0a21b9631c79e3a78595c4.jpg) no-repeat center;
-    width: 100px;
-    height: 100px;
-    background-size: 170px;
-}
-
 [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/ontologia/"] img /*SMALL орфей*/ {
     padding: 50px;
     background: url(https://beon.vip/uploads_user/4000/3125/738a4e622c35c5243e5648fa63ca025d.jpg) no-repeat center;
@@ -354,31 +343,6 @@ div.profile_comment_body {
     z-index: 555;
     pointer-events: none;
 }
-
-[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*BIG евол 101*/ {
-    padding: 300px;
-    background: url(https://beon.vip/uploads_image/e6/90/e690cb8f2d0a21b9631c79e3a78595c4.jpg) no-repeat center;
-    position: fixed;
-    width: 30%;
-    height: 30%;
-    left: -100px;
-    bottom: 99px;
-    z-index: 555;
-    pointer-events: none;
-}
-
-[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*BIG евол 1*/ {
-    padding: 300px;
-    background: url(https://beon.vip/uploads_image/e6/90/e690cb8f2d0a21b9631c79e3a78595c4.jpg) no-repeat center;
-    position: fixed;
-    width: 30%;
-    height: 30%;
-    left: -100px;
-    bottom: 99px;
-    z-index: 555;
-    pointer-events: none;
-}
-
 
 
 
