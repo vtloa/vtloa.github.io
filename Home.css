@@ -119,22 +119,31 @@ input#comment_submit {
     margin-top: 0px !important;
 }
 
-.top_header:hover {
-    transform: translateX(50%) translateY(350px);
-    transition: 0.7s;
-}
 .top_header {
-    transform: translateX(95%) translateY(350px);
     background: white;
     box-shadow: 0 0 black;
-    border-radius: 40px;
+    border-radius: 40px 0 0 40px;
     border: 1px solid #5e5e5e !important;
-    transition: 0.7s;
+    border-right: 0px !important;
     height: 60px;
-}
+    width: 30%;
+    right: 0px;
+    top: 240px;
+    transform: translateX(84%);}
+
+.top_header:hover {
+    transition: 0.7s;
+    transform: translateX(0);}
+
+.top_header button.btn.btn-primary,[src="/images/button_down.svg"] {display: none;}
+
+button.button_down {background: transparent;}
+
+
 td.top_menu {
     margin-top: -6px;
     display: block;
+    width: 100%;
 }
 
 a.commentReply:before,
