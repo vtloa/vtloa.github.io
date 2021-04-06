@@ -23,20 +23,8 @@ li.p-1 {
     list-style: decimal-leading-zero;
 }
 
-li.p-1 [href="https://beon.vip/group/607/"]:before {
-    content: 'Group';
-    font-size: 14px;
-}
 
-li.p-1 [href="https://beon.vip/group/607/&task=suggest"]:before {
-    content: 'Task suggest';
-    font-size: 14px;
-}
 
-[href="javascript:TB_show('Покинуть группу', 'user_group_manage.php?group_id=607&TB_iframe=true&height=300&width=450', '', './images/trans.gif');"]:before {
-    content: 'Поселиться';
-    font-size: 14px;
-}
 
 .card.mt-3.blog_leftmenu {
     position: fixed;
