@@ -16,7 +16,7 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 
 html {overflow: hidden;}
 
-div#lefthome {
+{
     display: block !important;
 }
 
@@ -110,7 +110,6 @@ background-image: url("https://www.transparenttextures.com/patterns/mirrored-squ
 * {border: none !important;}
 
 
-div#lefthome {display: none !important;}
 
 
 #user_status,.copyright {display: none !important;}
