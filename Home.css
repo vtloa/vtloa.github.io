@@ -65,7 +65,7 @@ input#comment_submit {
     font-size: 12px;
 }
 
-.blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members {
+.blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members,.card.blog_gifts {
     display: none !important;
 }
 
