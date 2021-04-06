@@ -220,3 +220,57 @@ div#postcomment_userphotos [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d6
 div#postcomment_userphotos [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d603e3becb4df.gif"] {
     display: block !important;
 }
+
+/*_____________*/
+/*_____________*/
+/*________*/
+/*_____________*/
+
+
+[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb3def4aaa9.gif"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/39fbf2d9e4c08902c6c7a37406852e36.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -7% !important;
+    bottom: 78px !important;
+    z-index: 555;
+    pointer-events: none;
+    /*ВЫБОР 1*/
+}
+
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb3def4aaa9.gif"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/39fbf2d9e4c08902c6c7a37406852e36.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -7% !important;
+    bottom: 78px !important;
+    z-index: 7777;
+    pointer-events: none;
+    /*ВЫБОР 101*/
+}
+
+
+[style="float: left; text-align: center; width: 110px;"]  [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb3def4aaa9.gif"] /*SMALL 3*/ {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d8b57681127580d3bf9368fccc3cbbed.jpg) no-repeat left !important;
+    width: 100px;
+    height: 100px;
+    background-size: 300px !important;
+}
+
+
+div#postcomment_userphotos [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb3def4aaa9.gif"] {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d8b57681127580d3bf9368fccc3cbbed.jpg) no-repeat left;
+    width: 100px;
+    height: 100px;
+    background-size: 170px;
+}
+
+div#postcomment_userphotos [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb3def4aaa9.gif"] {
+    display: block !important;
+}
