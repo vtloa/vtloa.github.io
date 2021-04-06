@@ -1,8 +1,19 @@
 @import url('https://vtloa.github.io/BEON_EN.css');
 
 
+@font-face {
+font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
+    
+    src:    url('https://nomail.com.ua/files/eot/c32626ba379322d73d001cfd9a9bf1ba.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/c32626ba379322d73d001cfd9a9bf1ba.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/c32626ba379322d73d001cfd9a9bf1ba.woff2') format('woff2');
+}
 
-* {font-family: 'fontf5e7d79be28cc2eb6654930db3aeca85';}
+@font-face { font-family: 'FranckerCYR-CondensedLight';  src: local('FranckerCYR-CondensedLight'), url('https://nomail.com.ua/files/woff/c32626ba379322d73d001cfd9a9bf1ba.woff') format('woff'); }
+
+* {font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';}
+
+
 html {overflow: hidden;}
 
 .seBlogComments {
