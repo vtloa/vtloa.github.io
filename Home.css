@@ -24,15 +24,13 @@ li.p-1 {
 }
 
 
-
-
 .card.mt-3.blog_leftmenu {
     position: fixed;
     background: white;
     width: 10%;
     border: 1px solid black !important;
     border-radius: 5px;
-    right: 5px;
+    right: 6%;
     bottom: 5px;
     margin: 0px;
     z-index: 222;
