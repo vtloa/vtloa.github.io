@@ -16,6 +16,26 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 
 html {overflow: hidden;}
 
+div#lefthome {
+    display: block !important;
+}
+
+.card.mt-3.blog_leftmenu {
+    position: fixed;
+    background: white;
+    width: 10%;
+    border: 1px solid black !important;
+    border-radius: 5px;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
+
+.blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members {
+    display: none;
+}
+
+
 .seBlogComments {
     margin-top: 0px !important;
 }
