@@ -26,13 +26,14 @@ html {overflow: hidden;}
     width: 10%;
     border: 1px solid black !important;
     border-radius: 5px;
-    left: 0px;
-    bottom: 0px;
+    left: 5px;
+    bottom: 5px;
     margin: 0px;
+    z-index: 222;
 }
 
 .blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members {
-    display: none;
+    display: none !important;
 }
 
 
