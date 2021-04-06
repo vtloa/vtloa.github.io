@@ -129,11 +129,15 @@ input#comment_submit {
     width: 30%;
     right: 0px;
     top: 240px;
-    transform: translateX(84%);}
+    transform: translateX(84%);
+    transition: 0.7s;
+    transition-delay: 1s;
+}
 
 .top_header:hover {
     transition: 0.7s;
-    transform: translateX(0);}
+    transform: translateX(0);
+    transition-delay: 1s;}
 
 .top_header button.btn.btn-primary,[src="/images/button_down.svg"] {display: none;}
 
