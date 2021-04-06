@@ -406,18 +406,6 @@ div.profile_comment_body {
 
 
 
-
-
-[id^="comment_"]:nth-last-child(1) .profile_comment_body img:hover, [id^="comment_"]:nth-child(101) .profile_comment_body img:hover {
-    position: absolute;
-    left: 5px;
-    bottom: 4px;
-    z-index: 99999999999999999;
-    transition: 0.5s;
-    max-height: 300px;
-    border-radius: 5px;
-}
-
 [id^="comment_"]:nth-last-child(1) .profile_comment_body img, [id^="comment_"]:nth-child(101) .profile_comment_body img {
     max-height: 150px;
     border-radius: 5px;
