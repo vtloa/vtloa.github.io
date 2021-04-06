@@ -274,3 +274,57 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb
 div#postcomment_userphotos [src="./uploads_user/1000/968/2c81ddf80a3931c372d66fb3def4aaa9.gif"] {
     display: block !important;
 }
+
+/*_____________*/
+/*_____________*/
+/*________*/
+/*____*/
+
+
+[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42d8bbfba5d2.png"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/4e2caadd20711ce574368778c934383e.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -5% !important;
+    bottom: 78px !important;
+    z-index: 555;
+    pointer-events: none;
+    /*ВЫБОР 1*/
+}
+
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42d8bbfba5d2.png"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/4e2caadd20711ce574368778c934383e.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -5% !important;
+    bottom: 78px !important;
+    z-index: 7777;
+    pointer-events: none;
+    /*ВЫБОР 101*/
+}
+
+
+[style="float: left; text-align: center; width: 110px;"]  [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42d8bbfba5d2.png"] /*SMALL 3*/ {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/efdb77fab5527919f2ddad6e9bb61ba1.jpg) no-repeat left !important;
+    width: 100px;
+    height: 100px;
+    background-size: 300px !important;
+}
+
+
+div#postcomment_userphotos [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42d8bbfba5d2.png"] {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/efdb77fab5527919f2ddad6e9bb61ba1.jpg) no-repeat left;
+    width: 100px;
+    height: 100px;
+    background-size: 170px;
+}
+
+div#postcomment_userphotos [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42d8bbfba5d2.png"] {
+    display: block !important;
+}
