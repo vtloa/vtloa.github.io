@@ -19,21 +19,25 @@ html {overflow: hidden;}
     padding: 5px;
 }
 
-li.p-1 {
-    list-style: decimal-leading-zero;
-}
+li.p-1 {list-style: decimal-leading-zero;}
 
+.card.mt-3.blog_leftmenu:hover {
+    transform: unset;
+    transition: 0.5s;
+}
 
 .card.mt-3.blog_leftmenu {
     position: fixed;
     background: white;
-    width: 10%;
+    width: 190px;
     border: 1px solid black !important;
     border-radius: 5px;
-    right: 6%;
-    bottom: 5px;
+    left: 0px;
+    bottom: 267px;
     margin: 0px;
     z-index: 222;
+    transform: rotate(90deg) translateY(80%);
+    transition: 0.2s;
 }
 
 .blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members {
