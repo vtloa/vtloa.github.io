@@ -45,7 +45,7 @@ button.btn.btn-secondary {
     margin: auto;
 }
 .card.mb-2.post_home:first-child .post {
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 
 .post {
