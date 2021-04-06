@@ -15,6 +15,17 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 
 html {overflow: hidden;}
 
+.comment_headline {
+    display: block;
+    position: fixed;
+    right: 77px;
+    bottom: 244px;
+    width: 14%;
+    font-size: 11px;
+    padding: 0px;
+    background: transparent;
+}
+
 .card-header,.card-body {
     padding: 5px;
 }
@@ -304,12 +315,6 @@ div#righthome {
     width: 60%;
     padding: 0px;
 }
-
-.comment_headline {
-    display: none;
-}
-
-
 
 
 div.profile_comment_body img {
