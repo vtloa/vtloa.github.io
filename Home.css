@@ -270,14 +270,6 @@ div#bbcode {
 
 
 
-input#comment_submit {
-    width: 125%;
-    background-color: #ffffff;
-    border: 1px solid black !important;
-    border-radius: 5px;
-}
-
-
 
 .profile_postcomment {
     padding: 0px !important;
