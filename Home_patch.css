@@ -61,6 +61,8 @@ div#postcomment_userphotos {
     width: 10%;
     height: 350px;
     overflow: hidden;
+    width: max-content !important;
+    display: block !important;
 }
 
 .top_header {
