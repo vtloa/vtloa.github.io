@@ -22,6 +22,27 @@ html {overflow: hidden;}
 li.p-1 {list-style: decimal-leading-zero;}
 
 
+input#comment_submit:hover {
+transition: 0.5s ease-in-out;
+background: url(https://beon.vip/uploads_user/1000/968/9722c8d2961e481a570af87d6f51efa4.png) no-repeat;
+background-position: 0vw !important;
+background-size: 100% !important;
+filter: saturate(2);
+}
+
+input#comment_submit {
+width: 125%;
+background-color: #ffffff;
+border: 1px solid black !important;
+border-radius: 5px;
+transition: 0.5s ease-in-out;
+background-size: 270px !important;
+background: url(https://beon.vip/uploads_user/1000/968/9722c8d2961e481a570af87d6f51efa4.png) no-repeat;
+background-position-y: -30px;
+filter: saturate(0.5);
+} 
+
+
 .card.mt-3.blog_leftmenu:hover {
     height: max-content !important;
 }
