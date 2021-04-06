@@ -424,6 +424,7 @@ div.profile_comment_body {
     bottom: 90px;
     z-index: 555;
     pointer-events: none;
+    background-size: auto !important;
     /*ПО УМОЛЧАНИЮ 101*/
 }
 
@@ -437,6 +438,7 @@ div.profile_comment_body {
     bottom: 90px;
     z-index: 555;
     pointer-events: none;
+    background-size: auto !important;
     /*ПО УМОЛЧАНИЮ 1*/
 }
 
