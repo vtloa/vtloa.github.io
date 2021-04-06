@@ -661,3 +661,118 @@ div#postcomment_userphotos [src="./uploads_user/10000/9068/eb7501c4954217b6e3c7a
 [src="./images/logo_new.png"] {
     display: none;
 }
+
+
+/*SPRITE 2.0 евол*/
+
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*BIG 101*/ {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -100px;
+    bottom: 90px;
+    z-index: 555;
+    pointer-events: none;
+    background-size: auto !important;
+    /*ПО УМОЛЧАНИЮ 101*/
+}
+
+[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*BIG 1*/ {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -100px;
+    bottom: 90px;
+    z-index: 555;
+    pointer-events: none;
+    background-size: auto !important;
+    /*ПО УМОЛЧАНИЮ 1*/
+}
+
+/*ВЫБОР BIG*/
+
+
+[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/2000/1518/b1e8f61e6e8711aecafca845fe7019a2.png"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/35ca86d90aebbede9ab14b522521f547.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -100px;
+    bottom: 90px;
+    z-index: 555;
+    pointer-events: none;
+    /*ВЫБОР 1*/
+}
+
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/2000/1518/b1e8f61e6e8711aecafca845fe7019a2.png"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/35ca86d90aebbede9ab14b522521f547.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -100px;
+    bottom: 90px;
+    z-index: 7777;
+    pointer-events: none;
+    /*ВЫБОР 101*/
+}
+
+
+/*SMALL*/
+
+[style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*SMALL*/ {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/6c1783819f24433316581f813f5c945b.jpg) no-repeat center;
+    width: 100px;
+    height: 100px;
+    background-size: 170px !important;
+}
+
+[style="float: left; text-align: center; width: 110px;"]  [src="./uploads_user/2000/1518/b1e8f61e6e8711aecafca845fe7019a2.png"] /*SMALL 2*/ {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/2d4e701311054b019d7c53e43af7bd2e.jpg) no-repeat center !important;
+    width: 100px;
+    height: 100px;
+    background-size: 170px !important;
+}
+
+/*ЗАМЕНА В ВЫБОРЕ*/
+
+/*ГЛАВ*/
+
+div#postcomment_userphotos [src="./uploads_user/2000/1518/2f75802c05742a562011ad59891aa879.png"] {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/6c1783819f24433316581f813f5c945b.jpg) no-repeat center;
+    width: 100px;
+    height: 100px;
+    background-size: 170px;
+}
+
+div#postcomment_userphotos [src="./uploads_user/2000/1518/b1e8f61e6e8711aecafca845fe7019a2.png"] {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/2d4e701311054b019d7c53e43af7bd2e.jpg) no-repeat center !important;
+    width: 100px;
+    height: 100px;
+    background-size: 170px;
+}
+
+/*УБРАТЬ*/
+
+div#postcomment_userphotos [src^="./uploads_user/"] {
+    display: none;
+}
+
+/*ДОБАВИТЬ*/
+
+div#postcomment_userphotos [src="./uploads_user/2000/1518/2f75802c05742a562011ad59891aa879.png"] {
+    display: block !important;
+}
+
+div#postcomment_userphotos [src="./uploads_user/2000/1518/b1e8f61e6e8711aecafca845fe7019a2.png"] {
+    display: block !important;
+}
