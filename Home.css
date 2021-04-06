@@ -14,6 +14,38 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 
 html {overflow: hidden;}
 
+[onmouseover="showMenu('menu_dropdown_profile');"] {
+    content: url(https://beon.vip/uploads_image/b1/00/b100fec06970a98df9d0cf5d0499b99d.png);filter: invert(1);
+    
+}
+
+[onmouseover="showMenu('menu_dropdown_blog');"] {
+    content: url(https://beon.vip/uploads_image/11/b2/11b23ba814301ca92574588731a887d3.png);filter: invert(1);
+    height: 22px;
+    
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"] {
+    content: url(https://beon.vip/uploads_image/52/35/52357406c5395009a697948cc148149b.png);filter: invert(1);
+    height: 22px;
+}
+
+[onmouseover="showMenu('menu_dropdown_groups');"] {
+    content: url(https://beon.vip/uploads_image/44/1e/441ed93bc964cf380b40b5ec2b50b22a.png);filter: invert(1);
+}
+
+[onmouseover="showMenu('menu_dropdown_messages');"] {
+    content: url(https://beon.vip/uploads_image/c5/b6/c5b61d165792337929d7ce28d2648840.png);filter: invert(1);
+}
+
+[onclick^="window.location.href="]:before {
+    content: url(https://beon.vip/uploads_image/a1/30/a13099f8eae610e7b3885da20474cb32.png);filter: invert(1);
+    height: 20px;
+    display: block;
+    transform: scale(0.8);
+    margin-top: -5px;
+}
+
 .comment_headline a {
     font-size: 12px;
 }
@@ -96,7 +128,7 @@ input#comment_submit {
     background: white;
     box-shadow: 0 0 black;
     border-radius: 40px;
-    border: 1px solid black !important;
+    border: 1px solid #5e5e5e !important;
     transition: 0.7s;
     height: 60px;
 }
