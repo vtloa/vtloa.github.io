@@ -1,14 +1,6 @@
 @import url('https://vtloa.github.io/BEON_EN.css');
 
-@font-face {
-font-family: 'fontf5e7d79be28cc2eb6654930db3aeca85';
-    
-    src:    url('https://nomail.com.ua/files/eot/f5e7d79be28cc2eb6654930db3aeca85.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/f5e7d79be28cc2eb6654930db3aeca85.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/f5e7d79be28cc2eb6654930db3aeca85.woff2') format('woff2');
-}
 
-@font-face { font-family: 'ArialRoundedMTProCyr';  src: local('ArialRoundedMTProCyr'), url('https://nomail.com.ua/files/woff/f5e7d79be28cc2eb6654930db3aeca85.woff') format('woff'); }
 
 * {font-family: 'fontf5e7d79be28cc2eb6654930db3aeca85';}
 html {overflow: hidden;}
