@@ -14,7 +14,7 @@ font-family: 'fontf5e7d79be28cc2eb6654930db3aeca85';
 html {overflow: hidden;}
 
 .seBlogComments {
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 .top_header:hover {
