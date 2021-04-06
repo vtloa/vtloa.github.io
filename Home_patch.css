@@ -1,3 +1,23 @@
+button.btn.btn-secondary {
+    border-radius: 0px;
+    background: black;
+}
+
+.modal-body {
+    border: 1px solid black !important;
+    width: 98%;
+    margin: auto;
+}
+
+.modal-content {
+    border-radius: 0px;
+    border: 1px solid black !important;
+}
+
+.modal {
+    background: #000000cf !important;
+}
+
 .group_desc {
     text-align: center;
     margin-top: 10px;
