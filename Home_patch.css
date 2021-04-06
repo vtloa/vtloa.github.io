@@ -1,3 +1,8 @@
+.group_desc {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .userphoto_selected {
     background: transparent;
     border: 1px solid black !important;
@@ -40,9 +45,7 @@ a:hover {
     color: #888888 !important;
 }
 
-.top_menu_link_container {
-    filter: invert(1) brightness(0.5);
-}
+
 
 [src="/images/notify.svg"] {
     width: 20px;
