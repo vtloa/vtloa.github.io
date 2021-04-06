@@ -619,7 +619,7 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -70px !important;
+    left: -60px !important;
     bottom: 93px !important;
     z-index: 555;
     pointer-events: none;
@@ -632,8 +632,8 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
     position: fixed;
     width: 30%;
     height: 30%;
-    left: 69px !important;
-    bottom: 105px !important;
+    left: -60px !important;
+    bottom: 93px !important;
     z-index: 7777;
     pointer-events: none;
     /*ВЫБОР 101*/
