@@ -1,5 +1,4 @@
 
-
 @font-face {
 font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
     
@@ -220,7 +219,7 @@ blockquote.blockquote {margin: 0px;}
 }
 
 [id^="comment_"]:nth-last-child(1) .profile_comment_body,
-[id^="comment_"]:nth-child(101) .profile_comment_body {color: #ffffff; font-size: 17px;}
+[id^="comment_"]:nth-child(101) .profile_comment_body {color: #ffffff; font-size: 17px; display: flex;}
 
 [id^="comment_"]:nth-last-child(1) .profile_comment_date,
 [id^="comment_"]:nth-child(101) .profile_comment_date {display: none;}
