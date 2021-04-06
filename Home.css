@@ -29,15 +29,19 @@ li.p-1 {list-style: decimal-leading-zero;}
     position: fixed;
     background: white;
     width: 190px;
-    border: 1px solid black !important;
+    border: 1px solid #5e5e5e !important;
     border-right: 0px !important;
-    border-radius: 5px 0 0 5px;
+    border-bottom: 0px !important;
+    border-radius: 5px 0 0 0px;
     right: 0px;
     bottom: 0px;
     margin: 0px;
     z-index: 222;
     transition: 0.2s;
-    height: 30px !important;
+    height: 25px !important;
+    text-transform: uppercase;
+    color: #727272;
+    font-size: 12px;
 }
 
 .blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members {
