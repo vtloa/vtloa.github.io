@@ -1,3 +1,9 @@
+.userphoto_selected {
+    background: transparent;
+    border: 1px solid black !important;
+    width: 110px;
+}
+
 
 .post a, .post,h6 {
     color: black !important;
