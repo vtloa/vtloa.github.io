@@ -13,7 +13,9 @@ font-family: 'fontf5e7d79be28cc2eb6654930db3aeca85';
 * {font-family: 'fontf5e7d79be28cc2eb6654930db3aeca85';}
 html {overflow: hidden;}
 
-
+.seBlogComments {
+    margin-top: 0px;
+}
 
 .top_header:hover {
     transform: translateX(50%) translateY(350px);
