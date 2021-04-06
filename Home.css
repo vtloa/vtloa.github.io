@@ -170,15 +170,19 @@ background-image: url("https://www.transparenttextures.com/patterns/mirrored-squ
     color: #a2a2a2 !important;
 }
 
-[id^="comment_"]:nth-last-child(1) .profile_comment_body blockquote.blockquote, 
-[id^="comment_"]:nth-child(101) .profile_comment_body blockquote.blockquote {
+[id^="comment_"]:nth-last-child(1) .profile_comment_body blockquote.blockquote, [id^="comment_"]:nth-child(101) .profile_comment_body blockquote.blockquote {
     margin: 0px;
-    background: #151515;
+    background: #ffffff;
     font-size: 11px !important;
     color: #9e9e9e;
     display: inline-block;
     overflow: hidden;
     height: 40px;
+    position: fixed;
+    bottom: 247px;
+    left: 170px;
+    z-index: 222222;
+    border: 1px solid black !important;
 }
 
 blockquote.blockquote {margin: 0px;}
