@@ -170,3 +170,58 @@ textarea#comment_body {}
     border-radius: 0px;
     background-color: #fff;
 }
+
+
+/*_____________*/
+/*_____________*/
+/*_____________*/
+/*_____________*/
+
+
+[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d603e3becb4df.gif"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/402dc3bc35ccd2ffded2b62a0167bd3b.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -55px !important;
+    bottom: 103px !important;
+    z-index: 555;
+    pointer-events: none;
+    /*ВЫБОР 1*/
+}
+
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d603e3becb4df.gif"] {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_user/10000/9068/402dc3bc35ccd2ffded2b62a0167bd3b.png) no-repeat center !important;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -55px !important;
+    bottom: 103px !important;
+    z-index: 7777;
+    pointer-events: none;
+    /*ВЫБОР 101*/
+}
+
+
+[style="float: left; text-align: center; width: 110px;"]  [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d603e3becb4df.gif"] /*SMALL 4*/ {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/9bebe70d31fb10dcf7021b0b6a26fa64.jpg) no-repeat left !important;
+    width: 100px;
+    height: 100px;
+    background-size: 300px !important;
+}
+
+
+div#postcomment_userphotos [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d603e3becb4df.gif"] {
+    padding: 50px;
+    background: url(https://beon.vip/uploads_user/10000/9068/9bebe70d31fb10dcf7021b0b6a26fa64.jpg) no-repeat left;
+    width: 100px;
+    height: 100px;
+    background-size: 170px;
+}
+
+div#postcomment_userphotos [src="./uploads_user/10000/9068/b46e37a7b04115e2b18d603e3becb4df.gif"] {
+    display: block !important;
+}
