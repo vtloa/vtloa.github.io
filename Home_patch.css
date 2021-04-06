@@ -192,7 +192,7 @@ textarea#comment_body {}
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -55px !important;
+    left: -2% !important;
     bottom: 103px !important;
     z-index: 7777;
     pointer-events: none;
