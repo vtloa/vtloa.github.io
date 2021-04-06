@@ -21,23 +21,23 @@ html {overflow: hidden;}
 
 li.p-1 {list-style: decimal-leading-zero;}
 
-.card.mt-3.blog_leftmenu:hover {
-    transform: unset;
-    transition: 0.5s;
-}
 
+.card.mt-3.blog_leftmenu:hover {
+    height: max-content !important;
+}
 .card.mt-3.blog_leftmenu {
     position: fixed;
     background: white;
     width: 190px;
     border: 1px solid black !important;
-    border-radius: 5px;
-    left: 0px;
-    bottom: 267px;
+    border-right: 0px !important;
+    border-radius: 5px 0 0 5px;
+    right: 0px;
+    bottom: 0px;
     margin: 0px;
     z-index: 222;
-    transform: rotate(90deg) translateY(80%);
     transition: 0.2s;
+    height: 30px !important;
 }
 
 .blog_leftphoto,.blog_leftprofile,.blog_leftsearch,.card.blog_categories,.card.group_members {
