@@ -647,15 +647,15 @@ div#postcomment_userphotos [src^="./uploads_user/"] {
 /*ДОБАВИТЬ*/
 
 div#postcomment_userphotos [src="./uploads_user/10000/9068/0_8954_thumb.jpg"] {
-    display: block;
+    display: block !important;
 }
 
 div#postcomment_userphotos [src="./uploads_user/10000/9068/353bb0d230d22527d4cf78cb6fbaa8ac.gif"] {
-    display: block;
+    display: block !important;
 }
 
 div#postcomment_userphotos [src="./uploads_user/10000/9068/eb7501c4954217b6e3c7af900c53a8f4.png"] {
-    display: block;
+    display: block !important;
 }
 
 [src="./images/logo_new.png"] {
