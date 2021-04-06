@@ -49,7 +49,7 @@ a:hover {
 
 [src="/images/notify.svg"] {
     width: 20px;
-    filter: invert(1);
+    filter: opacity(0.3);
 }
 
 [href="./"]:before {
