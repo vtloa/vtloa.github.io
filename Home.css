@@ -627,7 +627,7 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -33px !important;
+    left: 0% !important;
     bottom: 97px !important;
     z-index: 555;
     pointer-events: none;
@@ -640,7 +640,7 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -33px !important;
+    left: 0% !important;
     bottom: 97px !important;
     z-index: 7777;
     pointer-events: none;
