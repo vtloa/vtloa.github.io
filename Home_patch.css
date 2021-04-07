@@ -78,7 +78,7 @@ div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; w
     padding: 125px;
     position: fixed;
     left: 5%;
-    bottom: 245px !important;
+    bottom: 226px !important;
     background-size: 200px !important;
     width: 18%;
     height: 250px;
@@ -89,7 +89,7 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
     padding: 125px;
     position: fixed;
     left: 5%;
-    bottom: 245px !important;
+    bottom: 226px !important;
     background-size: 200px !important;
     width: 18%;
     height: 250px;
@@ -98,7 +98,7 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
 [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/Satan/"] [src^="./uploads_user/1000/968/"] {
     background: url(https://beon.vip/uploads_user/10000/9068/4f111e6889bb2f92fc8c14654470bce9.png) no-repeat center !important;
     padding: 50px;
-    background-size: 200px;
+    background-size: 190px !important;
 }
 
 
