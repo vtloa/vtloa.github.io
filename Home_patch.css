@@ -41,7 +41,7 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
 
 div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] [src^="./uploads_user/2000/1518/"] {
     background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center left!important;
-    padding: 150px;
+    padding: 150px !important;
     position: fixed;
     left: 5%;
     bottom: 245px !important;
@@ -52,7 +52,7 @@ div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; w
 
 div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] [src^="./uploads_user/2000/1518/"] {
     background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center left !important;
-    padding: 150px;
+    padding: 150px !important;
     position: fixed;
     left: 5%;
     bottom: 245px !important;
