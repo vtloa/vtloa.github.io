@@ -474,12 +474,12 @@ div.profile_comment_body {
 
 [id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/Satan/"] img /*BIG 101*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/9aee2aa8e376f04bd7a388d32dcc4153.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/9aee2aa8e376f04bd7a388d32dcc4153.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px;
-    bottom: 90px;
+    left: -100px !important;
+    bottom: 90px !important;
     z-index: 555;
     pointer-events: none;
     background-size: auto !important;
@@ -488,12 +488,12 @@ div.profile_comment_body {
 
 [id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/Satan/"] img /*BIG 1*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/9aee2aa8e376f04bd7a388d32dcc4153.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/9aee2aa8e376f04bd7a388d32dcc4153.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px;
-    bottom: 90px;
+    left: -100px !important;
+    bottom: 90px !important;
     z-index: 555;
     pointer-events: none;
     background-size: auto !important;
@@ -594,12 +594,12 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
 
 [id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/you/"] img /*BIG 101*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/d9afb1e74a1d3410f93438681a655f4f.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/d9afb1e74a1d3410f93438681a655f4f.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -58px;
-    bottom: 87px;
+    left: -58px !important;
+    bottom: 87px !important;
     z-index: 555;
     pointer-events: none;
     /*ПО УМОЛЧАНИЮ 101*/
@@ -607,12 +607,12 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
 
 [id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/you/"] img /*BIG 1*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/d9afb1e74a1d3410f93438681a655f4f.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/d9afb1e74a1d3410f93438681a655f4f.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -58px;
-    bottom: 87px;
+    left: -58px !important;
+    bottom: 87px !important;
     z-index: 555;
     pointer-events: none;
     /*ПО УМОЛЧАНИЮ 1*/
@@ -759,12 +759,12 @@ div#postcomment_userphotos [src="./uploads_user/10000/9068/eb7501c4954217b6e3c7a
 
 [id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] img /*BIG 101*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px;
-    bottom: 90px;
+    left: -100px !important;
+    bottom: 90px !important;
     z-index: 555;
     pointer-events: none;
     background-size: auto !important;
@@ -777,8 +777,8 @@ div#postcomment_userphotos [src="./uploads_user/10000/9068/eb7501c4954217b6e3c7a
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px;
-    bottom: 90px;
+    left: -100px !important;
+    bottom: 90px !important;
     z-index: 555;
     pointer-events: none;
     background-size: auto !important;
