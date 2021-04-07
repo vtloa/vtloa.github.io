@@ -346,7 +346,7 @@ div#postcomment_userphotos [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42
     background-size: auto !important;
 }
 
-[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href^="https://beon.vip/"] img /*BIG орфей 101*/ {
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href^="https://beon.vip/"] img {
     padding: 300px;
     background: url(https://beon.vip/uploads_image/44/42/4442a70ce223030241cbd101bc582988.jpg) no-repeat center;
     position: fixed;
