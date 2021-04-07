@@ -598,8 +598,8 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -58px !important;
-    bottom: 87px !important;
+    left: -58px;
+    bottom: 87px;
     z-index: 555;
     pointer-events: none;
     /*ПО УМОЛЧАНИЮ 101*/
@@ -611,8 +611,8 @@ div#postcomment_userphotos [src="./uploads_user/1000/968/8cd1a2ce2a10c2f2030c708
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -58px !important;
-    bottom: 87px !important;
+    left: -58px;
+    bottom: 87px;
     z-index: 555;
     pointer-events: none;
     /*ПО УМОЛЧАНИЮ 1*/
@@ -763,8 +763,8 @@ div#postcomment_userphotos [src="./uploads_user/10000/9068/eb7501c4954217b6e3c7a
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px !important;
-    bottom: 89px !important;
+    left: -100px;
+    bottom: 89px;
     z-index: 555;
     pointer-events: none;
     background-size: auto !important;
@@ -777,8 +777,8 @@ div#postcomment_userphotos [src="./uploads_user/10000/9068/eb7501c4954217b6e3c7a
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px !important;
-    bottom: 89px !important;
+    left: -100px;
+    bottom: 89px;
     z-index: 555;
     pointer-events: none;
     background-size: auto !important;
