@@ -6,6 +6,15 @@ img.img-thumbnail {
     display: none !important;
 }
 
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+
+
+
+
+
 .comment_headline a {
     font-size: 12px;
     color: black;
