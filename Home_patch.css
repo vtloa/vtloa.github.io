@@ -5,7 +5,7 @@
 /*______________________________________*/
 
 div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/you/"] [src^="./uploads_user/10000/9068"] {
-    background: url(https://beon.vip/uploads_user/10000/9068/77a3a6e5812322822564c17847e98fea.png) no-repeat center;
+    background: url(https://beon.vip/uploads_image/a2/f6/a2f6c14c752b12c5b6ae8cd9b51c4e97.jpg) no-repeat center;
     padding: 125px;
     position: fixed;
     left: 5%;
@@ -16,7 +16,7 @@ div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; w
 }
 
 div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/you/"] [src^="./uploads_user/10000/9068"] {
-    background: url(https://beon.vip/uploads_user/10000/9068/77a3a6e5812322822564c17847e98fea.png) no-repeat center;
+    background: url(https://beon.vip/uploads_image/a2/f6/a2f6c14c752b12c5b6ae8cd9b51c4e97.jpg) no-repeat center;
     padding: 125px;
     position: fixed;
     left: 5%;
@@ -28,7 +28,7 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
 
 
 [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/you/"] [src^="./uploads_user/10000/9068"] {
-    background: url(https://beon.vip/uploads_user/10000/9068/77a3a6e5812322822564c17847e98fea.png) no-repeat center !important;
+    background: url(https://beon.vip/uploads_image/a2/f6/a2f6c14c752b12c5b6ae8cd9b51c4e97.jpg) no-repeat center !important;
     padding: 50px;
     background-size: 300px;
 }
