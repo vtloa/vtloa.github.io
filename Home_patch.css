@@ -11,7 +11,7 @@ div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; w
     left: 5%;
     bottom: 245px;
     background-size: 300px;
-    width: 18%;
+    width: 394px !important;
     height: 250px;
 }
 
@@ -22,7 +22,7 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
     left: 5%;
     bottom: 245px;
     background-size: 300px;
-    width: 18%;
+    width: 394px !important;
     height: 250px;
 }
 
@@ -44,7 +44,7 @@ div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; w
     padding: 150px !important;
     position: fixed;
     left: 5%;
-    bottom: 245px !important;
+    bottom: 238px !important;
     background-size: 224px !important;
     width: 18%;
     height: 300px !important;
@@ -55,7 +55,7 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
     padding: 150px !important;
     position: fixed;
     left: 5%;
-    bottom: 245px !important;
+    bottom: 238px !important;
     background-size: 224px !important;
     width: 18%;
     height: 300px !important;
