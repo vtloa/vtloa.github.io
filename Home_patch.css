@@ -327,3 +327,32 @@ div#postcomment_userphotos [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42
 div#postcomment_userphotos [src="./uploads_user/2000/1518/488bee75f267ca73bb9e42d8bbfba5d2.png"] {
     display: block !important;
 }
+
+/*__________________________*/
+/*__________________________*/
+/*__________________________*/
+
+[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href^="https://beon.vip/"] img {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_image/b3/d6/b3d69aae2d219626532d13107c329cfb.jpg) no-repeat center;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -100px;
+    bottom: 80px;
+    z-index: 555;
+    pointer-events: none;
+    background-size: auto !important;
+}
+
+[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href^="https://beon.vip/"] img /*BIG орфей 101*/ {
+    padding: 300px;
+    background: url(https://beon.vip/uploads_image/b3/d6/b3d69aae2d219626532d13107c329cfb.jpg) no-repeat center;
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left: -100px;
+    bottom: 80px;
+    z-index: 555;
+    pointer-events: none;
+}
