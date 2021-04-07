@@ -1,3 +1,7 @@
+div#postcomment_userphotos {
+    display: none !important;
+}
+
 .comment_headline a {
     font-size: 12px;
     color: black;
