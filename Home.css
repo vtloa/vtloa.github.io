@@ -184,12 +184,7 @@ div.menu_dropdown {
     border: 1px solid black !important;
     border-radius: 20px !important;
 }
-div#postcomment_userphotos {
-    position: fixed;
-    right: 0px;
-    width: 118px;
-    height: 450px;
-    overflow: hidden;}
+
 
 
 
@@ -500,16 +495,7 @@ a:hover {
     margin-top: 2px;
 }
 
-div#postcomment_userphotos {
-    position: fixed;
-    right: 9%;
-    top: 0px;
-    width: 10%;
-    height: 450px;
-    overflow: hidden;
-    width: max-content !important;
-    display: block !important;
-}
+
 
 .top_header {
     background: white;
