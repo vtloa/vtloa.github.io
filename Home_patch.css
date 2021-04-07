@@ -41,24 +41,24 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
 
 div[id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] [src^="./uploads_user/2000/1518/"] {
     background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center left!important;
-    padding: 125px;
+    padding: 141px;
     position: fixed;
     left: 5%;
     bottom: 245px !important;
-    background-size: 200px !important;
+    background-size: 224px !important;
     width: 18%;
-    height: 250px;
+    height: 300px !important;
 }
 
 div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] [src^="./uploads_user/2000/1518/"] {
     background: url(https://beon.vip/uploads_user/10000/9068/1a8d9d617106ebb6b715f6c1b78fbb3b.png) no-repeat center left !important;
-    padding: 125px;
+    padding: 141px;
     position: fixed;
     left: 5%;
     bottom: 245px !important;
-    background-size: 200px !important;
+    background-size: 224px !important;
     width: 18%;
-    height: 250px;
+    height: 300px !important;
 }
 
 [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/evol/"] [src^="./uploads_user/2000/1518/"] {
@@ -89,10 +89,10 @@ div[id^="comment_"]:nth-child(101) [style="float: left; text-align: center; widt
     padding: 125px;
     position: fixed;
     left: 5%;
-    bottom: 231px !important;
-    background-size: 200px !important;
+    bottom: 239px !important;
+    background-size: 300px !important;
     width: 18%;
-    height: 250px;
+    height: 300px;
 }
 
 [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/Satan/"] [src^="./uploads_user/1000/968/"] {
