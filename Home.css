@@ -426,24 +426,24 @@ div.profile_comment_body {
 
 [id^="comment_"]:nth-child(101) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/ontologia/"] img /*BIG орфей 101*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/e6a4e64ea1ee84722dead7e8dfcef0b3.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/e6a4e64ea1ee84722dead7e8dfcef0b3.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px;
-    bottom: 84px;
+    left: -100px !important;
+    bottom: 84px !important;
     z-index: 555;
     pointer-events: none;
 }
 
 [id^="comment_"]:nth-last-child(1) [style="float: left; text-align: center; width: 110px;"] [href="https://beon.vip/ontologia/"] img /*BIG орфей 1*/ {
     padding: 300px;
-    background: url(https://beon.vip/uploads_user/10000/9068/e6a4e64ea1ee84722dead7e8dfcef0b3.png) no-repeat center;
+    background: url(https://beon.vip/uploads_user/10000/9068/e6a4e64ea1ee84722dead7e8dfcef0b3.png) no-repeat center !important;
     position: fixed;
     width: 30%;
     height: 30%;
-    left: -100px;
-    bottom: 84px;
+    left: -100px !important;
+    bottom: 84px !important;
     z-index: 555;
     pointer-events: none;
 }
