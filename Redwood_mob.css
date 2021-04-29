@@ -1,0 +1,438 @@
+.copyright {
+    color: #232323;
+}
+
+.seBlogComments div.button {
+    padding: 5px;
+    font-size: 10px;
+}
+
+.seBlogComments [valign="top"] {
+    margin-top: 20px;
+    display: block;
+}
+
+.seBlogComments [valign="top"] a {
+    font-size: 11px;
+    color: #4a4a4a;
+}
+
+input[type="text"]::placeholder {
+    color: #b21125;
+}
+
+textarea#comment_body::placeholder {
+    color: #bdbdbd;
+}
+
+input#comment_submit {
+    color: #8e8e8e;
+    margin-top: 0px;
+    transition: 0.2s;
+}
+
+.userphoto_selected {
+    background: #b32828;
+    border-radius: 5px;
+}
+
+img.img-thumbnail {
+    background: #0d0d0dd9;
+    border: none;
+    transition: 0.2s;
+}
+
+div#postcomment_userphotos {
+    border: none;
+}
+
+div#comment_subscribe {
+    background: transparent;
+    border: none;
+}
+
+a#attach_file_click, div#comment_subscribe a {
+    padding: 2px !important;
+    color: #a9a9a9;
+}
+
+textarea#comment_body, input#comment_submit {
+    border: 1px solid #d6d6d6;
+    font-size: 12px;
+}
+
+.comment_headline {
+    background: white;
+    margin-top: 40px;
+    height: 70px;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    color: darkgrey;
+}
+
+.profile_postcomment {
+    background: white;
+    border-radius: 0px 0px 4px 4px;
+    min-height: 275px;
+    border: none;
+}
+
+.profile_comment_author a {
+    color: #a5a5a5;
+}
+
+.profile_comment_links {
+    color: transparent;
+}
+.profile_comment_links a {
+    border: none;
+    color: #b5b5b5;
+}
+.profile_comment_links {
+    position: absolute;
+    right: -6px;
+    bottom: 3px;
+}
+
+div#user_status {
+    display: none;
+}
+
+.seBlogComments img.photo {
+    border-radius: 2px 0 0 2px;
+}
+
+[id^="comment_"]>div>div:not([style^="overflow:"]) {
+    width: 100px;
+}
+
+[id^="comment_"]>div {
+    margin: 0px;
+}
+
+.profile_comment_date {
+    border-radius: 0 3px 0 0;
+    height: 40px;
+    background-color: #1e1e1e;
+    background-image: url(https://www.transparenttextures.com/patterns/dark-wall.png);
+}
+
+[id^="comment_"] {
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+
+.card-header a {
+    font-size: 0px;
+}
+
+.gifts-list {
+    font-size: 0px;
+    margin-top: 10px;
+}
+
+.gifts-list img {
+    width: 30px;
+    filter: grayscale(1) brightness(0.8) contrast(1.7) drop-shadow(0px 0px 0px red);
+}
+
+ul.seBlogCategoryList a {
+    background: #1e1e1e;
+    width: 100px;
+    border-radius: 3px;
+    color: #af1213;
+    padding: 1px;
+}
+
+.blog_leftprofile a {
+    color: #910513;
+    font-size: 12px;
+}
+
+input[type="text"] {
+    width: 100%;
+    background: #72111b5c;
+    border: 1px solid #a21222;
+    border-radius: 5px;
+}
+
+.blog_leftphoto img {
+    width: 100px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px #ad1224;
+}
+
+li.p-1 a {
+    color: #46484c;
+    font-size: 12px;
+}
+
+li.p-1 {
+    background: #1e1e1e;
+    margin: auto;
+    display: block;
+    margin-top: 3px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+
+.card-header {
+    width: 100%;
+    background: #1e1e1e;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #373738;
+    height: 45px;
+    color: #46484c;
+    background-color: #000000;
+    background-image: url(https://www.transparenttextures.com/patterns/dark-wall.png);
+}
+
+img.photo {
+    border: none;
+}
+
+
+div#mobile_menu a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+div#mobile_photo {
+    opacity: 0;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div#mobile_menu button.btn.btn-primary {
+    background: white;
+    border: none;
+    color: black;
+}
+
+div#mobile_photo_wrap {
+    background: white;
+    color: black;
+}
+
+div#mobile_menu, div#mobile_menu a {
+    background: #151515;
+}
+
+.badge-danger {
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 15px;
+}
+
+button.btn.btn-outline-success {
+    color: #b21124;
+    background: #0d0d0d;
+    border: none;
+}
+
+button.navbar-toggler {
+    border: none;
+    filter: drop-shadow(2px 4px 0px black);
+}
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_image/cb/da/cbda2819ed8ee79600bbf228dd3a9b00.png);
+}
+
+div#designs {
+    background: #bf0f27;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    color: transparent;
+    width: 25px;
+    height: 25px;
+    right: 5px;
+    bottom: 10px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.post_container .post_text img {
+    max-width: 100%;
+}
+
+.post_text.pl-3 {
+    padding: 5px !important;
+}
+
+p.card-link,a.card-link {
+    padding-left: 5px;
+}
+
+.additional_info.pl-3 {
+    display: flex;
+    font-size: 11px;
+}
+
+
+.additional_info.pl-3, .additional_info.pl-3 a {
+    color: #5a5a5a;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    display: none;
+}
+
+h2.card-title a {
+    color: #ed2021;
+}
+
+h2.card-title {
+    padding-left: 35px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.post_image {
+    display: none;
+}
+
+iframe.head_post {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+img.head_post {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+h2.card-title a:before {
+    content: 'image click';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 150px;
+    color: transparent;
+    transition: 1s;
+    background-color: #ffffff;
+    background-image: url(https://i.pinimg.com/originals/c0/b0/e3/c0b0e3e91f247b8687019450c635fcd1.png);
+    background-size: cover;
+    box-shadow: inset 0px -15px 30px white;
+    pointer-events: none;
+}
+
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: url(https://i.pinimg.com/originals/86/9f/d2/869fd246540e0b65b1254cc1b82c193d.png) no-repeat bottom right;
+    border: none;
+    background-size: cover;
+}
+
+.post {
+    padding-top: 150px;
+    position: relative;
+    border: 1px solid #979ba569;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    margin-top: 30px;
+}
+
+
+body {
+    background: #0d0d0d;
+}
+
+
+button.close {display: none;}
+
+
+button.btn.btn-secondary:focus {
+    box-shadow: none !important;
+}
+button.btn.btn-secondary:active {
+    background: #0a0a0a !important;
+}
+
+button.btn.btn-secondary {
+    padding: 5px;
+    background: #131313;
+    border-radius: 3px;
+    border: 1px solid #373738;
+    color: #464646 !important;
+}
+
+.modal-body a {
+    color: #afafaf;
+}
+
+.modal-header,.modal-footer {
+    border: 1px solid #373738;
+    color: #46484c;
+    background-color: #000000;
+    background-image: url(https://www.transparenttextures.com/patterns/dark-wall.png);
+}
+
+.modal-header,.modal-footer {
+}
+
+
+.modal-content {
+    background: #131313;
+    border-radius: 5px !important;
+}
+
+div#mobile_menu::-webkit-scrollbar-thumb {
+    background: #232323;
+    border-radius: 10px;
+}
+
+.post_container ::-webkit-scrollbar-thumb,div#postcomment_userphotos::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 10px;
+}
+
+.post_container ::-webkit-scrollbar-track,div#postcomment_userphotos::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+div#userphotos::-webkit-scrollbar-thumb {
+    background: #252525;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #be0f27;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
