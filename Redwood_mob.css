@@ -40,8 +40,8 @@ iframe.head_post {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
     height: 150px !important;
     object-fit: cover;
 }
@@ -189,11 +189,11 @@ div#user_status {
 }
 
 [id^="comment_"]>div>div:not([style^="overflow:"]) {
-    width: 100px;
+    width: 100px !important;
 }
 
 [id^="comment_"]>div {
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .profile_comment_date {
@@ -317,11 +317,11 @@ button.navbar-toggler {
 div#designs {
     background: #bf0f27;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    color: transparent;
-    width: 25px;
-    height: 25px;
+    color: transparent !important;
+    width: 25px !important;
+    height: 25px !important;
     right: 5px;
-    bottom: 10px;
+    bottom: 10px !important;
 }
 
 * {
