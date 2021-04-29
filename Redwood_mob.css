@@ -59,8 +59,8 @@ img.head_post {
     width: 100%;
     background: #1e1e1e;
     margin: auto;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px !important;
+    border-radius: 5px !important;
     border: 1px solid #373738;
     height: 45px;
     color: #46484c;
