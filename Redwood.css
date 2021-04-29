@@ -15,6 +15,12 @@ font-family: 'font101256d71b969fdd74e50f9f556e352c';
 }
 
 /*CORE*/
+
+
+.copyright {
+    color: #232323;
+}
+
 button.close {display: none;}
 
 div#designs {
@@ -493,7 +499,6 @@ input[type="text"] {
 .blog_leftprofile a {
     color: #910513 !important;
     font-size: 12px;
-    font-family: serif;
 }
 
 .blog_leftphoto img {
