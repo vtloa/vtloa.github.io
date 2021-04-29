@@ -248,7 +248,7 @@ ul.seBlogCategoryList a {
 }
 
 li.p-1 a {
-    color: #46484c;
+    color: #46484c !important;
     font-size: 12px;
 }
 
