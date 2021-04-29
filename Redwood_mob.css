@@ -1,3 +1,9 @@
+a#comment_next_page_top,a#comment_next_page_bottom {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
 a.page-link,a.page-link:hover {
     background: #1e1e1e;
     border: 1px solid #373738;
