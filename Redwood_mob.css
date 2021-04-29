@@ -1,3 +1,9 @@
+a.page-link {
+    background: #1e1e1e;
+    border: 1px solid #373738;
+    color: #4e4e4e;
+}
+
 @media screen and (max-width: 1024px){
     
 .card {border: none !important;}
