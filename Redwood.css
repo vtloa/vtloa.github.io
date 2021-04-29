@@ -18,7 +18,7 @@ font-family: 'font101256d71b969fdd74e50f9f556e352c';
 
 
 .copyright {
-    color: #232323;
+    color: #232323 !important;
 }
 
 button.close {display: none;}
