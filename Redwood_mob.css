@@ -89,7 +89,6 @@ input[type="text"] {
     overflow: hidden;
     background: white;
 }
-}
 
 .post {
     border: 1px solid #979ba569;
@@ -295,7 +294,7 @@ div#mobile_photo_wrap {
 }
 
 div#mobile_menu, div#mobile_menu a {
-    background: #151515;
+    background: #151515 !important;
 }
 
 
@@ -469,4 +468,4 @@ div#userphotos::-webkit-scrollbar-thumb {
     background: #0d0d0d;
 }
 
-
+}
