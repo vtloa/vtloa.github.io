@@ -320,8 +320,8 @@ div#designs {
     color: transparent !important;
     width: 25px !important;
     height: 25px !important;
-    right: 5px;
-    bottom: 10px !important;
+    right: 0px;
+    bottom: 0px !important;
 }
 
 * {
