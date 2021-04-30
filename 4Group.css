@@ -338,6 +338,9 @@ p {
     margin-bottom: 5px;
 }
 
+.tex,.lil,.lil2 {
+    padding-left: 5px;
+}
 
 .card.mb-2.post_home:nth-child(2) .lil,.card.mb-2.post_home:first-child .lil {
     width: 50%;
