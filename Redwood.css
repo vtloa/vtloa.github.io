@@ -705,10 +705,10 @@ img.head_post {
 
 .post_container .post_text img[tabindex="1"]:focus {
     position: fixed;
-    max-width: 100%;
+    max-width: 80%;
     max-height: 95%;
-    left: 25%;
-    bottom: 10%;
+    left: 10%;
+    bottom: 5%;
     z-index: 222;
     box-shadow: 0 13px 20px 7px #00000063;
 }
