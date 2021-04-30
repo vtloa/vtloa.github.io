@@ -52,14 +52,16 @@ td.top_menu {
 
 /*Оформление*/
 
+.card.mb-2.post_home:nth-child(2), .card.mb-2.post_home:first-child .post_text.pl-3:before {content: '';}
+
 .post_text.pl-3:before {
     content: '11';
     position: absolute;
     left: 0px;
-    bottom: 53px;
-    background: linear-gradient(
+    bottom: 56px;
+    background: linear-gradient( 
 0deg
-, white,#ffffff8c, transparent);
+ , white,#ffffff8c, transparent);
     height: 42px;
     width: 100%;
     color: transparent;
