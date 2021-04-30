@@ -1,3 +1,7 @@
+div.profile_comment_body img {
+    max-width: 100%;
+}
+
 .profile_comment_links [onclick^="newmessage"] {
     background: #1e1e1e;
     font-size: 10px;
