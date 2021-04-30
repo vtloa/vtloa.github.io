@@ -52,7 +52,7 @@ td.top_menu {
 
 /*Оформление*/
 
-.card.mb-2.post_home:nth-child(3), .card.mb-2.post_home:first-child .post_text.pl-3:before {content: unset !important;}
+.card.mb-2.post_home:nth-child(3) .post_text.pl-3:before, .card.mb-2.post_home:first-child .post_text.pl-3:before {content: unset !important;}
 
 .post_text.pl-3:before {
     content: '11';
