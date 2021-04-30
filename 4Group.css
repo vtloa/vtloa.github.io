@@ -339,11 +339,6 @@ div#righthome {
 
 
 
-div#lefthome {
-    display: none;
-}
-
-
 ::-webkit-scrollbar {
     width: 8px;
 }
