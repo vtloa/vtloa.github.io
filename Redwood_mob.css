@@ -28,6 +28,8 @@ a.page-link,a.page-link:hover {
 
 @media screen and (max-width: 1024px){
     
+td.top_menu {width: 90%;}
+    
 .card {border: none !important;}
 
 .badge-danger {
