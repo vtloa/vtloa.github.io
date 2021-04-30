@@ -1,0 +1,378 @@
+img.photo {
+    border: none;
+}
+
+a.page-link,a.page-link:hover {
+    color: #272727;
+    background: #ebe52c;
+    border-radius: 0px !important;
+}
+
+[src="/images/notify.svg"] {
+    width: 23px;
+    opacity: 0.2;
+}
+
+a.top_menu_item,button.btn.btn-primary,[href="./"]:before {
+    font-size: 15px !important;
+    color: #bbbbbb !important;
+    text-transform: uppercase;
+}
+
+
+
+[href="./"]:before {
+    content: 'exit';
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: block;
+    font-size: 15px;
+}
+
+
+button.btn.btn-primary,button.button_down {
+    background: transparent;
+    border: none;
+}
+
+[src="./images/logo_new.png"] {display: none;}
+
+td.top_menu {
+    display: block;
+    width: 90%;
+    position: absolute;
+    left: 10%;
+    top: -7px;
+}
+
+.top_header {
+    height: 40px;
+    background: white;
+}
+
+/*Оформление*/
+
+.post_text.pl-3:before {
+    content: '11';
+    position: absolute;
+    left: 0px;
+    bottom: 53px;
+    background: linear-gradient(
+0deg
+, white,#ffffff8c, transparent);
+    height: 42px;
+    width: 100%;
+    color: transparent;
+}
+
+[style="float: left; padding-left: 20px;"] {
+    padding-left: 2px !important;
+}
+
+[href$="&task=sticky"] {
+    background: #ebe52c;
+    color: #000 !important;
+    padding: 5px;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+    height: 26px;
+    font-size: 10px;
+}
+[onclick="TB_show('Переименовать/Удалить тему', '#TB_inline?height=150&width=300&inlineId=confirmedit', '', '../images/trans.gif');"] {
+    background: #ebe52c;
+    color: #000 !important;
+    padding: 5px;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+    height: 26px;
+}
+[href^="/group_discussion_post.php?grouptopic_id"] {
+    background: #ebe52c;
+    color: #000 !important;
+    padding: 5px;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+    height: 26px;
+}
+
+[href^="javascript:TB_show"] {
+    background: #ebe52c;
+    color: #000 !important;
+    padding: 1px;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+    height: 26px;
+    font-size: 8.5px;
+}
+
+[href="https://beon.vip/group/464/"] {
+    background: #abea61;
+    color: #000 !important;
+    padding: 5px;
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 10% 100%, 0% 50%, 10% 0);
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+}
+
+.seBlogComments [style="margin-bottom: 20px;"] {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date a {
+    color: #000;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    text-align: end;
+    padding: 5px;
+    font-size: 11px;
+    color: #c7c7c7;
+}
+
+h2.card-title a:hover {
+    background: linear-gradient(45deg, black 24%, #fdfdfd4d 55%, black 85%);
+    background-position: 500px;
+    transition: 0.3s;
+    background-size: 500px;
+}
+
+a.card-link {
+    color: #000;
+}
+.additional_info.pl-3 {
+    margin-top: 18px;
+    font-size: 11px;
+    color: #000;
+    clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0% 100%);
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 27px;
+    background: #d9ec6b;
+}
+.card.mb-2.post_home {
+    box-shadow: -3px 3px 5px #00000038;
+}
+.card.mb-2.post_home {
+    border-radius: 5px !important;
+}
+
+/*Оформление*/
+
+
+
+.category {
+    position: absolute;
+    top: 150px;
+}
+
+
+h2.card-title a {
+    background: linear-gradient(45deg, black 20%, #fdfdfd33 64%, black 87%) repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    height: 150px;
+    width: 100%;
+    mix-blend-mode: lighten;
+    color: #000000;
+    padding-left: 10px;
+    font-size: 25px;
+   transition: 0.3s;
+    
+}
+
+
+.card.mb-2.post_home:nth-child(2):before {
+    content: 'New';
+    position: absolute;
+    background: #ffeb3b;
+    font-size: 20px;
+    color: #f44336;
+    padding: 3px;
+    border-radius: 0 0 8px 0px;
+}
+
+.card.mb-2.post_home:nth-child(2) .post .post_text.pl-3,.card.mb-2.post_home:first-child .post .post_text.pl-3 {
+    min-height: max-content;
+    max-height: max-content;
+}
+
+.card.mb-2.post_home:nth-child(2) .post,.card.mb-2.post_home:first-child .post {
+    padding-top: 150px;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+
+
+.card.mb-2.post_home:nth-child(2), .card.mb-2.post_home:first-child {
+    background: #505050;
+    border: 1px solid black !important;
+    width: 1257px;
+    height: 100%;
+    margin-bottom: 100px !important;
+}
+
+.post_text.pl-3 {
+    overflow-y: scroll;
+    min-height: 260px;
+    max-height: 260px;
+    padding: 0px !important;
+}
+
+.post {
+    background: white;
+    padding-top: 145px;
+    padding-left: 8px;
+}
+
+.post_container .post_text img {
+    max-width: 100%;
+}
+
+img.head_post {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 150px;
+    object-fit: cover;
+}
+
+.post [id^="post"]/*шапка включена всегда*/ {
+    display: block !important;
+}
+[onclick^="showpost"] {
+    font-size: 0px !important;
+}
+
+
+
+.post_image {
+    display: none;
+}
+
+
+.card.mb-2.post_home {
+    display: inline-flex;
+    width: 304px;
+    height: 500px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #8a8a8a !important;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+div#righthome {
+    width: 1300px;
+    margin: auto;
+    padding: 0px;
+}
+
+
+
+
+div#lefthome {
+    display: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+.post_container ::-webkit-scrollbar-thumb, div#postcomment_userphotos::-webkit-scrollbar-thumb {
+    background: #d9ec6b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ebe52c;
+    border-radius: 10px;
+}
+
+.post_container ::-webkit-scrollbar-track, div#postcomment_userphotos::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+
+/*Оформление постов*/
+
+.card.mb-2.post_home:nth-child(2) .post_text.pl-3,.card.mb-2.post_home:first-child .post_text.pl-3 {
+    display: flex;
+}
+
+.card.mb-2.post_home:nth-child(2) .claster2,.card.mb-2.post_home:first-child .claster2 {
+    width: 35%;
+    float: right;
+}
+
+
+.card.mb-2.post_home:nth-child(2) .claster,.card.mb-2.post_home:first-child .claster {
+    width: 65%;
+    float: left;
+}
+
+.card.mb-2.post_home:nth-child(2) .claster2,.card.mb-2.post_home:first-child .claster2 {height: 462px; overflow: hidden;}
+
+.card.mb-2.post_home:nth-child(2) .tex {
+    padding-left: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+
+.card.mb-2.post_home:nth-child(2) .lil,.card.mb-2.post_home:first-child .lil {
+    width: 50%;
+    float: left;
+}
+
+.card.mb-2.post_home:nth-child(2) .lil2,.card.mb-2.post_home:first-child .lil2 {
+    width: 50%;
+    float: right;
+}
+
+
+/*Кликабельные картинки*/
+
+.card.mb-2.post_home:nth-child(2) .post_text.pl-3 [tabindex="1"]:focus,
+.card.mb-2.post_home:first-child .post_text.pl-3 [tabindex="1"]:focus {
+    position: fixed;
+    bottom: 5%;
+    margin-left: -7%;
+    max-width: 70%;
+    box-shadow: 0 0 0px 200vh #0000008a;
+    transition: 0.5s;
+    z-index: 11111;
+}
+
+.card.mb-2.post_home [tabindex="1"]:focus {
+    position: fixed;
+    bottom: 5%;
+    margin-left: -20%;
+    max-width: 70%;
+    box-shadow: 0 0 0px 200vh #0000008a;
+    transition: 0.5s;
+    z-index: 11111;
+}
+
+
+@media screen and (max-width: 1024px){
+div#righthome {width: 960px !important;margin: auto;}
+.card.mb-2.post_home:nth-child(2),.card.mb-2.post_home:first-child {width: 960px !important;}}
+
