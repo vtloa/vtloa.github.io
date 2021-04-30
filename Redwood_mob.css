@@ -28,6 +28,12 @@ a.page-link,a.page-link:hover {
 
 @media screen and (max-width: 1024px){
     
+.blog_leftsearch {
+    position: unset;
+    top: unset;
+    width: unset;
+}
+    
 td.top_menu {width: 90%;}
     
 .card {border: none !important;}
