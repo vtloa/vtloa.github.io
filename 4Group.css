@@ -52,7 +52,7 @@ td.top_menu {
 
 /*Оформление*/
 
-.card.mb-2.post_home:nth-child(2), .card.mb-2.post_home:first-child .post_text.pl-3:before {content: unset !important;}
+.card.mb-2.post_home:nth-child(3), .card.mb-2.post_home:first-child .post_text.pl-3:before {content: unset !important;}
 
 .post_text.pl-3:before {
     content: '11';
@@ -191,7 +191,7 @@ h2.card-title a {
 }
 
 
-.card.mb-2.post_home:nth-child(2):before {
+.card.mb-2.post_home:nth-child(3):before {
     content: 'New';
     position: absolute;
     background: #ffeb3b;
@@ -201,12 +201,12 @@ h2.card-title a {
     border-radius: 0 0 8px 0px;
 }
 
-.card.mb-2.post_home:nth-child(2) .post .post_text.pl-3,.card.mb-2.post_home:first-child .post .post_text.pl-3 {
+.card.mb-2.post_home:nth-child(3) .post .post_text.pl-3,.card.mb-2.post_home:first-child .post .post_text.pl-3 {
     min-height: max-content;
     max-height: max-content;
 }
 
-.card.mb-2.post_home:nth-child(2) .post,.card.mb-2.post_home:first-child .post {
+.card.mb-2.post_home:nth-child(3) .post,.card.mb-2.post_home:first-child .post {
     padding-top: 150px;
     padding-left: 5px;
     padding-right: 0px;
@@ -214,7 +214,7 @@ h2.card-title a {
 
 
 
-.card.mb-2.post_home:nth-child(2), .card.mb-2.post_home:first-child {
+.card.mb-2.post_home:nth-child(3), .card.mb-2.post_home:first-child {
     background: #505050;
     border: 1px solid black !important;
     width: 1257px;
@@ -313,24 +313,24 @@ div#lefthome {
 
 /*Оформление постов*/
 
-.card.mb-2.post_home:nth-child(2) .post_text.pl-3,.card.mb-2.post_home:first-child .post_text.pl-3 {
+.card.mb-2.post_home:nth-child(3) .post_text.pl-3,.card.mb-2.post_home:first-child .post_text.pl-3 {
     display: flex;
 }
 
-.card.mb-2.post_home:nth-child(2) .claster2,.card.mb-2.post_home:first-child .claster2 {
+.card.mb-2.post_home:nth-child(3) .claster2,.card.mb-2.post_home:first-child .claster2 {
     width: 35%;
     float: right;
 }
 
 
-.card.mb-2.post_home:nth-child(2) .claster,.card.mb-2.post_home:first-child .claster {
+.card.mb-2.post_home:nth-child(3) .claster,.card.mb-2.post_home:first-child .claster {
     width: 65%;
     float: left;
 }
 
-.card.mb-2.post_home:nth-child(2) .claster2,.card.mb-2.post_home:first-child .claster2 {height: 454px; overflow: hidden;}
+.card.mb-2.post_home:nth-child(3) .claster2,.card.mb-2.post_home:first-child .claster2 {height: 454px; overflow: hidden;}
 
-.card.mb-2.post_home:nth-child(2) .tex {
+.card.mb-2.post_home:nth-child(3) .tex {
     padding-left: 10px;
 }
 
@@ -342,12 +342,12 @@ p {
     padding-left: 5px;
 }
 
-.card.mb-2.post_home:nth-child(2) .lil,.card.mb-2.post_home:first-child .lil {
+.card.mb-2.post_home:nth-child(3) .lil,.card.mb-2.post_home:first-child .lil {
     width: 50%;
     float: left;
 }
 
-.card.mb-2.post_home:nth-child(2) .lil2,.card.mb-2.post_home:first-child .lil2 {
+.card.mb-2.post_home:nth-child(3) .lil2,.card.mb-2.post_home:first-child .lil2 {
     width: 50%;
     float: right;
 }
@@ -355,7 +355,7 @@ p {
 
 /*Кликабельные картинки*/
 
-.card.mb-2.post_home:nth-child(2) .post_text.pl-3 [tabindex="1"]:focus,
+.card.mb-2.post_home:nth-child(3) .post_text.pl-3 [tabindex="1"]:focus,
 .card.mb-2.post_home:first-child .post_text.pl-3 [tabindex="1"]:focus {
     position: fixed;
     bottom: 5%;
@@ -379,5 +379,5 @@ p {
 
 @media screen and (max-width: 1024px){
 div#righthome {width: 960px !important;margin: auto;}
-.card.mb-2.post_home:nth-child(2),.card.mb-2.post_home:first-child {width: 960px !important;}}
+.card.mb-2.post_home:nth-child(3),.card.mb-2.post_home:first-child {width: 960px !important;}}
 
