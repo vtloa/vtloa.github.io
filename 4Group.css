@@ -1,3 +1,19 @@
+.seBlogColumnRightPadding:before {
+    content: 'M';
+    background: #ebe52c;
+    position: fixed;
+    right: -11px;
+    top: 0px;
+    height: 97%;
+    width: 10px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-left: 0px;
+    color: transparent;
+}
+
+
 .seBlogColumnRightPadding a {
     background: transparent;
     font-size: 14px;
