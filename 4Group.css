@@ -360,7 +360,7 @@ p {
     position: fixed;
     bottom: 5%;
     margin-left: -7%;
-    max-width: 70%;
+    max-width: 90%;
     box-shadow: 0 0 0px 200vh #0000008a;
     transition: 0.5s;
     z-index: 11111;
