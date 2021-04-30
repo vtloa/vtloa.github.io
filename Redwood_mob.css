@@ -28,6 +28,14 @@ a.page-link,a.page-link:hover {
 
 @media screen and (max-width: 1024px){
     
+a.commentReply {
+    background: transparent;
+}
+
+.profile_comment_links [onclick^="newmessage"] {
+    background: transparent;
+}
+    
 .blog_leftsearch {
     position: unset;
     top: unset;
