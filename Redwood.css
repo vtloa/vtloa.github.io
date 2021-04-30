@@ -707,7 +707,8 @@ img.head_post {
     position: fixed;
     max-width: 100%;
     max-height: 95%;
-    bottom: 1%;
+    left: 25%;
+    bottom: 10%;
     z-index: 222;
     box-shadow: 0 13px 20px 7px #00000063;
 }
