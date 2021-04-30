@@ -52,7 +52,7 @@ td.top_menu {
 
 /*Оформление*/
 
-.card.mb-2.post_home:nth-child(2), .card.mb-2.post_home:first-child .post_text.pl-3:before {content: '';}
+.card.mb-2.post_home:nth-child(2), .card.mb-2.post_home:first-child .post_text.pl-3:before {content: unset !important;}
 
 .post_text.pl-3:before {
     content: '11';
@@ -328,7 +328,7 @@ div#lefthome {
     float: left;
 }
 
-.card.mb-2.post_home:nth-child(2) .claster2,.card.mb-2.post_home:first-child .claster2 {height: 462px; overflow: hidden;}
+.card.mb-2.post_home:nth-child(2) .claster2,.card.mb-2.post_home:first-child .claster2 {height: 454px; overflow: hidden;}
 
 .card.mb-2.post_home:nth-child(2) .tex {
     padding-left: 10px;
