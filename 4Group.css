@@ -369,7 +369,6 @@ p {
 .card.mb-2.post_home [tabindex="1"]:focus {
     position: fixed;
     bottom: 5%;
-    margin-left: -20%;
     max-width: 70%;
     box-shadow: 0 0 0px 200vh #0000008a;
     transition: 0.5s;
