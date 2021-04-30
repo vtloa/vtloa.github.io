@@ -1,3 +1,59 @@
+.seBlogColumnRightPadding a {
+    background: transparent;
+    font-size: 14px;
+    padding: 0px;
+    height: unset;
+    width: unset;
+}
+
+
+div#lefthome:hover {
+    transform: translateX(0%);
+    transition: 0.7s;
+}
+div#lefthome {
+    transform: translateX(-90%);
+    transition: 0.7s;
+}
+
+div#lefthome {
+    display: block;
+    position: absolute;
+    z-index: 11;
+    background: white;
+    border: 1px solid;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+}
+
+.seBlogColumnRightPadding {
+    position: sticky;
+    top: 40px;
+    padding: 5px;
+    width: 90%;
+}
+
+.card-header {
+    display: none;
+}
+
+li.p-1 {
+    display: block;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.card {
+    border: none;
+}
+
+
+
+
+
 img.photo {
     border: none;
 }
