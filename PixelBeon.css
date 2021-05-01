@@ -518,7 +518,7 @@ div.copyright {
     color: transparent;
     position: absolute;
     top: 207px;
-    left: 70px;
+    left: 80px;
 }
 
 .card.mt-3.blog_leftmenu [href="/user_blog_settings.php"] {
@@ -541,7 +541,7 @@ div.copyright {
     color: transparent;
     position: absolute;
     left: 70px;
-    top: 127px;
+    top: 137px;
 }
 
 .card.mt-3.blog_leftmenu [href^="mf_gifts_send.php?to"]:hover {
