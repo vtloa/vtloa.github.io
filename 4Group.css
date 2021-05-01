@@ -9,7 +9,6 @@
 
 
 
-
 a.page-link {
     margin-top: 10px;
 }
@@ -419,6 +418,8 @@ div#righthome {
 .card.mb-2.post_home:nth-child(3) .claster,.card.mb-2.post_home:first-child .claster {
     width: 65%;
     float: left;
+    height: 454px;
+    overflow: hidden;
 }
 
 .card.mb-2.post_home:nth-child(3) .claster2,.card.mb-2.post_home:first-child .claster2 {height: 454px; overflow: hidden;}
