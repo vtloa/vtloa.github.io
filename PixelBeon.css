@@ -28,6 +28,10 @@ html {
 
 /*-------------------------------------*/
 
+.seBlogComments [style="text-align: center;"] {
+    color: transparent;
+}
+
 div.profile_comment_body a {
     color: #cf9bff;
 }
