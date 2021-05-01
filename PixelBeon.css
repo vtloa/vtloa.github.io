@@ -28,6 +28,19 @@ html {
 
 /*-------------------------------------*/
 
+blockquote.blockquote {
+    background: #f9e6aa61;
+    border: 1px dashed;
+    padding: 3px;
+    font-size: 11px !important;
+    margin: 0px;
+}
+
+font.disabled,a#comment_next_page_top,a#comment_next_page_bottom {
+    font-size: 10px;
+    color: #795548;
+}
+
 a.page-link:hover {
     color: #ec5d8f;
 }
