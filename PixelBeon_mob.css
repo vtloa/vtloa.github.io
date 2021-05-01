@@ -1,5 +1,9 @@
 @media screen and (max-width: 1024px) {
     
+div.profile_comment_body a {
+    color: #cf9bff;
+}
+
 [src="/images/verify.png"] {
     background: url(https://beon.vip/uploads_user/10000/9008/3e4472e….gif) no-repeat center;
     background-size: contain;
