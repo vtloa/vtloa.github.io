@@ -28,7 +28,7 @@ html {
 
 /*-------------------------------------*/
 
-button.btn.btn-primary {
+button.btn.btn-primary:active {
     background: #b95374 !important;
     border-color: #795548 !important;
     color: #ffcede !important;
