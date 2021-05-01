@@ -136,20 +136,20 @@ div.copyright {
 }
 
 .copyright {
-    color: #7c431c;
+    color: #7c431c !important;
 }
 
 div#designs {
     background: #f9e6aa;
-    width: 125px;
-    height: 17px;
+    width: 125px !important;
+    height: 17px !important;
     border: 1px dashed #945239;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0px !important;
+    right: 0px !important;
     font-size: 10px;
     padding-left: 10px;
     text-transform: uppercase;
-    color: #945239;
+    color: #945239 !important;
     box-shadow: inset 1px 1px 0px 0px #ffffff;
 }
 
@@ -181,10 +181,11 @@ div#designs {
 
 button.navbar-toggler,button.btn.btn-outline-success {
     background: #ffcede;
-    border: 1px solid #945239;
+    border: 1px solid #945239 !important;
     border-radius: 5px;
     box-shadow: inset 1px 1px 0px 0px #ffffff;
     color: #945239;
+    text-transform: uppercase;
 }
 
 .post_text.pl-3 {
@@ -243,7 +244,7 @@ input[type="text"] {
 }
 
 li.p-1 a {
-    color: #945239;
+    color: #945239 !important;
 }
 
 li.p-1 {
@@ -267,7 +268,7 @@ li.p-1 {
 div#lefthome {
     background: #ffcede;
     margin-top: 15px;
-    border: 1px solid #945239;
+    border: 1px solid #945239 !important;
     padding: 5px;
     padding-top: 20px;
 }
