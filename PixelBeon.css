@@ -332,7 +332,7 @@ h2.card-title a:hover {
 }
 
 
-.commentEditLink, .commentDeleteLink {
+.profile_comment_links a {
     background: #ffffff;
     border-radius: 5px;
     color: #7c431c !important;
