@@ -1,4 +1,8 @@
 @media screen and (max-width: 1024px) {
+    
+#mobile_menu .menu_item_dropdown a:hover {
+    background: #e89ab4;
+}
 
 div#mobile_photo img {
     opacity: 0;
