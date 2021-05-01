@@ -1,5 +1,72 @@
 @media screen and (max-width: 1024px) {
     
+
+.modal-dialog {
+    max-width: 300px;
+}
+
+.modal-body a {
+    color: #945239;
+    font-size: 11px;
+}
+
+button.btn.btn-secondary:focus {
+    box-shadow: none;
+}
+
+button.btn.btn-secondary:hover {
+    background: #e0a6ba;
+}
+
+button.btn.btn-secondary {
+    background: #ffcede;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px;
+    border: 1px solid #945239;
+    width: 25px;
+    height: 25px;
+    font-size: 0pc;
+    box-shadow: inset 1px 1px 0px 0px #ffffff;
+}
+
+button.close {
+    display: none;
+}
+
+h5.modal-title {
+    font-size: 0px;
+}
+.modal-footer {
+    background: white;
+    border: 1px solid #945239;
+    border-top: none;
+    border-radius: 0px;
+}
+.modal-body {
+    background: white;
+    border: 1px solid #945239;
+    border-bottom: 0px;
+}
+.modal-content {
+    background: #ffcede;
+    border-radius: 0px !important;
+    padding: 3px;
+    border: 1px solid #945239;
+}
+
+.modal-header {
+    height: 10px;
+    border-radius: 0px !important;
+    border: none;
+}  
+    
+    
+    
+    
+    
+    
 #mobile_menu .menu_item_dropdown a:hover {
     background: #e89ab4;
 }
