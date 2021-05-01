@@ -1,3 +1,28 @@
+div#lefthome:before {
+    content: 'Menu';
+    position: absolute;
+    left: 0px;
+    top: -65px;
+    background: #ebe52c;
+    width: 100px;
+    border-radius: 0 5px 0 0;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+div#lefthome {
+    transform: translateY(100%);
+}
+
+
+div#lefthome:hover {
+    box-shadow: 0 0 0 200vh #000000b3;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+
+
 div#lefthome {
     position: fixed;
     background: #313131;
@@ -5,26 +30,29 @@ div#lefthome {
     border-radius: 5px;
     left: 0px;
     bottom: 0px;
+    transition: 0.3s;
 }
 
 
-
-
-.card-header {
-    display: none;
+.seBlogColumnRightPadding a {
+    background: transparent;
+    font-size: 14px;
+    color: darkgrey !important;
+    padding: 1px !important;
+    width: auto;
 }
 
-li.p-1 {
-    display: block;
-}
+input[type="text"] {background: #2f2f2f;}
+    
+.blog_leftphoto img {
+    width: 100px;
+    border-radius: 100%;}
 
-.card-body {
-    padding: 0px;
-}
 
-.card {
-    border: none;
-}
+.card-header {display: none;}
+li.p-1 {display: block;}
+.card-body {padding: 0px;}
+.card {border: none;}
 
 
 
