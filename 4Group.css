@@ -197,12 +197,7 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     color: #c7c7c7;
 }
 
-h2.card-title a:hover {
-    background: linear-gradient(45deg, black 24%, #fdfdfd4d 55%, black 85%);
-    background-position: 500px;
-    transition: 0.3s;
-    background-size: 500px;
-}
+
 
 a.card-link {
     color: #000;
@@ -235,19 +230,16 @@ a.card-link {
 
 
 h2.card-title a {
-    background: linear-gradient(45deg, black 20%, #fdfdfd33 64%, black 87%) repeat;
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 11;
     height: 150px;
     width: 100%;
-    mix-blend-mode: lighten;
     color: #000000;
     padding-left: 10px;
     font-size: 25px;
-   transition: 0.3s;
-    
+    transition: 0.3s;
 }
 
 
