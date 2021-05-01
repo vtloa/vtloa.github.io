@@ -28,6 +28,10 @@ html {
 
 /*-------------------------------------*/
 
+[onclick="SocialEngine.Blog.subscribeBlog(SocialEngine.Owner.user_info.user_id); return false"] {
+    display: none;
+}
+
 .seBlogComments [style="text-align: center;"] {
     color: transparent;
 }
