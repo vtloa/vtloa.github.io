@@ -1,3 +1,13 @@
+div#lefthome {
+    position: fixed;
+    background: #313131;
+    z-index: 1111;
+    border-radius: 5px;
+    left: 0px;
+    bottom: 0px;
+}
+
+
 
 
 .card-header {
