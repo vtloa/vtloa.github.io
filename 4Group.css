@@ -274,10 +274,17 @@ h2.card-title a {
     content: 'New';
     position: absolute;
     background: #ffeb3b;
-    font-size: 20px;
     color: #f44336;
     padding: 3px;
-    border-radius: 0 0 8px 0px;
+    z-index: 222;
+    top: 35px;
+    width: 45px;
+    border-radius: 0 20px 20px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .card.mb-2.post_home:nth-child(3) .post .post_text.pl-3,.card.mb-2.post_home:first-child .post .post_text.pl-3 {
