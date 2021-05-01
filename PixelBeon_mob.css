@@ -18,14 +18,14 @@ div#mobile_menu {
 div#mobile_menu button.btn.btn-primary,#mobile_menu .menu_item_dropdown a {
     background: #ffcede;
     border: 1px solid #945239;
-    border-radius: 5px;
+    border-radius: 5px !important;
     box-shadow: inset 1px 1px 0px 0px #fff3f7;
     margin-top: 5px;
-    width: 90%;
+    width: 90% !important;
     margin-left: 5%;
     color: #945239;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 11px !important;
     text-align: center;
     padding: 5px;
 }
@@ -65,7 +65,7 @@ textarea#comment_body {
 
 .profile_postcomment {
     background: white;
-    border: 1px solid #945239;
+    border: 1px solid #945239 !important;
     padding: 5px;
 }
 
@@ -108,7 +108,7 @@ button#newupdates {
 .commentEditLink, .commentDeleteLink {
     background: #ffffff;
     border-radius: 5px;
-    color: #7c431c;
+    color: #7c431c !important;
 }
 
 .profile_comment_author a {
