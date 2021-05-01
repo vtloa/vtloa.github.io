@@ -28,6 +28,12 @@ html {
 
 /*-------------------------------------*/
 
+[src="/images/verify.png"] {
+    background: url(https://beon.vip/uploads_user/10000/9008/3e4472e….gif) no-repeat center;
+    background-size: contain;
+    padding: 8px;
+}
+
 blockquote.blockquote {
     background: #f9e6aa61;
     border: 1px dashed;
