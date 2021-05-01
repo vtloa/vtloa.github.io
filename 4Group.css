@@ -1,3 +1,21 @@
+a.page-link {
+    margin-top: 10px;
+}
+
+
+table.body {
+    padding: 0px;
+}
+
+
+.group_desc {
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: #e6e6e6;
+    display: none;
+
+
 div#lefthome:before {
     content: 'Menu';
     position: absolute;
