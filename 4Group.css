@@ -228,6 +228,11 @@ a.card-link {
     top: 150px;
 }
 
+h2.card-title a:hover {
+    text-decoration: unset;
+    background: #d9ec6b4d;
+}
+
 
 h2.card-title a {
     position: absolute;
@@ -236,10 +241,13 @@ h2.card-title a {
     z-index: 11;
     height: 150px;
     width: 100%;
-    color: #000000;
+    color: #ffffff;
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.3s;
+    text-shadow: 0 0 10px black;
+    font-family: fantasy;
+    padding-top: 5px;
 }
 
 
