@@ -564,7 +564,7 @@ div.copyright {
     color: transparent;
     position: absolute;
     left: 70px;
-    top: 68px;
+    top: 78px;
 }
 
 .card.mt-3.blog_leftmenu [href$="/blog/&task=blogentry_main"] {
@@ -573,6 +573,7 @@ div.copyright {
     width: 75px;
     display: block;
     color: transparent;
+    margin-top: 10px;
 }
 
 .card.mt-3.blog_leftmenu .card-body .p-1:nth-of-type(2) a {
