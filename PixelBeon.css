@@ -28,6 +28,17 @@ html {
 
 /*-------------------------------------*/
 
+a.page-link:hover {
+    color: #ec5d8f;
+}
+
+a.page-link, a.page-link:hover {
+    background: #f9e6aa00;
+    margin-top: 4px;
+    font-size: 10px;
+    color: #945239;
+}
+
 .gifts-list:before {
     content: 'Подарки';
     font-size: 17px;
@@ -394,7 +405,7 @@ div.profile_comment_body {
 }
 
 .profile_comment_date {
-    font-size: 10px !important;
+    font-size: 8px !important;
     color: #945239 !important;
     background: url(https://beon.vip/uploads_user/10000/9008/96f58dcb53d87f62512e7ae771b9cc32.gif) no-repeat top;
     width: 95%;
