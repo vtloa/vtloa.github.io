@@ -28,6 +28,11 @@ html {
 
 /*-------------------------------------*/
 
+button#newupdates:focus {
+    outline: none;
+}
+
+
 [onclick="SocialEngine.Blog.subscribeBlog(SocialEngine.Owner.user_info.user_id); return false"] {
     display: none;
 }
