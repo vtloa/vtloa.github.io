@@ -1,5 +1,9 @@
 /*CORE*/
 
+[id^="blog_"] {
+    margin-top: 10px;
+}
+
 
 .copyright {
     color: #232323 !important;
