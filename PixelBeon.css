@@ -28,6 +28,10 @@ html {
 
 /*-------------------------------------*/
 
+[id^="blog_"] {
+    margin-top: 10px;
+}
+
 button.btn.btn-primary:active {
     background: #b95374 !important;
     border-color: #795548 !important;
