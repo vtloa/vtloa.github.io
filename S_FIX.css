@@ -1,3 +1,7 @@
 .post_container {
     min-width: 300px !important;
 }
+
+.blog_leftphoto a {
+    pointer-events: none;
+}
