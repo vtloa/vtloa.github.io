@@ -20,3 +20,28 @@ td.result {
 img.icon {
     display: none;
 }
+
+div#TB_window {
+    background: #866f60;
+}
+
+div#TB_title {
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+    border-color: #655246;
+}
+
+input.button:hover {
+    background: #695243;
+}
+input.button {
+    background: #a58c7c;
+    border-radius: 5px;
+    border: none;
+}
+
+div#TB_closeAjaxWindow {
+    display: none;
+}
