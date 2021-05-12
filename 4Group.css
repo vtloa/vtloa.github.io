@@ -1,3 +1,12 @@
+div.profile_comment_body [color="blue"] {
+    background: #e6e6e6;
+    display: block;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+
 /*Важный коммент*/
 
 [id="comment_139267"] .profile_comment_body,
