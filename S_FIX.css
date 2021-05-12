@@ -5,3 +5,18 @@
 .blog_leftphoto a {
     pointer-events: none;
 }
+
+td.result a {
+    color: #5f4136;
+}
+td.result {
+    background: #dfc3aca6;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+img.icon {
+    display: none;
+}
