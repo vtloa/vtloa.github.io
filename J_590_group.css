@@ -3,25 +3,28 @@ ul.pagination.justify-content-end.float-right a.page-link:hover:before {
     transition: 0.2s;
     color: white;
     text-shadow: 0 0 8px #ffffff;
-    padding-left: 50px;
+    padding-left: 45px;
 }
+
+
 ul.pagination.justify-content-end.float-right a.page-link:before {
     content: 'Идём?';
-    background: url(https://beon.vip/uploads_user/10000/9008/449b011fdc63b36fc2426fb63464009f.png) no-repeat;
+    background: url(https://beon.vip/uploads_user/10000/9008/fc9fe3caff69e58a26f7eab26c4dcd5a.png) no-repeat;
     background-size: contain;
     display: block;
     position: absolute;
     z-index: 111;
-    top: -141px;
-    right: -11px;
-    width: 180px;
-    height: 141px;
+    top: -114px;
+    right: 10px;
+    width: 140px;
+    height: 130px;
     filter: brightness(0.5) saturate(1.5);
     transition: 0.2s;
     color: transparent;
     font-size: 20px;
     text-shadow: 0 0 8px #ffffff00;
     padding: 0px;
+    padding-top: 11px;
 }
 
 
