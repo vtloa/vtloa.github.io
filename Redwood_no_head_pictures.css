@@ -612,7 +612,7 @@ h6.card-subtitle.mb-2.text-muted.post_date,.post_image {display: none;}
 }
 
 .post_text.pl-3 {
-    height: 255px;
+    height: 512px;
     overflow-y: scroll;
     padding: 5px !important;
 }
