@@ -454,16 +454,3 @@ font-family: 'font129a060dd8496deac581e40a11b0130b';
 
 
 
-
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-::-webkit-scrollbar-track {
-    outline-offset: -25px;
-    background: #487fa300;
-}
-::-webkit-scrollbar-track {
-    outline-offset: -25px;
-    background: #dd870d;
-}
