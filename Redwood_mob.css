@@ -1,3 +1,23 @@
+div#TB_window {
+    background: #181818;
+}
+
+div#TB_title {
+    padding: 0px;
+    border: none;
+}
+
+a#TB_closeWindowButton {
+    display: none;
+}
+
+input.button {
+    background: #7a7a7a;
+}
+
+
+
+
 td.result a {
     color: #a21222;
 }
