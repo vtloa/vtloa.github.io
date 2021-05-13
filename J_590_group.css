@@ -1,11 +1,11 @@
-a.page-link:hover:before {
+ul.pagination.justify-content-end.float-right a.page-link:hover:before {
     filter: brightness(1) saturate(1.5);
     transition: 0.2s;
     color: white;
     text-shadow: 0 0 8px #ffffff;
     padding-left: 50px;
 }
-a.page-link:before {
+ul.pagination.justify-content-end.float-right a.page-link:before {
     content: 'Идём?';
     background: url(https://beon.vip/uploads_user/10000/9008/449b011fdc63b36fc2426fb63464009f.png) no-repeat;
     background-size: contain;
