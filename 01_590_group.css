@@ -1,4 +1,30 @@
-/*___*/
+@media screen and (max-width: 2560px){
+.content {
+    background: aliceblue;
+    width: 1600px !important;
+}
+
+div#lefthome {
+    width: 300px;
+}
+
+.card.group_members, .card.blog_categories {
+    width: 300px;
+    margin-left: 1310px;
+}
+
+
+div#righthome {
+    width: 1000px;
+    margin-left: 305px;
+}
+}
+
+
+
+/*1600-1980*/
+
+@media screen and (max-width: 1980px){
 
 .content {
     width: 1200px !important;
@@ -17,5 +43,7 @@ div#lefthome {
 .card.group_members,.card.blog_categories {
     width: 220px;
     margin-left: 990px;
+}
+
 }
 
