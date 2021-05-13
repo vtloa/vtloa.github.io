@@ -665,15 +665,6 @@ div#userphotos::-webkit-scrollbar-thumb {
 /*ПИКЧИ В ШАПКЕ ПОСТА*/
 
 
-iframe.head_post {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100% !important;
-    max-width: 100% !important;
-    height: 250px  !important;
-    object-fit: cover;
-}
 
 
 
