@@ -55,7 +55,7 @@ div#postcomment_userphotos {
 }
 
 div#righthome {
-    padding-bottom: 45px;
+    padding-bottom: 45px !important;
 }
 
 
