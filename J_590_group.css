@@ -124,7 +124,6 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 
 .card.group_members {
     position: fixed;
-    right: 11%;
     top: 3.7%;
     box-shadow: inset 120px 0px 90px 0px #59c7ff4a;
     width: 14%;
@@ -137,7 +136,6 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 
 .card.blog_categories {
     position: fixed;
-    right: 11%;
     top: 32.7%;
     box-shadow: inset 120px 0px 90px 0px #59c7ff4a;
     width: 14%;
