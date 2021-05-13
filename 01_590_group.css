@@ -1,10 +1,15 @@
-.content {
-    margin-top: 3%;
+div#lefthome {
+    margin-top: 75px;
 }
+
 
 div#righthome {
     top: 40px;
     bottom: 40px;
+}
+
+.card.group_members, .card.blog_categories {
+    margin-top: 40px;
 }
 
 
