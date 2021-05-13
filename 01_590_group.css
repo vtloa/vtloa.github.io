@@ -23,7 +23,7 @@ div#righthome {
 
 /*1600-1980*/
 
-@media screen and (max-width: 1980px){
+@media screen and (max-width: 1920px){
 
 .content {
     width: 1200px !important;
