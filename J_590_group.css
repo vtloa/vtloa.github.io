@@ -1,3 +1,13 @@
+div#entry_main form#blogform {
+    width: 100%;
+    height: auto;
+    overflow: unset;
+    background: transparent;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+
 form#blogform {
     width: 80vw;
     background: white;
