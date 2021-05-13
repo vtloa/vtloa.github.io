@@ -449,9 +449,9 @@ font-family: 'font129a060dd8496deac581e40a11b0130b';
     width: 8px;
     height: 8px;
 }
-::-webkit-scrollbar-thumb {
-    background-color: #1986de;
-    border: 1px solid #dd870d;
+::-webkit-scrollbar-track {
+    outline-offset: -25px;
+    background: #487fa300;
 }
 ::-webkit-scrollbar-track {
     outline-offset: -25px;
