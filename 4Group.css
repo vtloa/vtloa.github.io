@@ -1,3 +1,8 @@
+.comment_headline {
+    margin-top: 30px;
+    padding: 5px;
+}
+
 div.profile_comment_body [color="blue"] {
     background: #e6e6e6;
     display: block;
