@@ -15,7 +15,8 @@ div.profile_comment_body [color="blue"] {
 /*Важный коммент*/
 
 [id="comment_139267"] .profile_comment_body,
-[id="comment_139270"] .profile_comment_body {
+[id="comment_139270"] .profile_comment_body,
+[id="comment_155539"] .profile_comment_body{
     background: #ebe52c45;
     border: 1px solid #9a9a9a;
     border-radius: 5px;
