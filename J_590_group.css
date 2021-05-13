@@ -31,7 +31,7 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 
 
 
-.card.mt-3.blog_leftmenu,input[type="text"] {
+.card.mt-3.blog_leftmenu,.blog_leftsearch input[type="text"] {
     transform: skewY(4deg);
     border-radius: 0px;
     box-shadow: inset -120px 0px 90px 0px #59c7ff4a;
@@ -128,12 +128,12 @@ a.page-link {
 }
 
 
-input[type="text"]::placeholder {
+.blog_leftsearch input[type="text"]::placeholder {
     font-size: 30px;
     font-family: 'font129a060dd8496deac581e40a11b0130b';
     color: white;
 }
-input[type="text"] {
+.blog_leftsearch input[type="text"] {
     border: none;
     text-transform: uppercase;
     font-size: 20px;
