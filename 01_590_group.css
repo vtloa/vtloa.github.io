@@ -1,0 +1,27 @@
+/*___*/
+
+.content {
+    width: 1200px !important;
+}
+
+div#righthome {
+    width: 760px !important;
+    margin-left: 225px;
+}
+
+div#lefthome {
+    width: 220px;
+}
+
+
+.card.group_members,.card.blog_categories {
+    width: 220px;
+}
+
+.card.blog_categories {
+    margin-left: 1170px;
+}
+
+.card.group_members {
+    margin-left: 990px;
+}
