@@ -425,10 +425,7 @@ div#righthome {
     mix-blend-mode: screen;
 }
 
-.post {
-    background-color: #5683b100;
-    background-image: url(https://www.transparenttextures.com/patterns/dark-stripes.png);
-}
+
 
 h6.card-subtitle.mb-2.text-muted.post_date a {
     color: #ffffff;
