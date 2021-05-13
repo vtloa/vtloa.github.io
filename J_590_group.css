@@ -3,6 +3,7 @@ a.page-link:hover:before {
     transition: 0.2s;
     color: white;
     text-shadow: 0 0 8px #ffffff;
+    padding-left: 50px;
 }
 a.page-link:before {
     content: 'Дальше? >>';
@@ -20,6 +21,7 @@ a.page-link:before {
     color: transparent;
     font-size: 20px;
     text-shadow: 0 0 8px #ffffff00;
+    padding: 0px;
 }
 
 
