@@ -1,3 +1,13 @@
+.content {
+    margin-top: 50px;
+}
+
+div#righthome {
+    top: 40px;
+    bottom: 40px;
+}
+
+
 @media screen and (max-width: 2560px){
 .content {
     width: 1600px !important;
