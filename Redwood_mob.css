@@ -1,3 +1,35 @@
+td.result a {
+    color: #a21222;
+}
+td.result {
+    background: #310e12;
+    border-radius: 5px;
+    border: 1px solid #a21222;
+    color: #a21222;
+}
+
+img.icon {
+    display: none;
+}
+.copyright_text {
+    display: none;
+}
+
+
+a.btn.btn-primary,a.btn.btn-success {
+    background: transparent;
+    border: none;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
 div.profile_comment_body img {
     max-width: 100%;
 }
