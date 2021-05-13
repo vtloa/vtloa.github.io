@@ -1,8 +1,19 @@
+div#entry_main>b {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    color: #131313;
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+}
+
 div#entry_main {
     background: white;
     width: 98%;
     margin: auto;
     margin-top: 80px;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 div#postcomment_userphotos {
@@ -436,6 +447,7 @@ font-family: 'font129a060dd8496deac581e40a11b0130b';
 
 ::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: #1986de;
