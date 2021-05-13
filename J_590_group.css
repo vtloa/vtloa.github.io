@@ -275,6 +275,7 @@ h2.card-title a {
     margin: auto;
 }
 
+
 div#righthome:before {
     content: 'head';
     background: url(https://i.imgur.com/b1Ho0Ag.gif) no-repeat fixed center;
@@ -309,9 +310,7 @@ div#righthome {
     background: linear-gradient( 
 -50deg
  , #60b8e2, #20226152) fixed;
-    width: 50%;
     position: fixed;
-    left: 25%;
     top: 0px;
     bottom: 0px;
     overflow-y: scroll;
