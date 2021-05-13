@@ -464,3 +464,20 @@ font-family: 'font129a060dd8496deac581e40a11b0130b';
 
 
 
+
+
+::-webkit-scrollbar {
+width: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+background-color: #a4917f !important;
+border-radius: 20px !important;
+}
+::-webkit-scrollbar-track {
+margin-top: 100px !important;
+margin-bottom: 100px !important;
+border-top: 3px solid #a4917f !important;
+border-bottom: 3px solid #a4917f !important;
+outline: 1px solid #c4a88f70 !important;
+outline-offset: -25px !important;
+}
