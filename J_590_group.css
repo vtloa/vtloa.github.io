@@ -292,7 +292,7 @@ h2.card-title a {
 
 div#righthome:before {
     content: 'head';
-    background: url(https://i.imgur.com/b1Ho0Ag.gif) no-repeat fixed center;
+    background: #0000006b;
     width: 100%;
     display: block;
     height: 300px;
