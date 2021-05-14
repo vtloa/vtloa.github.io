@@ -277,10 +277,9 @@ h2.card-title a {
 }
 
 .card.mb-2.post_home {
-    margin-top: 40px;
-    border-bottom: 5px solid #0583e9 !important;
     width: 99%;
     margin: auto;
+    margin-top: 70px;
 }
 
 
