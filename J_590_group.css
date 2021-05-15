@@ -160,15 +160,10 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 .card.group_members {
     position: fixed;
     top: 3.7%;
-    width: 14%;
     border-radius: 0px;
-    transform: skewY( 
--5deg
-);
+    transform: skewY( -5deg);
     height: 28%;
-    background: linear-gradient(
-155deg
-, #4f9abf, #bb7b208f);
+    background: linear-gradient(353deg, #64828c, transparent);
 }
 
 .card.blog_categories {
