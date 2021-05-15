@@ -1,3 +1,9 @@
+.card.mt-3.blog_leftmenu .card-header {
+    height: 45px !important;
+}
+
+
+
 .blog_leftprofile a {
     text-shadow: 0 0 3px black;
 }
