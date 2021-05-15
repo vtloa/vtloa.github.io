@@ -5,11 +5,7 @@ div#postcomment_userphotos {
 
 .userphoto_selected {
     background: #db8100;
-    width: 108px;
-    transform: skewY( 
--2deg
- );
-}
+    transform: skewY( -2deg);}
 
 img.img-thumbnail {
     border: none;
