@@ -1,5 +1,26 @@
+ul.seBlogCategoryList a,.card.group_members a {
+    color: white;
+}
+ul.seBlogCategoryList,.card.group_members {
+    text-align: center;
+}
+
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0px;
+}
+
 .blog_leftsearch .card-header {
     display: none;
+}
+
+textarea#comment_body::placeholder {
+    color: #5885c5;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
 
