@@ -15,7 +15,9 @@ a.page-link {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
-}}
+}
+div#righthome {border: 2px solid black;}
+}
 
 
 div#mobile_menu {
@@ -236,7 +238,6 @@ div#righthome {
     background: linear-gradient( 
 136deg
  , #5586c9d4 45%, #301538d6) fixed,url(https://www.transparenttextures.com/patterns/vintage-speckles.png);
-    border: 2px solid black;
 }
 
 .bg-light {
