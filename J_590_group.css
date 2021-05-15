@@ -1,3 +1,8 @@
+.card.mb-2.post_home:nth-child(3) h2.card-title:hover:before {
+    filter: drop-shadow(4px -6px 5px #ffc107);
+    transition: 0.2s;
+}
+
 button#newupdates:focus {
     outline: unset;
 }
@@ -282,6 +287,7 @@ h2.card-title {
     left: 18px;
     color: white;
     font-size: 0px;
+    transition: 0.2s;
 }
 
 
