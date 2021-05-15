@@ -1,3 +1,21 @@
+.card.mt-3.blog_leftmenu .card-header {
+    width: 80px;
+    overflow: hidden;
+    height: 57px;
+    margin: auto;
+}
+
+li.p-1 a {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+li.p-1 {
+    display: block;
+}
+
+
 .blog_leftprofile a {
     color: #db8100;
     font-family: 'font129a060dd8496deac581e40a11b0130b';
