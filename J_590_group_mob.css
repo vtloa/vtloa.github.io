@@ -1,3 +1,15 @@
+@media screen and (max-width: 1024px) {
+.seBlogComments [valign="top"] .button {
+    text-transform: uppercase;
+    padding-left: 10px !important;
+    color: #313c67 !important;}
+}
+
+
+div.profile_comment_body {
+    color: white;
+}
+
 body {
     background: url(https://i.pinimg.com/originals/c5/29/fd/c529fd2ba16953a70eec2ec8fde62de3.png) no-repeat fixed;
     background-size: cover;
