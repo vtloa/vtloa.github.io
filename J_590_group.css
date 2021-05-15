@@ -24,7 +24,7 @@ div.profile_comment_body {
 }
 
 
-.profile_comment_author a:hover,.profile_comment_links a {
+.profile_comment_author a:hover,.profile_comment_links a:hover {
     background: #f99d1a;
     transition: 0.2s;
 }
