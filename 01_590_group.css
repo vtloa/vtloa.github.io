@@ -1,23 +1,4 @@
 
-@media only screen and (max-width: 1152px){
-    
-.content,.top_header {
-    width: 1000px !important;}
-
-div#lefthome {
-    width: 200px !important;}
-
-div#righthome {
-    width: 600px !important;
-    margin-left: 205px !important;}
-
-.card.group_members,.card.blog_categories {
-    width: 200px !important;
-    margin-left: 810px !important;}
-
-[src="/images/notify.svg"] {
-    margin-top: -3px !important;}
-}
 
 
 
@@ -143,3 +124,33 @@ div#lefthome {
 }
 
 
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+@media only screen and (max-width: 1152px){
+    
+.content,.top_header {
+    width: 1000px !important;}
+
+div#lefthome {
+    width: 200px !important;}
+
+div#righthome {
+    width: 600px !important;
+    margin-left: 205px !important;}
+
+.card.group_members,.card.blog_categories {
+    width: 200px !important;
+    margin-left: 810px !important;}
+
+[src="/images/notify.svg"] {
+    margin-top: -3px !important;}
+}  
+    
