@@ -139,7 +139,7 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
     box-shadow: inset -120px -6px 100px 0px #52afde36;
     border-top: 2px double #000000 !important;
     border-bottom: 2px double #000000 !important;
-    background: #2e3060b8;
+    background: #2e3060b8 !important;
 }
 
 
