@@ -1,3 +1,11 @@
+textarea#comment_body {
+    background: #21243c45;
+    border: none;
+    border-radius: 0px;
+    color: white !important;
+}
+
+
 div.profile_comment_body {
     color: white;
     font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
@@ -83,6 +91,11 @@ div#postcomment_userphotos {
 
 .seBlogComments div#postcomment_userphotos {
     display: block !important;
+}
+
+
+.seBlogComments div#postcomment_userphotos {
+    height: auto;
 }
 
 
