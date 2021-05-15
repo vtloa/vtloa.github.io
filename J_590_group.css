@@ -262,7 +262,8 @@ input#comment_submit {
 
 .seBlogComments img.photo {
     border: none;
-    outline: 2px solid #db8100;
+    outline: rgb(219, 129, 0) solid 2px;
+    box-shadow: black 0px 0px 10px;
 }
 
 
@@ -300,9 +301,10 @@ h2.card-title {
 
 
 div#user_status {
-    color: #db8100;
+    color: rgb(219, 129, 0);
     padding-top: 5px;
     font-weight: bold;
+    margin: auto;
 }
 
 .post_text.pl-3 {
