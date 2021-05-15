@@ -144,3 +144,59 @@ button.navbar-toggler {
     font-size: 12px;
     transition: 0.2s;
 }
+
+.seBlogComments img.photo {
+    border: none;
+    outline: rgb(219, 129, 0) solid 2px;
+    box-shadow: black 0px 0px 10px;
+}
+
+.profile_comment_author a {
+    color: #1a1b35;
+    background: #db8100;
+    transform: skewY( 
+-2deg
+ );
+    display: block;
+    padding: 1px;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: fantasy;
+    transition: 0.2s;
+}
+
+.profile_comment_date {
+    text-align: left !important;
+    color: black !important;
+    margin-top: 10px;
+}
+
+.profile_comment_links a {
+    color: black;
+    font-size: 12px;
+    background: #db8100;
+    padding: 1px;
+    transition: 0.2s;
+}
+
+.comment_headline {
+    border: none;
+    background: #20233a42;
+    padding: 5px;
+    margin-top: 70px;
+    border-radius: 0px;
+    color: #5885c5;
+    position: relative;
+}
+
+textarea#comment_body {
+    background: #21243c45;
+    border: none;
+    border-radius: 0px;
+    color: white !important;
+}
+
+textarea#comment_body::placeholder {
+    color: #5885c5;
+}
