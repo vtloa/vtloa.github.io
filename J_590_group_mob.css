@@ -1,3 +1,33 @@
+.comment_headline a[href="#"]:hover:before {
+    padding-left: 40px;
+    transition: 0.4s;
+    color: white;
+}
+.comment_headline a[href="#"]:before {
+    content: 'Хоба!';
+    background: url(https://beon.vip/uploads_user/10000/9068/290126782acd2ba22749489829183f94.png) no-repeat center;
+    background-size: contain;
+    display: block;
+    width: 130px;
+    height: 155px;
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding-top: 30px;
+    color: transparent;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
 ul.seBlogCategoryList a,.card.group_members a {
     color: white;
 }
