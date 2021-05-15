@@ -191,7 +191,7 @@ d.seBlogComments iv#user_status {
 }
 
 .seBlogComments [valign="top"] a:hover {
-    color: #2e4671;
+    color: #2e4671 !important;
     transition: 0.2s;
 }
 .seBlogComments [valign="top"] a {
