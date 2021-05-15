@@ -1,3 +1,7 @@
+button#newupdates:focus {
+    outline: unset;
+}
+
 .modal {
     background: #000000cf !important;
 }
