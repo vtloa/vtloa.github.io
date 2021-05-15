@@ -250,6 +250,12 @@ a.page-link {
 }
 
 
+.post {
+    color: white;
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+    font-size: 15px;
+}
+
 h6.card-subtitle.mb-2.text-muted.post_date a {
     color: white;
 }
