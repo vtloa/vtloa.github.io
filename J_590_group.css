@@ -5,9 +5,9 @@ div#righthome {
     padding-bottom: 45px !important;
     overflow-y: scroll;
     padding: 0px;
-    background: linear-gradient(
-136deg
-, #6691a6e6 45%, #db8100e8) fixed;
+    background: linear-gradient( 
+36deg
+ , #6691a6bf 45%, #db8100e8) fixed;
 }
 
 
@@ -161,18 +161,18 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
     position: fixed;
     top: 3.7%;
     border-radius: 0px;
-    transform: skewY( -5deg);
+    transform: skewY(-5deg);
     height: 28%;
-    background: linear-gradient(353deg, #64828c, transparent);
+    background: #d29832ad;
 }
 
 .card.blog_categories {
     position: fixed;
     top: 32.7%;
     border-radius: 0px;
-    transform: skewY( -5deg);
+    transform: skewY(-5deg);
     height: 50%;
-    background: linear-gradient(45deg, #c3933cc4, #5098ba87 90%);
+    background: linear-gradient(108deg, #6691a6, transparent);
 }
 
 
@@ -303,11 +303,9 @@ h2.card-title a {
 }
 
 
-
-
 div#righthome:before {
     content: 'head';
-    background: #0000006b;
+    background: url(https://i.pinimg.com/originals/bc/87/e5/bc87e5124f8d2cfe810d403adc96ad01.gif);
     width: 100%;
     display: block;
     height: 300px;
