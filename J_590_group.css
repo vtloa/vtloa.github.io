@@ -136,10 +136,10 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 .card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"] {
     transform: skewY(4deg);
     border-radius: 0px;
-    box-shadow: inset -120px -6px 100px 0px #59c7ff4a;
-    background: #29546d38;
+    box-shadow: inset -120px -6px 100px 0px #52afde36;
     border-top: 2px double #000000 !important;
     border-bottom: 2px double #000000 !important;
+    background: #2e3060b8;
 }
 
 
