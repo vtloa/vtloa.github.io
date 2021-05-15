@@ -226,7 +226,7 @@ d.seBlogComments iv#user_status {
 
 
 
-.comment_headline:before {
+.comment_headline a [href="#"]:before {
     content: 'Хоба!';
     background: url(https://beon.vip/uploads_user/10000/9068/290126782acd2ba22749489829183f94.png) no-repeat center;
     background-size: contain;
@@ -240,7 +240,7 @@ d.seBlogComments iv#user_status {
     color: transparent;
     transition: 0.2s;
 }
-.comment_headline:hover:before {
+.comment_headline a [href="#"]:hover:before {
     padding-left: 40px;
     transition: 0.4s;
     color: white;
