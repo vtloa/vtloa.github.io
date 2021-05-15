@@ -1,3 +1,9 @@
+.copyright_text, .copyright_text a {
+    color: #2660c1;
+    font-size: 9px;
+}
+
+
 a.btn.btn-primary {
     background: transparent;
     border: none;
