@@ -1,3 +1,17 @@
+[href="./"]:before {
+    content: 'ВЫХОД ТУТ';
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    color: #d77e00;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    transform: skewY(
+4deg
+);
+}
+
+
 [src="./images/logo_new.png"] {
     display: none;
 }
