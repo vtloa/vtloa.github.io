@@ -10,6 +10,10 @@ div#righthome {
  , #5586c9d4 45%, #301538d6) fixed,url(https://www.transparenttextures.com/patterns/vintage-speckles.png);
 }
 
+.post_container .post_text img {
+    max-width: 100%;
+}
+
 
 .group_desc {
     position: absolute;
