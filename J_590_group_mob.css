@@ -1,3 +1,10 @@
+.blog_leftprofile a {
+    color: #db8100;
+    font-family: 'font129a060dd8496deac581e40a11b0130b';
+    font-size: 30px;
+}
+
+
 .card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"], .blog_leftprofile {
     border-radius: 0px;
     background: linear-gradient(302deg, rgb(70, 107, 162), rgba(24, 24, 52, 0.71)),url(https://www.transparenttextures.com/patterns/vintage-speckles.png) !important;
