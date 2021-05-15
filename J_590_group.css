@@ -1,3 +1,8 @@
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+
 h2.card-title a:hover {
     color: #f7b703;
     transition: 0.1s;
