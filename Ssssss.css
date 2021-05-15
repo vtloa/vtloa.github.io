@@ -83,12 +83,11 @@ input[type="text"] {
     width: 85% !important;
     margin-left: auto;
     margin-right: auto;
-    background: #1b1b1b70 !important;
+    background: #1b1b1b00 !important;
     border-radius: 10px;
     padding: 10px !important;
     box-shadow: 0 0 black !important;
 }
-
 .profile_comment_body {
     background: #c5b19d !important;
     border-radius: 0px 10px 10px 10px;
@@ -100,15 +99,44 @@ input[type="text"] {
 }
 
 .profile_comment_body:before {
-    content: 'чат' !important;
-    width: 19px;
-    height: 30px;
-    background: #c5b19d !important;
-    display: block;
-    position: absolute;
-    margin-top: -5px;
-    margin-left: -37px;
-    color: transparent;
-    clip-path: polygon(100% 0, 0 0%, 100% 100%);
-    border: 1px solid #c5b19d !important;
+    background: #1b1b1b !important;
+    border-color: #1b1b1b !important;
+}
+
+.profile_comment_body {
+    background: #1b1b1b !important;
+    box-shadow: unset !important;
+    color: white !important;
+}
+.profile_comment_author a {
+    background: #ffc107 !important;
+    color: black !important;
+}
+
+.profile_comment_links a {
+    color: #545454 !important;
+}
+
+textarea#comment_body {
+    padding: 10px !important;
+    background: #1b1b1b !important;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff !important;
+}
+
+.comment_headline a {
+    font-family: monospace;
+    color: #545454 !important;
+}
+
+p.card-link, a.card-link, h6.card-subtitle.mb-2.text-muted.post_date, .category {
+    color: #545454 !important;
+}
+
+.seBlogComments [style="margin-bottom: 20px;"] a {
+    color: #ffc107 !important;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 10px;
 }
