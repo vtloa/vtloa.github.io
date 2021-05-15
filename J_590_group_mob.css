@@ -1,16 +1,3 @@
-@font-face {
-font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
-    
-    src:    url('https://nomail.com.ua/files/eot/18abd107fb8d0e65f7107428c0e88b64.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/18abd107fb8d0e65f7107428c0e88b64.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/18abd107fb8d0e65f7107428c0e88b64.woff2') format('woff2');
-}
-
-@font-face { font-family: 'HandelsonSix_CYR-Six';  src: local('HandelsonSix_CYR-Six'), url('https://nomail.com.ua/files/woff/18abd107fb8d0e65f7107428c0e88b64.woff') format('woff'); }
-
-
-
-
 
 
 
@@ -225,6 +212,60 @@ textarea#comment_body {
 textarea#comment_body::placeholder {
     color: #5885c5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+    
+    src:    url('https://nomail.com.ua/files/eot/6fd7e0f0248f1c0320476e13c81e4047.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/6fd7e0f0248f1c0320476e13c81e4047.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/6fd7e0f0248f1c0320476e13c81e4047.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HarmoniaSansProCyr-Regular';  src: local('HarmoniaSansProCyr-Regular'), url('https://nomail.com.ua/files/woff/6fd7e0f0248f1c0320476e13c81e4047.woff') format('woff'); }
+
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+
+
+@font-face {
+font-family: 'font129a060dd8496deac581e40a11b0130b';
+    
+    src:    url('https://nomail.com.ua/files/eot/129a060dd8496deac581e40a11b0130b.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/129a060dd8496deac581e40a11b0130b.woff2') format('woff2');
+}
+
+@font-face { font-family: 'DirtyEgoCyrillic';  src: local('DirtyEgoCyrillic'), url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'); }
+
+
+
+@font-face {
+font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    
+    src:    url('https://nomail.com.ua/files/eot/18abd107fb8d0e65f7107428c0e88b64.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/18abd107fb8d0e65f7107428c0e88b64.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/18abd107fb8d0e65f7107428c0e88b64.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HandelsonSix_CYR-Six';  src: local('HandelsonSix_CYR-Six'), url('https://nomail.com.ua/files/woff/18abd107fb8d0e65f7107428c0e88b64.woff') format('woff'); }
+
+
+
+
+
+
 
 /*Стикеры с жабой*/
 
