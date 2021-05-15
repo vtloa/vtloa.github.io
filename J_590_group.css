@@ -6,10 +6,9 @@ div#righthome {
     overflow-y: scroll;
     padding: 0px;
     background: linear-gradient( 
-36deg
- , #6691a6bf 45%, #db8100e8) fixed;
+136deg
+ , #5586c9d4 45%, #301538d6) fixed;
 }
-
 
 
 .group_desc {
@@ -149,11 +148,10 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 
 
 
-
 .card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"] {
     transform: skewY(4deg);
     border-radius: 0px;
-    background: linear-gradient(245deg, #6691a6, #615b5a00) !important;
+    background: linear-gradient(281deg, #466ba2, #181834b5) !important;
 }
 
 
@@ -161,20 +159,27 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
     position: fixed;
     top: 3.7%;
     border-radius: 0px;
-    transform: skewY(-5deg);
+    transform: skewY( 
+-5deg
+);
     height: 28%;
-    background: #d29832ad;
+    background: linear-gradient(
+353deg
+, #3f5b8deb, #5793cd96);
 }
 
 .card.blog_categories {
     position: fixed;
     top: 32.7%;
     border-radius: 0px;
-    transform: skewY(-5deg);
+    transform: skewY( 
+-5deg
+);
     height: 50%;
-    background: linear-gradient(108deg, #6691a6, transparent);
+    background: linear-gradient(
+45deg
+, #35375f, #5586c9c7 90%);
 }
-
 
 
 .blog_leftprofile,.blog_leftphoto img.photo {
