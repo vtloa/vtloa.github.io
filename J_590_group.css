@@ -1,3 +1,19 @@
+img.img-thumbnail {
+    border: none;
+    background: transparent;
+    padding: 0px;
+    border-radius: 0px !important;
+}
+
+.userphoto_selected {
+    background: #db8100;
+    width: 108px;
+    transform: skewY(
+-2deg
+);
+}
+
+
 .card.mb-2.post_home:nth-child(3) h2.card-title:hover:before {
     filter: drop-shadow(4px -6px 5px #ffc107);
     transition: 0.2s;
