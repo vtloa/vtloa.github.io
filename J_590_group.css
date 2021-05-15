@@ -1,11 +1,21 @@
-[href="./"]:before {
-    content: 'ВЫХОД ТУТ';
-    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
-    color: #d77e00;
-    font-size: 20px;
+button#newupdates {
     position: absolute;
     top: 0px;
-    left: 260px;
+}
+
+.top_header {
+    height: 0px;
+    background: transparent;
+}
+
+[href="./"]:before {
+    content: "ВЫХОД ТУТ";
+    font-family: font18abd107fb8d0e65f7107428c0e88b64;
+    color: rgb(215, 126, 0);
+    font-size: 30px;
+    position: absolute;
+    top: 3px;
+    left: 8px;
     transform: skewY(
 4deg
 );
