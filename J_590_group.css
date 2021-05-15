@@ -454,7 +454,7 @@ div#postcomment_userphotos {
     display: flex !important;
 }
 
-.img-thumbnail {
+div#entry_main .img-thumbnail {
     width: 100px !important;
     max-width: 100px;
     max-height: 100px;
