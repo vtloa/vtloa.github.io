@@ -132,3 +132,15 @@ button.btn.btn-outline-success {
  );
     margin-top: 7px;
 }
+
+
+button.navbar-toggler {
+    border: none;
+}
+
+
+.seBlogComments [valign="top"] a {
+    color: #44669a !important;
+    font-size: 12px;
+    transition: 0.2s;
+}
