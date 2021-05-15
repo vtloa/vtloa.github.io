@@ -1,3 +1,58 @@
+.modal {
+    background: #000000cf !important;
+}
+
+.modal-content {
+    background: linear-gradient(
+45deg
+, #4d75ae, #3b3c64);
+    border-radius: 0px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.modal-header {
+    padding: 5px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    color: black;
+    border: none;
+}
+
+.modal-footer {
+    padding: 0px;
+    border: none;
+}
+
+.modal-body a {
+    color: white;
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+}
+
+button.close {
+    display: none;
+}
+
+button.btn.btn-secondary:hover {
+    background: #35456f;
+    transform: skewY( 
+-0deg
+ );
+    transition: 0.2s;
+}
+button.btn.btn-secondary {
+    background: #db8100;
+    border: none;
+    color: black;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    padding: 5px;
+    border-radius: 0px;
+    transform: skewY(
+-4deg
+);
+    transition: 0.2s;
+}
+
+
 .badge-danger {
     color: #000;
     background-color: #ffc91f;
