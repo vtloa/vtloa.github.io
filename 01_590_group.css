@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1152px){
+@media only screen and (max-width: 1152px){
     
 .content,.top_header {
     width: 1000px !important;}
