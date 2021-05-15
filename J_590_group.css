@@ -1,3 +1,10 @@
+body {
+    background: url(https://i.pinimg.com/originals/c5/29/fd/c529fd2ba16953a70eec2ec8fde62de3.png) no-repeat fixed;
+    background-size: cover;
+    background-color: #0c0a0e;
+}
+
+
 img.img-thumbnail {
     border: none;
     background: transparent;
@@ -364,11 +371,7 @@ div#righthome {
     display: none;
 }
 
-body {
-    background: url() no-repeat fixed;
-    background-size: cover;
-    background-color: #0c0a0e;
-}
+
 
 
 .post_container {
