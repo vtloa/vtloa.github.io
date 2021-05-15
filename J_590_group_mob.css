@@ -4,6 +4,17 @@
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
     transition: 0.2s;
     font-size: 13px;
+}
+a.page-link {
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+    background: transparent;
+    color: #db8100;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
 }}
 
 
@@ -246,17 +257,6 @@ h2.card-title a {
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
-a.page-link {
-    position: absolute;
-    right: 0px;
-    margin-top: -40px;
-    background: transparent;
-    color: #db8100;
-    font-family: cursive;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
-}
 
 
 .post {
