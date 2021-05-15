@@ -676,6 +676,7 @@ div#righthome:before {
     display: block;
     height: 38%;
     background-size: cover;
+    color: transparent;
 }
 
 
