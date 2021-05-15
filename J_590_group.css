@@ -297,6 +297,19 @@ h2.card-title a {
     margin-top: 70px;
 }
 
+div#righthome {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    padding-bottom: 45px !important;
+    overflow-y: scroll;
+    padding: 0px;
+    background: linear-gradient(
+132deg
+,#3f62a2 20%,#c786287a 46%,#2e3060c2 76%) fixed;
+    background-color: #4064ff5c;
+}
+
 
 div#righthome:before {
     content: 'head';
@@ -327,18 +340,7 @@ div#lefthome {
     height: 90vh;
 }
 
-div#righthome {
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    padding-bottom: 45px !important;
-    overflow-y: scroll;
-    padding: 0px;
-    background: linear-gradient(
-125deg
-,#2b4067,#3a4167,#fb99052e, #d092126e,#8c6b37b8,#2e3060a3,#2e3060a3) fixed;
-    background-color: #4064ff5c;
-}
+
 
 .card.blog_gifts {
     display: none;
