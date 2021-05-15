@@ -42,8 +42,8 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
 
 body {
     background: url(https://i.pinimg.com/originals/5b/dc/16/5bdc1699671281bbfb1c821fb1876244.png) no-repeat fixed right !important;
-    background-size: contain;
-    background-color: black;
+    background-size: contain !important;
+    background-color: black !important;
 }
 
 .seBlogColumnRightPadding {
