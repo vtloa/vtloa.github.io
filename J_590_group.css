@@ -761,8 +761,17 @@ ul.seBlogCategoryList {
 }
 
 
+.card.group_members a:hover {
+    background: #db8100;
+    transition: 0.2s;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-ul.seBlogCategoryList a:hover,.card.group_members a:hover {
+
+
+ul.seBlogCategoryList a:hover{
     background: #db8100;
     transform: skewX( 
 -5deg
