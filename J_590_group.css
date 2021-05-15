@@ -1,3 +1,9 @@
+textarea#comment_body::placeholder {
+    color: #5885c5;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+
 textarea#comment_body {
     background: #21243c45;
     border: none;
@@ -172,7 +178,6 @@ div#user_status {
 
 .post_text.pl-3 {
     padding: 10px !important;
-    padding-top: 24px !important;
     margin: auto;
 }
 
