@@ -1,3 +1,25 @@
+.blog_leftsearch input[type="text"] {
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: transparent;
+    padding: 0px;
+    color: white;
+    margin-top: 0px;}
+
+
+.card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"], .blog_leftprofile {
+    border-radius: 0px;
+    background: linear-gradient(302deg, rgb(70, 107, 162), rgba(24, 24, 52, 0.71)),url(https://www.transparenttextures.com/patterns/vintage-speckles.png) !important;
+}
+
+
+
+
 .card.mt-3.blog_leftmenu .card-header {
     width: 80px;
     overflow: hidden;
