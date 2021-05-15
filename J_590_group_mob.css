@@ -9,6 +9,10 @@ ul.seBlogCategoryList,.card.group_members {
 .card {
     border: none;
 }
+.seBlogColumnRightPadding, .card-body, .card-header {
+    padding: 0px !important;
+}
+
 
 .card-body {
     padding: 0px;
@@ -18,9 +22,10 @@ ul.seBlogCategoryList,.card.group_members {
     display: none;
 }
 
-textarea#comment_body::placeholder {
-    color: #5885c5;
-    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+input[type="text"]::placeholder {
+    font-family: 'font129a060dd8496deac581e40a11b0130b';
+    color: white;
+    font-size: 30px;
 }
 
 
