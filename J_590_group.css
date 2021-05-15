@@ -358,10 +358,9 @@ div#user_status {
 }
 
 .post_text.pl-3 {
-    padding: 10px !important;
-    margin: auto;
+    padding: 15px !important;
+    padding-top: 0px !important;
 }
-
 
 .post_image a img {
     max-height: 300px;
@@ -402,8 +401,7 @@ div#righthome {
 
 .post_container {
     margin: auto;
-    padding: 20px;
-    width: 97%;
+    padding: 15px;
 }
 
 
