@@ -226,7 +226,7 @@ d.seBlogComments iv#user_status {
 
 
 
-.comment_headline a [href="#"]:before {
+.comment_headline a[href="#"]:before {
     content: 'Хоба!';
     background: url(https://beon.vip/uploads_user/10000/9068/290126782acd2ba22749489829183f94.png) no-repeat center;
     background-size: contain;
@@ -235,12 +235,12 @@ d.seBlogComments iv#user_status {
     height: 155px;
     position: absolute;
     bottom: 3px;
-    right: 156px;
+    left: 150px;
     padding-top: 30px;
     color: transparent;
     transition: 0.2s;
 }
-.comment_headline a [href="#"]:hover:before {
+.comment_headline a[href="#"]:hover:before {
     padding-left: 40px;
     transition: 0.4s;
     color: white;
@@ -253,7 +253,7 @@ d.seBlogComments iv#user_status {
     border: none;
     background: #20233a42;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 70px;
     border-radius: 0px;
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
     color: #5885c5;
