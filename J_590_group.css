@@ -1,3 +1,114 @@
+div.profile_comment_body {
+    color: white;
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+}
+
+
+.profile_comment_author a:hover,.profile_comment_links a {
+    background: #f99d1a;
+    transition: 0.2s;
+}
+.profile_comment_author a {
+    color: #1a1b35;
+    background: #db8100;
+    transform: skewY( 
+-2deg
+ );
+    display: block;
+    padding: 1px;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    transition: 0.2s;
+}
+
+.profile_comment_links {
+    color: transparent;
+}
+
+.profile_comment_links a {
+    color: black;
+    font-size: 12px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    background: #db8100;
+    padding: 1px;
+    transition: 0.2s;
+}
+
+.profile_comment_date {
+    text-align: left !important;
+    color: black !important;
+    margin-top: 10px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+d.seBlogComments iv#user_status {
+    margin: auto;
+    padding-top: 0px;
+}
+
+.seBlogComments [valign="top"] a:hover {
+    color: #2e4671;
+    transition: 0.2s;
+}
+.seBlogComments [valign="top"] a {
+    color: #44669a;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+
+.comment_headline a {
+    color: #5885c5;
+}
+.comment_headline {
+    border: none;
+    background: #20233a42;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 0px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    color: #5885c5;
+}
+
+.profile_postcomment {
+    border: none !important;
+}
+
+div#postcomment_userphotos {
+    border: none;
+}
+
+.seBlogComments div#postcomment_userphotos {
+    display: block !important;
+}
+
+
+input#comment_submit:hover {
+    background: #3e436e;
+    transition: 0.2s;
+    transform: skewY( 
+0deg
+ );
+}
+
+input#comment_submit {
+    background: #db8100;
+    border: none;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    transform: skewY(
+3deg
+);
+    margin-top: 5px;
+    transition: 0.2s;
+}
+
+
+
+
+
 
 
 .seBlogComments {
