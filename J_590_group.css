@@ -1,3 +1,17 @@
+div#righthome {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    padding-bottom: 45px !important;
+    overflow-y: scroll;
+    padding: 0px;
+    background: linear-gradient(
+136deg
+, #6691a6e6 45%, #db8100e8) fixed;
+}
+
+
+
 .group_desc {
     position: absolute;
     width: 40%;
@@ -139,36 +153,32 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 .card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"] {
     transform: skewY(4deg);
     border-radius: 0px;
-    box-shadow: inset -120px -6px 100px 0px #52afde36;
-    border-top: 2px double #000000 !important;
-    border-bottom: 2px double #000000 !important;
-    background: #2e3060b8 !important;
+    background: linear-gradient(245deg, #6691a6, #615b5a00) !important;
 }
-
 
 
 .card.group_members {
     position: fixed;
     top: 3.7%;
     width: 14%;
-    box-shadow: inset 120px 6px 100px 0px #59c7ff4a;
     border-radius: 0px;
-    transform: skewY( -5deg);
+    transform: skewY( 
+-5deg
+);
     height: 28%;
-    background: #2e3060cf;
+    background: linear-gradient(
+155deg
+, #4f9abf, #bb7b208f);
 }
 
 .card.blog_categories {
     position: fixed;
     top: 32.7%;
-    box-shadow: inset 120px 0px 90px 0px #59c7ff4a;
-    width: 14%;
     border-radius: 0px;
     transform: skewY( -5deg);
     height: 50%;
-    background: #2e3060cf;
+    background: linear-gradient(45deg, #c3933cc4, #5098ba87 90%);
 }
-
 
 
 
@@ -297,18 +307,7 @@ h2.card-title a {
     margin-top: 70px;
 }
 
-div#righthome {
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    padding-bottom: 45px !important;
-    overflow-y: scroll;
-    padding: 0px;
-    background: linear-gradient(
-132deg
-,#3f62a2 20%,#c786287a 46%,#2e3060c2 76%) fixed;
-    background-color: #4064ff5c;
-}
+
 
 
 div#righthome:before {
