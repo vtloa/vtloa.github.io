@@ -1,3 +1,25 @@
+button.btn.btn-primary {
+    display: none;
+}
+
+[src="/images/button_down.svg"] {
+    display: none;
+}
+
+button.button_down {
+    background: transparent;
+}
+
+
+[src="/images/notify.svg"] {
+    background: url(https://beon.vip/uploads_user/10000/9068/1c2a4042af51f18dd68abad5c2980157.png) no-repeat center;
+    background-size: contain;
+    padding: 25px;
+}
+
+
+
+
 button#newupdates {
     position: absolute;
     top: 0px;
