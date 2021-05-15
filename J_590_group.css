@@ -235,7 +235,7 @@ d.seBlogComments iv#user_status {
     height: 155px;
     position: absolute;
     bottom: 3px;
-    left: 150px;
+    left: 0px;
     padding-top: 30px;
     color: transparent;
     transition: 0.2s;
