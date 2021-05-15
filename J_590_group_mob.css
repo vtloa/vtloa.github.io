@@ -1,3 +1,14 @@
+div#mobile_photo_wrap img.photo {
+    opacity: 0;
+    height: 130px;
+}
+div#mobile_photo_wrap {
+    background: url(https://i.pinimg.com/originals/ca/f7/ad/caf7ad8d7082994714aa8e9590c0d879.gif) center;
+    background-size: cover;
+}
+
+
+
 .comment_headline a[href="#"]:hover:before {
     padding-left: 40px;
     transition: 0.4s;
