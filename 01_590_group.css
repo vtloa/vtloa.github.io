@@ -1,3 +1,11 @@
+@media screen and (max-height: 700px){
+    div#righthome {
+    top: 0px;
+    bottom: 0px;}
+}
+
+
+
 .seBlogColumnRightPadding {
     margin-top: 3vh;
 }
