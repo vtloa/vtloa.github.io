@@ -113,11 +113,12 @@ div#user_status {
 [href="./"]:before {
     content: 'ВЫХОД ТУТ';
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 8px;
     margin-left: -1px;
     color: #db8100;
     text-shadow: 0 0 2px black;
+    font-family: font18abd107fb8d0e65f7107428c0e88b64;
 }
 
 button.btn.btn-outline-success {
