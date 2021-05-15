@@ -66,15 +66,8 @@ button.btn.btn-secondary {
 }
 
 
-.top_menu_link {
-    display: none;
-}
 
-button.btn.btn-primary {
-    display: none;
-}
-
-[src="/images/button_down.svg"] {
+.top_header button.btn.btn-primary,[src="/images/button_down.svg"],.top_menu_link {
     display: none;
 }
 
