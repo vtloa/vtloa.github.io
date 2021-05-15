@@ -1,3 +1,16 @@
+div#user_status {
+    color: #db8100;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.post_text.pl-3 {
+    padding: 10px !important;
+    padding-top: 24px !important;
+    margin: auto;
+}
+
+
 .post_image a img {
     max-height: 300px;
     box-shadow: 0 0 10px black;
