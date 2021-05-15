@@ -73,7 +73,7 @@ d.seBlogComments iv#user_status {
     transition: 0.2s;
 }
 .seBlogComments [valign="top"] a {
-    color: #44669a;
+    color: #44669a !important;
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
     font-size: 12px;
     transition: 0.2s;
