@@ -1,3 +1,7 @@
+.blog_leftprofile a {
+    text-shadow: 0 0 3px black;
+}
+
 div.profile_comment_body {
     max-width: 100%;
 }
