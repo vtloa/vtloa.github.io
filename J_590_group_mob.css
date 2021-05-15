@@ -1,5 +1,10 @@
+div.profile_comment_body {
+    max-width: 100%;
+}
+
+
 blockquote.blockquote {
-    background: #ffffff;
+    background: linear-gradient(45deg, #ffffff, transparent);
     color: black;
     border-color: black;
     margin-bottom: 0px;
