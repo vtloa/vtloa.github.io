@@ -1,3 +1,15 @@
+font.disabled {
+    color: #42558996;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+a#comment_next_page_bottom,a#comment_next_page_top {
+    color: #db8100;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+
+
 .post_container {
     background: linear-gradient(
 129deg
