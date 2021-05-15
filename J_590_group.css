@@ -1,3 +1,24 @@
+h2.card-title {
+    position: relative;
+}
+.card.mb-2.post_home:nth-child(3) h2.card-title:before {
+    content: 'Опа';
+    font-size: 20px;
+    background: url(https://beon.vip/uploads_user/10000/9068/4f51bc7….png) no-repeat center;
+    background-size: contain;
+    width: 70px;
+    height: 104px;
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    left: 18px;
+    color: white;
+    font-size: 0px;
+}
+
+
+
+
 .additional_info.pl-3 a {
     color: rgb(219, 129, 0);
     font-weight: bold;
