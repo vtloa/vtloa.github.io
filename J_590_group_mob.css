@@ -1,3 +1,7 @@
+.profile_postcomment {
+    padding: 10px !important;
+}
+
 div#postcomment_userphotos {
     border: none;
     padding: 0px;
@@ -299,7 +303,19 @@ font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 @font-face { font-family: 'HandelsonSix_CYR-Six';  src: local('HandelsonSix_CYR-Six'), url('https://nomail.com.ua/files/woff/18abd107fb8d0e65f7107428c0e88b64.woff') format('woff'); }
 
 
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ff9800 !important;
+}
 
+::-webkit-scrollbar-track {
+    border-top: 3px solid #ff9800 !important;
+    border-bottom: 3px solid #ff9800 !important;
+    outline: 1px solid #ff9800 !important;
+    
 
 
 
