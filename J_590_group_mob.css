@@ -1,8 +1,44 @@
+.userphoto_selected {
+    background: #db8100;
+    width: 108px;
+    transform: skewY( 
+-2deg
+ );
+}
 
+img.img-thumbnail {
+    border: none;
+    background: transparent;
+    padding: 0px;
+    border-radius: 0px !important;
+}
 
+.profile_postcomment {
+    border: none !important;
+}
+
+input#comment_submit {
+    background: #db8100;
+    border: none;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    transform: skewY( 
+3deg
+ );
+    margin-top: 5px;
+    transition: 0.2s;
+}
+
+.comment_headline a {
+    color: #5885c5;
+}
+
+.profile_comment_links {
+    color: transparent;
+}
 
 div.profile_comment_body {
     color: white;
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
 }
 
 body {
