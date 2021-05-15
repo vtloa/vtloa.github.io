@@ -97,3 +97,38 @@ div#user_status {
     padding-top: 5px;
     color: #db8100;
 }
+
+
+[src="./images/logo_new.png"] {
+    opacity: 0;
+}
+
+[href="./"]:before {
+    content: 'ВЫХОД ТУТ';
+    position: absolute;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: -1px;
+    font-family: fantasy;
+    color: #db8100;
+    text-shadow: 0 0 2px black;
+}
+
+button.btn.btn-outline-success {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+
+[src="/images/notify.svg"] {
+    background: url(https://beon.vip/uploads_user/10000/9068/1c2a4042af51f18dd68abad5c2980157.png) no-repeat center;
+    background-size: contain;
+    padding: 20px;
+    transform: skewY( 
+-4deg
+ );
+    margin-top: 7px;
+}
