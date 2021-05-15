@@ -1,3 +1,9 @@
+h2.card-title a:hover {
+    color: #f7b703;
+    transition: 0.1s;
+}
+
+
 textarea#comment_body::placeholder {
     color: #5885c5;
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
