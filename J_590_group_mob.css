@@ -1,3 +1,14 @@
+.post_text.pl-3 [href="#"] {
+    color: #ffffff;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    background: #d57d00;
+    padding: 2px;
+    text-align: center;
+    display: block;
+}
+
+
+
 .updatesRegisterDesc {
     color: #d80101;
     font-weight: bold;
@@ -322,7 +333,7 @@ h6.card-subtitle.mb-2.text-muted.post_date {
 
 .additional_info.pl-3 {
     font-size: 12px;
-    padding-left: 7px !important;
+    padding-left: 15px !important;
 }
 
 .post {
