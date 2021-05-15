@@ -1,14 +1,6 @@
 
 
 
-@media screen and (max-width: 1024px) {
-.seBlogComments [valign="top"] .button {
-    text-transform: uppercase;
-    padding-left: 10px !important;
-    color: #313c67 !important;}
-}
-
-
 div.profile_comment_body {
     color: white;
 }
@@ -43,6 +35,7 @@ h2.card-title a {
     font-size: 30px;
     text-shadow: 1px 1px 0px #00000096, -1px -1px 0px #00000096;
     filter: drop-shadow(0px 0px 1px black);
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
 a.page-link {
@@ -154,6 +147,7 @@ button.navbar-toggler {
 
 .seBlogComments [valign="top"] a {
     color: #44669a !important;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
     font-size: 12px;
     transition: 0.2s;
 }
@@ -175,6 +169,7 @@ button.navbar-toggler {
     margin-top: 10px;
     padding-right: 5px;
     padding-left: 5px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
     transition: 0.2s;
 }
 
@@ -182,6 +177,7 @@ button.navbar-toggler {
     text-align: left !important;
     color: black !important;
     margin-top: 10px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
 .profile_comment_links a {
@@ -190,6 +186,7 @@ button.navbar-toggler {
     background: #db8100;
     padding: 1px;
     transition: 0.2s;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
 .comment_headline {
@@ -200,6 +197,7 @@ button.navbar-toggler {
     border-radius: 0px;
     color: #5885c5;
     position: relative;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
 textarea#comment_body {
@@ -211,6 +209,7 @@ textarea#comment_body {
 
 textarea#comment_body::placeholder {
     color: #5885c5;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
 }
 
 
