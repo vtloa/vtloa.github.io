@@ -1,10 +1,10 @@
 .post_container {
-    background: #1b1b1b;
+    background: #1b1b1b !important;
     position: relative;
     border-radius: 0 15px 15px 15px !important;
     width: fit-content;
-    color: white;
-    box-shadow: 0 0 black;
+    color: white !important;
+    box-shadow: 0 0 black !important;
 }
 
 
@@ -13,25 +13,25 @@
     position: absolute;
     left: 0px;
     top: -24px;
-    background: #1b1b1b;
+    background: #1b1b1b !important;
     width: 30px;
     height: 25px;
     z-index: 11;
     color: transparent;
     clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    border: 1px solid #1b1b1b;
+    border: 1px solid #1b1b1b !important;
 }
 
 h2.card-title a {
     font-family: 'font5e11c36363b334ddc7352a19a73bb52b' !important;
-    color: #ffc107;
+    color: #ffc107 !important;
 }
 
 
 h6.card-subtitle.mb-2.text-muted.post_date a {
     font-weight: bold;
-    background: #ffc107;
-    color: #1b1b1b;
+    background: #ffc107 !important;
+    color: #1b1b1b !important;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -41,20 +41,18 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
 
 
 body {
-    background: url(https://i.pinimg.com/originals/5b/dc/16/5bdc1699671281bbfb1c821fb1876244.png) no-repeat fixed right;
+    background: url(https://i.pinimg.com/originals/5b/dc/16/5bdc1699671281bbfb1c821fb1876244.png) no-repeat fixed right !important;
     background-size: contain;
     background-color: black;
 }
 
 .seBlogColumnRightPadding {
-    background: linear-gradient(
-0deg
-, #765441a3,#42302814, #e0c4ab00) fixed;
+    background: linear-gradient(0deg, #765441a3,#42302814, #e0c4ab00) fixed !important;
     border-radius: 9px;
 }
 
 .top_header {
-    background: rgb(70 49 37);
+    background: rgb(70 49 37) !important;
     box-shadow: 0px 1px 15px rgb(0 0 0 / 7%);
     height: 20px;
     z-index: auto;
@@ -62,7 +60,7 @@ body {
 
 input[type="text"] {
     height: 15px;
-    background: #251a14;
+    background: #251a14 !important;
     border: none;
     position: absolute;
     width: 100%;
@@ -72,11 +70,11 @@ input[type="text"] {
 }
 
 .profile_comment_body a, .post_text.pl-3 a {
-    color: #ffc107;
+    color: #ffc107 !important;
 }
 
 .category a {
-    color: #ffc107;
+    color: #ffc107 !important;
 }
 
 
