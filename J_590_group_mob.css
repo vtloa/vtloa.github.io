@@ -18,7 +18,13 @@
 }
 
 
-
+.card-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'font129a060dd8496deac581e40a11b0130b';
+}
 
 .card.mt-3.blog_leftmenu .card-header {
     width: 80px;
