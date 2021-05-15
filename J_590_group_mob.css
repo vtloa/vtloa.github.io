@@ -65,3 +65,17 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     color: #db8100;
     font-weight: bold;
 }
+
+
+.post_text.pl-3 {
+    padding: 8px !important;
+}
+
+.additional_info.pl-3 {
+    font-size: 12px;
+    padding-left: 7px !important;
+}
+
+.post {
+    margin-top: 50px;
+}
