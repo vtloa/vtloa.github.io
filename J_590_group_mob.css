@@ -1,3 +1,12 @@
+@media screen and (max-width: 1024px) {
+    .seBlogComments [valign="top"] a {
+    color: #6b94d0 !important;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    transition: 0.2s;
+    font-size: 13px;
+}}
+
+
 div#mobile_menu {
     background: linear-gradient( 
 136deg
