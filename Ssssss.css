@@ -78,18 +78,37 @@ input[type="text"] {
 }
 
 
-::-webkit-scrollbar {
-    width: 10px !important;
+.seBlogComments {
+    margin-top: 65px;
+    width: 85% !important;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1b1b1b70 !important;
+    border-radius: 10px;
+    padding: 10px !important;
+    box-shadow: 0 0 black !important;
 }
-::-webkit-scrollbar-thumb {
-    background-color: #825d49 !important;
-    border-radius: 20px !important;
+
+.profile_comment_body {
+    background: #c5b19d !important;
+    border-radius: 0px 10px 10px 10px;
+    position: initial;
+    margin-left: 20px !important;
+    box-shadow: 2px 2px 6px #3b2c26a8;
+    font-family: monospace;
+    padding-left: 20px !important;
 }
-::-webkit-scrollbar-track {
-    margin-top: 100px !important;
-    margin-bottom: 100px !important;
-    border-top: 3px solid #825d49 !important;
-    border-bottom: 3px solid #825d49 !important;
-    outline: 1px solid #463125 !important;
-    outline-offset: -25px !important;
+
+.profile_comment_body:before {
+    content: 'чат' !important;
+    width: 19px;
+    height: 30px;
+    background: #c5b19d !important;
+    display: block;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -37px;
+    color: transparent;
+    clip-path: polygon(100% 0, 0 0%, 100% 100%);
+    border: 1px solid #c5b19d !important;
 }
