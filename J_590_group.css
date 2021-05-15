@@ -148,10 +148,10 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
 
 
 
-.card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"] {
+.card.mt-3.blog_leftmenu, .blog_leftsearch input[type="text"],.blog_leftprofile {
     transform: skewY(4deg);
     border-radius: 0px;
-    background: linear-gradient(281deg, #466ba2, #181834b5) !important;
+    background: linear-gradient(302deg, #466ba2, #181834b5) !important;
 }
 
 
