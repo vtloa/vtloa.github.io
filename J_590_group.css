@@ -869,8 +869,6 @@ font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
     background-color: #ff9800 !important;
 }
 ::-webkit-scrollbar-track {
-    margin-top: 23px !important;
-    margin-bottom: 200px !important;
     border-top: 3px solid #ff9800 !important;
     border-bottom: 3px solid #ff9800 !important;
     outline: 1px solid #ff9800 !important;
