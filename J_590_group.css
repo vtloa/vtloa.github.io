@@ -499,7 +499,7 @@ ul.pagination.justify-content-end.float-right a.page-link:before {
     display: block;
     position: absolute;
     z-index: 111;
-    top: -114px;
+    bottom: 5px;
     right: 10px;
     width: 140px;
     height: 130px;
