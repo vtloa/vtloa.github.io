@@ -1,6 +1,7 @@
 .card.mb-2.post_home:nth-child(3) h2.card-title:hover:before {
     filter: drop-shadow(4px -6px 5px #ffc107);
     transition: 0.2s;
+    transform: skewY(-2deg);
 }
 
 button#newupdates:focus {
@@ -317,6 +318,7 @@ div#user_status {
     max-height: 300px;
     box-shadow: 0 0 10px black;
     outline: 2px solid #db8100;
+    transform: skewY(-2deg);
 }
 
 div#righthome {
