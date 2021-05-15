@@ -1,3 +1,30 @@
+div#mobile_menu {
+    background: linear-gradient( 
+136deg
+ , #5586c9d4 45%, #301538d6) fixed,url(https://www.transparenttextures.com/patterns/vintage-speckles.png) fixed;
+}
+
+.menu_item_dropdown a {
+    background: transparent !important;
+    color: white !important;
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+img.menu_icon2 {
+    display: none;
+}
+
+#mobile_menu button.btn.btn-primary {
+    background: #db8100;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+
 div#mobile_photo_wrap img.photo {
     opacity: 0;
     height: 130px;
