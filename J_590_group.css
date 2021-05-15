@@ -1,7 +1,6 @@
 .card.mb-2.post_home:nth-child(3) h2.card-title:hover:before {
     filter: drop-shadow(4px -6px 5px #ffc107);
     transition: 0.2s;
-    transform: skewY(-2deg);
 }
 
 button#newupdates:focus {
@@ -290,6 +289,7 @@ h2.card-title {
     color: white;
     font-size: 0px;
     transition: 0.2s;
+    transform: skewY(-2deg);
 }
 
 
