@@ -1,3 +1,28 @@
+[id^="comment_"] {
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    background: linear-gradient(
+45deg
+, #6691a685, #3c3f68db);
+    font-family: 'font6fd7e0f0248f1c0320476e13c81e4047';
+}
+
+.seBlogComments {
+    padding: 10px;
+}
+
+.seBlogComments img.photo {
+    border: none;
+    outline: 2px solid #db8100;
+}
+
+
+
+
+
+/*---------------------------------------------------------*/
+
 h2.card-title {
     position: relative;
 }
