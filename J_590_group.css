@@ -91,10 +91,6 @@ div#postcomment_userphotos {
     padding: 0px;
 }
 
-div#righthome {
-    padding-bottom: 45px !important;
-}
-
 
 button.btn.btn-primary.btn-block.btn-post,button#attach_file_click {
     background: #6fa037;
@@ -338,12 +334,13 @@ div#righthome {
     position: fixed;
     top: 0px;
     bottom: 0px;
+    padding-bottom: 45px !important;
     overflow-y: scroll;
     padding: 0px;
     background: linear-gradient(
-165deg
-,#2e3060c4,#2e3060a6,#c1780f59, #2e3060 100%,#2e3060,#2e3060c4) fixed;
-    background-color: #6792a773;
+125deg
+,#2b4067,#3a4167,#fb99052e, #d092126e,#8c6b37b8,#2e3060a3,#2e3060a3) fixed;
+    background-color: #4064ff5c;
 }
 
 .card.blog_gifts {
