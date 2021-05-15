@@ -91,12 +91,10 @@ div#postcomment_userphotos {
 
 .seBlogComments div#postcomment_userphotos {
     display: block !important;
+    height: 300px;
 }
 
 
-.seBlogComments div#postcomment_userphotos {
-    height: auto;
-}
 
 
 input#comment_submit:hover {
