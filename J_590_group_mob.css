@@ -1,3 +1,93 @@
+input#fromgroup,input#mainpost {
+    filter: invert(1);
+}
+
+
+
+div#entry_main {
+    background: #ffffff00 !important;
+    width: 98%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+input.form-control {
+    background: #2d385894 !important;
+    border: none;
+}
+
+select.form-control {
+    background: #353f629e !important;
+    border: none;
+}
+
+input.form-control::placeholder {
+    font-size: 14px;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+
+select.form-control {
+    color: white !important;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    font-size: 14px;
+}
+
+button#attach_file_click {
+    background: white !important;
+}
+
+
+div#entry_main>b {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    color: #db8100 !important;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    FONT-SIZE: 20PX;
+    text-shadow: 0 0 3px black;
+}
+
+
+button.btn.btn-primary.btn-block.btn-post, button#attach_file_click {
+    background: #ffffff !important;
+    border: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    font-size: 20px;
+    color: black;
+}
+
+span#cke_1_top {
+    background: linear-gradient(45deg, #83aade, #3f517b) !important;
+    border: none;
+    padding: 0px;
+}
+
+div#cke_blogentry_body {
+    border: none;
+    box-shadow: 0 0 4px black;
+}
+
+span#cke_1_bottom {
+    background: linear-gradient(
+45deg
+, #7ea3d6, #41537e);
+}
+
+
+
+
+
+
+
+
+
 
 
 .copyright {
