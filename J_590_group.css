@@ -445,13 +445,6 @@ form#blogform {
 }
 
 
-div#entry_main>b {
-    text-transform: uppercase;
-    text-align: center;
-    display: block;
-    padding-bottom: 20px;
-}
-
 div#entry_main {
     width: 98%;
     margin: auto;
