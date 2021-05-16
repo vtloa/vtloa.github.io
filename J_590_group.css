@@ -3,6 +3,7 @@ button#newupdates:hover:before {
     text-shadow: 0 0 4px white;
     transition: 0.2s;
 }
+
 button#newupdates:before {
     content: 'Ты в пиве)';
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
