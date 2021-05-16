@@ -1,3 +1,17 @@
+/*МИнус жабка*/
+
+
+
+.comment_headline a[href="#"]:before {
+    content: unset !important;
+}
+
+::-webkit-scrollbar-track {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 .blog_leftprofile a {
     text-shadow: 0 0 3px black;
 }
