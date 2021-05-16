@@ -1,3 +1,10 @@
+body {
+    background: aqua;
+}
+
+
+
+
 input#fromgroup,input#mainpost {filter: invert(1);}
 
 
