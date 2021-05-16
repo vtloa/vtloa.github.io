@@ -1,3 +1,9 @@
+input#fromgroup,input#mainpost {
+    filter: invert(1);
+}
+
+
+
 div#entry_main {
     background: #ffffff00;
     width: 98%;
