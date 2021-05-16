@@ -1,3 +1,43 @@
+.blog_leftprofile a {
+    text-shadow: 0 0 3px black;
+}
+
+div#postcomment_userphotos {
+    height: 200px !important;
+}
+
+.profile_postcomment {
+    padding: 7px !important;
+}
+
+div#righthome {
+    padding-bottom: 10px !important;
+}
+
+img.img-thumbnail {
+    width: 100px;
+}
+
+[style="margin-top: 10px; margin-bottom: 20px;"] {
+    margin-top: 20px !important;
+}
+
+.profile_comment_date {
+    border-top: 1px solid #334373;
+}
+
+a#comment_next_page_bottom,a#comment_next_page_top {
+    color: #db8100;
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+}
+
+
+
+.comment_headline {
+    margin-top: 20px;
+}
+
+
 input.form-control::placeholder {
     font-size: 14px;
     font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
