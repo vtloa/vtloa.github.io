@@ -1,3 +1,8 @@
+input[type="text"] {
+    display: none;
+}
+
+
 .card.mt-3.blog_leftmenu .card-body:hover {
     height: 285px;
     overflow: unset;
