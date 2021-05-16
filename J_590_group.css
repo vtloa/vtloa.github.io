@@ -1,3 +1,13 @@
+/*Минискролл на время*/
+
+div#righthome::-webkit-scrollbar-track {
+    margin-top: 280px;
+    margin-bottom: 250px;
+}
+
+
+
+
 button#newupdates:hover:before {
     color: white;
     text-shadow: 0 0 4px white;
