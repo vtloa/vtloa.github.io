@@ -1,8 +1,8 @@
 /*Минискролл на время*/
 
 div#righthome::-webkit-scrollbar-track {
-    margin-top: 280px;
-    margin-bottom: 250px;
+    margin-top: 280px !important;
+    margin-bottom: 250px !important;
 }
 
 
