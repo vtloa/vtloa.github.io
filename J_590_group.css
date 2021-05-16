@@ -1,3 +1,19 @@
+button#newupdates:hover:before {
+    color: white;
+    text-shadow: 0 0 4px white;
+    transition: 0.2s;
+}
+button#newupdates:before {
+    content: 'Ты в пиве)';
+    font-family: 'font18abd107fb8d0e65f7107428c0e88b64';
+    position: absolute;
+    left: -55px;
+    top: 25px;
+    color: transparent;
+    transition: 0.2s;
+}
+
+
 .top_header {
     box-shadow: 0 0;
 }
