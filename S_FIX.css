@@ -1,3 +1,9 @@
+a#comment_last_page_top,a#comment_last_page_bottom {
+    font-family: 'font5e11c36363b334ddc7352a19a73bb52b';
+    font-size: 11px;
+    color: #f3ede8a6;
+}
+
 .modal-content a {
     color: #332f2c;
 }
