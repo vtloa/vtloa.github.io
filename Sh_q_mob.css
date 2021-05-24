@@ -1,3 +1,20 @@
+input#comment_submit:hover {
+    color: #cf2131;
+    text-decoration: line-through;
+}
+
+textarea#comment_body:focus {
+    background: #f3f3f3;
+}
+
+textarea#comment_body {
+    border-radius: 5px;
+    background: #e1e1e1;
+    border: 1px solid #909090;
+    box-shadow: inset 0 0 6px #858585;
+}
+
+
 
 body, .modal-content,div#mobile_menu {
     background-color: #5a5a5a;
