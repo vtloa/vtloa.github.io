@@ -22,7 +22,7 @@ blockquote.blockquote {
     margin: 0px;
 }
 
-font.disabled,a#comment_next_page_top,a#comment_next_page_bottom {
+font.disabled,a#comment_next_page_top,a#comment_next_page_bottom,a#comment_last_page_top,a#comment_last_page_bottom {
     font-size: 10px;
     color: #795548;
 }
