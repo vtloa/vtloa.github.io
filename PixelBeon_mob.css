@@ -436,3 +436,21 @@ body {
 }
 
 }
+
+
+button.btn.btn-primary {
+    display: none;
+}
+
+.copyright_text {
+    display: none;
+}
+
+a.btn.btn-primary,a.btn.btn-success {
+    background: transparent;
+    border: none;
+    color: #945239 !important;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
