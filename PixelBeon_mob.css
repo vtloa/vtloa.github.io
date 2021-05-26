@@ -1,3 +1,28 @@
+button.btn.btn-primary {
+    display: none;
+}
+
+a#comment_last_page_top,a#comment_last_page_bottom {
+    font-size: 10px;
+    color: #795548;
+}
+
+.copyright_text {
+    display: none;
+}
+
+a.btn.btn-primary,a.btn.btn-success {
+    background: transparent;
+    border: none;
+    color: #945239 !important;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     
 .seBlogComments [style="text-align: center;"] {
@@ -438,19 +463,3 @@ body {
 }
 
 
-button.btn.btn-primary {
-    display: none;
-}
-
-.copyright_text {
-    display: none;
-}
-
-a.btn.btn-primary,a.btn.btn-success {
-    background: transparent;
-    border: none;
-    color: #945239 !important;
-    margin-top: -10px;
-    text-transform: uppercase;
-    font-size: 12px;
-}
