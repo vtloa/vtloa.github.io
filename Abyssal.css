@@ -1,3 +1,13 @@
+a.btn.btn-primary,a.btn.btn-success {
+    background: transparent;
+    border: none;
+}
+
+.copyright_text {
+    display: none;
+}
+
+/*-----------------------*/
 .copyright {
     font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
     color: #1322f7 !important;
