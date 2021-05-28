@@ -1,3 +1,8 @@
+button#newupdates:focus, button.button_down:focus, button.close:focus, textarea#comment_body:focus {
+    outline: none;
+}
+
+
 .comment_headline a {
     font-size: 17px;
 }
