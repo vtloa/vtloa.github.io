@@ -267,6 +267,7 @@ body {
     padding: 0px;
     background: #0022aa;
     border: none;
+    z-index: 22333333333;
 }
 
 .post_container {
