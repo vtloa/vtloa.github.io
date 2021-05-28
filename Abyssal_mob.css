@@ -1,3 +1,14 @@
+div#designs {
+    background: #0e1ced96;
+    left: 0px;
+    width: fit-content;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    text-transform: uppercase;
+    color: #007eff !important;
+    height: 20px !important;
+}
+
+
 td.result {
     background: #0022aa00 !important;
     color: #dc36df;
