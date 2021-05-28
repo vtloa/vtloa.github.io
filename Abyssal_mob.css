@@ -1,3 +1,12 @@
+span#notify_total {
+    background: transparent;
+}
+
+@media screen and (max-width: 1024px){
+.additional_info.pl-3 a {padding-left: 10px;}
+.additional_info.pl-3 {display: flex;font-size: 13px !important;}
+}
+
 button.btn.btn-outline-success.mr-1.mobile_button,button.btn.btn-outline-success {
     background: transparent;
     border: none;
