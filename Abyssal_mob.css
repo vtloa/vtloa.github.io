@@ -1,3 +1,7 @@
+.updatesWrap a:hover {
+    color: #e966ff !important;
+}
+
 a.page-link {
     background: #00004f;
     border: 1px solid #0044b2;
