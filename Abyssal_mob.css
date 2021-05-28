@@ -1,3 +1,7 @@
+button.navbar-toggler:focus {
+    outline: none;
+}
+
 .btn-outline-success:hover, .btn-outline-success:focus {
     background: transparent !important;
     border: none !important;
@@ -6,7 +10,8 @@
 }
 
 div#mobile_menu {
-    background: #0022aa;
+    background: url(https://i.pinimg.com/originals/d5/25/eb/d525eb7b75545ecaf4da11440859f0a5.png) no-repeat bottom;
+    background-size: cover;
 }
 
 div#mobile_photo {
@@ -19,6 +24,10 @@ div#mobile_photo {
 
 div#mobile_menu a {
     background: transparent !important;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px !important;
 }
 
 img.menu_icon2 {
