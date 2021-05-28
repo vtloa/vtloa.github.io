@@ -1,5 +1,17 @@
-.copyright {
-    display: none;
+a.page-link {
+    background: #00004f;
+    border: 1px solid #0044b2;
+    border-radius: 0px !important;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    text-transform: uppercase;
+    padding: 3px;
+    padding-bottom: 0px;
+}
+
+a.page-link:hover {
+    background: #c30792 !important;
+    color: #ff8ae1 !important;
+    border-color: #0044b2;
 }
 
 button.navbar-toggler:focus {
