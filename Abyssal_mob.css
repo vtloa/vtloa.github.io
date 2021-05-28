@@ -7,7 +7,8 @@ span#notify_total {
 .additional_info.pl-3 {display: flex;font-size: 13px !important;}
 }
 
-button.btn.btn-outline-success.mr-1.mobile_button,button.btn.btn-outline-success {
+button.btn.btn-outline-success.mr-1.mobile_button,
+.bg-light button.btn.btn-outline-success {
     background: transparent;
     border: none;
     text-transform: uppercase;
