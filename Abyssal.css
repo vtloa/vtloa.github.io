@@ -409,7 +409,7 @@ div#lefthome:before,.post_image:before {
     top: -63px;
 }
 
-body,.post_container:after,div#lefthome,.post_image {
+body,div#lefthome,.post_image {
     background: url(https://i.pinimg.com/originals/5e/8b/d0/5e8bd09c679c5ab84e3b11ebfdf49b53.png) no-repeat left top fixed;
     background-size: cover;
 }
@@ -447,7 +447,8 @@ a#comment_last_page_bottom {
     width: 100%;
     height: 100%;
     z-index: 1;
-    filter: blur(6px);
+    background: url(https://i.pinimg.com/originals/d5/25/eb/d525eb7b75545ecaf4da11440859f0a5.png) no-repeat left top fixed;
+    background-size: cover;
 }
 
 .seBlogComments {
