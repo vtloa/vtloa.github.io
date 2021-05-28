@@ -1,3 +1,47 @@
+.profile_comment_links {
+    display: flex;
+    width: 50px;
+    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    text-transform: uppercase;
+    font-size: 0px;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
+
+.commentEditLink, .commentDeleteLink, a.commentReply {
+    color: #0730d8 !important;
+    width: 15px;
+    overflow: hidden;
+    display: block;
+    margin-left: 7px;
+    font-size: 14px !important;
+    padding: 0px !important;
+}
+
+
+.profile_comment_author a {
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    color: #0e33ff !important;
+}
+
+.profile_comment_author {
+    position: absolute;
+    top: -23px;
+    margin-left: -7px;
+}
+
+.profile_comment_date {
+    position: absolute;
+    top: -22px;
+    left: 18px;
+    font-size: 14px !important;
+    color: #0044b4 !important;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+}
+
+
 [id^="comment_"] {
     position: relative;
 }
