@@ -1,3 +1,12 @@
+
+
+font.disabled, a#comment_next_page_bottom, a#comment_next_page_top, a#comment_last_page_top, a#comment_last_page_bottom {
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 15px;
+    color: #1f41ff;
+}
+
+
 .seBlogComments [valign="top"] .button {
     font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
     font-size: 13px;
