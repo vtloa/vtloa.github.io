@@ -1,3 +1,9 @@
+.gifts-list img {
+    width: 40px;
+    filter: drop-shadow(5px -1px 0px blue);
+}
+
+
 [src="/images/notify.svg"] {
     filter: invert(1);
 }
