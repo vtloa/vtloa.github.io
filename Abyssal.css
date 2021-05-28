@@ -1,3 +1,8 @@
+.profile_postcomment {
+    border: none !important;
+}
+
+
 [src="/images/verify.png"] {
     background: #0033ff;
     width: 0px;
@@ -619,6 +624,7 @@ img.photo,.card {border: none;}
 .post_container {
     border: 1px solid #007eff;
     padding: 10px;
+    min-height: 100px;
 }
 
 a,li.p-1,h2.card-title a,
