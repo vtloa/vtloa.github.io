@@ -72,11 +72,8 @@ button.btn.btn-secondary {
 .modal-content {
     background: #000b85;
     border-radius: 0px;
-    position: fixed;
-    right: 2px;
-    top: 2px;
-    width: 500px;
     border: 1px dotted #4151ff;
+    margin-top: 55px;
 }
 
 .modal-header {
