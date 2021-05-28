@@ -6,7 +6,7 @@ button.navbar-toggler:focus {
     background: transparent !important;
     border: none !important;
     outline: none !important;
-    box-shadow: unset;
+    box-shadow: unset !important;
 }
 
 div#mobile_menu {
