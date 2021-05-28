@@ -1,3 +1,10 @@
+.btn-outline-success:hover, .btn-outline-success:focus {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: unset;
+}
+
 div#mobile_menu {
     background: #0022aa;
 }
