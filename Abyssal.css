@@ -1120,9 +1120,6 @@ outline: 1px solid #0000f6;
 
 
 ::-webkit-scrollbar {
-    background: linear-gradient(
--180deg
-, #00006b, #000033);
     width: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -1130,6 +1127,4 @@ outline: 1px solid #0000f6;
 }
 ::-webkit-scrollbar-track {
     background: #0022aa;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
