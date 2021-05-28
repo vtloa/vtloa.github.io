@@ -1,3 +1,16 @@
+[id^="comment_"] {
+    position: relative;
+}
+[id^="comment_"] {
+    border: 1px solid #1332e4;
+    margin-top: 20px;
+    background: url(https://i.pinimg.com/originals/d5/25/eb/d525eb7….png) no-repeat left top fixed;
+    background-size: cover;
+    color: #3398ff;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
 
 
 font.disabled, a#comment_next_page_bottom, a#comment_next_page_top, a#comment_last_page_top, a#comment_last_page_bottom {
