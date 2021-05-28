@@ -1,0 +1,116 @@
+body {
+    background: url(https://i.pinimg.com/originals/5e/8b/d0/5e8bd09c679c5ab84e3b11ebfdf49b53.png) no-repeat left top fixed;
+    background-size: cover;
+}
+
+.bg-light {
+    padding: 0px;
+    background: #0022aa;
+    border: none;
+}
+
+.post_container {
+    border: 1px solid #007eff;
+    padding: 10px;
+    min-height: 100px;
+}
+.blog_leftphoto img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 1.5px #0152df;
+}
+
+.post_image a img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 1.5px #0152df;
+}
+
+img.photo {
+    border: none;
+}
+
+
+/*ШРИФТЫ*/
+
+@font-face {
+font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    
+    src:    url('https://nomail.com.ua/files/eot/716ce4032f2a16a947b3a4c07174d183.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/716ce4032f2a16a947b3a4c07174d183.woff2') format('woff2');
+}
+
+@font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff'); }
+
+
+
+
+@font-face {
+font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+    
+    src:    url('https://nomail.com.ua/files/eot/2127aa6d0680b144a3bd8be9debeba09.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/2127aa6d0680b144a3bd8be9debeba09.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HelveticaNeueCyr-Light';  src: local('HelveticaNeueCyr-Light'), url('https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff') format('woff'); }
+
+h2.card-title a:hover, h6.card-subtitle.mb-2.text-muted.post_date a:hover, a.card-link:hover, .seBlogColumnRightPadding a:hover, .blog_leftprofile:hover, .seBlogComments [valign="top"] a:hover, a#comment_next_page_bottom:hover, a#comment_next_page_top:hover, a#comment_last_page_top:hover, a#comment_last_page_bottom:hover {
+    color: #ff43cf !important;
+    color: #ff43cf;
+}
+
+a, li.p-1, h2.card-title a, h6.card-subtitle.mb-2.text-muted.post_date, h6.card-subtitle.mb-2.text-muted.post_date a, .additional_info.pl-3, input[type="text"]::placeholder, ul.seBlogCategoryList {
+    color: #007eff !important;
+    color: #007eff;
+}
+
+[href="./"]:after, button.btn.btn-primary, .top_menu a, .seBlogColumnRightPadding, input[type="text"]::placeholder, h2.card-title, h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3 {
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 17px !important;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+li.p-1, ul.seBlogCategoryList li {
+    display: contents;
+}
+
+li.p-1 a, ul.seBlogCategoryList a {
+    border-left: 1px dotted #004ce3 !important;
+    border-left: 1px dotted #004ce3;
+    padding-left: 3px;
+    font-size: 15px;
+}
+
+.card-header {
+    display: none;
+}
+
+input[type="text"], button.btn.btn-primary {
+    background: transparent;
+    border: none;
+}
+
+.gifts-list {
+    font-size: 0px;
+}
+
+
+
+ul.seBlogCategoryList, .card-body, .gifts-list img {
+    padding: 0px;
+}
+
+.post_image {
+    width: 60px;
+}
+
+.post_text.pl-3 {
+    color: #3398ff;
+}
