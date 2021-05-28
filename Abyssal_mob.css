@@ -958,6 +958,39 @@ div#comment_captcha {
 
 
 
+div#TB_window {
+    background: #0022aa;
+    border-radius: 0px;
+}
+
+div#TB_title,div#TB_ajaxContent {
+    padding: 0px;
+    border: none;
+    color: #3a62ff;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+div#TB_ajaxContent {
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+div#TB_window  input.button:hover {
+    background: #a11cb7;
+    color: #e655ff;
+}
+div#TB_window  input.button {
+    background: #0a30ca;
+    border: none;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    color: #4b6fff;
+}
+
+
+
 ::-webkit-scrollbar {
     width: 10px;
 }
