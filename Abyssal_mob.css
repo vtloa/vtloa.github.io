@@ -1,3 +1,7 @@
+.copyright {
+    display: none;
+}
+
 button.navbar-toggler:focus {
     outline: none;
 }
