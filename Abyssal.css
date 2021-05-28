@@ -441,6 +441,7 @@ a#comment_last_page_bottom {
 
 .post_container:after{
     content: 'blur';
+    color: transparent;
     position: absolute;
     top: 0px;
     left: 0px;
