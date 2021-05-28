@@ -496,3 +496,8 @@ img.photo {
     width: 20px;
     outline: 1px solid #0000f6;
 }
+
+div#bbcode {
+    text-align: left;
+    margin-top: 20px;
+}
