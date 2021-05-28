@@ -1,3 +1,14 @@
+.seBlogComments [valign="top"] .button {
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: unset !important;
+    padding-left: 2px !important;
+    height: 20px;
+    margin-left: 5px;
+}
+
+
 .card.mb-2.post_home {
     margin-top: 50px;
 }
