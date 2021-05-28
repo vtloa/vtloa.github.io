@@ -1,3 +1,14 @@
+img.img-thumbnail {
+    border: none;
+    padding: 0px;
+}
+
+div#postcomment_userphotos {
+    border: none;
+    padding: 0px;
+}
+
+
 textarea#comment_body::placeholder {
     color: #007eff63;
 }
