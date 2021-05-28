@@ -1,3 +1,29 @@
+[src="/images/verify.png"] {
+    background: #0033ff;
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+blockquote.blockquote {
+    background: #0022aa91;
+    border-left: 1px dotted #0056ff;
+    width: fit-content;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 14px !important;
+    margin: 0px !important;
+}
+
+.profile_comment_links a:hover {
+    color: #ff43cf !important;
+}
+
+.profile_comment_body a {
+    color: #e445ff !important;
+    font-size: 12px;
+}
+
 .post_image div {
     font-size: 0px !important;
 }
