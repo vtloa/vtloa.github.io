@@ -1,3 +1,11 @@
+.card.mb-2.post_home {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+}
+
 .gifts-list img {
     width: 40px;
     filter: drop-shadow(5px -1px 0px blue);
