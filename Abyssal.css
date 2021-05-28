@@ -194,6 +194,7 @@ a.copyright[onclick^="scrolltop()"] {
 div#designs {
     background: #0e1ced96;
     left: 0px;
+    width: 90px;
     width: fit-content;
     font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
     text-transform: uppercase;
