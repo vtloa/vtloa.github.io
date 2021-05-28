@@ -19,18 +19,7 @@ img.img-thumbnail {
 
 
 
-div#comment_error {
-    border: none;
-    text-align: center;
-    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
-    font-size: 60px;
-    position: fixed;
-    top: 0px;
-    z-index: 2222;
-    width: 100%;
-    left: 0px;
-    background: #0000e663;
-}
+
 
 img.img-thumbnail {
     border: none;
@@ -221,6 +210,18 @@ span#notify_total {
 @media screen and (max-width: 1024px){
 .additional_info.pl-3 a {padding-left: 10px;}
 .additional_info.pl-3 {display: flex;font-size: 13px !important;}
+
+div#comment_error {
+    border: none;
+    text-align: center;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 30px;
+    position: fixed;
+    top: 0px;
+    z-index: 2222;
+    width: 100%;
+    left: 0px;
+    background: #0000e663;}
 }
 
 button.btn.btn-outline-success.mr-1.mobile_button,
