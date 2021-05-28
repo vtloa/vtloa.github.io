@@ -1,3 +1,15 @@
+button.btn.btn-outline-success.mr-1.mobile_button,button.btn.btn-outline-success {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
 [href="./"]:after {
     content: 'Exit';
 }
