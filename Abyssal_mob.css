@@ -1,3 +1,7 @@
+textarea#comment_body::placeholder {
+    color: #007eff63;
+}
+
 .profile_postcomment {
     border: none !important;
 }
