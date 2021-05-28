@@ -1,3 +1,7 @@
+[src="/images/notify.svg"] {
+    filter: invert(1);
+}
+
 span#notify_total {
     background: transparent;
 }
