@@ -1,3 +1,8 @@
+img.img-thumbnail {
+    border: none;
+    padding: 0px;
+}
+
 .profile_postcomment {
     border: none !important;
 }
