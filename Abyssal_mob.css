@@ -1,3 +1,17 @@
+.comment_headline a {
+    font-size: 17px;
+}
+
+.comment_headline {
+    padding: 0px;
+    margin-top: 20px;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 17px;
+    color: #0e33ff;
+    border: none;
+}
+
+
 [src="/images/verify.png"] {
     background: #0033ff;
     width: 0px;
@@ -328,3 +342,38 @@ font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
 }
 
 @font-face { font-family: 'CyrBit';  src: local('CyrBit'), url('https://nomail.com.ua/files/woff/e0f6aef26259bb8a593fd9ae21df9c28.woff') format('woff'); }
+
+
+
+
+textarea#comment_body {
+    background: #0022aa !important;
+    color: #007eff !important;
+    font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+    border-radius: 3px;
+    transition: unset;
+}
+
+textarea#comment_body:focus {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: inset -2px 3px #001567;
+    transition: unset;
+}
+
+input#comment_submit {
+    margin: auto;
+    display: block;
+    background: #0022aa !important;
+    border-radius: 3px;
+    box-shadow: 3px 3px blue;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+input#comment_submit:focus {
+    box-shadow: 1px 1px blue;
+    transform: translateX(1px) translateY(1px);
+    background: #002ad4 !important;
+    outline: none;
+}
