@@ -1138,6 +1138,17 @@ outline: 1px solid #0000f6;
 
 
 
+input#comment_secure {
+    background: #00135d;
+    margin: 0px;
+    color: #2a54ff;
+}
+
+div#comment_captcha {
+    background: #0022aa;
+}
+
+
 ::-webkit-scrollbar {
     width: 10px;
 }
