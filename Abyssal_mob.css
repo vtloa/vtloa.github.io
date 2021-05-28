@@ -377,3 +377,108 @@ input#comment_submit:focus {
     background: #002ad4 !important;
     outline: none;
 }
+
+/*Оформление комментов*/
+
+[id^="comment_"] {
+    position: relative;
+}
+
+.profile_comment_body u:after /*медуза на башке*/{
+    content: 'U';
+    background: url(https://beon.vip/uploads_user/10000/9068/cb59690b81a44490070bc4456a269766.png) no-repeat center;
+    background-size: contain;
+    color: transparent;
+    position: absolute;
+    width: 60px;
+    height: 56px;
+    top: -13px;
+    left: -20px;
+    display: block;
+    z-index: 2223;
+    transform: rotateZ(
+-27deg
+);
+}
+
+div.profile_comment_body u {
+    font-size: 0px;
+}
+
+
+img.photo {
+    position: relative;
+    z-index: 22;
+}
+
+.profile_comment_body b {
+    background: url(https://beon.vip/uploads_user/10000/9068/f8f77b0bc459df8291341a274c5bf3c1.gif) bottom -20px right;
+    display: block;
+    width: 140px;
+    height: 137px;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    z-index: 333;
+    mix-blend-mode: screen;
+    box-shadow: inset -16px -20px 20px black;
+}
+
+
+.profile_comment_body i {
+    background: #ff72f5;
+    mix-blend-mode: overlay;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+}
+
+
+.profile_comment_body blockquote.blockquote u:after,
+.profile_comment_body blockquote.blockquote b,
+.profile_comment_body blockquote.blockquote i {
+    content: unset;
+    background: unset;
+}
+
+
+/*Иконки*/
+[src="/images/bbcode/u.gif"] {
+    background: url(https://beon.vip/uploads_user/10000/9068/cb59690b81a44490070bc4456a269766.png) no-repeat center;
+    background-size: contain;
+    background-color: #00008e;
+}
+
+[src="/images/bbcode/i.gif"] {
+    background: linear-gradient(46deg, #0000f6,#0000f6, #ff8cfe);
+}
+
+[src="/images/bbcode/b.gif"] {
+    background: url(https://beon.vip/uploads_user/10000/9068/f8f77b0bc459df8291341a274c5bf3c1.gif) center;
+    background-color: #000070;
+    background-blend-mode: exclusion;
+}
+
+
+[src="/images/bbcode/img.gif"] {
+    background: url(https://beon.vip/uploads_user/10000/9068/5fe0301f73dc23764ad0508c02704c2e.png) no-repeat center;
+    background-size: cover;
+}
+
+[src="/images/bbcode/smile.gif"] {
+    background: url(https://beon.vip/uploads_user/10000/9068/ee4bf23fb7dce5e745b213e2d78169c5.png) no-repeat center;
+    background-size: cover;
+}
+
+[src="/images/bbcode/u.gif"],
+[src="/images/bbcode/i.gif"],
+[src="/images/bbcode/b.gif"],
+[src="/images/bbcode/img.gif"],
+[src="/images/bbcode/smile.gif"] {
+    padding: 20px !important;
+    width: 20px;
+    outline: 1px solid #0000f6;
+}
