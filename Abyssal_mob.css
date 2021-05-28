@@ -4,7 +4,9 @@ textarea#comment_body::placeholder {
 
 .profile_postcomment {
     border: none !important;
+    padding: 0px !important;
 }
+
 
 
 button#newupdates:focus, button.button_down:focus, button.close:focus, textarea#comment_body:focus {
