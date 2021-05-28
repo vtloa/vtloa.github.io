@@ -1,3 +1,7 @@
+.updatesWrap a:hover {
+    color: #e966ff !important;
+}
+
 
 .userphoto_selected {
     position: relative;
