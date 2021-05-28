@@ -11,6 +11,12 @@
     padding-left: 5px;
 }
 
+.profile_comment_links a, a#comment_next_page_bottom, div#comment_subscribe, input#comment_submit, textarea#comment_body, input#comment_submit, a#comment_next_page_top, a#comment_last_page_top, a#comment_last_page_bottom {
+    border: none;
+    background: transparent;
+    margin-top: 0px;
+}
+
 
 
 font.disabled, a#comment_next_page_bottom, a#comment_next_page_top, a#comment_last_page_top, a#comment_last_page_bottom {
