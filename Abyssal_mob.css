@@ -1,3 +1,29 @@
+div#mobile_menu {
+    background: #0022aa;
+}
+
+div#mobile_photo {
+    margin-top: 50px;
+    font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px !important;
+}
+
+div#mobile_menu a {
+    background: transparent !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div#mobile_photo_wrap {
+    font-size: 0px;
+}
+
+
+
 div#designs {
     background: #0e1ced96;
     left: 0px;
@@ -870,9 +896,6 @@ outline: 1px solid #0000f6;
 
 
 ::-webkit-scrollbar {
-    background: linear-gradient(
--180deg
-, #00006b, #000033);
     width: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -880,6 +903,4 @@ outline: 1px solid #0000f6;
 }
 ::-webkit-scrollbar-track {
     background: #0022aa;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
