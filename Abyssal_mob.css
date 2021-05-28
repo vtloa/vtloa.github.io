@@ -30,6 +30,11 @@ div#mobile_menu a {
     padding: 5px !important;
 }
 
+div#mobile_menu a:hover {
+    background: #c30792 !important;
+    color: #ff8ae1 !important;
+}
+
 img.menu_icon2 {
     display: none;
 }
