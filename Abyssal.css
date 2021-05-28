@@ -1115,3 +1115,14 @@ div#bbcode [src^="/images/fffuuusmiles/"] {
 padding: 40px;
 outline: 1px solid #0000f6;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #9d8413;
+}
+::-webkit-scrollbar-track {
+    background: #5e0303;
+}
