@@ -468,6 +468,7 @@ a#comment_next_page_top,a#comment_next_page_bottom,a#comment_last_page_top,a#com
     background: #070603;
     border: none !important;
     outline: none !important;
+    color: #8a8a8a !important;
 }
 
 [src="/images/verify.png"] {
@@ -489,4 +490,9 @@ blockquote.blockquote {
 
 .post_text.pl-3 {
     padding-left: 5px !important;
+}
+
+div.profile_comment_body a {
+    color: #46443e;
+    border-bottom: 1px dashed#46443e;
 }
