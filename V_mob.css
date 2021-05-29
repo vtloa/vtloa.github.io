@@ -433,3 +433,19 @@ div#postcomment_userphotos {
     font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
     color: #303030 !important;
 }
+
+
+.result a {
+    color: #881010;
+}
+.result {
+    background: #00000061 !important;
+    border: none !important;
+    text-align: center !important;
+    text-transform: uppercase;
+    color: #9d9d9d;
+}
+
+.icon {
+    display: none;
+}
