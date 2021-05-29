@@ -12,6 +12,114 @@ body {
 }
 
 
+
+
+div#righthome {
+    background: linear-gradient(0deg, black, #6f6f6f), url(https://i.pinimg.com/originals/1c/11/1b/1c111ba32912cf9a8b096ec36e0cd115.jpg);
+    background-blend-mode: difference;
+    background-size: 250px;
+    box-shadow: 0 10px 15px 4px black;
+    padding: 0px;
+}
+
+h2.card-title {
+    text-align: center;
+    padding-left: 0px !important;
+    font-family: 'font129a060dd8496deac581e40a11b0130b';
+        background: linear-gradient( 45deg, transparent,#0000008f, transparent);
+    margin-bottom: 6px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    text-align: center;
+    background: linear-gradient( 
+45deg
+ , transparent,#0000008f, transparent);
+    color: #ff000040;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {
+    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+}
+
+.post_container {
+    padding: 20px;
+    border-top: 1px solid #0e0e0e;
+}
+
+.post_image img {
+    outline: 1px solid #0e0e0e;
+    box-shadow: 0 1px 6px #00000070;
+}
+
+img.photo {border: none;}
+
+
+h2.card-title a {color: #cb00008c !important;}
+
+a:hover {
+    color: #c30000 !important;
+    transition: 0.5s;
+    text-decoration: unset !important;
+    text-shadow: -5px 0px 1px #c30000, 5px 0px 1px #c30000, 0 5px 1px #c30000, 0 -5px 1px #c30000;
+    filter: blur(1px) contrast(37.5) brightness(37.5);
+}
+
+.additional_info.pl-3 {text-align: end;}
+
+h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';}
+
+.additional_info.pl-3, .additional_info.pl-3 a {color: #727272 !important;}
+
+.card.mb-2.post_home:first-child .post_container:before {
+    background: url(https://toppng.com/uploads/preview/mouth-blood-png-blood-splatter-11563101538u02d0idcmv.png) no-repeat top;
+    background-size: contain;
+    content: 'blood';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    display: block;
+    height: 100%;
+    mix-blend-mode: darken;
+    color: transparent;
+}
+
+.card.mb-2.post_home:first-child .post_image:before {
+    background: url(https://avatanplus.ru/files/resources/original/56f789b2a3261153b6f1e1ec.png) no-repeat top center;
+    content: 'blood 2';
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    left: 35px;
+    top: -38px;
+    display: block;
+    mix-blend-mode: hard-light;
+    height: 100%;
+    color: transparent;
+    filter: brightness(0.6);
+}
+
+.post {
+    color: #d2d2d2;
+    background: #212121a3;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date a {
+    color: #ff000040 !important;
+}
+
+
+
+
+
+
+
+
+
+
 @font-face {
 font-family: 'font716ce4032f2a16a947b3a4c07174d183';
     
@@ -54,107 +162,3 @@ font-family: 'font0cdbe18041dd82562a37cc888ff285a2';
 }
 
 @font-face { font-family: 'OgilvieCyr';  src: local('OgilvieCyr'), url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'); }
-
-
-div#righthome {
-    background: linear-gradient(
-0deg
-, black, #6f6f6f), url(https://i.pinimg.com/originals/1c/11/1b/1c111ba32912cf9a8b096ec36e0cd115.jpg);
-    background-blend-mode: difference;
-    background-size: 250px;
-    box-shadow: 0 10px 15px 4px black;
-    padding: 0px;
-}
-
-h2.card-title {
-    text-align: center;
-    padding-left: 0px !important;
-    font-family: 'font129a060dd8496deac581e40a11b0130b';
-        background: linear-gradient( 
-45deg
- , transparent,#0000008f, transparent);
-    margin-bottom: 6px;
-}
-
-h6.card-subtitle.mb-2.text-muted.post_date {
-    text-align: center;
-    background: linear-gradient( 
-45deg
- , transparent,#0000008f, transparent);
-    color: #ff000040;
-}
-h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {
-    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
-}
-
-.post_container {
-    padding: 20px;
-    border-top: 1px solid #0e0e0e;
-}
-
-.post_image img {
-    outline: 1px solid #0e0e0e;
-    box-shadow: 0 1px 6px #00000070;
-}
-
-img.photo {
-    border: none;
-}
-
-
-h2.card-title a {
-    color: #cb00008c !important;
-}
-a:hover {
-    color: #c30000 !important;
-    transition: 0.5s;
-    text-decoration: unset !important;
-    text-shadow: -5px 0px 1px #c30000, 5px 0px 1px #c30000, 0 5px 1px #c30000, 0 -5px 1px #c30000;
-    filter: blur(1px) contrast(37.5) brightness(37.5);
-}
-
-.additional_info.pl-3 {
-    text-align: end;
-}
-h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {
-    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
-}
-.additional_info.pl-3, .additional_info.pl-3 a {
-    color: #727272 !important;
-}
-
-.card.mb-2.post_home:first-child .post_container:before {
-    background: url(https://toppng.com/uploads/preview/mouth-blood-png-blood-splatter-11563101538u02d0idcmv.png) no-repeat top;
-    background-size: contain;
-    content: 'blood';
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    width: 300px;
-    display: block;
-    height: 100%;
-    mix-blend-mode: darken;
-    color: transparent;
-}
-
-.card.mb-2.post_home:first-child .post_image:before {
-    background: url(https://avatanplus.ru/files/resources/original/56f789b….png) no-repeat top center;
-    content: 'blood 2';
-    background-size: contain;
-    position: absolute;
-    width: 100%;
-    left: 35px;
-    top: -38px;
-    display: block;
-    mix-blend-mode: hard-light;
-    height: 100%;
-    color: transparent;
-    filter: brightness(0.6);
-}
-
-.post {
-    color: #d2d2d2;
-    background: #212121a3;
-    margin-top: 50px;
-    padding: 10px;
-}
