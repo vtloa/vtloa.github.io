@@ -13,6 +13,17 @@ body {
 
 
 @font-face {
+font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    
+    src:    url('https://nomail.com.ua/files/eot/716ce4032f2a16a947b3a4c07174d183.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/716ce4032f2a16a947b3a4c07174d183.woff2') format('woff2');
+}
+
+@font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff');
+
+
+@font-face {
 font-family: 'font129a060dd8496deac581e40a11b0130b';
     
     src:    url('https://nomail.com.ua/files/eot/129a060dd8496deac581e40a11b0130b.eot?#iefix') format('embedded-opentype'),
