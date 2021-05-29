@@ -816,6 +816,7 @@ img.photo {
     z-index: 333;
     mix-blend-mode: screen;
     box-shadow: inset -16px -20px 20px black;
+    font-size: 0px;
 }
 
 
