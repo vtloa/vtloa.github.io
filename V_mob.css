@@ -1,3 +1,48 @@
+@font-face {
+font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    
+    src:    url('https://nomail.com.ua/files/eot/716ce4032f2a16a947b3a4c07174d183.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/716ce4032f2a16a947b3a4c07174d183.woff2') format('woff2');
+}
+
+@font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff');
+
+
+@font-face {
+font-family: 'font129a060dd8496deac581e40a11b0130b';
+    
+    src:    url('https://nomail.com.ua/files/eot/129a060dd8496deac581e40a11b0130b.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/129a060dd8496deac581e40a11b0130b.woff2') format('woff2');
+}
+
+@font-face { font-family: 'DirtyEgoCyrillic';  src: local('DirtyEgoCyrillic'), url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'); }
+
+
+@font-face {
+font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+    
+    src:    url('https://nomail.com.ua/files/eot/1f0375b3f9f0b92cd97aecc702f8ce5e.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/1f0375b3f9f0b92cd97aecc702f8ce5e.woff2') format('woff2');
+}
+
+@font-face { font-family: 'DINNextCYR-Italic';  src: local('DINNextCYR-Italic'), url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'); }
+
+
+@font-face {
+font-family: 'font0cdbe18041dd82562a37cc888ff285a2';
+    
+    src:    url('https://nomail.com.ua/files/eot/0cdbe18041dd82562a37cc888ff285a2.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/0cdbe18041dd82562a37cc888ff285a2.woff2') format('woff2');
+}
+
+@font-face { font-family: 'OgilvieCyr';  src: local('OgilvieCyr'), url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'); }
+
+
+
 body {
     background: linear-gradient(
 0deg
@@ -96,59 +141,6 @@ h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumn
 h6.card-subtitle.mb-2.text-muted.post_date a {
     color: #ff000040 !important;
 }
-
-
-
-
-
-
-
-
-
-
-@font-face {
-font-family: 'font716ce4032f2a16a947b3a4c07174d183';
-    
-    src:    url('https://nomail.com.ua/files/eot/716ce4032f2a16a947b3a4c07174d183.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/716ce4032f2a16a947b3a4c07174d183.woff2') format('woff2');
-}
-
-@font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff');
-
-
-@font-face {
-font-family: 'font129a060dd8496deac581e40a11b0130b';
-    
-    src:    url('https://nomail.com.ua/files/eot/129a060dd8496deac581e40a11b0130b.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/129a060dd8496deac581e40a11b0130b.woff2') format('woff2');
-}
-
-@font-face { font-family: 'DirtyEgoCyrillic';  src: local('DirtyEgoCyrillic'), url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'); }
-
-
-@font-face {
-font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
-    
-    src:    url('https://nomail.com.ua/files/eot/1f0375b3f9f0b92cd97aecc702f8ce5e.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/1f0375b3f9f0b92cd97aecc702f8ce5e.woff2') format('woff2');
-}
-
-@font-face { font-family: 'DINNextCYR-Italic';  src: local('DINNextCYR-Italic'), url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'); }
-
-
-@font-face {
-font-family: 'font0cdbe18041dd82562a37cc888ff285a2';
-    
-    src:    url('https://nomail.com.ua/files/eot/0cdbe18041dd82562a37cc888ff285a2.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/0cdbe18041dd82562a37cc888ff285a2.woff2') format('woff2');
-}
-
-@font-face { font-family: 'OgilvieCyr';  src: local('OgilvieCyr'), url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'); }
-
 
 
 .bg-light a {
