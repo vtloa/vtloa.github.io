@@ -328,7 +328,7 @@ div#user_status {
     color: rgb(39, 38, 36) !important;
 }
 .profile_comment_links a, div#comment_subscribe {
-    border: none;
+    outline: none !important;
     background: transparent;
 }
 
@@ -392,4 +392,24 @@ div#bbcode img {
 
 div#designs {
     display: none !important;
+}
+
+
+.profile_comment_author {
+    margin-top: -4px;
+    margin-left: 5px;
+    padding: 0px 5px 0px 0px !important;
+}
+
+.commentEditLink, .commentDeleteLink, .commentReply {
+    font-family: font716ce4032f2a16a947b3a4c07174d183;
+    text-transform: uppercase;
+    width: 16px;
+    overflow: hidden;
+    display: block;
+    font-size: 14px;
+}
+
+div#postcomment_userphotos {
+    border: none;
 }
