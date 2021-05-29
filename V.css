@@ -812,3 +812,7 @@ button.btn.btn-secondary {
 .modal-body a {
     color: #9b9b9b !important;
 }
+
+.modal {
+    background: #000000b0 url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png) !important;
+}
