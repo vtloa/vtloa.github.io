@@ -785,3 +785,30 @@ blockquote.blockquote {
     background: transparent;
     margin-top: 0px !important;
 }
+
+
+.modal-content {
+    background-color: #212121;
+    background-image: url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png);
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
+button.btn.btn-secondary {
+    border: none;
+    background: #848484e3;
+    border-radius: 0px;
+    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    font-size: 11px;
+    color: #474747;
+}
+
+.modal-body a {
+    color: #9b9b9b !important;
+}
