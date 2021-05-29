@@ -43,7 +43,6 @@ h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumn
 }
 
 .post_container {
-    padding: 20px;
     border-top: 1px solid #0e0e0e;
 }
 
@@ -190,3 +189,7 @@ button.btn.btn-outline-success {
     font-family: 'font716ce4032f2a16a947b3a4c07174d183';
 }
 
+
+h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {
+    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+}
