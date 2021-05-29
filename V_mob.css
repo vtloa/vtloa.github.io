@@ -485,3 +485,8 @@ blockquote.blockquote {
     background: transparent;
     margin-top: 0px !important;
 }
+
+
+.post_text.pl-3 {
+    padding-left: 5px !important;
+}
