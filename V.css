@@ -750,3 +750,38 @@ div#comment_subscribe:hover:before {
     display: block;
     margin-top: -5px;
 }
+
+a.page-link {
+    background: #050404 !important;
+    color: #6b6b6b !important;
+    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+
+
+font.disabled {
+    color: #3e3c3a;
+}
+
+a#comment_next_page_top,a#comment_next_page_bottom {
+    background: #070603;
+    border: none !important;
+    outline: none !important;
+}
+
+[src="/images/verify.png"] {
+    filter: invert(1) contrast(3.5);
+    width: 11px;
+}
+
+blockquote.blockquote {
+    background: #1b1b19;
+    border-left: 2px solid #3c3c3c;
+}
+
+.profile_comment_links a, div#comment_subscribe {
+    outline: none !important;
+    background: transparent;
+    margin-top: 0px !important;
+}
