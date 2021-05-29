@@ -563,13 +563,21 @@ a:hover {
     width: 99% !important;
 }
 
-.content {
-    width: 99% !important;
+.content {width: 99% !important;}
+
+.top_menu {background: #0a0a0a;}
+    
+.top_menu {
+    position: absolute;
+    top: -16px;
+    width: 90%;
+    left: 8%;}
 }
 
-.top_menu {
-    background: #0a0a0a;
-}}
+td.top_menu {
+    padding: 0px;
+    margin-top: 10px;
+}
 
 
 @font-face {
