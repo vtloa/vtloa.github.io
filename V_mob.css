@@ -159,13 +159,15 @@ font-family: 'font716ce4032f2a16a947b3a4c07174d183';
 @font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff');
 
 
+    
+/*ШРИФТЫ*/
+    
 @font-face {
 font-family: 'font129a060dd8496deac581e40a11b0130b';
     
     src:    url('https://nomail.com.ua/files/eot/129a060dd8496deac581e40a11b0130b.eot?#iefix') format('embedded-opentype'),
             url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/129a060dd8496deac581e40a11b0130b.woff2') format('woff2');
-}
+            url('https://nomail.com.ua/files/woff2/129a060dd8496deac581e40a11b0130b.woff2') format('woff2');}
 
 @font-face { font-family: 'DirtyEgoCyrillic';  src: local('DirtyEgoCyrillic'), url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'); }
 
@@ -175,10 +177,6 @@ font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
     
     src:    url('https://nomail.com.ua/files/eot/1f0375b3f9f0b92cd97aecc702f8ce5e.eot?#iefix') format('embedded-opentype'),
             url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/1f0375b3f9f0b92cd97aecc702f8ce5e.woff2') format('woff2');
-}
+            url('https://nomail.com.ua/files/woff2/1f0375b3f9f0b92cd97aecc702f8ce5e.woff2') format('woff2');}
 
 @font-face { font-family: 'DINNextCYR-Italic';  src: local('DINNextCYR-Italic'), url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'); }
-
-
-
