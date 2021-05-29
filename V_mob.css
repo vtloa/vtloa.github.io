@@ -89,3 +89,61 @@ h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumn
 img.photo {
     border: none;
 }
+
+
+h2.card-title a {
+    color: #cb00008c !important;
+}
+a:hover {
+    color: #c30000 !important;
+    transition: 0.5s;
+    text-decoration: unset !important;
+    text-shadow: -5px 0px 1px #c30000, 5px 0px 1px #c30000, 0 5px 1px #c30000, 0 -5px 1px #c30000;
+    filter: blur(1px) contrast(37.5) brightness(37.5);
+}
+
+.additional_info.pl-3 {
+    text-align: end;
+}
+h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {
+    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+}
+.additional_info.pl-3, .additional_info.pl-3 a {
+    color: #727272 !important;
+}
+
+.card.mb-2.post_home:first-child .post_container:before {
+    background: url(https://toppng.com/uploads/preview/mouth-blood-png-blood-splatter-11563101538u02d0idcmv.png) no-repeat top;
+    background-size: contain;
+    content: 'blood';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    display: block;
+    height: 100%;
+    mix-blend-mode: darken;
+    color: transparent;
+}
+
+.card.mb-2.post_home:first-child .post_image:before {
+    background: url(https://avatanplus.ru/files/resources/original/56f789b….png) no-repeat top center;
+    content: 'blood 2';
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    left: 35px;
+    top: -38px;
+    display: block;
+    mix-blend-mode: hard-light;
+    height: 100%;
+    color: transparent;
+    filter: brightness(0.6);
+}
+
+.post {
+    color: #d2d2d2;
+    background: #212121a3;
+    margin-top: 50px;
+    padding: 10px;
+}
