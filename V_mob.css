@@ -59,6 +59,10 @@ h2.card-title {
     text-align: center;
     padding-left: 0px !important;
     font-family: 'font129a060dd8496deac581e40a11b0130b';
+        background: linear-gradient( 
+45deg
+ , transparent,#0000008f, transparent);
+    margin-bottom: 6px;
 }
 
 h6.card-subtitle.mb-2.text-muted.post_date {
