@@ -149,3 +149,36 @@ font-family: 'font0cdbe18041dd82562a37cc888ff285a2';
 }
 
 @font-face { font-family: 'OgilvieCyr';  src: local('OgilvieCyr'), url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'); }
+
+
+
+.bg-light a {
+    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    color: #8a8a8a !important;
+    font-size: 14px !important
+}
+
+button.btn.btn-outline-success.mr-1.mobile_button {
+    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    border: none;
+    background: transparent;
+    color: #8a8a8a;
+}
+
+button.navbar-toggler {
+    border: none;
+    filter: invert(1);
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+[href="./"]:before {
+    content: 'Z';
+    color: #5c5c5c;
+    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+    font-size: 20px;
+    display: block;
+    margin-top: -5px;
+}
