@@ -179,6 +179,35 @@ font-family: 'font716ce4032f2a16a947b3a4c07174d183';
             url('https://nomail.com.ua/files/woff2/716ce4032f2a16a947b3a4c07174d183.woff2') format('woff2');
 }
 
-@font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff');
+@font-face { font-family: 'BMstampCyr-Normal';  src: local('BMstampCyr-Normal'), url('https://nomail.com.ua/files/woff/716ce4032f2a16a947b3a4c07174d183.woff') format('woff');}
 
 
+
+.card-header {
+    display: none;
+}
+
+li.p-1 {
+    display: block;
+}
+
+input[type="text"] {
+    background: #121212;
+    border: none;
+    position: absolute;
+    width: 92%;
+    text-align: right;
+}
+
+
+.gifts-list {
+    font-size: 0px;
+}
+
+.gifts-list img {
+    width: 50px;
+}
+
+.gifts-list img {
+    filter: grayscale(1);
+}
