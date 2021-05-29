@@ -547,7 +547,8 @@ a:hover {
 }
 
 
-@media screen and (max-width: 1280px) {div#lefthome {
+@media screen and (max-width: 1280px) {
+    div#lefthome {
     position: unset;
     width: 100%;
 }
@@ -572,6 +573,10 @@ a:hover {
     top: -16px;
     width: 90%;
     left: 8%;}
+    
+.post_container,.seBlogComments {
+    padding: 5px !important;
+}
 }
 
 td.top_menu {
