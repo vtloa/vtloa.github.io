@@ -388,3 +388,8 @@ div#bbcode img {
     transition: all 0.3s ease 0s;
     filter: grayscale(1) contrast(1.5) brightness(0.6);
 }
+
+
+div#designs {
+    display: none !important;
+}
