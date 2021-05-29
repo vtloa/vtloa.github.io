@@ -177,12 +177,4 @@ font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
 @font-face { font-family: 'DINNextCYR-Italic';  src: local('DINNextCYR-Italic'), url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'); }
 
 
-@font-face {
-font-family: 'font0cdbe18041dd82562a37cc888ff285a2';
-    
-    src:    url('https://nomail.com.ua/files/eot/0cdbe18041dd82562a37cc888ff285a2.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/0cdbe18041dd82562a37cc888ff285a2.woff2') format('woff2');
-}
 
-@font-face { font-family: 'OgilvieCyr';  src: local('OgilvieCyr'), url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'); }
