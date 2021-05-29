@@ -413,3 +413,7 @@ div#designs {
 div#postcomment_userphotos {
     border: none;
 }
+
+.profile_postcomment {
+    padding: 0px !important;
+}
