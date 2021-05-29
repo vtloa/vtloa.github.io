@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(
+0deg
+, #000000f2, transparent),url(https://i.pinimg.com/originals/1c/11/1b/1c111ba32912cf9a8b096ec36e0cd115.jpg),url(https://i.pinimg.com/originals/c4/8f/ef/c48fef7c6ef173b10abdb45246aa42f6.png) no-repeat left bottom fixed;
+    background-size: auto,300px,cover;
+    background-blend-mode: multiply;
+}
+
+.bg-light {
+    background: #0a0a0a;
+    border: none;
+}
+
+
+@font-face {
+font-family: 'font129a060dd8496deac581e40a11b0130b';
+    
+    src:    url('https://nomail.com.ua/files/eot/129a060dd8496deac581e40a11b0130b.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/129a060dd8496deac581e40a11b0130b.woff2') format('woff2');
+}
+
+@font-face { font-family: 'DirtyEgoCyrillic';  src: local('DirtyEgoCyrillic'), url('https://nomail.com.ua/files/woff/129a060dd8496deac581e40a11b0130b.woff') format('woff'); }
+
+
+@font-face {
+font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+    
+    src:    url('https://nomail.com.ua/files/eot/1f0375b3f9f0b92cd97aecc702f8ce5e.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/1f0375b3f9f0b92cd97aecc702f8ce5e.woff2') format('woff2');
+}
+
+@font-face { font-family: 'DINNextCYR-Italic';  src: local('DINNextCYR-Italic'), url('https://nomail.com.ua/files/woff/1f0375b3f9f0b92cd97aecc702f8ce5e.woff') format('woff'); }
+
+
+@font-face {
+font-family: 'font0cdbe18041dd82562a37cc888ff285a2';
+    
+    src:    url('https://nomail.com.ua/files/eot/0cdbe18041dd82562a37cc888ff285a2.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/0cdbe18041dd82562a37cc888ff285a2.woff2') format('woff2');
+}
+
+@font-face { font-family: 'OgilvieCyr';  src: local('OgilvieCyr'), url('https://nomail.com.ua/files/woff/0cdbe18041dd82562a37cc888ff285a2.woff') format('woff'); }
+
+
+div#righthome {
+    background: linear-gradient(
+0deg
+, black, #6f6f6f), url(https://i.pinimg.com/originals/1c/11/1b/1c111ba32912cf9a8b096ec36e0cd115.jpg);
+    background-blend-mode: difference;
+    background-size: 250px;
+    box-shadow: 0 10px 15px 4px black;
+    padding: 0px;
+}
+
+h2.card-title {
+    text-align: center;
+    padding-left: 0px !important;
+    font-family: 'font129a060dd8496deac581e40a11b0130b';
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    text-align: center;
+    background: linear-gradient( 
+45deg
+ , transparent,#0000008f, transparent);
+    color: #ff000040;
+}
+h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumnRightPadding {
+    font-family: 'font1f0375b3f9f0b92cd97aecc702f8ce5e';
+}
+
+.post_container {
+    padding: 20px;
+    border-top: 1px solid #0e0e0e;
+}
+
+.post_image img {
+    outline: 1px solid #0e0e0e;
+    box-shadow: 0 1px 6px #00000070;
+}
+
+img.photo {
+    border: none;
+}
