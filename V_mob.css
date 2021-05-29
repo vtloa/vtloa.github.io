@@ -417,3 +417,15 @@ div#postcomment_userphotos {
 .profile_postcomment {
     padding: 0px !important;
 }
+
+
+.profile_comment_links {
+    font-size: 0px;
+    width: 55px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: none;
+}
