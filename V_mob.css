@@ -85,20 +85,7 @@ h6.card-subtitle.mb-2.text-muted.post_date, .additional_info.pl-3, .seBlogColumn
     color: transparent;
 }
 
-.card.mb-2.post_home:first-child .post_image:before {
-    background: url(https://avatanplus.ru/files/resources/original/56f789b2a3261153b6f1e1ec.png) no-repeat top center;
-    content: 'blood 2';
-    background-size: contain;
-    position: absolute;
-    width: 100%;
-    left: 35px;
-    top: -38px;
-    display: block;
-    mix-blend-mode: hard-light;
-    height: 100%;
-    color: transparent;
-    filter: brightness(0.6);
-}
+
 
 .post {
     color: #d2d2d2;
