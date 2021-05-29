@@ -182,3 +182,11 @@ button.navbar-toggler {
     display: block;
     margin-top: -5px;
 }
+
+button.btn.btn-outline-success {
+    background: transparent;
+    border: none;
+    color: #8a8a8a;
+    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
+}
+
