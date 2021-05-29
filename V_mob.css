@@ -38,6 +38,7 @@ body {
 .bg-light {
     background: #0a0a0a;
     border: none;
+    box-shadow: 0 3px 11px #0a0a0a;
 }
 
 
