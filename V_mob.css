@@ -276,3 +276,115 @@ div#mobile_menu button.btn.btn-primary {
 ::-webkit-scrollbar-track {
     background: #0a0a0a;
 }
+
+
+
+
+.seBlogComments {
+    background: #040300f0;
+    padding: 20px;
+}
+
+.seBlogComments [valign="top"] a {
+    color: #2c2b2a !important;
+}
+
+[id^="comment_"] {
+    outline: rgb(25, 25, 25) solid 1px;
+    margin-top: 20px;
+    position: relative;
+    background: rgba(155, 155, 155, 0.06);
+}
+
+.profile_comment_date {
+    background: linear-gradient(
+45deg
+, rgb(49, 48, 47), transparent);
+    border-bottom: 1px solid rgb(43, 42, 41);
+    color: rgb(2, 1, 1) !important;
+    font-size: 10px !important;
+    padding: 0px !important;
+    text-align: left !important;
+}
+
+div#user_status {
+    margin: auto;
+    color: rgb(16, 15, 12);
+    background: rgb(44, 43, 41);
+    outline: rgb(44, 43, 42) solid 1px;
+}
+
+.profile_comment_author a {
+    color: rgb(0, 0, 0) !important;
+}
+
+.profile_comment_body {
+    color: rgb(199, 199, 199);
+    max-width: 100% !important;
+}
+
+.profile_comment_links a {
+    outline: 0px;
+    color: rgb(39, 38, 36) !important;
+}
+.profile_comment_links a, div#comment_subscribe {
+    border: none;
+    background: transparent;
+}
+
+.comment_headline {
+    padding: 0px;
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 0px;
+    color: rgb(36, 36, 34);
+    font-family: font1f0375b3f9f0b92cd97aecc702f8ce5e;
+    border: none;
+}
+
+.comment_headline a {
+    color: rgb(44, 43, 41) !important;
+}
+
+textarea#comment_body {
+    background: rgba(40, 40, 40, 0.17);
+    border: 1px solid rgb(25, 24, 21);
+    border-radius: 0px;
+    outline: 0px;
+    color: rgb(188, 188, 188) !important;
+}
+
+input#comment_submit {
+    margin: auto;
+    display: block;
+    background: rgb(16, 15, 12);
+    border: none;
+    box-shadow: rgb(9 7 1) 4px 4px;
+    color: rgb(44, 43, 42);
+    text-transform: uppercase;
+    font-family: font716ce4032f2a16a947b3a4c07174d183;
+    width: 145px;
+    outline: rgb(41, 40, 38) solid 1px;
+}
+
+img.img-thumbnail {
+    width: 100px;
+    border-radius: 0px;
+    border: 1px solid rgb(47, 46, 44);
+    filter: grayscale(0.7) brightness(0.6);
+    transition: all 0.3s ease 0s;
+    background: rgb(30, 29, 26);
+}
+
+img.img-thumbnail:hover {
+    filter: none;
+}
+
+div#bbcode {
+    text-align: left;
+}
+
+div#bbcode img {
+    transition: all 0.3s ease 0s;
+    filter: grayscale(1) contrast(1.5) brightness(0.6);
+}
