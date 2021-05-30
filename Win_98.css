@@ -1,0 +1,403 @@
+html {overflow: hidden;}
+p {color: #c80001 !important;}
+a, div, p {font-family: monospace !important;}
+
+* {cursor: url(http://cur.cursors-4u.net/nature/nat-2/nat116.cur), auto !important;}
+
+
+input#comment_secure {width: 100px !important;}
+
+div.profile_comment_body img {max-width: 100% !important;}
+
+
+ul.pagination.justify-content-end.float-right {
+    position: fixed !important;
+    right: 0px;
+    top: 0px;
+    z-index: 44444444;}
+
+a.page-link {background: transparent; color: #ffdf1c;}
+
+[onmouseover="showMenu('menu_dropdown_profile');"] {
+    position: fixed !important;
+    left: 0px;
+    background-color: #b9a06a;}
+
+div#menu_dropdown_profile {
+    position: fixed !important;
+    left: 0px;
+    padding-left: 60px;
+    width: 300px;
+    height: 400px;}
+
+
+div#menu_dropdown_profile:before {
+    content: ' Windows98';
+    white-space: pre-wrap;
+    color: #fff !important;
+    font-size: 20px !important;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    background-color: #776b47;
+    position: absolute !important;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+
+a:hover,
+div.menu_item_dropdown a:hover,
+a.menu_item:hover,
+a.top_menu_item:hover {
+    background-color: #ffffff66 !important;
+    outline: 2px inset #e0e0e0 !important;
+    text-decoration: none !important;}
+
+
+div.menu_item_dropdown a, a.menu_item,a.top_menu_item { padding: 3px !important;}
+
+
+
+[style="margin-left: auto; margin-right: auto;"] {background-color: #dddddd;}
+
+.text-muted {
+    background-color: #d9d9d9;
+    border: 2px outset #ffffff;}
+
+.post_text.pl-3 {
+    padding: 10px !important;
+    border-right: 2px outset #ffffff !important;
+    background: url(https://beon.vip/uploads_user/2000/1287/d0267ca8c52af7d5f0f149e44b1edd1b.jpeg) !important;
+    background-color: #ffffff12 !important;}
+
+
+
+.mb-2, .my-2 {margin-bottom: 0px !important;}
+
+.card-title {margin-bottom: 5px !important;}
+
+.post_image {padding: 7px !important;}
+
+.additional_info.pl-3,.post_image {
+    background-color: #c6c6c6 !important;
+    border: 2px outset !important;}
+
+input#comment_submit:focus,.comment_area:focus {
+    border-radius: 0px !important;
+    background-color: #dadada !important;
+    border: 3px inset #fff !important;}
+
+input#comment_submit {border: 3px outset #fff !important;}
+
+div#postcomment_userphotos {border: 2px solid #fff;}
+
+.comment_headline {
+    background-color: #979b9b;
+    padding: 5px !important;
+    border-radius: 0px !important;
+    border: 2px outset #fff !important;}
+
+img.photo,.post_image img {
+    border: none !important;
+    background-color: #b4bcbf;}
+
+.profile_comment_body,.profile_postcomment,.comment_area {
+    color: #000000 !important;
+    background-color: #c6c6c6 !important;
+    border: 2px inset #ffffff;}
+
+.profile_comment_date {
+    background-color: #d9d9d9;
+    border: 2px inset #ffffff;
+    padding: 3px !important;}
+
+.profile_comment_author a, #comment_user_status  {
+    color: #000 !important;
+    font-size: 12px;}
+
+
+
+div[id^="comment_"] {
+    border: 2px outset #ffffff;
+    margin-top: 20px;
+    background-size: 30%;
+    padding-right: 5px;
+    background-color: #c6c6c6;}
+
+
+div#comment_subscribe {
+    background: transparent !important;
+    border: none !important;
+    margin: 0px !important;}
+
+div#comment_user_status,[style="font-size: 11px; color: #333333; word-break: break-word; width: 100px; text-align: center;"] {
+    margin-top: 0px !important;
+    background-color: #b4bcbf;
+    border: 2px outset #fbfbfb !important;
+    margin: auto;
+    margin-bottom: 10px;}
+
+div.profile_comment_links {
+    font-size: 9px !important;
+    color: red;}
+
+
+
+
+button.btn.btn-primary {
+    position: absolute !important;
+    bottom: 70px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(https://beon.vip/uploads_user/2000/1287/dc4497b407870d8f4396dfa1ad9ade76.png) no-repeat;
+    background-size: contain;
+    border: none;
+    font-size: 0px;}
+
+
+
+.text-muted,.text-muted a,.additional_info.pl-3,.additional_info.pl-3 a {
+    font-size: 12px !important;
+    color: #af0000 !important;}
+
+h2.card-title a {width: 100%;
+    display: block !important;
+    color: #c80001;
+    font-size: 24px !important;
+    border-bottom: 2px solid;}
+
+
+
+.card.mb-2.post_home {margin-top: 30px !important;}
+
+div#lefthome {
+    width: 25% !important;
+    background-color: #c6c6c680;
+    bottom: 0px;
+    border: 2px outset;
+    border-left: 1px outset;
+    padding-top: 80px !important;
+}
+
+
+
+#content_flex::after {
+    content: 'Файл    Правка    Вид    Избранное    Сервис    Справка';
+    white-space: pre-wrap;
+    position: fixed !important;
+    background-color: #BDBDBD;
+    top: 22px;
+    width: 49.4% !important;
+    left: 0px;
+    color: #000000;
+    border: 2px inset #d7d7d7 !important;
+    padding-left: 60px;
+    text-decoration: overline;}
+
+
+
+
+
+h2.card-title {
+    border: 2px outset !important;
+    background: url(https://beon.vip/uploads_user/2000/1287/de3e8fac0b22fbc68c645bdf87b0b01c.gif) !important;
+    background-size: 10%;
+}
+
+.seBlogColumnLeft {padding-top: 60px !important;}
+
+
+
+.seBlogColumnLeft:before { display: none;
+    content: 'https://beon.vip/blog/ - Microsoft Internet Explorer ';
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    width: 49.4% !important;
+    color: transparent;
+    padding-left: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: cursive;}
+
+.seBlogColumnLeft:after {
+    content: 'https://beon.vip/blog/';
+    position: fixed  !important;
+    background-color: #fafafa;
+    top: 0px;
+    width: 49.4% !important;
+    left: 0px;
+    color: transparent;
+    text-decoration: underline;
+    border: 2px inset #d7d7d7 !important;
+    padding-left: 5px;}
+
+[style="margin-bottom: 20px;"] {
+    position: fixed !important;
+    background-color: #BDBDBD;
+    width: 49.4% !important;
+    top: 42px;
+    left: 0px;
+    border: 2px inset #d7d7d7 !important;
+    padding-left: 5px;
+}
+
+[style="margin-bottom: 20px;"] a {
+    color: #000 !important;
+    font-weight: 400;}
+
+
+
+body {
+    background: url(https://beon.vip/uploads_user/2000/1948/21d679de80c2b1214b990b54703fcb18.gif) no-repeat 20px 60px, url(https://cs8.pikabu.ru/post_img/big/2018/06/28/9/1530200989263898925.jpg) repeat bottom fixed;
+    background-size: auto;
+}
+
+
+div.menu_dropdown   {  border: 2px outset #ad996e !important;
+                                       background-color: #B9A06A !important; 
+                                       position: absolute; bottom: 28px;
+                                       border-radius: 0px !important; 
+                                       margin: 0px !important;}
+
+a.menu_item { background-color: transparent !important;}
+
+a.top_menu_item { height: 30px; 
+                               width: 120px; 
+                               display: block !important;}
+
+
+a.top_menu_item { 
+    font-size: 14px !important;
+    color: #000 !important;
+    font-weight: 500 !important;}
+
+
+.top_menu {
+    bottom: 0px !important;
+    background-color: #B9A06A;
+    left: 0px;
+    padding-left: 50%!important;
+    border-top: 2px solid #cdc1a3;
+    height: 30px;
+    padding-top: 0px !important;
+    position: fixed;
+    width: 100%;
+    border-left: 2px outset;}
+
+
+
+.post_container .post_text img {max-width: 100% !important;}
+
+.top_menu_link {padding: 0px !important; padding-left: 10px !important;}
+.card-body,.seBlogColumnRightPadding {padding: 0px !important;}
+.card {border: none !important;}
+li.p-1 {display: block !important;}
+.blog_leftphoto,.top_header img, 
+.card-header,
+.card.blog_gifts, 
+.copyright,
+.card.blog_categories {display: none !important;}
+
+a.top_menu_item {
+    outline: 2px outset #cdc1a3 !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+
+
+.top_header {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+
+
+div#designs {
+    background-color: #803838;
+    height: 30px !important;
+    width: 115px;
+    border: 2px outset;
+    position: fixed;
+    font-size: 20px;
+    padding-left: 5px;
+    color: #ffffff !important;
+}
+
+button.button_down {
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 23px;
+    height: 23px;
+    border-radius: 0px !important;
+   background: url(https://beon.vip/uploads_user/2000/1948/a3a32d7cab050ab2c2f9b52bbd608c6a.jpg);}
+
+button.button_down:focus {
+    width: 30%;
+    height: 60%;}
+
+[href="./"]:before {
+    content: 'https://World.net';
+    position: absolute !important;
+    color: #0056f0;
+    left: 30px;
+    top: 2px;
+}
+
+
+
+
+[src^="https://www.youtube.com/embed/"] {
+    width: 50% !important;
+    height: 110% !important;
+    max-width: 100% !important;
+    max-height: 104% !important;
+    position: fixed !important;
+    right: 0px;
+    bottom: 30px;}
+
+
+#content_flex {
+    border: 2px outset #b9a06a;
+    width: 50% !important;
+    background-color: #000;
+    background: #000 url(https://beon.vip/uploads_user/2000/1287/7be44b650f2619b1d166f3f836b7b6a4.jpg) no-repeat bottom;
+    background-size: 130%;
+    background-position: -1px;
+    position: fixed !important;
+    left: 0px;
+    top: 0px;
+    bottom: 30px;
+    overflow-y: scroll;
+}
+
+input[type="text"] {
+    width: 100% !important;
+    position: absolute !important;
+}
+
+span#notify_total {
+    position: fixed !important;
+    right: 52%;
+    top: 4px;
+}
+
+::-webkit-scrollbar {
+width: 15px;
+position: fixed;
+right: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #999999;
+border: 2px outset #ededed;
+}
+
+::-webkit-scrollbar-track {
+background-color: #f1f1f1;
+} 
