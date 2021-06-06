@@ -1,0 +1,43 @@
+.content,.post-row {padding: 10px; }
+
+.left-menu-text {
+    display: none;
+}
+
+.left-menu {
+    border: none !important;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.comment-row {
+    padding-top: 10px;
+}
+
+span.post-title-date {
+    padding: 0px;
+}
+
+.post-opt {
+    text-align: right;
+}
+
+nav.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+main.py-4 {
+    margin-top: 70px;
+}
+
+.comment-text {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
