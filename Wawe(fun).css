@@ -735,9 +735,7 @@ div.left-menu {
     height: auto;
 }
 
-h3.left-menu-text {
-    display: none;
-}
+
 .bg-white:before {
     display: none;
 }
@@ -792,6 +790,21 @@ div#app {
     margin-left: 5px;
 }
 
+.mobile_open_menu h3.left-menu-text {
+    padding: 0px;
+    font-size: 17px !important;
+    border: none;
+}
+
+
+.left-menu {
+    max-height: 1400px;
+}
+
+.blog__read-me,.blog__iread,.blog__last-comments {
+    text-align: center;
+}
+
 }
 
 
@@ -836,4 +849,8 @@ div#app {
     font-size: 12px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.left-menu .sign {
+    display: none !important;
 }
