@@ -311,11 +311,6 @@ p.quotation {
     border: 1px solid;
     margin: 0px;
     font-size: 10px;
-    position: absolute;
-    top: 4px;
-    height: 20px;
-    overflow: hidden;
-    width: fit-content;
 }
 
 
