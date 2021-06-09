@@ -854,3 +854,9 @@ div#app {
 .left-menu .sign {
     display: none !important;
 }
+
+
+.mobile_open_menu .left-menu-text {
+    margin-top: 10px !important;
+    margin-top: 30px !important;
+}
