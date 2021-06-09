@@ -782,3 +782,24 @@ p.quotation {
 }
 
 }
+
+
+
+/*FIX*/
+
+
+.left-menu__user-notification {
+    margin-top: 30px !important;
+    padding-left: 5px;
+    color: #d6d6d6;
+    font-size: 13px;
+}
+
+
+.left-menu__user-notification.left-menu__unread-message input[type="submit"] {
+    background: #ba582c;
+    border-color: #e4c43d;
+    font-family: 'font9b39cc740f63195a04bbfa188cea2f4b';
+    font-size: 12px;
+    color: #e4c43d;
+}
