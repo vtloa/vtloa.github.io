@@ -759,8 +759,8 @@ a.post-title {
     font-size: 16px !important;
 }
 .comment-row {
-    padding: 0px;
-    padding-top: 30px;
+    padding: 5px;
+    padding-top: 35px;
 }
 
 p.quotation {
@@ -839,9 +839,6 @@ div#app {
 }
 
 
-.tag_bar b,.tag_bar span,.tag_bar i {
-    font-size: 14px;
-}
 
 
 .form__show-avatars {
