@@ -783,6 +783,10 @@ p.quotation {
 div#app {
     padding: 5px;
 }
+    
+[href$="unsubscribe"] {
+    margin-top: 15px;
+}
 
 }
 
