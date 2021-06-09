@@ -775,6 +775,14 @@ p.quotation {
 .post-content {
     margin-bottom: 10px !important;
 }
+    
+.left-menu {
+    width: 100%;
+}
+
+div#app {
+    padding: 5px;
+}
 
 }
 
