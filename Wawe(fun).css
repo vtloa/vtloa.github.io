@@ -787,6 +787,10 @@ div#app {
 [href$="unsubscribe"] {
     margin-top: 15px;
 }
+    
+.sign {
+    margin-left: 5px;
+}
 
 }
 
