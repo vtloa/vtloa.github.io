@@ -308,7 +308,7 @@ form#messageform {
 p.quotation {
     background: #c3682fbd;
     padding: 1px;
-    border: 1px solid;
+    border: none;
     margin: 0px;
     font-size: 10px;
 }
