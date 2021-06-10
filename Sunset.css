@@ -698,3 +698,15 @@ ul.menu__box {
     background: #040404;
 }
 
+
+.form__show-avatars {
+    background: #030303;
+    border: 2px outset #ff6b47;
+    font-family: 'font5e11c36363b334ddc7352a19a73bb52b';
+    font-size: 12px;
+    color: #ff6b47;
+    transition: 0.2s;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
