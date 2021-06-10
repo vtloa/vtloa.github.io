@@ -914,3 +914,15 @@ div#app {
 .modal-body [href="/p/photo-library"] {
     color: white;
 }
+
+
+.textareabg span {
+    color: #e4c43d;
+    font-family: 'font9b39cc740f63195a04bbfa188cea2f4b';
+}
+
+.textareabg a.messageform__taglinks {
+    color: #d32084;
+    font-family: 'font584777f81b8bbff294b18d2d3bc63ac2';
+    font-size: 13px;
+}
