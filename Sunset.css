@@ -588,6 +588,9 @@ main.py-4 {
     color: black !important;
     font-size: 15px;
 }
+.comment-row {
+    padding: 0px;
+}
 }
 
 
