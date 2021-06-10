@@ -577,7 +577,7 @@ font-family: 'font9b39cc740f63195a04bbfa188cea2f4b';
 main.py-4 {
     width: 99%;
 }
-.post-content {
+.post-content,.comment-box,.textareabg {
     padding: 5px;
 }}
 
