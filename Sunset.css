@@ -594,3 +594,73 @@ main.py-4 {
 ::-webkit-scrollbar-track {
     background: transparent;
 }
+
+
+
+/*---FIX---*/
+
+
+.col-md-4 {
+    padding: 0px;
+}
+
+.container-fluid p, .container-fluid.mt-5,.textareabg p {
+    margin: 0px !important;
+    font-family: 'font5e11c36363b334ddc7352a19a73bb52b';
+    color: #040404;
+    font-size: 12px;
+}
+
+.textareabg label {
+    font-family: 'font5e11c36363b334ddc7352a19a73bb52b';
+    font-size: 12px;
+}
+
+a.messageform__taglinks {
+    font-family: 'font5e11c36363b334ddc7352a19a73bb52b';
+    color: #ff6b47;
+}
+
+input[type="checkbox"] {
+    filter: invert(1);
+}
+
+.col-md-4 select {
+    color: #ff6b47;
+}
+
+.blog__read-me,
+.blog__iread,
+.blog__last-comments {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+h3.left-menu-text {
+    margin-bottom: 0px;
+}
+
+.text-center {
+    padding: 10px;
+}
+
+.textareabg input[type="submit"] {
+    margin-top: 5px;
+    background: #030303;
+    border: 2px outset #ff6b47;
+    font-family: 'font5e11c36363b334ddc7352a19a73bb52b';
+    font-size: 12px;
+    color: #ff6b47;
+    transition: 0.2s;
+}
+
+.textareabg input[type="submit"]:hover {
+    background: #ff6b47;
+    color: #000001;
+    transition: 0.2s;
+}
+
+.avatar-select-label {
+    border: 4px solid #ff592f;
+    margin-bottom: 5px;
+}
