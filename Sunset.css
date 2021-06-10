@@ -591,6 +591,10 @@ main.py-4 {
 .comment-row {
     padding: 0px;
 }
+
+.crumbs {
+    width: 100% !important;
+}
 }
 
 
