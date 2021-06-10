@@ -710,3 +710,7 @@ ul.menu__box {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+span[data-deletelink$="delete"] {
+    font-size: 10px;
+}
