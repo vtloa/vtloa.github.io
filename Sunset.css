@@ -687,3 +687,7 @@ label.menu__btn {
 ul.menu__box {
     background: #040404;
 }
+
+textarea {
+    min-width: 100%;
+}
