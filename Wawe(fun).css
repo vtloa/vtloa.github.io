@@ -861,3 +861,56 @@ div#app {
     margin-top: 10px !important;
     margin-top: 30px !important;
 }
+
+
+
+.modal-content {
+    background: #ba582c;
+    color: #e4c43d;
+    border: 1px solid;
+    border-radius: 0px;
+}
+
+.modal-header,.modal-footer {
+    border: none;
+}
+
+.modal-body [onclick^="event.preventDefault"] {
+    background: #de794c;
+    color: #e4c43d;
+    border: 1px solid;
+    font-family: 'font9b39cc740f63195a04bbfa188cea2f4b';
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    box-shadow: -2px 2px 3px #8e4220;
+}
+
+.modal-body div {
+    margin-bottom: 10px;
+    font-family: 'font9b39cc740f63195a04bbfa188cea2f4b';
+    font-size: 13px;
+    text-align: center;
+}
+
+.modal-content button.btn.btn-secondary,
+.modal-content button.btn.btn-primary {
+    background: #de794c;
+    color: #e4c43d;
+    border: 1px solid;
+    font-family: 'font9b39cc740f63195a04bbfa188cea2f4b';
+    box-shadow: -2px 2px 3px #8e4220;
+    border-radius: 0px;
+}
+
+
+.modal-content button.btn.btn-secondary:focus,
+.modal-content button.btn.btn-primary:focus {
+    background: transparent !important;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+
+.modal-body [href="/p/photo-library"] {
+    color: white;
+}
