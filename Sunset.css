@@ -584,6 +584,10 @@ main.py-4 {
     padding-left: 5px;
     padding-right: 5px;
 }
+.container [href="#footer"] {
+    color: black !important;
+    font-size: 15px;
+}
 }
 
 
@@ -676,10 +680,6 @@ label.menu__btn {
     filter: contrast(5.5);
 }
 
-.container [href="#footer"] {
-    color: black !important;
-    font-size: 15px;
-}
 
 ul.menu__box {
     background: #040404;
