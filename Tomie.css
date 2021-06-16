@@ -871,7 +871,7 @@ form#messageform {
     padding-right: 5px;
 }
     
-.post-title {
+a.post-title {
     min-width: max-content !important;
 }
 }
