@@ -872,7 +872,7 @@ form#messageform {
 }
     
 .post-title {
-    min-width: max-content;
+    min-width: max-content !important;
 }
 }
 
