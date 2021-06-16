@@ -870,4 +870,16 @@ form#messageform {
     padding-left: 5px;
     padding-right: 5px;
 }
+    
+.post-title {
+    min-width: max-content;
 }
+}
+
+
+/*--FIX--*/
+
+.datebg {
+    width: max-content;
+}
+
