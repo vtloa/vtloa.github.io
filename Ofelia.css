@@ -1222,7 +1222,12 @@ a#comment_last_page_top {
 
  
 
-.fl_l {max-width: 70px !important; max-height: 70px !important;}
+.fl_l {
+    max-width: 70px !important;
+    max-height: 70px !important; 
+    max-width: 70px;
+    max-height: 70px;
+}
 
 #fffuuusmiles img {width: 100px; max-height: 100px;}
 
