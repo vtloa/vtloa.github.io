@@ -1,3 +1,7 @@
+.comment-text a {
+    color: #c8726f;
+}
+
 .avatar-select-label-selected {
     border: 4px solid #d64848;
 }
