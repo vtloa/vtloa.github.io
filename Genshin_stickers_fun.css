@@ -1,0 +1,387 @@
+[onclick="addKlbk('smile3')"] {
+    display: none !important;
+}
+
+/*
+span.emj-dropdown {
+    padding: 0px;
+}
+*/
+
+span.emj-dropdown [src="//beon.fun/i/smiles/kolobok/smile3.gif"] {
+    background: url(https://beon.vip/uploads_image/ea/62/ea62084fdabe3f75b4df19b5ad06cd43.jpg) no-repeat center;
+    background-size: contain;
+    padding: 16px;
+    width: 0px;
+}
+
+.emj-dropdown-content {
+    width: 400px !important;
+    height: 260px;
+    padding: 5px;
+    overflow: auto;
+}
+
+
+.comment-text [src^="//beon.fun/i/smiles/kolobok/"] {
+    background-size: contain;
+    padding: 100px;
+    width: 0px;
+}
+
+.emj-dropdown-content [src^="//beon.fun/i/smiles/kolobok/"] {
+    padding: 35px;
+    width: 0px;
+    background-size: cover;
+}
+
+
+.emj-dropdown-content a {
+    padding: 0px;
+}
+
+[src="//beon.fun/i/smiles/kolobok/acute.gif"] {background: url(https://beon.vip/uploads_image/86/1a/861ac1afd578f21ca511594c8d524e29.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/cray2.gif"] {background: url(https://beon.vip/uploads_image/fe/d3/fed38636ca3089858993b5dde0e59f22.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/ok.gif"] {background: url(https://beon.vip/uploads_image/e4/98/e498ace29d3ac50ff6a13992606a31da.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/aggressive.gif"] {background: url(https://beon.vip/uploads_image/4c/37/4c37b1da7aa5f4d8f13169f9ce8f748f.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/agree.gif"] {background: url(https://beon.vip/uploads_image/75/2b/752b1c8b06147d45b27da85a7851d02b.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/crazy.gif"] {background: url(https://beon.vip/uploads_image/aa/57/aa5772e15ccc1c4fd93cd1228fc8fc40.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/beee.gif"] {background: url(https://beon.vip/uploads_image/98/b3/98b39bca6ac74c427fb36607b9838172.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/gamer1.gif"] {background: url(https://beon.vip/uploads_image/5e/1e/5e1e35038df2db42144f02feee986759.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/boast.gif"] {background: url(https://beon.vip/uploads_image/2f/5c/2f5c121501c5aac964789973f707b8e0.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/bb.gif"] {background: url(https://beon.vip/uploads_image/77/81/7781f647f42b701fc8b3bbb994b3c814.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/boredom.gif"] {background: url(https://beon.vip/uploads_image/01/fb/01fb4cce12d2ac2f935f29526758d077.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/buba.gif"] {background: url(https://beon.vip/uploads_image/a9/1e/a91efe4aece6f7ca451644e102af6fb1.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/clapping.gif"] {background: url(https://beon.vip/uploads_image/65/d5/65d59d44a86745ae1528ba52247a2b0c.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/fool.gif"] {background: url(https://beon.vip/uploads_image/ee/7f/ee7ff29dbdad4f1b5e943f8f06c6aed8.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dance.gif"] {background: url(https://beon.vip/uploads_image/28/45/2845a12b84a9d48daa624853f9f5dba6.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/declare.gif"] {background: url(https://beon.vip/uploads_image/5a/4e/5a4e5bfc284b7cb6381786ff7ed4ba44.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/derisive.gif"] {background: url(https://beon.vip/uploads_image/e8/89/e889fc9aa445934cdc4376a8b27c3e46.gif) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/diablo.gif"] {background: url(https://beon.vip/uploads_image/39/cf/39cf5799ad895ab700531b0b2c6c30eb.gif) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dirol.gif"] {background: url(https://beon.vip/uploads_image/3b/e2/3be29510f70b6ebc92fd74622875f2ee.gif) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dntknw.gif"] {background: url(https://beon.vip/uploads_image/5a/5b/5a5ba494e0746cc7c7121432eade1f2d.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/don-t_mention.gif"] {background: url(https://beon.vip/uploads_image/bf/0f/bf0ff657918751068e021dd460f8e0d0.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/facepalm.gif"] {background: url(https://beon.vip/uploads_image/fa/b4/fab444da8e786190b1c9bb3eab1813c3.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/good.gif"] {background: url(https://beon.vip/uploads_image/d5/7b/d57be47a9b40ac191556d41afbd6f2c9.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/grin.gif"] {background: url(https://beon.vip/uploads_image/8e/a9/8ea91f8e4e0b17b1e1edd1e565dbf432.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/nea.gif"] {background: url(https://beon.vip/uploads_image/85/b2/85b2a9f4300c441395c9b67af021b675.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/i-m_so_happy.gif"] {background: url(https://beon.vip/uploads_image/38/cc/38cce1d21895d30b01e8c0ed00717c85.jpg) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/laugh2.gif"] {background: url(https://beon.vip/uploads_image/66/eb/66eb05033fc6cb2251dbbc591419955a.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/lazy2.gif"] {background: url(https://beon.vip/uploads_image/31/58/3158ae3c082a830f231a1a81bb09041f.jpg) no-repeat center;
+display: block !important;}
+
+/*---------------------*/
+
+[src="//beon.fun/i/smiles/kolobok/air_kiss.gif"] {background: url(https://beon.vip/uploads_image/c2/45/c245bded0a948fdb3be1adf2f2f1ba3f.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/alcoholic.gif"] {background: url(https://beon.vip/uploads_image/4a/11/4a1118a6b849e63dd0abf7fa8cffac91.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/angel.gif"] {background: url(https://beon.vip/uploads_image/0e/a3/0ea3ac60a5694395cd82b9dbf336c687.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/bad.gif"] {background: url(https://beon.vip/uploads_image/39/66/3966a847742b2e05350b5456188cbdb8.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/black_eye.gif"] {background: url(https://beon.vip/uploads_image/ad/7d/ad7d9abc1d920b450be98ee8d04cccd4.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/blum3.gif"] {background: url(https://beon.vip/uploads_image/fa/51/fa516715696475f40156528679838e91.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/blush2.gif"] {background: url(https://beon.vip/uploads_image/ef/a6/efa6f8c2092cc2719896e3f2a61b2643.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/censored.gif"] {background: url(https://beon.vip/uploads_image/ef/a6/efa6f8c2092cc2719896e3f2a61b2643.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/cray.gif"] {background: url(https://beon.vip/uploads_image/5a/b7/5ab7c6631d170ae0b54e427af8ba1b40.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/crazy_pilot.gif"] {background: url(https://beon.vip/uploads_image/bc/3f/bc3f5038e90c978043d7135de460a4da.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/dance2.gif"] {background: url(https://beon.vip/uploads_image/5a/95/5a952c0821deb3ca1b68f08519a390e4.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/dance4.gif"] {background: url(https://beon.vip/uploads_image/b1/e2/b1e2329bd00d572455f934eebe97ca17.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/download.gif"] {background: url(https://beon.vip/uploads_image/66/72/66727a85823887a9bfe729cb061e2a8a.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/drag.gif"] {background: url(https://beon.vip/uploads_image/98/aa/98aa99acee42e6c403052f689242d665.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/drinks.gif"] {background: url(https://beon.vip/uploads_image/29/91/2991219a8e9e3bcf3fb8f740f19ff4b0.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/dash1.gif"] {background: url(https://beon.vip/uploads_image/0c/eb/0ceb5e20782711ccde0c24264ebfe576.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/focus.gif"] {background: url(https://beon.vip/uploads_image/ee/c1/eec173e8b06fe588f72afd5cbfacdf4e.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/friends.gif"] {background: url(https://beon.vip/uploads_image/e3/b3/e3b3186b215fca5d924bbc26016f32ee.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/girl_hospital.gif"] {background: url(https://beon.vip/uploads_image/42/bc/42bcc494919edbcb25faf20f0c48789e.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/hang2.gif"] {background: url(https://beon.vip/uploads_image/e4/da/e4da46ee2b37f8dbbba43050f9817108.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/heat.gif"] {background: url(https://beon.vip/uploads_image/3d/c7/3dc74157805c88dd85af67d92f939a96.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/help.gif"] {background: url(https://beon.vip/uploads_image/8d/2a/8d2ab9243224bc1e85c019a84b2388bd.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/hi.gif"] {background: url(https://beon.vip/uploads_image/3d/04/3d04baf5b259c5c23e17845234ce36d9.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/hunter.gif"] {background: url(https://beon.vip/uploads_image/ae/29/ae2902fcb6ee81412847ca49f37b1351.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/ireful1.gif"] {background: url(https://beon.vip/uploads_image/19/6b/196be5942c4aeee547f14e8424c80347.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/mail1.gif"] {background: url(https://beon.vip/uploads_image/6f/ad/6fad09bd6b05eb37d0ccdc0c00e59ab3.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/man_in_love.gif"] {background: url(https://beon.vip/uploads_image/4c/f7/4cf7d0e722e1d2b654c2d58ec6bfec2a.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/mda.gif"] {background: url(https://beon.vip/uploads_image/5b/eb/5bebe2c696caefd4c3d9382e823429a1.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/meeting.gif"] {background: url(https://beon.vip/uploads_image/de/52/de52de1abd69ba93649622e3fd383a96.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/mosking.gif"] {background: url(https://beon.vip/uploads_image/8d/83/8d8357bfd65599d87afe446c2c7f147e.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/music.gif"] {background: url(https://beon.vip/uploads_image/e4/fb/e4fb40509d0956fa03c6c6ee723a18da.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/negative.gif"] {background: url(https://beon.vip/uploads_image/5c/c6/5cc61dcba264f0072ca7e2691e26e002.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/no2.gif"] {background: url(https://beon.vip/uploads_image/63/bf/63bf2d3a182f27c3c1b994ed2fb2130f.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/not_i.gif"] {background: url(https://beon.vip/uploads_image/86/f3/86f3d604691464a3956335f739fc3bdd.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/nyam.gif"] {background: url(https://beon.vip/uploads_image/6d/f3/6df36d0d0e13665da20891f431b3e1a1.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/offtopic.gif"] {background: url(https://beon.vip/uploads_image/6f/d5/6fd5511c2f5981cc940fbfa461dfb2e4.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/pardon.gif"] {background: url(https://beon.vip/uploads_image/e0/7e/e07e63b24b0f6dd806e4e400c6a4ec0c.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/party.gif"] {background: url(https://beon.vip/uploads_image/ae/78/ae7857789271b30836151d6ddc969dc3.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/pleasantry.gif"] {background: url(https://beon.vip/uploads_image/b1/df/b1dfe816f638e04a339c38deec68986e.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/polling.gif"] {background: url(https://beon.vip/uploads_image/3a/4e/3a4efbfd9650fc630d4c7e6e9df217b4.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/pooh_door.gif"] {background: url(https://beon.vip/uploads_image/2c/d1/2cd128915f37a138d2b772731eed1611.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/popcorm1.gif"] {background: url(https://beon.vip/uploads_image/48/90/489017925899946c23e0433b6be55b48.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/preved.gif"] {background: url(https://beon.vip/uploads_image/a5/a3/a5a3f1f68ccba7fd7ae8bdf6920a796f.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/punish.gif"] {background: url(https://beon.vip/uploads_image/f8/92/f8929cecd7f6c26100ee72c60625f962.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/read.gif"] {background: url(https://beon.vip/uploads_image/1a/b2/1ab2835308ad85e197d36846f8afc154.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/resent.gif"] {background: url(https://beon.vip/uploads_image/0f/21/0f21118146669a09008bb2340d84c92d.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/rofl.gif"] {background: url(https://beon.vip/uploads_image/80/3b/803b297c54c4a0ce42642d11db372f96.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/russian.gif"] {background: url(https://beon.vip/uploads_image/97/6e/976e82240aec311ff126dcff481f5372.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/russian_roulette.gif"] {background: url(https://beon.vip/uploads_image/04/d4/04d459259329b9327eeaf3f90935126b.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/sad.gif"] {background: url(https://beon.vip/uploads_image/80/8e/808e90361f5dddafd25d74bdf5657cc5.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/sarcastic.gif"] {background: url(https://beon.vip/uploads_image/f2/a1/f2a1c58629d42d6594c30bdfb6cd6380.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/scare.gif"] {background: url(https://beon.vip/uploads_image/43/7e/437e4406ada0fcd980f26ba7459f01c8.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/sclerosis.gif"] {background: url(https://beon.vip/uploads_image/9e/83/9e83e29d63e4c240442d1ad05972fcf5.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/scratch_one-s_head.gif"] {background: url(https://beon.vip/uploads_image/c0/4d/c04d60e170ab1367077f85e687a5edf7.gif) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/search.gif"] {background: url(https://beon.vip/uploads_image/6b/05/6b0546d23cb5d2f6f7c4e064e6eab52e.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/secret.gif"] {background: url(https://beon.vip/uploads_image/2e/28/2e288524217e054f025c55683ef7286f.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/shok.gif"] {background: url(https://beon.vip/uploads_image/ad/d6/add671690a174d0a41fb7aacec3734b3.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/shout.gif"] {background: url(https://beon.vip/uploads_image/2d/a1/2da160374d8d6030e1e2473112c05c84.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/smoke.gif"] {background: url(https://beon.vip/uploads_image/04/00/04003d43cacf8dd61e04837dd7bb1a3e.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/snooks.gif"] {background: url(https://beon.vip/uploads_image/e1/c5/e1c563a66340ddb2e721891894d1406d.jpg) no-repeat center;
+display: block !important;}
+
+
+[src="//beon.fun/i/smiles/kolobok/sorry2.gif"] {background: url(https://beon.vip/uploads_image/dc/72/dc726eb7e794c7c9b55b168e83feb8d4.jpg) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/spiteful.gif"] {background: url(https://beon.vip/uploads_image/f8/36/f8365eacd71ead537cf6587d35c54cab.jpg) no-repeat center;
+display: block !important;}
+
+
+[src="//beon.fun/i/smiles/kolobok/stink.gif"] {background: url(https://beon.vip/uploads_image/1b/17/1b17007f62e539b95d132cf7a04b5c42.png) no-repeat center;
+display: block !important;}
+
+
+[src="//beon.fun/i/smiles/kolobok/swoon2.gif"] {background: url(https://beon.vip/uploads_image/12/6e/126e7af797fdfa41b007547a91916c5a.gif) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/stop.gif"] {background: url(https://i1.beon.fun/82/8/882/6/49906/opro.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/superstition.gif"] {background: url(https://i1.beon.fun/82/8/882/7/49907/ooooooooooooooo.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/swoon.gif"] {background: url(https://i1.beon.fun/82/8/882/9/49909/nn.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/take_example.gif"] {
+background: url(https://i1.beon.fun/82/8/882/86/49886/aaaaaaaaa.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/taunt.gif"] {
+background: url(https://i1.beon.fun/82/8/882/87/49887/stickegr.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/thank_you.gif"] {
+background: url(https://i1.beon.fun/82/8/882/88/49888/sticker.webpekn.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/this.gif"] {
+background: url(https://i1.beon.fun/82/8/882/89/49889/sticker.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/threaten.gif"] {
+background: url(https://i1.beon.fun/82/8/882/90/49890/56.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/tomato.gif"] {
+background: url(https://i1.beon.fun/82/8/882/91/49891/vvvvvvvvvvvvvvvvvvvvvvvvvvv.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/tongue.gif"] {
+background: url(https://i1.beon.fun/82/8/882/92/49892/vvvvvvvvvvvvvvv.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/to_clue.gif"] {
+background: url(https://i1.beon.fun/82/8/882/93/49893/vvvvvvvv.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/to_pick_ones_nose2.gif"] {
+background: url(https://i1.beon.fun/82/8/882/94/49894/vvvvvva.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/to_take_umbrage.gif"] {
+background: url(https://i1.beon.fun/82/8/882/95/49895/vapvp.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/umnik.gif"] {
+background: url(https://i1.beon.fun/82/8/882/96/49896/vaaaaaa.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/victory.gif"] {
+background: url(https://i1.beon.fun/82/8/882/97/49897/avp.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/wacko.gif"] {
+background: url(https://i1.beon.fun/82/8/882/98/49898/kn.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/wacko2.gif"] {
+background: url(https://i1.beon.fun/82/8/882/99/49899/kenek.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/wink.gif"] {
+background: url(https://i1.beon.fun/82/8/882/0/49900/ken.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/wink3.gif"] {
+background: url(https://i1.beon.fun/82/8/882/1/49901/ke.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/yahoo.gif"] {
+background: url(https://i1.beon.fun/82/8/882/2/49902/en.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/yes3.gif"] {
+background: url(https://i1.beon.fun/82/8/882/3/49903/eg.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/yu.gif"] {
+background: url(https://i1.beon.fun/82/8/882/16/49916/pro.png) no-repeat center;
+display: block !important;}
+
+[src="//beon.fun/i/smiles/kolobok/whistle.gif"] {
+background: url(https://i1.beon.fun/82/8/882/19/49919/pppppppppppk.png) no-repeat center;
+display: block !important;}
+
+
+span.emj-dropdown [src="//beon.fun/i/smiles/kolobok/smile3.gif"] {display: unset !important;}
