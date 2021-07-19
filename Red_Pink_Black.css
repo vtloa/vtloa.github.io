@@ -1277,3 +1277,9 @@ label.menu__btn {
 .crumbs,.bg-white,main.py-4{
     max-width: 1300px;
 }
+
+
+
+.liked, .reposted {
+color: #ff0000 !important;
+}
