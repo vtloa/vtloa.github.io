@@ -1,0 +1,623 @@
+@import url('https://vtloa.github.io/Genshin_stickers_fun.css');
+
+.crumbs {
+    display: none;
+}
+
+
+body.bodybg {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77f1f60f-2b47-4c08-9c95-df986efe8c7f/ddqqha3-402aac3e-42a7-4883-821d-ac0f1de870f7.png/v1/fill/w_1600,h_900,q_80,strp/visual_novel_background_by_kjkjmulo_ddqqha3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvNzdmMWY2MGYtMmI0Ny00YzA4LTljOTUtZGY5ODZlZmU4YzdmXC9kZHFxaGEzLTQwMmFhYzNlLTQyYTctNDg4My04MjFkLWFjMGYxZGU4NzBmNy5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XdtKGk_KmAVBPLz2LntRxIvA4vG-Hf9wJWXoQgj0mqo) no-repeat center fixed;
+    background-size: cover;
+}
+
+
+
+
+
+
+a.post-title {
+    font-size: 0px;
+    text-decoration: unset;
+}
+
+[href="///ARK.beon.fun/1-bez-nazvaniya-read"]:before {
+    content: 'Коридор';
+    font-size: 35px;
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+
+
+.post-row ,
+.content h1,
+.post-content a.post-title-user {
+    display: none;
+}
+
+div.crumbs:before {
+    content: 'WARNING! Ведутся технические работы ';
+    color: #fff600;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Bodyfsize0*/
+body.bodybg {font-size: 0px;}
+div#app {font-size: 14px;}
+
+/*textarea height 450*/
+textarea {
+    min-width: auto;
+    max-height: 450px;
+    overflow-y: auto !important;
+}
+
+
+.tag_bar:before {
+    content: 'прозрачный 2';
+    background: transparent;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    width: 100%;
+    height: 5px;
+    color: #ff000000;
+}
+
+span.emj-dropdown:hover:before {
+    content: 'прозрачный';
+    position: absolute;
+    top: -320px;
+    height: 250px;
+    width: 110%;
+    left: 0px;
+    color: transparent;
+    background: transparent;
+}
+
+
+
+
+.comment-text .post-opt {
+    position: absolute !important;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-right: 3px;
+}
+
+.crumbs {
+    position: absolute;
+    background: black;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin: 0px !important;
+}
+
+img.imagefsme {
+    width: 100px;
+}
+
+.post-avatar img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.comment-content {
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    min-height: auto;
+}
+
+
+.comment-box {
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    right: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 5px !important;
+    z-index: 9999999999;
+    transition: 1s;
+}
+
+.tag_bar {
+    background: white;
+    right: 0px;
+    top: -35px;
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    font-size: 12px;
+    padding: 4px;
+    opacity: 0.3;
+    border-radius: 20px 20px 20px 0;
+}
+
+i.fas.fa-chevron-down {
+    font-size: 0px;
+}
+
+
+
+span.emj-dropdown {
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    margin-top: -35px;
+    display: block;
+}
+
+span.emj-dropdown [src="//beon.fun/i/emoji/D83DDE1C.png"] {
+    display: none;
+}
+
+.emj-dropdown-content {
+    height: 250px;
+    position: fixed;
+    margin-top: -269px;
+    margin-left: 32px;
+}
+
+form#messageform input[type="submit"] {
+    margin-top: -18px !important;
+    display: block;
+    border: none;
+    width: 100%;
+    background: white;
+    color: #d7d7d7;
+}
+
+input#submitpreview {
+    display: none !important;
+}
+
+
+form#messageform .tag_bar {
+    transition: 1s;
+    right: 0px;
+}
+form#messageform:hover .tag_bar {
+    right: 0px;
+    transition: 1s;
+    transform: translateY(-105px);
+}
+
+div.textareabg form#messageform {
+    position: fixed;
+    bottom: 5px;
+    width: 25%;
+    left: 37.5%;
+    z-index: 999999999999;
+    transition: 1s;
+    transition-duration: 2s;
+    transition-delay: 10s;
+}
+
+div.textareabg textarea {
+    height: 100px !important;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+
+main.py-4 {
+    margin: auto;
+    width: 50%;
+}
+
+.left-menu {
+    display: none;
+}
+
+
+.comment-content:last-child {
+    background: #ffffff;
+    position: fixed;
+    left: 0px;
+    bottom: 5px;
+    width: 37%;
+    padding: 5px;
+    margin: 0px;
+    height: 200px;
+    transform: unset;
+    border-radius: 0 100px 0 0;
+    padding-right: 40px !important;
+}
+
+
+.comment-content:last-child a.post-title-user {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    background: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 99;
+    width: 400px;
+    text-align: center;
+    border-radius: 0 20px 0 0;
+}
+
+
+.comment-content:last-child>div:first-child {
+    height: 0px;
+}
+
+.comment-content:last-child .comment-text>div:not([class]) {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*Стикеры*/
+
+.comment-content .comment-row [src^="//beon.fun/i/smiles/kolobok/"] {
+    display: block !important;
+    width: 115px !important;
+    height: 115px;
+    padding: 60px;
+    position: absolute;
+    right: 320px;
+    top: -400px;
+    background-size: cover;
+    border-radius: 50px 50px 0 50px;
+    border: 1px solid;
+}
+
+.comment-content:last-child .comment-row [src^="//beon.fun/i/smiles/kolobok/"] {
+    display: block !important;
+    width: 115px !important;
+    height: 115px;
+    padding: 60px;
+    position: absolute;
+    left: 320px;
+    top: -400px;
+    background-size: cover;
+    border-radius: 50px 50px 50px 0;
+    border: 1px solid;
+}
+
+.comment-content:last-child .comment-row {
+    font-size: 18px;
+}
+
+
+.comment-content:last-child>div:not([class]) {
+    transform: unset;
+    left: 0px;
+    top: 0px;
+    background: unset !important;
+    width: unset !important;
+    height: unset;
+    writing-mode: unset;
+    overflow-wrap: unset;
+}
+
+.comment-content:last-child>div:not([class]) {
+    height: 0px !important;
+}
+
+/*NONE*/
+
+span.post-title-date,img.flag,.comment-content [href^="#"],.sign,
+.avatar-select-list,.comment-box h2,
+.comment-box__message-partial.comment-content,
+.textareabg>p,div#footer ,
+.comment-content .post-avatar img,
+.comment-row [src^="//beon.fun/i/smiles/kolobok/"],
+nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm,
+span.crumb-item {
+    display: none !important;
+}
+
+.comment-content img {
+    display: none;
+}
+
+[src^="//beon.fun/i/smiles/"] {
+    display: none;
+}
+span.emj-dropdown {
+    opacity: 0;
+}
+
+form#messageform span.emj-dropdown {
+    transition: 1s;
+}
+
+/*HOVER*/
+
+.tag_bar:hover {
+    opacity: 1;
+}
+
+
+
+form#messageform:hover span.emj-dropdown {
+    opacity: 1;
+    transition: 1s;
+}
+.emj-dropdown:hover .dropbtn {
+    background-color: transparent;
+    filter: drop-shadow(2px -1px 6px red);
+}
+
+textarea:focus {
+    outline: unset;
+}
+
+
+
+
+
+
+
+
+
+/*СПРАЙТЫ*/
+
+.comment-content:last-child [href="//princess.beon.fun"]:before {
+    content: 'Гил';
+    position: absolute;
+    top: -400px;
+    left: 0px;
+    background: url(https://i1.beon.fun/21/15/1521/60/50760/7454-33-43.png) no-repeat center / contain;
+    width: 400px;
+    height: 400px;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+.comment-content:last-child [href="//vosmaya.beon.fun"]:before {
+    content: 'Евол';
+    position: absolute;
+    top: -400px;
+    left: 0px;
+    background: url(https://i1.beon.fun/21/15/1521/78/50878/evol3.png) no-repeat center / contain;
+    width: 400px;
+    height: 400px;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+
+
+.comment-content:last-child [href="//glnhomec.beon.fun"]:before {
+    content: 'Сат';
+    position: absolute;
+    top: -788px;
+    left: 0px;
+    background: url(http://i1.beon.fun/21/15/1521/77/50877/sat1.png) no-repeat center / contain;
+    width: 400px;
+    height: 788px;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+
+/*ИМЕНА*/
+
+a.post-title-user[href^="//beon.fun/users/"]:before {
+    font-size: 17px !important;
+}
+
+a.post-title-user[href="//beon.fun/users/vosmaya"],
+a.post-title-user[href="//beon.fun/users/glnhomec"],
+a.post-title-user[href="//beon.fun/users/princess"] {
+    font-size: 0px;
+}
+a.post-title-user[href="//beon.fun/users/vosmaya"]:before {
+    content: 'Сакура-сан';
+    font-size: 14px;
+}
+
+
+
+a.post-title-user[href="//beon.fun/users/glnhomec"]:before {
+    content: 'Наноблинчик';
+    font-size: 14px;
+}
+
+
+a.post-title-user[href="//beon.fun/users/princess"]:before {
+    content: 'Тояма Токанава';
+    font-size: 14px;
+}
+
+
+
+/*Новое для 2х фреймов, но нет полноценной истории*/
+
+.comment-content {
+    background: black;
+    position: fixed;
+    right: 0%;
+    bottom: 5px;
+    width: 37%;
+    padding: 5px;
+    margin: 0px;
+    height: 200px;
+    transform: unset;
+    border-radius: 100px 0 0 0;
+}
+
+.comment-row {
+    text-align: right;
+    color: white;
+    font-size: 18px;
+}
+
+
+.comment-content:last-child .comment-row {
+    text-align: left;
+    color: black;
+    font-size: 18px;
+}
+
+
+.comment-content a.post-title-user {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    background: white;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 99;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px 0 0 0;
+}
+
+
+.comment-content>div:not([class]) {
+    height: 0px;
+}
+
+
+
+span.repostbutton {
+    display: none;
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    display: none;
+}
+
+
+/*Отражение противоположных фреймов*/
+
+
+.comment-content .post-avatar [href$=".beon.fun"]:before{
+    transform: rotateY(180deg);
+    filter: brightness(0.5);
+}
+
+
+.comment-content:last-child .post-avatar [href$=".beon.fun"]:before {
+    transform: unset;
+    filter: unset;
+}
+
+
+
+/*Отражённые фреймы*/
+
+.comment-content [href="//glnhomec.beon.fun"]:before {
+    content: 'Сат2';
+    position: absolute;
+    top: -788px;
+    right: 0px;
+    background: url(http://i1.beon.fun/21/15/1521/77/50877/sat1.png) no-repeat center / contain;
+    width: 400px;
+    height: 788px;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+.comment-content [href="//princess.beon.fun"]:before {
+    content: 'Гил2';
+    position: absolute;
+    top: -400px;
+    right: 0px;
+    background: url(https://i1.beon.fun/21/15/1521/60/50760/7454-33-43.png) no-repeat center / contain;
+    width: 400px;
+    height: 400px;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+.comment-content [href="//vosmaya.beon.fun"]:before {
+    content: 'Евол2';
+    position: absolute;
+    top: -400px;
+    right: 0px;
+    background: url(https://i1.beon.fun/21/15/1521/78/50878/evol3.png) no-repeat center / contain;
+    width: 400px;
+    height: 400px;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+
+/*Прозрачный фон*/
+
+.comment-content:not(:last-child):before {
+    content: 'transparent back';
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    width: 100%;
+    height: 800px;
+    color: transparent;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77f1f60f-2b47-4c08-9c95-df986efe8c7f/ddqqha3-402aac3e-42a7-4883-821d-ac0f1de870f7.png/v1/fill/w_1600,h_900,q_80,strp/visual_novel_background_by_kjkjmulo_ddqqha3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvNzdmMWY2MGYtMmI0Ny00YzA4LTljOTUtZGY5ODZlZmU4YzdmXC9kZHFxaGEzLTQwMmFhYzNlLTQyYTctNDg4My04MjFkLWFjMGYxZGU4NzBmNy5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XdtKGk_KmAVBPLz2LntRxIvA4vG-Hf9wJWXoQgj0mqo) no-repeat center fixed;
+    background-size: cover;
+}
+
+
+
+
+/*MEDIA слабая адаптация на первое время*/
+
+@media (max-width: 700px) {.comment-content:last-child {
+    width: 98%;
+    left: 1%;
+}
+
+
+.comment-box {
+    height: 0px;
+    top: -20px;
+}
+
+.tag_bar,.form__show-avatars {
+    display: none;
+}
+
+.comment-content:last-child [href="//princess.beon.fun"]:before,
+.comment-content:last-child [href="//vosmaya.beon.fun"]:before,
+.comment-content [href="//princess.beon.fun"]:before,
+.comment-content [href="//vosmaya.beon.fun"]:before {
+    width: 250px;
+    height: 250px;
+    top: -250px;
+}
+
+.comment-content:last-child [href="//glnhomec.beon.fun"]:before,
+.comment-content [href="//glnhomec.beon.fun"]:before {
+    width: 250px;
+    height: 500px;
+    top: -500px;
+}
+
+
+
+.comment-content:last-child a.post-title-user,
+.comment-content a.post-title-user {
+    width: 200px;
+}
+div.textareabg form#messageform {
+    width: 200px;
+    right: 1%;
+    left: unset;
+}
+textarea {
+    min-width: 200px;
+}
+.comment-content {
+    left: 39%;
+}}
