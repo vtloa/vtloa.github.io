@@ -792,32 +792,6 @@ button.btn.btn-primary:before {
 }
 
 
-
-
-@media (max-width: 1024px) {
-div#righthome {
-    width: 80% !important;
-    margin: 0px;
-}
-
-
-[href="./"]:before {
-    left: 40.2%;
-    width: 75px;
-    height: 75px;
-    top: 330px;
-}
-
-button#newupdates {
-    left: 46.9%;
-}
-
-
-button.btn.btn-primary:before {
-    height: 250px;
-    top: 185px;
-}}
-
 /*СКРОЛЛ*/
 
 ::-webkit-scrollbar {
