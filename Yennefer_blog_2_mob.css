@@ -695,5 +695,9 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     text-align: left;
     display: block;
 }
+    
+.card-link {
+    margin-bottom: 0px;
+}
 
 }
