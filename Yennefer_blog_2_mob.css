@@ -44,9 +44,9 @@ textarea#comment_body {
 }
 
 .profile_postcomment {
-    border-top: 2px solid #673243;
+    border-top: 2px solid #673243 !important;
     margin-top: -13px;
-    padding-left: 0px;
+    padding-left: 0px !important;
 }
 
 a#attach_file_click {
