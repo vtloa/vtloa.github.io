@@ -584,9 +584,7 @@ div#mobile_menu {
     height: 200px;
     color: transparent;
 }
-.additional_info.pl-3 {
-    display: flex;
-}
+
 a.card-link {
     margin-left: 10px !important;
 }
