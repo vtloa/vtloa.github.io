@@ -355,7 +355,7 @@ a.page-link, a.page-link:hover {
 
 div#user_status, .post_image div {
     margin: auto;
-    color: #673243;
+    color: #673243 !important;
 }
 
 
