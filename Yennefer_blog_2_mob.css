@@ -1,3 +1,12 @@
+.content {
+    border: 1px solid #231e1e;
+    border-top: 0px;
+}
+
+.content:before {
+    outline: 1px solid #231e1e;
+}
+
 [style="padding: 10px; text-align: center; margin-top: 10px;"] {
     display: none;
 }
