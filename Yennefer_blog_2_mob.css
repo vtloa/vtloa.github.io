@@ -668,4 +668,30 @@ font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
 
 /*ПРАВКИ*/
 
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+    h2.card-title a {
+    position: unset;
+    padding-left: 2px;
+    padding-right: 5px;
+    font-size: 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+.post_text.pl-3 {
+    padding: 2px !important;
+}
+
+
+.card.mb-2.post_home {
+    padding: 5px;
+}
+
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    text-align: left;
+    display: block;
+}
+
+}
