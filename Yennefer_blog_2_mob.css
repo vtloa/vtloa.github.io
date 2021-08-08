@@ -664,3 +664,41 @@ font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
 }
 
 @font-face { font-family: 'News702CyrillicBT-Italic';  src: local('News702CyrillicBT-Italic'), url('https://nomail.com.ua/files/woff/f05a559fc1fda895a62ad499dc9898ad.woff') format('woff'); }
+
+
+/*ПРАВКИ*/
+
+@media screen and (max-width: 360px) {.card.mb-2.post_home {
+    padding: 5px;
+}
+
+.post_text.pl-3 {
+    padding: 5px !important;
+}
+
+.post_image a img {
+    max-width: 70px;
+}
+
+
+.post_image {
+    width: 70px;
+}
+
+h2.card-title a {
+    margin-left: -115px;
+    font-size: 17px;
+    margin-top: -31px;
+}
+
+.card.mb-2.post_home {
+    margin-top: 10px;
+}
+
+.card-link {
+    margin-bottom: 0px !important;
+}
+
+.card-subtitle.mb-2.text-muted.post_date {
+    width: max-content;
+}}
