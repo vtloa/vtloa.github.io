@@ -668,7 +668,7 @@ font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
 
 /*ПРАВКИ*/
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 760px) {
     h2.card-title a {
     position: unset;
     padding-left: 2px;
