@@ -991,3 +991,11 @@ td.profile_rightside {
 img.icon {
     display: none;
 }
+
+.content:before {
+    border-bottom: 1px solid #292929;
+}
+.content {
+    border: 1px solid #292929;
+}
+
