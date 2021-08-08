@@ -44,9 +44,9 @@ textarea#comment_body {
 }
 
 .profile_postcomment {
-    border-top: 2px solid #673243;
+    border-top: 2px solid #673243 !important;
     margin-top: -13px;
-    padding-left: 0px;
+    padding-left: 0px !important;
 }
 
 a#attach_file_click {
@@ -122,16 +122,16 @@ a.commentReply {
 }
 
 .profile_comment_date {
-    color: #c7b3a8;
+    color: #c7b3a8 !important;
     font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
     font-size: 10px;
 }
 
 .profile_comment_body {
     color: #c7b3a8;
-    padding-top: 15px;
-    padding-left: 10px;
-    max-width: 100%;
+    padding-top: 15px !important;
+    padding-left: 10px !important;
+    max-width: 100% !important;
     background: #0e0e0dbf;
     min-height: 100px;
     border: 1px solid #231e1e;
@@ -183,7 +183,7 @@ ul.seBlogCategoryList {
 
 .copyright,.copyright a {
     font-family: 'fontb90337efa46058b095e334ddb90849be';
-    color: #2d2828;
+    color: #2d2828 !important;
 }
 
 .gifts-list {
@@ -206,7 +206,7 @@ h2.card-title a:hover, ul.seBlogCategoryList a:hover {
 }
 
 li.p-1 a {
-    color: #653038;
+    color: #653038 !important;
     text-shadow: 0 0 4px black;
     text-transform: uppercase;
     font-size: 11px;
@@ -248,7 +248,7 @@ a.nav-link.top_menu_item {
 }
 
 .bg-light button.btn.btn-outline-success {
-    font-size: 0px;
+    font-size: 0px !important;
     background: url(https://img.icons8.com/material-rounded/2x/down.png) no-repeat center / contain;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
@@ -262,7 +262,7 @@ a.nav-link.top_menu_item {
 }
 
 .bg-light [href="/search.php"] {
-    font-size: 0px;
+    font-size: 0px !important;
     background: url(https://img.icons8.com/ios-glyphs/2x/search--v2.gif) no-repeat center / contain;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
@@ -272,7 +272,7 @@ a.nav-link.top_menu_item {
 
 
 .bg-light [href="browse_albums.php"] {
-    font-size: 0px;
+    font-size: 0px !important;
     background: url(https://img.icons8.com/ios-glyphs/2x/art-track.png) no-repeat center / contain;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
@@ -281,7 +281,7 @@ a.nav-link.top_menu_item {
 }
 
 .bg-light [href="browse_groups.php"] {
-    font-size: 0px;
+    font-size: 0px !important;
     background: url(https://img.icons8.com/fluency-systems-filled/2x/myspace-squared-outlined.png) no-repeat center / contain;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
@@ -290,7 +290,7 @@ a.nav-link.top_menu_item {
 }
 
 .bg-light [href="browse_quiz.php"] {
-    font-size: 0px;
+    font-size: 0px !important;
     background: url(https://img.icons8.com/ios-glyphs/2x/report-card.png) no-repeat center / contain;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
@@ -299,7 +299,7 @@ a.nav-link.top_menu_item {
 }
 
 .bg-light [href="browse_blogs.php"] {
-    font-size: 0px;
+    font-size: 0px !important;
     background: url(https://img.icons8.com/ios-glyphs/2x/book.png) no-repeat center / contain;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
@@ -308,7 +308,7 @@ a.nav-link.top_menu_item {
 }
 
 .bg-light button#newupdates {
-    background: url(https://img.icons8.com/fluency-systems-filled/2x/new-letter.png) no-repeat center / contain;
+    background: url(https://img.icons8.com/fluency-systems-filled/2x/new-letter.png) no-repeat center / contain !important;
     mix-blend-mode: exclusion;
     filter: invert(1) sepia(3) hue-rotate(-37deg) brightness(0.3);
     width: 50px;
@@ -449,12 +449,12 @@ div#mobile_photo img {
 }
 
 div#mobile_menu a {
-    background: #7b6d6480;
+    background: #7b6d6480 !important;
     margin-top: 6px;
-    padding: 1px;
+    padding: 1px !important;
     text-align: center;
-    border: 2px outset #71665f;
-    color: #9a887c;
+    border: 2px outset #71665f !important;
+    color: #9a887c !important;
 }
 
 img.menu_icon2 {
@@ -594,7 +594,10 @@ a.card-link {
     padding: 10px;
 }
 div#designs {
-    display: none;
+    display: none !important;
+}
+.comment_headline {
+    margin-top: 25px;
 }
 }
 
@@ -647,8 +650,6 @@ font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
 }
 
 @font-face { font-family: 'News702CyrillicBT-Italic';  src: local('News702CyrillicBT-Italic'), url('https://nomail.com.ua/files/woff/f05a559fc1fda895a62ad499dc9898ad.woff') format('woff'); }
-
-
 
 
 /*______PROFILE-------*/
@@ -985,4 +986,8 @@ div#profile_friends:hover:before {
 td.profile_rightside {
     margin-left: 50px !important;
     display: block;
+}
+
+img.icon {
+    display: none;
 }
