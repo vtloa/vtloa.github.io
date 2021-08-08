@@ -699,5 +699,8 @@ h6.card-subtitle.mb-2.text-muted.post_date {
 .card-link {
     margin-bottom: 0px;
 }
+#righthome {
+    padding-top: 10px;
+}
 
 }
