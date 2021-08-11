@@ -56,7 +56,7 @@ input#comment_submit {
 textarea#comment_body {
     background: #0c0c0c7a;
     border: 1px solid #231e1e;
-    color: #c7b3a8;
+    color: #c7b3a8 !important;
 }
 
 .profile_postcomment {
