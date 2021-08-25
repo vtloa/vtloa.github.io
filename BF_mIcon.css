@@ -1,0 +1,328 @@
+
+.left-menu audio {
+    position: absolute;
+    top: 28px;
+    left: 565px;
+    z-index: 12;
+    background: #f1f3f4;
+    width: 30%;
+    max-width: 420px;
+    height: 20px;
+    box-shadow: 0 0 10px 5px #f2f3f4;
+}
+
+.pc-menu ul {
+    display: contents;
+}
+
+.pc-menu {
+    margin-left: 160px;
+}
+
+
+.pc-menu [href="//beon.fun/discussions"]:hover,.pc-menu [href="//beon.fun/p"]:hover
+,.pc-menu [href="//im.beon.fun"]:hover,.pc-menu [href="//beon.fun/whowhere"]:hover,
+.pc-menu [href="//beon.fun/communities"]:hover,.pc-menu [href="//beon.fun/roleplays"]:hover,
+ .pc-menu [href="/random"]:hover,.pc-menu [href$="/preview"]:hover,
+.pc-menu [href$=".beon.fun"]:hover,.pc-menu [href$=".beon.fun"]:hover,
+.pc-menu [href="//beon.fun/tests"]:hover,.pc-menu [href="//beon.fun/search"]:hover,
+.pc-menu [href="//beon.fun/photoeditor"]:hover,.pc-menu [href="//princess.beon.fun/friends-activities/"]:hover,
+.pc-menu [href="//princess.beon.fun/friends-posts/"]:hover,.pc-menu [href$=".beon.fun/logout"]:hover{
+    box-shadow: inset 0 0 0 2px #ecaf19, 0 0 5px 0px #ecaf19;
+}
+
+.pc-menu [href="//beon.fun/discussions"]:before {content: 'Обсуждения';}
+.pc-menu [href="//beon.fun/p"]:before {content: 'Настройки';}
+.pc-menu [href="//im.beon.fun"]:before {content: 'Сообщения' !important;}
+.pc-menu [href="//beon.fun/whowhere"]:before {content: 'Кто-Где';}
+.pc-menu [href="//beon.fun/communities"]:before {content: 'Сообщества';}
+.pc-menu [href="//beon.fun/roleplays"]:before {content: 'Ролки';}
+.pc-menu [href="/random"]:before {content: 'Случайный дневник';}
+.pc-menu [href$="/preview"]:before {content: 'Написать в дневник';}
+.pc-menu [href$=".beon.fun"]:before {content: 'Мой дневник';}
+.pc-menu [href="//beon.fun/tests"]:before {content: 'Тесты';}
+.pc-menu [href="//beon.fun/search"]:before {content: 'Поиск';}
+.pc-menu [href="//beon.fun/photoeditor"]:before {content: 'Фоторедактор';}
+.pc-menu [href="//princess.beon.fun/friends-activities/"]:before {content: 'Занятия друзей';}
+.pc-menu [href="//princess.beon.fun/friends-posts/"]:before {content: 'Записи друзей';}
+.pc-menu [href$=".beon.fun/logout"]:before {content: 'Выйти';}
+
+.pc-menu [href="//beon.fun/discussions"]:before,.pc-menu [href="//beon.fun/p"]:before,
+.pc-menu [href="//im.beon.fun"]:before,.pc-menu [href="//im.beon.fun"]:before,
+.pc-menu [href="//beon.fun/whowhere"]:before,.pc-menu [href="//beon.fun/communities"]:before,
+.pc-menu [href="//beon.fun/roleplays"]:before,.pc-menu [href="/random"]:before,
+ .pc-menu [href$="/preview"]:before,.pc-menu [href$=".beon.fun"]:before,
+.pc-menu [href="//beon.fun/tests"]:before,.pc-menu [href="//beon.fun/search"]:before,
+.pc-menu [href="//beon.fun/photoeditor"]:before,.pc-menu [href="//princess.beon.fun/friends-activities/"]:before,
+.pc-menu [href="//princess.beon.fun/friends-posts/"]:before,.pc-menu [href$=".beon.fun/logout"]:before{
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    margin-left: 9px;
+    margin-top: -5px;
+    opacity: 0;
+    background: white;
+    border-radius: 10px 10px 10px 0;
+    box-shadow: 1px 2px 2px #0000004f;
+    padding-left: 5px;
+    padding-right: 5px;
+    visibility: hidden;
+}
+
+
+
+.pc-menu [href="//beon.fun/discussions"]:hover:before,.pc-menu [href="//beon.fun/p"]:hover:before,
+.pc-menu [href="//im.beon.fun"]:hover:before,.pc-menu [href="//im.beon.fun"]:hover:before,
+.pc-menu [href="//beon.fun/whowhere"]:hover:before,.pc-menu [href="//beon.fun/communities"]:hover:before,
+.pc-menu [href="//beon.fun/roleplays"]:hover:before,.pc-menu [href="/random"]:hover:before,
+ .pc-menu [href$="/preview"]:hover:before,.pc-menu [href$=".beon.fun"]:hover:before,
+.pc-menu [href="//beon.fun/tests"]:hover:before,.pc-menu [href="//beon.fun/search"]:hover:before,
+.pc-menu [href="//beon.fun/photoeditor"]:hover:before,.pc-menu [href="//princess.beon.fun/friends-activities/"]:hover:before,
+.pc-menu [href="//princess.beon.fun/friends-posts/"]:hover:before,.pc-menu [href$=".beon.fun/logout"]:hover:before {
+    opacity: 1;
+    transition: 0.1s;
+    visibility: visible;
+}
+
+
+/*HOVER ICONS*/
+
+a.navbar-brand {
+    font-weight: bold;
+}
+
+textarea {
+    max-height: 450px;
+    overflow-y: auto !important;
+}
+
+
+.pc-menu [href$=".beon.fun/logout"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/shutdown.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+.pc-menu [href="//princess.beon.fun/friends-posts/"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/reading.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+.pc-menu [href="//princess.beon.fun/friends-activities/"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/mdma.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href="//beon.fun/photoeditor"] {
+    display: block;
+    width: 55px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/photo-editor.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+.pc-menu [href="//beon.fun/search"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/search-more.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href="//beon.fun/tests"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/test-tube.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+.pc-menu [href="//beon.fun/p"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/settings-3--v2.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href$=".beon.fun"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/literature--v4.gif) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+.pc-menu [href$="/preview"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/quill-with-ink.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href="/random"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/signpost-tourist.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href="//beon.fun/roleplays"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/battle.png) no-repeat center / 20px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+
+
+.pc-menu [href="//beon.fun/communities"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/crowd.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+.pc-menu [href="//beon.fun/whowhere"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/horror.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href="//im.beon.fun"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/new-post.png) no-repeat center / 20px !important;
+    background-color: #ffffff;
+}
+
+
+.pc-menu [href="//beon.fun/discussions"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #00000029;
+    background: url(https://img.icons8.com/material/2x/chat--v1.png) no-repeat center / 20px;
+    background-color: #ffffff;
+}
+
+
+div#navbarSupportedContent {
+    display: block !important;
+}
+
+
+.blog__about [href$=".beon.fun/friends-posts/"],
+.blog__about [href$=".beon.fun/friends-activities/"] {
+    display: none;
+}
+
+.container {
+    font-size: 0px;
+    width: 610px;
+    height: 60px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0px;
+}
+
+nav.navbar {
+    background: #ffffff;
+    border-radius: 5px;
+    height: 70px;
+    padding: 0px;
+    padding-left: 10px;
+    box-shadow: 0px -1px 1px #00000014 !important;
+    z-index: 12;
+}
+
+
+
+a.navbar-brand {
+    position: absolute;
+    left: 430px;
+    font-size: 20px;
+}
