@@ -84,6 +84,9 @@
     opacity: 1;
     transition: 0.1s;
     visibility: visible;
+    width: fit-content;
+    width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 
