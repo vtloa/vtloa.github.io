@@ -15,7 +15,7 @@
  .pc-menu [href="/random"]:hover,.pc-menu [href$="/preview"]:hover,
 .pc-menu [href$=".beon.fun"]:hover,.pc-menu [href$=".beon.fun"]:hover,
 .pc-menu [href="//beon.fun/tests"]:hover,.pc-menu [href="//beon.fun/search"]:hover,
-.pc-menu [href="//beon.fun/photoeditor"]:hover,.pc-menu [href="//princess.beon.fun/friends-activities/"]:hover,
+.pc-menu [href="//beon.fun/photoeditor"]:hover,.pc-menu [href$=".beon.fun/friends-activities/"]:hover,
 .pc-menu [href="//princess.beon.fun/friends-posts/"]:hover,.pc-menu [href$=".beon.fun/logout"]:hover{
     box-shadow: inset 0 0 0 2px #ecaf19, 0 0 5px 0px #ecaf19;
 }
@@ -32,7 +32,7 @@
 .pc-menu [href="//beon.fun/tests"]:before {content: 'Тесты';}
 .pc-menu [href="//beon.fun/search"]:before {content: 'Поиск';}
 .pc-menu [href="//beon.fun/photoeditor"]:before {content: 'Фоторедактор';}
-.pc-menu [href="//princess.beon.fun/friends-activities/"]:before {content: 'Занятия друзей';}
+.pc-menu [href$=".beon.fun/friends-activities/"]:before {content: 'Занятия друзей';}
 .pc-menu [href="//princess.beon.fun/friends-posts/"]:before {content: 'Записи друзей';}
 .pc-menu [href$=".beon.fun/logout"]:before {content: 'Выйти';}
 
@@ -42,7 +42,7 @@
 .pc-menu [href="//beon.fun/roleplays"]:before,.pc-menu [href="/random"]:before,
  .pc-menu [href$="/preview"]:before,.pc-menu [href$=".beon.fun"]:before,
 .pc-menu [href="//beon.fun/tests"]:before,.pc-menu [href="//beon.fun/search"]:before,
-.pc-menu [href="//beon.fun/photoeditor"]:before,.pc-menu [href="//princess.beon.fun/friends-activities/"]:before,
+.pc-menu [href="//beon.fun/photoeditor"]:before,.pc-menu [href$=".beon.fun/friends-activities/"]:before,
 .pc-menu [href="//princess.beon.fun/friends-posts/"]:before,.pc-menu [href$=".beon.fun/logout"]:before{
     position: absolute;
     display: block;
@@ -68,7 +68,7 @@
 .pc-menu [href="//beon.fun/roleplays"]:hover:before,.pc-menu [href="/random"]:hover:before,
  .pc-menu [href$="/preview"]:hover:before,.pc-menu [href$=".beon.fun"]:hover:before,
 .pc-menu [href="//beon.fun/tests"]:hover:before,.pc-menu [href="//beon.fun/search"]:hover:before,
-.pc-menu [href="//beon.fun/photoeditor"]:hover:before,.pc-menu [href="//princess.beon.fun/friends-activities/"]:hover:before,
+.pc-menu [href="//beon.fun/photoeditor"]:hover:before,.pc-menu [href$=".beon.fun/friends-activities/"]:hover:before,
 .pc-menu [href="//princess.beon.fun/friends-posts/"]:hover:before,.pc-menu [href$=".beon.fun/logout"]:hover:before {
     opacity: 1;
     transition: 0.1s;
@@ -114,7 +114,7 @@ textarea {
     background-color: #ffffff;
 }
 
-.pc-menu [href="//princess.beon.fun/friends-activities/"] {
+.pc-menu [href$=".beon.fun/friends-activities/"] {
     display: block;
     width: 25px;
     height: 25px;
