@@ -264,7 +264,7 @@ textarea {
     border-radius: 5px;
     box-shadow: 1px 1px 4px 1px #00000029;
     background: url(https://img.icons8.com/material/2x/new-post.png) no-repeat center / 20px !important;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 
