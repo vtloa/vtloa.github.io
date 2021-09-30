@@ -1,0 +1,570 @@
+@media (min-width: 1248px) {
+
+.bodybg {
+    background: white;
+}
+.content {
+    font-size: 15px !important;
+}
+
+main.py-4 {
+    width: 1220px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    flex-direction: row-reverse;
+}
+
+nav.navbar {
+    width: 1220px;
+    background: white;
+    box-shadow: unset !important;
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 111;
+}
+
+
+textarea {
+    max-height: 450px !important;
+    overflow: auto !important;
+}
+
+.left-menu {
+    width: 340px;
+    position: sticky;
+    top: 0px;
+    z-index: 2222;
+    margin-top: 52px;
+}
+
+
+.container {
+    width: 600px;
+    margin-left: 245px;
+    overflow: hidden;
+    height: 53px;
+    background: white;
+}
+
+
+
+.content {
+    width: 600px;
+    margin: auto;
+    margin-left: 245px;
+    margin-top: 46px;
+    border: 1px solid #eff3f4;
+}
+
+.left-menu [action="/search"] {
+    position: fixed;
+    top: 0px;
+    z-index: 222222;
+    height: 52px;
+    background: #ffffff;
+    width: 340px;
+    padding: 7px;
+    margin-left: -17px;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+}
+
+
+.left-menu input[type="submit"] {
+    position: absolute;
+    left: 18px;
+    font-size: 0px;
+    width: 20px;
+    height: 35px;
+    background: url(https://img.icons8.com/ios-glyphs/2x/search.png) no-repeat center / contain;
+    border: none;
+    opacity: 0.5;
+}
+
+
+input[type="text"]::placeholder {
+    color: #536471;
+}
+
+
+.left-menu [action="/search"] input[type="text"] {
+    margin-left: 35px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #536471 !important;
+    background: #eff3f4;
+    height: 42px;
+    position: absolute;
+    top: 0px;
+    left: -34px;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+
+.content h1 {
+    background: url(https://i.pinimg.com/564x/48/a8/d0/48a8d0cda4f86dd42e0182aaee7ed037.jpg) no-repeat center / cover;
+    margin: 0px !important;
+    height: 200px;
+    position: relative;
+    margin-bottom: 180px !important;
+    font-size: 0px;
+}
+
+.content h1:before {
+    content: '33';
+    width: 133px;
+    height: 133px;
+    display: block;
+    background: url(https://i1.beon.fun/communities/11/118/profile/471c2a4d3d01b18cc8e7f4de00883bef.jpg) no-repeat center;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px white;
+    position: absolute;
+    top: 135px;
+    left: 20px;
+}
+
+.content h2 {
+    position: relative;
+}
+
+.content h2:after {
+    content: '«Твибер» — сообщество для публичного обмена сообщениями при помощи веб-интерфейса.';
+    position: absolute;
+    left: 0px;
+    top: -75px;
+    margin-left: 0px;
+    margin-right: 16px;
+    color: #0f1419;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.content h2:before {
+    content: 'Twibe';
+    left: 0px;
+    top: -95px;
+    color: #0f1419;
+    font-weight: 800;
+    width: 200px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    font-size: 20px;
+}
+
+
+.crumbs {
+    width: 1190px;
+    margin: auto;
+    z-index: 88888;
+    position: fixed;
+    padding-left: 245px;
+    left: 0;
+    right: 0;
+    top: 0px;
+}
+
+.crumbs a {
+    position: fixed;
+    top: 0px;
+    background: #ffffff;
+    margin-left: -15px;
+    height: 53px;
+    width: 600px;
+    border: 1px solid #eff3f4;
+    padding: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f1419;
+    padding-left: 80px;
+    z-index: 99;
+}
+
+
+
+.crumbs a:before {
+    content: '-';
+    position: absolute;
+    left: 13px;
+    background: url(https://img.icons8.com/material-rounded/2x/left.png) no-repeat center / 22px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 0px;
+}
+
+
+
+
+img.imagefsme {
+    border-radius: 15px;
+    border: 1px solid #cfd9de;
+    padding: 0;
+    height: 300px;
+    object-fit: cover;
+    max-width: 500px !important;
+    width: 483px;
+}
+
+/*Мелочи*/
+
+p.quotation:before {
+    content: 'В ответ к:';
+    color: #536471;
+    display: block;
+}
+
+p.quotation {
+    border-left: 2px solid #cfd9de;
+    padding-left: 5px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.post-avatar img {
+    border-radius: 100%;
+    width: 48px;
+}
+
+
+.sign {
+    display: none;
+}
+
+.comment-content a.user.post-title-user {
+    margin-left: 60px;
+    color: #0f1419;
+    font-weight: 700;
+}
+
+
+
+.post-avatar,.post-row .post-avatar {
+    display: block;
+    width: 48px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.comment-text {
+    margin-left: 60px;
+    color: #0f1419;
+    font-weight: 400;
+}
+
+
+.comment-content {
+    padding-left: 15px;
+    min-height: auto;
+    border-top: 1px solid #eff3f4;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+a.user.post-title-user:before {
+    display: none;
+}
+
+img.flag {
+    display: none;
+}
+
+
+
+span.post-title-date {
+    color: #536471;
+    font-weight: 400;
+    padding: 0px;
+    margin-left: -8px;
+}
+
+span.post-title-date:before {
+    content: '· ';
+    font-weight: bold;
+}
+
+.comment-content, .comment-content span {
+    font-size: 15px !important;
+}
+
+
+
+a.user.post-title-user {
+    display: inline-flex;
+    position: relative;
+}
+
+a.user.post-title-user:after {
+    content: attr(href);
+    margin-left: 5px;
+    color: #536471;
+    font-weight: 400;
+    display: inline-block;
+    width: 104px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    direction: rtl;
+}
+
+
+a.user.post-title-user:before {
+    content: '@';
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    right: 92px;
+    color: #536471;
+    font-weight: 400;
+}
+
+span.crumb-item {
+    font-size: 20px;
+    position: relative;
+}
+
+
+
+
+
+.post-text {
+    margin-left: 60px;
+}
+
+a.user.post-title-user {
+    margin-left: 60px;
+    color: #0f1419;
+    font-weight: 700;
+}
+
+.post-row {
+    padding-left: 15px;
+}
+
+.post-content>div span {
+    font-size: 0px;
+}
+
+.post-content,span.post-title-date,[data-target="#deleteconfirmmodal"] {
+    font-size: 15px !important;
+}
+
+.post-content [href$="/unsubscribe"] /*отписаться от темы*/ {
+    display: none;
+}
+
+.post-content a.user.post-title-user {
+    margin-left: 76px;
+}
+
+.fa, .fas {
+    color: #53647194;
+    font-size: 14px;
+}
+
+.post-opt, .post-opt a, .post-opt span {
+    font-size: 15px;
+    color: #536471;
+    font-weight: 400;
+}
+
+
+h3.left-menu-text {
+    padding: 12px;
+    background: transparent !important;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+/*Левые-правые блоки*/
+
+.left-menu {
+    border: none !important;
+}
+
+div.left-menu>div:nth-last-of-type(2) {
+    background: #f7f9f9;
+    border: 1px solid #eff3f4;
+    border-radius: 20px;
+}
+
+div.left-menu>div:nth-last-of-type(3),div.left-menu>div:nth-last-of-type(4),
+div.left-menu>div:nth-last-of-type(5),div.left-menu>div:nth-last-of-type(6),
+div.left-menu>div:nth-last-of-type(7),div.left-menu>div:nth-last-of-type(8) {
+    border: 1px solid #eff3f4;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 16px;
+}
+
+.text-center img {
+    width: 48px;
+    border-radius: 100%;
+}
+
+.text-center {
+    width: 48px;
+}
+
+
+div.left-menu>div:nth-last-of-type(7) p.left-menu-text:nth-child(3) {
+    margin-left: 55px;
+    margin-top: -48px;
+}
+
+div.left-menu>div:nth-last-of-type(7) p.left-menu-text:nth-child(3):before {
+    content: 'Twiber';
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+}
+
+div.left-menu>div:nth-last-of-type(7) {
+    position: relative;
+}
+
+
+a.blog-subscribe {
+    background: #0f1419;
+    color: white;
+    height: 32px;
+    display: block;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+a.blog-subscribe:before {
+    content: 'Читать';
+    font-size: 15px;
+}
+
+a.blog-subscribe {
+    background: #f378e3;
+    color: white;
+    width: 82px !important;
+    height: 32px;
+    display: block;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    top: 59px;
+    right: 16px;
+    font-size: 0px;
+    text-align: center;
+}
+
+
+.pc-menu {
+    position: fixed;
+    top: 45px;
+    margin-left: -769px;
+    width: 232px;
+    bottom: 0;
+    overflow: hidden;
+    background: white;
+}
+
+.pc-menu td {
+    display: inline;
+    float: left;
+    width: 232px;
+}
+
+.pc-menu ul {
+    font-size: 0;
+    padding: 0px;
+}
+
+.pc-menu a {
+    font-size: 20px;
+    padding: 9px !important;
+    display: block;
+}
+
+div#footer {
+    display: none;
+}
+
+.post-content {
+    position: relative;
+}
+
+a.post-title {
+    position: absolute;
+    z-index: 77;
+    background: #ff000000;
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    margin-left: -5px;
+    font-size: 0px;
+    transition: 0.2s;
+}
+
+a.post-title:hover {
+    background: #00000008;
+    transition: 0.2s;
+}
+
+.post-content {
+    margin: 0px !important;
+    border-top: 1px solid #eff3f4;
+    padding-bottom: 20px !important;
+    padding-top: 10px;
+}
+
+
+a.navbar-brand {
+    background: url(https://abs-0.twimg.com/emoji/v2/svg/1f433.svg) no-repeat center / contain;
+    position: absolute;
+    top: 10px;
+    margin-left: -259px;
+    z-index: 999;
+    font-size: 0px;
+    width: 28px;
+    height: 23px;
+}
+
+
+body.bodybg {
+    font-size: 0px;
+}
+
+div#app {
+    font-size: 15px;
+}
+
+.container {
+    border: 1px solid #eff3f4;
+}
+
+.comment-box h2 {
+    display: none;
+}
+
+.comment-content [href^="#"] {
+    color: #f378e3;
+    font-weight: 400;
+}
+
+}
