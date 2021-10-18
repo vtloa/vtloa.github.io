@@ -6,8 +6,9 @@ div#beon-fnplayer {
     margin: 0px;
 }
 
+
 div#fnplayer-slider span {
-    color: transparent;
+    font-size: 0px !important;
 }
 
 .blog__about [href^="//beon.fun/users/"]:hover {
