@@ -1,3 +1,7 @@
+.row.w-100 div {
+    color: #f5a9a6 !important;
+}
+
 a.user.post-title-user:before {
     display: none !important;
 }
