@@ -1,3 +1,11 @@
+a.user.post-title-user:before {
+    display: none !important;
+}
+
+.post-opt a,.left-menu__gift a,.right-menu-text [href="/gifts"] {
+    color: #d26966;
+}
+
 .comment-text a {
     color: #c8726f;
 }
