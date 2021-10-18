@@ -2,8 +2,12 @@ a.user.post-title-user:before {
     display: none !important;
 }
 
-.post-opt a,.left-menu__gift a,.right-menu-text [href="/gifts"] {
+.post-opt a {
     color: #d26966;
+}
+
+.left-menu__gift a, .right-menu-text [href="/gifts"] {
+    color: black;
 }
 
 .comment-text a {
