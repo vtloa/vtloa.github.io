@@ -1,0 +1,202 @@
+div#beon-fnplayer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.blog__about [href^="//beon.fun/users/"]:hover {
+    opacity: 1;
+    font-size: 0px;
+    transition: 0.3s;
+}
+.blog__about [href^="//beon.fun/users/"] {
+    font-size: 0px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+    background: url(https://i1.beon.fun/21/15/1521/8/79508/4444.png) no-repeat center / contain;
+    border-radius: 100%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.left-menu {
+    position: relative;
+    padding-top: 178px !important;
+}
+
+div#beon-fnplayer {
+    background: url(https://i.pinimg.com/originals/8a/e1/04/8ae104a88d8fd8e5c4d1a9cbea4d4c96.gif) no-repeat center;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 15px;
+}
+
+div#beon-fnplayer:hover {
+    transition: 0.1s;
+    box-shadow: inset 0px -40px 10px #00000052;
+}
+div#beon-fnplayer {
+    transition: 0.1s;
+}
+
+div#fnplayer-slider {
+    position: absolute;
+    bottom: 32px;
+    left: 1%;
+    right: 5px;
+    width: 98%;
+    margin: 0px !important;
+    height: 3px;
+    background: #ffffffad;
+}
+
+#fnplayer-slider-inner {
+    background-color: #ff0002 !important;
+    height: 3px !important;
+}
+
+button#fnplayer-play {
+    margin-left: 11px !important;
+    background: url(https://i1.beon.fun/21/15/1521/97/79497/treugolnik.png) no-repeat center / contain;
+    border: none;
+    width: 13px;
+    height: 15px;
+}
+
+button#fnplayer-stop {
+    height: 12px;
+    width: 12px;
+    background: #f4f4f4;
+}
+
+
+#fnplayer-volume-mask {
+    border: none !important;
+}
+
+
+
+
+div#fnplayer-volume-inner {
+    height: 4px;
+    background: white;
+    position: relative;
+}
+
+div#fnplayer-volume-inner:after {
+    content: 'c';
+    color: transparent;
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: block;
+}
+
+button#fnplayer-play:before {
+    content: 's';
+    color: transparent;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background: url(https://i1.beon.fun/21/15/1521/97/79497/treugolnik.png) no-repeat center;
+    background-size: 13px 15px;
+    border-radius: 100%;
+}
+
+
+#fnplayer-play.paused:before {
+    content: 'pa';
+    color: white;
+    position: absolute;
+    border-radius: unset;
+    border-style: double;
+    border-width: 0px 0 0px 10px;
+    background: transparent;
+    width: 13px;
+    height: 15px;
+    font-size: 0px;
+    margin-top: 7px;
+}
+
+
+
+div#fnplayer-volume {
+    position: relative;
+    width: 40px;
+    margin-left: 35px !important;
+    background: #ffffff73 !important;
+    height: 4px;
+}
+
+div#fnplayer-volume:before {
+    content: 'v';
+    background: url(https://i1.beon.fun/21/15/1521/1/79501/uhjv.png) no-repeat center / contain;
+    position: absolute;
+    left: -20px;
+    top: -6px;
+    width: 15px;
+    height: 15px;
+    font-size: 0px;
+}
+
+
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #ffffffd1 !important;;
+}
+
+#fnplayer-play.paused {
+    border-style: double;
+    border-width: 0px 0 0px 10px;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    height: 12px;
+    width: 12px;
+    background: #f4f4f4;
+    margin-left: 12px !important;
+}
+
+
+@media (max-width: 700px) {
+.left-menu {
+    padding: 0px !important;
+}
+
+div#beon-fnplayer {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.blog__about [href^="//beon.fun/users/"] {
+    position: unset;
+    font-size: unset;
+    width: unset;
+    background: transparent;
+    border-radius: unset;
+    opacity: 1;
+    transition: unset;
+}
+.blog__about [href^="//beon.fun/users/"]:hover {
+    opacity: 1;
+    font-size: unset;
+    transition: unset;
+}
+}
