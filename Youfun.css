@@ -88,7 +88,7 @@ button#fnplayer-stop {
 
 
 div#fnplayer-volume-inner {
-    height: 4px;
+    height: 3px;
     background: white;
     position: relative;
 }
@@ -143,7 +143,7 @@ div#fnplayer-volume {
     width: 40px;
     margin-left: 35px !important;
     background: #ffffff73 !important;
-    height: 4px;
+    height: 3px;
 }
 
 div#fnplayer-volume:before {
