@@ -216,7 +216,8 @@ span.emj-dropdown {
 
 .comment-content {
     min-height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: 5px;
 }
 
 .comment-content .comment-text {
