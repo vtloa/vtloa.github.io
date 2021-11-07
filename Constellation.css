@@ -869,7 +869,7 @@ animation: move 50s forwards cubic-bezier(1, 0, 0, 1.11);
          top: 50%;}
 65% {transform: scale(0.6);}
 100% {top: 60%; transform: scale(0.4);
-      filter: sepia(1) saturate(10.5) hue-rotate(-50deg);}
+      filter: sepia(1) saturate(10.5) hue-rotate(-45deg);}
 
 }
 
