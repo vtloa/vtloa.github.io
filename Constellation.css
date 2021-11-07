@@ -33,6 +33,10 @@ a.navbar-brand {
 .pc-menu [href$=".beon.fun"] {
     font-size: 0;
 }
+.pc-menu [href$=".beon.fun"]:before {
+    content: 'My Diary';
+    font-size: 11px;
+}
 
 .pc-menu  [href="//beon.fun/whowhere"]:before {
     content: 'Whos/where';
@@ -74,10 +78,7 @@ a.navbar-brand {
     font-size: 11px;
 }
 
-.pc-menu [href$=".beon.fun"]:before {
-    content: 'My Diary';
-    font-size: 11px;
-}
+
 
 .pc-menu a:hover,
 .crumbs [href="/"]:hover:before {
