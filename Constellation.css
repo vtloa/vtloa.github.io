@@ -1079,3 +1079,8 @@ ul.menu__box {
     background: #111111;
 }
 }
+
+
+.crumbs {
+    background: transparent !important;
+}
