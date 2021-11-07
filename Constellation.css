@@ -1,3 +1,10 @@
+a.actionfriend,[href$=".beon.fun/give-gift"],
+[href^="//beon.fun/rating/user/"],
+[href="/design/disable"],
+a.blog-subscribe{
+    display: none;
+}
+
 .left-menu br {
     display: none;
 }
