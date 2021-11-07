@@ -1,3 +1,7 @@
+.comment-text a {
+    color: #dedede;
+}
+
 div#beon-fnplayer+.left-menu-text>div {
     background: antiquewhite;
     display: none;
