@@ -1,3 +1,7 @@
+.left-menu br {
+    display: none;
+}
+
 a.my-menu.for-mobile.d-none.d-md-inline {
     position: absolute;
     left: -10px;
