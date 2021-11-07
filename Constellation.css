@@ -868,8 +868,7 @@ animation: move 50s forwards cubic-bezier(1, 0, 0, 1.11);
 40% { right: 78%;
          top: 50%;}
 65% {transform: scale(0.5);}
-99% {top: 60%;}
-100% {opacity: 0;}
+100% {top: 60%; transform: scale(0.3);}
 
 }
 
