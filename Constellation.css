@@ -1,4 +1,14 @@
-
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: 'Down';
+    font-size: 11px;
+    color: #ff265b;
+}
+a.my-menu.for-mobile.d-none.d-md-inline {
+    position: absolute;
+    left: -10px;
+    top: 83px;
+    font-size: 0;
+}
 
 a.navbar-brand {
     position: fixed;
