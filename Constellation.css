@@ -1,7 +1,13 @@
+div#beon-fnplayer+.left-menu-text>div {
+    background: antiquewhite;
+    display: none;
+}
+
 a.actionfriend,[href$=".beon.fun/give-gift"],
 [href^="//beon.fun/rating/user/"],
 [href="/design/disable"],
-a.blog-subscribe{
+a.blog-subscribe,
+.left-menu-text [href^="//im.beon.fun/"]{
     display: none;
 }
 
