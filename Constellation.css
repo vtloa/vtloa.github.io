@@ -841,6 +841,12 @@ animation: move 50s forwards cubic-bezier(1, 0, 0, 1.11);
 }
 
 
+.comment-box {
+    position: relative;
+}
+
+
+
 /*АДАПТАЦИЯ*/
 
 @media (max-width: 700px) {
