@@ -1095,7 +1095,7 @@ a.navbar-brand:hover:before {
     transform: scale(1);
 }
 a.navbar-brand:before {
-    content: 'Will you leave?';
+    content: 'you...leave?';
     color: white !important;
     font-size: 31px;
     background: #ff265b;
