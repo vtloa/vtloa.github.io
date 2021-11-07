@@ -40,7 +40,7 @@ a.navbar-brand {
 }
 
 .pc-menu [href="//im.beon.fun"]:before {
-    content: 'Inbox';
+    content: 'Inbox' !important;
     font-size: 11px;
 }
 
