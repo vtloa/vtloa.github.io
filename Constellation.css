@@ -842,12 +842,14 @@ textarea {
     background: #494949;
     border: 5px solid black;
 }
+
 ::-webkit-scrollbar-track {
     background: #000000;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 300px;
+    border-bottom: 2px solid #494949;
+    border-top: 2px solid #494949;
 }
-
 
 
 
