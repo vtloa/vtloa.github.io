@@ -1089,4 +1089,22 @@ ul.menu__box {
 }
 
 
-
+a.navbar-brand:hover:before {
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1);
+}
+a.navbar-brand:before {
+    content: 'Will you leave?';
+    color: white !important;
+    font-size: 31px;
+    background: #ff265b;
+    padding: 15px;
+    border-radius: 0px 10px 10px 10px;
+    position: absolute;
+    left: 70px;
+    bottom: -27px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 1s;
+}
