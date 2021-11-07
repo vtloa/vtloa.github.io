@@ -1,0 +1,1046 @@
+
+
+a.navbar-brand {
+    position: fixed;
+    right: -31px;
+    top: -21px;
+    background: url(https://beon.vip/uploads_user/10000/9008/c8e4b42384409e75fb1946e081a9bb0e.gif) no-repeat center;
+    width: 300px;
+    height: 300px;
+    mix-blend-mode: lighten;
+    font-size: 0;
+    background-size: contain;
+}
+
+.pc-menu td {
+    display: contents;
+}
+
+.pc-menu [href="//im.beon.fun"],
+.pc-menu [href="//beon.fun/whowhere"],
+.pc-menu [href="//beon.fun/communities"],
+.pc-menu [href="//beon.fun/roleplays"],
+.pc-menu [href="//beon.fun/p"],
+.pc-menu [href="//beon.fun/tests"],
+.pc-menu [href$=".beon.fun/friends-activities/"],
+.pc-menu [href="//beon.fun/horoscope/"],
+.pc-menu [href$=".beon.fun"] {
+    font-size: 0;
+}
+
+.pc-menu  [href="//beon.fun/whowhere"]:before {
+    content: 'Whos/where';
+    font-size: 11px;
+}
+
+.pc-menu [href="//im.beon.fun"]:before {
+    content: 'Inbox';
+    font-size: 11px;
+}
+
+.pc-menu  [href="//beon.fun/communities"]:before {
+    content: 'Co';
+    font-size: 11px;
+}
+
+.pc-menu  [href="//beon.fun/roleplays"]:before {
+    content: 'RP';
+    font-size: 11px;
+}
+
+.pc-menu  [href="//beon.fun/p"]:before {
+    content: 'Setting';
+    font-size: 11px;
+}
+
+.pc-menu  [href="//beon.fun/tests"]:before {
+    content: 'Tests';
+    font-size: 11px;
+}
+
+.pc-menu  [href$=".beon.fun/friends-activities/"]:before {
+    content: 'Friends';
+    font-size: 11px;
+}
+
+.pc-menu  [href="//beon.fun/horoscope/"]:before {
+    content: 'Horoscope';
+    font-size: 11px;
+}
+
+.pc-menu [href$=".beon.fun"]:before {
+    content: 'My Diary';
+    font-size: 11px;
+}
+
+.pc-menu a:hover,
+.crumbs [href="/"]:hover:before {
+    color: #dcdcdc !important;
+    letter-spacing: 3px;
+    transition: 0.2s;
+}
+
+/*---------------------------------------------*/
+
+.pc-menu li {
+    display: table-cell;
+}
+
+.pc-menu [href="//beon.fun/discussions"],
+.pc-menu [href="/random"],
+.pc-menu [href$=".beon.fun/preview"],
+.pc-menu [href="//beon.fun/search"],
+.pc-menu [href="//beon.fun/photoeditor"],
+.pc-menu [href$=".beon.fun/logout"],
+.pc-menu [href="//beon.fun/polls/"],
+.pc-menu [href="//beon.fun/p/favourites/"],
+[href$=".beon.fun/friends-posts/"] {
+    display: none;
+}
+
+a.post-subscribe {
+    font-size: 0;
+}
+
+a.post-subscribe:before {
+    content: 'Следить?..';
+    background: #212020;
+    color: #707373 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.pc-menu {
+    position: absolute;
+    left: -40px;
+    top: -2px;
+    font-size: 6px;
+}
+
+
+.pc-menu tr {
+    display: grid !important;
+}
+
+
+nav.navbar {
+    background: transparent;
+    padding: 0px;
+}
+
+input[type="submit"] {
+    background: #212020;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-size: 9px !important;
+    color: #737373 !important;
+    border: none;
+    transition: 1s !important;
+}
+
+img.flag {
+    filter: grayscale(1);
+}
+
+p.quotation:before {
+    content: 'Ответил: ';
+    color: #868686;
+}
+
+p.quotation {
+    border-left: 1px solid #868686;
+    color: #ff265b;
+    font-size: 11px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.post-opt a, .post-opt span {
+    transition: 1s;
+}
+
+.post-opt a:hover, .post-opt span:hover,
+.post-content [href$="/unsubscribe"]:hover:before,
+input[type="submit"]:hover,
+a.post-subscribe:hover:before {
+    letter-spacing: 1px;
+    transition: 1s !important;
+    text-decoration: unset !important;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+.textareabg {
+    background: #111111;
+    padding: 10px;
+}
+
+.comment-base {
+    position: relative;
+}
+
+.comment-base .post-opt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.comment-content {
+    min-height: auto;
+    margin-bottom: 30px;
+}
+
+.comment-content .comment-text {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.comment-content [href^="#"] {
+    font-size: 0;
+}
+
+.comment-box a.user.post-title-user {
+    margin-left: 10px;
+    color: #ff265b;
+}
+
+span.post-title-date {
+    color: #4c4c4c;
+}
+
+.comment-text {
+    color: #aaa;
+}
+
+.comment-base {
+    padding-left: 10px;
+}
+
+.comment-row {
+    background: #111111;
+    padding: 10px;
+}
+
+.comment-box__message-partial.comment-content a {
+    color: #b5b5b5;
+}
+
+.comment-box__message-partial.comment-content {
+    text-align: center;
+    color: #4c4c4c;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-top: 6px;
+}
+
+i.fas.fa-step-backward,i.fas.fa-step-forward {
+    color: #353535;
+}
+.post-content [href$="/unsubscribe"] {
+    font-size: 0;
+}
+
+.prevsibling.col-md-6 a:hover, .nextsibling.text-right.col-md-6 a:hover {
+    background: #ff265b;
+    color: white !important;
+    transition: 0.5s;
+}
+
+.post-content [href$="/unsubscribe"]:before {
+    content: '...забыть?';
+}
+
+.prevsibling.col-md-6 a, .nextsibling.text-right.col-md-6 a,
+.post-content [href$="/unsubscribe"]:before {
+    background: #212020;
+    color: #707373 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.prevsibling.col-md-6 {
+    padding: 0px;
+}
+
+.postsiblings.row {
+    margin-left: 93px;
+}
+
+.post-opt.col-12.col-md-6 div,.post-opt.col-12.col-md-6.text-right a,
+.post-opt.col-12.col-md-6 a,
+.sign,
+.pagination a {
+   color: #6d6d6d !important;
+}
+
+
+
+.post-opt.col-12.col-md-6 [href$="/edit"],
+.post-opt [href$="/edit"],
+ [data-target="#deleteconfirmmodal"] {
+    background: #212020;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-size: 9px !important;
+    color: #737373 !important;
+}
+
+.tag:before {
+    display: none;
+}
+
+
+
+span.post-title-date {
+    padding: 0px;
+}
+
+.post-content a.user.post-title-user {
+    color: #aaa;
+}
+
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+.row.w-100 {
+    margin-left: 0px;
+}
+
+.post-text,.comment-text {
+    color: #8e8e8e;
+}
+.post-text a,.post-opt.col-12.col-md-6 span {
+    color: #d0d0d0;
+}
+.row.w-100 {
+    border-top: 1px solid #757575;
+}
+
+
+.crumbs,.crumbs a {
+    font-size: 0;
+}
+
+.crumbs [href="/"]:before {
+    content: 'Back';
+    font-size: 13px;
+    position: fixed;
+    left: 47px;
+    bottom: 42px;
+    color: #676565;
+    background: black;
+}
+
+.datebg {
+    color: #3a3a3a;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 13px;
+    text-align: right;
+}
+
+
+
+.crumbs {
+    width: 950px;
+    margin: auto;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 490px;
+    z-index: 6;
+    padding: 0px;
+}
+
+.pagination {
+    font-size: 0;
+}
+
+.pagination a {
+    background: #111111;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: unset;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+span.crumb-item {
+    font-size: 0;
+}
+
+nav.navbar a {
+    color: #949494 !important;
+}
+
+
+.post-row {
+    margin-top: 10px;
+}
+
+img.imagefsme {
+    padding: 0px;
+}
+
+.post-text {
+    padding-left: 10px;
+}
+
+.post-avatar {
+    margin: 0px !important;
+}
+
+.post-content>[style="margin-left: 5px;"] {
+    background: #191919;
+    padding: 20px;
+    padding-left: 115px;
+    color: #989898;
+    margin: 0px !important;
+}
+
+a.post-title {
+    display: block;
+    margin-bottom: 3px;
+    color: #aaa;
+    text-decoration: unset;
+    transition: 1s;
+}
+
+.post-content:hover a.post-title {
+    box-shadow: inset 380px 0 #ff265b;
+    color: white !important;
+    transition: 1s;
+    padding-left: 10px;
+}
+
+
+
+.blog__about div {
+    color: transparent;
+}
+
+[action="/search"],
+.blog__about p.left-menu-text,
+.user:before,
+.alert.alert-success,
+.alert.alert-warning {
+    display: none;
+}
+
+
+
+.blog__about div.left-menu-text {
+    display: inline-block;
+    padding: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #6d6d6d;
+    background: #111111;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.blog__about div.left-menu-text a {
+    color: #6d6d6d;
+    background: #111111;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+.blog__about .text-center +.left-menu-text {
+    position: absolute;
+    top: 215px;
+    left: 125px;
+    width: 215px;
+    height: 100px;
+    padding: 5px;
+    color: grey;
+    font-size: 11px;
+    display: block;
+    margin: 0px !important;
+}
+
+.blog__about [src="//beon.fun/i/online.png"] {
+    width: 7px;
+    background: #ff265b;
+    padding: 4px;
+    border-radius: 100%;
+    box-shadow: 0 0 7px 0px #ff265b;
+}
+
+.content h1,.content h2 {
+    display: none;
+}
+
+
+.post-content {
+    background: #111;
+    margin: 0px !important;
+    padding: 10px;
+}
+
+
+main.py-4 {
+    width: 950px;
+    margin: auto;
+}
+
+
+.content {
+    width: 500px;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+
+.post-content {
+    z-index: 7;
+    position: relative;
+}
+
+main.py-4 {
+    flex-direction: row-reverse;
+}
+
+div#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: calc(40px + 1px);
+    margin-left: calc(40px + 1px);
+    width: calc(100vw - (40px * 2) - 1px);
+    height: calc(100vh - (40px * 2) - 1px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+div#app {
+    background: #000 url(https://static.tumblr.com/bf4df2be9d68dc734c20c731b9a5bccd/2pnwama/dc6p3htdt/tumblr_static_e9nkz2zjuk0s004go8swc008o.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    color: #999;
+    line-height: 1.6em;
+    font-size: 12px;
+    border: 1px solid #494949;
+}
+
+body.bodybg {
+    padding: 50px;
+    background: black;
+}
+
+textarea {
+    max-height: 500px;
+    overflow-y: auto !important;
+    padding: 10px;
+}
+
+
+
+
+
+/*Не помню что тут, а нужно ли?..*/
+
+.text-center img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: none;
+    background: url(https://i.pinimg.com/originals/31/62/e5/3162e50ed511648521423c3d949a41be.gif) no-repeat center;
+    padding: 1px;
+    background-size: 145px;
+}
+
+.text-center {
+    top: 200px;
+    left: 0px;
+    background: #111;
+    width: 100%;
+    text-align: left !important;
+    padding: 15px;
+    height: 130px;
+}
+
+
+.left-menu {
+    overflow: hidden !important;
+    width: 350px;
+    border: none !important;
+    position: sticky;
+    top: 95px;
+    padding-top: 200px !important;
+}
+
+
+.left-menu:before {
+    content: 'star';
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+   background: url(https://beon.vip/uploads_user/10000/9008/0a0b360f8fd67159bec29de3ebec17cf.png) no-repeat left 15px top;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    font-size: 0;
+}
+
+
+
+.left-menu>div,h3.left-menu-text {
+    display: none;
+}
+.blog__about {
+    display: block !important;
+}
+
+
+/*Плеер созвездие*/
+
+
+div#beon-fnplayer {
+    background: transparent;
+    height: 0;
+}
+button#fnplayer-stop {
+    display: none;
+}
+
+
+
+button#fnplayer-play {
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    z-index: 111;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    border: none;
+    background: white;
+    box-shadow: 0 0 7px 3px white;
+}
+
+#fnplayer-play.paused {
+    position: absolute;
+    top: 73px;
+    left: 42px;
+    width: 11px;
+    height: 10px;
+    border-radius: 100%;
+    border: none !important;
+    background: white;
+    box-shadow: 0 0 7px 3px white;
+}
+
+
+
+div#fnplayer-slider {
+    position: absolute;
+    top: 149px;
+    left: 24px;
+    background: transparent;
+    width: 72px;
+    transform: rotate(5deg);
+    z-index: 112;
+}
+
+div#fnplayer-slider-inner {
+    height: 2px;
+    background: white;
+    box-shadow: 0 0 5px 1px white;
+}
+
+
+div#fnplayer-slider:before {
+    content: 'st';
+    background: white;
+    position: absolute;
+    left: -9px;
+    top: -3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    font-size: 0;
+    box-shadow: 0 0 4px 1px white;
+}
+
+#fnplayer-play.paused:before {
+    content: 'st2';
+    background: white;
+    position: absolute;
+    left: -1px;
+    top: -19px;
+    width: 2px;
+    height: 25px;
+    font-size: 0;
+    box-shadow: 0 0 4px 1px white;
+    transform: rotate(-29deg);
+}
+
+
+button#fnplayer-play:before {
+    content: 'st2';
+    background: white;
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    width: 2px;
+    height: 25px;
+    font-size: 0;
+    box-shadow: 0 0 4px 1px white;
+    transform: rotate(-29deg);
+}
+
+div#fnplayer-slider span {
+    color: #ff265b;
+    margin-top: 5px;
+}
+
+div#fnplayer-slider span:before {
+    content: 'MUSIC: ';
+    color: #ff265b;
+    margin-left: 5px;
+    margin-top: 10px !important;
+}
+
+
+div#fnplayer-volume {
+    position: absolute;
+    top: 122px;
+    left: 92px;
+    transform: rotate(22deg);
+    background: transparent;
+    z-index: 113;
+}
+
+div#fnplayer-volume-mask {
+    border: none;
+}
+
+div#fnplayer-volume-inner {
+    height: 2px;
+    background: white;
+    box-shadow: 0 0 4px 1px white;
+}
+
+
+div#fnplayer-volume-inner:before {
+    content: 'st3';
+    background: white;
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    box-shadow: 0 0 4px 1px white;
+    font-size: 0;
+}
+
+div#fnplayer-volume-inner:after {
+    content: 's4';
+    background: white;
+    position: absolute;
+    right: -11px;
+    top: 5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    box-shadow: 0 0 4px 2px white;
+    font-size: 0;
+}
+
+.left-menu:before {
+    filter: drop-shadow(0px 0px 2px #FF264A);
+}
+
+
+
+/*ШРИФТ*/
+
+@font-face {
+font-family: 'fontcd2355028bca504c63a432c086eceb52';
+    
+    src:    url('https://nomail.com.ua/files/eot/cd2355028bca504c63a432c086eceb52.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/cd2355028bca504c63a432c086eceb52.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/cd2355028bca504c63a432c086eceb52.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HelveticaNeueCyr-Roman';  src: local('HelveticaNeueCyr-Roman'), url('https://nomail.com.ua/files/woff/cd2355028bca504c63a432c086eceb52.woff') format('woff'); }
+
+
+
+
+* {
+    font-family: 'fontcd2355028bca504c63a432c086eceb52';
+}
+
+a {
+    transition: 0.5s;
+}
+
+a:hover {
+    text-decoration: unset !important;
+    color: #c1c1c1 !important;
+    transition: 0.2s;
+}
+
+textarea {
+    background: #c5c5c5;
+}
+
+/*СКРОЛЛ*/
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+::-webkit-scrollbar-thumb {
+    background: #494949;
+    border: 6px solid black;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+
+
+
+
+
+
+/*АНИМАЦИЯ*/
+
+a.navbar-brand {
+animation: move 50s forwards cubic-bezier(1, 0, 0, 1.11);
+}
+
+@keyframes move {
+0% { transform: scale(0);}
+30% {transform: scale(1.5);}
+40% { right: 78%;
+         top: 50%;}
+70% {transform: scale(0.5);}
+100% {top: 60%;}
+
+}
+
+
+/*АДАПТАЦИЯ*/
+
+@media (max-width: 700px) {
+
+
+.left-menu {
+    padding-top: 0px !important;
+}
+
+div#app {
+    top: 1%;
+    left: 1%;
+    padding: 1%;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+}
+.left-menu {
+    position: unset;
+    width: 100%;
+    padding-top: 0px;
+    overflow: unset;
+}
+.left-menu>div, h3.left-menu-text {
+    display: 0;
+}
+main.py-4 {
+    flex-direction: column;
+}
+
+main.py-4 {
+    width: 99%;
+}
+.text-center {
+    top: 0;
+    left: 0;
+    background: unset;
+    padding: unset;
+    height: unset;
+}
+h3.left-menu-text {
+    display: block;
+}
+.blog__about .text-center +.left-menu-text {
+    position: unset;
+    width: unset;
+    height: unset;
+    background: unset;
+    font-size: unset;
+    margin: unset;
+    display: unset;
+}
+.blog__about {
+    display: unset !important;
+}
+h3.left-menu-text {
+    background: #000000 !important;
+    border-top: 1px solid #ff265b;
+    color: #ff265b;
+}
+.left-menu:before,
+button#fnplayer-play:before,
+#fnplayer-play.paused:before,
+div#fnplayer-slider span:before,
+div#fnplayer-volume-inner:before,
+div#fnplayer-volume-inner:after,
+.crumbs [href="/"]:before,
+[src="/i/user.png"] {
+    display: none;
+}
+
+
+button#fnplayer-play {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 10px;
+    border-color: transparent transparent transparent #ffffff;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-radius: unset;
+    box-shadow: unset;
+    position: unset;
+}
+
+
+div#fnplayer-slider-inner {
+    height: 10px !important;
+    width: 2%;
+}
+div#fnplayer-slider {
+    position: unset;
+    top: unset;
+    left: unset;
+    background: unset;
+    width: unset;
+    transform: unset;
+    height: 10px;
+    background-color: #e6e6e6;
+}
+
+#fnplayer-play.paused {
+    position: unset;
+    background: #ffffff;
+    box-shadow: unset;
+    border-radius: unset;
+    border-color: transparent transparent transparent #999999 !important;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+}
+
+div#fnplayer-slider-inner {
+    box-shadow: unset;
+}
+div#fnplayer-slider span {
+    margin: unset;
+    color: black;
+}
+div#beon-fnplayer {
+    height: 20px;
+}
+#beon-fnplayer {
+    width: 100%;
+}
+div#fnplayer-slider {
+    background: #ff265b;
+}
+
+div#fnplayer-slider-inner {
+    background: #ffffff !important;
+}
+div#fnplayer-volume {
+    position: unset;
+    transform: unset;
+}
+div#fnplayer-volume-inner {
+    background: white;
+    box-shadow: unset;
+}
+.crumbs {
+    width: 99%;
+    margin: auto;
+    position: unset;
+    left: 0;
+    right: 0;
+    top: unset;
+    z-index: 6;
+    padding: 0px;
+}
+.crumbs, .crumbs a {
+    font-size: 15px;
+    color: #999999;
+}
+.left-menu a {
+    color: #b3b3b3;
+}
+
+.fas, .far, .tag_bar > * {
+    font-size: 17px;
+    padding: 0px;
+}
+.mobile_open_menu>* {
+    color: #ff265b !important;
+    font-weight: unset !important;
+    font-size: 20px !important;
+    text-align: right;
+}
+a.navbar-brand {
+    animation: move1;
+}
+
+a.navbar-brand {
+    position: unset;
+    right: unset;
+    top: unset;
+    background: unset;
+    width: unset;
+    height: unset;
+    mix-blend-mode: unset;
+    font-size: 20px;
+    background-size: unset;
+}
+
+
+ul.menu__box {
+    z-index: 888;
+}
+
+label.menu__btn {
+    z-index: 999;
+}
+ul.menu__box {
+    background: #111111;
+}
+}
