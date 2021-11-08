@@ -246,9 +246,7 @@ span.post-title-date {
     color: #aaa;
 }
 
-.comment-base {
-    padding-left: 10px;
-}
+
 
 .comment-row {
     background: #111111;
@@ -1131,7 +1129,8 @@ a.post-title-user {
 }
 
 
-.d-flex.justify-content-between a {
+.d-flex.justify-content-between a,
+.post-content [href^="/chat/"]{
     background: #212020;
     padding-left: 5px;
     padding-right: 5px;
@@ -1146,6 +1145,10 @@ a.post-title-user {
     margin-bottom: 0px;
 }
 
+
+
 .comment-text {
+    padding-top: 5px;
     padding-bottom: 20px;
+    padding-left: 10px;
 }
