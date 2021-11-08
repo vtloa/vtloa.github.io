@@ -1162,3 +1162,7 @@ a.post-title-user {
 nav.navbar {
     box-shadow: unset !important;
 }
+
+.textareabg {
+    position: relative;
+}
