@@ -1145,3 +1145,7 @@ a.post-title-user {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.comment-text {
+    padding-bottom: 20px;
+}
