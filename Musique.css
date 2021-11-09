@@ -1,3 +1,7 @@
+.comment-text a {
+    color: white;
+}
+
 p.quotation:before {
     content: 'Ответ на: ';
     color: black;
