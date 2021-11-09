@@ -1216,5 +1216,5 @@ input[type="submit"]:focus {
 
 
 .post-text [style^="font-size:"]:before {
-    display: block;
+    display: none;
 }
