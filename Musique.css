@@ -33,7 +33,7 @@ input[type="submit"] {
 }
 
 [action="/search"]:before {
-    content: 'Move.mp4';
+    content: 'Video.mp4';
     color: black;
     font-weight: bold;
     font-family: 'font247a302ecd7b973ec09cc5f652a7eaf1';
