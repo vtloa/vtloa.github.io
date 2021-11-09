@@ -286,7 +286,11 @@ span.pagination-goto {
 }
 
 [src="//beon.fun/i/online.png"], [src="/i/online.png"] {
-    filter: hue-rotate( 127deg) saturate(20) brightness(0.6);
+    background: url(https://img.icons8.com/color/2x/music.png) no-repeat center / contain;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    filter: hue-rotate(-100deg);
 }
 
 .blog__read-me a,.left-menu-text [href^="//beon.fun/users/"],.blog__tags a,
