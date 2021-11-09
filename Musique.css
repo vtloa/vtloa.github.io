@@ -1,3 +1,15 @@
+p.quotation:before {
+    content: 'Ответ на: ';
+    color: black;
+}
+p.quotation {
+    padding: 0px;
+    padding-left: 5px;
+    border-left: 1px solid black;
+    margin: 0px;
+    color: white;
+}
+
 
 
 input[type="submit"] {
