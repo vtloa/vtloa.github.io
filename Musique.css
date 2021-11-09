@@ -1143,4 +1143,7 @@ a.navbar-brand {
     margin: auto !important;
     width: 127px;
 }
+.blog__about [action="/search"] {
+    display: none;
+}
 }
