@@ -1203,3 +1203,9 @@ a.navbar-brand {
     transition: 0.3s cubic-bezier(0.42, 0, 0.32, 1.6);
 }
 
+
+input[type="submit"]:focus {
+    background: #000000;
+    color: #fec12b;
+}
+
