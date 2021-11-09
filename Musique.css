@@ -1,3 +1,7 @@
+.nextsibling.text-right.col-md-6 {
+    display: none;
+}
+
 .comment-text a {
     color: white;
 }
