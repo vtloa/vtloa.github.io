@@ -1192,3 +1192,14 @@ a.navbar-brand {
 .post-content [style="margin-left: 5px;"] a {
     transition: 0.5s;
 }
+
+
+a.navbar-brand:hover {
+    transform: rotate(24deg) rotateX(25deg);
+    transition: 0.3s cubic-bezier(0.42, 0, 0.32, 1.6);
+}
+
+a.navbar-brand {
+    transition: 0.3s cubic-bezier(0.42, 0, 0.32, 1.6);
+}
+
