@@ -748,6 +748,7 @@ a.my-menu.for-mobile.d-none.d-md-inline:focus {
     height: 120px;
     width: 100%;
     transition: 0.2s cubic-bezier(0.4, 0, 1, 1);
+    z-index: 9999;
 }
 
 
