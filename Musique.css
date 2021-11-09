@@ -285,10 +285,8 @@ span.pagination-goto {
     filter: brightness(0.5);
 }
 
-[src="//beon.fun/i/online.png"],[src="/i/online.png"] {
-    filter: hue-rotate(
-127deg
-) saturate(7.5) brightness(0.7);
+[src="//beon.fun/i/online.png"], [src="/i/online.png"] {
+    filter: hue-rotate( 127deg) saturate(20) brightness(0.6);
 }
 
 .blog__read-me a,.left-menu-text [href^="//beon.fun/users/"],.blog__tags a,
