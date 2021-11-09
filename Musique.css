@@ -1214,3 +1214,7 @@ input[type="submit"]:focus {
     color: black !important;
 }
 
+
+.post-text [style^="font-size:"]:before {
+    display: block;
+}
