@@ -1209,3 +1209,7 @@ input[type="submit"]:focus {
     color: #fec12b;
 }
 
+.post-opt div {
+    color: black !important;
+}
+
