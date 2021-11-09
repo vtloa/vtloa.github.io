@@ -1181,3 +1181,14 @@ a.navbar-brand {
     transition: 0.5s;
     transform: translateY(-10px);
 }
+
+
+.post-content [style="margin-left: 5px;"] a:hover {
+    color: white !important;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.post-content [style="margin-left: 5px;"] a {
+    transition: 0.5s;
+}
