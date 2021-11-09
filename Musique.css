@@ -936,12 +936,13 @@ a.navbar-brand:before {
 a.navbar-brand {
     background: url(https://i1.beon.fun/21/15/1521/3/86003/59c0cb999957715e991b501c.png) no-repeat center / contain;
     position: fixed;
-    right: 180px;
-    top: 115px;
+    right: 2px;
+    bottom: 100px;
     font-size: 0px;
     width: 100px;
     height: 171px;
     transform: rotate(24deg);
+    z-index: 88;
 }
 
 
