@@ -1157,3 +1157,27 @@ a.navbar-brand {
     display: none;
 }
 }
+
+
+
+/*UPD*/
+
+.left-menu a {
+    transition: 0.5s;
+}
+.left-menu a:hover {
+    color: #1f4de3 !important;
+    text-decoration: unset;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.row.w-100 a, .row.w-100 span {
+    transition: 0.5s;
+}
+.row.w-100 a:hover, .row.w-100 span:hover {
+    color: #1f4de3 !important;
+    text-decoration: unset;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
