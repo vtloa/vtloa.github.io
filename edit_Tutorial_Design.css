@@ -1,0 +1,183 @@
+/*----------------------------*/
+
+
+
+/*edit*/
+
+
+/*Памятка для юного дезигнера, пройдусь по некоторым свойствам, 
+которые тут используются:
+background - это свойство отвечает за фон;
+background-size - отвечае за размер фона;
+background-color - цвет фона;
+border - это бордюр вокруг блока;
+color - цвет текста;
+font-size - размер текста;
+box-shadow - тень блока;
+!important - нужен для того, чтобы задать приоритет стиля элемента, отличного от изначального, свойство с  !important в конце перезапишет старый стиль на новый;
+*/
+
+body.bodybg /* фон страницы */ {
+    background: url(https://beon.vip/uploads_image/b3/00/b3003686a5ea0225e3f7b8e05463ace7.png) no-repeat right top fixed;
+    background-size: contain;
+    background-color: #f8f8f8;
+}
+
+div#app /*фон основного блока */ {
+    background: #ffffff9e;
+    background-size: contain; /*это значит, что картинка подгоняется под размер контейнера*/
+}
+
+
+
+.blog__about:before /* "шапка" над аватаркой */  {
+    background: url(https://beon.vip/uploads_user/10000/9008/947843f55f39d7b87ca6e33d2d33db4e.png) no-repeat center;
+    background-size: auto; /*это значит, что картинка использует свой оригинальный размер*/
+}
+
+.text-center img /*цвет бордера*/ {
+    border: 4px solid white; 
+}
+
+.text-center img /*замена главной аватарки*/ {
+    content: url(https://beon.vip/uploads_user/10000/9008/6ce520fba85794e2192962d96f0c3b14.png);
+}
+
+h3.left-menu-text /* фон плашек друзья, о себе, подарки и т.д*/ {
+    background: #2b2b2b !important;
+}
+
+.crumbs /*фон нафигации (переход на страницы и название днева)*/  {
+    background: #e6e6e661;
+}
+
+.crumbs a /*цвет ссылок навигации (переход на страницы и т.д)*/ {
+    color: #ec0909;
+}
+
+
+.datebg /*фон и цвет даты*/ {
+    background: transparent;
+    color: black;
+}
+
+
+
+
+
+
+.post-text /*цвет и размер текста постов*/ {
+    font-size: 13px; /*цвет*/
+    color: black; /*размер*/
+}
+
+.post-text a /*цвет ссылок постов*/ {
+    color: #ec0909;
+}
+
+.post-opt  a,
+.post-opt span
+/*текст редактировать, удалить, комментарии постов и комментов*/ {
+    color: black;
+    font-weight: bold; /*жирность текста*/
+}
+
+.left-menu a /*цвет ссылок правого меню*/ {
+    color: black;
+}
+
+a.post-title /*цвет заголовков постов*/ {
+    color: black;
+}
+
+a.user.post-title-user  /*цвет никнейма постов*/ {
+    color: black;
+}
+
+
+
+
+
+nav.navbar /* фон "шапки" (там где BeOn.Fun) */  {
+    background: white;
+}
+
+.post-content /* фон блока с постом */  {
+    background: white;
+}
+
+.left-menu>div /* фон блоков левого меню */ {
+    background: white;
+}
+
+
+.comment-box /*фон блока с комментами*/ {
+    background: transparent;
+}
+
+.comment-row /*сами комментарии (там где аватарка и текст)*/ {
+    background: white;
+}
+
+
+.comment-text /*цвет и размер текста постов*/ {
+    font-size: 13px;
+    color: black;
+}
+
+
+
+i.fas.fa-trash-alt,.comment-content [href^="#"],
+.prevsibling.col-md-6,
+.prevsibling.col-md-6 a,
+.nextsibling.text-right.col-md-6,
+.nextsibling.text-right.col-md-6 a,
+.comment-box__message-partial.comment-content a {
+    font-size: 13px;
+    color: black;
+}
+
+.post-content [href$="/unsubscribe"]:before, /*отписаться*/
+a.post-subscribe:before /*подписаться*/ {
+    font-size: 13px;
+    color: #ec0909;
+}
+
+
+
+/*Кстати, когда нужно записать одинаковые свойства и значения для каких то элементов, их можно перечислить через запятую, тогда эти стили применятся ко всем упомянутым элементам.
+Например:
+a.post-title,
+a.user.post-title-user {
+    color: black;
+}
+Этим можно не принебрегать (хотя сам часто пропускаю...)
+*/
+
+
+
+/*Скроллбар*/
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #2b2b2b;
+    border: 4px solid #f8f8f8;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid #f8f8f8;
+    cursor: pointer;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #ccc;
+    border: 6px solid #f8f8f8;
+    border-top: 10px solid #f8f8f8;
+    border-bottom: 10px solid #f8f8f8;
+}
