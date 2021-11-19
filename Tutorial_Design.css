@@ -1,0 +1,379 @@
+.post-content ,
+.left-menu>div,
+nav.navbar {
+    box-shadow: 0px 5px 7px #00000017 !important;
+}
+
+
+span.post-title-date {
+    padding: 0px;
+    color: #c1c1c1;
+    font-size: 10px;
+}
+
+a.post-title {
+    font-size: 25px;
+    color: black;
+    text-decoration: unset;
+}
+
+.left-menu a {
+    font-size: 13px;
+}
+
+.pagination a {
+    font-size: 13px;
+    padding-left: 10px;
+}
+.pagination {
+    font-size: 0;
+}
+
+div.right-menu-text a {
+    font-size: 0;
+}
+div.right-menu-text a:before {
+    content: 'изучить >>';
+    font-size: 13px;
+}
+
+
+.sign {
+    font-size: 9px;
+    color: black;
+}
+
+.crumbs {
+    margin-bottom: 35px !important;
+    margin-top: 25px !important;
+    border-radius: 10px;
+}
+
+.datebg {
+    color: #000000;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.left-menu__gift {
+    font-size: 0;
+}
+.left-menu__gift img {
+    width: 42px;
+}
+
+p.left-menu-text {
+    margin-bottom: 0px;
+}
+
+.blog__about {
+    text-align: center;
+}
+
+.left-menu-text [action="/search"] {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.blog__about {
+    overflow: hidden;
+}
+
+main.py-4 {
+    flex-direction: row-reverse;
+}
+
+
+
+.left-menu {
+    width: 30%;
+    border: none !important;
+}
+
+nav.navbar {
+    position: sticky;
+    top: -22px;
+    z-index: 3;
+    padding: 0px;
+    border-radius: 15px;
+}
+
+
+.container {
+    font-size: 0px;
+}
+
+div#app {
+    width: 1100px;
+    height: 650px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.content {
+    width: 60%;
+    margin-right: auto;
+}
+
+
+textarea {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+
+/*NONE*/
+
+.alert.alert-success,
+.content h1,.content h2 {
+    display: none;
+}
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*.............................................................................*/
+
+
+/*Плеер*/
+
+div#beon-fnplayer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ffffff80;
+}
+
+div#fnplayer-slider {
+    height: 4px;
+    background: #e0e0e0;
+    margin-right: 20px;
+}
+
+div#fnplayer-slider-inner {
+    position: absolute;
+    top: -4px;
+    background: transparent;
+    border-right: 2px solid #424242;
+}
+
+div#fnplayer-slider span {
+    font-size: 0;
+}
+
+#fnplayer-play {
+    border: none !important;
+    background: url(https://img.icons8.com/small/2x/circled-play.png) no-repeat center / contain !important;
+    width: 25px !important;
+    height: 16px !important;
+}
+
+#fnplayer-play.paused {
+    border: none !important;
+    background: url(https://img.icons8.com/small/2x/circled-pause.png) no-repeat center / contain !important;
+    width: 25px !important;
+    height: 16px !important;
+}
+
+button#fnplayer-stop {
+    border: none !important;
+    background: url(https://img.icons8.com/small/2x/multiply-2.png) no-repeat center / contain !important;
+    width: 25px !important;
+    height: 16px !important;
+}
+
+div#fnplayer-volume-mask {
+    border: none;
+    position: relative;
+}
+
+
+div#fnplayer-volume-mask:before {
+    content: 'volume';
+    font-size: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -17px;
+    top: -10px;
+    background: url(https://img.icons8.com/small/2x/low-volume.png) no-repeat center / contain;
+}
+
+div#fnplayer-volume-inner {
+    background: #636363;
+    height: 4px;
+}
+
+div#fnplayer-volume {
+    background: #e0e0e0;
+    height: 4px;
+}
+
+/*Правая сторона*/
+
+.text-center img {
+    width: 100px;
+    height: 100px;
+    object-fit: none;
+    border-radius: 100%;
+}
+
+
+
+.blog__about:before {
+    content: 'pred';
+    font-size: 0;
+    display: block;
+    height: 166px;
+}
+
+
+.blog__about h3.left-menu-text {
+    display: none;
+}
+
+.text-center {
+    margin-top: -50px;
+}
+
+.post-content {
+    margin: 0px !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.left-menu>div {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/*edit*/
+
+
+/*Памятка для юного дезигнера, пройдусь по некоторым свойствам, 
+которые тут используются:
+
+background - это свойство отвечает за фон;
+background-size - отвечае за размер фона;
+background-color - цвет фона;
+border - это бордюр вокруг блока;
+color - цвет текста;
+font-size - размер текста;
+box-shadow - тень блока;
+
+!important - нужен для того, чтобы задать приоритет стиля элемента, отличного от изначального, свойство с  !important в конце перезапишет старый стиль на новый;
+
+*/
+
+body.bodybg /* фон страницы */ {
+    background: url(https://beon.vip/uploads_image/b3/00/b3003686a5ea0225e3f7b8e05463ace7.png) no-repeat right top fixed;
+    background-size: contain;
+    background-color: #f8f8f8;
+}
+
+div#app /* фон основного блока */ {
+    background: #ffffff9e;
+    background-size: contain; /*это значит, что картинка подгоняется под размер контейнера*/
+}
+
+
+
+.blog__about:before /* "шапка" над аватаркой */  {
+    background: url(https://beon.vip/uploads_user/10000/9008/947843f55f39d7b87ca6e33d2d33db4e.png) no-repeat center;
+    background-size: auto; /*это значит, что картинка использует свой оригинальный размер*/
+}
+
+.text-center img /*цвет бордера*/ {
+    border: 4px solid white; 
+}
+
+.text-center img /*замена картинки*/ {
+    content: url(https://beon.vip/uploads_user/10000/9008/6ce520fba85794e2192962d96f0c3b14.png);
+}
+
+h3.left-menu-text /*Друзья, о себе, подарки и т.д*/ {
+    background: #2b2b2b !important;
+}
+
+.crumbs /*нафигация (переход на страницы и название днева)*/  {
+    background: #e6e6e661;
+}
+
+.crumbs a /*цвет ссылок навигации (переход на страницы и т.д)*/ {
+    color: #ec0909;
+}
+
+
+.datebg /*дата*/ {
+    background: transparent;
+    color: black;
+}
+
+
+
+.post-content /* цвет блоков постов */ ,
+.left-menu>div /* цвет блоков левого меню */,
+nav.navbar /* цвет "шапки" (там где BeOn.Fun) */  {
+    background: white;
+}
+
+
+.post-text /*цвет и размер текста постов*/ {
+    font-size: 13px; /*цвет*/
+    color: black; /*размер*/
+}
+
+.post-text a /*цвет ссылок постов*/ {
+    color: #ec0909;
+}
+
+.post-opt.col-12.col-md-6 a,.post-opt.col-12.col-md-6 span 
+/*редактировать, удалить, комментарии постов*/ {
+    color: black;
+    font-weight: bold; /*жирность текста*/
+}
+
+.left-menu a /*цвет ссылок правого меню*/ {
+    color: black;
+}
+
+a.post-title /*цвет заголовков постов*/ {
+    color: black;
+}
+
+a.user.post-title-user  /*цвет никнейма постов*/ {
+    color: black;
+}
+
+
+/*Кстати, когда нужно записать одинаковые свойства и значения для каких то элементов, их можно перечислить через запятую, тогда эти стили применятся ко всем упомянутым элементам.
+
+Например:
+
+a.post-title,
+a.user.post-title-user {
+    color: black;
+}
+
+Этим можно не принебрегать (хотя сам часто пропускаю...)
+
+*/
