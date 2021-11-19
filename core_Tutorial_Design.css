@@ -364,6 +364,13 @@ div#fnplayer-volume {
 }
 
 
+.post-content {
+    margin-top: 10px !important;
+}
+
+.left-menu>div,.post-content,.comment-row {box-shadow: 0 4px 7px #0000003b;}
+
+
 
 /*MEDIA*/
 
