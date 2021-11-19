@@ -403,9 +403,13 @@ body.bodybg {
 .post-avatar img {
     width: 62px;
 }
+    
 div#app {
     padding: 5px;
+    position: unset;
+    overflow: auto;
 }
+    
 nav.navbar {
     top: 0px;
 }
