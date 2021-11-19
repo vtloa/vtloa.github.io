@@ -86,7 +86,6 @@ a.post-subscribe:before {
 }
 
 
-
 p.quotation:before {
     content: 'Ответ: ';
     color: #000000;
@@ -106,11 +105,6 @@ p.quotation {
     margin-top: 20px;
 }
 
-.post-content ,
-.left-menu>div,
-nav.navbar {
-    box-shadow: 0px 5px 7px #00000017 !important;
-}
 
 
 span.post-title-date {
