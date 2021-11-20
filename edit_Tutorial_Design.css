@@ -67,8 +67,8 @@ h3.left-menu-text /* фон плашек друзья, о себе, подарк
 
 
 .post-text /*цвет и размер текста постов*/ {
-    font-size: 13px; /*цвет*/
-    color: black; /*размер*/
+    font-size: 13px; /*размер*/
+    color: black; /*цвет*/
 }
 
 .post-text a /*цвет ссылок постов*/ {
