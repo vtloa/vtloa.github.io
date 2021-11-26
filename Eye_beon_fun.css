@@ -1,0 +1,584 @@
+div#fnplayer-slider span {
+    font-size: 0;
+}
+
+.textareabg div {
+    color: black;
+}
+
+
+p.quotation {
+    margin-bottom: 5px;
+}
+
+.comment-box__message-partial.comment-content {
+    text-align: center;
+    font-size: 0px;
+    box-shadow: unset;
+}
+
+
+.comment-box__message-partial.comment-content a {
+    font-size: 13px;
+}
+
+
+.textareabg p {
+    color: black;
+    font-weight: bold;
+}
+
+.textareabg input[type="submit"] {
+    border-width: 1px;
+    border-style: outset;
+    border-radius: 0.20rem;
+}
+
+img.dropbtn {
+    width: 19px;
+    height: 19px;
+    object-fit: cover;
+    background: transparent;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+    color: white;
+}
+
+.textareabg {
+    background: transparent;
+    border: none;
+}
+
+
+
+
+.tag_bar {
+    background: #f7f7f7;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: fit-content;
+    border: 1px solid #999999 !important;
+    padding-left: 5px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.post-content {
+    margin: 0px !important;
+    padding: 5px;
+}
+
+
+
+div#app {
+    padding: 7px;
+}
+
+.crumbs a {
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+.pagination a {
+    font-weight: bold;
+    font-size: 12px;
+}
+.pagination {
+    color: transparent;
+}
+
+span.pagination-goto {
+    display: none;
+}
+
+span.crumb-item {
+    padding-bottom: 8px;
+}
+
+.crumbs {
+    margin-top: 50px !important;
+    padding: 0px;
+}
+
+.post-content [style="margin-left: 5px;"] span {
+    font-size: 10px;
+}
+
+.post-opt.col-12.col-md-6.text-right [href$="-read"]:before {
+    content: url(https://beon.vip/uploads_image/71/50/715044e0c83a70eed9b995b221242f83.png);
+}
+
+.row.w-100 * {
+    font-size: 11px;
+}
+
+a.user.post-title-user {
+    font-size: 14px;
+}
+
+span.post-title-date {
+    font-size: 10px;
+}
+
+
+.datebg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    margin-top: 10px;
+}
+
+.blog__read-me,.blog__iread,.blog__last-comments {
+    font-size: 12px;
+}
+
+div#beon-fnplayer {
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+div.left-menu-text,
+.container,
+nav.navbar {
+    padding: 0px;
+}
+
+
+p.left-menu-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0px !important;
+}
+
+a.navbar-brand {
+    margin: 0px;
+}
+
+
+.pc-menu {
+    width: 83%;
+    margin: auto;
+}
+
+ul.navbar-nav.ml-auto * {
+    font-size: 10px;
+    color: #383838 !important;
+}
+
+ul.navbar-nav.ml-auto {
+    background: #f7f7f7;
+    padding: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 99%;
+    border: 1px solid #ebebeb;
+}
+
+nav.navbar {
+    background: transparent;
+    box-shadow: unset !important;
+}
+
+span.post-title-date {
+    padding: 0px;
+}
+
+.left-menu__user-notification a.left-menu-text:after {
+    content: ' >>';
+}
+.left-menu__user-notification a.left-menu-text {
+    text-align: right !important;
+    display: block;
+    font-size: 11px;
+    padding-right: 5px;
+    text-transform: lowercase;
+}
+
+.content h1, .content h2,
+.left-menu br {
+    display: none;
+}
+
+
+
+div.right-menu-text a {
+    font-size: 11px;
+}
+
+.left-menu>div {
+    margin-bottom: 0px !important;
+    padding-left: 5px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+h3.left-menu-text {
+    margin-left: -5px !important;
+    padding: 5px;
+}
+
+h3.left-menu-text {
+    position: absolute;
+    margin-top: -35px !important;
+    width: 100%;
+}
+
+
+.left-menu {
+    border: none !important;
+    position: relative;
+}
+
+.blog__about h3.left-menu-text:after,
+.blog__tags h3.left-menu-text:after,
+.blog__last-comments h3.left-menu-text:after {
+    content: ':';
+}
+
+
+.left-menu {
+    width: 25%;
+}
+
+textarea {
+    max-height: 400px;
+    overflow-y: auto !important;
+    padding: 5px;
+}
+
+
+a.navbar-brand {
+    width: 20%;
+    margin: 0px;
+    height: 80px;
+    border-radius: 3px;
+}
+
+/*----------Текстуры------------*/
+
+
+body.bodybg {
+    background: url(https://beon.vip/uploads_image/d1/8e/d18e1343b4e329447a9f9f1cb455918d.png) no-repeat fixed right top / cover;
+}
+
+
+.left-menu * {
+    color: #585858 !important;
+}
+
+a.navbar-brand {
+    background: url(https://beon.vip/uploads_image/92/a9/92a9e59058f9e39a565c27bd798f52ea.png) no-repeat left top -21px;
+    background-color: #0c0c0c;
+    filter: drop-shadow(2px 4px 6px black);
+    background-size: cover;
+}
+
+a.navbar-brand {
+    color: #a58357 !important;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+}
+
+h3.left-menu-text,
+.datebg {
+    background: url(https://beon.vip/uploads_image/67/71/67716842d296bc99fd8cbd4768c1cd26.png) no-repeat,
+    linear-gradient( 45deg , #130d09, transparent) !important;
+    background-size: 24px, auto !important;
+    background-position: 2px -1px, 0px !important;
+    padding-left: 25px !important;
+    border-left: 7px double #817f80;
+    filter: drop-shadow(2px 4px 6px black);
+    color: #817f80 !important;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.datebg {
+    font-size: 17px;
+    background-size: 30px, auto !important;
+}
+
+.left-menu>div {
+    background: #030302e3;
+    box-shadow: 1px 4px 11px #000000ad;
+}
+
+
+
+.post-content {
+    background: url(https://beon.vip/uploads_image/f8/a7/f8a71789181b4a02f81b3fbb717c17ef.png) no-repeat right 4px bottom 26px,
+    linear-gradient( 45deg , black, #130b07b5);
+    box-shadow: 1px 4px 11px #000000ad;
+    text-shadow: 1px 1px black;
+}
+
+span.crumb-item,.crumbs a {
+    background: url(https://beon.vip/uploads_user/10000/9008/9e4ada4eb78bdebc120582d21fc06412.png) no-repeat left bottom;
+    color: #9b9a99;
+}
+
+.pagination a {
+    color: #b9b9b8;
+}
+
+.pagination a {
+    background: transparent;
+}
+
+.left-menu a {
+    transition: 0.5s;
+}
+.left-menu a:hover {
+    color: #a3a2a1 !important;
+    text-shadow: 0 0 3px #a3a2a1;
+    transition: 0.5s;
+    text-decoration: unset;
+}
+
+
+
+a.post-title {
+    color: #d2d0d0 !important;
+    color: #d2d0d0;
+}
+
+.post-text, .comment-content {
+    color: #96714e;
+}
+
+a.user.post-title-user, .post-text a,
+.post-opt.col-12.col-md-6 span {
+    color: #d2d0d0;
+    text-decoration: unset;
+}
+
+.comment-content {
+    background: linear-gradient( 45deg, black, #00000042);
+    padding: 5px;
+    box-shadow: 1px 4px 11px #000000ad;
+}
+
+
+span.repostbutton, i.fas.fa-trash-alt, i.fas.fa-quote-left,
+.comment-base .post-opt *,
+.prevsibling.col-md-6 a,
+.nextsibling.text-right.col-md-6 a,
+[href$="/unsubscribe"],
+a.post-subscribe {
+    color: #d2d0d078;
+    transition: 0.5s;
+    font-size: 11px;
+}
+
+span.repostbutton:hover, i.fas.fa-trash-alt:hover, i.fas.fa-quote-left:hover,
+.comment-base .post-opt *:hover,
+.prevsibling.col-md-6 a:hover,
+.nextsibling.text-right.col-md-6 a:hover,
+[href$="/unsubscribe"]:hover,
+a.post-subscribe:hover {
+    color: #d2d0d0;
+    transition: 0.5s;
+    text-decoration: unset;
+}
+
+.comment-base .post-opt {
+    text-align: end;
+}
+
+.comment-content [href^="#"] {
+    font-size: 10px;
+    color: #d2d0d0;
+}
+
+.comment-box__message-partial.comment-content a {
+    color: #8e6a47;
+}
+
+a.tag {
+    color: #8e6a47 !important;
+}
+
+div#beon-fnplayer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background: #0e0e0e;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #a9a9a8;
+}
+
+
+button#fnplayer-stop {
+    background: #a9a9a8;
+}
+
+#fnplayer-volume-mask {
+    border-color: #1f1f1f transparent transparent transparent !important;
+}
+
+div#fnplayer-volume-inner {
+    background-color: #a9a9a8;
+}
+
+div#fnplayer-slider {
+    background: #1f1f1f;
+}
+.post-content {
+    margin-top: 15px !important;
+}
+
+div#footer {
+    display: none;
+}
+
+
+.col-md-4 {
+    padding: 0px;
+}
+
+.col-md-4 p, .col-md-4 div, .container-fluid.mt-5+br+br+p {
+    color: #e2e2e2 !important;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+}
+
+.textareabg {
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+}
+
+a.user.post-title-user {
+    text-decoration: underline;
+}
+
+
+/*MEDIA*/
+@media (max-width: 700px) {
+.container {
+    background: url(https://beon.vip/uploads_image/92/a9/92a9e59058f9e39a565c27bd798f52ea.png) no-repeat;
+    filter: unset;
+    background-size: cover;
+}
+
+a.navbar-brand {
+    width: unset;
+    background: transparent;
+    filter: unset;
+    padding-left: 0px;
+}
+
+.left-menu {
+    width: 100%;
+}
+.content {
+    margin: 0px;
+}
+.datebg {
+    margin-left: unset;
+}
+.post-avatar img {
+    max-width: 62px;
+}
+.textareabg {
+    margin: 0px !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 18px;
+}
+
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    color: #a58357;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+ul.navbar-nav.ml-auto {
+    padding: 0px;
+    width: unset;
+    border: none;
+    background: transparent;
+}
+.mobile_open_menu {
+    text-align: center;
+    background: transparent !important;
+}
+div.right-menu-text a {
+    font-size: 15px;
+}
+
+.mobile_open_menu h3.left-menu-text {
+    background: #271d16 !important;
+    border: 1px outset #655a52;
+    padding: 0px;
+    border-radius: 5px;
+    color: #755c4a !important;
+}
+i.fas.fa-angle-down {
+    display: none;
+}
+.pagination a {
+    font-size: 15px;
+}
+label.menu__btn {
+    filter: sepia(1) brightness(0.8) saturate(2.0);
+}
+
+ul.menu__box {
+    background: #000000d1;
+    border-left: 1px solid #655a52;
+}
+
+ul.menu__box a {
+    color: #929292;
+}
+.menu__item:hover {
+    background-color: #252525;
+    color: #cccccc;
+    text-decoration: unset;
+}
+.form__show-avatars {
+    background: #00000052;
+    text-align: center;
+    color: #b1b1b1 !important;
+    font-weight: bold;
+}
+.container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+span.repostbutton, i.fas.fa-trash-alt, i.fas.fa-quote-left, .comment-base .post-opt *, .prevsibling.col-md-6 a, .nextsibling.text-right.col-md-6 a, [href$="/unsubscribe"], a.post-subscribe {
+    color: #d2d0d078;
+    transition: 0.5s;
+    font-size: 13px;
+}
+
+.comment-content {
+    background: linear-gradient( 168deg, black,#000000ad, transparent);
+    padding: 5px;
+    box-shadow: 1px 4px 11px #000000ad;
+}
+}
