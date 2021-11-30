@@ -633,3 +633,11 @@ ul.menu__box {
     color: #ececec;
 }
 }
+
+
+/*UPD*/
+
+.pagination {
+    float: right;
+    padding-right: 5px;
+}
