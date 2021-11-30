@@ -646,3 +646,15 @@ ul.menu__box {
 span.pagination-goto {
     display: none;
 }
+
+i.fas.fa-trash-alt {
+    color: #212529;
+}
+
+p.quotation {
+    border-color: #a94f47;
+    padding: 0px;
+    padding-left: 5px;
+    font-size: 11px;
+    color: #a94f47;
+}
