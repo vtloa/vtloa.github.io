@@ -632,6 +632,14 @@ ul.menu__box {
     box-shadow: 2px 2px 3px #000000ab;
     color: #ececec;
 }
+    
+.post-content [style="margin-left: 5px;"] {
+    padding-left: 0px;
+}
+    
+.datebg {
+    padding-left: 7px;
+}
 }
 
 
