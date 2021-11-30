@@ -382,6 +382,7 @@ span.post-title-date {
     padding-right: 5px;
     text-transform: lowercase;
     transition: 0.2s;
+    text-decoration: unset !important;
 }
 
 .post-opt.col-12.col-md-6 a:hover, .post-opt.col-12.col-md-6 span:hover,
