@@ -1,0 +1,634 @@
+.content {
+    width: 80%;
+    margin-left: 10px;
+}
+
+span.crumb-item {
+    position: absolute;
+    top: 186px;
+    right: 83px;
+    font-size: 100px;
+    transform: rotate(-7deg);
+    font-family: 'fonte3d810623b503f7a72648b985fa30781';
+}
+
+main.py-4 {
+    background: #ececec;
+    box-shadow: inset 0 0 20px #00000014;
+}
+
+div#app {
+    box-shadow: 0px 5px 12px #0000008c;
+}
+
+div#app {
+    padding: 0px;
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+
+.bg-white {
+    height: 60px;
+    padding: 0px;
+    background-color: #191818;
+    background-image: url(https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png);
+}
+
+
+
+.bg-white+.crumbs {
+    padding: 0px;
+    margin: 0px !important;
+    background: #191818;
+    height: 425px;
+    width: 100%;
+    border: 3px solid #191818;
+}
+.crumbs {
+    text-align: center;
+}
+
+.crumbs a {
+    color: #d82228;
+    transition: 0.2s;
+}
+
+.crumbs a:hover {
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.bg-white+.crumbs:before {
+    content: '1';
+    font-size: 0;
+    display: block;
+    background: url(https://beon.vip/uploads_image/dd/9f/dd9f92b296c9a6fb8b4a2515f0bc799d.png) no-repeat center left;
+    background-color: #e9e9e9;
+    height: 396px;
+    border-bottom: 2px solid black;
+}
+
+body.bodybg {
+    background: url(https://www.transparenttextures.com/patterns/always-grey.png) fixed, 
+       url(https://beon.vip/uploads_image/74/49/74495c158a122f536427bd67716f5a46.png) no-repeat left bottom fixed, 
+       url(https://beon.vip/uploads_image/2c/bb/2cbb0638e4ea408385a09af79758d96d.png) no-repeat right bottom fixed;
+    background-color: #f5f5f5;
+}
+
+
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+
+.textarea-wrapper {
+    position: relative;
+}
+
+/*ФОНТ*/
+
+@font-face {
+font-family: 'fonte3d810623b503f7a72648b985fa30781';
+    
+    src:    url('https://nomail.com.ua/files/eot/e3d810623b503f7a72648b985fa30781.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/e3d810623b503f7a72648b985fa30781.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/e3d810623b503f7a72648b985fa30781.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HiltonCYR';  src: local('HiltonCYR'), url('https://nomail.com.ua/files/woff/e3d810623b503f7a72648b985fa30781.woff') format('woff'); }
+
+
+
+/*ФОНТ 2*/
+
+@font-face {
+font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+    
+    src:    url('https://nomail.com.ua/files/eot/2127aa6d0680b144a3bd8be9debeba09.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/2127aa6d0680b144a3bd8be9debeba09.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HelveticaNeueCyr-Light';  src: local('HelveticaNeueCyr-Light'), url('https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff') format('woff'); }
+
+
+
+
+/*хамбургер*/
+
+
+.hamburger-menu {
+    display: block !important;
+    position: fixed;
+    right: 5%;
+    top: 27px;
+    z-index: 4;
+}
+
+ul.menu__box {
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 8px black;
+    margin-top: 85px;
+    overflow: auto;
+    width: fit-content;
+    background-color: #191818;
+    background-image: url(https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png);
+}
+
+a.menu__item {
+    color: #b9b9b9;
+    letter-spacing: 1px;
+}
+
+.menu__item:hover {
+    background-color: #3c3c3c;
+    color: #d03628;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: black;
+}
+
+
+/*КНОПКА ВЫХОДА*/
+
+a.navbar-brand {
+    font-size: 0;
+    position: fixed;
+    top: 27px;
+    left: 5%;
+    background: url(https://img.icons8.com/windows/2x/home-page.png) no-repeat center / contain;
+    width: 30px;
+    height: 30px;
+}
+
+/*ШАПКА*/
+
+div#navbarSupportedContent {
+    display: none !important;
+}
+
+
+/*ЛЕВОЕ МЕНЮ*/
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #d44538 !important;
+}
+
+#fnplayer-volume-inner {
+    background: #c1c1c1;
+}
+
+
+#fnplayer-volume-mask {
+    border-color: #e0e0e0 transparent transparent transparent !important;
+}
+
+div#fnplayer-slider span {
+    font-size: 0;
+}
+
+div#fnplayer-slider-inner {
+    background: #d44538;
+}
+
+div#beon-fnplayer {
+    background: #ececec;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+.left-menu-text input[type="text"], .left-menu-text input[type="submit"] {
+    background: #e6e6e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 5px;
+    color: #9a9797;
+    transition: 0.2s;
+}
+
+.left-menu-text input[type="text"]:hover, .left-menu-text input[type="submit"]:hover {
+    background: #bdbdbd;
+    color: #f3f3f3;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+.left-menu h3 {
+    color: #e8e8e8;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.left-menu>div {
+    border-left: unset;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.left-menu__user-notification p.left-menu-text {
+    padding-left: 5px;
+}
+
+[href="/design/disable"] {
+    color: #c11c0c !important;
+    font-weight: bold;
+}
+
+.left-menu a {
+    color: #8c8c8c;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+
+
+p.left-menu-text,div.left-menu-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.right-menu-text {
+    text-align: left;
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+.left-menu {
+    border: none !important;
+    width: 23%;
+    border-right: 1px solid #cacaca !important;
+}
+
+[style="background-color: rgb(118, 174, 49);"],
+[style="background-color: rgb(31, 101, 152);"],
+[style="background-color: rgb(153, 0, 0);"] {
+    background: url(https://beon.vip/uploads_user/10000/9008/f5910d4db460445c87590ef6a644b44b.png) no-repeat center left !important;
+}
+
+[style="background-color: rgb(162, 243, 73);"],
+[style="background-color: rgb(73, 204, 243);"],
+[style="background-color: rgb(118, 174, 49); margin: 0px;"] {
+    background: url(https://beon.vip/uploads_user/10000/9008/1affa4a0a87942eb0d0938ec5cf9d647.png) no-repeat center left !important;
+}
+
+/*НОНЕ*/
+
+[name="avatar"]+br {
+    display: none;
+}
+
+.content h1,.content h2 {
+    display: none;
+}
+
+
+[src="/i/user.png"],
+.user:before  {
+    display: none;
+}
+
+div#footer {
+    display: none;
+}
+
+
+/*ПОСТ*/
+
+.row.w-100 div {
+    font-size: 11px !important;
+    color: #7b7b7b !important;
+}
+
+a.tag {
+    color: #a4170a !important;
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+.sign {
+    color: black;
+    font-size: 9px;
+}
+
+a.user.post-title-user {
+    color: #c72111;
+    font-size: 14px;
+}
+
+a.post-title {
+    font-size: 25px;
+    color: black;
+    transition: 0.2s;
+}
+
+a.post-title:hover {
+    letter-spacing: 2px;
+    transition: 0.2s;
+    color: #c51e0f;
+}
+
+.post-content [style="margin-left: 5px;"] span {
+    font-size: 10px;
+    color: black;
+}
+
+span.post-title-date {
+    padding: 0px;
+}
+
+
+.post-text {
+    padding: 10px;
+    border-bottom: 1px solid #cacaca;
+}
+
+
+
+.post-content [style="margin-left: 5px;"] {
+    margin-bottom: 10px;
+    padding-left: 110px;
+}
+
+.row.w-100 {
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.row.w-100 a, .row.w-100 span,
+.post-opt a, .post-opt span {
+    font-size: 11px;
+    color: #0000007a;
+}
+
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+
+.post-opt.col-12.col-md-6 a,
+.post-opt.col-12.col-md-6 span,
+.post-opt a, .post-opt span {
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: lowercase;
+    transition: 0.2s;
+}
+
+.post-opt.col-12.col-md-6 a:hover, .post-opt.col-12.col-md-6 span:hover,
+.post-opt a:hover, .post-opt span:hover {
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.post-content {
+    margin: 0px !important;
+    margin-bottom: 50px !important;
+}
+
+.datebg {
+    margin: 0px;
+    font-size: 12px;
+    margin-top: 15px;
+    padding-left: 115px;
+    color: black;
+    font-weight: unset;
+}
+
+.post-avatar img:hover {
+    filter: grayscale(1);
+    transition: 0.1s;
+}
+
+.post-avatar {
+    margin: 0px !important;
+}
+
+/*КОММЕНТАРИИ*/
+
+.comment-base {
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    background: #c52323;
+    color: #ececec;
+    border: 1px solid #ab0d0d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #00000066;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #9c68687a;
+    border: 1px solid #888888;
+    transition: 0.2s;
+}
+
+.comment-text {
+    padding-top: 10px;
+}
+
+.post-content, .comment-content {
+    min-height: auto;
+}
+
+.comment-text {
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 10px;
+}
+
+span.post-title-date {
+    font-size: 10px;
+    color: #252525;
+}
+
+.textareabg {
+    background: url(https://beon.vip/uploads_image/16/7e/167e6db9f026d7dfab68a4b682f17102.png) no-repeat right bottom;
+    background-size: contain;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+textarea {
+    background: #f5f5f5cf;
+    border: 1px solid #cacaca;
+    padding: 5px;
+}
+
+div#commentpreviewplace+p {
+    font-size: 0px;
+}
+
+.prevsibling.col-md-6 a,
+.nextsibling.text-right.col-md-6 a {
+    color: #9c9c9c;
+}
+
+.fa-step-backward:before {
+    color: #5f5f5f;
+}
+
+.comment-box__message-partial.comment-content,
+.comment-box__message-partial.comment-content a,
+[href$="/unsubscribe"] {
+    text-align: center;
+    font-size: 12px;
+    color: #a5a5a5;
+    padding-right: 5px;
+    transition: 0.2s;
+}
+
+.comment-box__message-partial.comment-content:hover,
+.comment-box__message-partial.comment-content a:hover,
+[href$="/unsubscribe"]:hover {
+    letter-spacing: 1px;
+    transition: 0.2s;
+    color: #3e3e3e;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-content [href^="#"] {
+    font-size: 10px;
+    color: black;
+}
+
+.comment-text a,
+.post-text a {
+    color: #d03e31;
+    text-decoration: underline !important;
+    transition: 0.2s;
+}
+
+.comment-text a:hover,
+.post-text a:hover,
+a.user.post-title-user:hover,
+.left-menu a:hover {
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.left-menu a:hover {
+    text-decoration: underline !important;
+}
+
+
+/*Разное*/
+
+* {
+    font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+}
+
+
+/*СКРОЛЛ*/
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    background: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+    border: 1px solid whitesmoke !important;
+    border-radius: 5px;
+    background: black;
+}
+
+
+/*MEDIA*/
+
+@media (max-width: 700px){
+div#app {
+    width: 100%;
+}
+a.navbar-brand {
+    font-size: 20px;
+    position: unset;
+    background: transparent;
+    width: auto;
+    height: auto;
+}
+.hamburger-menu {
+    position: unset;
+}
+.bg-white+.crumbs {
+    width: 100%;
+    margin: auto !important;
+    height: 275px;
+}
+.bg-white+.crumbs:before {
+    height: 250px;
+}
+span.crumb-item {
+    color: #e6e6e6;
+    font-size: 5em;
+    top: 100px;
+    left: 10px;
+}
+.left-menu {
+    width: 100%;
+    padding: 0px !important;
+}
+main.py-4 {
+    border: 0px;
+}
+.mobile_open_menu h3.left-menu-text {
+    font-size: 17px !important;
+    background: #ad2f32 !important;
+}
+.content {
+    width: 100%;
+    margin: 0px;
+    border-top: 1px solid black;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.bg-white {
+    padding: 10px;
+}
+a.navbar-brand {
+    color: #ad2f32 !important;
+    font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #ad2f32;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    color: #ad2f32;
+}
+
+.post-avatar img {
+    max-width: 80px;
+}
+ul.menu__box {
+    margin-top: 62px;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+}
+.form__show-avatars {
+    text-align: center;
+    background: #c52323;
+    border: 1px solid #ab0d0d;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #000000ab;
+    color: #ececec;
+}
+}
