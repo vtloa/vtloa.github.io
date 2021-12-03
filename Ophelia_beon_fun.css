@@ -26,7 +26,7 @@ ul.menu__box {
     color: dimgrey;
 }
 
-.post-opt div,.post-opt * {
+.post-opt div, .post-opt * {
     color: #5d5d5d !important;
     font-family: 'fontff0993442e48a4cd3678b32f3a456061';
     font-size: 14px;
