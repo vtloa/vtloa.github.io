@@ -931,3 +931,8 @@ input[type="submit"] {
     background: transparent;
     margin-bottom: 10px;
 }
+
+.post-content [href^="/p/"]:hover {
+    letter-spacing: 2px;
+    color: #8a3434;
+}
