@@ -708,10 +708,7 @@ textarea:focus {
     background: #b1b1b1;
 }
 
-span.post-title-date+span {
-    font-size: 10px;
-    color: #585858;
-}
+
 
 
 a:hover {
@@ -995,8 +992,9 @@ span.post-title-date {
     padding-left: 3px;
     font-family: 'fontff0993442e48a4cd3678b32f3a456061';
 }
+
 span.post-title-date+span {
-    font-size: 12px;
+    font-size: 13px;
     color: #585858;
     font-family: 'fontff0993442e48a4cd3678b32f3a456061';
 }
