@@ -873,7 +873,7 @@ ul.menu__box {
 
 /*UPD*/
 
-@media (min-width: 1200px) {
+@media (max-width: 1366px) {
 
 main.py-4,.crumbs {
     width: 98% !important;
