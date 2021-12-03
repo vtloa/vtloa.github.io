@@ -870,3 +870,13 @@ ul.menu__box {
     filter: drop-shadow(2px 4px 4px black);
 }
 }
+
+/*UPD*/
+
+@media (min-width: 1200px) {
+
+main.py-4,.crumbs {
+    width: 98% !important;
+}
+    
+}
