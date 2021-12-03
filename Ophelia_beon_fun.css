@@ -942,3 +942,14 @@ span[data-target="#deleteconfirmmodal"] {
     font-family: 'Montserrat Alternates';
     color: #af1414;
 }
+
+.mt-3.mb-3 *,
+.mt-3.mb-3+hr+div *{
+    color: #6b6b6b;
+    font-size: 13px;
+}
+
+.alert.alert-success,
+.alert.alert-warning {
+    display: none;
+}
