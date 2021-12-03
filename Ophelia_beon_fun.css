@@ -987,3 +987,11 @@ a.tag {
     text-decoration: unset;
     color: #9c3f3f !important;
 }
+
+
+span.post-title-date {
+    font-size: 10px;
+    color: #545454;
+    padding-left: 3px;
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+}
