@@ -977,3 +977,7 @@ a.post-title-user {
 .sign {
     font-family: 'Tenor Sans';
 }
+
+.post-opt.col-12.col-md-6 a {
+    color: #4c4c4cb8 !important;
+}
