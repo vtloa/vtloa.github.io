@@ -26,11 +26,7 @@ ul.menu__box {
     color: dimgrey;
 }
 
-.post-opt div, .post-opt * {
-    color: #5d5d5d !important;
-    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
-    font-size: 14px;
-}
+
 
 .textareabg {
     background: transparent;
@@ -580,10 +576,11 @@ i.fas.fa-quote-left {
     right: 5px;
 }
 
-.comment-content .post-opt * {
-    font-size: 16px;
+.comment-content .post-opt *,
+.post-opt div, .post-opt *{
+    font-size: 12px;
     color: #545454;
-    font-family: 'font14ec5c31e12651a7586d103967b6bd99';
+    font-family: 'Tenor Sans';
 }
 
 .comment-content {
