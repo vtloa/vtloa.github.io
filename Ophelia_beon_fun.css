@@ -579,11 +579,6 @@ i.fas.fa-quote-left {
 
 
 
-a.tag {
-    font-family: 'Caveat';
-    font-size: 18px !important;
-    color: #803232 !important;
-}
 
 
 .comment-content {
@@ -711,11 +706,7 @@ div#commentpreviewplace+p {
     font-size: 12px;
 }
 
-a.tag {
-    font-family: 'Caveat';
-    font-size: 18px !important;
-    color: #803232 !important;
-}
+
 
 i.fas.fa-heart {
     font-family: 'Font Awesome 5 Free';
@@ -982,4 +973,10 @@ a.post-title-user {
     font-family: 'Tenor Sans';
     font-size: 12px !important;
     color: #545454 !important;
+}
+
+a.tag {
+    font-family: 'Caveat';
+    font-size: 18px !important;
+    color: #803232 !important;
 }
