@@ -577,12 +577,18 @@ i.fas.fa-quote-left {
     right: 5px;
 }
 
-.comment-content .post-opt *,
-.post-opt div, .post-opt *{
+.comment-content .post-opt *, .post-opt div, .post-opt * {
     font-size: 12px;
-    color: #545454;
+    color: #545454 !important;
     font-family: 'Tenor Sans';
 }
+
+a.tag {
+    font-family: 'Caveat';
+    font-size: 18px !important;
+    color: #803232 !important;
+}
+
 
 .comment-content {
     position: relative;
