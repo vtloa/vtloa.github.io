@@ -10,6 +10,10 @@ font-family: 'Caveat', cursive;
 
 /*------------------------------------------------------------*/
 
+ul.menu__box {
+    overflow: auto;
+}
+
 .left-menu__user-notification.left-menu__unread-message img+p {
     color: #94302b !important;
 }
