@@ -981,3 +981,9 @@ a.post-title-user {
 .post-opt.col-12.col-md-6 a {
     color: #4c4c4cb8 !important;
 }
+
+.post-opt.col-12.col-md-6 div {
+    font-family: 'Tenor Sans';
+    font-size: 12px !important;
+    color: #545454 !important;
+}
