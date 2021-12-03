@@ -173,7 +173,7 @@ nav.navbar {
 div#app:before {
     content: 'head';
     display: block;
-    height: 325px;
+    height: 320px;
     background: url(https://i.postimg.cc/bvh50dzP/image.png) repeat center;
     background-size: auto;
 }
@@ -882,3 +882,52 @@ main.py-4,.crumbs {
     
 }
 
+
+
+div.textareabg,.post-content form,
+.post-content [href^="/p/"] {
+    color: #767476;
+    font-family: 'Montserrat Alternates';
+}
+
+.textareabg input[type="text"],
+.post-content input[type="text"] {
+    background: #656565;
+    width: auto;
+}
+
+.col-md-4 {
+    padding: 0px;
+}
+
+a.messageform__taglinks {
+    color: #963a3a;
+}
+
+.container-fluid.mt-5 select,
+.post-content select {
+    background: #656565;
+    border-radius: 5px;
+}
+
+.post-content form {
+    padding: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 5px;
+}
+
+.post-content [href^="/p/"] {
+    padding-left: 5px;
+}
+
+
+[href="/p/audio/delete"] {
+    color: #8a2f2f;
+}
+
+[name="audioform"] [value="UaZlkJvg9odi9K3jo50lsRovfkJecrZgRvMsnfU4"]+div {
+    background: transparent;
+    margin-bottom: 10px;
+}
