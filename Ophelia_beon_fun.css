@@ -65,11 +65,7 @@ a.user.post-title-user {
     color: #803232 !important;
 }
 
-.post-opt.col-12.col-md-6 a,
-.post-opt.col-12.col-md-6 span {
-    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
-    color: #4c4c4cb8;
-}
+
 
 .datebg {
     color: #525252;
@@ -970,9 +966,17 @@ a.post-title-user {
 }
 
 .post-opt.col-12.col-md-6 div {
-    font-family: 'Tenor Sans';
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
     font-size: 12px !important;
-    color: #545454 !important;
+    color: #4c4c4cb8 !important;
+}
+
+.post-opt.col-12.col-md-6 a,
+.post-opt.col-12.col-md-6 span,
+.comment-content .post-opt *, .post-opt div, .post-opt *{
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+    color: #4c4c4cb8;
+    font-size: 12px !important;
 }
 
 a.tag {
