@@ -54,11 +54,7 @@ a.user.post-title-user {
     padding: 20px;
 }
 
-.row.w-100 * {
-    font-size: 14px !important;
-}
 
-.post-opt.col-12.col-md-6.text-right a,
 .post-text a,
 .crumbs a,
 .comment-text a{
@@ -738,6 +734,7 @@ a.user.post-title-user:hover {
 .tag_bar *:hover {
     color: #9c3f3f !important;
     transition: 0.2s;
+    text-decoration: unset;
 }
 
 .left-menu__user-notification [href="//beon.fun/p/discussions/unread"] {
@@ -961,26 +958,32 @@ a.post-title-user {
     font-family: 'Tenor Sans';
 }
 
-.post-opt.col-12.col-md-6 a {
+
+.post-opt.col-12.col-md-6 div, .post-opt.col-12.col-md-6 span,.post-opt.col-12.col-md-6 [href$="/edit"],
+.comment-content .post-opt a, .comment-content .post-opt span,
+.comment-base .post-opt a,.comment-base .post-opt span {
     color: #4c4c4cb8 !important;
 }
 
-.post-opt.col-12.col-md-6 div {
+.post-opt.col-12.col-md-6,
+.comment-content .post-opt a, .comment-content .post-opt span,
+.comment-base .post-opt a,.comment-base .post-opt span {
     font-family: 'fontff0993442e48a4cd3678b32f3a456061';
-    font-size: 12px !important;
-    color: #4c4c4cb8 !important;
+    font-size: 14px;
 }
 
-.post-opt.col-12.col-md-6 a,
-.post-opt.col-12.col-md-6 span,
-.comment-content .post-opt *, .post-opt div, .post-opt *{
-    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
-    color: #4c4c4cb8;
-    font-size: 12px !important;
-}
 
 a.tag {
-    font-family: 'Caveat';
-    font-size: 18px !important;
     color: #803232 !important;
+    font-family: 'Caveat';
+    font-size: 22px !important;
+}
+
+.row.w-100>* a:hover, .row.w-100>* span:hover,
+.post-opt.col-12.col-md-6 [href$="/edit"]:hover,
+.comment-content .post-opt *:hover {
+    letter-spacing: 1px;
+    transition: 0.2s;
+    text-decoration: unset;
+    color: #9c3f3f !important;
 }
