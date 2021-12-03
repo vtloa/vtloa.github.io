@@ -963,3 +963,10 @@ input[type="button"] {
     box-shadow: -3px 3px 3px #0000005e;
     font-size: 13px;
 }
+
+
+a.post-title-user {
+    color: #803232;
+    font-family: 'Caveat';
+    font-size: 20px;
+}
