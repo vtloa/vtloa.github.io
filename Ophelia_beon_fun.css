@@ -990,8 +990,13 @@ a.tag {
 
 
 span.post-title-date {
-    font-size: 10px;
+    font-size: 12px;
     color: #545454;
     padding-left: 3px;
+    font-family: 'fontff0993442e48a4cd3678b32f3a456061';
+}
+span.post-title-date+span {
+    font-size: 12px;
+    color: #585858;
     font-family: 'fontff0993442e48a4cd3678b32f3a456061';
 }
