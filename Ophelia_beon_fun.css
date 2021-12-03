@@ -883,11 +883,9 @@ main.py-4,.crumbs {
 }
 
 
-
-div.textareabg,.post-content form,
-.post-content [href^="/p/"] {
+div.textareabg, .post-content form, .post-content [href^="/p/"] {
     color: #767476;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Tenor Sans';
 }
 
 .textareabg input[type="text"],
