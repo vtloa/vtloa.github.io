@@ -60,7 +60,8 @@ a.user.post-title-user {
 
 .post-opt.col-12.col-md-6.text-right a,
 .post-text a,
-.crumbs a {
+.crumbs a,
+.comment-text a{
     color: #803232 !important;
 }
 
@@ -711,7 +712,7 @@ div#commentpreviewplace+p {
 a.tag {
     font-family: 'Caveat';
     font-size: 18px !important;
-    color: #803232;
+    color: #803232 !important;
 }
 
 i.fas.fa-heart {
