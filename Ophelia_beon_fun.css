@@ -938,10 +938,7 @@ input[type="submit"] {
 }
 
 
-span[data-target="#deleteconfirmmodal"] {
-    font-family: 'Montserrat Alternates';
-    color: #af1414;
-}
+
 
 .mt-3.mb-3 *,
 .mt-3.mb-3+hr+div *{
@@ -952,4 +949,17 @@ span[data-target="#deleteconfirmmodal"] {
 .alert.alert-success,
 .alert.alert-warning {
     display: none;
+}
+
+
+input[type="button"] {
+    background: #542525;
+    border-top: 3px outset #542525;
+    border-left: 3px outset #803232;
+    border-right: 3px outset #7b3d3d;
+    border-bottom: 3px outset #7b3d3d;
+    font-family: 'fonta27290abb781581445319d23e28522c7';
+    color: #8c8c8c;
+    box-shadow: -3px 3px 3px #0000005e;
+    font-size: 13px;
 }
