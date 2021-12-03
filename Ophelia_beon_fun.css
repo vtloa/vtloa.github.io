@@ -936,3 +936,9 @@ input[type="submit"] {
     letter-spacing: 2px;
     color: #8a3434;
 }
+
+
+span[data-target="#deleteconfirmmodal"] {
+    font-family: 'Montserrat Alternates';
+    color: #af1414;
+}
