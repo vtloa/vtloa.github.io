@@ -907,6 +907,9 @@ body.bodybg {
     background: url(https://beon.vip/uploads_image/dd/74/dd74f1ffce3983845abeba7d0fc787e1.jpg) no-repeat center fixed;
     background-size: cover;
 }
+ul.menu__box {
+    padding: 15px;
+}
 }
 
 
