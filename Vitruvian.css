@@ -1,3 +1,7 @@
+.post-text a,.comment-text a {
+    color: #655f55;
+}
+
 textarea {
     padding: 5px;
 }
@@ -440,7 +444,7 @@ span.post-title-date,
 [href^="#"],
 .prevsibling.col-md-6 *,
 .nextsibling.text-right.col-md-6 *,
-.post-opt a,.post-opt span {color: #715c32;}
+.post-opt a,.post-opt span {color: #715c32 !important;}
 
 .post-text, a.menu__item, .comment-text {
     color: #ab8a48 !important;
@@ -948,3 +952,5 @@ ul.menu__box a {
 ul.menu__box {
     padding-top: 60px;
 }
+
+
