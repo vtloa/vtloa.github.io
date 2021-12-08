@@ -910,6 +910,14 @@ body.bodybg {
 ul.menu__box {
     padding: 15px;
 }
+    
+.bg-white+.crumbs {
+    margin-top: 50px !important;
+}
+
+.post-content {
+    margin-bottom: 30px !important;
+}
 }
 
 
