@@ -918,6 +918,11 @@ ul.menu__box {
 .post-content {
     margin-bottom: 30px !important;
 }
+    
+p.quotation {
+    margin-left: 0px;
+    font-size: 13px;
+}
 }
 
 
