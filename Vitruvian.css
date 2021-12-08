@@ -560,7 +560,7 @@ span.post-title-date {
     border-right: 2px dotted;
 }
 
-.text-center+div:before {
+.text-center+div:after {
     content: 'dfksvw';
     display: block;
     font-family: 'zuptype';
