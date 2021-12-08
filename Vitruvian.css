@@ -897,7 +897,7 @@ a.user.post-title-user {
 }
 span.post-title-date+span:before {
     color: #907337;
-    font-size: 12px;
+    font-size: 0px;
     content: 'open to me';
     font-family: 'zuptype';
 }
