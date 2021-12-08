@@ -902,6 +902,11 @@ span.post-title-date+span:before {
     content: 'open to me';
     font-family: 'zuptype';
 }
+
+body.bodybg {
+    background: url(https://beon.vip/uploads_image/dd/74/dd74f1ffce3983845abeba7d0fc787e1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
 }
 
 
