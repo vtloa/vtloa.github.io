@@ -336,20 +336,7 @@ span.crumb-item, .crumbs a {
 /*=======================================================================================*/
 
 
-@font-face { font-family: "consolas-alt"; src: url('//glen-assets.github.io/fonts/consolas.ttf'); }
-
-@font-face { font-family: "squarethings"; src: url('//glen-assets.github.io/fonts/squarethings.ttf'); }
-
-@font-face { font-family: "squarewave"; src: url('//glen-assets.github.io/fonts/Squarewave.ttf'); }
-
-@font-face { font-family: "neuborn"; src: url('//glen-assets.github.io/fonts/Neuborn Regular.ttf'); }
-
-@font-face { font-family: "industry"; src: url('//glen-assets.github.io/fonts/Industry-Medium.ttf'); }
-
 @font-face { font-family: "zuptype"; src: url('//glen-assets.github.io/fonts/zuptype_pica.ttf'); }
-
-@font-face { font-family: "7pixelsOfPerfection"; src: url('//glen-assets.github.io/fonts/7pixelsOfPerfection.ttf'); }
-
 
 
 
@@ -931,4 +918,19 @@ span.post-title-date+span:before {
     border-left: 4px double #88703e;
     border-bottom: 0px;
     border-top: 0px;
+}
+
+
+/*UPD*/
+
+
+a.navbar-brand {
+    font-family: 'font289e117829237bf573077a7cbf798dbf';
+    font-size: 25px;
+    color: #88703e !important;
+    padding: 0px;
+}
+
+.hamburger-menu {
+    margin-top: 10px;
 }
