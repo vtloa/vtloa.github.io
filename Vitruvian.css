@@ -376,7 +376,7 @@ a {
     margin-left: 40px;
 }
 
-.bg-white,
+
 .left-menu,
 .post-text,
 .comment-content {
@@ -386,13 +386,8 @@ a {
 
 
 .bg-white {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
     background: transparent !important;
     box-shadow: unset;
-    z-index: 3;
 }
 
 
