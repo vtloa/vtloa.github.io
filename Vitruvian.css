@@ -955,3 +955,6 @@ ul.menu__box {
 }
 
 
+.tag:before {
+    display: none;
+}
