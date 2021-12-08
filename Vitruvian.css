@@ -650,7 +650,8 @@ div.left-menu-text {
 
 
 [href="//beon.fun/p/discussions/unread"],
-.right-menu-text [href="//beon.fun/friends"] {
+.right-menu-text [href="//beon.fun/friends"],
+[href="/gifts"] {
     display: block;
     text-transform: lowercase;
     border-bottom: 2px dotted #5d4a26;
