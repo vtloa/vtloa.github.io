@@ -935,3 +935,7 @@ a.navbar-brand {
 .hamburger-menu {
     margin-top: 10px;
 }
+
+ul.menu__box a {
+    font-family: 'font2127aa6d0680b144a3bd8be9debeba09' !important;
+}
