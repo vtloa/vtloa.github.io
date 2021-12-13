@@ -985,3 +985,13 @@ span.imagewrapper {
     border-radius: unset !important;
     color: black !important;
 }
+
+
+a.post-title{
+    transition: 0.3s;
+}
+
+a.post-title:hover {
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
