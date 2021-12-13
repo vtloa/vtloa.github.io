@@ -995,3 +995,10 @@ a.post-title:hover {
     letter-spacing: 2px;
     transition: 0.3s;
 }
+
+
+.blog__about *.
+.blog__read-me *,
+.blog__last-comments *{
+    font-size: 16px;
+}
