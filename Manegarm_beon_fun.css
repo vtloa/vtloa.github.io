@@ -651,7 +651,7 @@ h3.left-menu-text {
 }
 
 .post-text, .comment-box .comment-text {
-    padding: 10px;
+    padding: 5px;
 }
 
 
@@ -670,8 +670,8 @@ a.post-title {
 }
 
 .comment-box .comment-text {
-    margin-right: 10px;
-    margin-left: 10px !important;
+    margin-right: 5px;
+    margin-left: 5px !important;
 }
 .content {
     padding-left: 2px !important;
