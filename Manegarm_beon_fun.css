@@ -715,6 +715,11 @@ div#beon-fnplayer {
 span.post-title-date+span /*привет фаерфокс*/ {
     width: fit-content;
 }
+    
+a.post-title {
+    margin-left: -62px;
+    white-space: nowrap;
+}
 
 }
 
