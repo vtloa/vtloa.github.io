@@ -717,8 +717,11 @@ span.post-title-date+span /*привет фаерфокс*/ {
 }
     
 a.post-title {
-    margin-left: -30px;
+    position: unset;
+    margin: 0px;
+    padding-left: 5px;
 }
+
 
 }
 
