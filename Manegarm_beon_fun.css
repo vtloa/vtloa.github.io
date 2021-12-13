@@ -303,7 +303,6 @@ a {
 
 .post-text {
     padding: 80px 30px 15px 30px;
-    box-shadow: 2px 2px 9px rgb(0 0 0 / 3%);
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -934,4 +933,55 @@ a.post-title {
 
 .post-content a {
     color: black;
+}
+
+
+
+
+/*=======================*/
+
+
+.post-content a {
+    color: black;
+}
+
+[name="audioform"] {
+    padding: 20px;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    font-size: 16px;
+}
+
+[href="/p/audio/delete"] {
+    color: #b90c0c;
+}
+
+
+[style="position: relative; height: auto;"]>span {
+    font-size: 10px;
+    color: #ffffff;
+    background: #585858;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 2px 2px #bbbaba;
+    display: block;
+    width: 125px;
+    margin-bottom: 5px;
+    margin-left: -50px;
+    margin-top: -105px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+
+span.imagewrapper {
+    background: transparent !important;
+    box-shadow: unset !important;
+    width: auto !important;
+    font-size: 14px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    border-radius: unset !important;
+    color: black !important;
 }
