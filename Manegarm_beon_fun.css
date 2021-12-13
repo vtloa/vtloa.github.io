@@ -930,3 +930,8 @@ a.post-title {
 .post-content {
     background: white;
 }
+
+
+.post-content a {
+    color: black;
+}
