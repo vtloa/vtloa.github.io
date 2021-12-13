@@ -1,0 +1,932 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+
+/*font-family: 'Cormorant Garamond', serif;*/
+
+
+
+
+/*КОД*/
+
+.fas, .far, .tag_bar > * {
+    color: #191919;
+    font-size: 14px;
+}
+
+
+[src="//beon.fun/i/online.png"], [src="//beon.fun/i/offline.png"] {
+    display: none;
+}
+
+div#beon-fnplayer+div {
+    position: absolute;
+    left: 0px;
+    top: 480px;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    color: black;
+}
+
+div.textarea-wrapper {
+    margin-top: 20px;
+}
+
+[src="/i/user.png"],
+[src="/i/blog.png"] {
+    display: none;
+}
+
+.left-menu__user-notification+br, .left-menu__user-notification+br+br {
+    display: none;
+}
+
+[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
+
+
+[href="/design/disable"] {
+    font-size: 0px;
+    position: fixed;
+    top: 26px;
+    right: 25%;
+    z-index: 4;
+    background: url(https://img.icons8.com/ios-glyphs/2x/paint-palette.png) no-repeat center / contain;
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    padding: 14px;
+    opacity: 0.8;
+}
+
+
+.container {
+    max-width: 100%;
+    padding-right: 10%;
+}
+
+.menu__item:hover {
+    background-color: #e6e6e621;
+}
+
+a.menu__item {
+    text-align: center;
+    color: #ebebebc2;
+    font-weight: unset;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.crumbs {
+    display: none;
+}
+
+.bg-white+.crumbs {
+    display: block;
+    margin-top: 80px !important;
+    margin-bottom: 0px !important;
+    padding: 5px !important;
+    padding-left: 0px !important;
+    background: #0f0f0f;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+    padding-left: 20px !important;
+    color: #ebebeb;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline,
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-size: 0;
+}
+a.my-menu.for-mobile.d-none.d-md-inline:before,
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'DOWN :下';
+    font-size: 20px;
+    color: #ebebeb;
+}
+
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0px;
+    margin-top: -25px;
+    margin-right: 35px;
+    text-shadow: unset !important;
+}
+
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    content: "UP : 上";
+    font-size: 20px;
+    color: #ebebeb;
+}
+
+ul.menu__box {
+    padding-top: 70px;
+    background: #0f0f0f;
+    overflow: auto;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #ebebebd9;
+}
+
+.hamburger-menu {
+    display: block !important;
+    position: fixed;
+    right: 35px;
+    top: 26px;
+}
+
+.pc-menu {
+    display: none;
+}
+
+a.navbar-brand {
+    color: #ebebeb !important;
+    font-size: 20px;
+    background: url(https://438408.selcdn.ru/beonmind/5ff6fe0b7354c_AiUsnd2ytpc.png) no-repeat center left / contain;
+    padding-left: 40px;
+    font-weight: unset;
+}
+
+.bg-white {
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+    height: 80px;
+    width: 100%;
+    background: url(https://438408.selcdn.ru/beonmind/5ff7032d9f27d_Bez-imeni-1.png) no-repeat center;
+    background-color: #0f0f0f;
+}
+
+/*=====================*/
+
+
+div#fnplayer-volume-inner {
+    height: 4px;
+    margin-bottom: 3px;
+}
+
+
+div#fnplayer-slider {
+    margin: 0px !important;
+    text-align: center;
+    color: transparent;
+    background: transparent;
+    outline: 1px solid #00000059;
+    outline-offset: -15px;
+}
+
+div#fnplayer-volume-inner,
+div#fnplayer-slider-inner {
+    background: black;
+    border-radius: 5px;
+}
+
+div#fnplayer-volume-mask {
+    border: none;
+}
+
+div#fnplayer-volume {
+    margin: 0px !important;
+    border-radius: 0 12px 12px 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    display: none;
+}
+
+
+#fnplayer-play.paused {
+    border: 0px !important;
+    width: 20px;
+    background: url(https://img.icons8.com/material-outlined/2x/pause.png) no-repeat center right / 20px;
+}
+
+button#fnplayer-play {
+    border: 0px !important;
+    background: url(https://img.icons8.com/material/2x/play.png) no-repeat center right / 20px;
+    width: 20px;
+}
+
+
+h3.left-menu-text,
+.alert.alert-success {
+    display: none;
+}
+
+
+
+/*главная пикча + плеер*/
+
+.text-center img {
+    content: url(https://438408.selcdn.ru/beonmind/5ff70178d818c_23.png);
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.text-center:after/*подпись*/ {
+    content: 'волны гасят ветер';
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+div#beon-fnplayer {
+    position: absolute;
+    top: 450px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin: auto;
+    background: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #00000033;
+}
+
+.text-center {
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    width: 100%;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.content {
+    padding-top: 500px !important;
+}
+
+/*end*/
+
+body.bodybg {
+    background: url(https://beon.vip/uploads_image/f9/d7/f9d77677189ba74086189487e74a1d53.png) no-repeat top 25px left -8% fixed, 
+    url(https://beon.vip/uploads_image/40/8c/408c5bc81b2a1791d0ef0d624b837280.png) no-repeat top 60px right -40px fixed;
+    background-color: #0f0f0f;
+    background-size: contain,contain;
+}
+
+.left-menu {
+    width: 23%;
+    border: none !important;
+}
+
+main.py-4 {
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+
+
+.post-avatar {
+    margin: 0px !important;
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+
+
+.post-text {
+    padding: 80px 30px 15px 30px;
+    box-shadow: 2px 2px 9px rgb(0 0 0 / 3%);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.content h1, .content h2 {
+    display: none;
+}
+
+
+
+.content {
+    width: 100%;
+    margin-right: auto;
+    background: #e6e6e6;
+    box-shadow: inset 104px 0px white;
+    padding-left: 2px;
+}
+
+
+main.py-4 {
+    width: 53%;
+    margin: auto;
+    margin-left: 24%;
+}
+
+
+
+.datebg {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+textarea#csseditortext {
+    max-height: 450px;
+    overflow-y: auto !important;
+}
+
+
+
+div#app,
+span.post-title-date {
+    padding: 0px;
+}
+
+.post-content {
+    position: relative;
+    margin: 0px !important;
+    margin-bottom: 80px !important;
+}
+
+
+
+div#footer {
+    display: none;
+}
+
+
+
+
+.left-menu {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.user:before {
+    display: none;
+}
+
+.post-content [style="margin-left: 5px;"] {
+    margin: 0px !important;
+}
+
+.post-text {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+a.user.post-title-user {
+    color: black;
+    padding-left: 3px;
+}
+
+span.post-title-date {
+    color: black;
+    font-size: 11px;
+}
+
+span.post-title-date+span {
+    font-size: 11px;
+    color: #ffffff;
+    background: #585858;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 2px 2px #bbbaba;
+    display: block;
+    width: fit-content;
+    margin-left: -5px;
+    margin-bottom: 5px;
+}
+
+.datebg {
+    font-size: 13px;
+    padding-left: 110px;
+    color: #000000;
+    font-weight: unset;
+    border-bottom: 1px solid white;
+}
+
+a.post-title {
+    position: absolute;
+    top: 55px;
+    left: 150px;
+    font-size: 16px;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.sign {
+    color: black;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+.textareabg {
+    margin: 0px !important;
+    background: white;
+    padding: 15px;
+}
+
+.textareabg>div {
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+[name="_token"]+p {
+    font-size: 16px;
+}
+
+[name="posttitle"]+br+br+p {
+    font-size: 0;
+}
+
+.col-md-4 {
+    padding: 0px;
+}
+
+
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+
+.post-text+.post-opt,
+.comment-box .post-opt,
+.comment-text+div {
+    border-top: 1px dashed #666666 !important;
+    width: 94%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.row.w-100 {
+    border-top: 1px dashed #666666 !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0;
+}
+
+.post-text+.post-opt *,
+.row.w-100 *,
+.comment-box .post-opt * {
+    color: black;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+
+
+.prevsibling.col-md-6,
+.nextsibling.text-right.col-md-6 {
+    display: none;
+}
+
+
+.comment-box .comment-text {
+    padding: 25px;
+}
+
+
+.comment-base {
+    box-shadow: 2px 2px 9px rgb(0 0 0 / 3%);
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+span.post-title-date+[href^="#"] {
+    color: black;
+    font-size: 10px;
+}
+
+.comment-content {
+    min-height: auto;
+    margin-bottom: 50px;
+}
+
+.comment-box__message-partial.comment-content {
+    text-align: right;
+    font-size: 0px;
+}
+
+.comment-box__message-partial.comment-content a {
+    font-size: 10px;
+    color: #ffffff;
+    width: 100%;
+    background: #585858;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: -2px 2px #bbbaba;
+}
+
+
+/*не уверен*/
+
+[style="position: relative; height: auto;"]>span {
+    font-size: 10px;
+    color: #ffffff;
+    background: #585858;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 2px 2px #bbbaba;
+    display: block;
+    width: 125px;
+    margin-bottom: 5px;
+    margin-left: -50px;
+    margin-top: -100px;
+}
+
+span.imagewrapper {
+    background: transparent;
+    box-shadow: unset;
+    width: auto;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: unset;
+    color: black;
+}
+
+/*END*/
+
+.crumbs a {
+    color: unset;
+}
+
+.crumbs * {
+    font-weight: unset !important;
+}
+
+/*МЕДИА*/
+@media (max-width: 700px) {
+main.py-4 {
+    width: 98%;
+    margin: auto;
+    flex-direction: column;
+}
+.left-menu {
+    width: 100%;
+    height: auto;
+}
+
+
+h3.left-menu-text {
+    display: block;
+}
+.content {
+    padding: 0px !important;
+}
+.hamburger-menu {
+    position: unset;
+}
+.bg-white {
+    background: #0f0f0f;
+}
+.text-center {
+    position: unset;
+    padding: 0px;
+}
+div#beon-fnplayer {
+    position: unset;
+    width: 95%;
+}
+.left-menu {
+    background: #e6e6e6;
+}
+main.py-4 {
+    padding-top: 170px !important;
+}
+.left-menu {
+    text-align: center;
+}
+h3.left-menu-text {
+    background: #0f0f0f !important;
+    font-size: 14px;
+    color: #ebebeb;
+    margin-top: 10px;
+}
+.text-center:after {
+    display: none;
+}
+.text-center+div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.left-menu a {
+    color: black;
+}
+.left-menu__gift img {
+    width: 42px;
+}
+.left-menu__gift {
+    font-size: 13px;
+}
+.left-menu {
+    border-bottom: 1px solid white !important;
+}
+.mobile_open_menu h3.left-menu-text {
+    margin: 0px;
+}
+.mobile_open_menu h3.left-menu-text {
+    font-weight: unset !important;
+    font-size: 0px !important;
+}
+.mobile_open_menu h3.left-menu-text:before {
+    content: 'OPEN : 開いた';
+    font-size: 20px;
+}
+
+.post-text, .comment-box .comment-text {
+    padding: 10px;
+}
+
+
+a.post-title {
+    top: 20px;
+}
+.textareabg {
+    padding: 5px;
+}
+
+
+.fas, .far, .tag_bar > * {
+    color: #191919;
+    font-size: 17px;
+    padding: 0px;
+}
+
+.comment-box .comment-text {
+    margin-right: 10px;
+    margin-left: 10px !important;
+}
+.content {
+    padding-left: 2px !important;
+}
+
+div#beon-fnplayer+div {
+    position: unset;
+    height: auto;
+    font-size: 14px;
+}
+div#beon-fnplayer {
+    margin-bottom: 15px;
+}
+.tag_bar+.textarea-wrapper {
+    margin: 0px;
+}
+
+.pagination {
+    display: block;
+    width: 100%;
+}
+
+.bg-white+.crumbs {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.crumbs {
+    text-align: center;
+}
+
+.post-avatar img {
+    max-width: 62px;
+}
+
+.content,.left-menu {
+    box-shadow: inset 66px 0px white;
+}
+
+
+span.post-title-date+span /*привет фаерфокс*/ {
+    width: fit-content;
+}
+
+}
+
+
+/*END*/
+
+.post-text a,
+.comment-text a /*заменить шрифт. ВАЖНО*/ {
+    color: black;
+}
+
+
+p.quotation {
+    border-left: 4px solid #ccc !important;
+    margin: 0 !important;
+    padding-left: 16px !important;
+    font-size: 13px;
+    margin-bottom: 15px !important;
+}
+
+.post-content [data-deletelink$="/clear-comments"] {
+    color: black;
+    padding-left: 3px;
+    border-bottom: 1px solid white;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+[href$="/unsubscribe"] {
+    color: black;
+    padding-right: 3px;
+    border-bottom: 1px solid white;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.post-content {
+    margin-top: 20px !important;
+}
+
+span.pagination-goto {
+    display: none;
+}
+
+.pagination a {
+    font-size: 15px;
+    padding-right: 10px;
+}
+.pagination {
+    font-size: 0px;
+}
+
+.pagination a:nth-last-of-type(1) {
+    font-size: 0;
+}
+.pagination a:nth-last-of-type(1):before {
+    content: 'NEXT';
+    font-size: 15px;
+}
+
+
+/*нумерация на японском*/
+
+.pagination [href="/page/1"],.pagination [href="/page/2"],
+.pagination [href="/page/3"],.pagination [href="/page/4"],
+.pagination [href="/page/5"],.pagination [href="/page/6"],
+.pagination [href="/page/7"],.pagination [href="/page/8"],
+.pagination [href="/page/9"],.pagination [href="/page/10"] {
+    font-size: 0;
+}
+
+.pagination [href="/page/1"]:before {
+    content: '一';
+    font-size: 15px;
+}
+
+.pagination [href="/page/2"]:before {
+    content: '二';
+    font-size: 15px;
+}
+
+.pagination [href="/page/3"]:before {
+    content: '三';
+    font-size: 15px;
+}
+
+.pagination [href="/page/4"]:before {
+    content: '四';
+    font-size: 15px;
+}
+
+.pagination [href="/page/5"]:before {
+    content: '五';
+    font-size: 15px;
+}
+
+.pagination [href="/page/6"]:before {
+    content: '六';
+    font-size: 15px;
+}
+
+.pagination [href="/page/7"]:before {
+    content: '七';
+    font-size: 15px;
+}
+
+.pagination [href="/page/8"]:before {
+    content: '八';
+    font-size: 15px;
+}
+
+.pagination [href="/page/9"]:before {
+    content: '九';
+    font-size: 15px;
+}
+
+.pagination [href="/page/10"]:before {
+    content: '十';
+    font-size: 15px;
+}
+
+/*END*/
+
+div#commentpreviewplace+p {
+    font-size: 0;
+}
+
+input[type="submit"], .form__show-avatars {
+    background: #e6e6e6;
+    border: 1px outset #e6e6e6;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+textarea {
+    border: 1px solid #969696;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+
+/*СКРОЛЛ*/
+
+::-webkit-scrollbar {
+    width: 14px;
+    background: #131313;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #b9b7b7;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+    background: #131313;
+    border-left: 1px solid #2e2e2e;
+}
+
+
+
+
+.avatar-select-list::-webkit-scrollbar,
+textarea#csseditortext::-webkit-scrollbar {
+    width: 10px;
+}
+
+.avatar-select-list::-webkit-scrollbar-track,
+textarea#csseditortext::-webkit-scrollbar-track {
+    background: #ececec !important;
+    border: 1px solid #d6d6d6;
+    border-radius: unset;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {main.py-4 {
+    width: 68%;
+    margin-left: auto;
+}}
+
+
+/*ШРИФТ*/
+
+* {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+.post-text {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+a.post-title {
+    font-size: 20px;
+}
+
+.sign {
+    font-size: 11px;
+    color: black !important;
+}
+
+.comment-text {
+    font-size: 17px;
+}
+
+.textarea-wrapper {
+    font-size: 17px;
+}
+
+
+/*UPD*/
+
+.post-content {
+    background: white;
+}
