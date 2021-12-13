@@ -389,7 +389,7 @@ a.user.post-title-user {
 
 span.post-title-date {
     color: black;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 span.post-title-date+span {
@@ -508,7 +508,7 @@ span.emj-dropdown {
 
 span.post-title-date+[href^="#"] {
     color: black;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .comment-content {
