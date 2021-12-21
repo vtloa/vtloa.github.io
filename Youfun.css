@@ -11,23 +11,7 @@ div#fnplayer-slider span {
     font-size: 0px !important;
 }
 
-.blog__about [href^="//beon.fun/users/"]:hover {
-    opacity: 1;
-    font-size: 0px;
-    transition: 0.3s;
-}
-.blog__about [href^="//beon.fun/users/"] {
-    font-size: 0px;
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 30px;
-    height: 30px;
-    background: url(https://i1.beon.fun/21/15/1521/8/79508/4444.png) no-repeat center / contain;
-    border-radius: 100%;
-    opacity: 0.6;
-    transition: 0.3s;
-}
+
 
 .left-menu {
     position: relative;
