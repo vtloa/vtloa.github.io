@@ -1299,3 +1299,16 @@ a.post-title {
     font-size: 20px;
 }
 }
+
+
+@media (min-width: 1900px) {
+    main.py-4,.container,.crumbs {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+ul.navbar-nav.ml-auto:before {
+    left: 103px;
+}
+
+}
