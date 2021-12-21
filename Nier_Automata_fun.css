@@ -894,7 +894,7 @@ a.my-menu.for-mobile.d-none.d-md-inline {
 }
 
 .pc-menu [href="//beon.fun/discussions"]:before {
-    content: 'discussion';
+    content: 'discuss';
 }
 
 .pc-menu [href="//beon.fun/p"]:before {
