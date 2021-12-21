@@ -163,7 +163,7 @@ p.quotation {
 }
 
 .comment-content>div:first-child * {
-    color: #d3cfba;
+    color: #d3cfba !important;
 }
 
 .comment-content>div:first-child {
