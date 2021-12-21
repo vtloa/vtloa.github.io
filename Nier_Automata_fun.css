@@ -370,6 +370,7 @@ body.bodybg {
     background: url(https://beon.vip/uploads_image/ef/5f/ef5f9677624b28d56968043d16e707a9.png) repeat-x top 89px left -90px, 
                           url(https://beon.vip/uploads_image/70/f7/70f7f635226f46b811bca58eeda2061a.png) no-repeat top fixed;
     background-size: auto,cover;
+    background-color: #8d8977;
 }
 
 div#app {
@@ -1312,3 +1313,5 @@ ul.navbar-nav.ml-auto:before {
 }
 
 }
+
+
