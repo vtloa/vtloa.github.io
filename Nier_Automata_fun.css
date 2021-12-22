@@ -1315,3 +1315,12 @@ ul.navbar-nav.ml-auto:before {
 }
 
 
+
+
+[src="//beon.fun/i/logo2.png"] {
+    display: none;
+}
+
+a.navbar-brand:before {
+    content: 'BEON.FUN';
+}
