@@ -385,4 +385,5 @@ a.user.post-title-user {
 li.nav-item [href$=".beon.fun/login"],
 li.nav-item [href$=".beon.fun/register"] {
     font-size: 14px;
+    color: #585858 !important;
 }
