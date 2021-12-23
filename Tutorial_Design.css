@@ -377,3 +377,12 @@ a.user.post-title-user {
 Этим можно не принебрегать (хотя сам часто пропускаю...)
 
 */
+
+
+
+/*udp*/
+
+li.nav-item [href$=".beon.fun/login"],
+li.nav-item [href$=".beon.fun/register"] {
+    font-size: 14px;
+}
