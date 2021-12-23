@@ -424,3 +424,19 @@ nav.navbar {
 
 
 
+
+
+li.nav-item [href$=".beon.fun/login"],
+li.nav-item [href$=".beon.fun/register"] {
+    font-size: 14px !important;
+    color: #585858 !important;
+}
+
+
+[src="//beon.fun/i/logo2.png"] {
+    display: none;
+}
+[href="https://beon.fun"]:before {
+    content: 'BEON.FUN';
+    font-size: 17px;
+}
