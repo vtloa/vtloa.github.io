@@ -579,3 +579,11 @@ button.btn.btn-outline-success:hover {
     border: unset !important;
     padding: 0px !important;
 }
+
+
+a {
+    text-decoration: unset !important;
+}
+.profile_comment_author {
+    padding: 0px !important;
+}
