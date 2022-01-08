@@ -613,3 +613,8 @@ td.profile_menu1 a:hover {
     background: transparent !important;
     filter: invert(1);
 }
+
+.copyright {
+    color: #656565 !important;
+    font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
+}
