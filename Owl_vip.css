@@ -921,6 +921,6 @@ td.profile_menu1 a:hover:before {
     width: 120px;
     height: 15px;
     background: url(https://beon.vip/uploads_user/10000/9068/5b5f785c110a0f229eef3d65a0bc07ff.png) no-repeat center / contain;
-    filter: invert(1);
+    mix-blend-mode: hard-light;
     margin-left: 147px;
 }
