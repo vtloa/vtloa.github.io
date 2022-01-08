@@ -261,7 +261,7 @@ img.img-thumbnail {
 
 
 .comment_headline * {
-    color: #7e7e7e;
+    color: #7e7e7e !important;
 }
 
 div#bbcode {
