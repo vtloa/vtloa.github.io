@@ -203,6 +203,7 @@ input#comment_submit {
 
 
 @media (max-width: 1024px) {
+
 table.profile_menu {
     background: #1e1e1ead;
     backdrop-filter: blur(2px);
@@ -221,6 +222,11 @@ td.profile_menu1 a {
 
 .profile_content {
     font-size: 16px;
+}
+    
+.profile_content {
+    border: 0px !important;
+    border-radius: unset;
 }
 }
 
