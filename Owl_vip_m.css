@@ -1,3 +1,30 @@
+.profile_comment_date, .profile_comment_links a {
+    color: #878787 !important;
+}
+
+.profile_comment_author a {
+    color: #161616;
+    font-size: 13px;
+    background: #383838;
+    padding: 4px;
+}
+
+.profile_comment_body {
+    background: #161616;
+    font-size: 14px;
+}
+
+.profile_comment_author a {
+    color: #161616;
+    font-size: 13px;
+    background: #383838;
+    padding: 4px;
+}
+
+.profile_content {
+    border-left: 0px !important;
+}
+
 
 body {
     background: url(https://beon.vip/uploads_image/40/20/40202cf7fbf9bc7bc7147f5cd0382736.png);
@@ -143,8 +170,8 @@ td.profile_tab_end {
 
 
 .profile_postcomment {
-    padding: unset;
-    border: unset;
+    padding: unset !important;
+    border: unset !important;
 }
 
 
