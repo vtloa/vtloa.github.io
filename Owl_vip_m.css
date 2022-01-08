@@ -1,3 +1,37 @@
+@font-face {
+font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
+    
+    src:    url('https://nomail.com.ua/files/eot/d0b01fa97d4cb65c24547fae4b8ac17f.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/d0b01fa97d4cb65c24547fae4b8ac17f.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/d0b01fa97d4cb65c24547fae4b8ac17f.woff2') format('woff2');
+}
+
+@font-face { font-family: 'TheSalvadorCondensedCYR';  src: local('TheSalvadorCondensedCYR'), url('https://nomail.com.ua/files/woff/d0b01fa97d4cb65c24547fae4b8ac17f.woff') format('woff'); }
+
+
+
+
+/*==========ШРИФТ=============*/
+
+.profile_headline,td.header,
+.profile_tab2, .profile_tab,
+.profile_blogentry_title,
+td.top_menu a,.top_header [href="./"]:after {
+    font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
+}
+
+/*===========================================================*/
+
+
+
+
+/*==============второй шрифт============*/
+
+
+
+
+
+
 .profile_comment_date, .profile_comment_links a {
     color: #878787 !important;
 }
