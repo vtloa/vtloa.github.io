@@ -76,10 +76,6 @@ td.profile_tab2 a,td.profile_tab a {
     padding-top: 10px !important;
     padding-bottom: 5px !important;
     overflow-y: auto;
-    border-top: 2px dotted #6e6e6edb;
-    border-radius: 0 20px 20px 0;
-    border-right: 4px double#6e6e6edb;
-    border-bottom: 2px dotted #6e6e6edb;
 }
 
 
