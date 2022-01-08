@@ -604,6 +604,6 @@ div#mobile_photo_wrap {
 
 
 td.profile_menu1 a:hover {
-    background: transparent;
+    background: transparent !important;
     filter: invert(1);
 }
