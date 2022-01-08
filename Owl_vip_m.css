@@ -120,11 +120,11 @@ div#profile_friends_searchbox_link a,
 }
 
 .browse_friends_result {
-    background: transparent;
-    border: unset; border: unset;
-    padding: 0px; padding: 0px;
-    border-bottom: 1px solid #3a3a3a;
-    padding-bottom: 10px;
+    background: transparent !important;
+    border: unset !important;
+    padding: 0px !important;
+    border-bottom: 1px solid #3a3a3a !important;
+    padding-bottom: 10px !important;
 }
 
 .profile_friend_photo img {
@@ -185,6 +185,7 @@ table.profile_menu {
     backdrop-filter: blur(2px);
     font-size: 16px;
 }
+
 td.profile_menu1 a {
     color: #c7c7c7;
 }
@@ -429,10 +430,10 @@ div#mobile_menu button.btn.btn-primary {
 }
 
 
-
 #mobile_menu .menu_item_dropdown a {
     padding: 5px;
     backdrop-filter: blur(2px);
+    background: transparent !important;
 }
 
 .portal_spacer {
