@@ -270,6 +270,12 @@ td.profile_tab a:hover {
     background: #3c3c3c !important;
     border: unset !important;
 }
+
+td.profile_menu1 a:hover {
+    background: transparent !important;
+    filter: invert(1);
+}
+
 }
 
 
@@ -608,10 +614,6 @@ div#mobile_photo_wrap {
 }
 
 
-td.profile_menu1 a:hover {
-    background: transparent !important;
-    filter: invert(1);
-}
 
 .copyright {
     color: #656565 !important;
