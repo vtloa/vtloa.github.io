@@ -649,7 +649,7 @@ td.top_menu a,.top_header [href="./"]:after {
 
 
 [src="./images/logo_new.png"]:hover,button.btn.btn-primary:hover {
-    filter: invert(1) sepia(1) saturate(10) hue-rotate(-190deg) brightness(0.5) saturate(3.5);
+    filter: invert(1) sepia(1) saturate(10) hue-rotate(-190deg) brightness(0.5) saturate(3.5) !important;
 }
 
 
