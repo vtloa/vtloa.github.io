@@ -478,10 +478,9 @@ img.menu_icon2 {
 
 [src="./images/logo_new.png"] {
     background: url(https://beon.vip/uploads_user/10000/9068/cb783f10b306614ac856f11fccbb6f25.png) no-repeat center / contain;
-    width: 120px !important; width: 110px;
-    height: 100px !important; height: 55px;
-    padding: 50px !important; padding: 28px;
-    margin-top: 10px !important;
+    width: 110px;
+    height: 55px;
+    padding: 28px;
     filter: contrast(0.3);
 }
 
