@@ -632,3 +632,8 @@ div#mobile_photo_wrap {
 
 
 
+/*UPD*/
+
+td.profile_menu1 a:hover {
+    background: transparent !important;
+}
