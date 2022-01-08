@@ -587,3 +587,8 @@ a {
 .profile_comment_author {
     padding: 0px !important;
 }
+
+
+.profile_friend_photo {
+    border: 0px !important;
+}
