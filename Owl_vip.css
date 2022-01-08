@@ -909,3 +909,18 @@ td#profile_tabs_comments,td#profile_tabs_album {
     background: #101010 !important;
 }
 }
+
+
+
+/*UPD*/
+
+td.profile_menu1 a:hover:before {
+    content: '>';
+    font-size: 0;
+    position: absolute;
+    width: 120px;
+    height: 15px;
+    background: url(https://beon.vip/uploads_user/10000/9068/5b5f785c110a0f229eef3d65a0bc07ff.png) no-repeat center / contain;
+    filter: invert(1);
+    margin-left: 147px;
+}
