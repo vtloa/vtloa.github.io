@@ -601,3 +601,9 @@ button.btn.btn-primary {
 div#mobile_photo_wrap {
     font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
 }
+
+
+td.profile_menu1 a:hover {
+    background: transparent;
+    filter: invert(1);
+}
