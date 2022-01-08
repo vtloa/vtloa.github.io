@@ -262,6 +262,9 @@ td.profile_menu1 a {
     border: 0px !important;
     border-radius: unset;
 }
+td.profile_menu1 a {
+    font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
+}
 }
 
 
@@ -486,10 +489,7 @@ div#mobile_menu button.btn.btn-primary {
     background: #151415;
     border: 0px ;
     color: #b1b1b1;
-    font-family: monospace;
     font-size: 14px;
-    text-transform: uppercase;
-    font-style: italic;
 }
 
 
@@ -591,4 +591,13 @@ a {
 
 .profile_friend_photo {
     border: 0px !important;
+}
+
+button.btn.btn-outline-success,
+button.btn.btn-primary {
+    font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
+}
+
+div#mobile_photo_wrap {
+    font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
 }
