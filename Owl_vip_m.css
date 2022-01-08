@@ -622,3 +622,8 @@ td.profile_menu1 a:hover {
 div#mobile_photo_wrap {
     backdrop-filter: blur(2px);
 }
+
+
+.navbar-light .navbar-toggler:focus {
+    outline: unset;
+}
