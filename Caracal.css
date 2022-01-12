@@ -1,0 +1,135 @@
+[src="https://www.youtube.com/embed/IDoRqkqSS5w"] {
+    position: fixed !important;
+    left: 0px;
+    width: 65% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100% !important;
+    top: 0px;
+    bottom: 0px;
+}
+
+
+input#comment_secure {
+    background: #3a3a3a !important;
+}
+
+img#secure_image {
+    filter: contrast(0);
+}
+
+.profile_comment_body {
+    padding: 5px !important;
+}
+
+blockquote.blockquote {
+    margin: 0px;
+    background: #202020;
+    padding: 0px;
+    padding-left: 5px;
+    font-size: 10px !important;
+    letter-spacing: 1px;
+}
+
+div#postcomment_userphotos {
+    height: 200px;
+}
+
+
+
+.copyright,
+[src="/images/verify.png"] {
+    display: none;
+}
+
+input#comment_submit {
+    background: #3a3a3a;
+}
+
+* {
+    border: unset !important;
+}
+
+textarea#comment_body {
+    background: #3a3a3a;
+    color: white !important;
+}
+
+.profile_postcomment,div#postcomment_userphotos,img.img-thumbnail,profile_comment_author  {
+    padding: 0px !important;
+}
+
+.comment_headline {
+    padding: 3px;
+    font-size: 11px;
+}
+
+img.photo {
+    border: none;
+}
+
+.top_header {
+    position: relative !important;
+    width: 100%;
+    z-index: 99999;
+    background: #28282899;
+}
+
+body * {
+    color: #dbdbdb !important;
+}
+body {
+    background: #282828;
+}
+
+.post_container .post_text img,div.profile_comment_body img {
+    max-width: 100% !important;
+}
+
+.content {
+    margin-left: 65% !important;
+    width: 36% !important;
+}
+
+div#lefthome {
+    display: none;
+}
+
+.profile_comment_links {
+    color: transparent !important;
+    font-size: 4px;
+}
+
+.profile_comment_links * {
+    color: #646464 !important;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+div#user_status {
+    display: none;
+}
+
+.profile_comment_author b {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #8f8f8f !important;
+}
+
+.seBlogComments [valign="top"] * {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0px !important;
+    padding-right: 8px !important;
+    font-weight: unset;
+}
+
+[id^="comment_"]+[style="text-align: center;"] *,
+.profile_comment_date {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #646464 !important;
+}
