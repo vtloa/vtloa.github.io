@@ -715,3 +715,9 @@ li.page-item a:hover {
     color: #0b0b0b !important;
     transition: 0.2s;
 }
+
+.modal-body a {
+    color: #323232;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
