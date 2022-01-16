@@ -587,6 +587,15 @@ div#lefthome {
 #TB_overlay {
     background: #d2d2d2 !important; background: #d2d2d2;
 }
+    
+
+h2.card-title a:hover {
+    letter-spacing: unset;
+}
+
+h2.card-title {
+    font-size: 26px;
+}
 }
 
 
