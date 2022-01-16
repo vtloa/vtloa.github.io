@@ -601,6 +601,10 @@ h2.card-title {
 table.body {
     width: 100%;
 }
+
+li.page-item {
+    width: 85%;
+}
 }
 
 
