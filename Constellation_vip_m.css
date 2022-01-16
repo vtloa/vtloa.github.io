@@ -538,6 +538,7 @@ button.btn.btn-secondary {
 div#designs {
     background: gainsboro;
     height: 15px !important; height: 15px;
+    width: 77px;
     border-radius: 10px 0 0 0;
     color: black !important; color: black;
     letter-spacing: 1px;
