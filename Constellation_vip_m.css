@@ -730,3 +730,7 @@ li.page-item a:hover {
 button#newupdates:focus {
     outline: unset;
 }
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+    box-shadow: unset;
+}
