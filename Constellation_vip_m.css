@@ -670,7 +670,7 @@ div[id^="comment_"] {
 }
 
 
-
+/*UPD*/
 
 [onclick^="showpost"] {
     display: block;
@@ -678,4 +678,36 @@ div[id^="comment_"] {
     letter-spacing: 7px;
     text-transform: uppercase;
     font-size: 12px !important;
+}
+
+
+
+ul.pagination.justify-content-end.float-right {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+
+li.page-item {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+li.page-item a {
+    background: #101010;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 7px;
+    color: #6a6a6a;
+    border-radius: unset !important;
+    box-shadow: 0 0 7px black;
+    transition: 0.2s;
+}
+
+li.page-item a:hover {
+    background: #e5e5e5 !important;
+    color: #0b0b0b !important;
+    transition: 0.2s;
 }
