@@ -428,9 +428,7 @@ input#comment_submit {
 
 
 
-#TB_overlay {
-    background: #d2d2d2 !important; background: #d2d2d2;
-}
+
 
 div#mobile_menu,div#mobile_menu a {
     background: gainsboro;
@@ -585,7 +583,14 @@ div#lefthome {
 .modal {
     background: #dcdcdc85 !important; background: #dcdcdc85;
 }
+    
+#TB_overlay {
+    background: #d2d2d2 !important; background: #d2d2d2;
 }
+}
+
+
+/*МЕДИА END*/
 
 
 .copyright_text {
