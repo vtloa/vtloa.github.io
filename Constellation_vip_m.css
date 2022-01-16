@@ -629,7 +629,8 @@ a#comment_last_page_top,a#comment_last_page_bottom{
 }
 
 div[id^="comment_"]+[style="text-align: center;"] {
-    margin-top: 20px;
+    margin-top: 11px;
+    border-top: 1px solid #313131;
 }
 
 [src="/images/verify.png"] {
