@@ -822,3 +822,37 @@ div#designs:before {
     left: 20px;
     bottom: 20px;
 }
+
+
+/*UPD*/
+
+
+font.disabled {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #343434;
+}
+
+a#comment_next_page_top,a#comment_next_page_bottom,
+a#comment_last_page_top,a#comment_last_page_bottom{
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #7c7c7c;
+}
+
+div[id^="comment_"]+[style="text-align: center;"] {
+    border-top: 1px solid #313131;
+}
+
+[src="/images/verify.png"] {
+    filter: grayscale(1);
+    margin-top: -4px;
+    width: 12px;
+}
+
+
+div[id^="comment_"] {
+    margin: 0px;
+}
