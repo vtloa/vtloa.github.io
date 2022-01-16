@@ -597,6 +597,10 @@ h2.card-title a:hover {
 h2.card-title {
     font-size: 26px;
 }
+
+table.body {
+    width: 100%;
+}
 }
 
 
