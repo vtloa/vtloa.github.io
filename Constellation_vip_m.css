@@ -431,7 +431,7 @@ input#comment_submit {
 
 
 div#mobile_menu,div#mobile_menu a {
-    background: gainsboro;
+    background: gainsboro; background: gainsboro !important;
 }
 
 
