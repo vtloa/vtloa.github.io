@@ -725,3 +725,8 @@ li.page-item a:hover {
     font-size: 15px;
     letter-spacing: 2px;
 }
+
+
+button#newupdates:focus {
+    outline: unset;
+}
