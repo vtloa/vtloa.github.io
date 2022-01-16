@@ -629,7 +629,6 @@ a#comment_last_page_top,a#comment_last_page_bottom{
 }
 
 div[id^="comment_"]+[style="text-align: center;"] {
-    margin-top: 11px;
     border-top: 1px solid #313131;
 }
 
@@ -637,4 +636,9 @@ div[id^="comment_"]+[style="text-align: center;"] {
     filter: grayscale(1);
     margin-top: -4px;
     width: 12px;
+}
+
+
+div[id^="comment_"] {
+    margin: 0px;
 }
