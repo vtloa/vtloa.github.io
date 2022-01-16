@@ -15,6 +15,22 @@ font-family: 'fonte7887acc50b6921e7c7c7c0074ab98ba';
 
 
 
+/*============================*/
+
+
+@font-face {
+font-family: 'font2cb307bd39064a857a62a45354de0df7';
+    
+    src:    url('https://nomail.com.ua/files/eot/2cb307bd39064a857a62a45354de0df7.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/2cb307bd39064a857a62a45354de0df7.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/2cb307bd39064a857a62a45354de0df7.woff2') format('woff2');
+}
+
+@font-face { font-family: 'RotisSemiSerifProCyr-Regular';  src: local('RotisSemiSerifProCyr-Regular'), url('https://nomail.com.ua/files/woff/2cb307bd39064a857a62a45354de0df7.woff') format('woff'); }
+
+
+
+/*============================*/
 
 
 
