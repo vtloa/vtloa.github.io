@@ -856,3 +856,9 @@ div[id^="comment_"]+[style="text-align: center;"] {
 div[id^="comment_"] {
     margin: 0px;
 }
+
+
+.profile_comment_body {
+    padding-bottom: 30px !important;
+    padding-top: 20px !important;
+}
