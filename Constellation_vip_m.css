@@ -738,3 +738,8 @@ button#newupdates:focus {
 div[id^="comment_"] {
     background: transparent !important;
 }
+
+
+.profile_comment_body,.post_text.pl-3 {
+    color: #939393 !important;
+}
