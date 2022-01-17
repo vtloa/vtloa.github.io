@@ -770,9 +770,10 @@ blockquote.blockquote {
     margin-top: 10px;
     margin-left: 0px;
     padding-left: 10px;
-    color: #5c5c5c;
+    color: #3e3e3e;
     font-style: italic;
     border-left: 2px solid;
+    margin-bottom: 0px;
 }
 
 ul.pagination.justify-content-end.float-right {
