@@ -734,3 +734,7 @@ button#newupdates:focus {
 .btn-outline-success:focus, .btn-outline-success.focus {
     box-shadow: unset;
 }
+
+div[id^="comment_"] {
+    background: transparent !important;
+}
