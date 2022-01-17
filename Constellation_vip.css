@@ -574,12 +574,8 @@ p.card-link,h6.card-subtitle.mb-2.text-muted.post_date,.card-header,.category {
 
 
 .profile_comment_links {
-    position: absolute;
-    right: 0;
-    top: 40px;
-    letter-spacing: 4px;
-    text-transform: lowercase;
-    font-size: 13px;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 
 .profile_comment_author a {
