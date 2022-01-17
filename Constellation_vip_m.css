@@ -743,3 +743,10 @@ div[id^="comment_"] {
 .profile_comment_body, .post_text.pl-3 {
     color: #8b8b8b !important;
 }
+
+
+input#comment_secure:focus, input#comment_secure:hover {
+    transform: unset;
+    filter: unset;
+    color: #a1a1a1;
+}
