@@ -459,3 +459,14 @@ span.card-text,.profile_comment_body {
     transform: rotate(18deg);
     filter: grayscale(1);
 }
+
+
+font.disabled {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #7c7c7c;
+}
+
+a#comment_next_page_bottom,a#comment_next_page_top,a#comment_last_page_top,a#comment_last_page_bottom {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #51858e;
+}
