@@ -332,3 +332,7 @@ textarea#comment_body::placeholder {
 .comment_headline {
     color: #51858e;
 }
+
+.profile_comment_date {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
