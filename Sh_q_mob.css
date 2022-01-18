@@ -404,6 +404,10 @@ div#designs {
     font-size: 11px;
     letter-spacing: 1px;
 }
+
+[id$="_comments"] {
+    padding: 5px;
+}
 }
 
 
