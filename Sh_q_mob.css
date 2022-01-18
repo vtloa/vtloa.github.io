@@ -448,7 +448,7 @@ font-family: 'font7bc48ed5802630339bfc448e9b65d936';
 
 
 
-span.card-text {
+span.card-text,.profile_comment_body {
     font-family: 'font7bc48ed5802630339bfc448e9b65d936';
     color: #444444;
     font-size: 16px;
