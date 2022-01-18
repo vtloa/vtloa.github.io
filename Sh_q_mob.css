@@ -470,3 +470,12 @@ a#comment_next_page_bottom,a#comment_next_page_top,a#comment_last_page_top,a#com
     font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
     color: #51858e;
 }
+
+blockquote.blockquote {
+    border-left: unset;
+    color: #7a979d;
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    font-style: italic;
+    border-bottom: 2px dashed #738a8f4f;
+    margin: 0px;
+}
