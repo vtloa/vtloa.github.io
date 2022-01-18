@@ -336,3 +336,8 @@ textarea#comment_body::placeholder {
 .profile_comment_date {
     font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
 }
+
+.copyright {
+    font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    color: #717171 !important;
+}
