@@ -479,3 +479,10 @@ blockquote.blockquote {
     border-bottom: 2px dashed #738a8f4f;
     margin: 0px;
 }
+
+
+.profile_comment_links a,.profile_comment_date {
+    color: #747474 !important;
+    font-size: 12px;
+    padding-left: 10px;
+}
