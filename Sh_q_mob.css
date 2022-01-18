@@ -423,3 +423,33 @@ div#mobile_menu,.modal-content {
 #mobile_menu .menu_item_dropdown a {
     color: #dcdcdc;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: 'font7bc48ed5802630339bfc448e9b65d936';
+    
+    src:    url('https://nomail.com.ua/files/eot/7bc48ed5802630339bfc448e9b65d936.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/7bc48ed5802630339bfc448e9b65d936.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/7bc48ed5802630339bfc448e9b65d936.woff2') format('woff2');
+}
+
+@font-face { font-family: 'DeadHistoryCyrillic-Roman';  src: local('DeadHistoryCyrillic-Roman'), url('https://nomail.com.ua/files/woff/7bc48ed5802630339bfc448e9b65d936.woff') format('woff'); }
+
+
+
+span.card-text {
+    font-family: 'font7bc48ed5802630339bfc448e9b65d936';
+    color: #444444;
+    font-size: 16px;
+}
