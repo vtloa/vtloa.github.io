@@ -297,3 +297,9 @@ input#comment_submit {
 .profile_postcomment {
     border: none !important;
 }
+
+/*UPD*/
+
+.post_text.pl-3 {
+    background: #e1e1e1d9;
+}
