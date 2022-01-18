@@ -1,3 +1,16 @@
+@font-face {
+font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+    
+    src:    url('https://nomail.com.ua/files/eot/cf3b746a44d8f4183bc9ba366bec8d61.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/cf3b746a44d8f4183bc9ba366bec8d61.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/cf3b746a44d8f4183bc9ba366bec8d61.woff2') format('woff2');}
+
+@font-face { font-family: 'DSEraserCyr';  src: local('DSEraserCyr'), url('https://nomail.com.ua/files/woff/cf3b746a44d8f4183bc9ba366bec8d61.woff') format('woff'); }
+
+
+
+
+
 input#comment_submit:hover {
     color: #cf2131;
     text-decoration: line-through;
