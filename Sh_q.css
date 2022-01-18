@@ -255,9 +255,7 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
 .profile_comment_author a {
     font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
     color: #51858e;
-    transform: rotate( 
--2deg
- );
+    transform: rotate( -2deg );
     display: block;
     font-size: 17px;
 }
@@ -270,7 +268,7 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
 .profile_comment_author {
     position: absolute;
     margin-top: -35px;
-    margin-left: -120px;
+    margin-left: -85px;
 }
 
 [style="margin-top: 10px; margin-bottom: 20px;"] {
