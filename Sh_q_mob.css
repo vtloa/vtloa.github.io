@@ -278,21 +278,7 @@ button.btn.btn-secondary {
     border-color: transparent;
 }
 
-@media screen and (max-width: 1024px) {
-* {font-family: sans-serif;}
-.card.mb-2.post_home {
-    padding: 20px;
-}
-.post, .seBlogComments {
-    padding: 10px;
-}
-[id^="comment_"] {
-    margin-top: 50px;
-}
-input#comment_submit {
-    font-size: 14px;
-}
-}
+
 
 .profile_postcomment {
     border: none !important;
@@ -340,4 +326,40 @@ textarea#comment_body::placeholder {
 .copyright {
     font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
     color: #717171 !important;
+}
+
+.post_image div {
+    width: 70px !important;
+    color: #616161 !important;
+    display: none;
+}
+
+
+/*МЕДИА*/
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+* {font-family: sans-serif;}
+.card.mb-2.post_home {
+    padding: 20px;
+}
+.post, .seBlogComments {
+    padding: 10px;
+}
+[id^="comment_"] {
+    margin-top: 50px;
+}
+input#comment_submit {
+    font-size: 14px;
+}
+    
+.post_image img, .post_image {
+    max-width: 70px;
+}
+.card.mb-2.post_home {
+    padding: 10px;
+}
 }
