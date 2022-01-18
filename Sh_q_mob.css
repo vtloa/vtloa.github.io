@@ -355,7 +355,7 @@ textarea#comment_body::placeholder {
 
 
 @media screen and (max-width: 1024px) {
-* {font-family: sans-serif;}
+
 .card.mb-2.post_home {
     padding: 20px;
 }
