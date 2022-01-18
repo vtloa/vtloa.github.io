@@ -453,3 +453,9 @@ span.card-text,.profile_comment_body {
     color: #444444;
     font-size: 16px;
 }
+
+
+[src="/images/verify.png"] {
+    transform: rotate(18deg);
+    filter: grayscale(1);
+}
