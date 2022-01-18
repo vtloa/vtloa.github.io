@@ -415,6 +415,11 @@ textarea#comment_body {
 
 
 .profile_comment_links a,.profile_comment_links,.profile_comment_author,.seBlogColumnRightPadding,h2.card-title,
-button.btn.btn-outline-success,h6.card-subtitle.mb-2.text-muted.post_date,.additional_info.pl-3,.comment_headline {
+button.btn.btn-outline-success,h6.card-subtitle.mb-2.text-muted.post_date,.additional_info.pl-3,.comment_headline,
+div#mobile_menu{
     font-family: 'fontcf3b746a44d8f4183bc9ba366bec8d61';
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: #555555;
 }
