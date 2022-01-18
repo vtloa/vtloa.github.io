@@ -362,4 +362,7 @@ input#comment_submit {
 .card.mb-2.post_home {
     padding: 10px;
 }
+div#mobile_menu button.btn.btn-primary {
+    font-size: 13px !important;
+}
 }
