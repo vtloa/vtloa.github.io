@@ -528,3 +528,13 @@ ul.seBlogCategoryList {font-size: 5px;}
 }
 
 div[id^="comment_"] {padding-bottom: 5px;}
+
+
+/*UPD*/
+
+.top_header { width: 100%; }
+
+div#designs {
+    right: 30px !important;
+    top: 16px !important;
+}
