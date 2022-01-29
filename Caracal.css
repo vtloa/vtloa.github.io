@@ -133,3 +133,176 @@ div#user_status {
     letter-spacing: 2px;
     color: #646464 !important;
 }
+
+
+
+
+
+/*================================================*/
+
+/*UPD*/
+
+
+table.body {
+    padding: 0;
+}
+
+img.menu_icon2 {
+    filter: grayscale(1);
+}
+
+div.menu_dropdown {
+    background: #1c1c1c !important;
+    border-radius: unset !important;
+}
+div.menu_dropdown a {
+    background: transparent !important;
+    font-size: 10px !important;
+}
+
+div.menu_dropdown a {
+    background: transparent !important;
+}
+
+[src="/images/notify.svg"] {
+    width: 21px;
+}
+
+button.button_down {
+    background: transparent;
+    filter: contrast(0);
+}
+
+button.btn.btn-primary {
+    padding: 0px;
+    background: #282828;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -4px;
+}
+
+.top_header {
+    background: #1c1c1c;
+    padding: 0px;
+    height: 44px;
+    border: 1px
+ outset #323232 !important;
+}
+
+td.top_menu {
+    padding: 0;
+    padding-top: 5px;
+}
+
+.top_header {
+    height: 44px;
+}
+
+.top_header * {
+    font-size: 14px !important;
+    text-transform: uppercase;
+}
+
+[href="./"]:before {
+    content: 'Beon';
+    font-size: 14px;
+    display: block;
+    margin-top: -35px;
+    height: 30px;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+
+.top_header {
+    background: #1c1c1c;
+    padding: 0px;
+}
+
+.post_text.pl-3 {
+    padding-left: 5px !important;
+}
+
+[onclick^="newmessage"] {
+    display: none !important;
+}
+
+
+
+[src="https://www.youtube.com/embed/tB89NjE916c"] {
+    position: fixed !important;
+    left: 0px;
+    width: 65% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100% !important;
+    top: 0px;
+    bottom: 0px;
+}
+
+
+@media (max-width: 1024px) {
+[src="https://www.youtube.com/embed/tB89NjE916c"] {
+    position: fixed !important;
+    left: 0px;
+    width: 65% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100% !important;
+    top: 0px;
+    bottom: 0px;
+}
+.content {
+    margin-left: 65% !important;
+    width: 36% !important;
+}
+
+div#postcomment_userphotos {
+    max-height: 100px !important;
+}
+div#bbcode {
+    text-align: left !important;
+}
+.post_image a img,img.photo {
+    max-width: 62px !important;
+    max-height: 62px !important;
+    object-fit: cover !important;
+}
+
+.post_image,
+.seBlogComments [style="float: left; text-align: center; width: 110px;"] {
+    max-width: 62px !important;
+}
+
+.profile_comment_author {
+    max-width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div#designs {
+    font-size: 13px;
+    height: 20px !important;
+    width: 70px;
+}
+}
+
+
+
+/*СКРОЛЛ*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #666666;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #1c1c1c;
+}
+
+
+
