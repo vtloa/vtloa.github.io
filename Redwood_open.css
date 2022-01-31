@@ -124,8 +124,7 @@ a.commentReply {
 }
 
 .card.mb-2.post_home {
-    width: 100%;
-    margin-top: 5%;
+    margin-top: 5% !important;
 }
 
 .profile_comment_links {
@@ -585,7 +584,7 @@ div#userphotos::-webkit-scrollbar-thumb {
 /*ШАПКА*/
 
 .content:before {
-    background: url(https://i.pinimg.com/originals/86/9f/d2/869fd246540e0b65b1254cc1b82c193d.png) no-repeat bottom;
+    background: url(https://i.ibb.co/s979Z28/1625538998-21-kartinkin-com-p-strashnaya-komnata-fon-krasivie-foni-22.jpg) no-repeat center;
     content: 'шапк' !important;
     left: 0px;
     top: 0px;
@@ -595,6 +594,10 @@ div#userphotos::-webkit-scrollbar-thumb {
     color: transparent;
     background-size: cover;
     margin-top: -13px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+background: url(https://i.ibb.co/s979Z28/1625538998-21-kartinkin-com-p-strashnaya-komnata-fon-krasivie-foni-22.jpg) no-repeat center;
 }
 
 /*цвет фона*/
