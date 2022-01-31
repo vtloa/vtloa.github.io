@@ -1,13 +1,4 @@
-[src="https://www.youtube.com/embed/IDoRqkqSS5w"] {
-    position: fixed !important;
-    left: 0px;
-    width: 65% !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    height: 100% !important;
-    top: 0px;
-    bottom: 0px;
-}
+
 
 
 input#comment_secure {
@@ -231,29 +222,11 @@ td.top_menu {
 
 
 
-[src="https://www.youtube.com/embed/tB89NjE916c"] {
-    position: fixed !important;
-    left: 0px;
-    width: 65% !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    height: 100% !important;
-    top: 0px;
-    bottom: 0px;
-}
+
 
 
 @media (max-width: 1024px) {
-[src="https://www.youtube.com/embed/tB89NjE916c"] {
-    position: fixed !important;
-    left: 0px;
-    width: 65% !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    height: 100% !important;
-    top: 0px;
-    bottom: 0px;
-}
+
 .content {
     margin-left: 65% !important;
     width: 36% !important;
