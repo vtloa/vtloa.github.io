@@ -718,3 +718,16 @@ img.head_post {
     max-width: 400px;
     margin: auto;
 }
+
+/*UPD*/
+
+[src="/images/verify.png"] {
+    filter: grayscale(1) brightness(0.5);
+}
+
+blockquote.blockquote {
+    background: #4801011a;
+    width: fit-content;
+    border-color: #b31313db;
+    font-style: italic;
+}
