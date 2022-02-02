@@ -1,4 +1,13 @@
 
+.card.mb-2.post_home {
+    min-height: 600px !important;
+}
+
+.post_text.pl-3 {
+    padding: 5px;
+}
+
+
 div#TB_window {
     background: #181818;
 }
@@ -104,9 +113,7 @@ a.commentReply {
 
 .badge-danger {
     color: #000;
-    background-color: #ffffff;
-    border-radius: 100%;
-    width: 15px;
+    background: transparent;
 }
 
 .profile_comment_links {
@@ -123,9 +130,6 @@ a.commentReply {
     width: 100%;
 }
 
-.card.mb-2.post_home {
-    margin-top: 5% !important;
-}
 
 .profile_comment_links {
     color: transparent;
@@ -148,16 +152,16 @@ iframe.head_post {
 }
 
 img.head_post {
-    position: absolute;
+    position: absolute !important;
     top: 0px;
     left: 0px;
     width: 100%;
     max-width: 100%;
-    height: 150px !important;
+    height: 250px !important;
     object-fit: cover;
 }
+
 .card-header {
-    width: 100%;
     background: #1e1e1e;
     margin: auto;
     padding: 10px !important;
@@ -183,7 +187,7 @@ input[type="text"] {
 .post_text.pl-3 {padding: 5px !important;}
 
 .post {
-    padding-top: 150px;
+    padding-top: 250px !important; padding-top: 100px
     position: relative;
     border: 1px solid #979ba569;
     border-radius: 5px;
@@ -224,7 +228,7 @@ textarea#comment_body::placeholder {
 }
 
 input#comment_submit {
-    color: #8e8e8e;
+    color: #cdcdcd;
     margin-top: 0px;
     transition: 0.2s;
 }
@@ -403,9 +407,11 @@ div#mobile_menu, div#mobile_menu a {
 
 
 button.btn.btn-outline-success {
-    color: #b21124;
-    background: #0d0d0d;
+    color: #000000;
+    background: transparent;
     border: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 button.navbar-toggler {
@@ -470,7 +476,7 @@ h2.card-title {
 
 
 h2.card-title a:before {
-    content: 'image click';
+    content: 'image click' !important;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -574,7 +580,7 @@ div#userphotos::-webkit-scrollbar-thumb {
 
 
 .card-header {
-    width: 75%;
+    width: 75% !important; width: 100%;
 }
 
 
