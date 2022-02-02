@@ -440,3 +440,21 @@ li.nav-item [href$=".beon.fun/register"] {
     content: 'BEON.FUN';
     font-size: 17px;
 }
+
+
+/*UPD*/
+
+input[type="submit"] {
+    text-transform: lowercase;
+    background: #52525226;
+    border: 1px outset #837e7e;
+    color: #7e7e7e;
+}
+
+input[type="text"] {
+    background: #52525226;
+    border: 1px inset #837e7e;
+    margin-right: 5px;
+    text-transform: lowercase;
+}
+
