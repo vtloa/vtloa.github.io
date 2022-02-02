@@ -401,3 +401,16 @@ li.nav-item [href$=".beon.fun/register"] {
 .post-content.blog_total_counter {
     display: none;
 }
+
+input[type="submit"] {
+    background: #f1f1f1;
+    border: 1px outset #e5e5e5;
+    text-transform: lowercase;
+}
+
+input[type="text"] {
+    background: #ffffffad;
+    border: 1px inset #f1f1f1;
+    margin-right: 5px;
+    text-transform: lowercase;
+}
