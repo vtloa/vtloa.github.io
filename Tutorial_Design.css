@@ -403,14 +403,15 @@ li.nav-item [href$=".beon.fun/register"] {
 }
 
 input[type="submit"] {
-    background: #f1f1f1;
-    border: 1px outset #e5e5e5;
     text-transform: lowercase;
+    background: #52525226;
+    border: 1px outset #837e7e;
+    color: #7e7e7e;
 }
 
 input[type="text"] {
-    background: #ffffffad;
-    border: 1px inset #f1f1f1;
+    background: #52525226;
+    border: 1px inset #837e7e;
     margin-right: 5px;
     text-transform: lowercase;
 }
