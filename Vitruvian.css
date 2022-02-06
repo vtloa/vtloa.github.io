@@ -970,3 +970,15 @@ ul.menu__box {
 .tag:before {
     display: none;
 }
+
+
+
+/*UPD*/
+
+[src="//beon.fun/i/logo2.png"] {
+    display: none;
+}
+
+[href="https://beon.fun"]:before {
+    content: 'BEON';
+}
