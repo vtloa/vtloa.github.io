@@ -624,7 +624,7 @@ main.py-4 {
     margin: auto;
 }
 
-.content h2[style="margin-left: 10px;"]:before {
+.post-content.blog_total_counter:before {
     content: 'open';
     display: block;
     width: 100%;
