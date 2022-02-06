@@ -751,7 +751,7 @@ span.crumb-item {
     font-size: 15px;
 }
 
-.content h2[style="margin-left: 10px;"]:before {
+.post-content.blog_total_counter:before {
     height: 200px;
 }
 
