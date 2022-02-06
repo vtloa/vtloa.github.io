@@ -945,3 +945,7 @@ div#app {
 .pagination {
     display: block;
 }
+
+div#beon-fnplayer {
+    filter: invert(1);
+}
