@@ -941,3 +941,7 @@ div#app {
 .blog__gifts a {
     color: #d37440;
 }
+
+.pagination {
+    display: block;
+}
