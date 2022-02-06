@@ -949,3 +949,12 @@ div#app {
 div#beon-fnplayer {
     filter: invert(1);
 }
+
+.blog__gifts img {
+    width: 35px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.blog__gifts {
+    font-size: 12px;
+}
