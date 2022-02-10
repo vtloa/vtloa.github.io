@@ -676,9 +676,10 @@ ul.menu__box {
 
 
 .hamburger-menu a.menu__item:hover {
-    background: #6da8d1;
-    color: #efefef;
+    background: #65acdd;
+    color: #f5f5f5;
 }
+
 .hamburger-menu a.menu__item {
     font-family: 'font3036ae86f3e196e33d3be155da20f495';
     color: #404040;
