@@ -1108,9 +1108,11 @@ a.user.post-title-user {
 .left-menu>div {
     padding: 10px;
 }
+
 h3.left-menu-text {
-    transform: translateY(-5px);
+    transform: translateX(-10px) translateY(-10px);
     font-size: 17px;
+    margin-right: -20px;
 }
 
 .left-menu>div {
