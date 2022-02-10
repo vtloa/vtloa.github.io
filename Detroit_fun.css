@@ -687,7 +687,7 @@ ul.menu__box {
 }
 
 ul.menu__box {
-    background: #8787878c;
+    background: #f3f3f38c;
     backdrop-filter: blur(3px);
     top: 60px;
     padding: 0;
@@ -1217,4 +1217,8 @@ span.pagination-goto {
     color: #218bd5;
     font-style: italic;
     font-size: 14px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    border-color: #58a9e1;
 }
