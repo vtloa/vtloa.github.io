@@ -1233,3 +1233,14 @@ span.pagination-goto {
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
     border-color: #58a9e1;
 }
+
+.left-menu__user-notification.left-menu__unread-message img+p+p {
+    font-size: 16px;
+    color: #545454;
+}
+.left-menu__user-notification.left-menu__unread-message img+p {
+    color: #1a6295;
+    font-family: 'font3036ae86f3e196e33d3be155da20f495';
+    font-size: 15px;
+    margin-bottom: 5px;
+}
