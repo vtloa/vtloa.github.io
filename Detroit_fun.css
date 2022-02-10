@@ -444,8 +444,8 @@ a.my-menu.for-mobile.d-none.d-md-inline:before {
 
 
 .row.w-100 *,.datebg,span.post-title-date,span.post-title-date+span {
-    font-size: 11px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
     font-style: unset;
 }
 
