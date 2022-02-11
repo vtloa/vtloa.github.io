@@ -1248,3 +1248,27 @@ span.pagination-goto {
 .comment-text {
     color: #404040;
 }
+
+/*UPD2*/
+
+
+
+
+a.actionignore {
+    font-size: 0;
+    margin-left: 75px !important;
+    position: relative;
+    padding: 0;
+    text-transform: uppercase;
+    position: relative;
+}
+
+a.actionignore:before {
+    content: 'Добавить в игнор';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
