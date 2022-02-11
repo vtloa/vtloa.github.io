@@ -1271,4 +1271,17 @@ a.actionignore:before {
 
 
 
-
+a.actionignore:after {
+    content: '-';
+    color: transparent;
+    background: transparent;
+    border: 1px solid #525252;
+    display: table-caption;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    transform: rotate( 45deg );
+    position: absolute;
+    left: -15px;
+    top: -10px;
+}
