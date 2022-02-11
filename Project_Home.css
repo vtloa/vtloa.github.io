@@ -1,0 +1,1105 @@
+body {
+    background: white;
+}
+
+div#designs {
+    display: block !important;
+    top: 0;
+    left: 0;
+    background: transparent;
+    width: 10px;
+    height: 10px !important;
+    overflow: hidden;
+    font-size: 0;
+}
+
+div.profile_comment_body {
+    color: white;
+}
+
+.profile_comment_links {
+    display: none;
+}
+
+[style="float: left; text-align: center; width: 110px;"] {
+    max-width: 50px;
+}
+
+img.photo {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+
+
+.seBlogComments [valign="top"] a {
+    font-size: 0 !important;
+}
+
+a:hover {
+    text-decoration: unset !important;
+}
+
+:focus {
+    outline: unset !important;
+}
+
+
+
+.profile_postcomment,div#bbcode {
+    display: none;
+}
+
+div#blog_643073_postcomment .profile_postcomment {
+    display: block;
+}
+
+.profile_postcomment {
+    position: absolute !important;
+    width: 500px;
+    left: 0;
+    right: 0;
+    bottom: 43px;
+    margin: auto;
+    border: unset !important;
+    z-index: 3;
+}
+
+input#comment_submit {
+    width: 100%;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    border: unset;
+}
+
+.blog_leftsearch {
+    display: none;
+}
+
+div#entry_main {
+    display: none;
+}
+
+.card {
+    border: unset;
+}
+
+
+div#lefthome {
+    font-size: 0;
+}
+td.result {
+    display: none;
+}
+
+.comment_headline {
+    display: none;
+}
+
+div#postcomment_userphotos {
+    display: none !important;
+}
+
+.profile_postcomment {
+    padding: 0px !important;
+}
+
+
+.blog_leftphoto img {
+    width: 29px !important;
+    height: 29px !important;
+    transition: 1s;
+    display: none;
+}
+
+.blog_leftphoto {
+    position: absolute;
+    top: 163px;
+    left: 612px;
+    width: 27px !important;
+    height: 27px;
+    transition: 1s;
+    z-index: 1;
+}
+
+
+
+.post_container .post_text img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post * {
+    text-align: center;
+    font-size: 12px !important;
+    line-height: 1;
+}
+
+.post_text.pl-3 {
+    padding: 0px !important;
+}
+
+h2.card-title {
+    font-size: 10px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date,.post_image,.additional_info.pl-3 {
+    display: none;
+}
+
+form#blogform {
+    display: none;
+}
+
+.card.mb-2.post_home:nth-child(6) {
+    width: 32px;
+    height: 51px;
+    position: absolute;
+    top: 120px;
+    left: 353px;
+    overflow: hidden;
+    color: white;
+}
+
+.card.mb-2.post_home:nth-child(5) {
+    width: 28px;
+    height: 34px;
+    position: absolute;
+    top: 67px;
+    left: 376px;
+    overflow: hidden;
+}
+
+
+.card.mb-2.post_home:nth-child(1) {
+    background: red;
+    width: 0;
+    height: 0;
+    position: unset;
+}
+
+.card.mb-2.post_home:nth-child(4) {
+    width: 38px;
+    height: 46px;
+    position: absolute;
+    top: 81px;
+    left: 330px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+.card.mb-2.post_home:nth-child(3) {
+    width: 46px;
+    height: 61px;
+    position: absolute;
+    top: 66px;
+    left: 251px;
+    overflow: hidden;
+}
+
+.card.mb-2.post_home:nth-child(2) {
+    width: 172px;
+    height: 106px;
+    position: absolute;
+    top: 73px;
+    left: 413px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.post_container * {
+    font-size: 0px !important;
+}
+
+h2.card-title a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    padding-top: 10px;
+    z-index: 2;
+    font-size: 0px !important;
+}
+
+.card.mb-2.post_home:nth-child(6) a,
+.card.mb-2.post_home:nth-child(3) a {
+    color: white;
+}
+
+.card.mb-2.post_home:nth-child(2) a {
+    color: transparent;
+}
+
+.card.mb-2.post_home:nth-child(2) .post_container * {
+    font-size: 11px !important;
+}
+
+.group_desc {
+    display: none;
+}
+
+
+
+.top_header * {
+    font-size: 0 !important;
+}
+
+[src="./images/logo_new.png"],
+[src="/images/notify.svg"],
+[onclick="window.scrollTo(0,100000); return false;"] {
+    display: none;
+}
+
+[onclick="showUpdates(); return false;"] {
+    content: 'info';
+    font-size: 0;
+    display: block;
+    border-radius: unset;
+    width: 77px;
+    height: 101px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: url(https://beon.vip/uploads_user/10000/9008/cdb47a4693586f53899719085c34baa8.png) no-repeat center bottom !important;
+    image-rendering: pixelated;
+}
+
+
+[href="./"]:before {
+    content: 'WARP';
+    font-size: 0;
+    display: block;
+    width: 77px;
+    height: 101px;
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+    background: url(https://beon.vip/uploads_user/10000/9008/820fb092b99bc1434b9d5860eed5ca47.png) no-repeat center bottom;
+    image-rendering: pixelated;
+}
+
+[onclick="showUpdates(); return false;"]:hover {
+    background: url(https://beon.vip/uploads_user/10000/9008/c61da36cfa0997454725efb226b4e16a.png) no-repeat center bottom !important;
+}
+
+
+[href="./"]:hover:before {
+    background: url(https://beon.vip/uploads_user/10000/9008/a16dde1b7a381ada038acd3d016b2a60.png) no-repeat center bottom !important;
+}
+
+
+[href="./"]:after,
+[onclick="showUpdates(); return false;"]:after {
+    opacity: 0;
+}
+
+[href="./"]:hover:after,
+[onclick="showUpdates(); return false;"]:hover:after {
+    opacity: 1;
+}
+
+
+.copyright {
+    display: none;
+}
+
+.top_header {
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    position: fixed !important;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: -560px;
+    padding: 0px !important;
+    background: transparent;
+    box-shadow: unset;
+    overflow: hidden;
+}
+
+.content {
+    width: 1000px !important;
+    height: 723px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0px !important;
+}
+
+.content:before {
+    content: 'charroom';
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    image-rendering: pixelated;
+    background: url(https://beon.vip/uploads_image/93/81/9381675895ef0a5e30969a502ae9b46a.png) no-repeat center;
+    background-size: contain;
+}
+
+
+/*TVROOM*/
+
+div#blog_643072_comments:before {
+    content: 'TVROOM';
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    image-rendering: pixelated;
+    background: url(https://beon.vip/uploads_image/41/b2/41b23d9f5448cc2bd7dece66679b0af3.gif) no-repeat center;
+    background-color: black;
+}
+
+div#blog_643073_postcomment:before {
+    content: 'TVROOM2';
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    image-rendering: pixelated;
+    background: url(https://beon.vip/uploads_image/5e/2d/5e2d6cd7d37959a5a30b0d064b3240f5.png) no-repeat center;
+}
+
+
+div#blog_643076_postcomment:before {
+    content: 'ТВ коридор';
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    image-rendering: pixelated;
+    background: url(https://beon.vip/uploads_image/48/49/48496c574617ce792c441be996491171.gif) repeat-x;
+    background-position: -862px center;
+    background-color: black;
+    animation: tvk 20s infinite linear;
+}
+
+@keyframes tvk {
+  0%{background-position: 862px center;}
+}
+
+
+
+
+
+.card.mb-2.post_home:first-child h2.card-title {
+    display: none;
+}
+
+
+
+img.photo {
+    border: unset;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+div#user_status {
+    display: none;
+}
+
+
+
+div[id^="grouptopic_"]{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    bottom: 300px;
+    overflow-y: scroll;
+    z-index: 2;
+}
+
+
+
+
+
+
+.profile_comment_date {
+    display: none;
+}
+
+textarea#comment_body {
+    background: white;
+    padding: 5px;
+    color: black !important;
+    border: 2px solid;
+    border-radius: unset;
+}
+
+
+.card.mb-2.post_home:first-child .frame-container1 {
+    position: absolute;
+    top: 302px;
+    left: 358px;
+    z-index: 99;
+    max-width: 119px !important;
+    height: 88px !important;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.card.mb-2.post_home:first-child .frame-container1 iframe {
+    max-width: 100% !important;
+    height: 200px !important;
+    margin-top: -55px;
+}
+
+
+.card.mb-2.post_home:first-child .frame-container2 {
+    position: absolute;
+    top: 322px;
+    left: 237px;
+    z-index: 99;
+    max-width: 88px !important;
+    height: 68px !important;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.card.mb-2.post_home:first-child .frame-container2 iframe {
+    max-width: 100% !important;
+    height: 200px !important;
+    margin-top: -66px;
+}
+
+
+.card.mb-2.post_home:first-child .frame-container3 {
+    position: absolute;
+    top: 128px;
+    left: 250px;
+    z-index: 99;
+    width: 369px !important;
+    height: 272px !important;
+    overflow: hidden;
+}
+
+.card.mb-2.post_home:first-child .frame-container3 iframe {
+    max-width: 100% !important;
+    height: 328px !important;
+    margin-top: -55px;
+}
+
+
+.card.group_members .card-header:before {
+    content: '13221';
+    display: block;
+    background: url(https://beon.vip/uploads_user/10000/9008/87b9eb92b8641bf617600993bb6fb962.png) no-repeat center right !important;
+    position: absolute;
+    top: 170px;
+    right: -687px;
+    width: 75px;
+    height: 75px;
+    transition: 0.3s;
+}
+
+
+
+
+.card.group_members .card-header:hover:before {
+    background: url(https://beon.vip/uploads_user/10000/9008/d1a3c6807c0cef8af88ba7e5f441ebbb.png) no-repeat center right !important;
+    transition: 0.3s;
+}
+
+.seBlogComments [style="margin-bottom: 20px;"] {
+    position: relative;
+    z-index: 3;
+}
+
+.seBlogComments [style="margin-bottom: 20px;"] a {
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.card-body,li.p-1,.seBlogColumnRightPadding,.card-header {
+    padding: 0px !important;
+}
+
+
+
+
+
+.card.blog_categories .card-header:hover:before {
+    opacity: 1;
+    background: url(https://beon.vip/uploads_user/10000/9008/2d34dbc2911ff311b790d4f67e1df4ed.png) no-repeat center right !important;
+    transition: 0s;
+}
+
+
+
+.card.group_members .card-header:hover:after {opacity: 1;}
+
+
+
+
+
+
+
+
+
+.top_header button.btn.btn-primary {
+    display: none;
+}
+
+
+
+
+/*МОДАЛ*/
+
+.modal-dialog {
+    max-width: 100%;
+    background: #000000 !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 1024px;
+    max-height: 200px;
+    margin: auto;
+    margin-top: auto;
+    transform: translateY(262px);
+}
+
+.modal-header {
+    padding: 0px;
+}
+
+.modal-content {
+    background: black;
+    border-radius: unset;
+    border: 2px solid white;
+}
+
+.modal-body {
+    display: block;
+    height: 166px;
+}
+
+h5.modal-title {
+    font-size: 0;
+}
+h5.modal-title:before {
+    content: 'Добро пожаловать в ИНФО Омникуб.';
+    color: white;
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+.updatesWrap {
+    position: absolute;
+    background: black;
+    right: -2px;
+    top: -208px;
+    height: 175px;
+    width: 200px;
+    border: 2px solid white;
+    overflow-y: auto;
+}
+
+
+
+
+.modal-footer {
+    display: none;
+}
+
+
+.noUpdates:before {
+    content: 'Ничего нет.';
+    font-size: 20px;
+    color: white;
+}
+
+.noUpdates {
+    margin-top: 57px;
+    font-size: 0;
+}
+
+
+.updatesDelete {
+    display: none;
+}
+
+.modal-header {
+    border: unset;
+}
+
+.modal-header:before {
+    content: 'Правила:';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 8px;
+}
+
+.modal-header:after {
+    content: 'Запрещается отключать Экраны наблюдения.';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 61px;
+    left: 8px;
+}
+
+.modal-body:before {
+    content: 'Запрещается мешать соседям.';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 55px;
+    left: 8px;
+}
+
+.modal-body:after {
+    content: 'Запрещается говорить о жителях Дома.';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 8px;
+}
+
+.updatesRow a {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+/*фурнитура на главной странице, управление, загадки и т.д*/
+
+
+.card.mb-2.post_home iframe {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.card.mb-2.post_home:nth-child(1) iframe {
+    pointer-events: unset;
+    opacity: 1;
+}
+
+::selection {
+    background: transparent;
+}
+
+.closet,
+.table,
+.key_card,
+.bed,
+.notes,
+.notes2,
+.book,
+.teleport_tutorial,
+.Pythia_br_pin {
+    image-rendering: pixelated;
+}
+
+.closet:before,
+.table:before,
+.key_card:before,
+.bed:before,
+.notes:before,
+.notes2:before,
+.book:before,
+.teleport_tutorial:before,
+.Pythia_br_pin:before {
+    font-size: 20px;
+    display: block;
+    background: black;
+    color: white;
+    position: absolute;
+    border: 1px solid white;
+    width: 818px;
+    height: 200px;
+    text-align: left;
+    padding: 13px;
+    white-space: pre-wrap;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.closet:focus:before,
+.table:focus:before,
+.key_card:focus:before,
+.bed:focus:before,
+.notes:focus:before,
+.notes2:focus:before,
+.book:focus:before,
+.teleport_tutorial:focus:before,
+.Pythia_br_pin:focus:before {
+    opacity: 1;
+}
+
+.closet {
+    position: absolute;
+    top: 189px;
+    left: 232px;
+    display: block;
+    width: 79px;
+    height: 107px;
+    background: url(https://beon.vip/uploads_user/10000/9068/c6802c3d6273ab334a1e6e3f6e441baf.png)no-repeat center;
+    z-index: 2;
+}
+
+.closet:focus {
+    pointer-events: none;
+    background: url(https://beon.vip/uploads_user/10000/9068/5644239b6b115ac46feb3a14d52feaa8.png)no-repeat center;
+}
+
+
+.closet:before {
+    content: 'Тут ничего нет.';
+    left: -141px;
+    top: 334px;
+}
+
+.table {
+    position: absolute;
+    top: 231px;
+    right: 328px;
+    display: block;
+    width: 75px;
+    height: 74px;
+    background: url(https://beon.vip/uploads_user/10000/9068/59f7da1114a5db2e31162f6a77a6d31c.png)no-repeat center;
+    z-index: 2;
+}
+
+.table:before {
+    content: 'Что?..';
+    left: -506px;
+    top: 292px;
+}
+
+.table:focus {
+    pointer-events: none;
+    background: url(https://beon.vip/uploads_user/10000/9068/7b3b39abdfaf00307f811c1c0ba2cd9f.png)no-repeat center;
+}
+
+.key_card {
+    position: absolute;
+    top: 155px;
+    left: 141px;
+    display: block;
+    width: 25px;
+    height: 15px;
+    background: url(https://beon.vip/uploads_user/10000/9068/931b2f5c62b0a3acf83199c6239e927f.png)no-repeat center;
+    z-index: 2;
+}
+
+.key_card:before {
+    content: 'На карточке что то написано.                                                                                   643073. Похоже на какой то пароль.';
+    left: -50px;
+    top: 368px;
+}
+
+
+
+.bed {
+    position: absolute;
+    top: 222px;
+    right: 230px;
+    display: block;
+    width: 87px;
+    height: 182px;
+    background: transparent;
+    z-index: 2;
+}
+
+
+.bed:before {
+    content: 'Сейчас я не хочу спать.';
+    left: -592px;
+    top: 301px;
+}
+
+.book {
+    position: absolute;
+    top: 182px;
+    left: 137px;
+    display: block;
+    width: 87px;
+    height: 128px;
+    background: transparent;
+    z-index: 2;
+}
+
+
+
+.book:before {
+    content: 'Много книг на полочках. Но я их не читаю.';
+    left: -46px;
+    bottom: -413px;
+}
+
+
+
+.notes2 {
+    position: absolute;
+    top: 59px;
+    right: 186px;
+    display: block;
+    width: 219px;
+    height: 141px;
+    background: transparent;
+    z-index: 2;
+}
+
+.notes2:before {
+    content: 'Заметки. Календарь. Рисунки. Но пока что ничего интересного.';
+    left: -504px;
+    bottom: -523px;
+}
+
+
+.notes {
+    position: absolute;
+    top: 63px;
+    left: 250px;
+    display: block;
+    width: 158px;
+    height: 74px;
+    background: #bb0d0d00;
+    z-index: 2;
+}
+
+.notes:before {
+    content: 'Заметки. Но ничего интересного.';
+    left: -159px;
+    bottom: -586px;
+}
+
+
+/*Комната с телевизорами*/
+
+.card.mb-2.post_home:first-child .teleport_tutorial {
+    position: absolute;
+    bottom: 195px;
+    left: 467px;
+    display: block;
+    width: 25px;
+    height: 15px;
+    background: url(https://beon.vip/uploads_user/10000/9068/931b2f5c62b0a3acf83199c6239e927f.png)no-repeat center;
+    z-index: 3;
+}
+
+.teleport_tutorial:before {
+    content: 'Ещё одна карточка. На ней написано:                                                                   !!!!://~~~~.---/__/++++/xxxxxx/                                                                                              Может быть это подсказка?';
+    left: -377px;
+    bottom: -195px;
+}
+
+/*UPD 11.02.22*/
+
+
+
+
+/*Написать НОРМАЛЬНЫЙ фраемворк для переходов, а то пиздец*/
+/*Начнём*/
+
+/*скрыть комментарии в некоторых темках*/
+
+div#blog_643072_comments {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+
+
+h2.card-title [href="https://beon.vip/__/blog/643072/"]:before,
+.card.mb-2.post_home:first-child .start a:before,
+.card.mb-2.post_home:first-child [href="https://beon.vip/__/blog/643073/"]:before,
+.card.mb-2.post_home:first-child [href="https://beon.vip/__/blog/643076/"]:before,
+.card.mb-2.post_home:first-child [href="https://beon.vip/__/blog/643094/"]:before {
+    font-size: 0;
+    position: fixed;
+    z-index: 22;
+    width: 80px;
+    height: 85px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid black;
+}
+
+h2.card-title [href="https://beon.vip/__/blog/643072/"]:before {
+    content: 'переход тв комната';
+    background: white;
+    transform: translate(390px, 110px);
+    border-left: unset;
+}
+
+
+
+.card.mb-2.post_home:first-child .start a:before {
+    content: 'переход начало';
+    background: #999999;
+    transform: translate(-390px, 110px);
+    border-right: unset;
+}
+
+
+.card.mb-2.post_home:first-child [href="https://beon.vip/__/blog/643073/"]:before {
+    content: 'переход комната с телевизором';
+    background: #999999;
+    transform: translate(390px, 110px);
+    border-left: unset;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.card.mb-2.post_home:first-child [href="https://beon.vip/__/blog/643076/"]:before {
+    content: 'коридор';
+    background: #ffffff;
+    transform: translate(415px, 110px);
+    border-left: unset;
+}
+
+.card.mb-2.post_home:first-child [href="https://beon.vip/__/blog/643094/"]:before {
+    content: 'мир пифий';
+    background: #fe0000;
+    border-left: unset;
+    border-right: unset;
+    left: unset;
+    transform: translateY(172px);
+    height: 170px;
+    border: unset;
+}
+
+/*мир пифий*/
+
+div#blog_643094_comments:before {
+    content: 'ТВ Пустота';
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    image-rendering: pixelated;
+    background: url(https://i.ibb.co/w7Pj7rB/623.png) no-repeat center;
+    background-color: black;
+}
+
+.card.mb-2.post_home:first-child .Pythia {
+    position: fixed;
+    z-index: 22;
+    background: url(https://i.ibb.co/dJQbYTY/image.png) no-repeat center;
+    width: 23px;
+    height: 32px;
+    right: 25px;
+    top: 25px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.card.mb-2.post_home:first-child .Pythia iframe {
+    max-width: 200px;
+    height: 160px;
+    margin-top: -60px;
+    width: 130px;
+    opacity: 0;
+}
+
+.card.mb-2.post_home:first-child .Pythia_br {
+    background: #ff0000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 567px;
+    height: 496px;
+    z-index: 33;
+    mix-blend-mode: color-burn;
+    transition: 5s;
+}
+
+.card.mb-2.post_home:first-child .Pythia_br:active {
+    background: transparent;
+    transition: 5s;
+    pointer-events: none;
+}
+
+.card.mb-2.post_home:first-child .Pythia_br:before {
+    content: '/group/';
+    position: absolute;
+    bottom: 77px;
+    left: 59px;
+    font-family: monospace;
+    font-size: 15px;
+    transform: rotate(-20deg);
+    color: #fe00001f;
+}
+
+.Pythia_br_pin {
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+    display: block;
+    width: 25px;
+    height: 15px;
+    background: url(https://beon.vip/uploads_user/10000/9068/931b2f5c62b0a3acf83199c6239e927f.png)no-repeat center;
+    z-index: 22;
+}
+
+
+.Pythia_br_pin:before {
+    content: '*****962                                                                                                                                                  Окрасилось в красный.';
+    left: -77px;
+    bottom: -100px;
+    width: 976px;
+    color: red;
+}
+
+.closet:focus,.table:focus,
+.key_card:focus,
+.bed:focus,
+.book:focus,
+.notes2:focus,
+.notes:focus,
+.Pythia_br_pin:focus,
+.teleport_tutorial:focus { pointer-events: none;}
