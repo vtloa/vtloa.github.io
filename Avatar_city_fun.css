@@ -896,7 +896,9 @@ span.post-opt {
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
     display: none;
 }
-
+span.post-title-date {
+    float: unset;
+}
 }
 
 
@@ -1015,6 +1017,9 @@ a.post-title {
 }
 .post-content .post-avatar {
     display: none;
+}
+span.post-title-date {
+    float: unset;
 }
 }
 
