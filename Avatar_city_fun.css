@@ -116,9 +116,7 @@ span.post-title-date+span {
     font-size: 10px;
 }
 
-.post-avatar img {
-    border-radius: ;
-}
+
 
 .sign {
     color: black;
@@ -1015,7 +1013,7 @@ span.post-title-date+span {
 a.post-title {
     left: 21px;
 }
-.post-avatar {
+.post-content .post-avatar {
     display: none;
 }
 }
