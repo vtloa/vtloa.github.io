@@ -1,0 +1,1165 @@
+@font-face {
+font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
+    
+    src:    url('https://nomail.com.ua/files/eot/ab98630843bca2d00bb3a0a18f2e754a.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/ab98630843bca2d00bb3a0a18f2e754a.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/ab98630843bca2d00bb3a0a18f2e754a.woff2') format('woff2');
+}
+
+@font-face { font-family: 'AGAvantGardeCyrBook';  src: local('AGAvantGardeCyrBook'), url('https://nomail.com.ua/files/woff/ab98630843bca2d00bb3a0a18f2e754a.woff') format('woff'); }
+
+
+
+
+/*==============================*/
+
+@font-face {
+font-family: 'font9e65dcb6eb32d02cb89021b1b45c940c';
+    
+    src:    url('https://nomail.com.ua/files/eot/9e65dcb6eb32d02cb89021b1b45c940c.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/9e65dcb6eb32d02cb89021b1b45c940c.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/9e65dcb6eb32d02cb89021b1b45c940c.woff2') format('woff2');
+}
+
+@font-face { font-family: 'ElementaCyr-Italic';  src: local('ElementaCyr-Italic'), url('https://nomail.com.ua/files/woff/9e65dcb6eb32d02cb89021b1b45c940c.woff') format('woff'); }
+
+/*===============================*/
+
+
+/*===============================*/
+
+h3.left-menu-text,.crumbs,[href="https://beon.fun"]:before,div#commentpreviewplace+p,
+a.post-title {
+    font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
+}
+
+.left-menu,.datebg,.row.w-100,.post-text a,
+.comment-box__message-partial.comment-content, .comment-box__message-partial.comment-content a,
+input[type="submit"],.container-fluid a,span.post-title-date+a,.comment-content a.user.post-title-user,
+.col-md-4>p,.col-md-4>div,
+.container-fluid.mt-5+br+br+p,
+[name="posttags"]+br+br+div span,a.messageform__taglinks,label,.content>h2+p,[enctype="multipart/form-data"],
+[name="communityform"] select,
+a.user.post-title-user, span.post-title-date+span, span.post-title-date,
+.post-opt {
+    font-family: 'font9e65dcb6eb32d02cb89021b1b45c940c';
+}
+
+/*===============================*/
+
+.text-center {
+    width: fit-content;
+    margin-left: auto;
+}
+
+p.left-menu-text {
+    margin: 0px;
+}
+
+.left-menu {
+    text-align: right;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.left-menu * {
+    color: white;
+}
+
+
+.post-content.blog_total_counter,.tag:before {
+    display: none;
+}
+
+
+.left-menu {
+    border: unset !important;
+    width: 25%;
+    background: #000000a3;
+    backdrop-filter: blur(2px);
+    padding-right: 4px !important;
+}
+
+
+div#app {
+    padding: 0px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+
+
+.left-menu>div {
+    background: transparent;
+}
+
+.content {
+    margin-left: 26px;
+}
+
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+
+span.post-title-date {
+    float: right;
+    padding: 0px !important;
+    margin-top: 11px;
+    padding-right: 10px !important;
+    font-size: 17px;
+}
+
+span.post-title-date+span {
+    font-size: 10px;
+}
+
+.post-avatar img {
+    border-radius: ;
+}
+
+.sign {
+    color: black;
+}
+
+h3.left-menu-text {
+    background: black !important;
+    text-align: right;
+    color: #4e4e4e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body.bodybg {
+    background: url(https://i.ibb.co/3rVTvs8/city-wallpaper-1366x768-4.png) repeat-x bottom fixed;
+    background-color: black;
+}
+
+.post-content {
+    box-shadow: 0 0 20px #f190009e;
+    overflow: hidden;
+    min-height: auto;
+    margin: 0px !important;
+    background-color: #f19000;
+    background-image: url(https://www.transparenttextures.com/patterns/groovepaper.png);
+}
+
+
+
+.post-row {
+    background: #ffffff;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.bg-white {
+    background: transparent;
+}
+
+[src="/i/user.png"],.user:before {
+    display: none;
+}
+
+div#fnplayer-slider span {
+    color: transparent;
+}
+
+p.alert.alert-success {
+    display: none;
+}
+
+.datebg {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    margin-top: 70px;
+    font-weight: unset;
+}
+
+a.post-title {
+    font-size: 30px;
+    color: black;
+}
+
+a.user.post-title-user,span.post-title-date+span,span.post-title-date {
+    color: black;
+    font-size: 18px;
+}
+
+.crumbs {
+    color: #4e4e4e;
+    font-size: 23px;
+    font-weight: unset !important;
+}
+
+[src="//beon.fun/i/logo2.png"] {
+    display: none;
+}
+
+
+.pc-menu {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+
+
+
+ul.menu__box {
+    background: #ffffffe0;
+    backdrop-filter: blur(3px);
+    top: 60px;
+    padding: 0;
+    width: auto;
+}
+
+[href="https://beon.fun"]:before {
+    content: 'Beon';
+    color: #8b8b8b;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #8b8b8b;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    text-transform: uppercase;
+    color: #f19000;
+}
+
+main.py-4 {
+    margin-top: 100px;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: unset;
+    border-bottom: 2px solid #f19000;
+    text-align: right;
+}
+
+input[type="submit"] {
+    background: #f19000;
+    border: 2px outset #f19000;
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px;
+}
+
+div#footer {
+    display: none;
+}
+
+.post-row {
+    border: 3px double #f19000;
+    width: 100%;
+}
+
+a.post-title {
+    text-decoration: unset;
+}
+
+.postsiblings.row {
+    margin: 0px;
+}
+
+.container-fluid,.prevsibling.col-md-6 {
+    padding: 0px;
+}
+
+.textareabg {
+    background: #080808;
+}
+
+div#commentpreviewplace+p {
+    color: #f19000;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.textareabg {
+    padding: 10px;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+.post-content a.user.post-title-user {
+    float: right;
+    margin-top: 11px;
+    padding-right: 15px;
+}
+
+img.flag {
+    display: none;
+}
+
+.row.w-100 *,.row.w-100 span,
+.post-opt * {
+    color: black !important;
+    font-size: 16px;
+}
+
+.textareabg {
+    margin: 0px !important;
+    margin-top: 30px !important;
+}
+
+
+
+input[type="text"]::placeholder {
+    color: #f19000;
+    padding-right: 5px;
+}
+
+.post-content [style="display: flex; justify-content: space-between;"] a {
+    color: black;
+    padding-left: 5px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.comment-box h2 {
+    margin-top: 14px;
+    color: white;
+}
+
+.post-content h1 {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0px;
+    font-family: 'font85a747963b143b437db001f7f5a0a0cc';
+    color: #000000;
+}
+
+.container-fluid a {
+    color: black;
+    font-size: 20px;
+}
+
+.prevsibling.col-md-6 {
+    padding-left: 10px;
+    color: black;
+}
+
+.nextsibling.text-right.col-md-6 {
+    color: black;
+}
+
+.comment-box h2 {
+    margin-top: 35px;
+    color: white;
+    background: #000000;
+    text-align: center;
+}
+
+textarea:focus {
+    outline: unset;
+}
+
+textarea {
+    background: #1a1a1a;
+    border: 3px double black;
+    color: white;
+    padding: 7px;
+}
+
+.alert.alert-success {
+    display: none;
+}
+
+.sign {
+    line-height: 1.2;
+    padding-top: 2px;
+}
+
+.crumbs a {
+    color: white;
+}
+
+.left-menu a:hover {
+    color: #f19000;
+    transition: 0.2s;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    text-decoration: unset;
+    padding-left: 5px;
+}
+
+[href="/design/disable"] {
+    font-size: 0;
+}
+
+[href="/design/disable"]:after {
+    content: 'Отключить дизайн';
+    font-size: 18px;
+}
+
+[src="//beon.fun/i/design-off.png"] {
+    margin-top: -10px;
+    margin-right: 3px;
+}
+
+a.blog-subscribe {
+    color: #f19000;
+    font-weight: bold;
+}
+
+span.post-title-date+span {
+    font-size: 12px;
+    opacity: 0;
+}
+
+/*вверхвниз*/
+a.my-menu.for-mobile.d-none.d-md-inline {
+    position: fixed;
+    left: 1%;
+    top: 150px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    position: fixed;
+    left: 1%;
+    bottom: 150px;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0;
+    background: transparent;
+    display: block !important;
+    width: 10px;
+    height: 10px;
+    padding: 0px !important;
+    border: 1px solid #f5f5f5;
+    transform: rotate(45deg);
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: unset;
+    position: fixed;
+    left: 1%;
+    bottom: 159px;
+    background: #3490dc;
+    height: calc(100% - 318px);
+    width: 1px;
+    transform: translateX(4px);
+    pointer-events: none;
+}
+
+
+
+
+
+
+/*UPD*/
+
+.post-text a {
+    color: #f19000;
+    font-size: 16px;
+}
+
+.mobile_open_menu h3.left-menu-text {
+    background: #f19000 !important;
+    text-align: center;
+    color: black !important;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: '^';
+    font-size: 25px;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-family: cursive;
+    color: #f19000;
+    text-decoration: unset;
+    font-size: 0;
+    transform: rotate( 180deg );
+    height: 13px;
+}
+
+.comment-box__message-partial.comment-content, .comment-box__message-partial.comment-content a {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.comment-box__message-partial.comment-content {
+    background: transparent;
+}
+
+.comment-content {
+    background: white;
+    padding: 10px;
+}
+
+.comment-text {
+    padding: 10px;
+}
+
+.comment-content span.post-title-date {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+span.post-title-date+a {
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.comment-content .post-opt * {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.avatar-select-list {
+    height: 242px;
+}
+
+
+.textareabg {
+    color: #f19000;
+}
+
+/*СКРОЛЛ*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #4a4a4a;
+}
+::-webkit-scrollbar-track {
+    background: #020202;
+}
+
+/*============*/
+
+
+.avatar-select-label-selected {
+    border: 4px solid #808080;
+    filter: grayscale(1) brightness(0.5);
+}
+
+.textareabg input[type="text"],select {
+    background: #1a1a1a;
+    border: 3px double black;
+}
+
+.col-md-4>p {
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.col-md-4>div,
+.container-fluid.mt-5+br+br+p,
+[name="posttags"]+br+br+div span {
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 10px !important;
+}
+
+a.messageform__taglinks {
+    color: white;
+}
+
+.container-fluid.mt-5+br {
+    display: none;
+}
+
+input[type="checkbox"] {
+    filter: grayscale(1);
+}
+
+label {
+    font-size: 17px;
+}
+
+[name="posttags"]+br+br+div span {
+    text-transform: capitalize;
+}
+
+.crumbs {
+    display: none;
+}
+
+.bg-white+.crumbs {
+    display: block;
+}
+
+.row.w-100 {
+    margin-top: 10px;
+}
+
+img.imagefsme:hover {
+    filter: drop-shadow(2px 4px 6px #0000008c);
+    transition: 0.2s;
+}
+
+.post-content {
+    position: relative;
+}
+
+a.post-title {
+    position: absolute;
+    top: 57px;
+    left: 155px;
+}
+
+.post-content span.post-title-date {
+    font-size: 15px;
+    float: left;
+}
+
+.post-text {
+    margin-top: 55px;
+}
+
+.post-content a.user.post-title-user {
+    float: left;
+    margin-top: 8px;
+    padding-right: 6px;
+    padding-left: 5px;
+}
+
+a.post-title {
+    transition: 0.2s;
+}
+
+a.post-title:hover {
+    height: 38px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    padding-left: 5px;
+    transition: 0.2s;
+}
+
+.content h2 {
+    color: white;
+    font-family: 'font85a747963b143b437db001f7f5a0a0cc';
+}
+
+.content>h2+p,[enctype="multipart/form-data"] {
+    color: white;
+}
+
+[enctype="multipart/form-data"] a {
+    color: #f19000;
+}
+
+h1.left-menu-text+div a,
+h1.left-menu-text+div+div a,
+h1.left-menu-text+div+div+div a,
+h1.left-menu-text+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div+div+div+div a {
+    color: black;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
+}
+
+[name="communityform"] p {
+    font-family: 'font85a747963b143b437db001f7f5a0a0cc';
+    color: black;
+    font-size: 23px;
+    padding-left: 5px;
+}
+
+[name="communityform"] input[type="text"] {
+    background: #00000045;
+    text-align: center;
+    width: 250px;
+}
+
+[name="communityform"] select {
+    background: #00000040;
+    font-size: 14px;
+}
+
+.content>h1 {
+    color: white;
+    font-family: 'font85a747963b143b437db001f7f5a0a0cc';
+}
+
+.textareabg>div {
+    font-family: 'font6d47c67b402c0991746c8bcf4d274d8a';
+    font-size: 22px;
+}
+
+.post-avatar {
+    position: relative;
+}
+
+
+.sign {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f1900069;
+    height: 100%;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.sign:hover {
+    opacity: 1;
+    transition: 0.2s;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 7px #ffcf88;
+}
+
+.post-text {
+    margin-left: 10px;
+}
+
+
+/*МЕДИА*/
+
+@media (max-width: 1024px) {
+
+div#app {
+    padding: 0px;
+    width: 97%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.left-menu {
+    width: 20%;
+    min-width: 30%;
+}
+
+.left-menu>div {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p.left-menu-text {
+    margin-left: unset !important;
+}
+p.left-menu-text a:after, a.blog-subscribe:after, [href^="//beon.fun/rating/community/"]:after {
+    display: none;
+}
+a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
+    margin: 0px !important;
+}
+
+h3.left-menu-text {
+    font-size: 14px;
+    transform: translateX(-10px) translateY(-10px);
+    margin-right: -20px;
+}
+
+span.readertime+a:after {
+    width: 30px;
+    left: -32px;
+    top: 6px;
+}
+
+span.readertime+a {
+    margin-left: 35px;
+    position: relative;
+}
+
+.text-center img {
+    max-width: 150px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    display: none !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 15px;
+}
+.crumbs * {
+    font-size: 20px !important;
+}
+[href="https://beon.fun"]:before {
+    font-size: 24px;
+}
+
+span.post-opt {
+    float: unset;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none;
+}
+}
+
+
+/*768*/
+
+@media (max-width: 768px) {
+
+div#app {
+    padding: 0px;
+    width: 97%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.left-menu {
+    width: 20%;
+    min-width: 30%;
+}
+
+.left-menu>div {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p.left-menu-text {
+    margin-left: unset !important;
+}
+p.left-menu-text a:after, a.blog-subscribe:after, [href^="//beon.fun/rating/community/"]:after {
+    display: none;
+}
+a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
+    margin: 0px !important;
+}
+
+h3.left-menu-text {
+    font-size: 14px;
+    transform: translateX(-10px) translateY(-10px);
+    margin-right: -20px;
+}
+
+span.readertime+a:after {
+    width: 30px;
+    left: -32px;
+    top: 6px;
+}
+
+span.readertime+a {
+    margin-left: 35px;
+    position: relative;
+}
+
+.text-center img {
+    max-width: 150px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    display: none !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 15px;
+}
+.crumbs * {
+    font-size: 20px !important;
+}
+[href="https://beon.fun"]:before {
+    font-size: 24px;
+}
+
+span.post-opt {
+    float: unset;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none;
+}
+
+}
+
+
+/*700*/
+
+@media (max-width: 700px) {
+
+.content {
+    margin: 0px;
+}
+div#app {
+    width: 95%;
+    margin-top: unset;
+}
+
+.post-content {
+    padding: 5px;
+}
+a.post-title {
+    font-size: 25px;
+}
+.post-content [style="margin-left: 5px;"]:before {
+    top: 20px;
+}
+a.user.post-title-user {
+    font-size: 16px;
+}
+.mobile_open_menu {
+    padding: 0px !important;
+}
+.mobile_open_menu h3.left-menu-text {
+    transform: unset;
+    color: #f0f0f1 !important;
+    text-decoration: unset;
+    font-size: 20px !important;
+    padding: 2px;
+    font-weight: unset !important;
+}
+
+.left-menu {
+    width: 100%;
+}
+
+.fa-angle-down:before {
+    color: #489eda;
+}
+.left-menu>div {
+    padding: 10px;
+}
+
+h3.left-menu-text {
+    transform: translateX(-10px) translateY(-10px);
+    font-size: 17px;
+    margin-right: -20px;
+}
+
+.left-menu>div {
+    margin-bottom: 20px;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none !important;
+}
+
+i.fas.fa-angle-down {
+    display: none;
+}
+.hamburger-menu {
+    position: unset;
+}
+
+
+
+ul.menu__box {
+    top: 0;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.datebg {
+    font-size: 13px;
+}
+.left-menu {
+    min-width: 100%;
+}
+.crumbs * {
+    font-size: 20px !important;
+}
+[href="https://beon.fun"]:before {
+    font-size: 24px;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 15px;
+}
+
+.post-row {
+    padding: 0px;
+    padding-top: 5px;
+}
+.post-avatar img {
+    max-width: 60px;
+    object-fit: none;
+}
+img.imagefsme {
+    padding: 2px;
+}
+.datebg {
+    margin-top: 20px;
+}
+span.post-title-date+span {
+    display: none;
+}
+
+a.post-title {
+    left: 21px;
+}
+.post-avatar {
+    display: none;
+}
+}
+
+
+/*UPD*/
+
+[src="/i/offline.png"] {
+    display: none;
+}
+
+span.crumb-item {
+    font-weight: unset;
+}
+
+a.navbar-brand {
+    font-weight: 100;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    margin-top: 10px;
+}
+
+.post-opt.col-12.col-md-6 *:hover,
+.post-opt *:hover {
+    color: #f19000 !important;
+    text-decoration: unset !Important;
+    transition: 0.2s;
+}
+
+
+div#beon-fnplayer {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+div#fnplayer-slider {
+    background: transparent;
+    border-bottom: 1px solid #f19000;
+}
+
+div#fnplayer-slider span {
+    font-size: 0px;
+}
+
+div#fnplayer-slider-inner {
+    background: transparent;
+    border: 1px solid #f19000;
+    border-bottom: unset;
+}
+
+div#fnplayer-slider-inner {
+    background: transparent;
+    border: 1px solid #f19000;
+    border-bottom: unset;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+div#fnplayer-volume {
+    border: unset;
+    border-bottom: 1px solid #f19000;
+    background: transparent;
+    margin: 0px !important;
+}
+
+div#fnplayer-volume-inner {
+    border: 1px solid #f19000;
+    border-bottom: unset;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    background: transparent;
+    border: 1px solid #f19000;
+}
+
+button#fnplayer-play {
+    border: 1px solid red !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    height: 11px !important;
+    width: 3px !important;
+    border-color: #f19000 !important;
+    opacity: 1;
+    margin-right: 5px;
+    clip-path: polygon(0 0, 0% 100%, 90% 50%);
+    background: #f19000;
+}
+
+
+#fnplayer-play.paused {
+    background: transparent !important;
+}
+#fnplayer-play.paused {
+    border: 1px solid red !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    height: 10px !important;
+    width: 3px !important;
+    border-color: #f19000 !important;
+    opacity: 1;
+    margin-right: 5px;
+    clip-path: unset;
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    border: 1px solid #f19000;
+    transition: 0.2s;
+}
+
+[href="https://beon.fun"]:hover:before {
+    color: #f19000;
+    transition: 0.2s;
+}
+
+
+a.menu__item {
+    font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
+}
+.menu__item:hover {
+    background-color: #464646;
+    color: #f19000;
+    text-decoration: unset;
+}
+
+p.quotation:last-child {
+    margin-bottom: 10px;
+}
+p.quotation {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: 'font9e65dcb6eb32d02cb89021b1b45c940c';
+    border-color: #3c3c3c;
+    color: black;
+}
+
+i.fas.fa-trash-alt {
+    color: #f19000;
+}
