@@ -998,7 +998,7 @@ ul.menu__box {
     padding: 0px;
     padding-top: 5px;
 }
-.post-avatar img {
+.post-content .post-avatar img {
     max-width: 60px;
     object-fit: none;
 }
