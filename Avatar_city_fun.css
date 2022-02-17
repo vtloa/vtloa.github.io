@@ -1021,6 +1021,10 @@ a.post-title {
 span.post-title-date {
     float: unset;
 }
+[style="display: flex; justify-content: space-between;"] * {
+    font-size: 14px !important;
+    font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
+}
 }
 
 
