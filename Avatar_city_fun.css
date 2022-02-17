@@ -239,7 +239,7 @@ main.py-4 {
     margin-top: 100px;
 }
 
-input[type="text"] {
+.left-menu input[type="text"] {
     background: transparent;
     border: unset;
     border-bottom: 2px solid #f19000;
