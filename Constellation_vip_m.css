@@ -750,3 +750,10 @@ input#comment_secure:focus, input#comment_secure:hover {
     filter: unset;
     color: #a1a1a1;
 }
+
+
+/*UPD*/
+
+h2.card-title {
+    font-size: 24px;
+}
