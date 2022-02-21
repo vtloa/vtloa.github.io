@@ -816,6 +816,9 @@ span.post-opt {
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
     display: none;
 }
+.left-menu {
+    backdrop-filter: unset;
+}
 }
 
 
@@ -898,6 +901,9 @@ span.post-opt {
 }
 span.post-title-date {
     float: unset;
+}
+.left-menu {
+    backdrop-filter: unset;
 }
 }
 
@@ -1024,6 +1030,9 @@ span.post-title-date {
 [style="display: flex; justify-content: space-between;"] * {
     font-size: 14px !important;
     font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
+}
+.left-menu {
+    backdrop-filter: unset;
 }
 }
 
