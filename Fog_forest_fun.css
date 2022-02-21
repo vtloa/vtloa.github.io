@@ -850,6 +850,10 @@ body.bodybg {
 .left-menu, .content {
     backdrop-filter: unset;
 }
+    
+body.bodybg {
+    background-color: #2a2d31 !important;
+}
 }
 
 
@@ -906,6 +910,10 @@ body.bodybg {
     
 .left-menu, .content {
     backdrop-filter: unset;
+}
+    
+body.bodybg {
+    background-color: #2a2d31 !important;
 }
 
 }
