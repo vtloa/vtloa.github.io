@@ -1,0 +1,1257 @@
+@font-face {
+font-family: 'font64e7b1cd4f1055c10306f75c2a44af20';
+    
+    src:    url('https://nomail.com.ua/files/eot/64e7b1cd4f1055c10306f75c2a44af20.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/64e7b1cd4f1055c10306f75c2a44af20.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/64e7b1cd4f1055c10306f75c2a44af20.woff2') format('woff2');
+}
+
+@font-face { font-family: 'MonoCondensedC';  src: local('MonoCondensedC'), url('https://nomail.com.ua/files/woff/64e7b1cd4f1055c10306f75c2a44af20.woff') format('woff'); }
+
+
+/*=========================================*/
+
+@font-face {
+font-family: 'fontdf355241f0e4a4603d214863fad2072e';
+    
+    src:    url('https://nomail.com.ua/files/eot/df355241f0e4a4603d214863fad2072e.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/df355241f0e4a4603d214863fad2072e.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/df355241f0e4a4603d214863fad2072e.woff2') format('woff2');
+}
+
+@font-face { font-family: 'Playlist_cyr-Script';  src: local('Playlist_cyr-Script'), url('https://nomail.com.ua/files/woff/df355241f0e4a4603d214863fad2072e.woff') format('woff'); }
+
+
+
+/*===============================*/
+
+@font-face {
+font-family: 'font19eadbb467f518efc829dabb17122747';
+    
+    src:    url('https://nomail.com.ua/files/eot/19eadbb467f518efc829dabb17122747.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/19eadbb467f518efc829dabb17122747.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/19eadbb467f518efc829dabb17122747.woff2') format('woff2');
+}
+
+@font-face { font-family: 'RosvigtsCyrillic';  src: local('RosvigtsCyrillic'), url('https://nomail.com.ua/files/woff/19eadbb467f518efc829dabb17122747.woff') format('woff'); }
+
+/*============Прописные==============*/
+
+
+.datebg {
+    font-family: 'fontdf355241f0e4a4603d214863fad2072e';
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+
+a.post-title,.post-content h1,.content h2,.textareabg>div,
+.content>h1 {
+    font-family: 'fontdf355241f0e4a4603d214863fad2072e';
+    font-size: 30px;
+    color: #444444;
+}
+
+h3.left-menu-text {
+    font-family: 'fontdf355241f0e4a4603d214863fad2072e';
+    font-size: 22px;
+}
+
+.text-center+p {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: unset;
+    letter-spacing: 1px;
+    font-family: 'font19eadbb467f518efc829dabb17122747';
+}
+
+.crumbs {
+    font-family: 'font64e7b1cd4f1055c10306f75c2a44af20';
+    color: #cdcdd0;
+}
+
+[href="https://beon.fun"]:before {
+    font-family: 'fontdf355241f0e4a4603d214863fad2072e';
+    font-size: 35px;
+}
+
+span.crumb-item {
+    font-family: 'fontdf355241f0e4a4603d214863fad2072e';
+    color: #a1a1a1;
+    font-size: 22px;
+}
+
+/*----------------Моно---------------------*/
+
+.post-content,.left-menu,.textareabg,.comment-box,a.menu__item {
+    font-family: 'font64e7b1cd4f1055c10306f75c2a44af20';
+}
+
+
+/*=============================*/
+
+
+
+p.left-menu-text {
+    margin: 0px;
+}
+
+.left-menu * {
+    color: #e7e7e7;
+}
+
+
+.post-content.blog_total_counter,.tag:before {
+    display: none;
+}
+
+
+.left-menu {
+    border: unset !important;
+    width: 25%;
+    padding-right: 4px !important;
+}
+
+
+div#app {
+    padding: 0px;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.left-menu>div {
+    background: transparent;
+}
+
+
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+
+
+
+span.post-title-date+span {
+    font-size: 10px;
+}
+
+
+.sign {
+    line-height: 1;
+    padding-top: 2px;
+    font-size: 12px;
+    color: #343030;
+}
+
+
+
+body.bodybg {
+    background-color: #191817;
+}
+
+.post-content {
+    overflow: visible;
+    padding: 15px;
+}
+
+
+.bg-white {
+    background: transparent;
+    padding: 0px;
+    box-shadow: unset !important;
+}
+
+[src="/i/user.png"],.user:before {
+    display: none;
+}
+
+div#fnplayer-slider span {
+    color: transparent;
+}
+
+p.alert.alert-success {
+    display: none;
+}
+
+.datebg {
+    padding: 0px;
+    margin: 0px;
+    color: #444444;
+    font-weight: unset;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
+.crumbs {
+    color: #4e4e4e;
+    font-size: 23px;
+    font-weight: unset !important;
+}
+
+[src="//beon.fun/i/logo2.png"] {
+    display: none;
+}
+
+
+.pc-menu {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+
+
+ul.menu__box {
+    background: #e1e1e1de;
+    backdrop-filter: blur(3px);
+    top: 60px;
+    padding: 0;
+    width: auto;
+}
+
+[href="https://beon.fun"]:before {
+    content: 'Beon';
+    color: #a1a1a1;
+}
+
+
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #a1a1a1;
+    transform: rotate(45deg);
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    text-transform: uppercase;
+    color: #f19000;
+}
+
+
+.left-menu input[type="text"] {
+    background: transparent;
+    border: unset;
+    border-bottom: 1px solid #d9dadd;
+}
+
+input[type="submit"] {
+    background: #d9dadd;
+    border: 1px outset #d9dadd;
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.left-menu-text input[type="submit"] {
+    font-size: 15px;
+}
+
+.left-menu input[type="text"]::placeholder {
+    color: #d9dadd;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px;
+}
+
+div#footer {
+    display: none;
+}
+
+
+.postsiblings.row {
+    margin: 0px;
+}
+
+.container-fluid,.prevsibling.col-md-6 {
+    padding: 0px;
+}
+
+div#commentpreviewplace+p {
+    color: #444444;
+    font-size: 20px;
+    margin: 0px;
+}
+
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+
+
+img.flag {
+    display: none;
+}
+
+
+
+.post-content [style="display: flex; justify-content: space-between;"] a {
+    color: #343030;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.post-content [style="display: flex; justify-content: space-between;"] {
+    border-bottom: 1px dashed #343030;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+
+
+.post-content h1 {
+    margin: 0px;
+}
+
+
+
+
+.alert.alert-success {
+    display: none;
+}
+
+
+
+.crumbs a {
+    color: white;
+}
+
+.left-menu a:hover {
+    color: #6984a3;
+    transition: 0.2s;
+    text-decoration: unset;
+    padding-left: 5px;
+}
+
+[href="/design/disable"] {
+    font-size: 0;
+}
+
+[href="/design/disable"]:after {
+    content: 'Отключить дизайн';
+    font-size: 18px;
+}
+
+[src="//beon.fun/i/design-off.png"] {
+    margin-top: -10px;
+    margin-right: 3px;
+}
+
+a.blog-subscribe {
+    color: #547295;
+    font-weight: bold;
+}
+
+span.post-title-date+span {
+    font-size: 12px;
+    opacity: 0;
+}
+
+/*вверхвниз*/
+a.my-menu.for-mobile.d-none.d-md-inline {
+    position: fixed;
+    left: 1%;
+    top: 150px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    position: fixed;
+    left: 1%;
+    bottom: 150px;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0;
+    background: transparent;
+    display: block !important;
+    width: 10px;
+    height: 10px;
+    padding: 0px !important;
+    border: 1px solid #f5f5f5;
+    transform: rotate(45deg);
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: unset;
+    position: fixed;
+    left: 1%;
+    bottom: 159px;
+    background: #3490dc;
+    height: calc(100% - 318px);
+    width: 1px;
+    transform: translateX(4px);
+    pointer-events: none;
+}
+
+
+
+
+
+
+/*UPD*/
+
+.mobile_open_menu h3.left-menu-text {
+    background: #cdced1 !important;
+    text-align: center;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: '^';
+    font-size: 25px;
+    color: #cdced1;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-family: cursive;
+    color: #f19000;
+    text-decoration: unset;
+    font-size: 0;
+    transform: rotate( 180deg );
+    height: 13px;
+}
+
+.comment-box__message-partial.comment-content, .comment-box__message-partial.comment-content a {
+    color: #4d4444;
+    font-size: 19px;
+    padding: 0px;
+    text-align: right;
+}
+
+.comment-box__message-partial.comment-content {
+    background: transparent;
+}
+
+.comment-content {
+    background: #ffffff61;
+    padding: 10px;
+}
+
+.comment-text {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.comment-content span.post-title-date {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+span.post-title-date+a {
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.comment-content .post-opt * {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.avatar-select-list {
+    height: 268px;
+}
+
+
+/*СКРОЛЛ*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #4c4b49;
+}
+::-webkit-scrollbar-track {
+    background: #191817;
+}
+
+
+.avatar-select-list::-webkit-scrollbar-thumb {
+    background: #ebebeb;
+}
+.avatar-select-list::-webkit-scrollbar-track {
+    background: #cdced1;
+}
+
+
+textarea#csseditortext::-webkit-scrollbar-thumb {
+    background: #ebebeb;
+}
+textarea#csseditortext::-webkit-scrollbar-track {
+    background: #cdced1;
+}
+
+/*============*/
+
+.avatar-select-label-selected {
+    border: 4px solid #808080;
+    filter: grayscale(1) brightness(0.9);
+}
+
+.avatar-select-label {
+    border: 4px solid #ededed;
+}
+
+
+
+.col-md-4>p {
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.col-md-4>div,
+.container-fluid.mt-5+br+br+p,
+[name="posttags"]+br+br+div span {
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 10px !important;
+}
+
+
+
+.container-fluid.mt-5+br {
+    display: none;
+}
+
+input[type="checkbox"] {
+    filter: grayscale(1);
+}
+
+label {
+    font-size: 17px;
+}
+
+[name="posttags"]+br+br+div span {
+    text-transform: capitalize;
+}
+
+.crumbs {
+    display: none;
+}
+
+.bg-white+.crumbs {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row.w-100 {
+    margin-top: 10px;
+}
+
+
+
+.post-content {
+    position: relative;
+}
+
+
+
+
+.content>h2+p,[enctype="multipart/form-data"] {
+    color: white;
+}
+
+[enctype="multipart/form-data"] a {
+    color: #567497;
+}
+
+h1.left-menu-text+div a,
+h1.left-menu-text+div+div a,
+h1.left-menu-text+div+div+div a,
+h1.left-menu-text+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div+div+div a,
+h1.left-menu-text+div+div+div+div+div+div+div+div+div+div a {
+    color: #424040;
+    padding-left: 25px;
+    font-size: 19px;
+}
+
+[name="communityform"] p {
+    color: #424040;
+    font-size: 23px;
+    padding-left: 5px;
+}
+
+
+
+
+.post-avatar {
+    position: relative;
+    margin: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*UPD*/
+
+[src="/i/offline.png"] {
+    display: none;
+}
+
+span.crumb-item {
+    font-weight: unset;
+}
+
+a.navbar-brand {
+    font-weight: 100;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    margin-top: 10px;
+}
+
+
+
+
+div#beon-fnplayer {
+    width: 97%;
+    margin: 0px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+div#fnplayer-slider {
+    background: transparent;
+    border-bottom: 1px solid #cdcdd1;
+}
+
+div#fnplayer-slider span {
+    font-size: 0px;
+}
+
+div#fnplayer-slider-inner {
+    background: transparent;
+    border: 1px solid #cdcdd1;
+    border-bottom: unset;
+}
+
+div#fnplayer-slider-inner {
+    background: transparent;
+    border: 1px solid #cdcdd1;
+    border-bottom: unset;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+div#fnplayer-volume {
+    border: unset;
+    border-bottom: 1px solid #cdcdd1;
+    background: transparent;
+    margin: 0px !important;
+}
+
+div#fnplayer-volume-inner {
+    border: 1px solid #cdcdd1;
+    border-bottom: unset;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    background: transparent;
+    border: 1px solid #cdcdd1;
+}
+
+button#fnplayer-play {
+    border: 1px solid red !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    height: 11px !important;
+    width: 3px !important;
+    border-color: #cdcdd1 !important;
+    opacity: 1;
+    margin-right: 5px;
+    clip-path: polygon(0 0, 0% 100%, 90% 50%);
+    background: #cdcdd1;
+}
+
+
+#fnplayer-play.paused {
+    background: transparent !important;
+}
+#fnplayer-play.paused {
+    border: 1px solid red !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    height: 10px !important;
+    width: 3px !important;
+    border-color: #cdcdd1 !important;
+    opacity: 1;
+    margin-right: 5px;
+    clip-path: unset;
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    border: 1px solid #346491;
+    transition: 0.2s;
+}
+
+[href="https://beon.fun"]:hover:before {
+    color: #315f91;
+    transition: 0.2s;
+}
+
+.menu__item:hover {
+    background-color: #dfdfdf;
+    color: #383837;
+    text-decoration: unset;
+}
+
+p.quotation:last-child {
+    margin-bottom: 10px;
+}
+p.quotation {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: 'font9e65dcb6eb32d02cb89021b1b45c940c';
+    border-color: #3c3c3c;
+    color: black;
+}
+
+i.fas.fa-trash-alt {
+    color: #f19000;
+}
+
+
+
+
+.post-row {
+    padding: 0px;
+    width: 100%;
+    color: #4e4b54;
+}
+
+
+.post-text,.left-menu {
+    line-height: 1.3;
+    font-size: 17px;
+}
+
+
+h3.left-menu-text {
+    color: #d0ced5;
+    text-align: center;
+    font-size: 22px;
+    margin-top: unset;
+    padding: 1px;
+    margin-bottom: 15px !important;
+    background-color: #302f2f00 !important;
+}
+
+.left-menu>div {
+    margin-bottom: 15px;
+}
+
+.content {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #c8c6cb;
+    background-image: url(https://www.transparenttextures.com/patterns/paper-fibers.png);
+    border-right: 10px dotted #191817;
+}
+
+
+
+.left-menu {
+    margin: 0px !important;
+    width: 25%;
+    text-align: center;
+    padding: 0px !important;
+    margin-right: 30px !important;
+}
+
+main.py-4 {
+    position: relative;
+    padding-top: 450px !important;
+}
+
+main.py-4:before {
+    content: 'head';
+    font-size: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url(https://i.ibb.co/MMjqjt2/O8454-4.png) no-repeat center top -100px;
+    height: 450px;
+    background-size: cover;
+}
+
+main.py-4 {
+    background-color: #2c3948;
+    background-image: url(https://www.transparenttextures.com/patterns/straws.png);
+}
+
+
+.left-menu {
+    background-color: #171616;
+    background-image: url(https://www.transparenttextures.com/patterns/stardust.png);
+}
+
+a.post-title {
+    text-decoration: unset;
+    display: block;
+    width: fit-content;
+}
+
+span.post-title-date {
+    padding: 0px;
+}
+
+.post-content [style="margin-left: 5px;"] {
+    margin: 0px !important;
+}
+
+a.user.post-title-user,span.post-title-date {
+    font-size: 19px;
+    color: #343030;
+}
+
+.post-text {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.prevsibling.col-md-6, .prevsibling.col-md-6 a,
+.nextsibling.text-right.col-md-6,.nextsibling.text-right.col-md-6 a {
+    color: #444444;
+}
+
+.postsiblings.row a, .post-opt a, .post-opt span {
+    font-size: 20px;
+    color: #444444 !important;
+    text-transform: lowercase;
+}
+
+.textareabg {
+    background: transparent;
+    margin: 0px !important;
+    margin-top: 30px !important;
+    color: #444444;
+}
+
+textarea,.textareabg input[type="text"], select,
+[name="communityform"] input[type="text"] {
+    background: #d9dadd;
+    border: unset;
+    color: #191817;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus,
+textarea:focus,
+[name="communityform"] input[type="text"]:focus {
+    outline: 1px inset #d9dadd;
+}
+
+a:hover,
+span:hover {
+    text-decoration: unset !important;
+}
+
+.textareabg p {
+    font-size: 19px;
+}
+
+a.messageform__taglinks,.post-text a {
+    color: #466b97;
+    font-size: 19px;
+}
+
+.post-opt.col-12.col-md-6 [style="color: rgb(102, 102, 102);"] {
+    font-size: 19px;
+    color: #444444 !important;
+}
+
+
+
+
+/*UPD*/
+
+a.readertime {
+    overflow-wrap: break-word;
+}
+
+/*==Закладка==*/
+
+.left-menu {
+    position: relative;
+    overflow: visible;
+}
+.left-menu:before {
+    content: 'закладка';
+    font-size: 0;
+    display: block;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    right: -30px;
+    top: -49px;
+    background-color: #2c3948;
+    background-image: url(https://www.transparenttextures.com/patterns/straws.png);
+    clip-path: polygon(50% 25%, 100% 1%, 100% 100%, 0 100%, 0 50%, 0 0);
+}
+
+.left-menu:after {
+    content: 'закладка2';
+    font-size: 0;
+    display: block;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    background-color: #2c3948;
+    background-image: url(https://www.transparenttextures.com/patterns/straws.png);
+    clip-path: polygon(50% 25%, 100% 1%, 100% 100%, 0 100%, 0 50%, 0 0);
+    transform: rotate(180deg);
+}
+
+main.py-4 {
+    margin-bottom: 30px;
+}
+
+
+/*МЕДИА*/
+
+@media (max-width: 1024px) {
+
+div#app {
+    padding: 0px;
+    width: 97%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.left-menu {
+    width: 20%;
+    min-width: 30%;
+}
+
+
+
+p.left-menu-text {
+    margin-left: unset !important;
+}
+p.left-menu-text a:after, a.blog-subscribe:after, [href^="//beon.fun/rating/community/"]:after {
+    display: none;
+}
+a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
+    margin: 0px !important;
+}
+
+
+.text-center img {
+    max-width: 150px;
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    display: none !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 15px;
+}
+.crumbs * {
+    font-size: 20px !important;
+}
+[href="https://beon.fun"]:before {
+    font-size: 24px;
+}
+
+span.post-opt {
+    float: unset;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none;
+}
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none !important;
+}
+}
+
+
+/*768*/
+
+@media (max-width: 768px) {
+
+.left-menu:before,
+.left-menu:after {
+    display: none;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none !important;
+}
+
+.left-menu {
+    margin-right: 0px !important;
+}
+main.py-4 {
+    position: relative;
+    padding-top: 300px !important;
+}
+
+.content {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#app {
+    padding: 0px;
+    width: 98%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.left-menu {
+    width: 20%;
+    min-width: 30%;
+}
+
+
+
+p.left-menu-text {
+    margin-left: unset !important;
+}
+p.left-menu-text a:after, a.blog-subscribe:after, [href^="//beon.fun/rating/community/"]:after {
+    display: none;
+}
+a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
+    margin: 0px !important;
+}
+
+
+
+
+
+
+.text-center img {
+    max-width: 150px;
+}
+
+
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    display: none !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 15px;
+}
+.crumbs * {
+    font-size: 20px !important;
+}
+[href="https://beon.fun"]:before {
+    font-size: 24px;
+}
+
+span.post-opt {
+    float: unset;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none;
+}
+span.post-title-date {
+    float: unset;
+}
+main.py-4:before {
+    height: 300px;
+    background: url(https://i.ibb.co/MMjqjt2/O8454-4.png) no-repeat center top;
+    background-size: cover;
+}
+}
+
+
+/*700*/
+
+@media (max-width: 700px) {
+
+.left-menu:before,
+.left-menu:after {
+    display: none;
+}
+
+.post-text {
+    padding: 0px;
+    padding-top: 15px;
+}
+
+.content {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#app {
+    width: 95%;
+    margin-top: unset;
+}
+
+.post-content {
+    padding: 5px;
+}
+
+.post-content [style="margin-left: 5px;"]:before {
+    top: 20px;
+}
+
+.mobile_open_menu {
+    padding: 0px !important;
+}
+.mobile_open_menu h3.left-menu-text {
+    transform: unset;
+    color: #444444 !important;
+    text-decoration: unset;
+    font-size: 19px !important;
+    padding: 2px;
+    font-weight: unset !important;
+}
+
+.left-menu {
+    width: 100%;
+}
+
+.fa-angle-down:before {
+    color: #489eda;
+}
+
+
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: none !important;
+}
+
+i.fas.fa-angle-down {
+    display: none;
+}
+.hamburger-menu {
+    position: unset;
+}
+
+
+
+ul.menu__box {
+    top: 0;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+.left-menu {
+    min-width: 100%;
+}
+.crumbs * {
+    font-size: 20px !important;
+}
+[href="https://beon.fun"]:before {
+    font-size: 24px;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 15px;
+}
+
+
+.post-content .post-avatar img {
+    max-width: 60px;
+    object-fit: none;
+}
+img.imagefsme {
+    padding: 2px;
+}
+.datebg {
+    margin-top: 20px;
+}
+span.post-title-date+span {
+    display: none;
+}
+
+
+.post-content .post-avatar {
+    display: none;
+}
+span.post-title-date {
+    float: unset;
+}
+[style="display: flex; justify-content: space-between;"] * {
+    font-size: 14px !important;
+}
+
+main.py-4:before {
+    content: 'head';
+    font-size: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url(https://i.ibb.co/MMjqjt2/O8454-4.png) no-repeat center top;
+    height: 200px;
+    background-size: cover;
+}
+main.py-4 {
+    position: relative;
+    padding-top: 200px !important;
+}
+.textareabg {
+    padding: 10px;
+}
+}
+
+/*UPD*/
+
+[src="/i/online.png"] {
+    filter: hue-rotate(90deg);
+}
+
+/*ховеры всякие кудаж без них*/
+
+a.post-title {
+    transition: 0.2s;
+}
+
+a.post-title:hover {
+    padding-left: 20px;
+    transition: 0.2s;
+}
