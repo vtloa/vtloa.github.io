@@ -844,6 +844,9 @@ main.py-4 {
     width: 90%;
     margin: auto;
 }
+body.bodybg {
+    background-size: cover;
+}
 }
 
 
@@ -892,6 +895,10 @@ i.fas.fa-angle-down {
 }
 .tag_bar span {
     padding: 2px;
+}
+    
+body.bodybg {
+    background-size: cover;
 }
 
 }
