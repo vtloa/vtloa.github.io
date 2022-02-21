@@ -847,6 +847,9 @@ main.py-4 {
 body.bodybg {
     background-size: cover;
 }
+.left-menu, .content {
+    backdrop-filter: unset;
+}
 }
 
 
@@ -899,6 +902,10 @@ i.fas.fa-angle-down {
     
 body.bodybg {
     background-size: cover;
+}
+    
+.left-menu, .content {
+    backdrop-filter: unset;
 }
 
 }
