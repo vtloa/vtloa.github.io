@@ -844,16 +844,12 @@ main.py-4 {
     width: 90%;
     margin: auto;
 }
-body.bodybg {
-    background-size: cover;
-}
+
 .left-menu, .content {
     backdrop-filter: unset;
 }
     
-body.bodybg {
-    background-color: #2a2d31 !important;
-}
+
 }
 
 
@@ -904,16 +900,12 @@ i.fas.fa-angle-down {
     padding: 2px;
 }
     
-body.bodybg {
-    background-size: cover;
-}
+
     
 .left-menu, .content {
     backdrop-filter: unset;
 }
     
-body.bodybg {
-    background-color: #2a2d31 !important;
-}
+
 
 }
