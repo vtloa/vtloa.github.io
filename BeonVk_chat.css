@@ -276,5 +276,12 @@ div#lblock_im .dialog .rightblock {
 div#updates {
     display: none;
 }
+  
+div#im_content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
 
 }
