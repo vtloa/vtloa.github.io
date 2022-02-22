@@ -187,3 +187,10 @@ button#saveCss {
 .public_wall_like_yes {
     filter: hue-rotate(130deg) saturate(3.5);
 }
+
+
+/*ВРЕМЕННО УБРАЛ*/
+
+div#updates {
+    display: none;
+}
