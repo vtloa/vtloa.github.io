@@ -194,3 +194,17 @@ button#saveCss {
 div#updates {
     display: none;
 }
+
+
+/*Большие картинки*/
+
+[id^="photo_wall_"] {
+    max-width: 250px !important;
+    max-height: 250px !important;
+}
+
+
+.walltext.im_msg_mag [style="width:100px;height:100px;overflow:hidden"] {
+    width: 250px !important;
+    height: 250px !important;
+}
