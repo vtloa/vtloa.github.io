@@ -208,3 +208,71 @@ div#updates {
     width: auto !important;
     height: auto !important;
 }
+
+
+
+/*МЕДИА*/
+
+@media (max-width: 1024px) {
+ul#leftmenu,.left_box.attention {
+    display: none;
+}
+
+[onmouseover="im.menu_close(event);"] {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+    display: grid !important;
+}
+div#im_content {
+    position: unset;
+    width: 100% !important;
+}
+
+div#lblock_im {
+    width: 100% !important;
+    max-height: 100%;
+    margin: 0px;
+}
+
+div#lblock_im:hover {
+    max-height: unset;
+    transition: unset;
+    transition-delay: unset;
+}
+
+.wallauthor.support_anser_nam.im_msg_name>.fl_l {
+    float: unset;
+}
+
+.walltext.im_msg_mag {
+    font-size: 17px;
+}
+
+.wallauthor.support_anser_nam.im_msg_name {
+    font-size: 15px;
+}
+textarea#msg_text {
+    width: 100% !important;
+}
+
+div#im_content {
+    order: 1;
+}
+
+div#lblock_im {
+    order: 2;
+}
+div#lblock_im .dialog .rightblock {
+    width: 100%;
+}
+.autowr {
+    width: 60% !important;
+    margin: auto;
+}
+
+* {
+    font-size: 16px !important;
+}
+
+}
