@@ -189,11 +189,7 @@ button#saveCss {
 }
 
 
-/*ВРЕМЕННО УБРАЛ*/
 
-div#updates {
-    display: none;
-}
 
 
 /*Большие картинки*/
@@ -273,6 +269,12 @@ div#lblock_im .dialog .rightblock {
 
 * {
     font-size: 16px !important;
+}
+  
+
+
+div#updates {
+    display: none;
 }
 
 }
