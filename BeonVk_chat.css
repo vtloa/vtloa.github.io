@@ -207,5 +207,9 @@ button#saveCss {
 
 
 
-/*МЕДИА*/
+
+
+.gift_count.no_display {
+    display: block !important;
+}
 
