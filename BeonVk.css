@@ -1,0 +1,246 @@
+#css {
+  height: 400px !important;
+  overflow-y: auto !important;
+  font-size: 13px;
+}
+#moreInfo {
+  line-height: 1;
+}
+.pointer {
+  font-weight: bold !important;
+}
+#no_ev {
+  width: 50px;
+}
+
+/*декоративное цвета кнопки ссылки*/
+
+html, body {
+    background: #edeef0 !important;
+}
+
+
+
+.button_div button {
+    background: #6690c1;
+    padding: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 4px;
+}
+
+.button_div button:hover {
+    background: #6690c1;
+    opacity: 0.8;
+    transition: unset;
+}
+
+
+/*скролл*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    margin-top: 1px;
+}
+
+
+
+::-webkit-scrollbar-track:hover {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cdcdcd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #cdcdcd;
+}
+
+
+
+
+/*окно диалогов*/
+
+[onmouseover="im.menu_close(event);"] {
+    flex-direction: row-reverse;
+    position: absolute;
+    bottom: 15px;
+    top: 0px;
+    width: 800px;
+    background: transparent !important;
+    border: unset !important;
+    box-shadow: unset !important;
+    margin-top: 0px !important;
+}
+
+.im_messages_all {
+    height: calc(100% - 125px) !important;
+}
+
+/*разное*/
+
+.timeblock.im-to-end--label._im_to_end_label {
+    background: white !important;
+    padding-top: 3px !important;
+    padding-bottom: 4px !important;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+
+
+.im_msg {
+    margin-left: 3px;
+    margin-right: 1px;
+    border-radius: 3px;
+    padding-top: 13px;
+    margin-top: 0px;
+}
+
+
+
+div#im_content,div#lblock_im {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+
+
+div#lblock_im {
+    margin-left: 15px;
+    max-height: 250px;
+    overflow: hidden;
+    transition: 0.5s;
+    transition-delay: 1.5s;
+}
+
+
+
+div#dialogs_block {
+    height: 100% !important;
+}
+
+div#dialogs_block::-webkit-scrollbar {
+    width: 0;
+}
+
+div#lblock_im:hover {
+    max-height: 80%;
+    transition: 0.5s;
+}
+
+div#im_head_user {
+    padding-right: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 385px;
+    font-size: 12px;
+    display: none;
+}
+
+.footer a {
+    padding: 0px;
+    padding-right: 4px;
+}
+
+.head {
+    background: #6690c1;
+    box-shadow: unset;
+}
+
+div#owner_photo_bubble_wrap>div#owner_photo_bubble {
+    background: transparent;
+}
+
+.audioPage.audioElem {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgb(6 33 63 / 13%);
+}
+
+.audioPage .audioElTime {
+    display: none;
+}
+
+.bg_block {
+    border-radius: 4px;
+}
+
+.search_input {
+    background: #344f7a9e !important;
+}
+
+button#saveCss {
+    margin-top: 10px;
+}
+
+.public_wall_like_yes {
+    filter: hue-rotate(130deg) saturate(3.5);
+}
+
+/*проверка*/
+
+.wallrecord,.wall_fast_block,div#fast_form,.wall_inpst {
+    width: 100% !important;
+    margin-left: unset !important;
+}
+
+.ava {
+    position: sticky !important;
+    top: -90% !important;
+    float: unset;
+    width: 230px;
+}
+
+
+
+.profiewr {
+    width: 558px !important;
+    float: unset !important;
+}
+
+div#page {
+    display: flex;
+    width: 855px;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track:hover {
+    border: unset;
+}
+
+.onefriend {
+    white-space: nowrap;
+}
+
+/*ГРУППА*/
+
+.ava_pub {
+    width: 230px;
+    margin-right: 13px;
+}
+
+
+/*===========*/
+
+.headm_newac {
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 1px;
+    font-size: 12px;
+    margin-top: -10px;
+}
