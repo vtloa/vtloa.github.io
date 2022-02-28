@@ -235,7 +235,7 @@ div#dialogs_block {
     position: relative;
 }
 
-.wallauthor a {
+.im_msg .wallauthor a {
     font-size: 12px;
 }
 
