@@ -251,3 +251,7 @@ div#bblock123 {
     height: calc(100% - 125px) !important;
 }
 
+[class^="dateline num"] {
+    font-size: 12px;
+}
+
