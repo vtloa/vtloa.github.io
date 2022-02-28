@@ -77,9 +77,7 @@ html, body {
     margin-top: 0px !important;
 }
 
-.im_messages_all {
-    height: calc(100% - 125px) !important;
-}
+
 
 /*разное*/
 
@@ -239,5 +237,17 @@ div#dialogs_block {
 
 .wallauthor a {
     font-size: 12px;
+}
+
+div#bblock123 {
+    border: unset !important;
+    bottom: 0px !important;
+    position: absolute;
+    background: transparent !important;
+    border-top: 1px solid #d3d9dec2 !important;
+}
+
+.im_messages_all {
+    height: calc(100% - 125px) !important;
 }
 
