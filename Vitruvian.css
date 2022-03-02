@@ -924,6 +924,10 @@ p.quotation {
     margin-left: 0px;
     font-size: 13px;
 }
+.left-menu, .post-text, .comment-content {
+    backdrop-filter: unset;
+    background-color: #342c1c75;
+}
 }
 
 
