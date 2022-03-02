@@ -1191,3 +1191,8 @@ textarea {
 a.navbar-brand {
     font-size: 0;
 }
+
+
+[href="https://beon.fun"]:before {
+    font-size: 25px;
+}
