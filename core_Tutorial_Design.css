@@ -433,13 +433,7 @@ li.nav-item [href$=".beon.fun/register"] {
 }
 
 
-[src="//beon.fun/i/logo2.png"] {
-    display: none;
-}
-[href="https://beon.fun"]:before {
-    content: 'BEON.FUN';
-    font-size: 17px;
-}
+
 
 
 /*UPD*/
