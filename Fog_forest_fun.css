@@ -909,3 +909,8 @@ i.fas.fa-angle-down {
 
 
 }
+
+
+a.navbar-brand {
+    font-size: 0;
+}
