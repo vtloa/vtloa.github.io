@@ -1289,3 +1289,7 @@ a.actionignore:after {
 p.left-menu-text {
     color: #525252;
 }
+
+a.navbar-brand {
+    font-size: 0;
+}
