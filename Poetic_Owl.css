@@ -1255,3 +1255,8 @@ a.post-title:hover {
     padding-left: 20px;
     transition: 0.2s;
 }
+
+
+a.navbar-brand {
+    font-size: 0;
+}
