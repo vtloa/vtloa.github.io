@@ -1187,3 +1187,7 @@ textarea {
 .textareabg input[type="text"], select {
     color: #f19000;
 }
+
+a.navbar-brand {
+    font-size: 0;
+}
