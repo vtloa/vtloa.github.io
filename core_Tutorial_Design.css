@@ -5,7 +5,8 @@
     display: none;
 }
 
-div#giftmodal {
+div#giftmodal,
+div#uploadimagemodal{
     background: #00000094;
 }
 
