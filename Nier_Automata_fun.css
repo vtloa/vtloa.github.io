@@ -1321,6 +1321,4 @@ ul.navbar-nav.ml-auto:before {
     display: none;
 }
 
-a.navbar-brand:before {
-    content: 'BEON.FUN';
-}
+
