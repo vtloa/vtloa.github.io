@@ -415,3 +415,14 @@ input[type="text"] {
     margin-right: 5px;
     text-transform: lowercase;
 }
+
+
+/*FIX*/
+
+.modal-backdrop.show {
+    display: none;
+}
+
+div#giftmodal {
+    background: #00000094;
+}
