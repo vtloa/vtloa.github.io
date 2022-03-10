@@ -1115,3 +1115,7 @@ a.readertime {
     font-size: 12px;
     color: #87613c;
 }
+
+.container {
+    padding: 0px;
+}
