@@ -1147,3 +1147,7 @@ p.quotation {
     font-size: 15px;
     text-shadow: 0 0 2px black;
 }
+
+.left-menu a, .left-menu div {
+    color: #877d77;
+}
