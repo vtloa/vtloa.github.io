@@ -1110,3 +1110,8 @@ a.post-title {
 .post-text a, .comment-text a {
     color: #6c4e2c;
 }
+
+a.readertime {
+    font-size: 12px;
+    color: #87613c;
+}
