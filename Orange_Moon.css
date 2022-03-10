@@ -1151,3 +1151,7 @@ p.quotation {
 .left-menu a, .left-menu div {
     color: #8d8783b8;
 }
+
+.post-opt {
+    font-size: 13px;
+}
