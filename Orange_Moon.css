@@ -955,6 +955,9 @@ main.py-4 {
     padding-left: 0px;
     padding-right: 0px;
 }
+body.bodybg {
+    background-position: left top;
+}
 }
 
 /*МЕДИА2*/
