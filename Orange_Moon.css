@@ -936,7 +936,16 @@ h3.left-menu-text {
 }
 
 
+
+
+
 /*МЕДИА1*/
+
+@media (max-width: 1024px) {
+body.bodybg {
+    background-position: left -115px top;
+}
+}
 
 @media (max-width: 768px) {
 
