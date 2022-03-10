@@ -342,7 +342,7 @@ a {
     height: fit-content;
     text-align: center;
     line-height: 1.2;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 
@@ -1118,4 +1118,8 @@ a.readertime {
 
 .container {
     padding: 0px;
+}
+
+span.readertime+a:before {
+    display: none;
 }
