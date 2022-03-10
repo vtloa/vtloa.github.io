@@ -172,7 +172,7 @@ textarea, .textareabg input[type="text"], .textareabg select {
 }
 
 textarea:focus, .textareabg input[type="text"]:focus, select:focus {
-    background-color: #3c3c3c;
+    background-color: #666668;
     color: #000000;
     transition: 0.2s;
     outline: 1px solid #221c1c;
