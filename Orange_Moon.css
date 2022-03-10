@@ -1154,3 +1154,9 @@ p.quotation {
 .post-opt {
     font-size: 13px;
 }
+
+::selection {
+    background: #e9a35b78;
+    color: white;
+    text-shadow: unset !important;
+}
