@@ -880,7 +880,6 @@ span.post-title-date+span {
 h3.left-menu-text {
     font-family: 'Amatic SC';
     font-size: 20px;
-    letter-spacing: -1px;
 }
 
 [action="/search"] input[type="submit"] {
