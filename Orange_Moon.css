@@ -1123,3 +1123,7 @@ a.readertime {
 span.readertime+a:before {
     display: none;
 }
+
+.post-content.blog_total_counter+.post-content {
+    border-top: 1px solid #49342f;
+}
