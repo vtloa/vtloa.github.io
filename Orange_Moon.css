@@ -958,6 +958,10 @@ main.py-4 {
 body.bodybg {
     background-position: left top;
 }
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 16px;
+}
 }
 
 /*МЕДИА2*/
