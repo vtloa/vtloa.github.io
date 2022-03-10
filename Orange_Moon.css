@@ -936,13 +936,28 @@ h3.left-menu-text {
 }
 
 
-/*МЕДИА*/
+/*МЕДИА1*/
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+
 main.py-4 {
     padding: 0px;
 }
+.left-menu {
+    width: 30%;
 }
+
+.content {
+    margin-left: 5px;
+}
+
+.left-menu>div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+/*МЕДИА2*/
 
 @media (max-width: 700px) {
 .content {
