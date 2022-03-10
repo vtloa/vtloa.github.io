@@ -1127,3 +1127,17 @@ span.readertime+a:before {
 .post-content.blog_total_counter+.post-content {
     border-top: 1px solid #49342f;
 }
+
+p.quotation {
+    padding: 0px;
+    padding-left: 0;
+    border-top: 1px solid;
+    width: fit-content;
+    color: #9f6d3b;
+    font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+    border-left: unset;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
