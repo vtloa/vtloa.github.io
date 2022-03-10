@@ -1095,11 +1095,12 @@ h3.left-menu-text {
 }
 .left-menu {
     font-size: 15px;
+    width: 100%;
 }
 a.post-title {
     font-size: 25px;
 }
 .tag_bar {
     text-align: center;
-}
+}    
 }
