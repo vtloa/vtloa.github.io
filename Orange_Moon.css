@@ -1141,3 +1141,9 @@ p.quotation {
     font-size: 13px;
     font-style: italic;
 }
+
+.post-text, a.menu__item, .comment-text {
+    color: #8d8783 !important;
+    font-size: 15px;
+    text-shadow: 0 0 2px black;
+}
