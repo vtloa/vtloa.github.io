@@ -1104,3 +1104,9 @@ a.post-title {
     text-align: center;
 }    
 }
+
+/*UPD*/
+
+.post-text a, .comment-text a {
+    color: #6c4e2c;
+}
