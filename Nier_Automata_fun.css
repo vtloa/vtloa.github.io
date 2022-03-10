@@ -367,8 +367,8 @@ div#app {
 }
 
 body.bodybg {
-    background: url(https://i.ibb.co/p1G4CT3/777-222.png) repeat-x top 89px left -90px, 
-                          url(https://i.ibb.co/m0Yqn4F/3433-4.png) no-repeat top fixed;
+    background: url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/master/bek/777-222.png) repeat-x top 89px left -90px, 
+                          url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/master/bek/3433.png) no-repeat top fixed;
     background-size: auto,cover;
     background-color: #8d8977;
 }
