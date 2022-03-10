@@ -380,7 +380,7 @@ div#navbarSupportedContent {
 div#app {
     position: relative;
     padding: 0px;
-    background: url(https://i.ibb.co/JF6M0SZ/Cherry-Tree-Vitruvian-Flowers-54.png) center;
+    background: url(https://i.ibb.co/JF6M0SZ/Cherry-Tree-Vitruvian-Flowers-54.png) center fixed;
 }
 
 body.bodybg {
