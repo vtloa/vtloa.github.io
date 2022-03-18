@@ -1247,7 +1247,7 @@ span.pagination-goto {
     display: none;
 }
 .post-opt.col-12.col-md-6.text-right a:after {
-    display: block;
+    display: none;
 }
 
 
@@ -1341,7 +1341,7 @@ span.pagination-goto {
     display: none;
 }
 .post-opt.col-12.col-md-6.text-right a:after {
-    display: block;
+    display: none;
 }
 .post-avatar img {
     max-width: 70px;
@@ -1551,4 +1551,16 @@ input#submitpreview:hover {
     font-size: 25px;
     margin: 0px;
     margin-bottom: 15px;
+}
+
+[src="//beon.fun/i/design-off.png"] {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+
+div.left-menu-text div,
+div#beon-fnplayer div {
+    padding-left: 0px;
 }
