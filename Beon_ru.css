@@ -1587,3 +1587,14 @@ div#beon-fnplayer div {
     text-decoration: underline;
     background-size: 16px;
 }
+
+
+.comment-text [href*=".beon.fun/"][href*="read"],
+.comment-text [href^="http://beon.fun/tests/"],
+.comment-text [href^="https://beon.fun/discussion/"],
+.comment-text [href$=".beon.fun/"],
+.comment-text [href^="https://beon.fun/"] {
+    background: url(https://i1.beon.fun/21/15/1521/0/143700/beon1.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+}
