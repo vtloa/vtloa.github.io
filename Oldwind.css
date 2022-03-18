@@ -1148,3 +1148,8 @@ button#upload-confirm-button,button.btn.btn-secondary,button.btn.btn-primary {
     border: 1px inset;
     padding: 5px;
 }
+
+.fas, .far, .tag_bar > * {
+    font-size: 16px;
+    padding: 0px;
+}
