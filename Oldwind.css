@@ -1102,3 +1102,44 @@ i.fab.fa-instagram {
     outline: 1px solid #2952cf;
     outline-offset: 1px;
 }
+
+
+
+.modal-content {
+    background: #c1c1c1;
+    border-radius: unset;
+    border: 2px outset;
+}
+
+.modal-header {
+    padding: 0px;
+    padding-left: 10px;
+    background: #284291;
+    color: #c9c9c9;
+    border-radius: unset;
+}
+
+.modal-body {
+    font-size: 19px;
+}
+
+label.custom-file-label {
+    background: white;
+    border-radius: unset;
+    border: 2px inset;
+    padding: 5px;
+    line-height: 1;
+}
+
+
+button#upload-confirm-button,button.btn.btn-secondary {
+    background: #d7d7d7;
+    border-radius: unset;
+    border: 2px outset;
+    font-size: 19px;
+    padding: 0px;
+    line-height: 1.2;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #646464;
+}
