@@ -1609,3 +1609,7 @@ div#beon-fnplayer div {
 .comment-text a {
     line-height: 1.4;
 }
+
+a.readertime {
+    white-space: pre-wrap;
+}
