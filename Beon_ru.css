@@ -1579,3 +1579,11 @@ div#beon-fnplayer div {
     text-decoration: underline;
     background-size: 16px;
 }
+
+
+[href*="www.youtube.com"] {
+    background: url(https://img.icons8.com/officexs/2x/youtube.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+    background-size: 16px;
+}
