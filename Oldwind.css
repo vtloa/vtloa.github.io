@@ -1132,7 +1132,7 @@ label.custom-file-label {
 }
 
 
-button#upload-confirm-button,button.btn.btn-secondary {
+button#upload-confirm-button,button.btn.btn-secondary,button.btn.btn-primary {
     background: #d7d7d7;
     border-radius: unset;
     border: 2px outset;
