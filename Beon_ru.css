@@ -1570,3 +1570,12 @@ div.left-menu-text div,
 div#beon-fnplayer div {
     padding-left: 0px;
 }
+
+/*UPD 2*/
+
+[href*="vk.com"] {
+    background: url(https://i.ibb.co/zrtWtgM/vkontakte-clip-art-8.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+    background-size: 16px;
+}
