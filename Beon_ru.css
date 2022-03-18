@@ -1613,3 +1613,12 @@ div#beon-fnplayer div {
 a.readertime {
     white-space: pre-wrap;
 }
+
+[href="//beon.fun/roleplays"] {
+    padding-left: 3px !important;
+}
+
+[href="//beon.fun/communities"] {
+    padding-right: 3px !important;
+}
+
