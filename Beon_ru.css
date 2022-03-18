@@ -1,0 +1,1554 @@
+.post-avatar img {
+}
+
+/*==========*/
+
+.post-title, h1 {
+    font-size: 25px;
+}
+
+.pc-menu *,
+span.pagination-goto,
+span.post-title-date,
+span.post-title-date+span,
+.left-menu__user-notification.left-menu__unread-message img+p:after,.postsiblings.row:before,
+span.readertime {
+    color: #666666 !important;
+}
+
+a:hover,.post-opt.col-12.col-md-6 span:hover {
+    color: #990000;
+}
+
+a,.post-opt.col-12.col-md-6 span,
+.post-opt span {
+    color: #0048AB;
+}
+
+*,i.fas.fa-trash-alt {
+    font-family: Tahoma,Verdana,Arial,Geneva,Helvetica !important;
+}
+
+i.far.fa-clipboard,
+i.fab.fa-instagram,
+i.far.fa-user,
+i.far.fa-trash-alt {
+    font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands' !important;
+}
+
+i.fas.fa-heart,
+i.fas.fa-retweet,
+i.fas.fa-quote-left,
+.fa, .fas,i.far.fa-smile-wink {
+    font-family: 'Font Awesome 5 Free' !important;
+}
+
+/*======================*/
+
+body.bodybg {
+    background: white;
+}
+
+/*======================*/
+
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text {
+    font-size: 0;
+    text-align: left;
+}
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text {
+    font-size: 0;
+    text-align: left;
+    background: #1f6598 !important;
+}
+
+h3.left-menu-text {
+    font-size: 11px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    border-bottom: 1px solid #dddddd;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    margin-top: 25px;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text:before {
+    content: 'Личное сообщение:';
+    font-size: 11px;
+}
+
+.left-menu__user-notification.left-menu__unread-message {
+    position: relative;
+    color: black;
+    font-size: 13px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #0048ab;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p:before,
+.left-menu__gift a:before {
+    content: url(https://i.ibb.co/0fbj93h/user.png);
+    margin-right: 1px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p:after {
+    content: url(https://beon.fun/i/flags/qm.gif)' 42 апреля 2022 г. 04:61:10';
+    padding-left: 5px;
+}
+
+
+
+
+.left-menu {
+    width: 25.2%;
+}
+
+.crumbs {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 8px;
+    margin-top: 50px !important;
+    border-color: rgb(221, 221, 221);
+    font-size: 12px;
+}
+
+nav.navbar {
+    background: transparent;
+    box-shadow: unset !important;
+    padding: 0px;
+}
+
+.pc-menu * {
+    text-decoration: underline;
+    font-size: 10px !important;
+}
+
+
+.pc-menu {
+    border: 1px solid #EBEBEB;
+    border-radius: 10px 0 0 10px;
+    background: #F7F7F7;
+    padding: 15px;
+    line-height: 0.9;
+    width: 100%;
+    margin-left: auto;
+    padding-left: 50px;
+}
+
+.pc-menu ul a {
+    margin: -5px;
+}
+
+.pc-menu table {
+    width: 100%;
+}
+
+li::marker {
+    color: black;
+    font-size: 11px;
+}
+
+.container {
+    padding: 0px;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    display: none !important;
+}
+
+div#app {
+    padding: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container,
+ul.navbar-nav.ml-auto {
+    max-width: 100%;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: block !important;
+}
+
+.pagination {
+    font-size: 12px;
+}
+
+.pagination a {
+    text-decoration: underline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+a.navbar-brand {
+    width: 290px;
+    text-align: center;
+    font-weight: unset;
+    font-size: 18px;
+}
+
+.post-content.blog_total_counter {
+    display: none;
+}
+
+
+
+.left-menu {
+    border: unset !important;
+}
+
+.left-menu>div {
+    border: 1px solid #dddddd;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.left-menu br,
+.alert.alert-success {
+    display: none;
+}
+
+[href="/gifts"] {
+    font-size: 9px;
+    text-decoration: underline;
+}
+
+.blog__gifts .d-flex {
+    height: 85px;
+}
+
+.left-menu__gift a {
+    display: block;
+    width: 60px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.left-menu__gift {
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p.left-menu-text {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blog__about div.left-menu-text a {
+    font-size: 12px;
+    line-height: 2.3;
+    text-decoration: underline;
+}
+
+.blog__read-me div.left-menu-text {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.blog__iread div.left-menu-text {
+    line-height: 1.3;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.blog__tags div.left-menu-text a {
+    line-height: 1;
+    text-decoration: unset;
+}
+
+.blog__last-comments {
+    color: black;
+    font-size: 13px;
+    line-height: 0;
+}
+
+a.readertime {
+    line-height: 1.3 !important;
+    margin-top: 8px;
+    display: block;
+    font-size: 10px !important;
+    margin-bottom: 19px;
+}
+
+.blog__last-comments h3.left-menu-text {
+    margin-bottom: 15px !important;
+}
+
+.blog__last-comments div.left-menu-text:before {
+    content: 'RE:';
+}
+
+.left-menu input[type="text"] {
+    line-height: 0;
+    font-size: 12px;
+}
+
+.left-menu input[type="submit"] {
+    line-height: 1;
+    font-size: 12px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog__about {
+    font-size: 12px;
+}
+.blog__about div {
+    padding-left: 5px;
+}
+.text-center {
+    padding: 0px !important;
+}
+
+.text-center+.left-menu-text {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.left-menu-text [action="/search"] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.left-menu-text {
+    font-size: 12px;
+}
+
+.left-menu-text a,.blog__about [href="/subscribers"] {
+    text-decoration: underline;
+}
+
+
+
+.left-menu__user-notification div a {
+    font-size: 9px;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+.left-menu__user-notification div {
+    text-align: right;
+    padding-right: 5px;
+}
+
+[href="//beon.fun/p/discussions/unread"]:after {
+    content: ' >>';
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p+p {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.left-menu__user-notification p.left-menu-text {
+    padding-bottom: 0px !important;
+    padding-left: 5px;
+    line-height: 1;
+}
+
+.left-menu__user-notification h3.left-menu-text {
+    margin-bottom: 10px !important;
+}
+
+
+a.user.post-title-user {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+span.post-title-date {
+    padding: 0px;
+}
+
+.row.w-100 *,
+span.post-title-date+span,
+span.post-title-date,
+.left-menu__user-notification.left-menu__unread-message img+p:after,
+span.post-opt,
+.post-opt a,
+.post-opt span {
+    font-size: 10px;
+}
+
+.post-text, .comment-text {
+    font-size: .84rem;
+    line-height: normal;
+    padding-left: 3px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+
+.row.w-100 a,
+.post-opt a, .post-opt [data-target="#deleteconfirmmodal"] {
+    text-decoration: underline;
+}
+
+.w-100 {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+.post-opt.col-12.col-md-6.text-right a:before {
+    content: 'c';
+    background: url(https://i.ibb.co/xGNCfBP/discuss.png) no-repeat right top 1px;
+    background-size: 13px 12px;
+    font-size: 0;
+    padding: 11px;
+}
+
+.post-opt.col-12.col-md-6.text-right a:after {
+    content: '| Прокомментировать';
+    margin-left: 2px;
+}
+
+.sign {
+    line-height: normal;
+}
+
+.post-row a {
+    line-height: 1.4;
+}
+
+.post-text [href*=".beon.fun/"][href*="read#"],
+.post-text [href^="http://beon.fun/tests/"],
+.post-text [href^="https://beon.fun/discussion/"],
+[href$=".beon.fun/"],
+[href^="https://beon.fun/"] {
+    background: url(https://i1.beon.fun/21/15/1521/0/143700/beon1.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+}
+
+[href*="in-heart.ru"] {
+    background: url(https://i.ibb.co/DM7djWh/heart-suit.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+}
+
+.post-text [href*="caracal.club"] {
+    background: url(https://caracal.club/img/favicon32.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+    background-size: 16px;
+}
+
+div#beon-fnplayer {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.post-text [href^="//beon.fun/tests/"] {
+    font-weight: bold;
+}
+
+.post-opt.col-12.col-md-6.text-right,
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+
+.post-opt.col-12.col-md-6.text-right {
+    position: relative;
+}
+
+.post-opt.col-12.col-md-6.text-right a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+
+/*Сомнительно, но работает*/
+
+.blog__about h3.left-menu-text:after,
+.blog__tags h3.left-menu-text:after,
+.blog__last-comments h3.left-menu-text:after {
+    content: ':';
+}
+
+.left-menu__user-notification [style="padding-bottom: 16px; margin-bottom: 0px;"] {
+    display: block;
+    margin-top: 8px;
+}
+
+.left-menu__user-notification a {
+    font-size: 12px;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+
+
+
+
+/*создание записей,комеентов*/
+
+
+
+
+input[type="hidden"]+p+[name="posttitle"] {
+    margin-left: 35px;
+    width: calc(100% - 35px);
+    line-height: 1;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+form.messageform input[type="hidden"]+p {
+    width: 63px;
+    display: block;
+    margin: 0px;
+    margin-bottom: -35px;
+    font-size: 0;
+}
+
+
+form.messageform input[type="hidden"]+p:before {
+    content: 'Тема:';
+    font-size: 13px;
+}
+
+[name="posttitle"]+br+br+p,
+.textareabg br {
+    display: none;
+}
+
+.emj-dropdown {
+    padding: 0px;
+}
+
+.tag_bar {
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    margin: 0;
+    padding: 3px;
+    border-radius: 4px;
+    width: fit-content;
+    line-height: 1;
+    padding-bottom: 4px;
+    margin-top: -46px;
+    margin-bottom: 22px;
+    color: black;
+}
+
+
+.tag_bar > span {
+    margin: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+    font-size: 16px;
+}
+
+.tag_bar span:hover {
+    background-color: #dff1ff;
+    outline: 1px solid #316ac5;
+    outline-offset: -1px;
+}
+
+.textareabg .col-md-4 {
+    padding: 0px;
+}
+
+.textareabg {
+    background: transparent;
+    margin: 0px !important;
+    color: black;
+}
+
+.textareabg .container-fluid.mt-5,
+.textareabg .col-md-4 p {
+    margin: 0px !important;
+}
+
+span.emj-dropdown [src="//beon.fun/i/emoji/D83DDE1C.png"],
+i.fas.fa-chevron-down,
+img.dropbtn {
+    display: none;
+    padding: 0px;
+}
+
+
+
+[name="posttitle"]+br+br+p+div {
+    margin-top: 28px;
+    position: relative;
+    width: fit-content;
+}
+
+i.fas.fa-align-center {
+    background: url(https://i.ibb.co/Fh1RqRc/center.gif) no-repeat;
+    color: transparent;
+    width: 17px;
+}
+
+i.fas.fa-align-right {
+    background: url(https://i.ibb.co/3Sb521N/right.gif) no-repeat;
+    color: transparent;
+    width: 17px;
+}
+
+[onclick="addTag('[SPOILER]')"] {
+    background: url(https://i.ibb.co/KWGYP5P/spoiler.gif) no-repeat left;
+    font-size: 13px !important;
+    color: transparent;
+    display: inline-block;
+    width: 22px;
+}
+
+i.fas.fa-video {
+    background: url(https://i.ibb.co/m4RTx1r/video.gif) no-repeat;
+    color: transparent;
+    width: 15px;
+}
+
+i.far.fa-user {
+    background: url(https://i.ibb.co/0fbj93h/user.png) no-repeat;
+    color: transparent;
+    width: 15px;
+}
+
+i.fas.fa-image {
+    background: url(https://i.ibb.co/vjwLYLp/image.gif) no-repeat;
+    color: transparent;
+    width: 19px;
+}
+
+i.far.fa-trash-alt {
+    background: url(https://i.ibb.co/gzdk6G3/clear.png) no-repeat;
+    color: transparent;
+    width: 15px;
+}
+
+i.fab.fa-instagram {
+    background: url(https://img.icons8.com/officexs/2x/instagram.png) no-repeat center / contain;
+    color: transparent;
+    width: 16px;
+}
+
+i.fas.fa-cloud-upload-alt {
+    background: url(https://img.icons8.com/officexs/2x/upload.png) no-repeat center / contain;
+    color: transparent;
+    width: 16px;
+}
+
+i.far.fa-clipboard {
+    background: url(https://img.icons8.com/officexs/2x/paste.png) no-repeat center / contain;
+    color: transparent;
+    width: 16px;
+}
+
+input[type="submit"] {
+    background: #efefef;
+    border-image: initial;
+    border-width: 2px;
+    border-style: outset;
+    border: 1px solid #606060;
+    font-size: 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+
+
+.col-md-4 p:after {
+    content: ':';
+}
+
+.textareabg>div {
+    font-weight: bold;
+    font-size: 0px;
+    padding-bottom: 10px;
+}
+
+.post-content+.textareabg>div:before {
+    content: 'Добавить новую запись:';
+    font-size: 13px;
+}
+
+
+input[type="text"] {
+    line-height: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.container-fluid.mt-5+br+br+p {
+    margin: 0px;
+}
+
+form.messageform p,.col-md-4 div,select {
+    font-size: 13px;
+}
+
+form.messageform:after,
+.comment-box+.textareabg:after {
+    content: 'Пожалуйста, относитесь к собеседникам уважительно, не используйте нецензурные слова, не злоупотребляйте заглавными буквами, не публикуйте рекламу и объявления о купле/продаже, а также материалы, нарушающие сетевой этикет или законы РФ. Ваш ip-адрес записывается.';
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+
+form.messageform {
+    background: #e7e7e7;
+    padding: 3px;
+    position: relative;
+}
+
+i.fas.fa-music {
+    background: url(https://i.ibb.co/60qcnH4/audio.png) no-repeat;
+    color: transparent;
+    width: 18px;
+}
+
+
+.container-fluid.mt-5+br+br+p+input+br+br+div span+div {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-size: 11px;
+    padding-top: 14px;
+    margin-top: -17px;
+    position: relative;
+    z-index: 2;
+}
+
+.container-fluid.mt-5+br+br+p+input+br+br+div span {
+    color: #0048ab;
+    font-size: 0;
+}
+
+.container-fluid.mt-5+br+br+p+input+br+br+div span:before {
+    content: 'Выбрать категорию';
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.container-fluid.mt-5+br+br+p+input+br+br+div span:after {
+    content: 'Что такое категории' url(https://i.ibb.co/fpfW8hf/help.png);
+    font-size: 11px;
+    text-decoration: underline;
+    margin-left: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+.container-fluid.mt-5+br+br+p+input+br+br+div span:hover:after {
+    content: 'Ты знаешь что такое категории...' !important;
+}
+
+.container-fluid.mt-5+br+br+p+input+br+br+div span+div:hover {
+    height: 50px;
+    transition: 0.2s;
+    margin-top: -17px;
+    padding-top: 14px;
+}
+
+.container-fluid.mt-5+br+br+p {
+    font-size: 0;
+    margin-bottom: -20px;
+    margin-top: 5px;
+}
+
+
+
+.container-fluid.mt-5+br+br+p:before {
+    content: 'Категории:';
+    font-size: 13px;
+}
+.container-fluid.mt-5+br+br+p {
+    font-size: 0;
+}
+
+
+
+
+.container-fluid.mt-5+br+br+p {
+    font-size: 0;
+    margin-bottom: -20px;
+    margin-top: 5px;
+}
+
+form.messageform .col-md-4 {
+    margin-left: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container-fluid.mt-5 .row .col-md-4 div {
+    background: url(https://i.ibb.co/6tZtgJF/access.png) no-repeat center right;
+    padding-right: 17px !important;
+}
+
+.row .col-md-4+.col-md-4+.col-md-4 div {
+    padding: 0px;
+    margin-left: -72px;
+    background: url(https://i.ibb.co/x1G7gpz/topic-options.png) no-repeat center right !important;
+}
+
+.container-fluid.mt-5 .row .col-md-4+.col-md-4 div {
+    background: url(https://i.ibb.co/yQ3Wcmq/premoderate.png) no-repeat center right;
+    white-space: nowrap;
+}
+
+.textareabg label {
+    font-size: 13px;
+}
+
+.post-content [style="margin-left: 5px;"] {
+    line-height: 1.35;
+}
+
+/*-------------------*/
+
+
+.post-content,.datebg,.left-menu,.post-avatar,.post-content [style="margin-left: 5px;"] {
+    margin: 0px !important;
+}
+
+.content {
+    padding-left: 1.1%;
+}
+
+.datebg {
+    color: #000000;
+    font-size: 18px;
+    font-weight: unset;
+    margin-bottom: 10px !important;
+    padding-left: 0px;
+}
+
+img.imagefsme {
+    padding: 0px;
+}
+
+.post-content {
+    margin-bottom: 50px !important;
+}
+
+
+form.messageform .container-fluid,
+div#preview-area+form#messageform .container-fluid {
+    display: flex;
+    width: 50%;
+    margin: unset;
+    float: left;
+}
+
+form.messageform .container-fluid .row,
+div#preview-area+form#messageform .row {
+    display: block;
+    width: 100%;
+}
+
+form.messageform .col-md-4,
+div#preview-area+form#messageform .col-md-4 {
+    display: flex;
+    align-items: center;
+}
+
+form.messageform .container-fluid p,
+.container-fluid p {
+    white-space: nowrap;
+}
+
+.container-fluid .row .col-md-4 {
+    margin-left: 40px;
+    margin-bottom: 2px;
+}
+
+.container-fluid .row .col-md-4+.col-md-4 {
+    margin-left: 22px;
+}
+
+.container-fluid .row .col-md-4+.col-md-4+.col-md-4 {
+    margin-left: 62px;
+}
+
+.container-fluid.mt-5+br+br+p+input {
+    display: block;
+    margin-left: 66px;
+    width: 25%;
+}
+
+.container-fluid.mt-5 .row .col-md-4 {
+    margin-left: 10px;
+}
+
+.container-fluid.mt-5 .row .col-md-4+.col-md-4+.col-md-4 {
+    margin-left: -12px;
+}
+
+form.messageform textarea {
+    margin-bottom: 15px;
+}
+
+
+
+
+[name="postmood"] {
+    background: url(https://i.ibb.co/JBv11Yd/mood.png) no-repeat;
+}
+
+[name="postmusic"] {
+    background: url(https://i.ibb.co/ZmbkmML/music.png) no-repeat;
+}
+
+[name="postwish"] {
+    background: url(https://i.ibb.co/q7PVxQx/want.png) no-repeat;
+}
+
+[name="posttags"] {
+    background: url(https://i.ibb.co/s285Gzx/tags.png) no-repeat;
+}
+
+[name="postmood"], [name="postmusic"], [name="postwish"], [name="posttags"] {
+    background-color: white;
+    border: 1px solid #767676;
+    border-radius: 0px;
+    padding: 1px !important;
+    padding-left: 25px !important;
+    background-position: 3px 1px;
+}
+
+.embed-responsive {
+    max-width: 90% !important;
+}
+i.fas.fa-heart {
+    color: #990000;
+}
+
+/*-----------------*/
+
+body.bodybg {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+div#app+div+div a,
+.crumbs a {
+    text-decoration: underline;
+}
+div#app+div+div, div#footer {
+    text-align: left !important;
+    font-size: 11px;
+    color: #666666 !important;
+    padding-left: 15px;
+}
+
+div#footer:before {
+    content: 'Copyright © 2001—2019 BeOnАвторами текстов, изображений и видео, размещённых на этой странице, являются пользователи сайта.';
+    display: block;
+    font-size: 11px;
+}
+
+div#footer:after {
+    content: 'Написать об ошибке дизайна - css.beon.fun или princess.beon.fun';
+    display: block;
+    font-size: 11px;
+}
+
+div#commentpreviewplace+p {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.textarea-wrapper {
+    margin-bottom: 3px;
+}
+
+.comment-content .post-opt {
+    text-align: right;
+}
+
+span.post-title-date+a {
+    font-size: 0;
+}
+
+span.post-title-date+a:before {
+    content: '[ постоянная ссылка ]';
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.post-content, .comment-content {
+    min-height: auto;
+}
+
+p.quotation {
+    display: block;
+    padding-left: 5px;
+    margin-left: 7px;
+    border-left: 3px solid #6666ff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.comment-text+div {
+    text-align: right;
+}
+
+span.repostbutton:before {
+    content: 'Репост';
+}
+
+i.fas.fa-trash-alt:before {
+    content: 'Удалить';
+}
+
+span.fast-quote {
+    display: unset;
+}
+
+span.fast-quote:before {
+    content: 'Прoкoммeнтировaть';
+}
+
+span.repostbutton:before, i.fas.fa-trash-alt:before, span.fast-quote:before {
+    font-size: 10px;
+    color: #0048ab;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+i.fas.fa-retweet,
+i.fas.fa-quote-left,
+i.fas.fa-trash-alt {
+    font-size: 0;
+}
+
+div#commentpreviewplace a.post-title-user {
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+div#commentpreviewplace a.post-title-user+span.post-title-date {
+    font-weight: 100;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div#commentpreviewplace .comment-content {
+    background: #f3f3f3;
+    margin-left: 25px;
+}
+
+div#commentpreviewplace a.post-title-user:before {
+    content: url(/i/user.png);
+    margin-right: 1px;
+}
+
+div#commentpreviewplace+p {
+    font-size: 0;
+}
+
+div#commentpreviewplace+p:before {
+    content: 'Добавить новый комментарий';
+    font-size: 13px;
+}
+
+.prevsibling.col-md-6,
+.nextsibling.text-right.col-md-6 {
+    padding: 0px;
+}
+
+.postsiblings {
+    margin-top: 20px;
+    display: block;
+}
+
+.postsiblings.row:before {
+    content: 'Обратите внимание на:';
+    font-size: 10px;
+    display: block;
+}
+
+.nextsibling.text-right.col-md-6 {
+    text-align: left !important;
+}
+
+i.fas.fa-step-backward,i.fas.fa-step-forward {
+    display: none;
+}
+
+.postsiblings.row {
+    line-height: 1.2;
+}
+
+.postsiblings.row a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.comment-box {
+    margin-top: -20px;
+}
+
+.comment-box h2 {
+    font-size: 12px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+
+.comment-box__message-partial.comment-content {
+    font-size: 0;
+}
+
+span.lfd_action {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+.text-center+div {
+    color: #666666 !important;
+}
+
+.post-content h1 {
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 200%;
+}
+
+
+
+
+H2,H3,P,TD,DIV{font-size:75%;font-family:Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;font-size: 12px;}
+.tit{font-size:1.5em;margin:0px;padding:0px;color:#003366}
+H5{font-size:1.2em;margin:0px;padding:0px;color:#003366}
+A:hover{color:#990000}
+A:visited{color:#811C90}
+A{color:#0048AB}
+LI{margin-top:3px}
+img{border:0;} /* Removing the border prevents a border from appearing around images wrapped in links in IE. */
+.t2{font-size:70%;color:#FFFFFF;font-weight:bold}
+.t4{font-size:125%;color:#000000;font-weight:bold}
+.gr{font-size:85%;color:#666666}
+.cmt{font-size:95%;color:#666666}
+.lnk2{font-size:150%}
+.lnk3{font-size:125%}
+.bot{font-size:70%;color:#666666}
+
+
+
+
+.sign {
+    font-size: 85%;
+    color: #666666;
+    text-align: center;
+    margin-top: 0;
+    padding: 0 2px;
+}
+
+span.readertime {
+    font-size: 75%;
+    color: #666666;
+}
+
+[style="display: flex; justify-content: space-between;"] * {
+    font-size: 10px;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+
+
+/*ленивое МЕДИЯ*/
+
+
+@media (max-width: 1024px) {
+.pc-menu {
+    padding: 10px;
+}
+
+.pc-menu ul {
+    padding: 0px !important;
+    margin-left: 30px;
+}
+
+a.navbar-brand {
+    width: 180px;
+}
+}
+
+
+/*======768=========*/
+
+
+@media (max-width: 768px) {
+
+div#app {
+    padding: 5px;
+}
+
+.avatar-select-list {
+    width: 80px;
+}
+
+img.avatar-select-label {
+    width: 65px;
+}
+.left-menu {
+    width: 35%;
+}
+
+.mobile_open_menu {
+    text-align: center;
+}
+body.bodybg {
+    padding: unset;
+}
+a.navbar-brand {
+    width: 95px;
+}
+span.pagination-goto {
+    display: none;
+}
+.post-opt.col-12.col-md-6.text-right a:after {
+    display: block;
+}
+
+
+[name="posttitle"]+br+br+p+div {
+    all: unset;
+}
+
+.tag_bar {
+    all: unset;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: fit-content;
+}
+
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100% !important;
+}
+
+
+.container-fluid .row .col-md-4,
+.container-fluid .row .col-md-4+.col-md-4,
+.container-fluid .row .col-md-4+.col-md-4+.col-md-4,
+.container-fluid.mt-5 .row .col-md-4,
+.container-fluid.mt-5 .row .col-md-4+.col-md-4+.col-md-4,
+.row .col-md-4+.col-md-4+.col-md-4 div {
+    margin-left: unset;
+}
+
+span.emj-dropdown {
+    all: unset;
+}
+form.messageform .container-fluid {
+    width: 100%;
+}
+
+.form__show-avatars {
+    color: #0048ab;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form.messageform textarea {
+    margin-bottom: 0px;
+}
+
+[onmouseover="getQuote()"] {
+    font-size: 0 !important;
+}
+
+[onmouseover="getQuote()"]:before {
+    content: 'Qe';
+    font-size: 16px;
+}
+
+form.messageform:after, .comment-box+.textareabg:after {
+    content: 'Пожалуйста, относитесь к собеседникам уважительно.';
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+}
+div#commentpreviewplace+p {
+    margin-bottom: 5px;
+}
+}
+
+
+/*=======700=========*/
+
+@media (max-width: 700px) {.left-menu {
+    width: 100%;
+}
+
+.mobile_open_menu {
+    text-align: center;
+}
+body.bodybg {
+    padding: unset;
+}
+a.navbar-brand {
+    width: 95px;
+}
+span.pagination-goto {
+    display: none;
+}
+.post-opt.col-12.col-md-6.text-right a:after {
+    display: block;
+}
+.post-avatar img {
+    max-width: 70px;
+}
+
+[name="posttitle"]+br+br+p+div {
+    all: unset;
+}
+
+.tag_bar {
+    all: unset;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100% !important;
+}
+
+
+.container-fluid .row .col-md-4,
+.container-fluid .row .col-md-4+.col-md-4,
+.container-fluid .row .col-md-4+.col-md-4+.col-md-4,
+.container-fluid.mt-5 .row .col-md-4,
+.container-fluid.mt-5 .row .col-md-4+.col-md-4+.col-md-4,
+.row .col-md-4+.col-md-4+.col-md-4 div {
+    margin-left: unset;
+}
+
+span.emj-dropdown {
+    all: unset;
+}
+form.messageform .container-fluid {
+    width: 100%;
+}
+
+.form__show-avatars {
+    color: #0048ab;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form.messageform textarea {
+    margin-bottom: 0px;
+}
+
+[onmouseover="getQuote()"] {
+    font-size: 0 !important;
+}
+
+[onmouseover="getQuote()"]:before {
+    content: 'Qe';
+    font-size: 16px;
+}
+
+form.messageform:after, .comment-box+.textareabg:after {
+    content: 'Пожалуйста, относитесь к собеседникам уважительно.';
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+}
+div#commentpreviewplace+p {
+    margin-bottom: 5px;
+}
+.content {
+    padding: 0px;
+}
+.avatar-select-list {
+    width: 100%;
+    height: 100px;
+}
+}
+
+/*UPD*/
+
+b, strong {
+    font-weight: bold;
+}
+
+.post-text span {
+    font-size: 11px;
+}
+
+div#preview-area+form#messageform input[type="hidden"]+p+[name="posttitle"] {
+    margin: 0px;
+    width: 100%;
+}
+
+div#preview-area+form#messageform {
+    background: #e7e7e7;
+    padding: 3px;
+    position: relative;
+}
+
+form#messageform input[type="hidden"]+p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+[src^="//beon.fun/i/smiles/"] {
+    margin-top: -4px;
+}
+
+.tag_bar {
+    margin-top: -48px;
+}
+
+.fa-smile-wink:before {
+    font-size: 15px;
+}
+
+i.far.fa-smile-wink {
+    margin-left: -6px;
+}
+
+div#collapseStickerpaks {
+    margin-bottom: 35px;
+}
+
+div#collapseStickerpaks {
+    margin-bottom: 35px;
+    width: 500px;
+}
+
+.modal-header {
+    padding: 0px;
+    padding-left: 6px;
+}
+
+.modal-content * {
+    font-size: 12px !important;
+}
+.modal-content {
+    border-radius: 0px;
+}
+
+.modal-header {
+    background: #f57a28;
+    border-radius: unset;
+    padding: 10px;
+}
+
+.modal-body a {
+    text-decoration: underline;
+    font-size: 11px !important;
+}
+
+h5.modal-title {
+    color: white;
+    font-weight: bold;
+}
+
+button.btn.btn-secondary, button.btn.btn-primary {
+    background: #efefef;
+    border-image: initial;
+    border-width: 2px;
+    border-style: outset;
+    border: 1px outset #767676;
+    font-size: 13px;
+    border-radius: 3px;
+    line-height: 1.4;
+    padding: 0px;
+    color: #000;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #f9f9f9;
+    color: #565656;
+    border-color: #7e7e7e;
+    box-shadow: unset;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: unset;
+}
+
+button.btn.btn-secondary:hover,
+button.btn.btn-primary:hover,
+input[type="submit"]:hover,
+input#submitpreview:hover {
+    background: #e5e5e5;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: auto;
+}
+
+.content h1 {
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.post-content h1 {
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
