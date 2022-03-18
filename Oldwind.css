@@ -1143,3 +1143,8 @@ button#upload-confirm-button,button.btn.btn-secondary,button.btn.btn-primary {
     padding-right: 15px;
     color: #646464;
 }
+
+.comment-content {
+    border: 1px inset;
+    padding: 5px;
+}
