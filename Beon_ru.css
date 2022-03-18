@@ -1605,3 +1605,7 @@ div#beon-fnplayer div {
     text-decoration: underline;
     background-size: 16px;
 }
+
+.comment-text a {
+    line-height: 1.4;
+}
