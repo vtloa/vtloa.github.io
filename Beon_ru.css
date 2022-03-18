@@ -1598,3 +1598,10 @@ div#beon-fnplayer div {
     padding-left: 18px;
     text-decoration: underline;
 }
+
+.comment-text [href*="caracal.club"] {
+    background: url(https://caracal.club/img/favicon32.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+    background-size: 16px;
+}
