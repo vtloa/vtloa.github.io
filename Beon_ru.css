@@ -204,6 +204,8 @@ a.navbar-brand {
     text-align: center;
     font-weight: unset;
     font-size: 18px;
+    height: 75px;
+    padding-top: 14px;
 }
 
 .post-content.blog_total_counter {
