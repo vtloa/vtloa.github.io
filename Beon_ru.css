@@ -1212,7 +1212,7 @@ a.navbar-brand {
     width: 180px;
 }
 [src="//beon.fun/i/design-off.png"] {
-    position: unset;
+    position: unset !important;
 }
 }
 
@@ -1326,7 +1326,7 @@ i.far.fa-smile-wink {
     margin-left: 0px !important;
 }
 [src="//beon.fun/i/design-off.png"] {
-    position: unset;
+    position: unset !important;
 }
 }
 
@@ -1434,7 +1434,7 @@ i.far.fa-smile-wink {
     margin-left: 0px !important;
 }
 [src="//beon.fun/i/design-off.png"] {
-    position: unset;
+    position: unset !important;
 }
 }
 
