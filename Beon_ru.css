@@ -1685,3 +1685,11 @@ h3.left-menu-text {
 div#commentpreviewplace .comment-text {
     white-space: pre-wrap;
 }
+
+i.fas.fa-heart {
+    opacity: 0;
+}
+
+.comment-row:hover i.fas.fa-heart {
+    opacity: 1;
+}
