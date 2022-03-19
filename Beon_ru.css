@@ -1211,6 +1211,9 @@ span.readertime {
 a.navbar-brand {
     width: 180px;
 }
+[src="//beon.fun/i/design-off.png"] {
+    position: unset;
+}
 }
 
 
@@ -1322,6 +1325,9 @@ div#commentpreviewplace+p {
 i.far.fa-smile-wink {
     margin-left: 0px !important;
 }
+[src="//beon.fun/i/design-off.png"] {
+    position: unset;
+}
 }
 
 
@@ -1426,6 +1432,9 @@ div#commentpreviewplace+p {
 }
 i.far.fa-smile-wink {
     margin-left: 0px !important;
+}
+[src="//beon.fun/i/design-off.png"] {
+    position: unset;
 }
 }
 
