@@ -60,3 +60,10 @@ a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
     margin: 0px;
 }
 }
+
+/*UPD*/
+
+.blog__about+div p.left-menu-text a:before, .blog__about+div+div a:before {
+    content: url(https://attractor.beon.fun/i/user.png);
+    margin-right: 1px;
+}
