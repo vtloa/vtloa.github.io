@@ -1649,6 +1649,8 @@ a.readertime {
     background-size: 16px;
 }
 
-.left-menu span.post-opt {
+.left-menu span.post-opt,
+.blog__about .left-menu-text,
+.blog__about div{
     color: #666666;
 }
