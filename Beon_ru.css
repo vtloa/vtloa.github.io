@@ -1622,3 +1622,7 @@ a.readertime {
     padding-right: 3px !important;
 }
 
+.post-text a {
+    text-decoration: underline;
+}
+
