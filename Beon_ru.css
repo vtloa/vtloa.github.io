@@ -126,6 +126,8 @@ h3.left-menu-text {
     margin-top: 50px !important;
     border-color: rgb(221, 221, 221);
     font-size: 12px;
+    padding-left: 0;
+    background-clip: content-box;
 }
 
 nav.navbar {
