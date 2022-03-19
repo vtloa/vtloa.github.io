@@ -1680,3 +1680,13 @@ span.repostbutton {
     margin-top: 0px;
     padding-left: 10px;
 }
+
+
+div#commentpreviewplace .comment-text {
+    white-space: pre-wrap;
+}
+
+i.fas.fa-heart {
+    margin-top: 2px;
+    margin-left: -45px;
+}
