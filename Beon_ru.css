@@ -1669,7 +1669,7 @@ h3.left-menu-text {
     padding-bottom: 15px;
 }
 
-.comment-content .post-opt {
+.comment-content .post-opt,.comment-text+div {
     position: sticky;
     top: 100%;
     margin-bottom: -15px !important;
