@@ -1686,7 +1686,7 @@ div#commentpreviewplace .comment-text {
     white-space: pre-wrap;
 }
 
-i.fas.fa-heart {
+.comment-row i.fas.fa-heart {
     opacity: 0;
 }
 
