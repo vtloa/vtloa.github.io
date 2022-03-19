@@ -1660,3 +1660,7 @@ a.readertime {
 h3.left-menu-text {
     color: white !important;
 }
+
+.post-content,.comment-content {
+    padding-left: 1px;
+}
