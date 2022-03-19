@@ -67,3 +67,13 @@ a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
     content: url(https://attractor.beon.fun/i/user.png);
     margin-right: 1px;
 }
+
+.blog__about+div+div div.left-menu-text {
+    font-size: 0;
+    line-height: 1;
+}
+
+.blog__about+div+div a {
+    display: block;
+    font-size: 12px;
+}
