@@ -1665,7 +1665,12 @@ h3.left-menu-text {
     padding-left: 2px;
 }
 
+.comment-row {
+    padding-bottom: 15px;
+}
+
 .comment-content .post-opt {
     position: sticky;
     top: 100%;
+    margin-bottom: -15px !important;
 }
