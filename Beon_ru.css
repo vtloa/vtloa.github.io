@@ -1640,3 +1640,10 @@ a.readertime {
     margin-top: 10px !important;
 }
 
+[href*="www.pinterest.ru"] {
+    background: url(https://i.ibb.co/bddSJf8/5.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+    background-size: 16px;
+}
+
