@@ -1656,3 +1656,7 @@ a.readertime {
 .blog__about div{
     color: #666666;
 }
+
+h3.left-menu-text {
+    color: white !important;
+}
