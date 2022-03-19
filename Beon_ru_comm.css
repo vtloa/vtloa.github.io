@@ -78,3 +78,7 @@ a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
     display: block;
     font-size: 12px;
 }
+
+.blog__about [href^="//beon.fun/communities/"] {
+    text-decoration: underline;
+}
