@@ -1674,3 +1674,9 @@ h3.left-menu-text {
     top: 100%;
     margin-bottom: -15px !important;
 }
+
+span.repostbutton {
+    float: left;
+    margin-top: 0px;
+    padding-left: 10px;
+}
