@@ -1,0 +1,62 @@
+@import url('https://vtloa.github.io/Beon_ru.css');
+.container-fluid.mt-5+br+br+p+input {
+    display: unset;
+    width: unset;
+    margin-left: 75px;
+}
+
+.container-fluid.mt-5+br+br+p:before {
+    content: 'Категории:';
+    font-size: 13px;
+}
+
+.container-fluid.mt-5 .row .col-md-4+.col-md-4 {
+    margin-left: -84px;
+}
+
+
+.blog__about+div p.left-menu-text {
+    padding-left: 5px;
+}
+
+.blog__about+div p.left-menu-text a:before,
+.blog__about+div+div a:before {
+    content: url(/i/user.png);
+    margin-right: 1px;
+}
+
+.blog__about h3.left-menu-text {
+    background-color: #990000 !important;
+}
+
+.blog__about+div h3.left-menu-text {
+    background-color: #f57a28 !important;
+}
+
+.blog__about+div+div h3.left-menu-text {
+    background: #76ae31 !important;
+}
+
+.blog__about p.left-menu-text {
+    padding-left: 5px;
+    line-height: 2.3;
+}
+
+a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
+    line-height: 2.3;
+    text-decoration: underline;
+}
+
+/*ленивое МЕДИА*/
+
+@media (max-width: 768px) {
+.container-fluid.mt-5 .row .col-md-4+.col-md-4 {
+    margin: 0px;
+}
+}
+
+@media (max-width: 700px) {
+.container-fluid.mt-5 .row .col-md-4+.col-md-4 {
+    margin: 0px;
+}
+}
