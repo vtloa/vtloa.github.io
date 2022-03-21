@@ -60,6 +60,10 @@
     font-size: 13px;
 }
 
+.comment-content a {
+    text-decoration: underline;
+    font-size: 13px;
+}
 .post-opt a {
     font-size: 10px;
 }
