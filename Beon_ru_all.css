@@ -247,6 +247,6 @@ a.post-title-user:before {
     padding-top: 3px;
 }
 
-[href^="http://beon.fun/tests/"] {
+[style="font-size: 0.7em;"][href^="http://beon.fun/tests/"] {
     background-size: contain !important;
 }
