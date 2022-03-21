@@ -247,7 +247,7 @@ a.post-title-user:before {
     padding-top: 3px;
 }
 
-[style="font-size: 0.7em;"] {
+br+[style="font-size: 0.7em;"] {
     font-size: 13px !important;
     margin-top: 6px !important;
     display: block;
