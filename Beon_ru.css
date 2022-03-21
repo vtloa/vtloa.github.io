@@ -1714,3 +1714,18 @@ div#commentpreviewplace .comment-text {
     position: sticky;
     top: 100%;
 }
+
+/*та самая фигня*/
+
+
+.blog__about:after {
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0— записи''\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0— комментарии''\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0— ленты друзей''\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0— избранное';
+    background: url(https://i.ibb.co/TqRkHWz/rss20-1.gif) no-repeat top 3px left, url(https://i.ibb.co/nRRkRp4/atom03-1.gif) no-repeat top 3px left 50px,url(https://i.ibb.co/TqRkHWz/rss20-1.gif) no-repeat top 18px left, url(https://i.ibb.co/nRRkRp4/atom03-1.gif) no-repeat top 18px left 50px,url(https://i.ibb.co/r2f1vZF/opml11.gif) no-repeat left top 32px,url(https://i.ibb.co/r2f1vZF/opml11.gif) no-repeat left top 46px;
+    display: block;
+    width: 210px;
+    height: 60px;
+    color: black;
+    white-space: pre-wrap;
+    line-height: 1.2;
+    margin-left: 5px;
+}
