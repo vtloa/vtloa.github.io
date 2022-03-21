@@ -1,0 +1,239 @@
+@import url('https://vtloa.github.io/Beon_ru.css');
+.col-md-12 h2 {
+    font-weight: bold;
+    margin-bottom: 45px;
+    text-align: right;
+}
+
+.d-flex [style="font-size: 180%; font-weight: bold;"]+span.d-flex.flex-column {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.d-flex [style="font-size: 180%; font-weight: bold;"]+span.d-flex.flex-column a img {
+    display: none;
+}
+
+span.d-flex.flex-column a+div+a img,
+span.d-flex.flex-column a+div+div+a img{
+    display: unset !important;
+}
+
+.d-flex [style="font-size: 180%; font-weight: bold;"] {
+    font-size: 25px !important;
+    position: absolute;
+}
+
+.d-flex [style="font-size: 180%; font-weight: bold;"]+span.d-flex.flex-column [href^="//beon.fun/users/"]+div+.sign+a,
+.d-flex [style="font-size: 180%; font-weight: bold;"]+span.d-flex.flex-column a+div+a{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.d-flex [style="font-size: 180%; font-weight: bold;"]+span.d-flex.flex-column [href^="//beon.fun/users/"]+div+.sign {
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.d-flex [style="font-size: 180%; font-weight: bold;"]+span.d-flex.flex-column a {
+    margin-left: 25px;
+}
+.left-menu {
+    line-height: normal;
+}
+
+span.d-flex.flex-column a+div img {
+    margin-top: 5px;
+}
+
+p.left-menu-text {
+    padding-left: 5px;
+    padding-bottom: 10px !important;
+}
+
+.left-menu-text [href="/rating"] {
+    font-size: 24px;
+}
+
+a.navbar-brand {
+    background: url(https://i.ibb.co/3fcDC1K/logo-new.png) no-repeat center;
+    width: 200px;
+    color: transparent !important;
+}
+
+span.post-title-date+a:before {
+    display: none;
+}
+
+span.post-title-date+a {
+    font-size: unset;
+}
+
+.col-md-12 {
+    padding: 0px;
+}
+
+.post-opt span {
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+.container-fluid p {
+    white-space: unset;
+}
+
+.pc-menu [href$=".beon.fun/friends-posts/"]:after {
+    content: 'new!';
+    color: #CC3300;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+h3.left-menu-text {
+    border-radius: 2px;
+}
+
+.left-menu .sign {
+    margin-bottom: 10px;
+}
+
+h3.left-menu-text a {
+    text-decoration: unset;
+}
+h3.left-menu-text {
+    font-size: 11px !important;
+}
+
+[style="margin-bottom: 0px;"] h3.left-menu-text {
+    margin: 0px !important;
+}
+
+[style="background-color: rgb(25, 107, 255);"] {
+    background: #76ae31 !important;
+}
+
+/*в профиле*/
+
+.container-fluid.user-profile-page,.col-12.col-md-6 {
+    padding: 0px;
+}
+
+
+/*в дискуссиях*/
+
+.post-content+h2,div#commentpreviewplace+div {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.crumbs {
+    min-height: 37px;
+}
+
+[style="margin: 5px;"] [href="/discussions/unread"] {
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+[style="margin-bottom: 25px;"] h5 {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*кто где когда*/
+
+.content p {
+    margin-bottom: 0;
+}
+
+.content [style="margin: 5px;"],.content [style="margin-left: 5px;"] {
+    margin: 0px !important;
+}
+
+[data-target="#unsubscribemodal"] {
+    font-size: 11px !important;
+    color: #0048ab !important;
+}
+
+/*тесты*/
+
+[href="/tests/create"],[href="/tests/my"],
+[href="/polls/add"],[href="/polls/my"] {
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.alert.alert-success+div+div+h2 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h4.font-weight-bold {
+    font-size: 12px;
+}
+
+
+h2+div {
+    padding: 0px !important;
+}
+
+.container-fluid [href^="/tests/"],
+.mb-3 [href^="/polls/"]{
+    text-decoration: underline;
+}
+
+.small {
+    color: #666666;
+    padding-left: 10px;
+}
+
+.small a.user {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.content p [href^="//beon.fun/users/"] {
+    margin-right: 40px;
+    width: 200px;
+    height: 16px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/*отдельные форумы*/
+
+a.post-title-user {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+a.post-title-user:before {
+    content: url(/i/user.png);
+    margin-right: 1px;
+}
+
+.content p [href^="//beon.fun/users/"] {
+    display: unset;
+    margin: unset;
+}
+
+input[type="text"]+br+br+p {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+form br {
+    display: none;
+}
+
+input[type="hidden"]+p {
+    font-weight: bold;
+}
