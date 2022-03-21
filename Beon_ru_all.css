@@ -215,10 +215,7 @@ a.post-title-user {
     text-decoration: underline;
 }
 
-a.post-title-user:before {
-    content: url(/i/user.png);
-    margin-right: 1px;
-}
+
 
 .content p [href^="//beon.fun/users/"] {
     display: unset;
@@ -240,4 +237,8 @@ input[type="hidden"]+p {
 
 .comment-box span.post-title-date+a {
     font-size: 0;
+}
+
+a.post-title-user:before {
+    content: url(https://princess.beon.fun/i/user.png);
 }
