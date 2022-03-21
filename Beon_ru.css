@@ -1709,3 +1709,8 @@ div#commentpreviewplace .comment-text {
 [style="font-size: 1.6rem;"] p {
     font-size: 22px !important;
 }
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+}
