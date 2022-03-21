@@ -1737,3 +1737,9 @@ div#commentpreviewplace .comment-text {
     padding-left: 18px;
     text-decoration: underline;
 }
+
+.post-opt [href$="read"] {
+    background: unset;
+    padding-left: unset;
+    text-decoration: underline;
+}
