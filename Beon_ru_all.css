@@ -246,3 +246,9 @@ a.post-title-user:before {
 .post-text a {
     padding-top: 3px;
 }
+
+[style="font-size: 0.7em;"] {
+    font-size: 13px !important;
+    margin-top: 6px !important;
+    display: block;
+}
