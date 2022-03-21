@@ -50,6 +50,11 @@
     margin-left: unset;
 }
 
+.info_header {
+    padding: 0px;
+    padding-left: 2px;
+}
+
 @media (max-width: 700px) {
 .col-12.col-md-6 .info_container {
     margin: 0px;
