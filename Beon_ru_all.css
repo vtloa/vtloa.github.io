@@ -237,3 +237,7 @@ form br {
 input[type="hidden"]+p {
     font-weight: bold;
 }
+
+.comment-box span.post-title-date+a {
+    font-size: 0;
+}
