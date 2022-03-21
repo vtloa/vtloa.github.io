@@ -1729,3 +1729,11 @@ div#commentpreviewplace .comment-text {
     line-height: 1.2;
     margin-left: 5px;
 }
+
+
+
+.post-text [href$="read"] {
+    background: url(https://i1.beon.fun/21/15/1521/0/143700/beon1.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+}
