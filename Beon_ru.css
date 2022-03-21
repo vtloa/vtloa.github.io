@@ -1703,3 +1703,9 @@ div#commentpreviewplace .comment-text {
 .comment-row:hover i.fas.fa-heart {
     opacity: 1;
 }
+
+/*UPD*/
+
+[style="font-size: 1.6rem;"] p {
+    font-size: 22px !important;
+}
