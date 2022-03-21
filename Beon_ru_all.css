@@ -61,7 +61,7 @@ a.navbar-brand {
     color: transparent !important;
 }
 
-span.post-title-date+a:before {
+.post-content span.post-title-date+a:before {
     display: none;
 }
 
