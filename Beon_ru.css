@@ -1730,16 +1730,3 @@ div#commentpreviewplace .comment-text {
     margin-left: 5px;
 }
 
-
-
-.post-text [href$="read"] {
-    background: url(https://i1.beon.fun/21/15/1521/0/143700/beon1.png) no-repeat left;
-    padding-left: 18px;
-    text-decoration: underline;
-}
-
-.post-opt [href$="read"] {
-    background: unset;
-    padding-left: unset;
-    text-decoration: underline;
-}
