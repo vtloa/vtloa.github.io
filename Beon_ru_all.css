@@ -250,3 +250,7 @@ a.post-title-user:before {
 [style="font-size: 0.7em;"][href^="http://beon.fun/tests/"] {
     background-size: contain !important;
 }
+
+.content h1+div+.post-content {
+    min-height: 100px;
+}
