@@ -495,3 +495,11 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 [href="//beon.fun/communities"] {
     margin-right: 5px !important;
 }
+
+form.messageform br {
+    display: none;
+}
+
+form.messageform .container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
