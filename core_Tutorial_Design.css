@@ -487,3 +487,11 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 }
 
 @font-face { font-family: 'FranckerCYR-CondensedLight';  src: local('FranckerCYR-CondensedLight'), url('https://nomail.com.ua/files/woff/c32626ba379322d73d001cfd9a9bf1ba.woff') format('woff'); }
+
+
+
+/*UPD*/
+
+[href="//beon.fun/communities"] {
+    margin-right: 5px !important;
+}
