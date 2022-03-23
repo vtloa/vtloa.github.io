@@ -442,6 +442,12 @@ nav.navbar {
     font-size: 20px;
     padding: 2px;
 }
+.post-content {
+    padding: 0px;
+}
+.post-content {
+    min-height: auto;
+}
 }
 
 
