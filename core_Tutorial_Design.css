@@ -519,3 +519,7 @@ form.messageform br {
 form.messageform .container-fluid.mt-5 {
     margin-top: 0px !important;
 }
+
+form.messageform {
+    padding: 5px;
+}
