@@ -492,6 +492,19 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 
 /*UPD*/
 
+.crumbs:after {
+    content: 'css.beon.fun';
+    display: block;
+    font-size: 11px;
+}
+
+nav.navbar+.crumbs:after {
+    display: none;
+}
+
+
+/*водичка*/
+
 [href="//beon.fun/communities"] {
     margin-right: 5px !important;
 }
