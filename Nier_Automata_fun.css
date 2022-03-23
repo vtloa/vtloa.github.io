@@ -1322,3 +1322,14 @@ ul.navbar-nav.ml-auto:before {
 }
 
 
+div#app+div+[style="text-align: center"]:before {
+    content: 'css.beon.fun';
+    font-size: 17px;
+    display: block;
+    line-height: 1;
+    color: #4e4e4e !important;
+    text-shadow: 3px 3px #0000002b;
+    font-weight: bold;
+    font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
+    letter-spacing: 3px;
+}
