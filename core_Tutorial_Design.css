@@ -1,3 +1,18 @@
+/*vtloa*/
+
+.crumbs:after {
+    content: 'css.beon.fun';
+    display: block;
+    font-size: 11px;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+}
+
+nav.navbar+.crumbs:after {
+    display: none;
+}
+
 
 /*======FIX========*/
 
@@ -445,6 +460,9 @@ nav.navbar {
 .post-content {
     min-height: auto;
 }
+.crumbs:after {
+    position: unset;
+}
 }
 
 
@@ -495,15 +513,6 @@ font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
 
 /*UPD*/
 
-.crumbs:after {
-    content: 'css.beon.fun';
-    display: block;
-    font-size: 11px;
-}
-
-nav.navbar+.crumbs:after {
-    display: none;
-}
 
 
 /*водичка*/
