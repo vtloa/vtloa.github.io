@@ -1335,9 +1335,11 @@ div#app+div+[style="text-align: center"]:before {
     font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
     letter-spacing: 3px;
 }
+
 div#app+div+[style="text-align: center"] a {
     color: #a95a34;
 }
+
 div#app+div+[style="text-align: center"] {
     font-size: 13px;
     display: block;
@@ -1347,4 +1349,17 @@ div#app+div+[style="text-align: center"] {
     font-weight: bold;
     font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
     letter-spacing: 3px;
+}
+
+
+form.messageform br {
+    display: none;
+}
+
+form.messageform .col-md-4 p {
+    margin-bottom: 0px;
+}
+
+form.messageform select {
+    background: #d3cfba;
 }
