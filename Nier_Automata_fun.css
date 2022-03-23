@@ -1267,8 +1267,7 @@ a.navbar-brand {
     margin-bottom: 5px;
 }
 .post-avatar img {
-    max-width: 62px;
-    object-fit: none;
+    max-width: 80px;
 }
 
 .post-avatar {
