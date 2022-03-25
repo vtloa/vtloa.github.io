@@ -1,0 +1,92 @@
+.textarea-wrapper {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+
+.comment-content:nth-child(odd) .comment-text:after {
+    content: 'uWu';
+}
+
+.comment-content:nth-child(2+2) .comment-text:after{
+    content: '*boops your nose*';
+}
+.comment-content:nth-child(even) .comment-text:after {
+    content: '^_^';
+}
+.comment-content:nth-child(5n-2) .comment-text:after {
+    content: ':3';
+}
+.comment-content:nth-child(5n-3) .comment-text:after {
+    content: '*walks away*';
+}
+
+.comment-content:nth-child(10) .comment-text:after {
+    content: 'owo';
+}
+.comment-content:nth-child(100n-10) .comment-text:after {
+    content: '*cries*';
+}
+.comment-content:nth-child(100n-15) .comment-text:after {
+    content: '*uWu*';
+}
+.comment-content:nth-child(100n-20) .comment-text:after {
+    content: '^_^';
+}
+
+.comment-content:nth-child(100n-22) .comment-text:after {
+    content: '!!?';
+}
+
+.comment-content:nth-child(100n-25) .comment-text:after {
+    content: '*hugs*';
+}
+
+.comment-content:nth-child(100n-5) .comment-text:after {
+    content: '*screams*';
+}
+
+.comment-content:nth-child(100n-34) .comment-text:after {
+    content: '*walks away*';
+}
+
+.comment-content:nth-child(3n+2) .comment-text:after {
+    content: 'OwO';
+}
+
+.comment-content:nth-child(10n+10) .comment-text:after,.comment-content:nth-child(10n-10) .comment-text:after,
+.comment-content:nth-child(30n-10) .comment-text:after,.comment-content:nth-child(11n+3) .comment-text:after,
+.comment-content:nth-child(40n-5) .comment-text:after,.comment-content:nth-child(11n+7) .comment-text:after,
+.comment-content:nth-child(90n-2n) .comment-text:after,.comment-content:nth-child(12n+8) .comment-text:after {
+    content: '*twerk*';
+}
+
+.comment-content:nth-child(5) .comment-text:after,.comment-content:nth-child(12) .comment-text:after,
+.comment-content:nth-child(19) .comment-text:after,.comment-content:nth-child(23) .comment-text:after,
+.comment-content:nth-child(40) .comment-text:after,.comment-content:nth-child(50) .comment-text:after,
+.comment-content:nth-child(51) .comment-text:after,.comment-content:nth-child(56) .comment-text:after {
+    content: '!?!?!?!??!?';
+}
+
+.comment-content:nth-child(28) .comment-text:after,.comment-content:nth-child(42) .comment-text:after,
+.comment-content:nth-child(38) .comment-text:after,.comment-content:nth-child(71) .comment-text:after,
+.comment-content:nth-child(111) .comment-text:after,.comment-content:nth-child(116) .comment-text:after,
+.comment-content:nth-child(135) .comment-text:after,.comment-content:nth-child(209) .comment-text:after, {
+    content: '*huggles tightly*';
+}
+
+.comment-content:nth-child(10) .comment-text:after,.comment-content:nth-child(25) .comment-text:after,
+.comment-content:nth-child(27) .comment-text:after,.comment-content:nth-child(32) .comment-text:after,
+.comment-content:nth-child(40) .comment-text:after,.comment-content:nth-child(52) .comment-text:after,
+.comment-content:nth-child(54) .comment-text:after,.comment-content:nth-child(56) .comment-text:after,
+.comment-content:nth-child(58) .comment-text:after,.comment-content:nth-child(64) .comment-text:after,
+.comment-content:nth-child(70) .comment-text:after,.comment-content:nth-child(78) .comment-text:after,
+.comment-content:nth-child(79) .comment-text:after,.comment-content:nth-child(90) .comment-text:after,
+.comment-content:nth-child(92) .comment-text:after,.comment-content:nth-child(120) .comment-text:after,
+.comment-content:nth-child(125) .comment-text:after,.comment-content:nth-child(132) .comment-text:after,
+.comment-content:nth-child(140) .comment-text:after,.comment-content:nth-child(160) .comment-text:after,
+.comment-content:nth-child(170) .comment-text:after,.comment-content:nth-child(172) .comment-text:after,
+.comment-content:nth-child(179) .comment-text:after,.comment-content:nth-child(187) .comment-text:after,
+.comment-content:nth-child(200) .comment-text:after,.comment-content:nth-child(209) .comment-text:after {
+    content: '*huggles tightly*';
+}
