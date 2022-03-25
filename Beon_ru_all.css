@@ -252,6 +252,6 @@ a.post-title-user:before {
 }
 
 .content h1+div+.post-content {
-    min-height: 100px;
+    min-height: 162px;
 }
 
