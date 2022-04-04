@@ -532,3 +532,8 @@ form.messageform .container-fluid.mt-5 {
 form.messageform {
     padding: 5px;
 }
+
+div#footer {
+    display: unset;
+    font-size: 0;
+}
