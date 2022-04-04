@@ -653,7 +653,7 @@ span.post-title-date {
 }
 
 div#footer {
-    display: none;
+    font-size: 0;
 }
 
 script+div {
