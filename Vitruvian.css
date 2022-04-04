@@ -980,3 +980,7 @@ ul.menu__box {
 /*UPD*/
 
 
+div#footer {
+    display: unset;
+    font-size: 0;
+}
