@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*font-family: 'Press Start 2P', cursive;*/
+
+/*=======================================*/
+
 @font-face {
 font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
     
@@ -9,14 +15,6 @@ font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
 @font-face { font-family: 'CyrBit';  src: local('CyrBit'), url('https://nomail.com.ua/files/woff/e0f6aef26259bb8a593fd9ae21df9c28.woff') format('woff'); }
 
 /*========================================*/
-
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-/*font-family: 'Press Start 2P', cursive;*/
-
-
-
-/*=======================================*/
 
 * {
     line-height: 1;
