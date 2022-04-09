@@ -10,6 +10,14 @@ font-family: 'fonte0f6aef26259bb8a593fd9ae21df9c28';
 
 /*========================================*/
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*font-family: 'Press Start 2P', cursive;*/
+
+
+
+/*=======================================*/
+
 * {
     line-height: 1;
 }
@@ -1155,4 +1163,104 @@ button#upload-confirm-button,button.btn.btn-secondary,button.btn.btn-primary {
 
 .user:before {
     display: none;
+}
+
+
+
+/*UPD*/
+* {line-height: unset;}
+
+* {font-family: 'Press Start 2P', cursive;}
+
+.pc-menu a, .pc-menu [href="//im.beon.fun"]:before, .pc-menu [href="//beon.fun/random"]:before, .pc-menu [href$=".beon.fun/preview"]:before, .pc-menu [href="//beon.fun/p"]:before {
+    font-size: 7px;
+    text-transform: uppercase;
+    line-height: 7px;
+}
+
+
+
+.crumbs:before,.crumbs span,.crumbs [href="/"] span:first-child:after,
+.comment-box h2, .comment-box__message-partial.comment-content,
+.left-menu *, .content,.comment-text, .post-text,p.quotation {
+    font-size: 9px;
+}
+
+.bg-white:after,.post-opt {
+    font-size: 8px;
+}
+
+.left-menu *, .content {
+    line-height: 1.6;
+}
+
+h3.left-menu-text {
+    font-size: 11px;
+}
+
+a.user.post-title-user {
+    font-size: 10px;
+}
+
+.datebg {
+    font-size: 12px;
+}
+
+.pagination {
+    font-size: 9px;
+}
+
+
+
+.row.w-100 * {
+    font-size: 9px !important;
+}
+
+.post-text {
+    line-height: 1.4;
+}
+
+span.post-title-date {
+    font-size: 8px;
+}
+
+body.bodybg:before {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+}
+
+.bg-white:before {
+    font-size: 16px;
+    letter-spacing: -2px;
+    line-height: 2;
+}
+
+.pc-menu {
+    top: 33px;
+}
+
+.pc-menu a, input[type="submit"] {
+    font-size: 7px;
+    line-height: 2;
+}
+
+input[type="submit"] {
+    line-height: 2;
+    font-size: 9px;
+}
+
+.blog__last-comments div.left-menu-text {
+    max-height: 15px;
+    overflow: hidden;
+}
+
+.crumbs:before, .crumbs span, .crumbs [href="/"] span:first-child:after {
+    font-size: 13px;
+}
+.crumbs {
+    letter-spacing: -1px;
+}
+
+.comment-text {
+    padding: 5px;
 }
