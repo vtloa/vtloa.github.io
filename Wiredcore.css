@@ -168,10 +168,12 @@ p.left-menu-text {
     width: 155px;
 }
 
-.content,.crumbs,.bg-white {
+.content, .crumbs, .bg-white {
     background-color: #090909;
     background-image: url(https://www.transparenttextures.com/patterns/black-felt.png);
+    background-attachment: fixed;
 }
+
 .crumbs {
     padding: 0px;
     margin: 0px !important;
@@ -448,6 +450,8 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     margin-top: -25px !important;
 }
 
+
+
 p.quotation {
     margin: 0px;
     padding: 0px;
@@ -473,9 +477,7 @@ span.post-title-date+a {
 
 .comment-content {
     min-height: auto;
-    margin-bottom: 85px;
-    border-bottom: 1px solid #1b1b1b;
-    border-top: 1px solid #1b1b1b;
+    margin-bottom: 25px;
 }
 
 .comment-box h2,.comment-box__message-partial.comment-content {
@@ -724,6 +726,14 @@ div#app {
 
 @media (max-width: 700px) {
 
+.comment-content .post-avatar {
+    margin-top: 0px !important;
+}
+
+a.user.post-title-user {
+    margin: 0px !important;
+}
+
 body.bodybg {
     background: url(https://i.ibb.co/xS41H8C/1.jpg) no-repeat center fixed;
     background-size: cover;
@@ -820,4 +830,37 @@ span.lfd_action a:hover {
 .fas, .far, .tag_bar > * {
     font-size: 18px;
     padding: 1px;
+}
+
+.left-menu {
+    background: #1c0e309c;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    margin-top: 5px;
+}
+
+/*UPD*/
+
+.comment-box h2, .comment-box__message-partial.comment-content {
+    background: transparent;
+    color: #404040;
+    border: unset;
+}
+
+.post-content {
+    padding-left: 5px;
+}
+
+.left-menu__user-notification p.left-menu-text {
+    padding: 0px !important;
+    padding-top: 5px !important;
+}
+
+.comment-content {
+    background: url(https://i.ibb.co/HdLBTmN/dcgn1n5-cb540316-46b5-4f7b-af12-c49258e79f1e.gif) no-repeat top right,
+linear-gradient( 64deg , #14162e94, #0c1717) fixed;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0 15px 0 0;
 }
