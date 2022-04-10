@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Poiret+One&family=Rubik+Wet+Paint&display=swap');
 
 * {
-    cursor: url(https://www.cursor.cc/cursor/192/10/cursor.png), progress!important;
+    cursor: url(https://i.ibb.co/HYcV9Y1/cursor.png), progress!important;
 }
 
 
@@ -902,4 +902,13 @@ span.lfd_action a:hover {
 
 .datebg:after {
     filter: hue-rotate( 44deg ) brightness(0.7);
+}
+
+span.crumb-item,span.crumb-item,.crumbs a {
+    color: #339f9a !important;
+    text-shadow: 0 0 9px #49b392;
+}
+
+.content {
+    padding-top: 30px;
 }
