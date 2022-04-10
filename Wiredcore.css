@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Poiret+One&family=Rubik+Wet+Paint&display=swap');
 
+* {
+    cursor: url(https://www.cursor.cc/cursor/192/10/cursor.png), progress!important;
+}
+
 
 /*
 font-family: 'Amatic SC', cursive;
@@ -82,7 +86,7 @@ a.navbar-brand {
 
 ul.menu__box {
     width: 13%;
-    background-color: #2e8f9bed;
+    background-color: #32664bde;
     background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
     overflow: auto;
     padding: 0px;
@@ -357,7 +361,7 @@ i.fas.fa-retweet,i.fas.fa-bookmark,i.fas.fa-trash-alt,i.fas.fa-quote-left {
 /*гифки*/
 
 [src="//beon.fun/i/design-off.png"] {
-    content: url(https://i.ibb.co/X4LLxbg/123.gif);
+    content: url(https://i.ibb.co/Hg5F7bn/red4.gif);
     width: 17px;
 }
 
@@ -372,7 +376,7 @@ i.fas.fa-retweet,i.fas.fa-bookmark,i.fas.fa-trash-alt,i.fas.fa-quote-left {
 }
 
 [src="/i/offline.png"] {
-    content: url(https://i.ibb.co/WWFLCHD/dcnwtqo-5e7beec6-ac73-4b79-b50a-29afee70d2e6.gif);
+    content: url(https://i.ibb.co/swtJbR6/red2.gif);
     width: 15px;
     display: inline-block;
 }
@@ -503,7 +507,7 @@ span.lfd_action a {
 
 .crumbs {
     color: transparent;
-    padding-left: 15px;
+    padding-left: 23px;
 }
 
 .prevsibling.col-md-6 {
@@ -517,10 +521,6 @@ span.lfd_action a {
     font-weight: bold;
 }
 
-.datebg {
-    background: url(https://i.ibb.co/BNVspGY/dclw8fo-907ed2f8-8ef9-4aed-95e2-7b65806fc9d3.gif) no-repeat center;
-    height: 40px;
-}
 
 input[type="text"], textarea {
     background: #141414;
@@ -597,9 +597,7 @@ button.btn.btn-primary {
     font-weight: 100;
 }
 
-.comment-content {
-    background: url(https://i.ibb.co/HdLBTmN/dcgn1n5-cb540316-46b5-4f7b-af12-c49258e79f1e.gif) no-repeat top right;
-}
+
 
 
 /*СКРОЛЛ*/
@@ -822,9 +820,6 @@ span.lfd_action a:hover {
     text-shadow: 0 0 4px #884dbc;
 }
 
-.textareabg {
-    background: url(https://i.ibb.co/z7BtSQV/dcjxznm-f682a3d3-c3ae-4811-bc47-e89706f616f2.gif) no-repeat top left 115px;
-}
 
 
 .fas, .far, .tag_bar > * {
@@ -858,9 +853,53 @@ span.lfd_action a:hover {
 }
 
 .comment-content {
-    background: url(https://i.ibb.co/HdLBTmN/dcgn1n5-cb540316-46b5-4f7b-af12-c49258e79f1e.gif) no-repeat top right,
-linear-gradient( 64deg , #14162e94, #0c1717) fixed;
+    background: linear-gradient( 64deg , #14162e94, #0c1717) fixed;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 0 15px 0 0;
+}
+
+/*red*/
+
+.comment-content {
+    position: relative;
+}
+
+.comment-content:after {
+    content: url(https://i.ibb.co/tzmWQsP/red6.gif);
+    position: absolute;
+    right: 0;
+}
+
+.datebg:after {
+    content: url(https://i.ibb.co/9sHGb3w/red.gif);
+    display: block;
+}
+
+.textareabg div#commentpreviewplace:after {
+    content: url(https://i.ibb.co/2gf0vMh/red5.gif);
+    position: absolute;
+    margin-left: 105px;
+    margin-top: -10px;
+}
+
+
+.datebg:after,[src="/i/offline.png"],[src="//beon.fun/i/design-off.png"],
+[src="//i1.beon.fun/communities/17/172/profile/red3.gif"],
+.comment-content:after,.textareabg div#commentpreviewplace:after {
+    filter: hue-rotate(44deg);
+}
+
+.bg-white+.crumbs {
+    display: block;
+    background: url(https://www.transparenttextures.com/patterns/iron-grip.png),
+    linear-gradient(287deg, #2c7352, #246238,#341b5e);
+}
+
+.left-menu__user-notification h3.left-menu-text {
+    background: #255e3a00 !important;
+}
+
+.datebg:after {
+    filter: hue-rotate( 44deg ) brightness(0.7);
 }
