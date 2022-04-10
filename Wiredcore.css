@@ -815,3 +815,9 @@ span.lfd_action a:hover {
 .textareabg {
     background: url(https://i.ibb.co/z7BtSQV/dcjxznm-f682a3d3-c3ae-4811-bc47-e89706f616f2.gif) no-repeat top left 115px;
 }
+
+
+.fas, .far, .tag_bar > * {
+    font-size: 18px;
+    padding: 1px;
+}
