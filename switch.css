@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+
+/*font-family: 'Bellota', cursive;*/
+
+* {
+    color: #878787 !important;
+}
+
+.bg-white,h3.left-menu-text,[style="text-align: center; font-weight: bold; background-color: aliceblue;"] {
+    background: transparent !important;
+}
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+body.bodybg {
+    background: black;
+}
+
+/*=============*/
+
+
+
+@media (min-width: 1024px) {
+.hamburger-menu {
+    display: block;
+}
+
+label.menu__btn span {
+    display: none;
+}
+
+ul.menu__box * {
+    font-size: 0;
+}
+
+ul.menu__box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background: white;
+}
+
+/*lampa*/
+
+label.menu__btn {
+    content: 'lampa';
+    font-size: 0;
+    background: url(https://i.ibb.co/dpcZBdf/lampa.png) no-repeat center;
+    display: block;
+    width: 71px;
+    height: 250px;
+    position: fixed;
+    right: 0;
+    top: -65px;
+    transition: 0.5s;
+}
+
+label.menu__btn {
+    mix-blend-mode: exclusion;
+}
+
+label.menu__btn:hover {
+    top: -30px;
+    transition: 0.5s;
+}
+}
+
+/*дизайн*/
+
+div#app {
+    width: 75%;
+    margin: auto;
+}
+
+.left-menu>div {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.left-menu {
+    font-size: 13px;
+}
+
+
+.shadow-sm {
+    box-shadow: unset !important;
+    padding: 5px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px;
+}
+
+.left-menu {
+    border: 1px solid #919191 !important;
+}
+
+.left-menu-text input[type="text"], .left-menu-text input[type="submit"] {
+    background: transparent;
+    border: 1px solid;
+    color: #919191 !important;
+}
+
+.left-menu-text input[type="text"] {
+    width: 160px;
+    margin-right: 5px;
+}
+
+h3.left-menu-text {
+    font-size: 17px;
+    padding-top: 7px;
+}
+
+[src="/i/user.png"],
+[src="/i/offline.png"],
+[src="/i/blog.png"],
+.user:before {
+    filter: grayscale(1) brightness(0.7) contrast(1.2);
+}
+
+.post-content, .comment-row {
+    margin: 10px !important;
+    border: 1px solid #919191;
+    padding: 5px;
+}
+
+.comment-row {
+    margin: 0px !important;
+}
+.comment-box,.textareabg {
+    margin: 10px;
+}
+.post-content {
+    margin-top: 0px !important;
+}
+
+.post-content.blog_total_counter {
+    border: unset;
+}
+.post-content.blog_total_counter h2 {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px !important;
+}
+.datebg {
+    padding: 0px;
+    margin: 10px !important;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.textareabg {
+    background: transparent;
+}
+div#beon-fnplayer {
+    background: transparent;
+    border: 1px solid #919191;
+}
+div#fnplayer-slider {
+    background: transparent;
+}
+div#fnplayer-volume-mask {
+    border: unset;
+}
+div#fnplayer-volume {
+    background: transparent;
+}
+.textareabg br {
+    display: none;
+}
+.col-md-4 {
+    padding: 0px;
+}
+.post-text {
+    padding-right: 5px;
+}
+
+
+span.emj-dropdown {
+    padding: 0px;
+}
+input[type="submit"] {
+    background: #ffffff;
+    color: black !important;
+    margin-top: 5px;
+    mix-blend-mode: difference;
+}
+
+.user:before,.tag:before {
+    display: none;
+}
+.comment-content {
+    min-height: auto;
+}
+
+span.post-title-date {
+    padding: 0px;
+}
+
+.post-opt {
+    position: sticky;
+    top: 100%;
+}
+.crumbs {
+    padding: 0px;
+}
+
+p.left-menu-text {
+    margin: 0px;
+}
+
+a.post-title,a.navbar-brand,.row.w-100 *,
+a.user.post-title-user,.post-opt *,span.lfd_action a {
+    color: white !important;
+    mix-blend-mode: difference;
+    font-weight: 100;
+}
+
+a.post-title {
+    font-family: 'Bellota', cursive;
+    font-size: 27px;
+}
+
+a.user.post-title-user,a.navbar-brand {
+    font-family: 'Bellota';
+}
+
+textarea,input[type="text"],select {
+    background: black;
+    mix-blend-mode: difference;
+    color: white !important;
+}
+
+/*@media (max-width: 700px)*/
+
+@media (max-width: 1024px) {
+div#app {
+    width: 98%;
+}
+.post-content {
+    margin: 10px !important;
+}}
+
+
+
+
+@media (max-width: 768px) {
+div#app {
+    width: 98%;
+}
+.post-content {
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+}
+ul.menu__box {
+    background: black;
+}
+.hamburger-menu {
+    margin-left: 10px;
+}
+.left-menu {
+    min-width: 200px;
+}}
+
+
+
+@media (max-width: 700px) {
+div#app {
+    width: 98%;
+}
+.post-content {
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+}
+ul.menu__box {
+    background: black;
+}}
