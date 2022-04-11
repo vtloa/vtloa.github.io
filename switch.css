@@ -295,3 +295,9 @@ ul.menu__box {
 textarea#addtag-img-urls {
     margin-top: 5px;
 }
+
+p.quotation {
+    mix-blend-mode: difference;
+    color: white !important;
+    border-color: white;
+}
