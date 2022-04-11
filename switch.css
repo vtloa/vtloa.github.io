@@ -279,3 +279,19 @@ div#app {
 ul.menu__box {
     background: black;
 }}
+
+
+/*UPD*/
+.modal-content {
+    background: black;
+}
+.modal-footer button {
+    background: transparent !important;
+    border: unset;
+}
+.modal-header,.modal-footer {
+    border: unset;
+}
+textarea#addtag-img-urls {
+    margin-top: 5px;
+}
