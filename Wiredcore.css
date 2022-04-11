@@ -912,3 +912,20 @@ span.crumb-item,span.crumb-item,.crumbs a {
 .content {
     padding-top: 30px;
 }
+
+.pagination {
+    height: 20px;
+}
+
+span.pagination-goto {
+    color: #49a3a7;
+    text-shadow: 0 0 9px #49a3a7;
+    font-family: 'Caveat';
+    font-size: 16px;
+    display: none;
+}
+
+.pagination {
+    line-height: 1;
+    padding-right: 10px;
+}
