@@ -612,6 +612,10 @@ ul.menu__box *:before {
     text-decoration: unset;
 }
 
+.row.w-100 .post-opt.col-12.col-md-6 {
+    text-align: left;
+}
+
 /*финал?*/
 
 ::-webkit-scrollbar {
