@@ -15,7 +15,7 @@ ul.menu__box {
     background: black;
 }
 ul.menu__box {
-    z-index: 3;
+    z-index: 1;
 }}
 
 
@@ -24,7 +24,7 @@ ul.menu__box {
     background: black;
 }
 ul.menu__box {
-    z-index: 3;
+    z-index: 1;
 }
 ul.menu__box * {
     font-family: 'HachiMaruPop-Regular';
