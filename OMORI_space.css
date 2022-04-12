@@ -402,6 +402,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     right: 10px;
     font-size: 0px !important;
     mix-blend-mode: difference;
+    z-index: 3;
 }
 
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
