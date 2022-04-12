@@ -575,9 +575,7 @@ ul.menu__box *:before {
 .post-text p {
     color: white !important;
 }
-.blog__about p.left-menu-text {
-    padding: 0px !important;
-}
+
 .left-menu a:hover {
     color: white !important;
     text-decoration: unset;
