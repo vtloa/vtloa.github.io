@@ -505,7 +505,7 @@ ul.menu__box * {
     color: white !important;
 }
 ul.menu__box {
-    z-index: 3;
+    z-index: 1;
 }
 
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
