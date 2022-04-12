@@ -536,6 +536,12 @@ ul.menu__box {
 div#footer,div#app+div+[style="text-align: center"] {
     display: none;
 }
+ul.menu__box * {
+    font-family: 'HachiMaruPop-Regular';
+    font-size: 12px;
+    font-weight: 100;
+    color: white !important;
+}
 }
 
 /*upd*/
