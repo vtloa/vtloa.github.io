@@ -562,6 +562,9 @@ ul.menu__box * {
     font-weight: 100;
     color: white !important;
 }
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: white;
+}
 }
 
 /*upd*/
