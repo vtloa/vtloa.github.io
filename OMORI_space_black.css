@@ -7,3 +7,22 @@ body.bodybg {
 ul.menu__box {
     background: linear-gradient( 0deg, rgba(33,5,77,1) 0%, rgba(42,8,129,1) 30%, rgba(108,14,255,1) 100%) fixed;
 }
+
+/*----------------------------------------*/
+
+@media (max-width: 1024px) {
+ul.menu__box {
+    background: black;
+}}
+
+@media (max-width: 768px) {
+ul.menu__box {
+    background: black;
+}}
+
+@media (max-width: 700px) {
+ul.menu__box {
+    background: black;
+}}
+
+
