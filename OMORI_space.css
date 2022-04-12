@@ -293,7 +293,7 @@ span.post-title-date+a {
     font-size: 0;
     mix-blend-mode: difference !important;
 }
-[href="/design/disable"]:before {
+[href="/design/disable"]:after {
     content: 'Отключить оформление?';
     color: white;
     font-size: 11px;
