@@ -497,6 +497,21 @@ ul.menu__box * {
 }
 }
 
+
+@media (max-width: 768px) {
+ul.menu__box * {
+    font-size: 12px;
+    font-family: 'HachiMaruPop-Regular';
+}
+ul.menu__box {
+    z-index: 3;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: white;
+}
+}
+
 @media (max-width: 700px) {
 div#app:before, div#app:after {
     animation: unset;
