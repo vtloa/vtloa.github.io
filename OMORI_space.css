@@ -502,6 +502,7 @@ ul.menu__box * {
 ul.menu__box * {
     font-size: 12px;
     font-family: 'HachiMaruPop-Regular';
+    color: white !important;
 }
 ul.menu__box {
     z-index: 3;
