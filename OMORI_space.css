@@ -261,7 +261,7 @@ h3.left-menu-text:before {
 .left-menu__friends.left-menu__friends_offline a,
 [style="display: flex; justify-content: space-between;"] *,
 .left-menu__user-notification p.left-menu-text a,.datebg,span.readertime,
-.post-text a {
+.post-text a,.comment-text a {
     color: white !important;
     mix-blend-mode: difference;
 }
