@@ -491,6 +491,11 @@ input[type="submit"] {
 }
 
 /*МЕДИА*/
+@media (max-width: 1024px) {
+ul.menu__box * {
+    font-size: 0;
+}
+}
 
 @media (max-width: 700px) {
 div#app:before, div#app:after {
