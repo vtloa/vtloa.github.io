@@ -620,6 +620,12 @@ ul.menu__box *:before {
     color: white !important;
 }
 
+.left-menu__user-notification a {
+    padding-left: 5px;
+    color: white !important;
+    mix-blend-mode: difference;
+}
+
 /*финал?*/
 
 ::-webkit-scrollbar {
