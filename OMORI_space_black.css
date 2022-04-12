@@ -11,10 +11,7 @@ ul.menu__box {
 /*----------------------------------------*/
 
 @media (max-width: 1024px) {
-ul.menu__box {
-    background: black;
-}
-ul.menu__box {
+label.menu__btn {
     z-index: 3;
 }}
 
