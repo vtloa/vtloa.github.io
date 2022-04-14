@@ -726,3 +726,9 @@ h3.left-menu-text {
     font-size: 0px !important;
     text-align: center;
 }
+.fa-angle-down:before {
+    font-size: 0;
+}
+.mobile_open_menu {
+    background: #c0a2c7e3 !important;
+}
