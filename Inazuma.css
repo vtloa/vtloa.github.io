@@ -269,33 +269,7 @@ div#beon-fnplayer {
 
 /*верх*/
 
-[href="//im.beon.fun"],[href="//beon.fun/random"],
-.pc-menu [href$=".fun/preview"],[href$=".beon.fun/friends-posts/"],
-[href$=".beon.fun/friends-activities/"] {
-    font-size: 0px !important;
-}
-[href="//im.beon.fun"]:before {
-    content: 'Лс';
-    font-size: 10px;
-}
 
-[href="//beon.fun/random"]:before {
-    content: 'Рандом';
-    font-size: 10px;
-}
-
-.pc-menu [href$=".fun/preview"]:before {
-    content: 'Написать';
-    font-size: 10px;
-}
-[href$=".beon.fun/friends-posts/"]:before {
-    content: 'Френдпост';
-    font-size: 10px;
-}
-[href$=".beon.fun/friends-activities/"]:before {
-    content: 'Френдактив';
-    font-size: 10px;
-}
 
 .pc-menu a {
     font-size: 10px;
