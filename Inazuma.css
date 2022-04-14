@@ -178,7 +178,7 @@ span.post-title-date+span {
 /*=============================*/
 
 [style="display: flex; justify-content: space-between;"] *,
-.left-menu__user-notification p.left-menu-text a, .datebg, span.readertime, .post-text a, .comment-text a {
+.datebg, span.readertime, .post-text a, .comment-text a {
     color: #453c5b !important;
 }
 
