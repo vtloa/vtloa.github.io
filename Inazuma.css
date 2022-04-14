@@ -718,3 +718,11 @@ h3.left-menu-text {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.left-menu {
+    border-bottom: 1px solid #e2d8e2 !important;
+}
+.mobile_open_menu h3.left-menu-text {
+    font-size: 0px !important;
+    text-align: center;
+}
