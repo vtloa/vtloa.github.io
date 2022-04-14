@@ -16,6 +16,7 @@ ul.menu__box,label.menu__btn {
 * {
     color: #635489 !important;
 }
+
 /*-----------------------------------------------------------*/
 a.post-title, a.navbar-brand, .row.w-100 *, a.user.post-title-user, .post-opt *,
 textarea, input[type="text"], select,input[type="submit"] {
@@ -400,9 +401,7 @@ ul.menu__box *:before {
     font-size: 0;
 }
 
-.post-text p {
-    color: white !important;
-}
+
 
 .left-menu a:hover {
     color: white !important;
@@ -413,9 +412,6 @@ ul.menu__box *:before {
     text-align: left;
 }
 
-.post-text * {
-    color: white !important;
-}
 
 .left-menu__user-notification a {
     padding-left: 5px;
@@ -735,3 +731,4 @@ h3.left-menu-text {
 #fnplayer-slider-inner {
     background: #ece9ec !important;
 }
+
