@@ -426,7 +426,7 @@ ul.menu__box *:before {
 
 ::-webkit-scrollbar {
     width: 10px !important;
-    background: #f5f3f3;
+    background: #f0e9e9;
 }
 ::-webkit-scrollbar-thumb {
     background: #a7a3c9;
