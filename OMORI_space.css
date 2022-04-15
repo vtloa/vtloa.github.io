@@ -119,11 +119,17 @@ a.navbar-brand,.post-content.blog_total_counter h2:before {
 
 
 .post-text, .comment-text {
-    font-family: 'HachiMaruPop-Regular';
-    font-size: 14px;
+    font-family: ZenKurenaido-Regular;
+    font-size: 20px;
     line-height: normal;
     color: white !important;
     padding-left: 5px;
+}
+
+textarea {
+    font-family: 'ZenKurenaido-Regular';
+    font-size: 20px;
+    padding: 5px;
 }
 
 a.post-title {
