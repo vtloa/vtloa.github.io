@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+/*font-family: 'Montserrat Alternates', sans-serif;*/
+
+
 .post-text a,.comment-text a {
     color: #655f55;
 }
@@ -983,4 +987,19 @@ ul.menu__box {
 div#footer {
     display: unset;
     font-size: 0;
+}
+
+* {
+    font-family: monospace;
+}
+
+span.crumb-item,a.navbar-brand,.left-menu,a.post-title,.post-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+div#beon-fnplayer {
+    margin-top: 0px;
+}
+div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center"] a {
+    color: #98793c;
 }
