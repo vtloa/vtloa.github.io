@@ -1003,3 +1003,7 @@ div#beon-fnplayer {
 div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center"] a {
     color: #98793c;
 }
+
+ul.menu__box a {
+    font-family: monospace !important;
+}
