@@ -1,4 +1,6 @@
 @import url('https://vtloa.github.io/Youfun.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+/*font-family: 'Montserrat Alternates', sans-serif;*/
 
 a.menu__item {
     text-align: left;
@@ -1361,4 +1363,21 @@ form.messageform .col-md-4 p {
 
 form.messageform select {
     background: #d3cfba;
+}
+
+
+
+/*UPD*/
+
+
+span.crumb-item,a.post-title,h3.left-menu-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.blog__about h3.left-menu-text, .blog__gifts h3.left-menu-text, .blog__read-me h3.left-menu-text, .blog__iread h3.left-menu-text, .blog__tags h3.left-menu-text, .blog__last-comments h3.left-menu-text, .left-menu__user-notification h3.left-menu-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+ul.navbar-nav.ml-auto:before,a.navbar-brand {
+    font-family: 'Montserrat Alternates';
 }
