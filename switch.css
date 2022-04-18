@@ -301,3 +301,8 @@ p.quotation {
     color: white !important;
     border-color: white;
 }
+
+
+.col-lg-2.col-md-4.col-6.gifts-page__gifts-item .post-opt {
+    position: unset;
+}
