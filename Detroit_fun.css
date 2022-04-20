@@ -1293,3 +1293,7 @@ p.left-menu-text {
 a.navbar-brand {
     font-size: 0;
 }
+
+* {
+    font-family: 'Nunito' !important;
+}
