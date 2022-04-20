@@ -1500,6 +1500,6 @@ a.navbar-brand {
 }
 
 
-* {
-    font-family: 'Nunito';
+a {
+    font-family: 'Nunito' !important;
 }
