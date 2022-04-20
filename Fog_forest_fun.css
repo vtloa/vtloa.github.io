@@ -916,6 +916,6 @@ a.navbar-brand {
 }
 
 
-* {
+a,.left-menu *,h3.left-menu-text,.datebg {
     font-family: 'Nunito';
 }
