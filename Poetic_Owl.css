@@ -1299,3 +1299,7 @@ a.post-title,
 .left-menu {
     font-size: 14px;
 }
+
+.likebutton,i.fas.fa-retweet,i.fas.fa-bookmark {
+    font-family: 'Font Awesome 5 Free' !important;
+}
