@@ -1260,3 +1260,7 @@ a.post-title:hover {
 a.navbar-brand {
     font-size: 0;
 }
+
+* {
+    font-family: 'Nunito' !important;
+}
