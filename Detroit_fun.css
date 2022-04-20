@@ -1345,3 +1345,9 @@ div#commentpreviewplace+p {
     line-height: normal;
     font-size: 0;
 }
+
+.post-content [style="display: flex; justify-content: space-between;"] a {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 11px;
+}
