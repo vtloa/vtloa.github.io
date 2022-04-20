@@ -1196,3 +1196,8 @@ a.navbar-brand {
 [href="https://beon.fun"]:before {
     font-size: 25px;
 }
+
+
+* {
+    font-family: 'Nunito' !important;
+}
