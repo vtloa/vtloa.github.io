@@ -1261,6 +1261,12 @@ a.navbar-brand {
     font-size: 0;
 }
 
-* {
+
+
+a,h3.left-menu-text,a.post-title,.datebg {
     font-family: 'Nunito';
+}
+
+.row.w-100 * {
+    font-size: 16px !important;
 }
