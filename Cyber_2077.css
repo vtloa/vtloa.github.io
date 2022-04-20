@@ -1498,3 +1498,8 @@ a.navbar-brand {
 .left-menu>div, .comment-content,form#messageform,form.messageform {
     background-color: #101416;
 }
+
+
+* {
+    font-family: 'Nunito' !important;
+}
