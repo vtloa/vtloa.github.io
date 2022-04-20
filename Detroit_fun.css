@@ -1335,3 +1335,13 @@ a.user.post-title-user {
 }
 
 
+span.post-title-date {
+    font-family: 'Nunito';
+    letter-spacing: unset;
+}
+
+div#commentpreviewplace+p {
+    color: #ffffff;
+    line-height: normal;
+    font-size: 0;
+}
