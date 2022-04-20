@@ -1293,7 +1293,8 @@ a.post-title,
 .textareabg, .comment-box, a.menu__item,
 a.post-title,
 .post-content h1, .content h2, 
-.textareabg>div, .content>h1 {
+.textareabg>div, .content>h1,
+.crumbs *{
     font-family: 'Lora', serif !important;
 }
 .left-menu {
