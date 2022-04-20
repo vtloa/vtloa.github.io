@@ -1500,6 +1500,6 @@ a.navbar-brand {
 }
 
 
-a {
+a,span.readertime,.left-menu,span.crumb-item {
     font-family: 'Nunito' !important;
 }
