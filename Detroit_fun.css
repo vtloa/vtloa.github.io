@@ -1351,3 +1351,8 @@ div#commentpreviewplace+p {
     font-weight: bold;
     font-size: 11px;
 }
+
+div#app+div+[style="text-align: center"] {
+    font-family: 'Raleway';
+    color: white;
+}
