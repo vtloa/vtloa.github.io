@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/*
+font-family: 'Raleway', sans-serif;
+*/
+
+/*--------------------------*/
+
 @font-face {
 font-family: 'font3036ae86f3e196e33d3be155da20f495';
     
@@ -1296,4 +1304,36 @@ a.navbar-brand {
 
 * {
     font-family: 'Nunito';
+}
+
+
+/*UPD*/
+
+a.post-title,[href="https://beon.fun"]:before,span.crumb-item,h3.left-menu-text,a.user.post-title-user,
+.datebg,div.textareabg>div,
+.textareabg input[type="submit"], .left-menu__user-notification.left-menu__unread-message input[type="submit"],
+.post-content h1, div#commentpreviewplace+p,
+.comment-box h2,
+.comment-box__message-partial.comment-content {
+    font-family: 'Raleway', sans-serif;
+}
+
+form.messageform>[name="_token"]+p,
+[name="posttitle"]+br+br+p, .col-md-4 p, .col-md-4 div, .container-fluid.mt-5+br+br+p, a.messageform__taglinks {
+    font-family: 'Nunito';
+}
+
+a.user.post-title-user {
+    font-weight: bold;
+    font-size: 17px !important;
+}
+
+.hamburger-menu a.menu__item {
+    font-family: 'Nunito';
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.left-menu__user-notification h3.left-menu-text {
+    margin-right: -40px !important;
 }
