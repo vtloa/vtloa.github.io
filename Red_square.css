@@ -1048,7 +1048,8 @@ div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center
 }
 
 p.quotation {
-    border-color: #4e130e;
-    color: #ae0e027d;
+    border-color: #ba1e13;
+    color: #ba1e13;
     line-height: normal;
+    font-size: 14px;
 }
