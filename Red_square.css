@@ -1053,3 +1053,7 @@ p.quotation {
     line-height: normal;
     font-size: 14px;
 }
+
+i.fas.fa-retweet, i.fas.fa-trash-alt, i.fas.fa-quote-left {
+    color: #808080;
+}
