@@ -1054,6 +1054,7 @@ p.quotation {
     font-size: 14px;
 }
 
-i.fas.fa-retweet, i.fas.fa-trash-alt, i.fas.fa-quote-left {
-    color: #808080;
+i.fas.fa-retweet, i.fas.fa-trash-alt, i.fas.fa-quote-left,i.fas.fa-bookmark {
+    color: #595b5c;
 }
+
