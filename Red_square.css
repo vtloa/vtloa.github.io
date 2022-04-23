@@ -1046,3 +1046,7 @@ div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center
 [src="//beon.fun/i/offline.png"] {
     filter: contrast(0);
 }
+
+p.quotation {
+    border-color: #4e130e;
+}
