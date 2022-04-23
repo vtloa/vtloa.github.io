@@ -1034,3 +1034,11 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
     font-family: 'Montserrat Alternates';
     font-weight: bold;
 }
+
+
+div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center"] a {
+    color: #323232;
+    font-family: 'Montserrat Alternates';
+    font-weight: bold;
+    font-size: 11px;
+}
