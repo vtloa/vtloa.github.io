@@ -1042,3 +1042,7 @@ div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center
     font-weight: bold;
     font-size: 11px;
 }
+
+[src="//beon.fun/i/offline.png"] {
+    filter: contrast(0);
+}
