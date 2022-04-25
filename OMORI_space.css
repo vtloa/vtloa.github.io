@@ -12,6 +12,10 @@ font-family: 'Underdog', cursive;
 @font-face { font-family: "ZenKurenaido-Regular"; src: url('//Luatr.github.io/fonts/ZenKurenaido-Regular.ttf'); }
 /*-----------------------------------------------------------*/
 
+* {
+    color: #ffffff !important;
+}
+
 body.bodybg {
     background: linear-gradient( 0deg, rgba(33,5,77,1) 0%, rgba(42,8,129,1) 30%, rgba(108,14,255,1) 100%) fixed;
 }
