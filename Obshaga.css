@@ -850,3 +850,7 @@ p.quotation {
     font-size: 12px;
     width: fit-content;
 }
+
+.community__members {
+    max-width: 250px;
+}
