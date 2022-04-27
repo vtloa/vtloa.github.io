@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bad+Script&family=Cabin+Sketch&family=Caveat&family=Fredericka+the+Great&family=Monoton&display=swap');
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Monoton', cursive;
+*/
+
+/*===========================================*/
+
+
+div.right-menu-text a {
+    color: #3bde3d;
+}
+
+div.right-menu-text {
+    text-align: center;
+}
+div.right-menu-text {
+    text-align: center;
+}
+[src="/i/user.png"] {
+    display: none;
+}
+.left-menu * {
+    color: #2942cc;
+    font-family: 'Caveat';
+    font-size: 20px;
+    line-height: 1.01;
+    text-transform: lowercase;
+}
+.post-content.blog_total_counter {
+    display: none;
+}
+a.post-title {
+    font-family: 'Caveat';
+    font-size: 35px;
+    line-height: 1.3;
+    color: #3f51b5;
+    text-decoration: unset;
+}
+
+.post-content, .comment-box {
+    margin: 0px !important;
+    background: linear-gradient(289deg, #f1f1efa1, #75d95424);
+    padding: 10px;
+}
+
+h3.left-menu-text {
+    background: transparent !important;
+    color: #4051b6;
+    font-family: 'Caveat', cursive;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: none;
+}
+
+p.left-menu-text {
+    margin: 0px;
+    padding-bottom: 0px !important;
+}
+main.py-4 {
+    flex-direction: row-reverse;
+}
+div#app {
+    margin: auto;
+    max-width: 1200px;
+}
+.left-menu {
+    background: url(https://i.ibb.co/0jp5Zhn/1.png) no-repeat center top, url(https://i.ibb.co/rmb4PP3/1-0.png) no-repeat top 504px center, url(https://i.ibb.co/0jp5Zhn/1.png) no-repeat center bottom;
+    width: 400px;
+    border: unset !important;
+    background-size: contain;
+    overflow: visible;
+    padding-top: 83px !important;
+}
+
+.left-menu {
+    min-height: 1200px;
+}
+
+.content {
+    background: url(https://i.ibb.co/XVnryvV/092.png) left top;
+    background-size: 600px;
+    margin-right: 5px;
+    margin-top: 14px;
+    box-shadow: -6px 11px 8px #00000063;
+}
+
+body.bodybg {
+    background: url(https://i.ibb.co/5nGqCR4/2-0-2-1.jpg) repeat left top fixed;
+    background-size: cover;
+    background-color: #55585b;
+}
+
+
+
+/*sys*/
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+html {
+    cursor: url(https://whimwitch.neocities.org/decorations/cursor2.gif), auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+}
+::-webkit-scrollbar-button {
+    background-color: darkgrey;
+    background-image: url(https://i.ibb.co/mbxMqyY/123.png);
+    width: 15px;
+    height: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border-left: ridge 2px #fff;
+    border-top: ridge 2px #fff;
+    border-right: ridge 2px grey;
+    border-bottom: ridge 2px grey;
+}
+::-webkit-scrollbar-track {
+}
+
+/*================*/
+
+.blog__last-comments h3.left-menu-text,
+.blog__tags h3.left-menu-text {
+    font-size: 0;
+}
+.blog__last-comments h3.left-menu-text:before {
+    content: 'Чё пишут:';
+    font-size: 22px;
+}
+
+.blog__tags h3.left-menu-text:before {
+    content: 'Категории:';
+    font-size: 22px;
+}
+
+.blog__last-comments .left-menu-text {
+    max-width: 260px;
+}
+
+.blog__last-comments {
+    padding-bottom: 75px;
+}
+
+.post-content span.imagewrapper {
+    position: relative;
+    margin-top: 25px;
+}
+
+.post-content span.imagewrapper:before {
+    content: 'скопч';
+    font-size: 0;
+    display: block;
+    width: 80px;
+    height: 36px;
+    background: url(https://i.ibb.co/Myz1TSB/02.png) no-repeat center / contain;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(31deg);
+    filter: drop-shadow(2px 4px 3px #00000057) saturate(1.5) hue-rotate(25deg);
+}
+
+.bg-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    background-color: #67706d;
+    background-image: url(https://www.transparenttextures.com/patterns/notebook-dark.png);
+    background-position: top -21px left;
+    background-size: 205px;
+}
+
+.crumbs {
+    margin-top: 120px !important;
+    padding: 0px;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    line-height: 1;
+    color: #bfc687;
+    margin-bottom: 0px !important;
+}
+
+
+.container {
+    max-width: 100%;
+}
+
+.bg-white:before {
+    content: 's';
+    font-size: 0;
+    background: url(https://i.ibb.co/tBdJWXS/1-1.png) no-repeat center / contain;
+    display: block;
+    position: absolute;
+    top: 49px;
+    right: 10px;
+    width: 300px;
+    height: 334px;
+    filter: drop-shadow(2px 4px 6px #322033);
+}
+
+.textareabg {
+    padding: 10px;
+}
+
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+input[type="submit"] {
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+    border: 1px solid grey;
+    font-size: 14px;
+    box-shadow: 3px 3px #331d33;
+}
+
+input[type="submit"]:hover {
+    transform: translate(-7px, -6px);
+}
+
+.avatar-select-label {
+    border: 4px solid #ffffff00;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+}
+
+div#beon-fnplayer {
+    max-width: 255px;
+    background: transparent;
+}
+
+a.navbar-brand {
+    font-weight: 100;
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    line-height: 0;
+}
+ul.navbar-nav.ml-auto,.pc-menu {
+    width: 100%;
+}
+
+.pc-menu {
+    text-align: -webkit-center;
+}
+
+.crumbs a {
+    color: #8eda55;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #68dc62;
+    transform: rotate(16deg);
+}
+
+button#fnplayer-stop {
+    background: #68dc62;
+    transform: translate(4px, -7px) rotate(17deg);
+}
+div#beon-fnplayer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div#beon-fnplayer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+div#fnplayer-slider span {
+    color: transparent;
+}
+
+div#fnplayer-volume-mask {
+    background: transparent;
+    border: unset;
+}
+
+
+
+div#fnplayer-slider-inner,
+div#fnplayer-volume-inner {
+    background: #68dc62;
+    height: 8px;
+}
+
+div#fnplayer-volume {
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+    border: 1px solid #68dc62;
+    border: 1px solid #68dc62;
+    transform: translate(-5px, 5px) rotate(-34deg);
+}
+
+div#fnplayer-slider {
+    border: 1px solid #68dc62;
+}
+
+a.user.post-title-user {
+    color: #3f51b5;
+    font-family: 'Caveat';
+    font-size: 20px;
+    line-height: 0;
+    text-decoration: unset;
+}
+
+.user:before {
+    display: none;
+}
+span.post-title-date {
+    padding: 0px;
+}
+.content,.pc-menu {
+    font-family: monospace;
+}
+
+.post-content, .comment-content {
+    min-height: auto;
+}
+
+
+.datebg {
+    text-align: center;
+    margin: 0px;
+    color: #010101;
+    font-family: 'Amatic SC';
+    font-weight: 100;
+    font-size: 25px;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+    border: 1px solid;
+    border-color: gray;
+    border-left: unset;
+    border-right: unset;
+    line-height: 1.3;
+}
+
+.pc-menu * {
+    color: #000000 !important;
+    text-transform: uppercase;
+}
+
+span.post-title-date, span.post-title-date+span {
+    color: black;
+    font-size: 11px;
+}
+
+.post-text {
+    color: black;
+    text-shadow: 0 0 2px white;
+}
+
+.row.w-100 * {
+    color: #3f51b5 !important;
+    font-family: 'Caveat';
+    font-size: 18px;
+    text-decoration: unset;
+    line-height: normal;
+}
+
+.row.w-100,.post-opt {
+    position: sticky;
+    top: 100%;
+    text-align: right;
+}
+.post-opt.col-12.col-md-6 {
+    text-align: left;
+}
+
+.left-menu-text input[type="text"] {
+    font-size: 15px;
+    font-family: monospace;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+    border: 1px solid grey;
+    box-shadow: 5px 3px #331d33;
+    height: 20px;
+}
+
+.left-menu-text input[type="submit"] {
+    font-size: 17px;
+    font-family: monospace;
+    color: black;
+}
+input[type="text"]::placeholder {
+    color: #0000002e;
+}
+
+[href="/design/disable"] {
+    color: #3f51b5;
+    text-shadow: 0 0 white;
+    font-weight: bold;
+    text-decoration: revert;
+}
+
+.blog__last-comments .left-menu-text a {
+    background: linear-gradient(45deg, #ffeb3b8c, transparent);
+    font-size: 13px;
+    font-family: monospace;
+    color: black;
+}
+.alert.alert-success {
+    background: #56ee52;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1;
+    font-family: 'Caveat';
+    border: unset;
+    color: black;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    font-size: 0;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: 'DOWN';
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    color: black;
+    line-height: normal;
+    margin-top: 6px;
+    display: block;
+}
+
+div#app+div+[style="text-align: center"], div#app+div+[style="text-align: center"] a {
+    font-family: monospace;
+    color: #acb18d;
+}
+div#footer,.textareabg br,.crumbs {
+    display: none;
+}
+
+.bg-white+.crumbs {
+    display: block;
+}
+.col-md-4 {
+    padding: 0px;
+}
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+
+textarea:focus {
+    box-shadow: inset 0 0 10px #686868;
+    outline: unset;
+}
+
+.post-content+.textareabg, .textareabg {
+    margin: 0px !important;
+    background: linear-gradient(289deg, #f1f1efa1, #75d95424);
+}
+
+
+
+textarea, input[type="text"] {
+    border: unset;
+    background: #f1f4ee;
+    padding: 5px;
+}
+form.messageform p {
+    font-weight: bold;
+}
+
+.comment-box__message-partial.comment-content {
+    margin: 0px;
+    color: #010101;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 2.14;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png);
+    background-size: 2px;
+    border: 1px solid;
+    border-left: unset;
+    border-right: unset;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+div#commentpreviewplace+p {
+    display: none;
+}
+span.post-title-date+a {
+    font-size: 11px;
+    color: black;
+}
+
+span.lfd_action a {
+    color: black;
+}
+.comment-box h2 {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.prevsibling.col-md-6 a,.nextsibling.text-right.col-md-6 a {
+    color: black;
+}
+.prevsibling.col-md-6,.nextsibling.text-right.col-md-6 {
+    padding: 0px;
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+}
+
+.row.w-100 *, .post-opt *, .post-opt span,
+[style="display: flex; justify-content: space-between;"] * {
+    color: #3f51b5 !important;
+    font-family: 'Caveat';
+    font-size: 17px !important;
+    line-height: 1;
+}
+
+i.fas.fa-heart,i.fas.fa-retweet,i.fas.fa-bookmark,i.fas.fa-quote-left {
+    font-family: 'Font Awesome 5 Free';
+    font-size: 11px !important;
+    color: #3f51b5;
+}
+
+.sign {
+    color: black;
+}
+
+.left-menu a:hover {
+    text-decoration: line-through;
+    color: #c21616;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    font-size: 0;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    content: 'UP';
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    padding-right: 10px;
+}
+span.crumb-item {
+    font-weight: 100;
+}
+.post-text a {
+    color: #3f51b5;
+}
+
+
+
+.comment-box,.post-content,.post-content+.textareabg, .textareabg {
+    background: linear-gradient(92deg, #d7eed2b5, #f1f1ef96);
+}
+.comment-text {
+    padding: 10px;
+}
+::marker {
+    font-size: 0;
+}
+
+script+div {
+    font-size: 0;
+}
+.shadow-sm {
+    box-shadow: 0px 3px 10px #322033 !important;
+}
+
+
+/*МЕДИА*/
+
+@media (max-width: 1024px) {
+.pc-menu ul {
+    padding: 0px;
+}
+.post-content,.comment-box,.textareabg {
+    padding: 5px;
+}
+.comment-box__message-partial.comment-content {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+}
+
+
+@media (max-width: 768px) {
+.comment-box__message-partial.comment-content {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+ul.menu__box {
+    padding-top: 0px;
+    overflow: auto !important;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png) !important;
+    background-size: 2px !important;
+}
+a.menu__item {
+    font-family: monospace;
+    padding: 0px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+}
+.menu__item:hover {
+    background-color: #bbbbbbc9;
+    color: black;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #5ccb67;
+}
+.hamburger-menu {
+    margin-left: 10px;
+}
+.post-content span.imagewrapper:before {
+    display: none;
+}
+span.imagewrapper {
+    margin-top: 0px !important;
+}
+body.bodybg {
+    background-position: center;
+}
+main.py-4 {
+    background: linear-gradient(92deg, #d7eed2b5, #f1f1ef96),
+    url(https://i.ibb.co/XVnryvV/092.png) left top;
+    background-size: auto,600px;
+}
+.left-menu {
+    background: transparent;
+    width: 250px;
+}
+.comment-box, .post-content, .post-content+.textareabg, .textareabg,.content {
+    background: transparent;
+}
+.post-content {
+    padding: 0px;
+}
+.content {
+    margin-top: 0px;
+}
+a.post-title {
+    display: block;
+    width: fit-content;
+}
+.bg-white:before {
+    width: 240px;
+    height: 267px;
+    top: -25px;
+}
+.left-menu {
+    padding-top: 0px !important;
+}
+.left-menu-text input[type="text"] {
+    width: 150px;
+}}
+
+
+
+
+
+
+@media (max-width: 700px) {
+.comment-box__message-partial.comment-content {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+div#app {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+}
+main.py-4 {
+    flex-flow: column;
+}
+.left-menu {
+    min-height: auto;
+    width: 100%;
+    padding-top: 0px !important;
+}
+
+main.py-4 {
+    background: linear-gradient(1deg, #eaf8e7d4, #f1f1efb8), 
+    url(https://i.ibb.co/XVnryvV/092.png) left top;
+    background-size: auto,600px;
+}
+.left-menu {
+    background: transparent;
+}
+.comment-box, .post-content, .post-content+.textareabg, .textareabg,.content {
+    background: transparent;
+}
+
+.bg-white:before {
+    width: 150px;
+    height: 167px;
+    top: 41px;
+}
+.right-menu-text {
+    text-align: left !important;
+}
+.mobile_open_menu h3.left-menu-text {
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png) !important;
+    background-size: 2px !important;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: black !important;
+    font-weight: 100 !important;
+    font-family: 'Amatic SC';
+    font-size: 25px !important;
+}
+.fa-angle-down:before {
+    display: none;
+}
+.post-content {
+    padding: 5px;
+}
+
+.post-row {
+    flex-direction: column;
+}
+.comment-text {
+    padding: 0;
+}
+.content {
+    margin-top: 0;
+}
+.comment-box {
+    padding: 5px;
+}
+body.bodybg {
+    background-position: center top;
+}
+.post-content span.imagewrapper:before {
+    display: none;
+}
+span.imagewrapper {
+    margin-top: 0px !important;
+}
+.crumbs {
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png) !important;
+    background-size: 2px !important;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: black !important;
+    font-weight: 100 !important;
+    margin-bottom: 0px !important;
+    line-height: 1.25;
+}
+.bg-white {
+    position: unset;
+    padding: 2px;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'DONW';
+    font-size: 29px;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-family: 'Amatic SC';
+    color: black;
+    font-size: 0;
+    text-decoration: unset;
+    line-height: normal;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 18px;
+}
+.textareabg {
+    padding: 5px;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #5ccb67;
+}
+ul.menu__box {
+    overflow: auto !important;
+    background-image: url(https://i.ibb.co/N1Fzn2Q/1234.png) !important;
+    background-size: 2px !important;
+}
+a.menu__item {
+    font-family: monospace;
+    padding: 0px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+}
+.menu__item:hover {
+    background-color: #bbbbbbc9;
+    color: black;
+}
+}
+
+
+/*UPD*/
+
+.post-content [style="margin-left: 5px;"] {
+    margin: 0px !important;
+}
+a.messageform__taglinks {
+    color: #3f51b5;
+}
+.avatar-select-label-selected {
+    background: #68dc62;
+}
+html {
+    overflow-x: hidden;
+}
+a.post-title:hover, a.user.post-title-user:hover,
+.row.w-100 a:hover,.row.w-100 span:hover,.post-opt a:hover,
+.post-opt span:hover {
+    color: #68dc62 !important;
+    text-decoration: line-through;
+}
+.comment-text+div {
+    text-align: right;
+}
+.blog__last-comments {
+    overflow-wrap: break-word;
+}
+i.fas.fa-trash-alt {
+    color: #3f51b5;
+}
