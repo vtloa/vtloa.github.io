@@ -743,8 +743,14 @@ main.py-4 {
 .bg-white+.crumbs:before,.bg-white+.crumbs:after {
     display: none;
 }
+body.bodybg {
+    background: url(https://beon.vip/uploads_image/c6/2c/c62cd6a0e801faf4068dcc4c8a434b87.png) fixed,
+    url(https://i.ibb.co/ckLtdxH/2-1-414.png) no-repeat fixed top -500px right,
+    url(https://i.ibb.co/bX422Zg/2-1-460.png) no-repeat left top -500px fixed;
+    background-color: #1a1918;
+    background-size: auto,auto;
 }
-
+}
 
 
 
