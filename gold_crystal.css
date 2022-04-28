@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=El+Messiri&family=Poiret+One&display=swap');
+
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+
+/*=======================================*/
+
+a {
+    text-decoration: unset !important;
+}
+a.post-title,a.user.post-title-user,.datebg,h3.left-menu-text,.crumbs {
+    font-family: 'El Messiri', sans-serif;
+}
+
+.post-text a, .post-text span, .post-text div {
+    color: #902800 !important;
+}
+
+.post-text,
+.left-menu a, span.readertime, span.post-opt, div.left-menu-text, input[type="text"]::placeholder, p.left-menu-text {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+
+
+textarea#csseditortext {
+    max-height: 400px;
+    overflow-y: auto !important;
+}
+
+body.bodybg {
+    background: url(https://beon.vip/uploads_image/c6/2c/c62cd6a0e801faf4068dcc4c8a434b87.png) fixed,                            
+               url(https://i.ibb.co/ckLtdxH/2-1-414.png) no-repeat fixed center right,
+               url(https://i.ibb.co/bX422Zg/2-1-460.png) no-repeat left center fixed;
+    background-color: #1a1918;
+    background-size: auto,auto;
+}
+
+.bg-white {
+    background: #101010;
+    box-shadow: 0px 10px 20px 0px #121111a8 !important;
+}
+
+
+
+.container {
+    max-width: 100%;
+}
+
+.post-content.blog_total_counter,[src="/i/user.png"],[src="/i/offline.png"],
+[src="/i/blog.png"],[src="//beon.fun/i/tag.png"] {
+    display: none;
+}
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+}
+
+h3.left-menu-text {
+    background: transparent !important;
+    font-size: 16px;
+    color: #60230c !important;
+}
+
+.left-menu {
+    border: unset !important;
+}
+.post-text, .comment-base {
+    background: #101010;
+    color: #b87c0f;
+}
+
+a.post-title, a.user.post-title-user,span.post-title-date, span.post-title-date+span,.sign,.datebg,.crumbs{
+    color: #b87c0f;
+}
+
+.post-content,.datebg {
+    margin: 10px !important;
+}
+
+.post-content, .comment-content {
+    min-height: auto !important;
+}
+span.post-title-date {
+    padding: 0px;
+}
+
+.user:before,img.flag,.tag:before {
+    display: none;
+}
+
+span.post-title-date, span.post-title-date+span {
+    font-size: 12px;
+}
+
+
+
+.left-menu a, span.readertime, span.post-opt, div.left-menu-text, input[type="text"]::placeholder,p.left-menu-text {
+    color: #b87c0f !important;
+}
+
+.datebg,span.crumb-item {
+    font-weight: 100;
+}
+.left-menu>div {
+    margin-bottom: 10px;
+}
+
+p.left-menu-text {
+    margin: 0px;
+}
+
+.left-menu,.post-text, .comment-base{
+    font-size: 13px;
+}
+.crumbs {
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.text-center+p.left-menu-text {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #ffc908 !important;
+    mix-blend-mode: hard-light;
+}
+
+[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
+
+
+
+.left-menu-text input[type="text"], .left-menu-text input[type="submit"] {
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    color: #ae7416;
+}
+
+.left-menu-text input[type="text"] {
+    max-width: 140px;
+}
+
+.textareabg {
+    margin: 0px !important;
+    background: transparent;
+    padding: 10px;
+}
+
+main.py-4 {
+    border-left: 5px solid #be7808;
+    border-top: 1px solid #be7808;
+    border-right: 5px solid #be7808;
+    border-bottom: 1px solid #be7808;
+    background: url(https://i.ibb.co/vYSZ7tZ/234324-2-1-5.png) bottom center fixed;
+}
+
+.left-menu {
+    width: 250px;
+}
+
+.content {
+    width: 100%;
+}
+main.py-4 {
+    flex-direction: row-reverse;
+    width: 60%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+form.messageform br {
+    display: none;
+}
+
+form.messageform p, form.messageform div {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: 'El Messiri';
+}
+
+.col-md-4 {
+    padding: 0px;
+}
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #0f0f0f;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: url(https://avatanplus.com/files/resources/original/575814d271a9315530115622.png) center bottom;
+    background-color: #b7760f;
+    background-blend-mode: soft-light;
+}
+
+
+select {
+    background: #b87306;
+    border: unset;
+    font-size: 12px;
+}
+
+
+
+a.messageform__taglinks {
+    color: #632006;
+    font-size: 12px;
+}
+label {
+    font-size: 12px;
+}
+input[type="checkbox"] {
+    filter: brightness(0.86) invert(1);
+}
+span.emj-dropdown {
+    padding: 0px;
+}
+.avatar-select-label-selected {
+    border: 4px solid #d18813;
+}
+.avatar-select-label {
+    border: 4px solid #151515;
+}
+
+div#footer {
+    display: none;
+}
+script+div {
+    font-size: 0;
+}
+div+[style="text-align: center"], div+[style="text-align: center"] a {
+    background: #0f0f0f;
+    text-align: left !important;
+    color: #d59021;
+    font-size: 12px;
+    padding-left: 6px;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+
+.bg-white+.crumbs:before,.bg-white+.crumbs:after {
+ content: '1';
+    font-size: 0;
+    display: block;
+    position: fixed;
+    mix-blend-mode: lighten;
+    z-index: 2;
+    margin: auto;
+    filter: sepia(1) saturate(4.5);
+    border-radius: 100%;
+}
+
+.bg-white+.crumbs:before {
+    width: 145px;
+    height: 235px;
+    background: url(https://i.ibb.co/DzrC934/stars.gif) center top;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transform: translate(-141px, 85px);
+}
+
+.bg-white+.crumbs:after {
+    width: 115px;
+    height: 165px;
+    background: url(https://i.ibb.co/DzrC934/stars.gif) center left 125px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transform: translate(179px, 260px);
+}
+
+
+
+div#app {
+    padding: 0px;
+}
+.container {
+    padding: 0px;
+}
+
+a.navbar-brand {
+    color: #b87c0f !important;
+    font-family: 'El Messiri';
+    font-weight: 100;
+    font-size: 25px;
+}
+::marker {
+    color: #9028009c;
+}
+.pc-menu * {
+    color: #7b2b0d !important;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+
+div#navbarSupportedContent,ul.navbar-nav.ml-auto,.pc-menu {
+    width: 100%;
+}
+
+.pc-menu {
+    text-align: -webkit-center;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline,
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    font-size: 0;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: 'Down';
+    color: black;
+    line-height: normal;
+    margin-top: 6px;
+    display: block;
+    color: #b87c0f !important;
+    font-family: 'El Messiri';
+    font-weight: 100;
+    font-size: 25px;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    content: 'Up';
+    line-height: normal;
+    color: #b87c0f !important;
+    font-family: 'El Messiri';
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -4px;
+    display: block;
+    margin-right: 10px;
+}
+
+.left-menu {
+    margin-top: 5px;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    text-shadow: unset !important;
+}
+
+input[type="submit"],
+input[type="button"],
+button#upload-confirm-button,
+button.btn.btn-secondary,
+button.btn.btn-primary {
+    background: #b87306;
+    border: unset;
+    font-size: 14px;
+    box-shadow: 3px 3px #6e2c07;
+    transition: 0.5s cubic-bezier(0.53, -0.36, 0.01, 1.35);
+    font-family: 'El Messiri';
+    margin-top: 10px;
+    color: black;
+    border-radius: unset !important;
+    height: 30px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button#upload-confirm-button:hover,
+button.btn.btn-secondary:hover,
+button.btn.btn-primary:hover {
+    background: #d18813 url(https://i.imgur.com/43EvY5M.gif) center;
+    border: unset;
+    box-shadow: 3px 3px #6e2c07;
+    background-blend-mode: soft-light;
+    padding-left: 20px;
+    transition: 0.5s cubic-bezier(0.53, -0.36, 0.01, 1.35);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d18813 url(https://i.imgur.com/43EvY5M.gif) center;
+    background-blend-mode: soft-light;
+}
+
+div#commentpreviewplace+p {
+    display: none;
+}
+
+
+.post-content h1+.alert.alert-success:before {
+    content: '.gold .crystal ' ' Дизайн подключён';
+    color: #be7808 !important;
+    font-family: 'El Messiri';
+    font-size: 20px;
+}
+
+.alert.alert-success {
+    font-size: 0;
+    text-align: center;
+    background: #0f0f0f00;
+    border: unset;
+}
+
+[method="POST"]~hr~div {
+    display: none;
+}
+
+.post-content h1 {
+    font-family: 'El Messiri';
+    color: #be7808;
+    font-size: 25px;
+}
+
+.crumbs a {
+    color: #cd8613;
+}
+
+.post-content h1+div *,
+.post-opt *,.post-opt span,
+.postsiblings.row a,
+.comment-box__message-partial.comment-content,
+.comment-box__message-partial.comment-content a,
+span.post-title-date+a {
+    font-family: 'Poiret One';
+    font-weight: bold;
+    color: #902800 !important;
+    font-size: 13px;
+}
+.comment-box {
+    margin: 10px;
+}
+.prevsibling.col-md-6,.nextsibling.text-right.col-md-6 {
+    padding: 0px;
+}
+.comment-text {
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+
+p.quotation {
+    padding: 0px;
+    padding-left: 8px;
+    font-size: 11px;
+    border-left: 2px solid #56180f;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+p.quotation br {
+    display: none;
+}
+
+.comment-base .post-opt,.comment-text+div {
+    text-align: right;
+}
+
+i.fas.fa-retweet,i.fas.fa-bookmark,i.fas.fa-trash-alt,i.fas.fa-quote-left {
+    font-size: 12px;
+    color: #6a2309;
+}
+
+.comment-text {
+    padding: 10px;
+}
+.postsiblings {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.postsiblings.row:before {
+    content: 'Другие темы:';
+    display: block;
+    width: 100%;
+    color: #a3690c;
+    font-family: 'El Messiri';
+}
+
+.nextsibling.text-right.col-md-6 {
+    text-align: left !important;
+}
+
+.comment-box h2 {
+    color: #a3690c !important;
+    font-family: 'El Messiri';
+    font-weight: 100;
+    font-size: 14px;
+}
+
+i.fas.fa-step-backward,i.fas.fa-step-forward,
+i.fas.fa-chevron-down {
+    display: none;
+}
+
+
+.comment-box h2, .comment-box__message-partial.comment-content {
+    text-align: right;
+}
+
+.tag_bar > span {
+    cursor: pointer;
+    color: #6a2309;
+}
+
+.textarea-wrapper {
+    background: #d18813 url(https://i.imgur.com/43EvY5M.gif) center left -153px;
+    border: unset;
+    box-shadow: 3px 3px #6e2c07;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+
+textarea:focus {
+    outline: unset;
+}
+textarea {
+    background: #101010;
+    border: unset;
+    padding: 5px;
+    color: #be7808;
+}
+
+
+
+
+.avatar-select-list {
+    height: 240px;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #d47b10 !important;
+    filter: opacity(0.5);
+}
+
+input[type="hidden"]+br {
+    display: none;
+}
+
+/*ПЛЕЕР*/
+
+
+
+div#beon-fnplayer {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+div#fnplayer-slider {
+    background: transparent;
+    border-bottom: 1px solid #be7808;
+}
+
+div#fnplayer-slider span {
+    font-size: 0px;
+}
+
+div#fnplayer-slider-inner {
+    background: transparent;
+    border: 1px solid #be7808;
+    border-bottom: unset;
+}
+
+div#fnplayer-slider-inner {
+    background: transparent;
+    border: 1px solid #be7808;
+    border-bottom: unset;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+div#fnplayer-volume {
+    border: unset;
+    border-bottom: 1px solid #be7808;
+    background: transparent;
+}
+
+div#fnplayer-volume-inner {
+    border: 1px solid #be7808;
+    border-bottom: unset;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    background: transparent;
+    border: 1px solid #be7808;
+}
+
+button#fnplayer-play {
+    border: 1px solid red !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    height: 11px !important;
+    width: 3px !important;
+    border-color: #be7808 !important;
+    opacity: 1;
+    margin-right: 5px;
+    clip-path: polygon(0 0, 0% 100%, 90% 50%);
+    background: #be7808;
+}
+
+
+#fnplayer-play.paused {
+    background: transparent !important;
+}
+#fnplayer-play.paused {
+    border: 1px solid red !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    height: 10px !important;
+    width: 3px !important;
+    border-color: #be7808 !important;
+    opacity: 1;
+    margin-right: 5px;
+    clip-path: unset;
+}
+
+input[type="text"] {
+    background: #0f0f0f;
+    border: 1px inset #3e2600;
+    color: #be7808;
+}
+
+form.messageform p, form.messageform div {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: 'El Messiri';
+    color: #be7808;
+}
+.textareabg div {
+    color: #be7808;
+    font-family: 'El Messiri';
+}
+
+input[type="text"]:focus {
+    outline: unset;
+}
+
+.container-fluid.mt-5+br+br+p,
+input[type="hidden"]+p,
+input[type="text"]+br+br+p {
+    color: #be7808;
+    font-family: 'El Messiri';
+    margin-bottom: 0px;
+}
+.textareabg br {
+    display: none;
+}
+
+.content h1 {
+    color: #be7808;
+    font-family: 'El Messiri';
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #b87c0f;
+    transform: rotate(45deg);
+}
+ul.menu__box {
+    background: #101010;
+    padding-top: 20px;
+    width: auto;
+    padding-right: 20px;
+}
+a.menu__item {
+    font-family: 'Poiret One';
+    color: #b87c0f;
+    font-size: 13px;
+}
+.menu__item:hover {
+    background-color: #d18813;
+    color: #101010;
+}
+
+/*МЕДИА*/
+
+@media (min-width: 1180px) {
+main.py-4 {
+    min-width: 920px;
+}
+}
+
+
+@media (max-width: 1024px) {
+.bg-white+.crumbs:before,.bg-white+.crumbs:after {
+    display: none;
+}
+::marker {
+    font-size: 0;
+}
+
+.pc-menu ul {
+    padding: 0px;
+}
+
+.bg-white {
+    padding: 5px;
+}
+main.py-4 {
+    width: 90%;
+}
+.post-content,.datebg {
+    margin: 0px !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 17px;
+}
+.bg-white+.crumbs:before,.bg-white+.crumbs:after {
+    display: none;
+}
+}
+
+@media (max-width: 768px) {
+main.py-4 {
+    width: 90%;
+}
+.post-content,.datebg {
+    margin: 0px !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 17px;
+}
+.bg-white+.crumbs:before,.bg-white+.crumbs:after {
+    display: none;
+}
+}
+
+
+
+
+
+@media (max-width: 700px) {
+.avatar-select-list {
+    height: 100px;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 17px;
+}
+main.py-4 {
+    width: 100%;
+    flex-flow: column;
+    border: unset;
+}
+.post-content {
+    margin: 0px !important;
+}
+.post-row {
+    flex-direction: column;
+}
+.left-menu {
+    width: 100%;
+}
+.mobile_open_menu h3.left-menu-text {
+    text-align: center;
+}
+.datebg {
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+}
+.bg-white {
+    padding: 5px;
+}
+.textareabg {
+    padding: 5px;
+}
+.bg-white+.crumbs:before,.bg-white+.crumbs:after {
+    display: none;
+}
+.post-text {
+    padding: 10px;
+    font-size: 14px;
+}
+.datebg {
+    background: #101010;
+}
+h3.left-menu-text {
+    background: #101010 !important;
+}
+body.bodybg {
+    background: url(https://beon.vip/uploads_image/c6/2c/c62cd6a0e801faf4068dcc4c8a434b87.png) fixed,
+    url(https://i.ibb.co/bX422Zg/2-1-460.png) no-repeat left center fixed;
+    background-color: #1a1918;
+    background-size: auto,auto;
+    background-position: top -515px left;
+}
+.bg-white+.crumbs {
+    margin-top: 190px;
+}
+.crumbs {
+    background: #101010;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-size: 0;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'Down';
+    color: black;
+    line-height: normal;
+    display: block;
+    color: #b87c0f !important;
+    font-family: 'El Messiri';
+    font-weight: 100;
+    font-size: 25px;
+}
+
+}
+
+.modal-content {
+    background: #101010;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+    color: #c97c00;
+    font-family: 'El Messiri';
+    font-size: 25px;
+}
+
+.modal-body {
+    color: #c9800a;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+
+.modal-body a {
+    color: #93320e;
+}
+
+.post-content {
+    margin-top: 20px !important;
+    margin-bottom: 45px !important;
+}
+
+.form__show-avatars {
+    color: black !important;
+}
