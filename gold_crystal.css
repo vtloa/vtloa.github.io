@@ -18,7 +18,7 @@ a.post-title,a.user.post-title-user,.datebg,h3.left-menu-text,.crumbs {
 }
 
 .post-text a, .post-text span, .post-text div {
-    color: #902800 !important;
+    color: #7c2a0b !important;
 }
 
 .post-text,
@@ -431,7 +431,7 @@ div#commentpreviewplace+p {
 span.post-title-date+a {
     font-family: 'Poiret One';
     font-weight: bold;
-    color: #902800 !important;
+    color: #7c2a0b !important;
     font-size: 13px;
 }
 .comment-box {
