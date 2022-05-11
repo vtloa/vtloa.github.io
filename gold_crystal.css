@@ -888,3 +888,7 @@ i.fas.fa-heart {
 span.pagination-goto {
     font-size: 0;
 }
+
+[src="//beon.fun/i/offline.png"] {
+    display: none;
+}
