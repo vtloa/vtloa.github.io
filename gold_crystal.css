@@ -884,3 +884,7 @@ i.fas.fa-heart {
 .comment-text a {
     color: #7c2a0b !important;
 }
+
+span.pagination-goto {
+    font-size: 0;
+}
