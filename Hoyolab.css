@@ -2216,8 +2216,9 @@ nav.navbar+.crumbs .pagination {
 }
 
 @media (max-width: 800px) {
+
 [href="/design/disable"]:before {
-    display: none;
+    display: none !important;
 }
 
 .left-menu:before {
@@ -2703,6 +2704,6 @@ div.left-menu {
     padding: 22px;
 }
 [href="/design/disable"]:before {
-    display: none;
+    display: none !important;
 }
 }
