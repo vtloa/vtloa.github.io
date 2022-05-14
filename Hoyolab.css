@@ -2216,6 +2216,9 @@ nav.navbar+.crumbs .pagination {
 }
 
 @media (max-width: 800px) {
+[href="/design/disable"]:before {
+    display: none;
+}
 
 .left-menu:before {
     display: none;
@@ -2698,5 +2701,8 @@ div.left-menu {
 }
 .emj-dropdown-content [src^="//beon.fun/i/smiles/kolobok/"] {
     padding: 22px;
+}
+[href="/design/disable"]:before {
+    display: none;
 }
 }
