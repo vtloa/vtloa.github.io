@@ -2182,11 +2182,19 @@ div#imagefsmodal {
 }
 
 
+div#beon-fnplayer {
+    background: transparent;
+    position: fixed;
+    top: 16px;
+    left: 325px;
+    width: 100px;
+    border-radius: 4px;
+    z-index: 222222;
+}
 
-
-
-
-
+div#fnplayer-volume {
+    width: 20px;
+}
 
 
 
@@ -2282,6 +2290,10 @@ i.fas.fa-heart {
 }
 span.crumb-item {
     padding: 0px;
+}
+div#beon-fnplayer {
+    position: unset;
+    width: 100%;
 }
 }
 
@@ -2705,5 +2717,9 @@ div.left-menu {
 }
 [href="/design/disable"]:before {
     display: none !important;
+}
+div#beon-fnplayer {
+    position: unset;
+    width: 100%;
 }
 }
