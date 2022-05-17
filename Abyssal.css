@@ -1202,3 +1202,7 @@ div#TB_window  input.button {
 * {
      font-family: "CyrBit" !important;
 }
+
+div#righthome {
+    overflow: visible;
+}
