@@ -1206,3 +1206,12 @@ div#TB_window  input.button {
 div#righthome {
     overflow: visible;
 }
+
+div.profile_comment_body {
+    font-size: 20px;
+    line-height: normal;
+}
+div#user_status {
+    line-height: normal;
+    padding-top: 2px;
+}
