@@ -1040,3 +1040,7 @@ div#user_status {
     line-height: normal;
     padding-top: 2px;
 }
+
+body {
+    background-color: #00006a;
+}
