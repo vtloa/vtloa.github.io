@@ -1,3 +1,5 @@
+@font-face { font-family: "CyrBit"; src: url('//Luatr.github.io/fonts/CyrBit.ttf'); }
+
 .group_desc a {
     font-size: 15px;
     color: #c54ada !important;
@@ -1019,4 +1021,22 @@ div#TB_window  input.button {
 }
 ::-webkit-scrollbar-track {
     background: #0022aa;
+}
+
+
+* {
+     font-family: "CyrBit" !important;
+}
+
+div#righthome {
+    overflow: visible;
+}
+
+div.profile_comment_body {
+    font-size: 20px;
+    line-height: normal;
+}
+div#user_status {
+    line-height: normal;
+    padding-top: 2px;
 }
