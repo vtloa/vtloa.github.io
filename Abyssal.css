@@ -1,8 +1,6 @@
 @font-face { font-family: "CyrBit"; src: url('//Luatr.github.io/fonts/CyrBit.ttf'); }
 
-* {
-     font-family: "CyrBit";
-}
+
 
 
 a.btn.btn-primary,a.btn.btn-success {
@@ -1199,4 +1197,8 @@ div#TB_window  input.button {
 }
 ::-webkit-scrollbar-track {
     background: #0022aa;
+}
+
+* {
+     font-family: "CyrBit" !important;
 }
