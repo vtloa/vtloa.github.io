@@ -1,3 +1,10 @@
+@font-face { font-family: "CyrBit"; src: url('//Luatr.github.io/fonts/CyrBit.ttf'); }
+
+* {
+     font-family: "CyrBit";
+}
+
+
 a.btn.btn-primary,a.btn.btn-success {
     background: transparent;
     border: none;
