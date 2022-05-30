@@ -634,14 +634,16 @@ p.left-menu-text {
 }
 
 [href$="/unsubscribe"] {
-    color: #657ef8 !important;
+    color: #ffffff !important;
     padding: 5px;
     border-radius: 20px;
     display: block;
-    font-weight: bold;
     z-index: 222222222;
-    background: #e1e7ff;
-    width: 150px;
+    background: #2b2ec7;
+    width: 155px;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0 0 6px white;
 }
 
 .post-content [href$="/subscribe"]:before {
