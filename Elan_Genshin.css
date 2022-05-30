@@ -1041,3 +1041,17 @@ a.menu__item {
     color: white;
     font-family: 'genshin1';
 }
+
+span.pagination-goto {
+    color: white;
+}
+
+.pagination a {
+    font-size: 14px;
+    padding-right: 10px;
+    color: white !important;
+}
+
+.pagination {
+    font-size: 0;
+}
