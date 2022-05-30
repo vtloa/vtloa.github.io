@@ -309,7 +309,8 @@ a {
 .left-menu {
     overflow: hidden;
 }
-.blog__last-comments, .blog__read-me, .blog__tags, .community__members, .community__moders, .left-menu__friends.left-menu__friends_offline {
+.blog__last-comments, .blog__read-me, .blog__tags, .community__members, .community__moders, .left-menu__friends.left-menu__friends_offline,
+.blog__gifts,.blog__iread {
     max-height: 29px;
     overflow: hidden;
     transition: 0.5s;
@@ -321,7 +322,8 @@ a {
 .blog__tags:hover,
 .community__members:hover,
 .community__moders:hover,
-.left-menu__friends.left-menu__friends_offline:hover {
+.left-menu__friends.left-menu__friends_offline:hover,
+.blog__gifts:hover,.blog__iread:hover {
     max-height: 425px;
     transition: 0.5s;
 }
@@ -331,7 +333,8 @@ a {
 .blog__tags:hover h3.left-menu-text,
 .community__members:hover h3.left-menu-text,
 .community__moders:hover h3.left-menu-text,
-.left-menu__friends.left-menu__friends_offline:hover h3.left-menu-text {
+.left-menu__friends.left-menu__friends_offline:hover h3.left-menu-text,
+.blog__gifts:hover h3.left-menu-text,.blog__iread:hover h3.left-menu-text {
     background: white !important;
     color: #1c2572;
     transition: 0.2s;
