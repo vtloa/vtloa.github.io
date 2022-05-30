@@ -1055,3 +1055,15 @@ span.pagination-goto {
 .pagination {
     font-size: 0;
 }
+
+.comment-box .comment-base {
+    height: fit-content;
+}
+
+.comment-box .comment-text {
+    padding-bottom: 10px;
+}
+
+textarea {
+    color: #2f4ca1 !important;
+}
