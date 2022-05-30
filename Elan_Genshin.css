@@ -1067,3 +1067,8 @@ span.pagination-goto {
 textarea {
     color: #2f4ca1 !important;
 }
+
+
+.blog__about input[type="text"] {
+  max-width: 200px;
+}
