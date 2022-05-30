@@ -1734,4 +1734,5 @@ div#commentpreviewplace .comment-text {
 span.comments_count span::before {
     font-family: 'Font Awesome 5 Free';
     font-size: 0;
+    display: block;
 }
