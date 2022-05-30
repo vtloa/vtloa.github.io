@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=IBM+Plex+Serif:wght@200&display=swap');
+@font-face { font-family: "genshin1"; src: url('//Luatr.github.io/fonts/ja-jp.ttf'); }
+@font-face { font-family: "akbaal"; src: url('//Luatr.github.io/fonts/akbaal.ttf'); }
+
+/*
+font-family: 'Gabriela', serif;
+font-family: 'IBM Plex Serif', serif;
+*/
+
+
+/*===================*/
+
+textarea#csseditortext {
+    max-height: 401px;
+    overflow-y: auto !important;
+}
+
+/*===================*/
+
+body.bodybg {
+     background: url(https://i.ibb.co/rs1LTnf/os-non.png) no-repeat center fixed;
+    background-size: cover;
+    background-color: #09112d;
+}
+
+
+
+div#app:before {
+    content: 'лепестки';
+    font-size: 0;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    animation: slide 65s  linear infinite;
+    background: url(https://i.ibb.co/jL1rVQm/1200.png);
+    overflow: hidden;
+    display: block;
+    z-index: -1;
+    mix-blend-mode: lighten;
+}
+
+div#app:after {
+    content: "лепестки2";
+    font-size: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+    animation: slide2 15s linear infinite;
+    background: url(https://i.ibb.co/0DM7nkW/1200-2.png);
+    overflow: hidden;
+    mix-blend-mode: lighten;
+}
+
+
+
+
+@keyframes slide {
+0% {
+    background-position: 1200px -1330px;
+}
+100% {
+    background-position: -1200px 1330px;
+}
+}
+
+@keyframes slide2 {
+0% {
+    background-position: 943px -992px;
+}
+
+100% {
+    background-position: -943px 992px;
+}
+}
+
+
+
+
+main.py-4:before {
+    content: 'кости';
+    font-size: 0;
+    display: block;
+    width: 135px;
+    height: 135px;
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px,
+    url(https://i.pinimg.com/originals/72/2b/bb/722bbb51f69ffa50c147500c2ff60820.gif) no-repeat center / contain;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    animation: slide3 3s ease-in-out infinite;
+    mix-blend-mode: color-dodge;
+}
+
+
+@keyframes slide3 {
+0% {
+    transform: translate(-92px, -125px);
+}
+
+50% {
+    transform: translate(-82px, -165px) rotate(20deg);
+}
+100% {
+    transform: translate(-92px, -125px);
+}
+}
+
+
+
+
+/*==========================*/
+
+
+.left-menu, .post-row,.textareabg, .comment-box .comment-row {
+    background: linear-gradient(45deg, #2b2eca, #090e34c4);
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'genshin1';
+    font-size: 14px;
+    border: unset !important;
+    border-radius: 15px;
+    box-shadow: 5px 5px #050a1d;
+}
+
+.post-content.blog_total_counter {
+    height: 350px;
+}
+
+h3.left-menu-text {
+    background: #2b2ec7 !important;
+    font-size: 14px;
+    color: #5ba3ff;
+    font-family: 'genshin1';
+    line-height: 2;
+    text-align: center;
+}
+
+.bg-white {
+    background: transparent;
+    box-shadow: unset;
+    padding: 0px;
+}
+
+p.left-menu-text {
+    margin: 0px;
+}
+
+.post-content, .datebg {
+    margin: 15px !important;
+}
+
+div#app {
+    width: 90%;
+    margin: auto;
+}
+
+a.post-title {
+    color: white;
+    font-family: 'genshin1';
+    text-decoration: unset;
+}
+
+a.user.post-title-user {
+    font-family: 'genshin1';
+    color: #5ba3ff;
+    font-size: 15px !important;
+}
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+}
+
+span.post-title-date {
+    padding: 0;
+}
+
+.datebg {
+    border-radius: 10px;
+    font-family: 'genshin1';
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 100;
+    background: url(https://i.ibb.co/6Zkd8N6/1.png) no-repeat center right;
+    line-height: 3;
+}
+
+
+.post-avatar {
+    margin: 0px !important;
+}
+.post-avatar img,.text-center img {
+    border-radius: 10px;
+}
+.post-text {
+    padding: 10px;
+}
+
+.sign {
+    line-height: normal;
+    padding-top: 3px;
+    color: #5ba3ff;
+}
+
+span.post-title-date, .row.w-100 div {
+    font-family: 'genshin1';
+    color: #5ba3ff !important;
+    font-size: 12px;
+}
+
+[src="/i/user.png"],.user:before,img.flag,[src="/i/blog.png"],[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
+.post-row a,.post-row span,.left-menu a,.post-row div {
+    color: #5ba3ff !important;
+}
+
+
+/*плеер*/
+div#beon-fnplayer {
+    background: #2b2ec7;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #547af5 !important;
+}
+button#fnplayer-stop,div#fnplayer-slider {
+    background: #547af5;
+}
+
+div#fnplayer-slider {
+    border-radius: 5px;
+    overflow: hidden;
+}
+div#fnplayer-slider-inner,div#fnplayer-volume-inner {
+    background: white;
+}
+
+div#fnplayer-volume-mask {
+    border-color: #547af5 transparent transparent transparent;
+}
+
+div#fnplayer-slider span {
+    font-size: 0;
+}
+
+div#fnplayer-volume {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-menu-text form {
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+
+.blog__about input[type="text"] {
+    background: #2b2ec7;
+    border: unset;
+    border-radius: 10px 0 0 10px;
+    font-size: 13px;
+}
+
+.blog__about input[type="submit"] {
+    background: #547af5;
+    border: unset;
+    border-radius: 0 10px 10px 0;
+    color: #2a2ec6;
+    font-size: 13px;
+}
+
+.blog__about input[type="text"]::placeholder {
+    color: #547af5;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+
+
+.left-menu-text span.post-opt,span.readertime {
+    font-size: 11px;
+}
+
+
+/*ховеры*/
+
+a:hover {
+    text-decoration: unset;
+    color: #ffffff !important;
+    transition: 0.2s;
+}
+a {
+    transition: 0.2s;
+}
+
+
+.left-menu {
+    overflow: hidden;
+}
+.blog__last-comments, .blog__read-me, .blog__tags, .community__members, .community__moders, .left-menu__friends.left-menu__friends_offline {
+    max-height: 29px;
+    overflow: hidden;
+    transition: 0.5s;
+    transition-delay: 1.5s;
+}
+
+.blog__last-comments:hover,
+.blog__read-me:hover,
+.blog__tags:hover,
+.community__members:hover,
+.community__moders:hover,
+.left-menu__friends.left-menu__friends_offline:hover {
+    max-height: 425px;
+    transition: 0.5s;
+}
+
+.blog__last-comments:hover h3.left-menu-text,
+.blog__read-me:hover h3.left-menu-text,
+.blog__tags:hover h3.left-menu-text,
+.community__members:hover h3.left-menu-text,
+.community__moders:hover h3.left-menu-text,
+.left-menu__friends.left-menu__friends_offline:hover h3.left-menu-text {
+    background: white !important;
+    color: #1c2572;
+    transition: 0.2s;
+}
+
+.post-content.blog_total_counter {
+    font-family: 'genshin1';
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    opacity: 0;
+}
+
+.post-content.blog_total_counter h2 {
+    font-weight: 100;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0px;
+}
+
+.crumbs {
+    padding: 0;
+    color: #ffffff;
+    font-family: 'genshin1';
+}
+
+a.navbar-brand {
+    color: white !important;
+    font-family: 'akbaal';
+    font-weight: 100;
+}
+
+span.crumb-item {
+    font-weight: 100;
+}
+
+span.post-title-date+span {
+    opacity: 0;
+    transition: 0.2s;
+    transition-delay: 1s;
+    font-family: 'genshin1';
+    color: #ffffff !important;
+    font-size: 12px;
+}
+
+.post-content:hover span.post-title-date+span {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+/*==============*/
+
+p.left-menu-text, div.left-menu-text {
+    padding-left: 25px;
+    padding-top: 4px;
+    background: url(https://i.ibb.co/vH3kQ5S/image.png) no-repeat center left / 25px;
+    line-height: 2;
+}
+p.left-menu-text:hover,
+div.left-menu-text:hover {
+    background: url(https://i.ibb.co/yqYtGRJ/menu-active-7d95eeb.png) no-repeat center left;
+}
+
+.blog__about {
+    font-size: 13px;
+}
+.text-center+p {
+    border: unset;
+}
+h3.left-menu-text {
+    border-bottom: 1px solid #22279d;
+}
+
+
+a.navbar-brand {
+    background: url(https://i.ibb.co/B3Jby6s/4.png) no-repeat right;
+    background-size: 42px;
+    padding-right: 45px;
+}
+
+.pc-menu * {
+    color: #ffffff80 !important;
+    font-family: 'genshin1';
+}
+
+ul.navbar-nav.ml-auto {
+    margin-left: unset !important;
+    margin-right: 30px;
+}
+
+.pc-menu:hover {
+    max-height: 200px;
+    transition: 0.5s;
+}
+
+.pc-menu {
+    max-height: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+.pc-menu ul {
+    background: url(https://i.ibb.co/vH3kQ5S/image.png) no-repeat center left;
+    background-size: 25px;
+    padding-left: 25px;
+}
+
+::marker {
+    font-size: 0;
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 0;
+    width: 60px;
+    height: 60px;
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    mix-blend-mode: luminosity;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 0;
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    mix-blend-mode: luminosity;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline:hover {
+    transform: translateY(25px) rotate(50deg);
+    transition: 0.5s;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    transform: translateY(-25px) rotate(50deg);
+    transition: 0.5s;
+}
+
+/*редактор текста*/
+
+.textareabg,.comment-content {
+    margin: 15px !important;
+}
+
+.col-md-4 {
+    padding: 0px;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+.col-md-4 p,br+br+p,input[type="hidden"]+p {
+    margin-bottom: 0px;
+}
+
+form.messageform br {
+    display: none;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+.comment-base {
+    margin-left: 10px;
+}
+
+.comment-base .post-opt {
+    position: sticky;
+    top: 100%;
+    text-align: right;
+}
+
+.comment-content {
+    min-height: auto;
+}
+
+.comment-box h2 {
+    margin: 20px;
+    color: white;
+    font-family: 'genshin1';
+    font-size: 17px;
+}
+
+.left-menu__friends.left-menu__friends_offline:hover {
+    transition-delay: 0.8s;
+}
+
+span.post-opt {
+    padding-bottom: 7px;
+}
+
+
+
+.comment-row {
+    box-shadow: unset !important;
+}
+span.post-title-date+a {
+    color: white;
+    font-family: 'genshin1';
+    font-size: 12px;
+}
+
+.post-content .postsiblings.row {
+    display: none;
+}
+
+.comment-box__message-partial.comment-content a {
+    color: #ffffff !important;
+}
+
+.comment-box__message-partial.comment-content {
+    color: #ffffff !important;
+    font-family: 'genshin1';
+    font-size: 14px;
+    padding: 3px;
+}
+
+.comment-box .comment-base {
+    background: #bdd1ffe8 !important;
+    color: #2f4ca1 !important;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #1fa6f7;
+}
+.comment-content a.user.post-title-user, .comment-content span.post-title-date {
+    color: #ffffff !important;
+}
+
+.comment-row {
+    background: transparent !important;
+    padding: 0px !important;
+}
+
+.comment-row {
+    width: fit-content;
+}
+
+p.quotation {
+    padding: 0px;
+    padding-left: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+    border-color: #1fa6f7;
+}
+
+textarea {
+    background: #b1cafa;
+    border-radius: 15px;
+    border: unset;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background: #547af5;
+    border: unset;
+    border-radius: 10px;
+    color: #2427b0;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: white;
+    transition: 0.2s;
+}
+
+p.left-menu-text {
+    padding-bottom: 0px !important;
+}
+.left-menu br {
+    display: none;
+}
+.crumbs a {
+    color: #5ba3ff !important;
+}
+
+
+.post-content [href$="/subscribe"] {
+    background: #547af5;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 0;
+    display: block;
+    text-align: center;
+    width: 85px;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+[href$="/unsubscribe"] {
+    color: #657ef8 !important;
+    padding: 5px;
+    border-radius: 20px;
+    display: block;
+    font-weight: bold;
+    z-index: 222222222;
+    background: #e1e7ff;
+    width: 150px;
+}
+
+.post-content [href$="/subscribe"]:before {
+    content: '+';
+    font-size: 20px;
+}
+
+.post-content h1+div [data-target="#deleteconfirmmodal"] {
+    background: #547af5;
+    color: white !important;
+    border-radius: 20px;
+    padding: 6px;
+    display: block;
+    width: fit-content;
+    transition: 0.3s;
+    font-family: 'genshin1';
+    font-size: 12px;
+}
+.post-content h1 {
+    font-family: 'genshin1';
+    color: white;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.left-menu__user-notification.left-menu__unread-message p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.left-menu__user-notification.left-menu__unread-message p+p {
+    padding: 10px;
+    overflow-wrap: break-word;
+    color: #5ba3ff;
+}
+
+
+
+
+
+
+.left-menu {
+    position: relative;
+    overflow: visible;
+}
+
+.post-row {
+    position: relative;
+}
+.left-menu:before {
+    content: 'уголок';
+    background: url(https://i1.beon.fun/60/43/4360/16/265516/ugolok.png) no-repeat center / contain;
+    display: block;
+    width: 37px;
+    height: 37px;
+    font-size: 0;
+    transform: rotate( 175deg );
+    position: absolute;
+    left: -16px;
+    top: -16px;
+    filter: drop-shadow(-1px 1px 7px gold) saturate(0);
+}
+
+.left-menu:after,.post-row:before {
+    content: 'уголок';
+    background: url(https://i1.beon.fun/60/43/4360/16/265516/ugolok.png) no-repeat center / contain;
+    display: block;
+    width: 37px;
+    height: 37px;
+    font-size: 0;
+    transform: rotate( -90deg);
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    filter: drop-shadow(-1px 1px 7px gold) saturate(0);
+}
+
+
+
+
+.blog__about:before {
+    content: 'уголок';
+    background: url(https://i1.beon.fun/60/43/4360/16/265516/ugolok.png) no-repeat center / contain;
+    display: block;
+    width: 37px;
+    height: 37px;
+    font-size: 0;
+    transform: rotate( 0deg);
+    position: absolute;
+    right: -16px;
+    bottom: -16px;
+    filter: drop-shadow(-1px 1px 7px gold) saturate(0);
+}
+
+.blog__about:after {
+    content: 'уголок';
+    background: url(https://i1.beon.fun/60/43/4360/16/265516/ugolok.png) no-repeat center / contain;
+    display: block;
+    width: 37px;
+    height: 37px;
+    font-size: 0;
+    transform: rotate( 90deg);
+    position: absolute;
+    left: -16px;
+    bottom: -16px;
+    filter: drop-shadow(-1px 1px 7px gold) saturate(0);
+}
+
+script+div,div#footer {
+    font-size: 0;
+}
+
+div+[style="text-align: center"], div+[style="text-align: center"] a {
+    font-family: 'genshin1';
+    font-weight: 100;
+    color: #4786ff5c;
+    font-size: 12px;
+    text-align: left !important;
+}
+
+div+[style="text-align: center"]:after {
+    content: 'css.beon.fun';
+    display: block;
+}
+
+
+/*скролл*/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b0b2b9;
+    border-radius: 5px;
+    box-shadow: 0 0 11px #ffffff;
+}
+::-webkit-scrollbar-track {
+    background: #050a1d;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0,0,0,0);
+}
+
+
+/*МЕДИА*/
+
+
+@media (max-width: 1440px) {
+
+div#app {
+    width: 98%;
+}
+.text-center img {
+    max-width: 100%;
+}
+main.py-4:before {
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    animation: unset;
+    transform: translate(-45px, -84px);
+    display: none;
+}
+div#app:before,div#app:after {
+     display: none;
+}
+
+.left-menu {
+    min-width: 200px;
+}
+p.left-menu-text, div.left-menu-text,
+p.left-menu-text:hover, div.left-menu-text:hover {
+    padding-left: 7px;
+    background: transparent;
+}
+
+.post-content.blog_total_counter {
+    height: 250px;
+}
+.pc-menu {
+    max-height: 90px;
+}
+a.navbar-brand {
+    font-size: 0;
+    height: 40px;
+}
+.blog__about input[type="text"] {
+    width: 133px;
+}
+}
+
+
+
+@media (max-width: 1024px) {
+
+div#app {
+    width: 98%;
+}
+.text-center img {
+    max-width: 100%;
+}
+main.py-4:before {
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    animation: unset;
+    transform: translate(-45px, -84px);
+    display: none;
+}
+div#app:before,div#app:after {
+     display: none;
+}
+
+.left-menu {
+    min-width: 200px;
+}
+p.left-menu-text, div.left-menu-text,
+p.left-menu-text:hover, div.left-menu-text:hover {
+    padding-left: 7px;
+    background: transparent;
+}
+
+.post-content.blog_total_counter {
+    height: 250px;
+}
+.pc-menu {
+    max-height: 90px;
+}
+a.navbar-brand {
+    font-size: 0;
+    height: 40px;
+}
+.blog__about input[type="text"] {
+    width: 133px;
+}
+}
+
+
+
+@media (max-width: 768px) {
+.post-content {
+    margin: 10px !important;
+}
+.hamburger-menu {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #00c0ff;
+}
+
+div#app {
+    width: 98%;
+}
+.text-center img {
+    max-width: 100%;
+}
+main.py-4:before {
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    animation: unset;
+    transform: translate(-45px, -84px);
+    display: none;
+}
+div#app:before,div#app:after {
+     display: none;
+}
+
+.left-menu {
+    min-width: 200px;
+}
+p.left-menu-text, div.left-menu-text,
+p.left-menu-text:hover, div.left-menu-text:hover {
+    padding-left: 7px;
+    background: transparent;
+}
+
+.post-row {
+    flex-direction: column;
+}
+.post-content.blog_total_counter {
+    height: 250px;
+}
+}
+
+
+
+@media (max-width: 700px) {
+.comment-box .comment-base {
+    padding: 5px !important;
+    margin-left: 5px;
+}
+div#app {
+    width: 95%;
+    margin: auto;
+}
+.post-content, .datebg {
+    margin: 0px !important;
+}
+main.py-4:before {
+    background: url(https://i.ibb.co/jfNFkJd/image.png) no-repeat center / 50px;
+    animation: unset;
+    transform: translate(-45px, -84px);
+    display: none;
+}
+
+div#app:before,div#app:after {
+     display: none;
+}
+.post-content.blog_total_counter {
+    height: auto;
+    display: none;
+}
+.left-menu {
+    margin-top: 270px !important;
+}
+.post-row {
+    flex-direction: column;
+}
+body.bodybg {
+    background: url(https://i.ibb.co/rs1LTnf/os-non.png) no-repeat top center fixed;
+    background-size: cover;
+    background-color: #09112d;
+}
+.mobile_open_menu h3.left-menu-text {
+    border-radius: 15px;
+    margin-bottom: 0px;
+    font-size: 17px !important;
+    font-weight: 100 !important;
+}
+.post-content {
+    margin-top: 20px !important;
+}
+a.post-title {
+    display: block;
+    width: auto;
+}
+.textareabg, .comment-content {
+    margin: 0px !important;
+    margin-top: 20px !important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 15px;
+    padding: 0px;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    color: #00c0ff;
+    font-family: 'genshin1';
+    text-decoration: unset;
+    text-transform: uppercase;
+}
+}
+
+ul.menu__box {
+    background: #2b2ec7;
+    width: auto;
+}
+
+a.menu__item {
+    color: white;
+    font-family: 'genshin1';
+    font-weight: 100;
+    font-size: 13px;
+}
+.menu__item:hover {
+    background-color: #b1cafa;
+    color: #2234b5 !important;
+}
+
+.avatar-select-label {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.avatar-select-label-selected {
+    border-color: #1fa6f7;
+}
+
+.post-content h1+.alert.alert-success:before {
+    content: 'Elan Genshin ' ' Дизайн подключён';
+    color: #ffffff !important;
+    font-family: 'genshin1';
+    font-size: 20px;
+}
+
+.alert.alert-success {
+    font-size: 0;
+    text-align: center;
+    background: #0f0f0f00;
+    border: unset;
+}
+
+.post-content a {
+    color: white;
+    font-family: 'genshin1';
+}
