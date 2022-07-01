@@ -2626,7 +2626,10 @@ a.user.post-title-user {
 span.crumb-item {
     width: 100% !important;
     text-align: center;
-} 
+}
+.comment-box a.user.post-title-user {
+    line-height: 0.8;
+}
 }
 
 
