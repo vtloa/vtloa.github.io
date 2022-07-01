@@ -2584,3 +2584,29 @@ span.crumb-item,.pagination a:before {
     margin-bottom: -55px;
 }
 }
+
+/*UPD*/
+
+
+
+span[data-target="#deleteconfirmmodal"] {
+    display: unset;
+}
+
+span[data-target="#deleteconfirmmodal"]:before {
+    padding-top: 7px !important;
+}
+
+.crumbs [href="/"],span.crumb-item {
+    width: 230px !important;
+    display: inline-block;
+    text-align: center;
+}
+
+.crumbs [href="/"]+span.crumb-item {
+    display: none;
+}
+
+.pagination {
+    left: 65px;
+}
