@@ -2270,6 +2270,14 @@ a.my-menu.for-mobile.d-none.d-md-inline {
 .avatar-select-list {
     display: block !important;
 }
+.blog__about {
+    order: 90;
+    height: 55px;
+}
+
+ .blog__about:hover {
+    height: 150px;
+} 
 }
 
 
