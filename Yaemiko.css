@@ -1479,9 +1479,7 @@ form#messageform {
     margin-bottom: 20px;
 }
 
-.avatar-select-list {
-    width: 100px;
-}
+
 
 .tag_bar * {
     color: #f37ef2;
@@ -2491,7 +2489,6 @@ form#messageform input[type="hidden"]+div, .textareabg br+br+p+div {
     margin: 0px;
 }
 .avatar-select-list {
-    height: 100px;
     padding: 0px;
 }
   img.avatar-select-label {
