@@ -2610,3 +2610,22 @@ span[data-target="#deleteconfirmmodal"]:before {
 .pagination {
     left: 65px;
 }
+
+input[type="button"] {
+    background-color: #b297ff !important;
+    background: url(https://i.pinimg.com/originals/d1/72/21/d172217790709d0cdd5e6e3dcad61797.gif) no-repeat center;
+    line-height: 2;
+    text-align: center;
+    place-self: center;
+    color: #f1f8ff;
+    box-shadow: 0 3px 8px 1px #976fcb, inset 0px 5px 11px #c3deff69;
+    border-radius: 20px;
+    border: 3px solid #ffffff75;
+    text-shadow: 1px 1px 6px #f1f8ff;
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.4s cubic-bezier(0.54, 1.76, 0, 1.12);
+    height: 34px;
+}
