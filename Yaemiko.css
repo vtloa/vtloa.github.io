@@ -2166,10 +2166,14 @@ a.user.post-title-user {
 /*мееееееееееееееееееееееееееееееееееееееееееееедиа*/
 
 @media (max-width: 1024px) {
-  .container:after,
+.text-center {
+    display: none;
+}
+
+.container:after,
 .container:before,
 .bg-white:after,
-  .bg-white:before {
+.bg-white:before {
    display: none;
 }
 nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm {
