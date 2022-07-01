@@ -2305,9 +2305,7 @@ a.my-menu.for-mobile.d-none.d-md-inline {
 .pagination {
     position: unset;
 }
-.avatar-select-list {
-    display: block !important;
-}
+
 .blog__about {
     order: 90;
     height: 55px;
