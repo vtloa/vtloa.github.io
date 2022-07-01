@@ -2784,3 +2784,6 @@ label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2
 }
 
 
+.content h1 {
+    font-size: 0;
+}
