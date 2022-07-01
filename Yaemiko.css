@@ -2657,3 +2657,13 @@ span.crumb-item {
 .left-menu__user-notification.left-menu__unread-message h3.left-menu-text, .left-menu__user-notification.left-menu__unread-message input[type="submit"] {
     box-shadow: 0 3px 7px 0px #c893f5b5, inset 0px 5px 11px #c3deff69 !important;
 }
+
+
+a.post-subscribe {
+    font-size: 0px !important;
+}
+
+a.post-subscribe:before {
+    content: 'Подписаться +';
+    font-size: 14px;
+}
