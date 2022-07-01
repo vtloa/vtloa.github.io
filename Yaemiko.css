@@ -2086,6 +2086,80 @@ body {
     color: #b892ff;
 }
 
+
+
+
+/*============================UPD============================*/
+
+
+
+span[data-target="#deleteconfirmmodal"] {
+    display: unset;
+}
+
+span[data-target="#deleteconfirmmodal"]:before {
+    padding-top: 7px !important;
+}
+
+.crumbs [href="/"],span.crumb-item {
+    width: 230px !important;
+    display: inline-block;
+    text-align: center;
+}
+
+.crumbs [href="/"]+span.crumb-item {
+    display: none;
+}
+
+.pagination {
+    left: 65px;
+}
+
+input[type="button"] {
+    background-color: #b297ff !important;
+    background: url(https://i.pinimg.com/originals/d1/72/21/d172217790709d0cdd5e6e3dcad61797.gif) no-repeat center;
+    line-height: 2;
+    text-align: center;
+    place-self: center;
+    color: #f1f8ff;
+    box-shadow: 0 3px 8px 1px #976fcb, inset 0px 5px 11px #c3deff69;
+    border-radius: 20px;
+    border: 3px solid #ffffff75;
+    text-shadow: 1px 1px 6px #f1f8ff;
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.4s cubic-bezier(0.54, 1.76, 0, 1.12);
+    height: 34px;
+}
+
+.post-text,a.user.post-title-user,.comment-text {
+    background: #ffffffc2 !important;
+}
+
+a.user.post-title-user {
+    line-height: 2.3;
+}
+.comment-box a.user.post-title-user {
+    line-height: 1;
+}
+
+
+.post-text:after, .post-text:before, .comment-text:before, .comment-text:after {
+    left: -20px;
+    border-color: #ffffffc2 #ffffffc2 transparent transparent;
+}
+
+.post-text:before, .comment-text:before {
+    left: -20px;
+    border-color: #f7f1fd00 #ffffffc2 #ffffffc2 transparent;
+}
+
+
+
+
+
 /*мееееееееееееееееееееееееееееееееееееееееееееедиа*/
 
 @media (max-width: 1024px) {
@@ -2543,7 +2617,7 @@ span.crumb-item,.pagination a:before {
     background: red;
     display: none;
 }
-  .post-content h1+div {
+.post-content h1+div {
     margin-bottom: -55px;
 }
 a.user.post-title-user {
@@ -2555,69 +2629,4 @@ span.crumb-item {
 } 
 }
 
-/*UPD*/
 
-
-
-span[data-target="#deleteconfirmmodal"] {
-    display: unset;
-}
-
-span[data-target="#deleteconfirmmodal"]:before {
-    padding-top: 7px !important;
-}
-
-.crumbs [href="/"],span.crumb-item {
-    width: 230px !important;
-    display: inline-block;
-    text-align: center;
-}
-
-.crumbs [href="/"]+span.crumb-item {
-    display: none;
-}
-
-.pagination {
-    left: 65px;
-}
-
-input[type="button"] {
-    background-color: #b297ff !important;
-    background: url(https://i.pinimg.com/originals/d1/72/21/d172217790709d0cdd5e6e3dcad61797.gif) no-repeat center;
-    line-height: 2;
-    text-align: center;
-    place-self: center;
-    color: #f1f8ff;
-    box-shadow: 0 3px 8px 1px #976fcb, inset 0px 5px 11px #c3deff69;
-    border-radius: 20px;
-    border: 3px solid #ffffff75;
-    text-shadow: 1px 1px 6px #f1f8ff;
-    font-family: 'Comfortaa';
-    font-size: 14px;
-    margin-top: 10px;
-    margin-right: 10px;
-    transition: 0.4s cubic-bezier(0.54, 1.76, 0, 1.12);
-    height: 34px;
-}
-
-.post-text,a.user.post-title-user,.comment-text {
-    background: #ffffffc2 !important;
-}
-
-a.user.post-title-user {
-    line-height: 2.3;
-}
-.comment-box a.user.post-title-user {
-    line-height: 1;
-}
-
-
-.post-text:after, .post-text:before, .comment-text:before, .comment-text:after {
-    left: -20px;
-    border-color: #ffffffc2 #ffffffc2 transparent transparent;
-}
-
-.post-text:before, .comment-text:before {
-    left: -20px;
-    border-color: #f7f1fd00 #ffffffc2 #ffffffc2 transparent;
-}
