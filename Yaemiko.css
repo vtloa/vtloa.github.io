@@ -2636,3 +2636,7 @@ span.crumb-item {
 }
 
 
+[src="//beon.fun/i/online.png"],
+[src="//beon.fun/i/offline.png"]{
+    display: none;
+}
