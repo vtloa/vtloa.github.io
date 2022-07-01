@@ -307,19 +307,6 @@ div#beon-fnplayer {
 
 
 
-
-div#beon-fnplayer:before {
-    content: '';
-    display: block;
-    background: url(https://i.pinimg.com/originals/b7/c1/c2/b7c1c2407f1778192c2c59f2032b3c4a.gif) no-repeat center / contain;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: -85px;
-    right: 122px;
-    mix-blend-mode: screen;
-}
-
 h3.left-menu-text {
     background-color: #b297ff !important;
     background: url(https://i.pinimg.com/originals/d1/72/21/d172217790709d0cdd5e6e3dcad61797.gif) no-repeat center;
@@ -2582,6 +2569,9 @@ span.crumb-item,.pagination a:before {
 }
   .post-content h1+div {
     margin-bottom: -55px;
+}
+a.user.post-title-user {
+    line-height: 1;
 }
 }
 
