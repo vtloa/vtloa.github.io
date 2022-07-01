@@ -2787,3 +2787,9 @@ button{cursor: url(https://beon.vip/uploads_image/63/b7/63b7c3e6d0b0b87544022d98
 h3.left-menu-text {cursor: url(https://beon.vip/uploads_image/00/e3/00e3b9bbb21960cbdd49f70bcec9f0f8.png) , pointer!important;}
 
 label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2aadb912a77841453b5.png) , pointer!important;}
+
+    
+    
+.post-opt [style="position: absolute; bottom: 0px; right: 0px;"] {
+    font-size: 0;
+}
