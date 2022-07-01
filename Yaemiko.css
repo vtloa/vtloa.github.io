@@ -2653,7 +2653,13 @@ span.crumb-item {
     width: 100% !important;
     text-align: center;
     display: block;
-    line-height: normal;
+    line-height: 0;
+}
+    
+.pagination {
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .comment-box a.user.post-title-user {
