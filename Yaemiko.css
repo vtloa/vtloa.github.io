@@ -2549,6 +2549,10 @@ span.crumb-item,.pagination a:before {
 a.user.post-title-user {
     line-height: 1;
 }
+span.crumb-item {
+    width: 100% !important;
+    text-align: center;
+} 
 }
 
 /*UPD*/
