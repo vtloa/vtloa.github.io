@@ -2282,6 +2282,17 @@ a.my-menu.for-mobile.d-none.d-md-inline {
  .blog__about:hover {
     height: 150px;
 } 
+.blog__about [href^="//im.beon.fun/"],
+.blog__about [href^="/friends/delete/"],
+.blog__about [href$=".beon.fun/give-gift"],
+.blog__about [href^="//beon.fun/rating/user/"],
+[href="/design/disable"] {
+    position: unset;
+    transform: unset;
+    width: 50px;
+    float: left;
+    margin-top: 10px;
+}
 }
 
 
