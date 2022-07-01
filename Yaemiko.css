@@ -2337,7 +2337,7 @@ a.navbar-brand {
 .post-text {
     margin: 0px;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 11px;
     padding: 10px;
 }
 .post-content {
@@ -2536,7 +2536,7 @@ a.navbar-brand:before {
     left: 0px;
     width: auto !important;
 }
-  .text-center {
+.text-center {
     display: none !important;
 }
 span.crumb-item,.pagination a:before {
