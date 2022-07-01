@@ -2643,3 +2643,13 @@ span.crumb-item {
 [src="//beon.fun/i/offline.png"]{
     display: none;
 }
+
+.post-content h1+div {
+    margin-top: 25px;
+}
+
+.left-menu__user-notification.left-menu__unread-message input[type="submit"]:hover {
+    padding-left: 6px;
+    padding-right: 6px;
+    transform: translateY(-5px);
+}
