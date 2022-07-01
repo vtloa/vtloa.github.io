@@ -2091,6 +2091,9 @@ body {
 
 /*============================UPD============================*/
 
+.post-row:after,
+.post-row:before {top: -10px;}
+
 
 
 span[data-target="#deleteconfirmmodal"] {
