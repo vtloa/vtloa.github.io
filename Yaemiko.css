@@ -2610,3 +2610,14 @@ a.user.post-title-user {
 .comment-box a.user.post-title-user {
     line-height: 1;
 }
+
+
+.post-text:after, .post-text:before, .comment-text:before, .comment-text:after {
+    left: -20px;
+    border-color: #ffffffc2 #ffffffc2 transparent transparent;
+}
+
+.post-text:before, .comment-text:before {
+    left: -20px;
+    border-color: #f7f1fd00 #ffffffc2 #ffffffc2 transparent;
+}
