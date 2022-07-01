@@ -2667,3 +2667,25 @@ a.post-subscribe:before {
     content: 'Подписаться +';
     font-size: 14px;
 }
+
+
+[href="//beon.fun/p/discussions/unread"] {
+    animation: typing 0.5s infinite;
+}
+
+
+@keyframes typing {
+  0% {
+    filter: drop-shadow(4px 0px 0px white) saturate(3.5) hue-rotate(-2deg); 
+  }
+  
+  
+  100% {
+    filter: drop-shadow(4px 0px 0px white) saturate(1.5) hue-rotate(-2deg);
+  }
+}
+
+[href="//beon.fun/p/discussions/unread"]:hover {
+    animation: unset;
+}
+
