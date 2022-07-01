@@ -2793,20 +2793,4 @@ label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2
     font-size: 0;
 }
 
-.content h1 {
-    color: #fdfafb;
-    font-size: 0;
-    font-family: 'Comfortaa';
-    font-weight: bold;
-    text-align: center;
-}
-    
-span.post-opt~a {
-    color: #eb6dea !important;
-    font-weight: bold;
-}
 
-.post-content {
-    color: #b886fb;
-    font-weight: bold;
-}
