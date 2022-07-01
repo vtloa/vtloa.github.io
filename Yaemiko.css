@@ -2159,7 +2159,22 @@ a.user.post-title-user {
     border-color: #f7f1fd00 #ffffffc2 #ffffffc2 transparent;
 }
 
-
+.post-content a.post-title-user {
+    margin-left: 125px;
+    background: #ffffffc2 !important;
+    color: #eb6dea;
+    text-transform: lowercase;
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 3px;
+    max-height: 28px;
+}
 
 
 
@@ -2668,8 +2683,19 @@ span.crumb-item {
 .post-opt.col-12.col-md-6 {
     background: #ffffffc2;
 }
+.crumbs [href="/"], span.crumb-item {
+    display: unset;
+}
+.post-content a.user.post-title-user {
+    position: absolute;
+    top: 55px;
+    left: 65px;
+    margin: 0px;
+    padding: 6px;
+}
 }
 
+/*===============UPD===============*/
 
 [src="//beon.fun/i/online.png"],
 [src="//beon.fun/i/offline.png"]{
