@@ -2789,14 +2789,24 @@ h3.left-menu-text {cursor: url(https://beon.vip/uploads_image/00/e3/00e3b9bbb219
 label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2aadb912a77841453b5.png) , pointer!important;}
 
     
-    
 .post-opt [style="position: absolute; bottom: 0px; right: 0px;"] {
     font-size: 0;
 }
+
 .content h1 {
     color: #fdfafb;
     font-size: 0;
     font-family: 'Comfortaa';
     font-weight: bold;
     text-align: center;
+}
+    
+span.post-opt~a {
+    color: #eb6dea !important;
+    font-weight: bold;
+}
+
+.post-content {
+    color: #b886fb;
+    font-weight: bold;
 }
