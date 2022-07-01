@@ -2630,6 +2630,9 @@ span.crumb-item {
 .comment-box a.user.post-title-user {
     line-height: 0.8;
 }
+.post-opt.col-12.col-md-6 {
+    background: #ffffffc2;
+}
 }
 
 
