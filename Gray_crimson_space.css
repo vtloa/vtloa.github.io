@@ -905,7 +905,7 @@ input[type="submit"] {
 a.post-title {
     max-width: 60%;
     display: inline-block;
-    height: 35px;
+    max-height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
