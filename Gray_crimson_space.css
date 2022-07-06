@@ -897,3 +897,7 @@ input[type="submit"] {
 .textareabg {
     margin-top: 25px !important;
 }
+
+.blog__last-comments {
+    overflow-wrap: anywhere;
+}
