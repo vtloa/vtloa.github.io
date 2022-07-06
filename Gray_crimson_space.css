@@ -902,11 +902,3 @@ input[type="submit"] {
     overflow-wrap: anywhere;
 }
 
-a.post-title {
-    max-width: 60%;
-    display: inline-block;
-    max-height: 33px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
