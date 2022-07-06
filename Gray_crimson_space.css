@@ -951,3 +951,9 @@ input[type="submit"]:hover {
     opacity: 0.5;
     transition: 0.2s;
 }
+
+.emj-dropdown-content {
+    background: #121110;
+    border: 1px solid #363636;
+    box-shadow: 0 0 4px #000000;
+}
