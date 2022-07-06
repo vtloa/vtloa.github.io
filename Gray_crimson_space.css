@@ -889,3 +889,7 @@ span.pagination-goto {
 .post-content h1 {
     width: fit-content;
 }
+
+input[type="submit"] {
+    margin-top: 5px;
+}
