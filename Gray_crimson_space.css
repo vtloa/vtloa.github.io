@@ -942,3 +942,12 @@ button.btn.btn-secondary,button.btn.btn-primary {
 .modal-body a {
     color: #ffffff;
 }
+
+input[type="submit"] {
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+}
