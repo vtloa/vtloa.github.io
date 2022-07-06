@@ -961,3 +961,7 @@ input[type="submit"]:hover {
 .emj-dropdown-content a {
     padding: 5px;
 }
+
+.bg-white {
+    background: transparent;
+}
