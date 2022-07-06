@@ -893,3 +893,7 @@ span.pagination-goto {
 input[type="submit"] {
     margin-top: 5px;
 }
+
+.textareabg {
+    margin-top: 25px !important;
+}
