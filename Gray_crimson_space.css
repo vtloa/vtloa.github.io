@@ -873,3 +873,16 @@ span.pagination-goto {
 .comment-content span.post-title-date {
     line-height: 2;
 }
+
+
+.comment-content:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 26px;
+    background: #373737;
+    position: absolute;
+    bottom: -27px;
+    left: 20px;
+    z-index: 1;
+}
