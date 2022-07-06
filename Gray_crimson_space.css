@@ -869,3 +869,7 @@ span.comments_count {
 span.pagination-goto {
     display: none;
 }
+
+.comment-content span.post-title-date {
+    line-height: 2;
+}
