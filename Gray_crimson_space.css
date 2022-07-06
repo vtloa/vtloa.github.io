@@ -957,3 +957,7 @@ input[type="submit"]:hover {
     border: 1px solid #363636;
     box-shadow: 0 0 4px #000000;
 }
+
+.emj-dropdown-content a {
+    padding: 5px;
+}
