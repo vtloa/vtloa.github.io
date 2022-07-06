@@ -911,3 +911,34 @@ a.post-title {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+
+/*UPD*/
+
+.modal-content {
+    background: url(https://i.ibb.co/yn8XCYQ/355-2-3-4.png) center fixed;
+    background-size: 700px;
+    background-color: #0c0c0c;
+    font-family: 'PT Mono';
+    font-size: 14px;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+.modal-content {
+    color: #999999;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary {
+    background: #4c4c4c;
+    border: 1px outset #727070;
+    border-radius: unset;
+    padding: 3px;
+    color: black;
+}
+
+.modal-body a {
+    color: #ffffff;
+}
