@@ -886,3 +886,6 @@ span.pagination-goto {
     left: 20px;
     z-index: 1;
 }
+.post-content h1 {
+    width: fit-content;
+}
