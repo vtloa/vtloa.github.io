@@ -1144,7 +1144,7 @@ a.user.post-title-user {
     height: 16px;
     position: absolute;
     top: 17px;
-    right: 36px;
+    right: 25px;
     filter: hue-rotate(86deg) drop-shadow(2px 4px 6px black);
     z-index: 2;
     transition: 0.5s;
