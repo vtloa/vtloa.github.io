@@ -1926,3 +1926,8 @@ button#upload-confirm-button, button.btn.btn-secondary {
 button#upload-confirm-button:hover, button.btn.btn-secondary:hover {
     filter: unset;
 }
+
+
+.custom-file {
+    filter: brightness(0.5);
+}
