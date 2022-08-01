@@ -1340,6 +1340,12 @@ span.post-title-date {
     filter: unset;
 }
 
+
+.comment-box span.post-title-date {
+    right: 45pxpx;
+    top: 35px;
+}
+
 /*болото?*/
 
 a.post-title,a.user.post-title-user,.datebg,span.crumb-item,a.navbar-brand,.comment-box h2,span.lfd_action a{
@@ -1359,6 +1365,7 @@ input[type="text"], input[type="submit"],
 .pagination a,.sign{
     color: #4c4c4c !important;
 }
+
 
 
 /*----------МЕДИААААААА--------------*/
@@ -1799,7 +1806,14 @@ a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.
     position: unset;
     margin-right: 10px !important;
 }
+.comment-box span.post-title-date {
+    top: 10px;
+    right: 10px;
+} 
 }
+
+
+
 
 a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     content: 'down';
