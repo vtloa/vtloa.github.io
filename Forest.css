@@ -1911,7 +1911,7 @@ div#imagefsmodal img {
     border: unset;
 }
 
-button#upload-confirm-button, button.btn.btn-secondary {
+button#upload-confirm-button, button.btn.btn-secondary,button.btn.btn-primary {
     background: #445814;
     border: unset;
     border-radius: 3px;
@@ -1923,7 +1923,8 @@ button#upload-confirm-button, button.btn.btn-secondary {
     color: black;
 }
 
-button#upload-confirm-button:hover, button.btn.btn-secondary:hover {
+button#upload-confirm-button:hover, button.btn.btn-secondary:hover,
+button.btn.btn-primary:hover{
     filter: unset;
 }
 
