@@ -1822,3 +1822,11 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
 .tag_bar > span {
     color: #565555 !important;
 }
+
+i.far.fa-smile-wink {
+    color: #5c6e1a;
+}
+
+i.fas.fa-chevron-down {
+    display: none;
+}
