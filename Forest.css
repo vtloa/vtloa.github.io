@@ -1887,3 +1887,42 @@ div#imagefsmodal img {
     border-color: transparent transparent transparent #515151;
     border-width: 4px 0 4px 7px;
 }
+
+
+
+.modal-content {
+    background: #121212;
+    color: #767676;
+}
+
+.modal-content a {
+    color: #58681e !important;
+}
+
+.modal-content {
+    font-family: monospace;
+}
+
+.modal-header {
+    border: unset;
+}
+
+.modal-footer {
+    border: unset;
+}
+
+button#upload-confirm-button, button.btn.btn-secondary {
+    background: #445814;
+    border: unset;
+    border-radius: 3px;
+    filter: grayscale(1);
+    height: 26px;
+    padding: 5px;
+    line-height: 1;
+    min-width: 50px;
+    color: black;
+}
+
+button#upload-confirm-button:hover, button.btn.btn-secondary:hover {
+    filter: unset;
+}
