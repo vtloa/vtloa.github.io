@@ -1375,6 +1375,10 @@ input[type="text"], input[type="submit"],
 }
 
 
+.post-content+.post-content:before, .comment-box .comment-base:before {
+    border-color: #384213;
+}
+
 
 /*----------МЕДИААААААА--------------*/
 
