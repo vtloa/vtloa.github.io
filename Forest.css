@@ -1932,3 +1932,20 @@ button.btn.btn-primary:hover{
 .custom-file {
     filter: brightness(0.5);
 }
+
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #515151 !important;
+}
+
+
+#fnplayer-play.paused {
+    border-width: 0px 0 0px 9px !important;
+}
+
+div#fnplayer-volume-inner {
+    margin-bottom: -1px;
+}
+button#fnplayer-stop {
+    border-radius: 1px;
+}
