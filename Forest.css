@@ -1356,7 +1356,7 @@ span.post-title-date {
 
 /*болото?*/
 
-a.post-title,a.user.post-title-user,.datebg,span.crumb-item,a.navbar-brand,.comment-box h2,span.lfd_action a{
+a.post-title,a.user.post-title-user,.datebg,span.crumb-item,a.navbar-brand,.comment-box h2,span.lfd_action a,.left-menu__gift:before{
     color: #384213 !important;
 }
 
@@ -1375,7 +1375,8 @@ input[type="text"], input[type="submit"],
 }
 
 
-.post-content+.post-content:before, .comment-box .comment-base:before {
+.post-content+.post-content:before, .comment-box .comment-base:before,
+.left-menu__gift{
     border-color: #384213;
 }
 
