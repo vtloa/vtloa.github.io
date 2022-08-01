@@ -1346,6 +1346,14 @@ span.post-title-date {
     top: 35px;
 }
 
+.likebutton, i.fas.fa-retweet, i.fas.fa-bookmark, i.fas.fa-exclamation-triangle {
+    margin-left: 15px;
+}
+
+.likebutton, i.fas.fa-retweet, i.fas.fa-bookmark, i.fas.fa-exclamation-triangle {
+    margin-right: 15px;
+}
+
 /*болото?*/
 
 a.post-title,a.user.post-title-user,.datebg,span.crumb-item,a.navbar-brand,.comment-box h2,span.lfd_action a{
@@ -1818,6 +1826,9 @@ a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.
     top: 10px;
     right: 10px;
 } 
+.comment-row .likebutton, i.fas.fa-retweet, i.fas.fa-bookmark, i.fas.fa-exclamation-triangle {
+    margin-right: 0px !important;
+}
 }
 
 
