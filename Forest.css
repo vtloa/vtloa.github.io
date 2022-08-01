@@ -1949,3 +1949,7 @@ div#fnplayer-volume-inner {
 button#fnplayer-stop {
     border-radius: 1px;
 }
+
+.tag_bar {
+    margin-top: 15px;
+}
