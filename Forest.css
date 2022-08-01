@@ -1,0 +1,1812 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Finlandica&family=Jura:wght@300&display=swap');
+
+/*
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Finlandica', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
+/*===================*/
+
+body.bodybg {
+    background: url(https://i.ibb.co/48dzqDq/sent-1.png) fixed;
+    background-color: #0e0e0e;
+}
+
+div#app,a.menu__item {
+    font-family: monospace !important;
+}
+
+div#app {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    max-width: 1600px;
+}
+
+.post-content {
+    margin: 30px;
+}
+
+.comment-box {
+    margin: 30px;
+}
+.comment-content{
+    padding: 20px;
+}
+.left-menu>div {
+    margin-bottom: 15px;
+}
+
+.post-row {
+    padding: 20px;
+    min-height: 190px;
+}
+
+h3.left-menu-text {
+    background: transparent !important;
+    border-bottom: 1px solid #282828;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 2;
+    color: #5e5e4c;
+}
+
+* {
+    text-decoration: unset !important;
+}
+
+a, span, .blog__about, .sign {
+    color: #848484 !important;
+}
+
+.post-text, .comment-box .comment-base {
+    padding: 15px;
+    line-height: 1.5;
+    color: #8f8f89 !important;
+}
+
+.post-avatar {
+    margin: 0px !important;
+}
+
+.post-text {
+    padding: 15px;
+}
+
+p.left-menu-text {
+    margin: 0px;
+}
+
+.post-content.blog_total_counter {
+    display: none;
+}
+
+img,iframe {
+    filter: grayscale(1);
+    transition: 0.4s;
+}
+
+img:hover,iframe:hover,
+.left-menu__gift:hover img{
+    filter: unset;
+    transition: 0.4s;
+}
+
+.left-menu {
+    border: unset !important;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 40px;
+    position: sticky;
+    top: 60px;
+    width: 355px;
+    overflow: visible;
+}
+
+
+.text-center+p {
+    padding-top: 15px;
+    color: #8f8f89 !important;
+    padding-bottom: 15px;
+    font-size: 11px;
+}
+
+
+.row.w-100 {
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    position: sticky;
+    top: 100%;
+}
+
+.tag:before {
+    display: none;
+}
+
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+
+
+
+.post-content,.datebg,.textareabg {
+    margin: 40px !important;
+}
+
+.datebg {
+    font-weight: 100;
+    color: #445814;
+    padding-right: 10px;
+    font-size: 20px;
+    background: url(https://i.ibb.co/xD781zY/forest-4.png) no-repeat left center;
+    padding-left: 60px;
+}
+
+.user:before {
+    display: none;
+}
+
+span.post-title-date {
+    display: none;
+}
+
+.textareabg {
+    background: transparent;
+}
+
+.pc-menu {
+    display: none;
+}
+
+
+
+.hamburger-menu {
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 11px;
+    z-index: 3;
+}
+
+.menu__box {
+    z-index: 4;
+    display: block;
+    position: absolute;
+    margin-left: -5px !important;
+    top: 33px;
+    right: 0;
+    left: 0px;
+    width: 230px !important;
+    height: 0px;
+    padding: 10px;
+    list-style: none;
+    transition-duration: .25s;
+    background: #445814;
+    overflow: hidden;
+    border-bottom: unset;
+    color: #a9a9a9;
+    box-shadow: 10px 10px 0px #0e0e0e9c;
+}
+
+a.menu__item {
+    font-size: 16px !important;
+    text-align: left;
+    padding: 0px;
+    font-weight: 100;
+    text-transform: lowercase;
+    line-height: 1.4;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    height: 515px;
+}
+
+.bg-white {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    height: 50px;
+    z-index: 3;
+    backdrop-filter: blur(4px);
+    transition: 0.2s;
+}
+
+
+
+a.menu__item {
+    color: #0e0e0e !important;
+}
+
+div#beon-fnplayer {
+    background: transparent;
+}
+
+.container {
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+.left-menu__friends.left-menu__friends_offline:hover {
+    max-height: 500px;
+    transition: 1.4s;
+}
+
+.blog__about {
+    padding-bottom: 5px;
+}
+.community__moders,.community__members,.blog__last-comments,.blog__tags,.blog__read-me {
+    display: none;
+}
+
+.crumbs {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    height: 38px;
+    line-height: 2.6;
+}
+main.py-4 {
+    margin-top: 70px;
+}
+
+span.crumb-item {
+    padding: 4px;
+    padding-right: 15px;
+    line-height: 1.9;
+    font-weight: 100;
+    font-size: 20px;
+    color: #445814 !important;
+}
+.crumbs a+span.crumb-item {
+    font-size: 13px;
+    filter: grayscale(1);
+    display: none;
+}
+
+
+.blog__about {
+    font-size: 0;
+}
+.blog__about a,form * {
+    font-size: 14px;
+}
+
+.left-menu__gift img {
+    width: 30px;
+}
+
+.left-menu__gift a {
+    width: 53px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+}
+
+.left-menu__gift {
+    margin-top: 15px;
+}
+
+
+.left-menu__gift {
+    width: 40px;
+    margin: auto;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.right-menu-text {
+    margin-top: 10px;
+}
+
+
+.left-menu__gift:hover {
+    transform: translate(0px, 5px);
+    transition: 0.5s;
+}
+[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
+
+.datebg,.left-menu > div > h3 {
+    background-color: unset !important;
+}
+a.navbar-brand {
+    font-size: 25px;
+    color: #445814 !important;
+}
+
+a.post-title {
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+a.post-title:hover {
+    color: #406f16 !important;
+    transition: 0.5s;
+    padding-left: 35px;
+}
+
+
+.left-menu__friends.left-menu__friends_offline {
+    display: none;
+}
+
+input[type="text"], input[type="submit"] {
+    background: #445814;
+    border: unset;
+    border-radius: 3px;
+    filter: grayscale(1);
+    height: 26px;
+    padding: 5px;
+    line-height: 1;
+}
+
+
+input[type="text"] {
+    border-right: unset;
+}
+
+input[type="text"]::placeholder {
+    color: black;
+    font-size: 12px;
+}
+
+
+div#beon-fnplayer {
+    width: 100%;
+    margin: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#fnplayer-slider, div#fnplayer-volume {
+    background: #515151;
+    height: 2px;
+}
+
+div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    height: 4px;
+    margin-top: -1px;
+    border-radius: 3px;
+    background: #445814;
+}
+
+div#fnplayer-slider span {
+    font-size: 0px;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+button#fnplayer-stop {
+    width: 7px;
+    height: 7px;
+    background: #515151;
+}
+
+#fnplayer-play {
+    border-width: 4px 0 4px 7px;
+    height: 0px;
+    border-color: transparent transparent transparent #515151;
+}
+
+#fnplayer-play.paused {
+    border-style: double;
+    border-width: 0px 0 0px 10px;
+    width: 7px;
+    height: 7px;
+}
+
+
+.post-opt.col-12.col-md-6 div {
+    color: #515151 !important;
+    font-size: 0px;
+}
+.text-center {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.likebutton, i.fas.fa-retweet, i.fas.fa-bookmark, i.fas.fa-exclamation-triangle {
+    font-size: 14px !important;
+    color: #445814;
+}
+
+span.comments_count {
+    font-size: 14px;
+}
+
+.post-content img.flag {
+    display: none;
+}
+
+.blog__iread {
+    display: none;
+}
+
+
+h3.left-menu-text {
+    display: none;
+}
+
+.left-menu-text [action="/search"] {
+    display: none;
+}
+
+
+.blog__gifts {
+    padding-top: 10px;
+}
+
+.right-menu-text {
+    display: none;
+}
+
+div+[style="text-align: center"],div#footer,script+div {
+    font-size: 0;
+}
+
+nav.navbar a {
+    font-weight: 100;
+}
+
+span.crumb-item:before1 {
+    content: '';
+    background: url(https://i.ibb.co/3MzGmsZ/forest.png) no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.crumbs {
+    color: #52525200 !important;
+    background: transparent !important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #445814;
+}
+
+.menu__item {
+    transition: 0.5s;
+}
+.menu__item:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    color: #000000 !important;
+    padding-left: 25px;
+}
+
+a.user.post-title-user:before {
+    display: unset;
+}
+
+
+a.post-title:before,
+.menu__item:before,
+a.user.post-title-user:before,
+.row.w-100 a:before,.row.w-100 [data-deletelink$="delete"]:before {
+    content: '>';
+    opacity: 0;
+    padding-right: 10px;
+    margin-left: -20px;
+}
+
+a.post-title:hover:before,
+.menu__item:hover:before,
+a.user.post-title-user:hover:before,
+.row.w-100 a:hover:before,.row.w-100 [data-deletelink$="delete"]:hover:before,span.lfd_action a:before{
+    content: '>';
+    animation: blink 0.5s infinite;
+}
+
+
+
+@keyframes blink {
+  0% {opacity: 0.3;}
+  100% {opacity: 1;}
+}
+
+.left-menu-text a,a.user.post-title-user,
+.row.w-100 a,.row.w-100 [data-deletelink$="delete"]{
+    transition: 0.5s;
+}
+
+a.post-title:hover,.left-menu-text a:hover,a.user.post-title-user:hover,
+.row.w-100 a:hover,.row.w-100 [data-deletelink$="delete"]:hover,span.lfd_action a:hover {
+    transition: 0.5s;
+    color: #445814 !important;
+    padding-left: 15px;
+}
+
+
+a.post-title:hover {
+    padding-left: 35px;
+}
+
+span.post-title-date+span {
+    font-size: 0;
+}
+
+p.quotation br {
+    display: none;
+}
+
+p.quotation {
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-left: 1px solid #445814;
+    font-size: 12px;
+    color: #445814;
+}
+
+span.pagination-goto,div#commentpreviewplace+p {
+    display: none;
+}
+
+
+.comment-content .post-opt, .comment-text+div {
+    position: sticky;
+    top: 100%;
+    text-align: right;
+}
+
+.comment-content {
+    min-height: auto;
+}
+
+
+
+span.post-title-date+a {
+    display: none;
+}
+
+.comment-content {
+    position: relative;
+}
+
+
+
+.comment-box {
+    padding-bottom: 11px;
+}
+
+
+ul.menu__box {
+    border-radius: 3px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+textarea {
+    background: #0e0e0e;
+    border-radius: 3px;
+    color: #bababa;
+    padding: 10px;
+    border: 1px solid #1c1c1c;
+}
+
+textarea:focus {
+    outline: unset;
+    border: 1px solid #445814 ;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+div.crumbs {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 3.3;
+}
+
+
+
+.post-content .post-avatar {
+    margin-top: -50px !important;
+}
+
+a.post-title {
+    margin-left: 130px;
+    color: #445814 !important;
+}
+
+a.user.post-title-user {
+    left: 145px;
+    color: #445814 !important;
+}
+
+.post-content {
+    position: relative;
+}
+
+
+
+
+
+.post-content,.comment-base {
+    position: relative;
+}
+
+.post-content+.post-content:before,.comment-box .comment-base:before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid #445814;
+    border-left: 1px solid #445814;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.post-content.blog_total_counter+.post-content:before {
+  content: unset !important;
+}
+
+.left-menu__user-notification.left-menu__friends {
+    display: none;
+}
+
+
+.post-content, .left-menu>div {
+    border: 1px solid #1c1c1c;
+    border-radius: 3px;
+}
+
+
+.blog__gifts {
+    padding-bottom: 10px;
+}
+
+.left-menu__gift:before {
+    content: '';
+    display: block;
+    width: 71px;
+    height: 1px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 39px;
+    color: #445814;
+}
+.left-menu__gift {
+    position: relative;
+    overflow: visible;
+}
+
+.left-menu__gift {
+    border: 1px solid #445814;
+    border-radius: 3px;
+    background: #0e0e0e;
+}
+
+.left-menu__gift:last-child:before {
+    width: 7px;
+    height: 7px;
+    border: 1px solid;
+    left: 46px;
+    border-radius: 3px;
+}
+
+.left-menu-text a {
+    text-transform: lowercase;
+    font-size: 14px;
+    line-height: normal;
+}
+
+[data-deletelink$="clear-comments"],.post-content [href$="/unsubscribe"],a.post-subscribe{
+    background: #445814;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black !important;
+    text-transform: lowercase;
+    filter: grayscale(1);
+    transition: 0.2s;
+}
+
+.post-content [href$="/unsubscribe"] {
+    right: 0;
+    left: unset;
+}
+
+.post-content h1 {
+    color: #4f4f4f;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+[data-deletelink$="clear-comments"]:hover, .post-content [href$="/unsubscribe"]:hover,
+input[type="text"]:hover, input[type="submit"]:hover{
+    filter: unset;
+    transition: 0.2s;
+}
+
+
+ul.menu__box {
+    background: #3c3c3c;
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after,
+#menu__toggle:checked ~ .menu__btn > span::before{
+    filter: grayscale(1);
+}
+
+img.flag {
+    display: none;
+}
+
+[src^="//beon.fun/i/smiles/"] {
+    filter: unset;
+}
+
+
+
+/*скролл*/
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-button {
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3c3c3c;
+    border: 3px solid #0e0e0e;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #384213;
+}
+
+/*---------------*/
+
+
+.avatar-select-label {
+    border: 4px solid #2e2e2e;
+}
+.avatar-select-label-selected {
+    border-color: #445814 !important;
+    filter: unset;
+}
+.post-content a.user.post-title-user {
+    position: absolute;
+    top: 45px;
+    left: 145px;
+    font-size: 17px;
+}
+
+
+
+span.comments_count *,i.fas.fa-quote-left,i.fas.fa-trash-alt {
+    color: #445814 !important;
+}
+
+
+.crumbs a:first-child {
+    font-size: 0px;
+}
+
+
+
+
+.crumbs a:first-child:before {
+    content: '<< вернуться';
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    background: url(https://i.ibb.co/xD781zY/forest-4.png) no-repeat left center;
+    padding-left: 40px;
+    color: transparent;
+    transition: 0.2s;
+}
+
+.crumbs a:first-child:hover:before {
+    transition: 0.2s;
+    color: #445814;
+}
+
+
+/*иконки*/
+
+
+[href$=".beon.fun/give-gift"],
+[href^="//im.beon.fun/"],
+[href^="//beon.fun/rating/user/"],
+.left-menu-text [href="/p"],
+[href="/design/disable"],[href="/drafts"],
+.left-menu-text [href$=".beon.fun/subscriptions/"],
+[href="/answers"]{
+    background: url(https://img.icons8.com/windows/2x/gift-card.png) no-repeat center / 25px;
+    width: 30px;
+    height: 30px;
+    font-size: 0px !important;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: -30px;
+    z-index: 22;
+    background-color: #445814;
+    border-radius: 3px;
+    left: 28px;
+}
+
+
+
+/*для себя*/
+
+.left-menu-text [href="/p"]{
+    background: url(https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/2x/external-setting-essentials-pack-tanah-basah-glyph-tanah-basah-2.png) no-repeat center / contain;
+    background-color: #445814;
+}
+
+
+
+/*для остальных*/
+[href^="//im.beon.fun/"],
+[href="/drafts"] {
+    background: url(https://img.icons8.com/windows/2x/facebook-messenger.png) no-repeat center / 25px;
+    left: 113px;
+    background-color: #445814;
+}
+[href="/drafts"] {
+    background: url(https://img.icons8.com/small/2x/back-to-draft.png) no-repeat center / 25px;
+    left: 113px;
+    background-color: #445814;
+}
+
+[href^="//beon.fun/rating/user/"],
+.left-menu-text [href$=".beon.fun/subscriptions/"] {
+  background: url(https://img.icons8.com/fluency-systems-filled/2x/number-1.png) no-repeat center / 25px;
+  left: 195px;
+  background-color: #445814;
+}
+
+
+
+.left-menu-text [href$=".beon.fun/subscriptions/"] {
+  background: url(https://img.icons8.com/material-sharp/2x/renew-subscription.png) no-repeat center / 25px;
+  background-color: #445814;
+}
+
+[href^="//beon.fun/rating/user/"],[href="/design/disable"] {
+    z-index: 333;
+}
+
+[href="/design/disable"],
+[href="/answers"]{
+    background: url(https://img.icons8.com/fluency-systems-regular/2x/paint-palette.png) no-repeat center / 25px;
+    right: 28px;
+    background-color: #445814;
+    left: unset;
+}
+
+
+
+[href="/answers"]{
+    background: url(https://img.icons8.com/windows/2x/interview.png) no-repeat center / 25px;
+    background-color: #445814;
+}
+
+
+[href^="/friends/delete/"] {
+    background: url(https://img.icons8.com/small/2x/filled-minus-2-math.png) no-repeat center / 25px !important;
+    background-color: #445814 !important;
+}
+
+/*============2============*/
+
+a.actionfriend,a.actionignore,[href^="//beon.fun/p/positives/?user="],
+a.blog-subscribe{
+    background: url(https://img.icons8.com/ios-glyphs/2x/filled-plus-2-math.png) no-repeat center / 25px;
+    width: 30px;
+    height: 30px;
+    font-size: 0px !important;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: -70px;
+    z-index: 22;
+    background-color: #445814;
+    border-radius: 3px;
+    left: 28px;
+}
+
+a.actionignore {
+    background: url(https://img.icons8.com/material-rounded/2x/multiply.png) no-repeat center / 25px;
+    left: 113px;
+    background-color: #445814;
+}
+
+[href^="//beon.fun/p/positives/?user="] {
+  background: url(https://img.icons8.com/fluency-systems-filled/2x/expensive-2.png) no-repeat center / 25px;
+  left: 195px;
+  background-color: #445814;
+}
+
+a.blog-subscribe {
+  background: url(https://img.icons8.com/fluency-systems-regular/2x/star.png) no-repeat center / 25px;
+  right: 28px;
+    background-color: #445814;
+    left: unset;
+}
+
+.blog__about a {
+    font-size: 0;
+}
+
+/*имя*/
+
+
+[href$=".beon.fun/give-gift"]:after {
+    content: 'подарить';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+[href^="//im.beon.fun/"]:after {
+    content: 'ЛС';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+[href^="//beon.fun/rating/user/"]:after {
+    content: 'в топ';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+    display: block;
+    width: 45px;
+}
+
+[href="/design/disable"]:after {
+    content: 'диз офф';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+    display: block;
+    width: 60px;
+}
+
+
+a.actionfriend:after {
+    content: 'дружить';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+a.actionignore:after {
+    content: 'игнор';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+[href^="//beon.fun/p/positives/?user="]:after {
+    content: 'дать поз';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+    display: block;
+    width: 65px;
+}
+
+a.blog-subscribe:after {
+    content: 'подписаться';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+.left-menu-text a:after {
+    opacity: 0;
+    transition: 0.5s;
+}
+.left-menu-text a:hover:after {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+/*для меня*/
+
+.left-menu-text [href="/p"]:after {
+    content: 'настройки';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+[href="/drafts"]:after {
+    content: 'черновик';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.left-menu-text [href$=".beon.fun/subscriptions/"]:after {
+    content: 'лента';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+[href="/answers"]:after {
+    content: 'интервью';
+    color: #445814;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+a.actionfriend:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(https://i.ibb.co/Vg5tgQ1/747337.png) no-repeat center;
+    position: absolute;
+    bottom: -4px;
+    left: 80px;
+    filter: grayscale(1);
+    pointer-events: none;
+}
+
+
+/*сердце для особенного человека*/
+
+
+a.user.post-title-user {
+    position: relative;
+    left: unset;
+}
+
+.comment-box [href="//beon.fun/users/disenchantment"]:after {
+    content: '';
+    display: block;
+    background: url(https://img.icons8.com/tiny-color/2x/experimental-like-tiny-color.png) no-repeat center / contain;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 17px;
+    right: 36px;
+    filter: hue-rotate(86deg) drop-shadow(2px 4px 6px black);
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.comment-box [href="//beon.fun/users/disenchantment"]:hover:after {
+    transform: translateX(-15px);
+    transition: 0.5s;
+}
+
+.prevsibling.col-md-6 {
+    display: none;
+}
+
+.left-menu__user-notification.left-menu__unread-message {
+    color: #8f8f89;
+}
+
+.left-menu br {
+    display: none;
+}
+
+.left-menu__user-notification {
+    padding-top: 10px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    color: #405214;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.left-menu__user-notification p.left-menu-text {
+    padding-bottom: unset !important;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    width: 50px;
+    object-fit: none;
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    text-transform: lowercase;
+    font-size: 0px;
+    text-shadow: unset !important;
+    color: #405214 !important;
+}
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: 'down';
+    font-size: 20px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    content: 'up';
+    font-size: 20px;
+}
+
+
+.textareabg br {
+    display: none;
+}
+
+.textareabg {
+    color: #8f8f89;
+    line-height: normal;
+}
+
+input[type="text"]+br+br+p {
+    display: none;
+}
+.col-md-4 {
+    padding: 0px;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+
+
+select {
+    background: #4f4f4f;
+    border: unset;
+    border-radius: 3px;
+}
+
+.col-md-4 p {
+    margin-bottom: 0px;
+}
+
+.emj-dropdown-content {
+    max-width: 400px;
+    background: #4f4f4f;
+    border-radius: 3px;
+    max-height: 300px;
+}
+
+.emj-dropdown-content a {
+    padding: 2px;
+}
+
+.sign {
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.comment-base .post-opt * {
+    color: #445814 !important;
+    text-transform: lowercase;
+}
+.textareabg {
+    margin: 30px !important;
+}
+
+.comment-box h2 {
+    font-size: 20px;
+    color: #445814;
+}
+
+.comment-box__message-partial.comment-content {
+    border: unset;
+    padding: 0px;
+}
+
+.comment-box__message-partial.comment-content {
+    font-size: 0px;
+}
+
+span.lfd_action a {
+    font-size: 16px;
+    color: #445814 !important;
+    transition: 0.5s;
+}
+
+span.lfd_action a:before {
+    padding-right: 5px;
+}
+
+
+.comment-box .comment-base {
+    background: #0e0e0e;
+    border: 1px solid #1c1c1c;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.post-text a:hover,
+.left-menu__user-notification a:hover{
+    color: #445814 !important;
+    transition: 0.2s;
+    padding-left: 15px;
+}
+
+.pagination a:hover {
+    color: #445814 !important;
+    transition: 0.2s;
+}
+
+.textareabg input[type="submit"] {
+    margin-top: 10px;
+}
+
+.postsiblings.row {
+    display: none;
+}
+
+.row.w-100 {
+    text-transform: lowercase;
+}
+
+.post-text a,.post-text a:hover {
+    transition: 0.4s !important;
+}
+.pagination a {
+    font-size: 15px;
+    padding-right: 5px;
+}
+.pagination {
+    font-size: 0px;
+}
+
+span.post-title-date {
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    font-size: 14px;
+    color: #384213 !important;
+}
+
+
+[src^="//beon.fun/i/vkstickers/"] {
+    filter: unset;
+}
+
+/*болото?*/
+
+a.post-title,a.user.post-title-user,.datebg,span.crumb-item,a.navbar-brand,.comment-box h2,span.lfd_action a{
+    color: #384213 !important;
+}
+
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after,
+.blog__about .left-menu-text a,div#fnplayer-slider-inner, div#fnplayer-volume-inner,
+input[type="text"], input[type="submit"],
+[data-deletelink$="clear-comments"], .post-content [href$="/unsubscribe"],a.post-subscribe{
+    background-color: #384213;
+}
+
+
+.likebutton, i.fas.fa-retweet, i.fas.fa-bookmark, i.fas.fa-exclamation-triangle, i.fas.fa-quote-left, i.fas.fa-trash-alt, .comment-base .post-opt *, .row.w-100 *,
+.pagination a,.sign{
+    color: #4c4c4c !important;
+}
+
+
+/*----------МЕДИААААААА--------------*/
+
+
+/*========1024====*/
+
+@media (max-width: 1024px) {
+  .left-menu {
+    width: 250px;
+}
+  div#app {
+    width: 98%;
+}
+  .post-content,.comment-box {
+    margin: 10px !important;
+}
+.comment-content {
+    padding: 0px;
+}
+.comment-base {
+    margin: 10px !important;
+}
+  .left-menu {
+    position: relative;
+    top: 0px;
+    margin: 0px;
+}
+  [href$=".beon.fun/give-gift"],a.actionfriend,.left-menu-text [href="/p"] {
+    left: 0px;
+}
+  [href^="//im.beon.fun/"],a.actionignore,[href="/drafts"] {
+    left: 65px;
+}
+  [href^="//beon.fun/rating/user/"],.left-menu-text [href$=".beon.fun/subscriptions/"],[href^="//beon.fun/p/positives/?user="] {
+    left: 125px;
+}
+  [href="/design/disable"], [href="/answers"],a.blog-subscribe {
+    right: 0px;
+}
+a.actionfriend:before {
+    opacity: 0;
+}
+.bg-white {
+    backdrop-filter: unset;
+    background: #0e0e0e !important;
+    border: 1px solid #1c1c1c;
+    position: static;
+    top: 0px;
+    margin: 0px !important;
+}
+.hamburger-menu {
+    position: unset;
+    margin-right: 10px;
+}
+  .container {
+    margin-left: 10px;
+}
+.container {
+    padding: 0px;
+}
+.hamburger-menu {
+    margin: 0px !important;
+    margin-left: 20px !important;
+    margin-top: 5px !important;
+}
+ul.menu__box {
+    margin-left: 12px !important;
+    margin-top: 36px;
+}
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    margin-right: 10px;
+}
+.datebg {
+    margin: 10px !important;
+}
+.crumbs {
+    margin-top: 40px !important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 16px;
+    padding: 0px;
+}
+a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.w-100 a:hover, .row.w-100 [data-deletelink$="delete"]:hover, span.lfd_action a:hover {
+    transition: 0.5s;
+    color: #445814 !important;
+    padding-left: 0px;
+}
+.comment-box [href="//beon.fun/users/disenchantment"]:hover:after {
+    transform: unset;
+    transition: 0.5s;
+}
+.comment-box [href="//beon.fun/users/disenchantment"]:after {
+    left: -5px;
+}
+}
+
+
+
+
+
+/*========768====*/
+
+@media (max-width: 768px) {
+  .left-menu {
+    width: 250px;
+}
+  div#app {
+    width: 98%;
+}
+  .post-content,.comment-box {
+    margin: 10px !important;
+}
+.comment-content {
+    padding: 0px;
+}
+.comment-base {
+    margin: 10px !important;
+}
+  .left-menu {
+    position: relative;
+    top: 0px;
+    margin: 0px;
+}
+  [href$=".beon.fun/give-gift"],a.actionfriend,.left-menu-text [href="/p"] {
+    left: 0px;
+}
+  [href^="//im.beon.fun/"],a.actionignore,[href="/drafts"] {
+    left: 65px;
+}
+  [href^="//beon.fun/rating/user/"],.left-menu-text [href$=".beon.fun/subscriptions/"],[href^="//beon.fun/p/positives/?user="] {
+    left: 125px;
+}
+  [href="/design/disable"], [href="/answers"],a.blog-subscribe {
+    right: 0px;
+}
+a.actionfriend:before {
+    opacity: 0;
+}
+.bg-white {
+    backdrop-filter: unset;
+    background: #0e0e0e !important;
+    border: 1px solid #1c1c1c;
+    margin: 2px !important;
+    position: static;
+    top: 0px;
+}
+.hamburger-menu {
+    position: unset;
+    margin-right: 10px;
+}
+  .container {
+    margin-left: 10px;
+}
+.container {
+    padding: 0px;
+}
+.hamburger-menu {
+    margin: 0px !important;
+    margin-left: 20px !important;
+    margin-top: 5px !important;
+}
+ul.menu__box {
+    margin-left: 12px !important;
+    margin-top: 36px;
+}
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    margin-right: 10px;
+}
+.datebg {
+    margin: 10px !important;
+}
+.crumbs {
+    margin-top: 40px !important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 16px;
+    padding: 0px;
+}
+a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.w-100 a:hover, .row.w-100 [data-deletelink$="delete"]:hover, span.lfd_action a:hover {
+    transition: 0.5s;
+    color: #445814 !important;
+    padding-left: 0px;
+}
+.comment-box [href="//beon.fun/users/disenchantment"]:hover:after {
+    transform: unset;
+    transition: 0.5s;
+}
+.comment-box [href="//beon.fun/users/disenchantment"]:after {
+    left: -5px;
+}
+}
+
+
+
+
+
+
+/*========700====*/
+
+@media (max-width: 700px) {
+div#app {
+    width: 95%;
+}
+.left-menu {
+    width: 98%;
+    position: relative;
+    top: unset;
+}
+  .post-content,.datebg {
+    margin: 0px !important;
+}
+  .post-row {
+    padding: 5px;
+}
+  .post-content .post-avatar {
+    margin: 0px !important;
+}
+  a.post-title {
+    margin: 0px;
+}
+.datebg,.post-content {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+.post-content a.user.post-title-user {
+    left: 85px;
+    top: 30px;
+}
+  .post-text {
+    padding: 10px;
+    padding-top: 30px;
+}
+  .post-content .post-avatar img {
+    width: 70px;
+}
+
+  a.post-title:before, .menu__item:before, a.user.post-title-user:before, .row.w-100 a:before, .row.w-100 [data-deletelink$="delete"]:before {
+    display: none;
+}
+  a.post-title:hover {
+    padding: unset;
+}
+  a.post-title {
+    font-size: 27px;
+    line-height: 2;
+}
+  .datebg {
+    background-size: 25px;
+    padding-left: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+.bg-white {
+    backdrop-filter: unset;
+    background: #0e0e0e !important;
+    border: 1px solid #1c1c1c;
+    position: static;
+    top: 0px;
+    margin: 0px !important;
+}
+  .left-menu > div.mobile_open_menu h3.left-menu-text {
+    display: block;
+    background: #3c3c3c !important;
+    color: #0e0e0e;
+    font-size: 14px;
+    border-radius: 3px;
+}
+  i.fas.fa-angle-down {
+    display: none;
+}
+  .left-menu__friends.left-menu__friends_offline,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.right-menu-text,
+  .left-menu__user-notification.left-menu__friends{
+    display: none !important;
+}
+.crumbs {
+    position: unset;
+    margin-top: 0px !important;
+}
+.content {
+    margin-top: 100px;
+}
+  .blog__about,.blog__gifts {
+    display: block !important;
+}
+  .mobile_open_menu {
+    display: none !important;
+}
+[href$=".beon.fun/give-gift"],a.actionfriend,.left-menu-text [href="/p"] {
+    left: 7% !important;
+}
+[href^="//im.beon.fun/"], a.actionignore, [href="/drafts"] {
+    left: 30%;
+}
+[href^="//beon.fun/rating/user/"],.left-menu-text [href$=".beon.fun/subscriptions/"],[href^="//beon.fun/p/positives/?user="] {
+    left: 60% !important;
+}
+[href="/design/disable"], [href="/answers"],a.blog-subscribe {
+    right: 7% !important;
+}
+  a.actionfriend:before {
+    opacity: 0;
+}
+  main.py-4 {
+    margin-top: 0px;
+}
+span.comments_count a {
+    font-size: 13px;
+}
+  span.comments_count span::before {
+    font-size: 13px;
+}
+.comment-box, .textareabg {
+    margin: 0px !important;
+}
+.comment-content {
+    padding: 5px;
+}
+.comment-base {
+    margin: 5px !important;
+}
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 15px !important;
+}
+.comment-box .comment-base {
+    padding: 10px;
+}
+p.quotation {
+    margin-left: 5px;
+}
+  main.py-4+.crumbs {
+    display: none;
+}
+.crumbs a:first-child:before {
+    position: absolute;
+    top: 66px;
+    bottom: unset !important;
+    z-index: 3;
+}
+.hamburger-menu {
+    position: unset;
+    margin-right: 10px;
+}
+  .container {
+    margin-left: 10px;
+}
+ul.menu__box {
+    left: unset;
+    margin-right: 10px;
+    margin-top: 20px;
+    box-shadow: -10px 10px 0px #0e0e0e9c;
+}
+.pagination {
+    font-size: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.crumbs {
+    text-align: center;
+    margin-top: 20px !important;
+}
+span.post-title-date {
+    position: unset;
+    padding: 0px;
+}
+a.post-title {
+    line-height: normal;
+    display: block;
+    max-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 195px;
+}
+span.post-title-date {
+    position: absolute;
+    top: 8px;
+    right: 11px;
+}
+[data-deletelink$="clear-comments"], .post-content [href$="/unsubscribe"],a.post-subscribe {
+    width: 49%;
+    height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.post-text.comment-text {
+    padding: 0px;
+}
+.post-content h1 {
+    display: none;
+}
+h1+div+div a.user.post-title-user {
+    position: unset !important;
+    padding-left: 5px;
+}
+.menu__item:hover {
+    background: #0e0e0e !important;
+    border-radius: 3px;
+    color: #5a5959 !important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 16px;
+    padding: 0px;
+}
+.form__show-avatars {
+    background: #3c3c3c;
+    display: block;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 4px;
+}
+.form__show-avatars span {
+    color: black !important;
+}
+.post-content [style="margin-left: 5px;"] {
+    height: 30px;
+}
+.post-avatar {
+    pointer-events: none;
+}
+.post-content .likebutton,.post-content i.fas.fa-retweet,.post-content i.fas.fa-bookmark,.post-content i.fas.fa-exclamation-triangle {
+    margin-right: 10px;
+}
+
+a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.w-100 a:hover, .row.w-100 [data-deletelink$="delete"]:hover, span.lfd_action a:hover {
+    transition: 0.5s;
+    color: #445814 !important;
+    padding-left: 0px;
+}
+.comment-box [href="//beon.fun/users/disenchantment"]:after {
+    left: -5px;
+}
+.hamburger-menu {
+    position: unset;
+    margin-right: 10px !important;
+}
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'down';
+    color: #384213;
+    font-size: 20px;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-size: 0;
+}
