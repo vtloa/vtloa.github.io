@@ -6,6 +6,9 @@ font-family: 'Finlandica', sans-serif;
 font-family: 'Jura', sans-serif;
 */
 
+*{cursor: url(https://i.ibb.co/7ynPRkH/finalcurgreen-1.png) , default!important;}
+a,button,img,input,b {cursor: url(https://i.ibb.co/J7Xtk84/finalcurgreen.png) , pointer!important;}
+
 /*===================*/
 
 body.bodybg {
