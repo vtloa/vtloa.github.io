@@ -1874,3 +1874,7 @@ i.fas.fa-chevron-down {
     z-index: 33333;
 }
 
+
+div#imagefsmodal img {
+    filter: unset;
+}
