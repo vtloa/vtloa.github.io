@@ -1878,3 +1878,9 @@ i.fas.fa-chevron-down {
 div#imagefsmodal img {
     filter: unset;
 }
+
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #515151;
+    border-width: 4px 0 4px 7px;
+}
