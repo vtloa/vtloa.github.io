@@ -1461,6 +1461,10 @@ a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.
 .comment-box [href="//beon.fun/users/disenchantment"]:after {
     left: -5px;
 }
+.comment-box span.post-title-date {
+    top: 10px;
+    right: 10px;
+}
 }
 
 
@@ -1556,6 +1560,10 @@ a.post-title:hover, .left-menu-text a:hover, a.user.post-title-user:hover, .row.
 }
 .comment-box [href="//beon.fun/users/disenchantment"]:after {
     left: -5px;
+}
+.comment-box span.post-title-date {
+    top: 10px;
+    right: 10px;
 }
 }
 
