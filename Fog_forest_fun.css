@@ -1,87 +1,11 @@
-/*ШРИФТ*/
-@font-face {
-font-family: 'fontab98630843bca2d00bb3a0a18f2e754a';
-    
-    src:    url('https://nomail.com.ua/files/eot/ab98630843bca2d00bb3a0a18f2e754a.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/ab98630843bca2d00bb3a0a18f2e754a.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/ab98630843bca2d00bb3a0a18f2e754a.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 
-@font-face { font-family: 'AGAvantGardeCyrBook';  src: local('AGAvantGardeCyrBook'), url('https://nomail.com.ua/files/woff/ab98630843bca2d00bb3a0a18f2e754a.woff') format('woff'); }
-
-
-
-/*ДВА*/
-
-@font-face {
-font-family: 'font2127aa6d0680b144a3bd8be9debeba09';
-    
-    src:    url('https://nomail.com.ua/files/eot/2127aa6d0680b144a3bd8be9debeba09.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/2127aa6d0680b144a3bd8be9debeba09.woff2') format('woff2');
-}
-
-@font-face { font-family: 'HelveticaNeueCyr-Light';  src: local('HelveticaNeueCyr-Light'), url('https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff') format('woff'); }
-
-
-
-/*ТРИ*/
-
-@font-face {
-font-family: 'fontd0b01fa97d4cb65c24547fae4b8ac17f';
-    
-    src:    url('https://nomail.com.ua/files/eot/d0b01fa97d4cb65c24547fae4b8ac17f.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/d0b01fa97d4cb65c24547fae4b8ac17f.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/d0b01fa97d4cb65c24547fae4b8ac17f.woff2') format('woff2');
-}
-
-@font-face { font-family: 'TheSalvadorCondensedCYR';  src: local('TheSalvadorCondensedCYR'), url('https://nomail.com.ua/files/woff/d0b01fa97d4cb65c24547fae4b8ac17f.woff') format('woff'); }
-
-
-
-/*ЧЕТЫРЕ*/
-
-@font-face {
-font-family: 'fontff0993442e48a4cd3678b32f3a456061';
-    
-    src:    url('https://nomail.com.ua/files/eot/ff0993442e48a4cd3678b32f3a456061.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/ff0993442e48a4cd3678b32f3a456061.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/ff0993442e48a4cd3678b32f3a456061.woff2') format('woff2');
-}
-
-@font-face { font-family: 'FuturisCyrillic';  src: local('FuturisCyrillic'), url('https://nomail.com.ua/files/woff/ff0993442e48a4cd3678b32f3a456061.woff') format('woff'); }
-
-
-/*ПЯТЬ*/
-
-
-@font-face {
-font-family: 'font3036ae86f3e196e33d3be155da20f495';
-    
-    src:    url('https://nomail.com.ua/files/eot/3036ae86f3e196e33d3be155da20f495.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/3036ae86f3e196e33d3be155da20f495.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/3036ae86f3e196e33d3be155da20f495.woff2') format('woff2');
-}
-
-@font-face { font-family: 'HelveticaNeueCyr-Thin';  src: local('HelveticaNeueCyr-Thin'), url('https://nomail.com.ua/files/woff/3036ae86f3e196e33d3be155da20f495.woff') format('woff'); }
-
-
-/*ШЕСТЬ*/
-
-@font-face {
-font-family: 'fonte4058bb68c8f43e2ddd14ac536bd2abb';
-    
-    src:    url('https://nomail.com.ua/files/eot/e4058bb68c8f43e2ddd14ac536bd2abb.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/e4058bb68c8f43e2ddd14ac536bd2abb.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/e4058bb68c8f43e2ddd14ac536bd2abb.woff2') format('woff2');
-}
-
-@font-face { font-family: 'AGAvantGardeCyrBook';  src: local('AGAvantGardeCyrBook'), url('https://nomail.com.ua/files/woff/e4058bb68c8f43e2ddd14ac536bd2abb.woff') format('woff'); }
-
+/*
+font-family: 'El Messiri', sans-serif;
+*/
 
 
 /*==================end=====================*/
-
 
 
 a {
@@ -918,4 +842,15 @@ a.navbar-brand {
 
 a,.left-menu *,h3.left-menu-text,.datebg {
     font-family: 'Nunito';
+}
+
+/*UPD*/
+
+
+span.crumb-item,[href="https://beon.fun"]:before,a.post-title {
+    font-family: 'El Messiri', sans-serif;
+}
+
+div#app+div+[style="text-align: center"] {
+    font-size: 0px;
 }
