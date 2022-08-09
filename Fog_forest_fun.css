@@ -946,3 +946,12 @@ ul.menu__box {
     background-color: #e2e1e6;
     color: black !important;
 }
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-size: 0px;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'DOWN';
+    font-family: 'El Messiri';
+    font-size: 17px;
+}
