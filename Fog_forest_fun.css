@@ -970,4 +970,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     padding-bottom: 1px;
 }
 
-
+.emj-dropdown-content {
+    background: #e2e1e6;
+    border: 1px solid #969696;
+}
