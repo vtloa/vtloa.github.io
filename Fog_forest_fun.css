@@ -909,3 +909,12 @@ i.fas.fa-bookmark,i.fas.fa-exclamation-triangle {
 [src="//beon.fun/i/online.png"] {
     filter: hue-rotate(-20deg) saturate(0.5);
 }
+
+span.pagination-goto {
+    display: none;
+}
+
+.pagination a {
+    font-family: 'El Messiri' !important;
+    padding-left: 5px;
+}
