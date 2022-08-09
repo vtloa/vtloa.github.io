@@ -858,3 +858,13 @@ span.crumb-item,[href="https://beon.fun"]:before,a.post-title {
 div#app+div+[style="text-align: center"] {
     font-size: 0px;
 }
+
+.left-menu__gift {
+    filter: grayscale(1);
+    transition: 0.2s;
+}
+
+.left-menu__gift:hover {
+    filter: unset;
+    transition: 0.2s;
+}
