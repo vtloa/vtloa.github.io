@@ -851,7 +851,8 @@ a.tag, .post-opt.col-12.col-md-6 a, a.tag, .post-opt.col-12.col-md-6 span {
 }
 
 
-span.crumb-item,[href="https://beon.fun"]:before,a.post-title {
+span.crumb-item,[href="https://beon.fun"]:before,a.post-title,
+.crumbs, .crumbs a{
     font-family: 'El Messiri', sans-serif;
 }
 
