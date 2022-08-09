@@ -955,3 +955,19 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     font-family: 'El Messiri';
     font-size: 17px;
 }
+
+.form__show-avatars {
+    background: #959095;
+    border: 1px outset #b3b3b3;
+    color: #3a343a;
+    box-shadow: 2px 2px 6px #7e787e;
+    width: fit-content;
+    font-family: 'El Messiri';
+    font-size: 17px;
+    line-height: normal;
+    padding: 3px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+
