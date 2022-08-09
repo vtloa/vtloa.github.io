@@ -931,3 +931,18 @@ a.blog-subscribe {
 span.comments_count span::before {
     display: none;
 }
+
+ul.menu__box {
+    margin-top: 60px;
+    margin-right: 10px;
+    height: 535px;
+    box-shadow: -5px 5px #2c2b2c45;
+    padding: 0px !important;
+    padding-top: 10px !important;
+    width: 250px;
+}
+
+.menu__item:hover {
+    background-color: #e2e1e6;
+    color: black !important;
+}
