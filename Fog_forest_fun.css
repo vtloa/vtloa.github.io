@@ -906,7 +906,7 @@ i.fas.fa-bookmark,i.fas.fa-exclamation-triangle {
     color: #456060;
 }
 
-[src="//beon.fun/i/online.png"] {
+[src="//beon.fun/i/online.png"],[src="/i/online.png"] {
     filter: hue-rotate(-20deg) saturate(0.5);
 }
 
