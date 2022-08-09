@@ -879,3 +879,10 @@ div#app+div+[style="text-align: center"] {
 div#commentpreviewplace+p {
     display: none;
 }
+
+.textareabg input[type="submit"] {
+    font-family: 'El Messiri';
+    font-size: 16px;
+    line-height: normal;
+    padding-top: 4px;
+}
