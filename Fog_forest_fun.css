@@ -926,3 +926,8 @@ span.pagination-goto {
 a.blog-subscribe {
     border: unset !important;
 }
+
+
+span.comments_count span::before {
+    display: none;
+}
