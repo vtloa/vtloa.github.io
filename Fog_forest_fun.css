@@ -868,3 +868,9 @@ div#app+div+[style="text-align: center"] {
     filter: unset;
     transition: 0.2s;
 }
+
+
+[action="/search"] input[type="submit"] {
+    padding-bottom: 3px;
+    padding-top: 7px;
+}
