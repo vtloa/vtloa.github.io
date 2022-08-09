@@ -918,3 +918,14 @@ span.pagination-goto {
     font-family: 'El Messiri' !important;
     padding-left: 5px;
 }
+
+.left-menu a {
+    transition: 0.2s;
+}
+
+.left-menu a:hover {
+    color: #3c7058;
+    text-decoration: unset;
+    transition: 0.2s;
+    padding-left: 10px;
+}
