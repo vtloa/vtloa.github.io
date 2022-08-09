@@ -846,13 +846,13 @@ a,.left-menu *,h3.left-menu-text,.datebg {
 
 /*UPD*/
 
-a.tag, .post-opt.col-12.col-md-6 a, a.tag, .post-opt.col-12.col-md-6 span {
+a.tag, .post-opt.col-12.col-md-6 a, a.tag, .post-opt.col-12.col-md-6 span,a.post-subscribe {
     font-family: monospace;
 }
 
 
 span.crumb-item,[href="https://beon.fun"]:before,a.post-title,
-.crumbs, .crumbs a,.comment-box h2{
+.crumbs, .crumbs a,.comment-box h2,.prevsibling.col-md-6 a, .nextsibling.text-right.col-md-6 a{
     font-family: 'El Messiri', sans-serif;
 }
 
@@ -885,4 +885,22 @@ div#commentpreviewplace+p {
     font-size: 16px;
     line-height: normal;
     padding-top: 4px;
+}
+
+
+.comment-text+div {
+    position: sticky;
+    top: 100%;
+}
+
+.fa-step-backward:before,.fa-step-forward:before {
+    color: #676767;
+}
+
+.prevsibling.col-md-6 a, .nextsibling.text-right.col-md-6 a {
+    color: #676767 !important;
+}
+
+i.fas.fa-bookmark,i.fas.fa-exclamation-triangle {
+    color: #456060;
 }
