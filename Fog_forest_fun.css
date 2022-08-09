@@ -846,6 +846,10 @@ a,.left-menu *,h3.left-menu-text,.datebg {
 
 /*UPD*/
 
+a.tag, .post-opt.col-12.col-md-6 a, a.tag, .post-opt.col-12.col-md-6 span {
+    font-family: monospace;
+}
+
 
 span.crumb-item,[href="https://beon.fun"]:before,a.post-title {
     font-family: 'El Messiri', sans-serif;
