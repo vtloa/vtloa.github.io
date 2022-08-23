@@ -1279,3 +1279,14 @@ span.comments_count a {
     color: white;
 }
 }
+
+/*UPD*/
+
+.content h1 {
+    color: #555656;
+    font-family: 'Jura';
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
