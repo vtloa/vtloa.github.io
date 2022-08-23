@@ -1290,3 +1290,16 @@ span.comments_count a {
     margin-left: 30px;
     text-align: center;
 }
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0px;
+    text-shadow: unset !important;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    content: 'UP';
+    font-size: 20px;
+    color: aliceblue;
+}
