@@ -535,3 +535,7 @@ div#footer {
     display: unset;
     font-size: 0;
 }
+
+script+div {
+    font-size: 0px;
+}
