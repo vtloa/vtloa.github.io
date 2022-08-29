@@ -612,3 +612,9 @@ input[type="submit"]:hover {
 div#commentpreviewplace+p {
     display: none;
 }
+
+textarea {
+    border: unset;
+    border-radius: 15px;
+    box-shadow: inset 0 0 4px #00000036;
+}
