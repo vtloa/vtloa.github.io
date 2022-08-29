@@ -556,3 +556,8 @@ p.left-menu-text,.left-menu__user-notification {
 span.readertime {
     font-size: 10px;
 }
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+}
