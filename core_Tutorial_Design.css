@@ -567,7 +567,7 @@ input[type="text"],input[type="submit"] {
     display: none;
 }
 
-p.left-menu-text,.left-menu__user-notification {
+p.left-menu-text,div.left-menu__user-notification a {
     padding: 5px !important;
 }
 
@@ -583,3 +583,4 @@ span.readertime {
 .mobile_open_menu h3.left-menu-text {
     margin: 0px;
 }
+
