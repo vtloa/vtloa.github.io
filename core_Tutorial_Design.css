@@ -539,3 +539,8 @@ div#footer {
 script+div {
     font-size: 0px;
 }
+
+input[type="text"],input[type="submit"] {
+    border-radius: 15px;
+    border: unset;
+}
