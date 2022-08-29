@@ -461,6 +461,18 @@ nav.navbar {
 .crumbs:after {
     position: unset;
 }
+.datebg {
+    font-size: 16px;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 16px;
+}
+span.comments_count a {
+    font-size: 16px !important;
+}
+.row.w-100 {
+    margin-top: 5px;
+}
 }
 
 
