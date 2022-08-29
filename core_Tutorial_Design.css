@@ -586,3 +586,19 @@ span.readertime {
 .left-menu > div.mobile_open_menu > h3 {
     font-weight: 100;
 }
+
+ul.menu__box {
+    overflow: auto;
+    width: auto;
+    background: white;
+    border-radius: 15px 0 0 15px;
+    height: auto;
+}
+
+a.menu__item {
+    font-size: 13px;
+}
+.menu__item:hover {
+    background-color: #b5b5b5ba;
+    color: white;
+}
