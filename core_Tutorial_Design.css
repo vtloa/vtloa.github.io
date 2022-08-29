@@ -602,3 +602,13 @@ a.menu__item {
     background-color: #b5b5b5ba;
     color: white;
 }
+
+input[type="submit"]:hover {
+    background: #27272752;
+    color: white;
+    transition: 0.5s;
+}
+
+div#commentpreviewplace+p {
+    display: none;
+}
