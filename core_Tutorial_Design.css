@@ -544,3 +544,11 @@ input[type="text"],input[type="submit"] {
     border-radius: 15px;
     border: unset;
 }
+
+.left-menu br {
+    display: none;
+}
+
+p.left-menu-text,.left-menu__user-notification {
+    padding: 5px !important;
+}
