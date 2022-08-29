@@ -561,3 +561,7 @@ span.readertime {
     position: sticky;
     top: 100%;
 }
+
+.mobile_open_menu h3.left-menu-text {
+    margin: 0px;
+}
