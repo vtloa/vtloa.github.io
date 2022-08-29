@@ -476,6 +476,9 @@ span.comments_count a {
 .post-opt.col-12.col-md-6.text-right {
     padding-right: 0px;
 }
+span.comments_count span::before {
+    font-size: 16px;
+}
 }
 
 
