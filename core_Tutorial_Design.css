@@ -552,3 +552,7 @@ input[type="text"],input[type="submit"] {
 p.left-menu-text,.left-menu__user-notification {
     padding: 5px !important;
 }
+
+span.readertime {
+    font-size: 10px;
+}
