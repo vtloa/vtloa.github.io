@@ -1129,14 +1129,6 @@ img.imagefsme {
 }
 
 
-.pin-container {
-    padding-bottom: unset;
-}
-
-span.embed-responsive.embed-responsive-16by9 {
-    width: calc(100% - 15px);
-}
-
 
 [href$="/unsubscribe"] {
     color: #657ef8 !important;
