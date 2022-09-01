@@ -1966,3 +1966,69 @@ button#fnplayer-stop {
     border-radius: 3px;
     color: black;
 }
+
+
+/*upd с подарками*/
+
+
+
+.blog__gifts .right-menu-text a:before {
+    content: '< подробнее >';
+    font-size: 12px;
+    color: #596a1a;
+    letter-spacing: 1px;
+}
+
+.blog__gifts .right-menu-text {
+    display: block !important;
+    text-align: center;
+    font-size: 0px;
+    color: #384213;
+}
+
+.left-menu__gift a {
+    display: block;
+    text-overflow: inherit;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    position: absolute;
+    top: -10px;
+    padding: 3px;
+    color: #445814 !important;
+    background: #0e0e0e;
+    border-radius: 3px;
+    border: 1px solid #445814;
+    font-size: 12px;
+    line-height: normal;
+    transform: translateX(-20px);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.left-menu__gift a {
+    pointer-events: none;
+}
+
+.left-menu__gift:hover a {
+    transform: translateX(-10px);
+    opacity: 1;
+    transition: 0.4s;
+    pointer-events: visible;
+}
+
+.blog__gifts .right-menu-text {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.blog__gifts:hover .right-menu-text {
+    max-height: 20px;
+    transition: 0.4s;
+}
+
+.left-menu__user-notification p.left-menu-text {
+    padding-bottom: 10px !important;
+}
