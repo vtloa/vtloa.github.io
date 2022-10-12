@@ -1301,3 +1301,13 @@ i.far.fa-smile-wink {
     font-size: 17px;
 }
 }
+
+
+/*UPD*/
+.post-content a {
+    color: #000000 !important;
+}
+.post-text a {
+    color: #797979 !important;
+    line-height: normal;
+}
