@@ -1311,3 +1311,8 @@ i.far.fa-smile-wink {
     color: #797979 !important;
     line-height: normal;
 }
+
+.post-text {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
