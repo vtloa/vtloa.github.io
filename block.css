@@ -8,17 +8,6 @@ font-family: 'Zen Kurenaido', sans-serif;
 */
 
 
-/*МОЁ ПРЕДО*/
-
-[src="//i1.beon.fun/21/15/1521/98/375898/stars-235.png"] {
-    content: url(https://i.pinimg.com/originals/c9/60/7b/c9607b10c208d988a4b0a20ce83ccadf.gif);
-    height: 400px;
-    width: 200px;
-    object-fit: cover;
-}
-
-/*УДАЛИТЬ*/
-
 
 .bg-white {
     background: #141010;
@@ -951,4 +940,87 @@ span:hover {
     width: fit-content;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+.crumbs [href="/p"], .crumbs [href="/p/"] {
+    background: #141010;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 6px;
+}
+
+h1.left-menu-text+div a {
+    background: transparent;
+    color: black;
+    padding: 0px;
+}
+
+h1.left-menu-text~div a {
+    color: black;
+}
+
+h1.left-menu-text~div a:hover {
+    color: #97502f;
+}
+
+.post-content .container-fluid .row a {
+    background: transparent !important;
+    color: black !important;
+    padding: 0px !important;
+}
+
+.post-content .col-md-6 {
+    padding: 0px;
+}
+
+.left-menu>div {
+    border-color: transparent;
+}
+
+.post-row, .comment-content,div#newpostform, .textareabg {
+    border: unset;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline,[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    border-radius: 3px;
+    background: linear-gradient( 322deg , #e8c64b, #ffaa65);
+    padding: 0px !important;
+    margin-top: 3px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: #f6f6f6;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    text-shadow: unset !important;
+}
+
+.post-avatar img {
+    border: 2px solid #141010;
+}
+.row.w-100 {
+    margin-left: -5px;
+}
+
+.mobile_open_menu {
+    background: #fbae6161 !important;
+}
+
+
+
+.menu__item:hover {
+    background-color: #ecc050;
+    padding-left: 10px;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #f6b45b;
+}
+
+button#fnplayer-stop,button#fnplayer-stop, div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    background: #f6b45b;
 }
