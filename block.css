@@ -941,3 +941,7 @@ ul.menu__box {
 span:hover {
     text-decoration: unset !important;
 }
+
+.comment-box__message-partial.comment-content a:hover {
+    color: #141010;
+}
