@@ -934,3 +934,10 @@ ul.menu__box {
     width: 100%;
 }
 }
+
+
+/*UPD*/
+
+span:hover {
+    text-decoration: unset !important;
+}
