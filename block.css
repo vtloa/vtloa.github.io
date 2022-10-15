@@ -945,3 +945,10 @@ span:hover {
 .comment-box__message-partial.comment-content a:hover {
     color: #141010;
 }
+
+
+.datebg {
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
