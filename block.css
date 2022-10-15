@@ -1024,3 +1024,7 @@ button#fnplayer-play {
 button#fnplayer-stop,button#fnplayer-stop, div#fnplayer-slider-inner, div#fnplayer-volume-inner {
     background: #f6b45b;
 }
+
+.left-menu {
+    border-color: transparent !important;
+}
