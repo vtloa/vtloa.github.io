@@ -2209,3 +2209,26 @@ div#beon-fnplayer {
 .post-content .row .col-md-6 {
     background: transparent;
 }
+
+.comment-row {
+    border: 2px ridge;
+    padding: 10px;
+    border-radius: 0 4px 4px 4px;
+}
+
+.comment-base {
+    border: unset !important;
+}
+
+.comment-box a.user.post-title-user {
+    left: 0;
+    top: -5px;
+}
+
+.comment-base {
+    margin: 0px !important;
+}
+
+.comment-row {
+    margin-bottom: 60px;
+}
