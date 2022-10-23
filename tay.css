@@ -2265,9 +2265,6 @@ a.actionignore {
     background: black;
 }
 
-html {
-    overflow-x: hidden;
-}
 
 .comment-box+.comment-box__message-partial.comment-content {
     display: none;
