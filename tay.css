@@ -2249,3 +2249,7 @@ div#fnplayer-slider span:before {
 .comment-box .post-opt,.comment-text+div {
     bottom: -51px;
 }
+
+a.actionignore {
+    display: none !important;
+}
