@@ -2264,3 +2264,7 @@ a.actionignore {
 .post-content {
     background: black;
 }
+
+html {
+    overflow-x: hidden;
+}
