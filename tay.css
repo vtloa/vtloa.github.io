@@ -2181,3 +2181,10 @@ div#beon-fnplayer {
     display: none !important;
 }
 }
+
+
+/*UPD*/
+
+.post-content a {
+    color: #ededed !important;
+}
