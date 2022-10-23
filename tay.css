@@ -2180,6 +2180,10 @@ div#beon-fnplayer {
     .post-content h1+div+div a {
     display: none !important;
 }
+.comment-box a.user.post-title-user {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
 }
 
 
