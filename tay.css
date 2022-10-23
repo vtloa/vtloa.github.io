@@ -2192,3 +2192,7 @@ div#beon-fnplayer {
 .post-content .row .col-md-6 {
     background: black;
 }
+
+::selection {
+    background: #391590;
+}
