@@ -2188,3 +2188,7 @@ div#beon-fnplayer {
 .post-content a,.post-content form,.content {
     color: #ededed !important;
 }
+
+.post-content .row .col-md-6 {
+    background: black;
+}
