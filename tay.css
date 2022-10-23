@@ -2186,6 +2186,11 @@ div#beon-fnplayer {
     padding-top: 3px;
     box-shadow: -2px 8px #00000094, 0 0 0px 1px #000000, 7px 7px #00000094, 0 0 0px 1px #000000;
 }
+div#fnplayer-slider span:before {
+    left: 0px;
+    width: 209px;
+    text-align: center;
+}
 }
 
 
