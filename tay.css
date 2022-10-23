@@ -2185,6 +2185,6 @@ div#beon-fnplayer {
 
 /*UPD*/
 
-.post-content a {
+.post-content a,.post-content form,.content {
     color: #ededed !important;
 }
