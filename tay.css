@@ -2194,6 +2194,9 @@ div#fnplayer-slider span:before {
 .text-center img {
     margin-top: 30px;
 }
+.post-avatar {
+    box-shadow: unset !important;
+}
 }
 
 
