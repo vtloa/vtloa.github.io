@@ -2181,8 +2181,10 @@ div#beon-fnplayer {
     display: none !important;
 }
 .comment-box a.user.post-title-user {
+    position: unset;
     padding-bottom: 3px;
     padding-top: 3px;
+    box-shadow: -2px 8px #00000094, 0 0 0px 1px #000000, 7px 7px #00000094, 0 0 0px 1px #000000;
 }
 }
 
