@@ -2189,7 +2189,7 @@ div#beon-fnplayer {
 div#fnplayer-slider span:before {
     left: 0px;
     width: 209px;
-    text-align: center;
+    text-align: left;
 }
 }
 
