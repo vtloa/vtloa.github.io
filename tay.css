@@ -2238,3 +2238,6 @@ div#beon-fnplayer {
 .comment-row {
     margin-bottom: 60px;
 }
+.comment-box .post-opt,.comment-text+div {
+    bottom: -51px;
+}
