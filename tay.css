@@ -2191,6 +2191,9 @@ div#fnplayer-slider span:before {
     width: 209px;
     text-align: left;
 }
+.text-center img {
+    margin-top: 30px;
+}
 }
 
 
