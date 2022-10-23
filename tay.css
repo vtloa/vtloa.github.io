@@ -2196,3 +2196,8 @@ div#beon-fnplayer {
 ::selection {
     background: #391590;
 }
+
+
+.comment-box__message-partial.comment-content a:after {
+    z-index: 3;
+}
