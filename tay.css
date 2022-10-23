@@ -2201,3 +2201,7 @@ div#beon-fnplayer {
 .comment-box__message-partial.comment-content a:after {
     z-index: 3;
 }
+
+.comment-box {
+    padding-top: 25px;
+}
