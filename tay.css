@@ -2253,3 +2253,7 @@ div#fnplayer-slider span:before {
 a.actionignore {
     display: none !important;
 }
+
+.content:before {
+    font-size: 50px;
+}
