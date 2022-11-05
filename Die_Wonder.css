@@ -1090,3 +1090,8 @@ button.btn.btn-secondary:hover, button.btn.btn-primary:hover, input[type="submit
     background: #533640;
     color: #0a0a0a;
 }
+
+button.btn.btn-secondary, button.btn.btn-primary,select {
+    background: #48353b;
+    color: #e9e9e9;
+}
