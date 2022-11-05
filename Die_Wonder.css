@@ -1052,3 +1052,6 @@ a.navbar-brand {
 div#fnplayer-slider-inner {
     background: #7e4c5c !important;
 }
+.hamburger-menu {
+    z-index: 4;
+}
