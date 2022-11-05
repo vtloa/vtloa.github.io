@@ -1042,3 +1042,6 @@ a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 
     font-size: 18px;
     color: #949294;
 }
+div#fnplayer-slider-inner {
+    background: #7e4c5c !important;
+}
