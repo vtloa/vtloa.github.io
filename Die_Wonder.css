@@ -1034,3 +1034,11 @@ a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 
     margin-bottom: 5px;
 }
 }
+
+
+/*UPD*/
+
+.content h1 {
+    font-size: 18px;
+    color: #949294;
+}
