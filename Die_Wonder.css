@@ -1074,3 +1074,7 @@ div#fnplayer-slider-inner {
 .hamburger-menu {
     z-index: 4;
 }
+
+button.btn.btn-secondary:hover, button.btn.btn-primary:hover, input[type="submit"]:hover {
+    background: #0a0a0a !important;
+}
