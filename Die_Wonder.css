@@ -235,11 +235,12 @@ textarea {
     padding: 5px;
 }
 select {
-    background: #48353b;
+    background: #422c33;
     border: unset;
     margin-bottom: 5px;
-    color: #e9e9e9;
+    color: #bfb3b3;
 }
+
 div#newpostform input[type="submit"] {
     background: #48353b;
     border: unset;
@@ -432,16 +433,16 @@ main.py-4+.crumbs {
     color: #835463;
 }
 
-button.btn.btn-secondary, button.btn.btn-primary,input[type="submit"] {
-    background: #48353b;
+button.btn.btn-secondary, button.btn.btn-primary, input[type="submit"] {
     border: unset;
-    color: #e9e9e9;
     font-size: 15px;
     border-radius: unset;
     padding: 5px;
     line-height: normal;
     min-width: 100px;
     box-shadow: 8px 8px 15px #000000ad;
+    background: #422c33 !important;
+    color: #bfb3b3 !important;
 }
 
 button.btn.btn-secondary:hover, button.btn.btn-primary:hover,input[type="submit"]:hover {
