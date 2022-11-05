@@ -826,6 +826,10 @@ a.navbar-brand,.menu__btn,[style="float:right;cursor:pointer;text-shadow: 1px 1p
 a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"], a.my-menu.for-mobile.d-none.d-md-inline, ul.menu__box {
     box-shadow: -8px -8px 15px #000000ad;
 }
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #bfb3b3 !important;
+    transform: rotateY(45deg);
+}
 }
 
 /*======768=====*/
@@ -883,6 +887,10 @@ a.navbar-brand,.menu__btn,[style="float:right;cursor:pointer;text-shadow: 1px 1p
 }
 a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"], a.my-menu.for-mobile.d-none.d-md-inline, ul.menu__box {
     box-shadow: -8px -8px 15px #000000ad;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #bfb3b3 !important;
+    transform: rotateY(45deg);
 }
 }
 
