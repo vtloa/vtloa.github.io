@@ -441,8 +441,8 @@ button.btn.btn-secondary, button.btn.btn-primary, input[type="submit"] {
     line-height: normal;
     min-width: 100px;
     box-shadow: 8px 8px 15px #000000ad;
-    background: #422c33 !important;
-    color: #bfb3b3 !important;
+    background: #422c33;
+    color: #bfb3b3;
 }
 
 button.btn.btn-secondary:hover, button.btn.btn-primary:hover,input[type="submit"]:hover {
