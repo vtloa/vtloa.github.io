@@ -605,6 +605,10 @@ a:hover {
     transition-delay: 20s;
 }
 
+.blog__read-me:active, .blog__iread:active, .blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active {
+    max-height: 300px;
+    transition: 0.1s;
+}
 
 .left-menu a:hover {
     padding-left: 10px;
@@ -903,7 +907,7 @@ a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 
     text-align: center;
 }
   
-  .left-menu:before {
+.left-menu:before {
     content: '';
     display: block;
     background: url(https://i.ibb.co/FBY4DJ6/64-11.gif) no-repeat center;
@@ -965,7 +969,6 @@ a.navbar-brand {
     padding-left: 3px;
     line-height: 1.9;
 }
-  
   
 .blog__read-me:hover, .blog__iread:hover, .blog__gifts:hover, .blog__tags:hover, .left-menu__user-notification:hover {
     max-height: 300px;
