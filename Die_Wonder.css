@@ -1041,8 +1041,11 @@ a.navbar-brand {
     color: #9d9b9f !important;
 }
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
-    position: unset;
+    position: fixed;
     background: #48353b !important;
+    top: unset;
+    bottom: 5px !important;
+    right: 5px !important;
 }
 }
 
