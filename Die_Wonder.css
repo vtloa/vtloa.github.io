@@ -1040,6 +1040,10 @@ a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 
 a.navbar-brand {
     color: #9d9b9f !important;
 }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    position: unset;
+    background: #48353b !important;
+}
 }
 
 
