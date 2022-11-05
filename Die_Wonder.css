@@ -1033,6 +1033,13 @@ a.navbar-brand, .menu__btn, [style="float:right;cursor:pointer;text-shadow: 1px 
   .comment-content {
     margin-bottom: 5px;
 }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    line-height: 1.9;
+    color: #9d9b9f !important;
+}
+a.navbar-brand {
+    color: #9d9b9f !important;
+}
 }
 
 
