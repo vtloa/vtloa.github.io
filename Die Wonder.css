@@ -358,9 +358,9 @@ a.menu__item {
     line-height: 1.7;
 }
 .menu__item:hover {
-    background-color: #48353b;
+    background-color: #422c33 !important;
     text-decoration: unset !important;
-    color: #e9e9e9;
+    color: #bfb3b3;
 }
 
 .row.w-100 {
