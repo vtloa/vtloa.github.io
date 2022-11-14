@@ -1736,3 +1736,9 @@ span.comments_count span::before {
     font-size: 0;
     display: none;
 }
+
+/*UPD 14.11.22*/
+
+.left-menu__user-notification.left-menu__unread-message img+p:after {
+    display: none;
+}
