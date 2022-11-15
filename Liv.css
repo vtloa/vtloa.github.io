@@ -911,7 +911,10 @@ span:hover {
     display: none !important;
 }
 
-
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+}
 
 
 
