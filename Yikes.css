@@ -1908,8 +1908,10 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     height: 224px;
 }
 .crumbs [href="/"] {
-    text-align: center;
     font-size: 19px;
-    margin-left: -2px !important;
+    width: calc(100% - 0px);
+    left: 2px;
+    text-align: left;
+    padding-left: 30px;
 }
 }
