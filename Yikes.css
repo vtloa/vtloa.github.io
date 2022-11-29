@@ -1904,4 +1904,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
 .left-menu {
     margin-top: 82px !important;
 }
+.blog__about {
+    height: 224px;
+}
 }
