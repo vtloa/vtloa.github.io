@@ -1897,4 +1897,8 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     position: unset !important;
     margin-top: 55px !important;
 }
+.crumbs {
+    text-align: left;
+    padding-left: 50px;
+}
 }
