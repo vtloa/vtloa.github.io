@@ -1840,12 +1840,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     line-height: 1.9;
     color: #fffdf7;
 }
-.left-menu:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 200px;
-}
+
 .crumbs [href="/"] {
     position: absolute;
     height: unset;
