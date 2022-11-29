@@ -1,0 +1,240 @@
+/*======================ДЛЯ НАСТРОЙКИ======================*/
+
+/*
+background - фон
+color - цвет текста
+border-color - цвет бордера
+!important - приоритет стиля, не терять
+
+
+
+background-size - размер картинки contain 
+    (учитывает пропорцию картинки и размер экрана, растягивает по экрану, но не обрезает)
+
+
+background-color - фон, но только цвет
+background-position - позиционирование картинки
+
+no-repeat - не зацикливать картинку
+top right - позиционирование в вверху, справа (снизу - bottom)
+fixed - зафиксировано, не прокручивается
+
+*/
+
+
+/*------Главная картинка------*/
+
+body.bodybg {
+    background: url(https://i1.beon.fun/52/31/3152/95/451995/tumblr_loynejc4gX1qhttpto1_r1_1280.jpg) no-repeat fixed;
+    background-size: contain; /*можно удалить если не нужно чтобы картинка масштабировалась*/
+    background-position: top right;
+    background-color: #eedab7;
+}
+
+
+
+/*------Основной фон окон, цвет бордера------*/
+
+
+.post-content,   /*посты*/
+.crumbs,  /*название днева*/
+.left-menu>div,  /*левое меню*/
+.textareabg,  /*ввод текста*/
+.comment-content, /*комментарии*/
+ul.menu__box /*цвет окна с навигацией*/,
+a.navbar-brand{
+    border-color: #2b3a32 !important;
+    background-color: #fffdf7;
+}
+
+
+/*------Основной фон блока который обрезает картинку, тот что бежевый------*/
+
+main.py-4 {
+    background: url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png) center right;
+    background-color: #eedab7;
+}
+
+/*------Фон плашек о себе, кнопки страниц, полоска-звук-кнопка плей плеера, цвет текста------*/
+
+
+
+span.pagination-goto+a, .pagination a:last-child, /*кнопки навигации по страницам*/
+div#fnplayer-slider-inner, div#fnplayer-volume-inner,button#fnplayer-play,
+label.menu__btn,.crumbs [href="/"],a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none,.pagination{
+    background: #2b3a32;
+    color: #fffdf7;
+}
+
+h3.left-menu-text {
+    background: #2b3a32 !important;
+    color: #fffdf7 !important;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    box-shadow: 5px 5px #2b3a325c;
+}
+
+
+/*------Плеер------*/
+
+div#fnplayer-slider, div#fnplayer-volume {
+    background: #7a9787 !important;
+}
+
+
+/*------Цвет ссылок, но не заголовков------*/
+
+span.readertime+a, a.messageform__taglinks, .row.w-100 a.tag,.blog__last-comments a,
+a.user.post-title-user, .post-text a, a.user,.post-content h1+div a,.textareabg div#commentpreviewplace .comment-content a{
+    color: #ff6600 !important;
+}
+
+
+/*------Фон окон для ввода, цвет текста------*/
+
+input[type="text"] {
+    background: #eedab7;
+    color: #2b3a32;
+}
+
+/*------Фон кнопок, цвет текста------*/
+
+input[type="submit"], input[type="submit"], input[type="submit"] {
+    background: #eedab7;
+    color: #2b3a32;
+}
+
+/*------Фон ховер (то что при наведении) для кнопок, окон для ввода, цвет текста------*/
+
+input[type="submit"]:hover, input[type="submit"]:hover,
+span.pagination-goto+a:hover, .pagination a:last-child:hover, .crumbs [href="/"]:hover,label.menu__btn:hover,
+.menu__item:hover,a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover{
+    background: #7a9787;
+    color: #fffdf7;
+}
+
+
+/*------Цвет текста------*/
+
+.post-text, .comment-text,.left-menu a,span.crumb-item,
+a.post-title,.post-content h1 /*заголовки постов, заголовок внутри поста*/,
+.blog__read-me .readertime,a.menu__item{
+    color: #2b3a32;
+}
+
+
+/*------Фон для ввода текста------*/
+
+textarea {
+    background: #fffdf7;
+    border-color: #c1c1c1;
+}
+
+/*------Цвет бореда и цвет цитируемого текста------*/
+
+p.quotation {
+    border-color: #ff6600;
+    color: #c0c0c0;
+}
+
+/*------Цвет даты, управление постом, удлить, редактировать и т.д------*/
+
+span.post-title-date, span.post-title-date+a,
+.row.w-100 *, .post-opt *, .comment-text+div *,
+.comment-box__message-partial.comment-content a,.sign{
+    color: #c1c1c1 !important;
+}
+
+
+
+/*------Скроллбар------*/
+
+::-webkit-scrollbar {
+    background: #eedab7;
+    border-color:#2b3a32;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2b3a32;
+    border-color: #2b3a32;
+}
+
+/*------Фон и цвет текста который выделен------*/
+
+::selection {
+    background: #7a9787;
+    color: #fffdf7;
+}
+
+select {
+    border: unset;
+    background: #7a9787;
+    color: #fffdf7;
+}
+
+/*------Выход на беон------*/
+
+a.navbar-brand {
+    background: url(https://i.ibb.co/TTZLv71/eye11.png) no-repeat center left 3px;
+    background-size: 50px;
+    background-color: #fffdf7;
+}
+
+a.navbar-brand:hover {
+    background: url(https://i.ibb.co/BzrrB18/anigif-0.gif) no-repeat center left 3px;
+    background-size: 50px;
+    background-color: #fffdf7;
+}
+
+/*------Цвет активных лайков------*/
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+color: #ff6600 !important;
+}
+
+
+/*======================ИНСТРУКЦИЯ ДЛЯ ОТДЕЛЬНОЙ НАСТРОЙКИ======================*/
+
+/*Например, если тебе не нужно менять цвет сразу у всех блоков, постов и комментов, то их можно разделить и менять отдельно друг от друга*/
+/*Допустим вот твоя настройка:
+
+.post-content,
+.crumbs,
+.left-menu>div,
+.textareabg,
+.comment-content,
+ul.menu__box{
+    background: #fffdf7;
+    border-color: #2b3a32 !important;
+}
+
+Сейчас фон и бордер меняются у всех этих элементов, но тебе нужно, чтобы у комментов был другой фон.
+
+Для этого выносишь отдельной строкой нужный тебе элемент, в данном примере это комменты:
+
+.comment-content {
+    background: #b95eff;
+    border-color: #ff7b7b !important;
+}
+
+
+Готово, работает со всеми, главное чтобы они были внизу, тоесть перезаписывали друг друга,
+либо удалять дубликаты, но это не обязательно.
+
+*/
+
+
+/*---------------------НЕКОТОРЫЙ СТИЛЬ ДЛЯ МОБ ВЕРСИИЙ---------------------------*/
+
+@media (max-width: 700px){
+body.bodybg {
+    background: #eedab7 !important;
+}
+  
+/*фон псевдошапки*/
+  
+.left-menu:before {
+    background: url(https://i1.beon.fun/52/31/3152/95/451995/tumblr_loynejc4gX1qhttpto1_r1_1280.jpg) no-repeat;
+}
+}
