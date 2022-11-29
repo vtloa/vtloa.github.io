@@ -227,14 +227,4 @@ ul.menu__box{
 
 /*---------------------НЕКОТОРЫЙ СТИЛЬ ДЛЯ МОБ ВЕРСИИЙ---------------------------*/
 
-@media (max-width: 700px){
-body.bodybg {
-    background: #eedab7 !important;
-}
-  
-/*фон псевдошапки*/
-  
-.left-menu:before {
-    background: url(https://i1.beon.fun/52/31/3152/95/451995/tumblr_loynejc4gX1qhttpto1_r1_1280.jpg) no-repeat;
-}
-}
+@media (max-width: 700px){}
