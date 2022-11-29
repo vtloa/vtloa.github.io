@@ -1764,7 +1764,7 @@ div#app {
     width: auto;
     position: unset;
     min-width: 30px;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 .pagination {
     position: absolute;
@@ -1902,7 +1902,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     padding-left: 40px;
 }
 .left-menu {
-    margin-top: 82px !important;
+    margin-top: 84px !important;
 }
 .blog__about {
     height: 224px;
