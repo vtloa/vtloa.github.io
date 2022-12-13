@@ -92,14 +92,7 @@ h3.left-menu-text {
     font-size: 13px;
 }
 
-.left-menu__user-notification.left-menu__unread-message img+p {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    width: 100%;
-    font-size: 13px;
-    color: #0048ab;
-}
+
 
 .left-menu__user-notification.left-menu__unread-message img+p:before,
 .left-menu__gift a:before {
