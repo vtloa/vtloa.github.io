@@ -94,12 +94,6 @@ h3.left-menu-text {
 
 
 
-.left-menu__user-notification.left-menu__unread-message img+p:before,
-.left-menu__gift a:before {
-    content: url(https://i.ibb.co/0fbj93h/user.png);
-    margin-right: 1px;
-}
-
 .left-menu__user-notification.left-menu__unread-message img+p:after {
     content: url(https://beon.fun/i/flags/qm.gif)' 42 апреля 2022 г. 04:61:10';
     padding-left: 5px;
