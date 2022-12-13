@@ -77,9 +77,7 @@ h3.left-menu-text {
     padding: 4px;
 }
 
-.left-menu__user-notification.left-menu__unread-message img {
-    margin-top: 25px;
-}
+
 
 .left-menu__user-notification.left-menu__unread-message h3.left-menu-text:before {
     content: 'Личное сообщение:';
