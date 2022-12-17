@@ -1917,8 +1917,23 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
 }
 
 
-/*UPD 14.12.22*/
+/*UPD*/
 
 .pagination {
     z-index: 3;
+}
+
+
+.post-content .text-center {
+    display: block;
+}
+
+.post-content button.btn.btn-primary,.post-content button.btn.btn-secondary {
+    background: #eedab7;
+    color: #2b3a32;
+    border: unset;
+    border-radius: unset;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
