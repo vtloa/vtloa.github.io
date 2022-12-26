@@ -228,3 +228,10 @@ ul.menu__box{
 /*---------------------НЕКОТОРЫЙ СТИЛЬ ДЛЯ МОБ ВЕРСИИЙ---------------------------*/
 
 @media (max-width: 700px){}
+
+
+/*UPD цвет ссылок*/
+
+.comment-text a,.small-text+div a {
+    color: #ff6600 !important;
+}
