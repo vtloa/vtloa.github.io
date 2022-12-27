@@ -208,7 +208,7 @@ div#newpostform,.textareabg {
     padding: 5px;
     background: transparent;
 }
-div#newpostform br,br+br+p {
+div#newpostform br,div#newpostform br+br+p {
     display: none;
 }
 
