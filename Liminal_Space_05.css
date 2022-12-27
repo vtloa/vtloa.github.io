@@ -1020,6 +1020,13 @@ a.my-menu.for-mobile.d-none.d-md-inline:before {
   a.navbar-brand:after {
     display: none;
 }
+    
+a.navbar-brand {
+    font-size: 0px !important;
+}
+a.navbar-brand:before {
+    content: 'Beon';
+}
 }
 
 a.navbar-brand img {
