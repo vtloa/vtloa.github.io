@@ -1021,3 +1021,7 @@ a.my-menu.for-mobile.d-none.d-md-inline:before {
     display: none;
 }
 }
+
+a.navbar-brand img {
+    display: none;
+}
