@@ -1026,6 +1026,7 @@ a.navbar-brand {
 }
 a.navbar-brand:before {
     content: 'Beon';
+    font-size: 25px;
 }
 }
 
