@@ -1192,3 +1192,7 @@ button.btn.btn-secondary,button.btn.btn-primary {
 button.btn.btn-secondary:hover,button.btn.btn-primary:hover {
     background: #c19de2;
 }
+
+a.user.post-title-user {
+    color: #f89f84;
+}
