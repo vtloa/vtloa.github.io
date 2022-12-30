@@ -1158,3 +1158,37 @@ div#app {
     margin-bottom: 5px !important;
 }
 }
+
+
+/*UPD*/
+
+.modal-content {
+    background: #fffefb;
+    border: 1px solid #efab8a99;
+    border-radius: 3px;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary {
+    background: #ffb59d;
+    border: unset;
+    border-radius: 3px;
+    color: #fffefb;
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+    transition: 0.2s;
+    padding: 0px;
+    min-width: 100px;
+}
+
+.modal-content a:hover {
+    color: #faa184;
+}
+
+button.btn.btn-secondary:hover,button.btn.btn-primary:hover {
+    background: #c19de2;
+}
