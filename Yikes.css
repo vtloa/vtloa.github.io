@@ -1788,7 +1788,7 @@ div#app {
     left: 0;
     right: 0;
     height: 0px;
-    z-index: 9999999999999;
+    z-index: 99;
 }
   .left-menu > div {
     display: none;
