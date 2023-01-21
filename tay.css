@@ -2273,11 +2273,8 @@ a.actionignore {
 
 /*UPD*/
 
-[href="//poortae.beon.fun/birthdays/"] {
-    display: none !important;
-}
-
-[href="//poortae.beon.fun/compliments/"] {
+[href$=".beon.fun/birthdays/"],
+[href$=".beon.fun/compliments/"]{
     display: none !important;
 }
 
