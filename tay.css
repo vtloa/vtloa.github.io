@@ -2269,3 +2269,18 @@ a.actionignore {
 .comment-box+.comment-box__message-partial.comment-content {
     display: none;
 }
+
+
+/*UPD*/
+
+[href="//poortae.beon.fun/birthdays/"] {
+    display: none !important;
+}
+
+[href="//poortae.beon.fun/compliments/"] {
+    display: none !important;
+}
+
+a.navbar-brand img {
+    display: none;
+}
