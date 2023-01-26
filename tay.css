@@ -2238,6 +2238,7 @@ div#fnplayer-slider span:before {
 [href="//poortae.beon.fun/compliments/"] {
     top: 45px;
     left: 15px;
+    display: block !important;
 }
 }
 
