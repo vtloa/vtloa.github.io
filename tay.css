@@ -1771,7 +1771,9 @@ div#beon-fnplayer {
 div#newpostform input[type="text"] {
     width: inherit;
 }
-  
+[href="//poortae.beon.fun/compliments/"] {
+    display: none !important;
+}
 }
 
 
@@ -1844,6 +1846,9 @@ div#newpostform input[type="text"] {
   div#fnplayer-slider span:before {
     width: 200px;
     left: -33px;
+}
+[href="//poortae.beon.fun/compliments/"] {
+    display: none !important;
 }
 }
 
