@@ -1676,6 +1676,39 @@ div#commentpreviewplace .comment-base {
     display: none;
 }
 
+
+
+[href="//poortae.beon.fun/compliments/"] {
+    display: block !important;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 48px;
+    left: 20px;
+    background: black !important;
+    border: 2px ridge !important;
+    border-radius: 3px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    line-height: 1;
+    padding-left: 6px !important;
+}
+
+
+
+[href="//poortae.beon.fun/compliments/"]:before {
+    content: "\f004";
+    font-size: 20px !important;
+}
+
+[href="//poortae.beon.fun/compliments/"]:hover {
+    color: #391590 !important;
+}
+[href="//poortae.beon.fun/compliments/"]:hover:before {
+    font-size: 25px !important;
+    line-height: 0.7;
+}
+
 /*ну шо*/
 
 /*МЕДИА*/
@@ -2273,8 +2306,7 @@ a.actionignore {
 
 /*UPD*/
 
-[href$=".beon.fun/birthdays/"],
-[href$=".beon.fun/compliments/"]{
+[href$=".beon.fun/birthdays/"]{
     display: none !important;
 }
 
