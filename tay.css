@@ -2323,3 +2323,13 @@ a.actionignore {
 a.navbar-brand img {
     display: none;
 }
+
+.post-content.p-2 .mb-3 {
+    margin-top: 45px;
+    color: #ededed;
+    font-size: 16px;
+}
+
+.post-content.p-2 .mb-3 a.user {
+    color: #4b12d6 !important;
+}
