@@ -962,3 +962,6 @@ a.post-title {
 a.post-title:hover {
     padding-left: 20px !important;
 }
+div#app {
+    position: relative;
+}
