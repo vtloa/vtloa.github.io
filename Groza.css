@@ -712,6 +712,17 @@ div#fnplayer-slider {
 
 /*МЕДИА*/
 
+/*======1920======*/
+
+@media (min-width: 1920px) {
+  body.bodybg:before, body.bodybg:after {
+    left: 69%;
+}
+  body.bodybg:after {
+    left: 88%;
+}
+}
+
 /*======1024======*/
 
 @media (max-width: 1024px) {
