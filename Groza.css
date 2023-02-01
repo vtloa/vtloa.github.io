@@ -935,3 +935,24 @@ main.py-4:before {
     font-size: 21px;
 }
 }
+
+
+/*UPD*/
+
+a.navbar-brand,.hamburger-menu,label.menu__btn,
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],
+a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
+    transition: 0.2s;
+}
+.hamburger-menu:hover label.menu__btn {
+    background: transparent;
+}
+
+a.navbar-brand:hover,.hamburger-menu:hover,.hamburger-menu:hover label.menu__btn,
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover,
+a.my-menu.for-mobile.d-none.d-md-inline:hover, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover{
+    box-shadow: 0 0 4px #f88a44;
+    background: #f88a44 !important;
+    color: #1d1d1d;
+}
+
