@@ -956,3 +956,9 @@ a.my-menu.for-mobile.d-none.d-md-inline:hover, a.my-menu.for-mobile.mobile-scrol
     color: #1d1d1d;
 }
 
+a.post-title {
+    transition: 0.3s;
+}
+a.post-title:hover {
+    padding-left: 20px !important;
+}
