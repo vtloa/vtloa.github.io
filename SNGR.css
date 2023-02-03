@@ -1733,3 +1733,8 @@ select#addtag-img-align,select#upload-img-align {
 .content {
     color: #e2e2e2;
 }
+
+.content h1 {
+    color: #ec4509;
+    font-family: 'FreePixel';
+}
