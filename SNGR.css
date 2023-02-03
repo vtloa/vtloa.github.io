@@ -1742,3 +1742,10 @@ select#addtag-img-align,select#upload-img-align {
 a.post-title-user {
     color: #ffa707;
 }
+.post-opt span {
+    font-size: 0px;
+}
+
+.comment-base .post-opt span {
+    font-size: 17px;
+}
