@@ -1730,3 +1730,6 @@ select#addtag-img-align,select#upload-img-align {
 .crumbs [href="/p"] {
     display: none;
 }
+.content {
+    color: #e2e2e2;
+}
