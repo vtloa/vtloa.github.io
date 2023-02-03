@@ -1738,3 +1738,7 @@ select#addtag-img-align,select#upload-img-align {
     color: #ec4509;
     font-family: 'FreePixel';
 }
+
+a.post-title-user {
+    color: #ffa707;
+}
