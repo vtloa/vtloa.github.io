@@ -1726,3 +1726,7 @@ select#addtag-img-align,select#upload-img-align {
 .left-menu__user-notification.left-menu__unread-message {
     margin-top: 10px !important;
 }
+
+.crumbs [href="/p"] {
+    display: none;
+}
