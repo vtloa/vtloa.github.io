@@ -1749,3 +1749,12 @@ a.post-title-user {
 .comment-base .post-opt span {
     font-size: 17px;
 }
+
+span.pagination-goto {
+    display: none;
+}
+
+.pagination {
+    z-index: 3333;
+    background: #ec4509;
+}
