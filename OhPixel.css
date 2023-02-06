@@ -941,3 +941,7 @@ main.py-4 {
     color: #46a2fd;
     padding: 10px;
 }
+
+.left-menu a:hover {
+    color: #ffb000 !important;
+}
