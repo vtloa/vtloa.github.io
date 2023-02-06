@@ -931,3 +931,13 @@ main.py-4 {
     padding: 5px;
 }
 }
+
+
+/*------------------*/
+
+.content h1 {
+    background: #fdfdfd;
+    margin-bottom: 0px;
+    color: #46a2fd;
+    padding: 10px;
+}
