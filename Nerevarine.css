@@ -1087,3 +1087,16 @@ ul.menu__box {
 div#app {
     max-width: 1550px;
 }
+
+.left-menu__gift img {
+    width: 30px;
+}
+
+.left-menu__gift .user:before {
+    display: none;
+}
+
+.left-menu__gift a {
+    font-size: 11px;
+    overflow-wrap: break-word;
+}
