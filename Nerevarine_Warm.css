@@ -24,7 +24,7 @@ a.post-title:hover,a.user.post-title-user:hover,.modal-content a,.post-text.comm
     color: #bc9997 !important;
 }
 
-.row.w-100 a.tag,.comment-box__message-partial.comment-content a,.pagination a {
+.row.w-100 a.tag,.comment-box__message-partial.comment-content a,.pagination a,.post-text a {
     color: #4e3231 !important;
 }
 
