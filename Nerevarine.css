@@ -421,10 +421,9 @@ input[type="text"]::placeholder {
     font-size: 11px;
 }
 
-span.readertime+a,.left-menu__user-notification.left-menu__unread-message a.user {
-    color: #656b83;
+span.readertime+a, .left-menu__user-notification.left-menu__unread-message a.user {
+    color: #281c22;
 }
-
 span.readertime,.left-menu__user-notification.left-menu__unread-message span.post-title-date.pl-0 {
     font-size: 12px;
 }
@@ -1071,4 +1070,9 @@ ul.menu__box {
   .post-content {
     margin-bottom: 20px !important;
 }
+}
+
+
+.left-menu a:hover {
+    color: #626fa4;
 }
