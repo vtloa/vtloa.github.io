@@ -16,7 +16,7 @@ button#fnplayer-play,div#fnplayer-slider-inner, div#fnplayer-volume-inner {
 }
 
 a.messageform__taglinks,
-a.post-title:hover,a.user.post-title-user:hover,.modal-content a,.post-text.comment-text+.post-opt a.tag,.left-menu a:hover{
+a.post-title:hover,a.user.post-title-user:hover,.modal-content a,.post-text.comment-text+.post-opt a.tag,.left-menu a:hover,button#fnplayer-play{
    color: #d44545 !important;
 }
 
