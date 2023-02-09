@@ -1076,3 +1076,14 @@ ul.menu__box {
 .left-menu a:hover {
     color: #626fa4;
 }
+
+/*фиксы*/
+
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    margin-top: 10px;
+}
+
+div#app {
+    max-width: 1550px;
+}
