@@ -1,0 +1,80 @@
+/*другие цвета*/
+
+
+body.bodybg {
+    background: url(https://i.ibb.co/HnKtGPh/3.png) repeat-x bottom center fixed;
+    background-color: #ddcfd3;
+}
+
+.crumbs,input[type="submit"],a.my-menu.for-mobile.d-none.d-md-inline,button.btn.btn-secondary,button.btn.btn-primary,
+.custom-file-label:after,.menu__item:hover{
+    background-color: #be8f8d;
+}
+
+button#fnplayer-play,div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    background-color: #d44545;
+}
+
+a.messageform__taglinks,
+a.post-title:hover,a.user.post-title-user:hover,.modal-content a,.post-text.comment-text+.post-opt a.tag,.left-menu a:hover{
+   color: #d44545 !important;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    color: #bc9997 !important;
+}
+
+.row.w-100 a.tag {
+    color: #4e3231 !important;
+}
+
+div#fnplayer-slider {
+    background: #ddcfd3;
+}
+
+input[type="text"],textarea,select {
+    background-color: #ddcfd3ad;
+}
+
+span.crumb-item,a.navbar-brand {
+    color: #4e3231 !important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #bc9997;
+}
+::-webkit-scrollbar-thumb,.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #4e3231;
+}
+
+::-webkit-scrollbar-thumb:hover,
+#menu__toggle:checked ~ .menu__btn > span::before, #menu__toggle:checked ~ .menu__btn > span::after, #menu__toggle:checked ~ .menu__btn > span{
+    background-color: #d44545;
+}
+
+
+input[type="text"]::placeholder {
+    color: #6653528c;
+}
+
+
+.avatar-select-label {
+    border-color: #bc9997;
+}
+
+.avatar-select-label-selected {
+    border-color: #d44545;
+}
+
+/*МЕДИА*/
+
+@media (max-width: 700px) {
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none,.hamburger-menu {
+  background-color: #bc9795;
+  color: #4e3231 !important;
+}
+  [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    color: #4e3231 !important;
+}
+}
