@@ -1,0 +1,1074 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Comfortaa:wght@300&family=PT+Mono&display=swap');
+
+
+
+/*
+
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Comfortaa', cursive;
+font-family: 'PT Mono', monospace;
+
+*/
+
+
+div#app {
+    font-family: 'PT Mono', monospace;
+}
+/*--------------------------------------*/
+
+
+
+a, span {
+    text-decoration: unset !important;
+}
+
+
+/*--------------------------------------*/
+
+body.bodybg {
+    background: url(https://i.ibb.co/v3Kz49V/00215.png) repeat-x bottom center fixed;
+    background-color: #dfd4da;
+}
+div#app {
+    margin: auto;
+}
+.post-content.blog_total_counter {
+    display: none;
+}
+
+.post-content {
+    margin: 0px !important;
+    margin-bottom: 55px !important;
+}
+
+.datebg+.post-content {
+    border-top: unset;
+}
+.datebg {
+    margin: 0px;
+    line-height: 2;
+    text-align: right;
+    font-size: 17px;
+    color: #281c22;
+    font-weight: 100;
+    margin-bottom: -40px;
+}
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+    margin-top: 10px;
+}
+.post-text {
+    background: #f2f0f1cf;
+    padding: 15px;
+    margin-left: 10px;
+    color: #281c22;
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+.post-text.comment-text+.post-opt * {
+    color: #281c22 !important;
+}
+h3.left-menu-text {
+    background: #eeeaec !important;
+    line-height: 2;
+    text-align: center;
+    color: #281c22;
+    font-size: 18px;
+    background-color: #f1f0f0 !important;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+.left-menu {
+    border: unset !important;
+}
+
+.left-menu>div {
+    background: #f2f0f1cf;
+    margin-bottom: 10px !important;
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+.community__moders,.community__members,.left-menu__friends.left-menu__friends_offline {
+    display: none !important;
+}
+
+span.post-title-date+span {
+    display: none;
+}
+span.post-title-date {
+    padding: 0px;
+    color: #281c22;
+}
+a.post-title {
+    color: #281c22;
+    transition: 0.3s;
+}
+
+a.post-title:hover,a.user.post-title-user:hover {
+    color: #6873ab;
+}
+
+a.user.post-title-user {
+    color: #281c22;
+    transition: 0.3s;
+}
+
+.pc-menu {
+    display: none;
+}
+div#app {
+    width: 100%;
+    padding: 55px !important;
+}
+
+.left-menu {
+    width: 300px;
+    margin: 0px !important;
+    height: fit-content;
+    margin-top: -55px !important;
+}
+
+.content {
+    width: calc(100% - 355px);
+    margin-left: 55px;
+}
+
+.crumbs {
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+    padding: 0px;
+    margin-top: -43px !important;
+    line-height: 2.1;
+    text-align: center;
+    color: #281c22;
+    font-size: 18px;
+    position: relative;
+    z-index: 22;
+    margin-left: 530px !important;
+    margin-right: 99px !important;
+    background-color: #878eaa;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+}
+
+.bg-white {
+    background: #f2f0f1;
+    margin-left: 355px !important;
+    height: 38px;
+    margin-bottom: 5px !important;
+    padding: 0px !important;
+    box-shadow: unset !important;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+    line-height: 2.6;
+    color: #281c22;
+    text-align: center;
+    width: 100px;
+    height: 38px;
+    background-color: #878eaa;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+    font-size: 0px;
+    transition: 0.3s;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline:hover,input[type="submit"]:hover,
+button.btn.btn-secondary:hover, button.btn.btn-primary:hover{
+    filter: brightness(1.2);
+}
+input[type="submit"]:hover {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+a.my-menu.for-mobile.d-none.d-md-inline:before {
+    content: 'Down';
+    font-size: 15px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px;
+}
+
+a.navbar-brand {
+    padding: 0px;
+    line-height: 1.6;
+    width: 130px;
+    text-align: center;
+    font-weight: 100;
+    background-color: #f1f0f0 !important;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+    color: #5c6380 !important;
+}
+.row.w-100 *,.comment-row .comment-text+div * {
+    color: #281c22 !important;
+}
+
+span.comments_count {
+    position: sticky;
+    top: 100%;
+}
+
+.post-opt.col-12.col-md-6.text-right {
+    padding: 0px;
+}
+.post-avatar {
+    margin: 0px !important;
+    padding: 15px;
+    background: #f2f0f1cf;
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+.sign {
+    color: #281c22;
+    padding-top: 10px;
+    font-size: 9px;
+}
+
+.post-row {
+    margin-top: 15px;
+}
+.blog__about {
+    text-align: center;
+}
+.left-menu * {
+    color: #281c22;
+    font-size: 13px;
+}
+
+div#beon-fnplayer {
+    background: transparent;
+}
+div#beon-fnplayer {
+    background: transparent;
+}
+
+
+
+div#beon-fnplayer {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    position: relative;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    display: none;
+}
+
+button#fnplayer-play {
+    position: absolute;
+    bottom: 13px;
+    right: 0;
+    left: 0;
+    margin: auto !important;
+    background: #878eaa;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    width: 9px;
+    height: 11px;
+    border: unset;
+}
+
+div#fnplayer-slider {
+    margin: 0px !important;
+}
+
+
+div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    background: #878eaa;
+    height: 3px;
+}
+
+div#fnplayer-slider span {
+    font-size: 0px;
+}
+
+div#fnplayer-slider, div#fnplayer-volume {
+    height: 3px;
+    background: #dfd4da;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+#fnplayer-play.paused {
+    clip-path: unset;
+    background: transparent;
+    border-width: 0px 0 0px 7px;
+    padding: 0px !important;
+    color: #878eaa;
+}
+
+main.py-4+.crumbs {
+    display: none;
+}
+div#footer,div#complaintmodal+div,div#app+div+[style="text-align: center"] {
+    font-size: 0px;
+}
+
+.post-text.comment-text+.post-opt {
+    background: #f2f0f1cf;
+    padding: 15px;
+    margin-left: 10px;
+}
+.prevsibling.col-md-6,.nextsibling.text-right.col-md-6 {
+    display: none;
+}
+
+.comment-row .comment-base {
+    background: #f2f0f1cf;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+.comment-row .comment-text+div {
+    position: sticky;
+    top: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
+span.post-title-date+a {
+    color: #281c22;
+    font-size: 10px;
+}
+
+p.quotation {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: #5d6689;
+    border-left: 2px solid #878eaa;
+    font-size: 13px;
+}
+
+
+.row.w-100 a.tag {
+    color: #727ca3 !important;
+}
+
+.textareabg {
+    margin: 0px !important;
+    background-color: transparent;
+    padding: 0px;
+}
+
+
+form#messageform textarea {
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+.comment-box+.textareabg input[type="submit"] {
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+div#commentpreviewplace+p {
+    display: none;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+input[type="submit"],button.btn.btn-secondary,button.btn.btn-primary {
+    background: #878eaa;
+    line-height: 2.3;
+    border: unset;
+    color: #292d3f;
+    font-size: 13px;
+    transition: 0.3s;
+    background-color: #878eaa;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+}
+
+
+button.btn.btn-secondary, button.btn.btn-primary {
+    padding: 0px;
+    border-radius: unset;
+    min-width: 100px;
+    line-height: 2.6;
+}
+
+.blog__about form {
+    padding-bottom: 10px !important;
+    padding-top: 5px;
+}
+
+input[type="text"] {
+    background: #878eaa29;
+    color: #343950;
+    font-size: 13px;
+    border: unset;
+    line-height: 2.3;
+}
+textarea {
+    background: #878eaa29;
+    color: #343950;
+    font-size: 13px;
+    border: unset;
+    line-height: 1.5;
+}
+input[type="text"]::placeholder {
+    color: #878eaa;
+    text-align: center;
+    font-size: 11px;
+}
+
+span.readertime+a,.left-menu__user-notification.left-menu__unread-message a.user {
+    color: #656b83;
+}
+
+span.readertime,.left-menu__user-notification.left-menu__unread-message span.post-title-date.pl-0 {
+    font-size: 12px;
+}
+
+.left-menu__user-notification.left-menu__unread-message a.user {
+    display: block;
+    text-align: center;
+}
+
+.left-menu br {
+    display: none;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text {
+    text-align: center !important;
+}
+
+.post-text.comment-text+.post-opt a.tag {
+    color: #727ca3 !important;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text {
+    font-size: 0px;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text:before {
+    content: 'Личное сообщение:';
+    font-size: 18px;
+}
+
+.small-text+div a,.small-text,.comment-box h2 {
+    color: #281c22;
+}
+
+.small-text {
+    text-align: right;
+    margin-top: -33px;
+    line-height: 2;
+}
+
+.small-text+div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.comment-box__message-partial.comment-content a {
+    color: #727ca3 !important;
+}
+
+.crumbs a {
+    color: #f1eef0;
+}
+
+.crumbs span.crumb-item {
+    font-weight: 100;
+}
+
+.comment-box__message-partial.comment-content {
+    margin-top: -34px;
+    text-align: right;
+}
+
+div#newpostform br {
+    display: none;
+}
+.col-md-4 {
+    padding: 0px;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+
+a.messageform__taglinks {
+    color: #727ca3 !important;
+}
+
+div#newpostform {
+    padding: 15px;
+    background: #f2f0f1cf;
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    position: fixed;
+    bottom: 5px;
+    right: 12px;
+    font-size: 0px;
+    text-shadow: unset !important;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    content: 'up';
+    color: #8b93b5;
+    font-size: 18px;
+}
+.tag_bar {
+    font-family: Nunito,sans-serif !important;
+}
+
+
+
+/*скролл*/
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #9499ad;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a3945;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #516a7d;
+}
+
+
+/*---------------------*/
+.avatar-select-label {
+    border: 4px solid #9499ad;
+    margin-bottom: 7px;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #f3eceb;
+    filter: opacity(0.9);
+}
+
+.modal-content {
+    padding: 10px;
+    color: #281c22;
+    background-color: #efefef;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+    border-radius: unset;
+    font-family: 'PT Mono';
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+    padding: 0px;
+}
+
+.modal-header {
+    padding: 10px;
+}
+.modal-content a {
+    color: #727ca3 !important;
+}
+
+select {
+    background: #878eaa29;
+    color: #343950;
+    font-size: 13px;
+    border: unset;
+    line-height: 2.3;
+}
+
+label.custom-file-label {
+    border: unset;
+    border-radius: unset;
+    background: #ffffffab;
+}
+
+.custom-file-label:after {
+    background: #878eaa;
+    border: unset;
+    color: #292d3f;
+    font-size: 13px;
+    transition: 0.3s;
+    background-color: #878eaa;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+    border-radius: unset;
+    line-height: 2;
+    height: 37px;
+}
+
+:focus {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.hamburger-menu {
+    display: block !important;
+    margin-left: 7px;
+    z-index: 33;
+}
+
+ul.menu__box {
+    overflow: auto;
+    background-color: #efeeee;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+    position: absolute;
+    height: 0px;
+    left: 130px;
+    padding: 0px;
+    box-shadow: 0 0 3px #a5a8b485;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    height: 600px;
+    padding-top: 7px;
+}
+
+ul.menu__box::-webkit-scrollbar {
+    display: none;
+}
+a.menu__item {
+    text-align: center;
+    padding: 0px;
+    font-weight: 100;
+    font-family: 'PT Mono';
+    line-height: 2;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu__item:hover {
+    color: #292d3f;
+    transition: 0.3s;
+    background-color: #878eaa;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+}
+
+label.menu__btn {
+    margin: 0px;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #5c6380;
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before,#menu__toggle:checked ~ .menu__btn > span::after,#menu__toggle:checked ~ .menu__btn > span {
+    background: #caccd0;
+}
+
+span.crumb-item {
+    color: #483f55;
+    font-size: 17px;
+}
+
+div#preview-area+form#messageform {
+    padding: 15px;
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+form#messageform br {
+    display: none;
+}
+
+form#messageform input[type="submit"] {
+    margin-top: 7px;
+}
+span.pagination-goto {
+    display: none;
+}
+.pagination a {
+    color: #483f55 !important;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.pagination {
+    font-size: 0px;
+    line-height: 2.5;
+}
+
+.post-text a {
+    color: #727ca3 !important;
+}
+
+
+/*------------МЕДИА---------------*/
+
+
+/*-----1024------*/
+@media (max-width: 1024px) {
+  div#app {
+    padding: 5px !important;
+}
+  .bg-white {
+    width: 100%;
+    margin: auto !important;
+}
+.crumbs {
+    width: 100%;
+    margin: auto !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: left;
+    padding-left: 10px;
+}
+  .left-menu {
+    margin-top: 0PX !important;
+}
+  .left-menu {
+    margin-top: 0px !important;
+    width: 250px;
+}
+  .content {
+    width: calc(100% - 255px);
+    margin: auto;
+    margin-left: 5px;
+}
+  .comment-box__message-partial.comment-content {
+    margin: auto;
+    text-align: left;
+}
+  .small-text {
+    margin: auto;
+    text-align: left;
+}
+  i.fas.fa-lock-open {
+    font-size: 12px;
+}
+  .post-avatar {
+    padding: 4px;
+}
+  .post-text {
+    padding: 7px;
+}
+  span.readertime {
+    font-size: 11px;
+}
+  .post-row {
+    margin-top: 10px;
+}
+  div#newpostform {
+    padding: 7px;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 17px;
+    padding: 0px;
+}
+.datebg {
+    margin: auto;
+    font-size: 16px;
+    text-align: left;
+}
+  .comment-row .comment-base,.post-text {
+    margin-left: 5px;
+}
+  .post-text.comment-text+.post-opt {
+    margin-left: 5px;
+    margin-top: 5px !important;
+}
+  .post-content {
+    margin-bottom: 25px !important;
+}
+}
+
+
+/*-----768------*/
+@media (max-width: 768px) {
+  div#app {
+    padding: 5px !important;
+}
+  .bg-white {
+    width: 100%;
+    margin: auto !important;
+}
+.crumbs {
+    width: 100%;
+    margin: auto !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: left;
+    padding-left: 10px;
+}
+  .left-menu {
+    margin-top: 0PX !important;
+}
+  .left-menu {
+    margin-top: 0px !important;
+    width: 250px;
+}
+  .content {
+    width: calc(100% - 255px);
+    margin: auto;
+    margin-left: 5px;
+}
+  .comment-box__message-partial.comment-content {
+    margin: auto;
+    text-align: left;
+}
+  .small-text {
+    margin: auto;
+    text-align: left;
+}
+  i.fas.fa-lock-open {
+    font-size: 12px;
+}
+  .post-avatar {
+    padding: 4px;
+}
+  .post-text {
+    padding: 7px;
+}
+  span.readertime {
+    font-size: 11px;
+}
+  .post-row {
+    margin-top: 10px;
+}
+  div#newpostform {
+    padding: 7px;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 17px;
+    padding: 0px;
+}
+.datebg {
+    margin: auto;
+    font-size: 16px;
+    text-align: left;
+}
+  .comment-row .comment-base,.post-text {
+    margin-left: 5px;
+}
+  .post-text.comment-text+.post-opt {
+    margin-left: 5px;
+    margin-top: 5px !important;
+}
+  .post-content {
+    margin-bottom: 25px !important;
+}
+}
+
+/*-----700------*/
+
+@media (max-width: 700px) {
+  div#app {
+    padding: 5px !important;
+    width: 100%;
+}
+.left-menu {
+    width: 100%;
+    margin: auto !important;
+    margin-top: 10px !important;
+}
+  .content {
+    width: 100%;
+    margin: auto;
+}
+.crumbs {
+    width: 100%;
+    margin: auto !important;
+    margin-top: 45px !important;
+    height: 40px;
+    line-height: 2.3;
+}
+.post-avatar {
+    padding: 0px;
+    background: transparent;
+}
+
+  
+.post-text,.comment-base {
+    margin-left: 0px !important;
+    padding: 0px !important;
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+    background: transparent !important;
+}
+  .comment-content {
+    min-height: auto;
+}
+.datebg {
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+}
+a.post-title {
+    display: block;
+    width: fit-content;
+    font-size: 20px;
+}
+body.bodybg {
+    background: url(https://i.ibb.co/v3Kz49V/00215.png) repeat-x bottom right fixed;
+    background-color: #dfd4da;
+    background-size: cover;
+}
+.post-row, div#newpostform,.comment-box .comment-row {
+    background-color: #f4f4f4e8;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+    padding: 5px;
+    margin-top: 0px;
+}
+  .post-content {
+    margin: auto !important;
+}
+span.comments_count a, span.comments_count span::before {
+    font-size: 15px;
+    padding: 0px;
+}
+.bg-white {
+    width: 100%;
+    margin: auto !important;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    z-index: 33;
+    background-color: #f1f0f0 !important;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+    color: #5c6380 !important;
+    box-shadow: 0 0 3px #a5a8b485 !important;
+}
+  
+a.navbar-brand {
+    line-height: 1.7;
+    height: 40px;
+    width: 40%;
+}
+  
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 20%;
+    height: 40px;
+    padding: 0px !important;
+    font-size: 0px;
+    text-align: center;
+    line-height: 2.4;
+    background: #8b91aa;
+    color: #483f55;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    position: fixed;
+    top: 0px;
+    bottom: unset;
+    left: 60%;
+    z-index: 33;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    line-height: 2;
+}
+  
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    color: #483f55;
+}
+.hamburger-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #8b91aa;
+    width: 20%;
+    height: 40px;
+}
+  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'down';
+    font-size: 16px;
+}
+  label.menu__btn {
+    margin: auto;
+    margin-top: 7px;
+}
+ul.menu__box {
+    position: fixed;
+    top: 40px;
+    right: 0px !important;
+    left: unset;
+}
+  a.menu__item {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+  .crumbs [href="/"]+span.crumb-item {
+    display: none;
+}
+  .crumbs {
+    font-size: 0px;
+}
+  .crumbs a {
+    font-size: 17px;
+}
+  span.crumb-item {
+    font-size: 17px;
+    color: #483f55;
+}
+.left-menu > div.mobile_open_menu > h3 {
+    color: #281c22;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 2.2;
+    height: 40px;
+}
+  .left-menu>div {
+    background-color: #f4f4f4e8;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+}
+  .small-text {
+    margin: auto;
+    text-align: left;
+    font-size: 13px;
+}
+  .fa-lock-open:before {
+    font-size: 13px;
+}
+  .comment-box__message-partial.comment-content {
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10px;
+}
+  .comment-box__message-partial.comment-content a {
+    font-size: 16px;
+}
+.comment-box__message-partial.comment-content {
+    font-size: 0px;
+}
+  .comment-row .comment-text+div {
+    font-size: 0px;
+}
+.comment-base .fas {
+    font-size: 15px;
+    margin-left: 10px;
+}
+  .comment-row .comment-text+.post-opt {
+    font-size: 12px;
+}
+  p.quotation {
+    margin: 0px;
+}
+  .fas, .far, .tag_bar > * {
+    font-size: 17px;
+    padding: 0px;
+}
+  textarea {
+    width: 100% !important;
+}
+  .form__show-avatars {
+    background-color: #f2f0f1cf;
+    background-image: url(https://www.transparenttextures.com/patterns/natural-paper.png);
+    line-height: 2;
+}
+  .post-content {
+    margin-bottom: 20px !important;
+}
+}
