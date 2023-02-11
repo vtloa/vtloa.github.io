@@ -1293,3 +1293,9 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
     color: white;
     font-family: 'Poiret One';
 }
+
+.btn-outline-primary {
+    color: #dedede;
+    border-color: #dedede;
+    border-radius: unset;
+}
