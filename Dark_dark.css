@@ -960,6 +960,9 @@ input[type="submit"] {
 .pagination {
     margin: auto;
 }
+.crumbs [href="/"]+[href^="/"] {
+    margin: auto;
+}
 }
 
 /*--------768------*/
@@ -1019,6 +1022,9 @@ input[type="submit"] {
     background: #12121259;
 }
 .pagination {
+    margin: auto;
+}
+.crumbs [href="/"]+[href^="/"] {
     margin: auto;
 }
 }
@@ -1207,6 +1213,9 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover,
     background: #4d0b0b78;
 }
 .pagination {
+    margin: auto;
+}
+.crumbs [href="/"]+[href^="/"] {
     margin: auto;
 }
 }
