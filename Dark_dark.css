@@ -1316,3 +1316,27 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
     font-family: 'Poiret One';
     font-size: 16px;
 }
+
+.container-fluid.gifts-page {
+    color: #eeeeee;
+    font-size: 12px;
+    font-family: 'Poiret One';
+}
+
+.container-fluid.gifts-page a {
+    color: #eeeeee;
+    font-size: 15px;
+}
+
+.content {
+    color: #d4d4d4;
+}
+
+.btn-outline-primary:hover {
+    background: #c830327d !important;
+    border-color: #c830327d !important;
+}
+
+[aria-controls="settingscollapse"],a#loadprevlink {
+    color: white;
+}
