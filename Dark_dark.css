@@ -885,7 +885,14 @@ input[type="submit"] {
 }
 
 
-
+.crumbs [href="/"]+[href^="/"] {
+    color: white;
+    display: block;
+    font-family: 'Poiret One';
+    font-size: 18px;
+    margin-top: -68px;
+    margin-left: 60px;
+}
 
 
 
