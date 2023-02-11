@@ -1235,7 +1235,7 @@ button.btn.btn-secondary:hover,button.btn.btn-primary:hover  {
 }
 
 .modal-body a {
-    color: #980000;
+    color: #c830327d !important;
     font-weight: bold;
     font-size: 14px;
 }
