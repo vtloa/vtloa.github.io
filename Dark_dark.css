@@ -1239,3 +1239,19 @@ button.btn.btn-secondary:hover,button.btn.btn-primary:hover  {
     font-weight: bold;
     font-size: 14px;
 }
+
+label.custom-file-label {
+    background: #121212;
+    border-radius: unset;
+    border: 1px solid #1e1e1e;
+}
+
+button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
+    min-width: 100px;
+}
+
+.custom-file-label:after {
+    background: #181818;
+    border-color: #1e1e1e;
+    color: white;
+}
