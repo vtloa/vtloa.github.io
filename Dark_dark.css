@@ -879,7 +879,10 @@ input[type="submit"] {
     margin-right: 5px;
 }
 
-
+.pagination {
+  margin-top: -43px;
+  margin-left: 60px;
+}
 
 
 
@@ -945,6 +948,9 @@ input[type="submit"] {
   div#app {
     background: #12121259;
 }
+.pagination {
+    margin: auto;
+}
 }
 
 /*--------768------*/
@@ -1002,6 +1008,9 @@ input[type="submit"] {
 }
   div#app {
     background: #12121259;
+}
+.pagination {
+    margin: auto;
 }
 }
 
@@ -1187,6 +1196,9 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
 a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover,
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover{
     background: #4d0b0b78;
+}
+.pagination {
+    margin: auto;
 }
 }
 
