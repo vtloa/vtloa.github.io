@@ -894,7 +894,9 @@ input[type="submit"] {
     margin-left: 60px;
 }
 
-
+.crumbs {
+    color: transparent;
+}
 
 /*--------МЕДИА-------*/
 
