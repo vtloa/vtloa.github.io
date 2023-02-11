@@ -508,7 +508,7 @@ div#newpostform br {
     margin-top: 0px !important;
 }
 
-input[type="submit"],.form__show-avatars {
+input[type="submit"],.form__show-avatars,input[type="button"] {
     background: linear-gradient(45deg, #0f0f0f00, #1b1b1b, #14141400);
     border: 1px solid #1e1e1e;
     line-height: 1;
@@ -520,7 +520,7 @@ input[type="submit"],.form__show-avatars {
     transition: 0.3s;
 }
 
-input[type="submit"]:hover,.form__show-avatars:hover {
+input[type="submit"]:hover,.form__show-avatars:hover,input[type="button"]:hover {
     padding-left: 25px;
     padding-right: 10px;
     transition: 0.3s;
@@ -1266,4 +1266,8 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
     background: #181818;
     border-color: #1e1e1e;
     color: white;
+}
+.content h1 {
+    color: white;
+    font-family: 'Poiret One';
 }
