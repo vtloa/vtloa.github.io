@@ -389,6 +389,7 @@ div#app {
 .post-content.blog_total_counter+.post-content span.imagewrapper:hover:before {
     content: url(https://i.ibb.co/T2m9Fxd/slue-red.png);
     mix-blend-mode: darken;
+    filter: brightness(0.7);
 }
 
 .comment-content {
