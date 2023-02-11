@@ -898,6 +898,10 @@ input[type="submit"] {
     color: transparent;
 }
 
+.content {
+    margin-top: 0px;
+}
+
 /*--------МЕДИА-------*/
 
 
