@@ -1345,12 +1345,6 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
     display: none;
 }
 
-.post-avatar {
-    border: 1px solid #ffffff1c;
-    background: #111111b0;
-    padding: 5px;
-}
-
 
 .post-avatar img {
     filter: brightness(0.6);
