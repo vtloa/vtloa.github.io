@@ -1340,3 +1340,7 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
 [aria-controls="settingscollapse"],a#loadprevlink {
     color: white;
 }
+
+.crumbs [href="//beon.fun/"] {
+    display: none;
+}
