@@ -1189,3 +1189,53 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover,
     background: #4d0b0b78;
 }
 }
+
+
+/*UPD*/
+
+.modal-content {
+    background: url(https://i.ibb.co/7RVFK6d/cherti-shum-tile.png);
+    border-radius: unset;
+    border: 1px solid #ffffff1c;
+}
+
+.modal-header {
+    border: unset;
+}
+
+.modal-footer {
+    border: unset;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary {
+    background: linear-gradient(45deg, #0f0f0f00, #1b1b1b, #14141400);
+    border: 1px solid #1e1e1e;
+    line-height: 1;
+    color: #dadada;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    text-shadow: 0 0 3px black;
+    padding: 7px;
+    transition: 0.3s;
+    border-radius: unset;
+}
+
+button.btn.btn-secondary:hover,button.btn.btn-primary:hover  {
+    padding-left: 25px;
+    padding-right: 10px;
+    transition: 0.3s;
+    background: linear-gradient(45deg, #0f0f0f00, #4e131475, #14141400);
+    border-color: #79161845;
+}
+
+.modal-content {
+    font-family: 'Poiret One';
+    color: white;
+    font-size: 16px;
+}
+
+.modal-body a {
+    color: #980000;
+    font-weight: bold;
+    font-size: 14px;
+}
