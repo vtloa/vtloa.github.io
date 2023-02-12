@@ -1356,3 +1356,25 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
 a,button,img,input,b,span {
     cursor: url(https://i.ibb.co/Z8BZ6LQ/cur3.png) , pointer!important;
 }
+
+
+/*бек на записях*/
+
+.post-row, .comment-box .comment-row {
+    background: linear-gradient(90deg, #121212db, #0c0c0c94,transparent);
+    padding: 5px;
+    padding-top: 10px;
+    border-top: 1px solid #0000003d;
+    border-bottom: 1px solid #0000003d;
+}
+
+.comment-box .comment-row {
+    padding: 10px;
+}
+
+textarea {
+    border: unset;
+    background: linear-gradient(90deg, #121212db, #0c0c0c94,transparent);
+    border-top: 1px solid #0000003d;
+    border-bottom: 1px solid #0000003d;
+}
