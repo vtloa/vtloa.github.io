@@ -1364,8 +1364,6 @@ a,button,img,input,b,span {
     background: linear-gradient(90deg, #121212db, #0c0c0c94,transparent);
     padding: 5px;
     padding-top: 10px;
-    border-top: 1px solid #0000003d;
-    border-bottom: 1px solid #0000003d;
 }
 
 .comment-box .comment-row {
@@ -1375,8 +1373,6 @@ a,button,img,input,b,span {
 textarea {
     border: unset;
     background: linear-gradient(90deg, #121212db, #0c0c0c94,transparent);
-    border-top: 1px solid #0000003d;
-    border-bottom: 1px solid #0000003d;
 }
 
 
