@@ -1375,4 +1375,7 @@ textarea {
     background: linear-gradient(90deg, #121212db, #0c0c0c94,transparent);
 }
 
-
+.post-content.blog_total_counter+.post-content .post-row {
+    background: transparent;
+    border: unset;
+}
