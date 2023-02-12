@@ -1345,5 +1345,14 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
     display: none;
 }
 
-*{cursor: url(https://i.ibb.co/3N1PRZz/cur.png) , default!important;}
-a,button,img,input,b,span {cursor: url(https://i.ibb.co/Z8BZ6LQ/cur3.png) , pointer!important;}
+
+
+/*КУРСОР*/
+
+* {
+    cursor: url(https://i.ibb.co/3N1PRZz/cur.png) , default!important;
+}
+
+a,button,img,input,b,span {
+    сursor: url(https://i.ibb.co/Z8BZ6LQ/cur3.png) , pointer!important;
+}
