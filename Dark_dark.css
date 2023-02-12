@@ -1361,6 +1361,6 @@ a,button,img,input,b,span {
 /*бек на записях*/
 
 
-.post-text {
+.post-text,.comment-box .comment-base {
     background: linear-gradient( 90deg , #121212e0, #0c0c0c94,transparent);
 }
