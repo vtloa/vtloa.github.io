@@ -1353,8 +1353,10 @@ button#upload-confirm-button,button.btn.btn-secondary, button.btn.btn-primary {
     cursor: url(https://i.ibb.co/3N1PRZz/cur.png) , default!important;
 }
 
-a,button,img,input,b,span,a.my-menu.for-mobile.d-none.d-md-inline,[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],
-.crumbs [href="/"]{
+a,button,img,input,b,span,
+a.my-menu.for-mobile.d-none.d-md-inline:before,
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before,
+.crumbs [href="/"]:before {
     cursor: url(https://i.ibb.co/Z8BZ6LQ/cur3.png) , pointer!important;
 }
 
