@@ -1791,3 +1791,10 @@ div#footer:after {
 .post-text [href^="https://beon.fun/"] {
     padding-bottom: 2px;
 }
+
+div#beon-fnplayer {
+    width: calc(100% - 5px);
+    margin: unset;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
