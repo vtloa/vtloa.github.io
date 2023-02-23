@@ -1802,3 +1802,8 @@ div#beon-fnplayer {
 .post-avatar img {
     image-rendering: -webkit-optimize-contrast;
 }
+
+a.blog {
+    background: transparent !important;
+    padding: 0px !important;
+}
