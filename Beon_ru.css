@@ -1738,3 +1738,6 @@ span.comments_count span::before {
 div#complaintmodal+div#page__rendertime {
     font-size: 0px;
 }
+.fa-book:before {
+    content: url(https://princess.beon.fun/i/blog.png);
+}
