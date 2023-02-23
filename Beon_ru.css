@@ -773,7 +773,7 @@ i.fas.fa-music {
 }
 
 .container-fluid.mt-5+br+br+p+input+br+br+div span+div:hover {
-    height: 50px;
+    height: auto;
     transition: 0.2s;
     margin-top: -17px;
     padding-top: 14px;
@@ -1726,4 +1726,15 @@ span.comments_count span::before {
 
 .left-menu__user-notification.left-menu__unread-message img+p:after {
     display: none;
+}
+
+
+/*UPD 23.02.23*/
+
+.blog__last-comments a.readertime {
+    white-space: unset;
+}
+
+div#complaintmodal+div#page__rendertime {
+    font-size: 0px;
 }
