@@ -1793,9 +1793,9 @@ div#footer:after {
 }
 
 div#beon-fnplayer {
-    width: calc(100% - 5px);
-    margin: unset;
-    margin-bottom: 7px;
+    width: calc(100% - 10px);
+    margin: auto;
+    margin-bottom: 11px;
     margin-top: 7px;
 }
 
