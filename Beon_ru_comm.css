@@ -82,3 +82,10 @@ a.blog-subscribe,[href^="//beon.fun/rating/community/"] {
 .blog__about [href^="//beon.fun/communities/"] {
     text-decoration: underline;
 }
+
+div#beon-fnplayer {
+    width: calc(100% - 5px);
+    margin: unset;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
