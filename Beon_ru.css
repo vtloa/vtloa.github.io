@@ -1819,3 +1819,5 @@ a.blog {
 nav.navbar {
     margin-top: 5px !important;
 }
+
+span.comments_count a:visited span {color:#811C90 !important;}
