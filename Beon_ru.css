@@ -1775,3 +1775,7 @@ i.fas.fa-bookmark:before,.fa-exclamation-triangle:before {
 .notifications__comments p.left-menu-text {
     padding-left: 10px;
 }
+
+div#footer:after {
+    margin-bottom: 15px;
+}
