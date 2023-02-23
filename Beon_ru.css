@@ -1779,3 +1779,7 @@ i.fas.fa-bookmark:before,.fa-exclamation-triangle:before {
 div#footer:after {
     margin-bottom: 15px;
 }
+
+.left-menu input[type="text"],.left-menu input[type="submit"] {
+    line-height: 1.42;
+}
