@@ -1741,3 +1741,28 @@ div#complaintmodal+div#page__rendertime {
 .fa-book:before {
     content: url(https://princess.beon.fun/i/blog.png);
 }
+
+i.fas.fa-bookmark:before,.fa-exclamation-triangle:before {
+    content: 'Закладки';
+    font-size: 10px;
+    color: #0048ab;
+    text-decoration: underline;
+    font-weight: 100;
+    font-family: Tahoma,Verdana,Arial,Geneva,Helvetica !important;
+}
+
+.fa-exclamation-triangle:before {
+    content: "Пожаловаться";
+}
+
+
+
+.comment-box span.repostbutton {
+    float: unset;
+    margin: unset;
+    padding: unset;
+}
+
+.comment-text+div span {
+    cursor: pointer;
+}
