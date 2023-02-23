@@ -1807,3 +1807,8 @@ a.blog {
     background: transparent !important;
     padding: 0px !important;
 }
+
+.text-center+.left-menu-text {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
