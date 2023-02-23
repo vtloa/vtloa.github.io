@@ -1783,3 +1783,11 @@ div#footer:after {
 .left-menu input[type="text"],.left-menu input[type="submit"] {
     line-height: 1.42;
 }
+
+.post-text [href*=".beon.fun/"][href*="read#"],
+.post-text [href^="http://beon.fun/tests/"],
+.post-text [href^="https://beon.fun/discussion/"],
+.post-text [href$=".beon.fun/"],
+.post-text [href^="https://beon.fun/"] {
+    padding-bottom: 2px;
+}
