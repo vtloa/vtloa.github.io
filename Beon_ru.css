@@ -1812,3 +1812,10 @@ a.blog {
     margin-top: 11px;
     margin-bottom: 11px;
 }
+
+.crumbs {
+    margin-top: 10px !important;
+}
+nav.navbar {
+    margin-top: 5px !important;
+}
