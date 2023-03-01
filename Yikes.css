@@ -1343,6 +1343,18 @@ br+.left-menu__user-notification {
     color: transparent !important;
 }
 
+
+.notifications__comments {
+    position: fixed;
+    top: 86px;
+    right: unset;
+    left: calc(66% - -5px);
+    z-index: 3;
+    width: calc(34% - 10px);
+    height: auto;
+    max-width: 460px;
+}
+
 /*============медиа 1490============*/
 @media (max-width: 1490px) {main.py-4 {
     width: 75%;
