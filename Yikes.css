@@ -1359,7 +1359,8 @@ br+.left-menu__user-notification {
 @media (max-width: 1490px) {main.py-4 {
     width: 75%;
 }
-.left-menu__user-notification.left-menu__unread-message, .left-menu__user-notification {
+.left-menu__user-notification.left-menu__unread-message, .left-menu__user-notification,
+.notifications__comments {
     left: calc(75% - -5px) !important;
     width: calc(25% - 10px) !important;
 }
