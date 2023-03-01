@@ -1535,6 +1535,10 @@ span.pagination-goto+a {
   .crumbs [href="/"]+span.crumb-item {
     display: none;
 }
+.notifications__comments {
+    position: unset;
+    width: 100%;
+}
 }
 
 
@@ -1680,6 +1684,10 @@ span.pagination-goto+a {
 }
   .crumbs [href="/"]+span.crumb-item {
     display: none;
+}
+.notifications__comments {
+    position: unset;
+    width: 100%;
 }
 }
 
@@ -1925,6 +1933,10 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     left: 2px;
     text-align: left;
     padding-left: 33px;
+}
+.notifications__comments {
+    position: unset;
+    width: 100%;
 }
 }
 
