@@ -1355,6 +1355,32 @@ br+.left-menu__user-notification {
     max-width: 460px;
 }
 
+
+
+.notifications__comments h3.left-menu-text {
+    font-size: 0px;
+}
+
+.notifications__comments h3.left-menu-text:before {
+    content: 'КОММЕНТАРИИ';
+    font-size: 16px;
+}
+
+  
+  .left-menu__user-notification.left-menu__unread-notifications [href="//beon.fun/p/likes?new_only=true"] {
+    padding-left: 5px;
+}
+
+.notifications__comments p.left-menu-text {
+    padding: 0px !important;
+    padding-left: 5px !important;
+}
+
+
+.notifications__comments.left-menu__user-notification {
+    margin-top: 55px;
+}
+
 /*============медиа 1490============*/
 @media (max-width: 1490px) {main.py-4 {
     width: 75%;
