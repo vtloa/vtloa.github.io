@@ -1821,3 +1821,7 @@ nav.navbar {
 }
 
 span.comments_count a:visited span {color:#811C90 !important;}
+
+.tag_bar {
+    position: relative;
+}
