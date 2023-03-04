@@ -1832,7 +1832,8 @@ span.comments_count a:visited span {color:#811C90 !important;}
     text-decoration: underline;
 }
 
-span.comments_count a {
+span.comments_count a,[onclick="return showSpoiler(this)"] {
     background: transparent !important;
     padding: 0px !important;
 }
+
