@@ -1825,3 +1825,14 @@ span.comments_count a:visited span {color:#811C90 !important;}
 .tag_bar {
     position: relative;
 }
+.post-text [href*=".beon.fun/"][href*="-read"] {
+    background: chartreuse;
+    background: url(https://i1.beon.fun/21/15/1521/0/143700/beon1.png) no-repeat left;
+    padding-left: 18px;
+    text-decoration: underline;
+}
+
+span.comments_count a {
+    background: transparent !important;
+    padding: 0px !important;
+}
