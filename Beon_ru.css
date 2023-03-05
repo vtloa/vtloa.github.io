@@ -1837,3 +1837,6 @@ span.comments_count a,[onclick="return showSpoiler(this)"] {
     padding: 0px !important;
 }
 
+div#beon-fnplayer {
+    padding-left: 0px;
+}
