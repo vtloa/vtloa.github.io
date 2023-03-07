@@ -1840,3 +1840,6 @@ span.comments_count a,[onclick="return showSpoiler(this)"] {
 div#beon-fnplayer {
     padding-left: 0px;
 }
+.m2 {
+    font-size: 0;
+}
