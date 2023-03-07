@@ -1383,3 +1383,7 @@ textarea {
 .post-content.blog_total_counter+.post-content a.user.post-title-user {
     margin-left: 5px;
 }
+
+.m2 {
+    font-size: 0px;
+}
