@@ -1387,3 +1387,7 @@ textarea {
 .m2 {
     font-size: 0px;
 }
+
+.bg-white .container-fluid {
+    padding: 0px;
+}
