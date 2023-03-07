@@ -1290,3 +1290,7 @@ input[type="text"]::placeholder {
     color: #050505;
 }
 
+.emj-dropdown-content {
+    background: #050505;
+    overflow: auto;
+}
