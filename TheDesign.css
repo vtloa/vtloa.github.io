@@ -1260,3 +1260,7 @@ ul.menu__box {
     background: #050505;
     color: #ededed;
 }
+
+.crumbs [href="/"] span {
+    font-size: 0px;
+}
