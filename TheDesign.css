@@ -1313,3 +1313,8 @@ input[type="text"]::placeholder {
     background: #050505;
     overflow: auto;
 }
+
+.post-content.p-2 {
+    font-size: 14px;
+    color: #fefefe;
+}
