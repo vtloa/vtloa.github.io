@@ -1040,6 +1040,25 @@ body.bodybg {
     min-width: auto;
     margin-left: 225px !important;
 }
+.content {
+    width: 100%;
+    margin: auto;
+    max-width: 620px;
+    margin-left: unset;
+    min-width: 620px;
+}
+
+.crumbs, .bg-white {
+    max-width: 620px;
+}
+
+
+.left-menu {
+    left: 325px;
+}
+ul.menu__box {
+    top: 80px;
+}
 }
 
 /*-----------768-------------*/
