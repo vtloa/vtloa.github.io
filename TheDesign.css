@@ -1276,3 +1276,12 @@ ul.menu__box {
     font-size: 14px;
     color: #d5d5d5;
 }
+
+.blog__about form input[type="text"] {
+    background: #050505;
+}
+
+input[type="text"]::placeholder {
+    color: #050505;
+}
+
