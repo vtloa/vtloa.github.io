@@ -860,7 +860,7 @@ input[type="submit"] {
     border: crimson;
     font-size: 16px;
     line-height: 2;
-    color: #c8c8c8;
+    color: #d5d5d5;
     transition: 0.2s;
 }
 
@@ -1246,4 +1246,15 @@ ul.menu__box {
 .pagination {
     margin-top: -56px;
 }
+}
+
+/*fix*/
+
+.post-content form {
+    font-size: 15px;
+}
+
+.post-content form {
+    font-size: 15px;
+    color: #fbfbfb;
 }
