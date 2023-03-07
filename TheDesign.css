@@ -1244,6 +1244,12 @@ ul.menu__box {
 .pagination {
     margin-top: -56px;
 }
+.small-text+div+div span.post-title-date {
+    position: unset;
+    margin: 0px;
+    width: auto;
+    text-align: left;
+}
 }
 
 /*fix*/
