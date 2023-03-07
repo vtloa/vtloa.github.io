@@ -18,7 +18,7 @@ font-family: 'Spectral', serif;
 /*---------------------------------*/
 
 
-.post-text,.left-menu,.crumbs, .bg-white,a.menu__item,div#newpostform, input[type="submit"],.modal-content {
+.post-text,.left-menu,.crumbs, .bg-white,a.menu__item,div#newpostform, input[type="submit"],.modal-content,.comment-content {
     font-family: 'Spectral', serif;
 }
 
