@@ -1255,3 +1255,8 @@ ul.menu__box {
     font-size: 15px;
     color: #fbfbfb;
 }
+.textareabg {
+    padding: 5px;
+    background: #050505;
+    color: #ededed;
+}
