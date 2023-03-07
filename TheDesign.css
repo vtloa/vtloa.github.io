@@ -776,10 +776,10 @@ span.pagination-goto+a:after {
     color: #050505;
 }
 
-.comment-content  span.post-title-date {
+.comment-content span.post-title-date {
     padding: 0;
     font-size: 14px;
-    color: #050505;
+    color: #050505 !important;
 }
 span.post-title-date+a {
     color: #050505;
