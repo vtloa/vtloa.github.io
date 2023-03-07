@@ -1099,3 +1099,7 @@ button.btn.btn-secondary, button.btn.btn-primary,select {
 a.navbar-brand img {
     display: none;
 }
+
+.m2 {
+    font-size: 0px;
+}
