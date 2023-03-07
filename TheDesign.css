@@ -295,9 +295,6 @@ main.py-4 {
     display: none !important;
 }
 
-[action="/search"] {
-    display: none;
-}
 
 .post-content {
     font-size: 0;
