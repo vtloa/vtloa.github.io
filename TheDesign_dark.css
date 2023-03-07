@@ -70,4 +70,16 @@ a.my-menu.for-mobile.d-none.d-md-inline,[style="float:right;cursor:pointer;text-
 ::-webkit-scrollbar-thumb:hover {
     background-color: #2d45ec;
 }
+
+.bg-white,[href="/design/disable"]:before {
+    background: #1c1c1c !important;
+}
+
+.left-menu:before {
+    background: #2a2a2a;
+}
+
+h3.left-menu-text {
+    background: #2a2a2a !important;
+}
 /*---end---*/
