@@ -1,0 +1,73 @@
+@import url('https://vtloa.github.io/TheDesign.css');
+
+/*тёмная версия*/
+
+.post-row, .comment-content {
+    background: #050505;
+}
+
+.post-text, .comment-text,.comment-content span.post-title-date,.sign {
+    color: #e7eef2;
+}
+
+.post-content a.post-title,.post-content a.user.post-title-user,.left-menu:after,.left-menu:active:before,
+p.quotation,input[type="text"] {
+    background: #e6221f;
+}
+
+.post-content span.post-title-date {
+    background: #050505;
+    color: #e7eef2;
+}
+
+.left-menu a:hover {
+    color: #e6221f !important;
+}
+
+.row.w-100 *, .comment-text+div * {
+    color: #cdd1d4 !important;
+}
+.comment-content a.user.post-title-user,span.post-title-date+a,.crumbs a {
+    color: #e6221f !important;
+}
+
+p.quotation {
+    color: #050505;
+}
+
+a.post-title:hover, a.user.post-title-user:hover {
+    background: #2d45ec !important;
+}
+  ul.menu__box::-webkit-scrollbar {
+    display: none;
+}
+div#app {
+    background: url(https://i.ibb.co/rvzXrNL/eyee-red.gif) right fixed;
+    background-color: #050505;
+    background-position: top 39px right -20px;
+}
+
+.modal-footer,.modal-header {
+    border: unset;
+    background: url(https://i.ibb.co/rvzXrNL/eyee-red.gif) center;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary {
+    background: #e6221f;
+}
+button.btn.btn-secondary:hover, button.btn.btn-primary:hover {
+    background: #2d45ec;
+    color: #050505;
+}
+a.my-menu.for-mobile.d-none.d-md-inline,[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    color: #dbdbdb;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dbdbdb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2d45ec;
+}
+/*---end---*/
