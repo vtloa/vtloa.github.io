@@ -1036,9 +1036,9 @@ body.bodybg {
 .crumbs {
     margin-top: -60px !important;
     margin-bottom: 5px !important;
-    width: 180px !important;
+    width: 135px !important;
     min-width: auto;
-    margin-left: 225px !important;
+    margin-left: 180px !important;
 }
 .content {
     width: 100%;
