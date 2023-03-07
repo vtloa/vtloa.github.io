@@ -1264,3 +1264,11 @@ ul.menu__box {
 .crumbs [href="/"] span {
     font-size: 0px;
 }
+
+.post-content button {
+    font-size: 13px;
+}
+
+.post-content label span.post-title-date {
+    all: unset !important;
+}
