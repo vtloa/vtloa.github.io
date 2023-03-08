@@ -1316,3 +1316,7 @@ input[type="text"]::placeholder {
     font-size: 14px;
     color: #fefefe;
 }
+
+.crumbs a {
+    margin-right: 7px;
+}
