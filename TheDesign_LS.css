@@ -107,6 +107,10 @@ div#settingscollapse+div+hr+.comment-box .post-content a.post-title-user.user:ho
     width: 20%;
 }
 
+.fa-sliders-h:before {
+    color: #ededed;
+}
+
 /*media*/
 
 @media (max-width: 700px) {
