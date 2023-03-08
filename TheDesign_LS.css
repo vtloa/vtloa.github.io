@@ -111,6 +111,14 @@ div#settingscollapse+div+hr+.comment-box .post-content a.post-title-user.user:ho
     color: #ededed;
 }
 
+.post-content.dialog-preview a.post-title-user.user {
+    width: 20%;
+}
+
+.post-content.dialog-preview a.user.post-title-user:hover+img+span {
+    left: 20%;
+}
+
 /*media*/
 
 @media (max-width: 700px) {
