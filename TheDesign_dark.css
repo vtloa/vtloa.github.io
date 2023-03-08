@@ -70,6 +70,8 @@ a.my-menu.for-mobile.d-none.d-md-inline,[style="float:right;cursor:pointer;text-
 ::-webkit-scrollbar-thumb:hover {
     background-color: #2d45ec;
 }
-
+.comment-content span.post-title-date {
+    color: #e7eef2 !important;
+}
 
 /*---end---*/
