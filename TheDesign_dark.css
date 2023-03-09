@@ -80,9 +80,9 @@ a.my-menu.for-mobile.d-none.d-md-inline,[style="float:right;cursor:pointer;text-
 
 
 .post-content.dialog-preview .comment-row+div {
-    background: #e6221f;
+    background: #e6221f !important;
 }
 
 .post-content.dialog-preview .comment-row, div#settingscollapse+div+hr+.comment-box .post-content .comment-row {
-    background: #050505;
+    background: #050505 !important;
 }
