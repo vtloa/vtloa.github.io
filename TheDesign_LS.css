@@ -114,7 +114,8 @@ div#settingscollapse+div+hr+.comment-box .post-content a.post-title-user.user:ho
     width: 20%;
 }
 
-.post-content.dialog-preview a.user.post-title-user:hover+img+span {
+.post-content.dialog-preview a.user.post-title-user:hover+img+span,
+.post-content.dialog-preview a.user.post-title-user:hover+span{
     left: 148px;
 }
 
