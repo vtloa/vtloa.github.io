@@ -119,7 +119,7 @@ div#settingscollapse+div+hr+.comment-box .post-content a.post-title-user.user:ho
     left: 148px;
 }
 
-.post-content.dialog-preview .comment-row+div {
+.post-content.dialog-preview .comment-row+div:hover {
     background: #ededed;
 }
 
