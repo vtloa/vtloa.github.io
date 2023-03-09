@@ -91,3 +91,7 @@ a#loadprevlink{
 div#settingscollapse+div+hr+.comment-box .post-content .comment-row {
     background: #040404 !important;
 }
+
+.post-content.dialog-preview .comment-row+div:hover {
+    background: #2d45ec !important;
+}
