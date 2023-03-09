@@ -1003,6 +1003,15 @@ button.btn.btn-secondary:active, button.btn.btn-primary:active {
     background: #050505 !important;
 }
 
+a.user.post-title-user:hover+span {
+    left: 60%;
+}
+
+a.post-title:hover+a+span {
+    left: 60%;
+}
+
+
 /*МЕДИА*/
 
 
