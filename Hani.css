@@ -1157,6 +1157,22 @@ div#app {
   .mobile_open_menu {
     margin-bottom: 5px !important;
 }
+a.navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 2.3;
+}
+  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+  .hamburger-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 }
 
 
@@ -1195,4 +1211,12 @@ button.btn.btn-secondary:hover,button.btn.btn-primary:hover {
 
 a.user.post-title-user {
     color: #f89f84;
+}
+
+.bg-white .m2 {
+    font-size: 0;
+}
+
+div#page__rendertime {
+    font-size: 0;
 }
