@@ -962,3 +962,11 @@ main.py-4 {
 .bg-white .m2 {
     font-size: 0px;
 }
+
+.content {
+    height: fit-content;
+}
+
+div#page__rendertime {
+    font-size: 0;
+}
