@@ -958,3 +958,7 @@ main.py-4 {
 .left-menu a:hover {
     color: #ffb000 !important;
 }
+
+.bg-white .m2 {
+    font-size: 0px;
+}
