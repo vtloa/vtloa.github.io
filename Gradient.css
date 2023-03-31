@@ -1439,3 +1439,7 @@ div#mobile_photo+div {
 .seBlogColumnRightPadding {
     padding: 0px !important;
 }
+
+.profile_comment_body a {
+    color: #5b6ef0;
+}
