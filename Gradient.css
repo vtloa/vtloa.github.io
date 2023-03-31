@@ -693,9 +693,14 @@ blockquote.blockquote {
     background-blend-mode: screen;
 }
 
+#mobile_menu .menu_item_dropdown a:hover {
+    background: #5b6ef0 !important;
+    color: white !important;
+}
+
+/*==============MEDIA====================*/
 
 
-/*MEDIA*/
 @media (min-width: 1026px) {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     background: linear-gradient( 90deg, #546cf0, #bc8eee,#ffc08a);
