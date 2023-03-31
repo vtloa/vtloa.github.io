@@ -1450,3 +1450,22 @@ div#mobile_photo+div {
 .profile_comment_body a {
     color: #5b6ef0;
 }
+
+div#designs {
+    background: #dfb9ff;
+    position: fixed !important;
+    bottom: 45px !important;
+    right: 5px !important;
+    height: 32px !important;
+    width: 44px !important;
+    overflow: hidden;
+}
+
+div#designs:before {
+    content: 'X';
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 2;
+    color: #fdfdfd;
+}
