@@ -1020,6 +1020,9 @@ div#mobile_photo+div {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.additional_info.pl-3 {
+    padding-left: 7px !important;
+}
 }
 
 
@@ -1105,10 +1108,6 @@ h2.card-title {
 .collapse:not(.show) {
     display: block;
 }
-
-
-
-
 
 ul.navbar-nav.mr-auto [id="browse_blogs.php"],
 ul.navbar-nav.mr-auto [id="browse_quiz.php"],
@@ -1222,8 +1221,9 @@ div#mobile_photo+div {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-  
+.additional_info.pl-3 {
+    padding-left: 7px !important;
+}
 }
 
 
@@ -1426,6 +1426,7 @@ div#mobile_photo+div {
 }
 .additional_info .card-link {
     display: block !important;
+    text-align: left;
 }
 .additional_info.pl-3 {
     padding-left: 7px !important;
