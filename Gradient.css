@@ -1434,8 +1434,8 @@ div#mobile_photo+div {
 }
 
 .blog_leftprofile {
-    font-weight: 100;
+    font-weight: 100 !important;
 }
 .seBlogColumnRightPadding {
-    padding: 0px;
+    padding: 0px !important;
 }
