@@ -1427,6 +1427,9 @@ div#mobile_photo+div {
 .additional_info .card-link {
     display: block !important;
 }
+.additional_info.pl-3 {
+    padding-left: 7px !important;
+}
 }
 
 
