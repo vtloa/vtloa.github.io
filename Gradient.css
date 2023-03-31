@@ -698,6 +698,44 @@ blockquote.blockquote {
     color: white !important;
 }
 
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+div#he_styler {
+    display: none;
+}
+
+.group_desc {
+    padding-bottom: 10px;
+    color: #5a5e71;
+    font-size: 14px;
+    line-height: 2;
+    font-style: italic;
+    display: none;
+}
+
+.modal-content {
+    border-radius: unset;
+    border: unset;
+}
+
+button.btn.btn-secondary {
+    background: #556df0;
+    font-size: 16px;
+    border: unset;
+    color: #fdfdfd;
+    padding: 0;
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: unset;
+}
+
+.modal-content a {
+    color: #5a5e71;
+}
+
 /*==============MEDIA====================*/
 
 
