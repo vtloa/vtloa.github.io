@@ -1433,3 +1433,9 @@ div#mobile_photo+div {
     margin-top: 15px;
 }
 
+.blog_leftprofile {
+    font-weight: 100;
+}
+.seBlogColumnRightPadding {
+    padding: 0px;
+}
