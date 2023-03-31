@@ -1424,6 +1424,9 @@ div#mobile_photo+div {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.additional_info .card-link {
+    display: block !important;
+}
 }
 
 
