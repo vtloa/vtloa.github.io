@@ -409,10 +409,12 @@ div.menu_dropdown {
     border: unset;
     border-radius: unset !important;
     margin: 0px !important;
+    transition-delay: 0.1s;
 }
 .top_menu_link:hover div.menu_dropdown {
     max-height: 500px;
     border: 1px solid #00000020 !important;
+    transition-delay: 0s;
 }
 
 
