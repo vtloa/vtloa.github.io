@@ -8,9 +8,9 @@
 
 .list-users-home.pt-2.first-users-home .list-users-left [href="https://beon.vip/Satan/blog/"]:after {
     content: 'BPblBAЮCb B ГOBHO';
-    font-size: 10px;
+    font-size: 11px;
     color: #333333;
     font-weight: 400;
     display: block;
-    width: 100%;
+    width: calc(100% - 7px);
 }
