@@ -680,4 +680,6 @@ div#lefthome .card-body {
 .card-header {
     border-radius: 3px 3px 0 0 !important;
 }
-
+button.button_down {
+    margin-left: 5px;
+}
