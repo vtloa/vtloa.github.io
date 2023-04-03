@@ -596,7 +596,7 @@ div#mobile_menu::-webkit-scrollbar {
 
 @media (max-width: 1024px) {
   div#lefthome,.logo {
-    min-width: 260px;
+    min-width: 240px;
 }
 .top_header button.btn.btn-primary {
     width: 60px;
