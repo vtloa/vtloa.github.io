@@ -461,9 +461,8 @@ a.page-link {
     margin-left: 10px;
 }
 
-a.nav-item.nav-link.active,button.btn.btn-primary,div#lefthome .card-body,button.button_down,.card [onclick="$('#profile_viewers').toggle();"],
-div#ajax_status a,.show_menu.header-orange,.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block,
-div#lefthome .card-body {
+a.nav-item.nav-link.active,button.btn.btn-primary,button.button_down,.card [onclick="$('#profile_viewers').toggle();"],
+div#ajax_status a,.show_menu.header-orange,.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block {
     border-radius: 3px;
 }
 
@@ -672,4 +671,12 @@ button#newupdates:hover {
 
 .recentaction_div {
     background: #f2f2f2;
+}
+
+div#lefthome .card-body {
+    border-radius: 0 0 3px 3px !important;
+}
+
+.card-header.header-orange {
+    border-radius: 3px 3px 0 0 !important;
 }
