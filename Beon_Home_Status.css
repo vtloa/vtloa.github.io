@@ -1,3 +1,11 @@
+.list-users-home.pt-2.first-users-home a:hover {
+    text-decoration: unset !important;
+}
+
+/*---------------------------*/
+
+/*Satan*/
+
 .list-users-home.pt-2.first-users-home .list-users-left [href="https://beon.vip/Satan/blog/"]:after {
     content: 'BPblBAЮCb B ГOBHO';
     font-size: 10px;
