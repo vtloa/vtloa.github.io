@@ -663,3 +663,9 @@ div#mobile_menu {
     order: 1;
     display: none;
 }
+
+/*UPD*/
+
+button#newupdates:hover {
+    background: transparent !important;
+}
