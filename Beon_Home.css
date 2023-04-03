@@ -680,6 +680,4 @@ div#lefthome .card-body {
 .card-header.header-orange {
     border-radius: 3px 3px 0 0 !important;
 }
-div#lefthome .card-body {
-    border-top: unset !important;
-}
+
