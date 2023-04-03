@@ -1,0 +1,649 @@
+div#lefthome {
+    min-width: 330px;
+}
+
+.card-header {
+    text-align: center;
+}
+img.photo {
+    border: unset;
+}
+div#lefthome div.menu_item_dropdown a {
+    background: transparent;
+}
+
+div#lefthome {
+    display: grid;
+    align-content: stretch;
+    height: fit-content;
+}
+
+.card {
+    order: 3333;
+    margin-bottom: 10px;
+}
+
+.portal_spacer {
+    display: none;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+/*топ*/
+
+div#lefthome .card:nth-of-type(12) .card-body {
+    padding-top: 0;
+}
+
+
+div#lefthome .card:nth-of-type(12) {
+    order: 1;
+}
+
+.list-users-home.pt-2.first-users-home img.rate_photo {
+    display: block;
+    margin-top: -5px;
+}
+
+img.rate_photo {
+    display: none;
+}
+
+.list-users-home.pt-2.first-users-home:after,
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2:before,
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2+.list-users-home.pt-2:before,
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2+.list-users-home.pt-2+.list-users-home.pt-2:before,
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2+.list-users-home.pt-2+.list-users-home.pt-2+.list-users-home.pt-2:before {
+    display: block;
+    text-align: left;
+}
+
+.list-users-home.pt-2.first-users-home:after {
+    content: '1.';
+    font-size: 25px;
+    margin-bottom: -25px;
+    z-index: -1;
+}
+
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2:before {
+    content: '2.';
+    font-size: 22px;
+    margin-bottom: -25px;
+}
+
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2+.list-users-home.pt-2:before {
+    content: '3.';
+    font-size: 19px;
+    margin-bottom: -25px;
+    margin-left: 2px;
+    line-height: 1.6;
+}
+
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2+.list-users-home.pt-2+.list-users-home.pt-2:before {
+    content: '4.';
+    font-size: 15px;
+    margin-bottom: -25px;
+    margin-left: 4px;
+    line-height: 2;
+}
+
+.list-users-home.pt-2.first-users-home+.list-users-home.pt-2+.list-users-home.pt-2+.list-users-home.pt-2+.list-users-home.pt-2:before {
+    content: '5.';
+    font-size: 13px;
+    margin-bottom: -25px;
+    margin-left: 6px;
+    line-height: 2.3;
+}
+
+.list-users-home.pt-2 {
+    display: block;
+}
+
+.list-users-home.pt-2.first-users-home .menu_item_dropdown,
+.list-users-home.pt-2 div#comment_home_body .menu_item_dropdown {
+    display: none;
+}
+
+.list-users-home.pt-2.first-users-home .menu_item_dropdown+.menu_item_dropdown,
+.list-users-home.pt-2 div#comment_home_body .menu_item_dropdown+.menu_item_dropdown {
+    display: block;
+}
+
+.list-users-home.pt-2.first-users-home {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.list-users-home.pt-2.first-users-home img.menu_icon2 {
+    display: none;
+}
+
+.list-users-home.pt-2.first-users-home a {
+    background: transparent;
+    margin-left: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-users-home.pt-2.first-users-home a {
+    display: block;
+    margin: 0px;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+div#comment_home_body img.menu_icon2 {
+    margin-right: 0px;
+}
+.list-users-home.pt-2 {
+    padding: 0 !important;
+}
+
+.list-users-home.pt-2.first-users-home div.menu_item_dropdown a {
+    padding: 0;
+    padding-left: 15px;
+}
+
+.list-users-home.pt-2 div.menu_item_dropdown a {
+    padding: 0;
+    padding-left: 10px;
+}
+
+
+
+/*----------*/
+
+
+.portal_login.card img.photo {
+    width: 100px;
+    border: unset;
+}
+
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block {
+    border: unset;
+    color: #fdfdfd !important;
+    text-align: left;
+    font-size: 20px;
+    padding: 0;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:after {
+    content: '!';
+}
+
+.list-users-home.pt-2.first-users-home div.menu_item_dropdown a {
+    margin-top: -6px;
+    line-height: normal;
+}
+
+a.menu_item.p-2 {
+    padding: 3px !important;
+}
+
+
+/*сообщества*/
+
+div#lefthome .card:nth-of-type(14) {
+    order: 2;
+}
+div#lefthome .card:nth-of-type(14) div#comment_home_body {
+    padding: 0 !important;
+}
+
+div#lefthome .card:nth-of-type(14) div#comment_home_body a:before {
+    content: url(https://beon.fun/i/blog.png);
+}
+
+div#lefthome .card:nth-of-type(14)  div#comment_home_body {
+    margin-bottom: 5px;
+}
+
+div#lefthome .card:nth-of-type(14) .list-users-home.pt-2 {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+div#lefthome .card:nth-of-type(14) .list-users-left {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*изменить подпись*/
+
+div#ajax_status {
+    font-size: 0;
+}
+
+span#ajax_currentstatus_value,div#ajax_status a {
+    font-size: 14px;
+}
+
+/*тесты*/
+
+
+div#lefthome .card:nth-of-type(16) .list-users-home.pt-2 {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+div#lefthome .card:nth-of-type(16) .list-users-left img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 100%;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/*что новго?*/
+
+div#lefthome .card:nth-of-type(30) {
+    order: 2;
+}
+
+.portal_whatsnew {
+    padding: 0 !important;
+}
+
+div.portal_action {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.action_text_content a {
+    font-size: 14px;
+}
+
+.recentaction_div {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.action_text_content a+a1 {
+    display: none;
+}
+
+.action_text_content [href^="profile.php?user="]:before {
+    margin-right: 3px;
+}
+
+.action_text_content a+a {
+    display: inline-block;
+}
+
+[href^="blog.php?"]:before {
+    content: url(https://beon.fun/i/blog.png);
+    margin-right: 3px;
+}
+
+
+.portal_whatsnew .action_text.pl-2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.portal_whatsnew .portal_action_date {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/*пользователи иконка*/
+
+.list-users-home-photos-link:before,
+div#profile_viewers a:before,
+div#comment_home_body img.menu_icon2,
+.action_text_content [href^="profile.php?user="]:before {
+    content: url(https://beon.fun/i/user.png);
+}
+
+/*плашки*/
+
+.card {
+    border: unset;
+}
+.card-header {
+    border-radius: 3px !important;
+}
+
+div#lefthome .card-body {
+    border: 1px solid #00000020 !important;
+}
+
+.card-header.header-orange {
+    background: #f36639;
+}
+
+.card-header.header-green {
+    background: #8bc34a;
+}
+
+.card-header.header-red {
+    background: #ba3333;
+}
+
+.card-header.header-blue {
+    background: #3152ae;
+}
+
+div#lefthome .card:nth-of-type(30) .card-header.header-orange {
+    background: #3152ae;
+}
+
+div#lefthome .card:nth-of-type(14) .card-header.header-orange {
+    background: #8bc34a;
+}
+
+/*иконоки под постом*/
+
+[src="./images/comments.png"] {
+content: url(https://img.icons8.com/fluency-systems-regular/2x/comments--v2.png);
+margin-top: 5px;
+}
+
+.post_data .menu_icon2 {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    opacity: 0.3;
+}
+.post_data * {
+    color: #8c8c8c !important;
+}
+
+p.card-link {
+   font-size: 16px;
+}
+
+a.card-link {
+   color: black;
+}
+
+/*в постах*/
+
+.post_text.pl-3 {
+    padding-left: 10px !important;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date a {
+    font-size: 16px;
+}
+
+.post_text.pl-3 p {
+    margin-bottom: 0px;
+}
+.content .post_container .post_text iframe {
+    max-width: 600px;
+    height: 300px;
+}
+
+.post_container .post_text img {
+    padding: 3px;
+    max-width: 400px;
+}
+.category {
+    font-size: 11px;
+    color: #333333;
+}
+.category a {
+    font-size: 14px;
+}
+
+/*фикс выпадашек шапки*/
+
+div.menu_dropdown {
+    display: block !important;
+    max-height: 0px;
+    overflow: hidden;
+    border: unset;
+    border-radius: unset !important;
+    margin: 0px !important;
+}
+.top_menu_link:hover div.menu_dropdown {
+    max-height: 500px;
+    border: 1px solid #00000020 !important;
+}
+
+
+/*head*/
+
+.header_menu,.top_header {
+    width: 100%;
+}
+.top_header {
+    box-shadow: unset !important;
+    padding: 10px;
+}
+.top_menu {
+    padding-bottom: 23px;
+}
+
+a.top_menu_item {
+    font-size: 19px !important;
+    text-transform: capitalize !important;
+}
+
+.top_header {
+    box-shadow: unset !important;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+button.btn.btn-primary {
+    border: unset;
+    padding: 7px;
+}
+
+button.button_down {
+    padding: 7px;
+}
+
+a.page-link {
+    color: white;
+    padding: 0;
+    line-height: 2;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px !important;
+    margin-left: 10px;
+}
+
+a.nav-item.nav-link.active,button.btn.btn-primary,div#lefthome .card-body,button.button_down,.card [onclick="$('#profile_viewers').toggle();"],
+div#ajax_status a,.show_menu.header-orange,.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block,
+div#lefthome .card-body {
+    border-radius: 3px;
+}
+
+button.btn.btn-primary,button.button_down,a.page-link,a.nav-item.nav-link.active,div#ajax_status a,
+a.nav-item.nav-link.active,
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block,
+.card [onclick="$('#profile_viewers').toggle();"]{
+    background: #54b9e7;
+}
+
+.card [onclick="$('#profile_viewers').toggle();"] {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fdfdfd;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    margin: auto;
+    text-decoration: unset !important;
+}
+
+:focus {
+    border: unset !important;
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+div#entry_main:before {
+    content: 'Добавить новую тему:';
+    font-size: 20px;
+    line-height: 3;
+}
+
+div#ajax_status a {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fdfdfd;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    margin: auto;
+}
+div#ajax_status a:hover {
+    text-decoration: unset !important;
+}
+
+/*ховер кнопок*/
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover,
+a.nav-item.nav-link.active:hover,
+.card [onclick="$('#profile_viewers').toggle();"]:hover,
+a.page-link:hover,button.btn.btn-primary:hover,button.button_down:hover,
+div#ajax_status a:hover,button.btn.btn-outline-success:hover,
+button.navbar-toggler:hover {
+    background: #968e8e !important;
+    color: #fdfdfd !important;
+}
+div#lefthome a:hover {
+    color: #4f91d4;
+}
+
+/*кто читал*/
+
+div#lefthome .card:nth-of-type(28) {
+    order: 3;
+}
+
+div#lefthome .card:nth-of-type(28) div {
+    margin: 0px !important;
+}
+
+
+/*лоадинг кот*/
+
+.loadstyle {
+    background: url(https://media2.giphy.com/media/bgu2GvmWzB7msNmevT/200w.gif) no-repeat center;
+    background-size: cover;
+    border-radius: unset;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+}
+
+
+
+/*-------------*/
+
+.body {
+    width: 100%;
+    padding: 10px;
+    padding-top: 75px;
+}
+
+.logo {
+    min-width: 330px;
+    text-align: center;
+}
+
+.show_menu.header-orange {
+    background: #f36639;
+    text-align: center;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: unset;
+    border-bottom: 1px solid #0000001a;
+}
+
+button.btn.btn-outline-success {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #0000001a;
+}
+div#mobile_photo img {
+    width: 100px;
+}
+
+div#mobile_photo+div {
+    margin-bottom: 5px !important;
+}
+
+div#mobile_menu::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*-----------1024-------------*/
+
+@media (max-width: 1024px) {
+  div#lefthome {
+    min-width: 260px;
+}
+}
+
+
+@media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
+  div#content_flex {
+    flex-direction: column !important;
+}
+  
+div#lefthome {
+    width: 100% !important;
+}
+  h2.card-title a {
+    font-size: 27px;
+}
+  .card-body {
+    padding: 5px;
+}
+  .post_text.pl-3 {
+    padding-left: 7px !important;
+}
+  .additional_info.pl-3 {
+    padding-left: 7px !important;
+}
+[src="./images/logo_new.png"] {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+div#mobile_menu {
+    width: 80%;
+    max-width: 300px;
+}
+.topbar-divider {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.content {
+    margin-top: 0px;
+}
+}
+
+
+
+
+/*приветствие*/
+
+
+.portal_login.card {
+    order: 1;
+    display: none;
+}
