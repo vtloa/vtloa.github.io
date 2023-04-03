@@ -669,3 +669,7 @@ div#mobile_menu {
 button#newupdates:hover {
     background: transparent !important;
 }
+
+.recentaction_div {
+    background: #f2f2f2;
+}
