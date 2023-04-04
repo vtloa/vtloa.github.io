@@ -393,8 +393,8 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
     max-width: 400px;
 }
 .category {
-    font-size: 11px;
-    color: #333333;
+    font-size: 12px;
+    color: #6c757d;
 }
 .category a {
     font-size: 14px;
@@ -715,4 +715,8 @@ div#lefthome .card:nth-of-type(24) .col-5.list-users-home-photos-rows.p-2 {
 
 .list-users-home-photos {
     display: block;
+}
+
+.additional_info.pl-3 {
+    padding-left: 10px !important;
 }
