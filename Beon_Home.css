@@ -691,3 +691,28 @@ button.button_down {
     max-height: 300px;
     max-width: 200px;
 }
+
+
+/*UPD 04.04.23*/
+
+/*последние и дружные*/
+
+div#lefthome .card:nth-of-type(22),
+div#lefthome .card:nth-of-type(26){
+    display: none;
+}
+
+/*новые пользователи*/
+
+div#lefthome .card:nth-of-type(24) img.photo,.portal_login.card+.portal_spacer+.card {
+    display: none;
+}
+
+
+div#lefthome .card:nth-of-type(24) .col-5.list-users-home-photos-rows.p-2 {
+    padding: 0 !important;
+}
+
+.list-users-home-photos {
+    display: block;
+}
