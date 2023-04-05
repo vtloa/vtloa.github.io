@@ -802,3 +802,8 @@ div#lefthome .card-header {
     padding: 0px;
     padding: 3px !important;
 }
+
+.post_image div {
+    color: #686868;
+    color: #686868 !important;
+}
