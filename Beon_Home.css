@@ -198,7 +198,7 @@ div#lefthome .card:nth-of-type(14) div#comment_home_body {
 }
 
 div#lefthome .card:nth-of-type(14) div#comment_home_body a:before {
-    content: url(https://beon.fun/i/blog.png);
+    content: url(https://beon.vip/uploads_user/10000/9068/2206db044c6c78fbb6df24597c5ed0b2.png);
 }
 
 div#lefthome .card:nth-of-type(14)  div#comment_home_body {
@@ -279,7 +279,7 @@ div.portal_action {
 }
 
 [href^="blog.php?"]:before {
-    content: url(https://beon.fun/i/blog.png);
+    content: url(https://beon.vip/uploads_user/10000/9068/2206db044c6c78fbb6df24597c5ed0b2.png);
     margin-right: 3px;
 }
 
@@ -300,7 +300,7 @@ div.portal_action {
 div#profile_viewers a:before,
 div#comment_home_body img.menu_icon2,
 .action_text_content [href^="profile.php?user="]:before {
-    content: url(https://beon.fun/i/user.png);
+    content: url(https://beon.vip/uploads_user/10000/9068/0518999fba0117c71dd497398b1dbfec.png);
 }
 
 /*плашки*/
