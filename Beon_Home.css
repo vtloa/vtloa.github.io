@@ -751,3 +751,7 @@ div#lefthome .card:nth-of-type(12) .card-body {
 .card {
     border: unset !important;
 }
+
+.header_menu, .top_header {
+    width: 100% !important;
+}
