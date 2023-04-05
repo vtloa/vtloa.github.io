@@ -592,6 +592,12 @@ div#mobile_menu::-webkit-scrollbar {
     padding-bottom: 23px !important;
 }
 
+.post_container .post_text img {
+    max-height: 450px;
+    max-height: 450px !important;
+    max-width: 400px !important;
+}
+
 /*-----------1024-------------*/
 
 @media (max-width: 1024px) {
@@ -658,6 +664,10 @@ div#mobile_menu {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding-bottom: 0px;
     padding-bottom: 0px !important;
+}
+.post_container .post_text img {
+    max-width: 100%;
+    max-width: 100% !important;
 }
 }
 
@@ -776,11 +786,7 @@ a.page-link {
     color: #fdfdfd !important;
 }
 
-.post_container .post_text img {
-    max-height: 450px;
-    max-height: 450px !important;
-    max-width: 400px !important;
-}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding-bottom: 0px;
     padding-bottom: 0px !important;
