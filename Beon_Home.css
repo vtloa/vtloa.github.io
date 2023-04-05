@@ -672,8 +672,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 .topbar-divider button.btn.btn-primary {
     margin-bottom: 15px;
 }
-ul.pagination.justify-content-end.float-right {
-    margin-top: 10px;
+nav.nav.nav-pills.float-left {
+    margin-bottom: 10px !important;
 }
 }
 
