@@ -614,11 +614,10 @@ div#lefthome {
     padding: 5px;
 }
  .post_text.pl-3 {
-    padding-left: 7px !important;
+    padding-left: 10px !important;
 }
  .additional_info.pl-3 {
-    padding-left: 7px;
-    padding-left: 7px !important;
+    padding-left: 10px !important;
 }
 [src="./images/logo_new.png"] {
     image-rendering: -webkit-optimize-contrast;
