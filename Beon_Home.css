@@ -728,3 +728,10 @@ div#lefthome .card:nth-of-type(24) .col-5.list-users-home-photos-rows.p-2 {
 .list-users-home.pt-2.first-users-home .menu_item_dropdown, .list-users-home.pt-2 div#comment_home_body .menu_item_dropdown [href$="/blog/"] {
     display: block;
 }
+
+/*медленная прогрузка стиля? фикс?*/
+
+div#lefthome .card-body {
+    padding: 10px !important;
+    padding-top: 0px !important;
+}
