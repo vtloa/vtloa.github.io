@@ -737,6 +737,7 @@ div#lefthome .card-body {
 }
 
 div#lefthome .card:nth-of-type(12) .card-body {
+    padding-top: 0px;
     padding-top: 0px !important;
 }
 
