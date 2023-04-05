@@ -759,3 +759,8 @@ div#lefthome .card:nth-of-type(12) .card-body {
 .top_menu {
     padding-bottom: 23px !important;
 }
+
+.home .card-body {
+    padding: 10px;
+    padding: 10px !important;
+}
