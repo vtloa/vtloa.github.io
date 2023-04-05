@@ -734,6 +734,9 @@ div#lefthome .card:nth-of-type(24) .col-5.list-users-home-photos-rows.p-2 {
 
 div#lefthome .card-body {
     padding: 10px !important;
+}
+
+div#lefthome .card:nth-of-type(12) .card-body {
     padding-top: 0px !important;
 }
 
