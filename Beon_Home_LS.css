@@ -308,13 +308,13 @@ textarea#reply_body {
 .message_row.row.col-12,div#message_post {
     padding: 0 !important;
 }
-
 [src="./images/logo_new.png"] {
     content: url(https://beon.vip/images/logo_new.png);
     width: 100px;
     height: auto;
     margin: 0px;
     image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
 }
 .message_row.row.col-12 {
     margin-right: 0px !important;
