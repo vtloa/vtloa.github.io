@@ -134,6 +134,7 @@ div#message_row_text {
     content: url(https://beon.vip/favicon.ico);
     margin-top: -7px;
     margin-left: -10px;
+    max-width: 52px;
 }
 
 td.top_menu {
