@@ -539,6 +539,12 @@ div#lefthome .card:nth-of-type(28) div {
     padding-top: 75px;
 }
 
+.body {
+    width: 100% !important;
+    padding: 10px !important;
+    padding-top: 75px !important;
+}
+
 .logo {
     min-width: 330px;
     text-align: center;
