@@ -669,6 +669,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     max-width: 100%;
     max-width: 100% !important;
 }
+.topbar-divider button.btn.btn-primary {
+    margin-bottom: 15px;
+}
 }
 
 
