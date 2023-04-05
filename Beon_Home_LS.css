@@ -298,10 +298,7 @@ textarea#reply_body {
 /*MEDIA*/
 
 @media (max-width: 1024px) {
-[src="./images/logo_new.png"] {
-    margin-top: -7px;
-    margin-left: -10px;
-}
+
 }
 
 /*smart*/
