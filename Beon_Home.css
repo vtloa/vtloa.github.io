@@ -736,3 +736,9 @@ div#lefthome .card-body {
     padding: 10px !important;
     padding-top: 0px !important;
 }
+
+.first-users-home .list-users-left .rate_photo {
+    width: auto !important;
+    max-height: 300px !important;
+    max-width: 200px !important;
+}
