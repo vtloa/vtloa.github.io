@@ -772,8 +772,10 @@ div#lefthome .card:nth-of-type(12) .card-body {
 }
 
 
-
-
 a.page-link {
     color: #fdfdfd !important;
+}
+
+.post_container .post_text img {
+    max-width: 400px !important;
 }
