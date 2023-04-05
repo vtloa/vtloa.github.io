@@ -296,6 +296,17 @@ textarea#reply_body {
 }
 
 
+
+
+div#message_post {
+    border: 1px solid #ebebeb;
+    width: calc(100% - 20px) !important;
+    margin: auto;
+    margin-bottom: 10px !important;
+    border-radius: 3px;
+}
+
+
 /*MEDIA*/
 
 @media (max-width: 1024px) {
@@ -404,9 +415,9 @@ div#smiles img {
 }
 div#message_post {
     width: 100% !important;
-    margin: unset !important;
-    border: unset;
-    border-radius: unset;
+    margin: auto !important;
+    border: unset !important;
+    border-radius: unset !important;
     border-top: 1px solid #ebebeb;
 }
 div#message_post .pt-3 {
@@ -442,11 +453,4 @@ div#message_post .pt-3 {
     margin-left: 10px;
 }
 
-div#message_post {
-    border: 1px solid #ebebeb;
-    width: calc(100% - 20px) !important;
-    margin: auto;
-    margin-bottom: 10px !important;
-    border-radius: 3px;
-}
 
