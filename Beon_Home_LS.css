@@ -403,7 +403,7 @@ div#smiles img {
     padding: 0 !important;
 }
 div#message_post {
-    width: 100%;
+    width: 100% !important;
     margin: unset !important;
     border: unset;
     border-radius: unset;
