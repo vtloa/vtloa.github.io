@@ -298,12 +298,9 @@ textarea#reply_body {
 /*MEDIA*/
 
 @media (max-width: 1024px) {
-  [src="./images/logo_new.png"] {
-    content: url(https://beon.vip/images/logo_new.png);
-    width: 100px;
-    height: auto;
-    margin: 0px;
-    image-rendering: -webkit-optimize-contrast;
+[src="./images/logo_new.png"] {
+    margin-top: -7px;
+    margin-left: -10px;
 }
 }
 
