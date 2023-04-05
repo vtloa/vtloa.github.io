@@ -394,7 +394,8 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
 }
 .category {
     font-size: 14px;
-    color: #6c757d;
+    color: #797d80;
+    margin-top: 5px;
 }
 .category a {
     font-size: 14px;
