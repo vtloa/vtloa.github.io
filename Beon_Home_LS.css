@@ -431,3 +431,11 @@ div#smiles img {
     margin-left: 10px;
 }
 
+div#message_post {
+    border: 1px solid #ebebeb;
+    width: calc(100% - 20px) !important;
+    margin: auto;
+    margin-bottom: 10px !important;
+    border-radius: 3px;
+}
+
