@@ -777,9 +777,10 @@ a.page-link {
 }
 
 .post_container .post_text img {
+    max-height: 450px;
+    max-height: 450px !important;
     max-width: 400px !important;
 }
-
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding-bottom: 0px;
     padding-bottom: 0px !important;
