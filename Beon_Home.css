@@ -784,3 +784,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding-bottom: 0px;
     padding-bottom: 0px !important;
 }
+
+div#lefthome .card-header {
+    padding: 0px;
+    padding: 3px !important;
+}
