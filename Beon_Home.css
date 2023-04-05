@@ -633,6 +633,9 @@ div#mobile_menu {
 .content {
     margin-top: 0px;
 }
+.home .card-body {
+    padding: 0px;
+}
 }
 
 
