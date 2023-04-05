@@ -580,9 +580,16 @@ div#mobile_menu::-webkit-scrollbar {
     display: none;
 }
 
+
+/*тут тоже импортант*/
+
 .home .card-body {
     padding: 10px;
     padding: 10px !important;
+}
+
+.top_menu {
+    padding-bottom: 23px !important;
 }
 
 /*-----------1024-------------*/
@@ -647,6 +654,10 @@ div#mobile_menu {
 .home .card-body {
     padding: 0px;
     padding: 0px !important;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding-bottom: 0px;
+    padding-bottom: 0px !important;
 }
 }
 
@@ -760,9 +771,7 @@ div#lefthome .card:nth-of-type(12) .card-body {
     width: 100% !important;
 }
 
-.top_menu {
-    padding-bottom: 23px !important;
-}
+
 
 
 a.page-link {
