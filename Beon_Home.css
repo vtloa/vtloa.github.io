@@ -613,10 +613,11 @@ div#lefthome {
   .card-body {
     padding: 5px;
 }
-  .post_text.pl-3 {
+ .post_text.pl-3 {
     padding-left: 7px !important;
 }
-  .additional_info.pl-3 {
+ .additional_info.pl-3 {
+    padding-left: 7px;
     padding-left: 7px !important;
 }
 [src="./images/logo_new.png"] {
