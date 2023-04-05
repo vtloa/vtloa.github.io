@@ -580,7 +580,10 @@ div#mobile_menu::-webkit-scrollbar {
     display: none;
 }
 
-
+.home .card-body {
+    padding: 10px;
+    padding: 10px !important;
+}
 
 /*-----------1024-------------*/
 
@@ -643,6 +646,7 @@ div#mobile_menu {
 }
 .home .card-body {
     padding: 0px;
+    padding: 0px !important;
 }
 }
 
@@ -760,10 +764,6 @@ div#lefthome .card:nth-of-type(12) .card-body {
     padding-bottom: 23px !important;
 }
 
-.home .card-body {
-    padding: 10px;
-    padding: 10px !important;
-}
 
 a.page-link {
     color: #fdfdfd !important;
