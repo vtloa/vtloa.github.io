@@ -400,24 +400,6 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
     font-size: 14px;
 }
 
-/*фикс выпадашек шапки*/
-
-div.menu_dropdown {
-    display: block !important;
-    max-height: 0px;
-    overflow: hidden;
-    border: unset;
-    border-radius: unset !important;
-    margin: 0px !important;
-    transition-delay: 0s;
-}
-.top_menu_link:hover div.menu_dropdown {
-    max-height: 500px;
-    border: 1px solid #00000020 !important;
-    transition-delay: 0.1s;
-}
-
-
 /*head*/
 
 .header_menu,.top_header {
@@ -719,4 +701,19 @@ div#lefthome .card:nth-of-type(24) .col-5.list-users-home-photos-rows.p-2 {
 
 .additional_info.pl-3 {
     padding-left: 10px !important;
+}
+
+
+/*fix пустых блоков*/
+
+.list-users-home.pt-2.first-users-home .menu_item_dropdown, .list-users-home.pt-2 div#comment_home_body .menu_item_dropdown {
+    display: block;
+}
+
+.list-users-home.pt-2.first-users-home .menu_item_dropdown, .list-users-home.pt-2 div#comment_home_body .menu_item_dropdown [href*="/blog/"] {
+    display: none;
+}
+
+.list-users-home.pt-2.first-users-home .menu_item_dropdown, .list-users-home.pt-2 div#comment_home_body .menu_item_dropdown [href$="/blog/"] {
+    display: block;
 }
