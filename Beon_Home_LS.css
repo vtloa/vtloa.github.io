@@ -403,8 +403,11 @@ div#smiles img {
     padding: 0 !important;
 }
 div#message_post {
-    width: calc(100% - 10px) !important;
-    margin-bottom: 5px !important;
+    width: 100%;
+    margin: unset !important;
+    border: unset;
+    border-radius: unset;
+    border-top: 1px solid #ebebeb;
 }
 div#message_post .pt-3 {
     margin-bottom: 4px;
