@@ -402,6 +402,10 @@ div#smiles img {
     margin: 6px;
     padding: 0 !important;
 }
+div#message_post {
+    width: calc(100% - 10px) !important;
+    margin-bottom: 5px !important;
+}
 }
 
 
