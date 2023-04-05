@@ -409,3 +409,25 @@ div#smiles img {
     position: absolute;
     top: 10px;
 }
+
+/*удалить изменить перестановка как в дневнике*/
+
+.messages_actions {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.messages_actions,.messages_actions [onclick^="editmessage"] {
+    font-size: 0;
+}
+
+.messages_actions [onclick^="editmessage"]:before {
+    content: 'изменить';
+    font-size: 14px;
+}
+
+.messages_actions a {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
