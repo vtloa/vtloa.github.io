@@ -733,6 +733,7 @@ div#lefthome .card:nth-of-type(24) .col-5.list-users-home-photos-rows.p-2 {
 /*медленная прогрузка стиля? фикс?*/
 
 div#lefthome .card-body {
+    padding: 10px;
     padding: 10px !important;
 }
 
@@ -745,4 +746,8 @@ div#lefthome .card:nth-of-type(12) .card-body {
     width: auto !important;
     max-height: 300px !important;
     max-width: 200px !important;
+}
+
+.card {
+    border: unset !important;
 }
