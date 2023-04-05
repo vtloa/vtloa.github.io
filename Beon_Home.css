@@ -764,3 +764,7 @@ div#lefthome .card:nth-of-type(12) .card-body {
     padding: 10px;
     padding: 10px !important;
 }
+
+a.page-link {
+    color: #fdfdfd !important;
+}
