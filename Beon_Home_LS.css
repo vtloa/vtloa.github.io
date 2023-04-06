@@ -418,7 +418,7 @@ div#message_post {
     margin: auto !important;
     border: unset !important;
     border-radius: unset !important;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb !important;
 }
 div#message_post .pt-3 {
     margin-bottom: 4px;
