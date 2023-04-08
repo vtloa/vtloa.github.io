@@ -399,7 +399,7 @@ a.nav-link.active {
 }
 .group_cats_type_select,.group_cats_type_sort {
     text-align: left !important;
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 
 .group_cats_type_select select.group_small {
