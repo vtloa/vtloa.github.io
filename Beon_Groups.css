@@ -1,5 +1,88 @@
+/*--------head единый---------*/
 
-/*----------------------------------*/
+.header_menu,.top_header {
+    width: 100%;
+}
+.top_header {
+    box-shadow: unset !important;
+    padding: 10px;
+}
+.top_menu {
+    padding-bottom: 23px;
+}
+
+a.top_menu_item {
+    font-size: 19px !important;
+    text-transform: capitalize !important;
+}
+
+.top_header {
+    box-shadow: unset !important;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+button.btn.btn-primary {
+    border: unset;
+    padding: 7px;
+}
+
+button.button_down {
+    padding: 7px;
+}
+
+/*лого*/
+
+.top_header table tbody tr td:first-child {
+    width: 330px;
+    text-align: center;
+}
+
+td.top_menu {
+    width: auto !important;
+    background: transparent !important;
+    text-align: left !important;
+}
+
+.top_header table {
+    width: 100% !important;
+}
+
+td.top_menu {
+    padding-bottom: 16px;
+}
+
+button.btn.btn-primary {
+    border: unset;
+    padding: 7px;
+    background: #54b9e7;
+}
+
+button.button_down {
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 5px;
+    background: #54b9e7;
+}
+
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+    background: #968e8e !important;
+    color: #fdfdfd !important;
+}
+
+button#newupdates:hover {
+    background: transparent !important;
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+[src="./images/logo_new.png"] {
+    image-rendering: -webkit-optimize-contrast;
+}
+}
+
+
+
+/*-----------НАЧАЛО ТУТ, ВЫШЕ ШАПКА--------------*/
 
 .group_pages_top {
     background: #f2f2f2 !important;
