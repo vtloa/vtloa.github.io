@@ -322,7 +322,7 @@ select.group_small {
 /*----------------*/
 
 .group_cats_menu {
-    padding: 10px;
+    padding: 10px !important;
     background: transparent !important;
     border-top: unset !important;
 }
