@@ -807,3 +807,18 @@ div#lefthome .card-header {
     color: #686868;
     color: #686868 !important;
 }
+
+
+/*UPD 08.04.23*/
+
+div#lefthome .card.mb-2.post_home {
+    order: 9999 !important;
+}
+
+div#lefthome .card:nth-of-type(28) .card-header.header-orange {
+    background: #3152ae;
+}
+
+div#lefthome .portal_whatsnew div.portal_action {
+    padding-bottom: 10px !important;
+}
