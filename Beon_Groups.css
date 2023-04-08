@@ -694,6 +694,22 @@ div#righthome table.form textarea {
 td.form2 {
     max-width: 275px;
 }
+  
+/*очень странный фикс кнопки на моб версии, я так и не понял в чём проблема, мб админ добавить класс?*/
+ 
+table.form tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr * {
+    all: unset;
+}
+table.form input.button {
+    font-size: 14px !important;
+    display: block !important;
+    background: white !important;
+    margin: auto !important;
+    border: 1px solid #bbbbbb;
+    color: #2a2a2a;
+    border-radius: 3px;
+    padding: 7px;
+}
 }
 
 /*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
