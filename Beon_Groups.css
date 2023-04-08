@@ -693,4 +693,8 @@ div#righthome table.form textarea {
 }
 }
 
+/*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
 
+.group_list_row div+div+div {
+    overflow-wrap: anywhere;
+}
