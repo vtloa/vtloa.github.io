@@ -394,7 +394,7 @@ a.nav-link.active {
 }
 
 .group_cats_type {
-    background: transparent;
+    background: transparent !important;
     border-top: unset !important;
 }
 .group_cats_type_select,.group_cats_type_sort {
