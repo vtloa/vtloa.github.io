@@ -691,6 +691,9 @@ div#righthome table.form textarea {
     margin: 0px;
     margin-bottom: 10px;
 }
+td.form2 {
+    max-width: 275px;
+}
 }
 
 /*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
