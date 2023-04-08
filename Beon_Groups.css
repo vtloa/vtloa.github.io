@@ -568,18 +568,8 @@ select.group_small {
     margin-left: unset !important;
     min-width: unset !important;
 }
-  .group_cats_type_select, .group_cats_type_sort {
+ .group_cats_type_select, .group_cats_type_sort {
     text-align: right !important;
-}
-.group_pages_top,ul.nav.nav-tabs {
-    position: unset;
-    width: 100%;
-}
-.group_pages_top+.group_list_row, div#invite_groups+.group_row, table.form {
-    margin-top: 0px;
-}
-div#invite_groups+.group_row {
-    margin-top: 10px;
 }
 }
 
