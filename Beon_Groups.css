@@ -312,7 +312,7 @@ a.nav-link.active {
 
 select.group_small {
     padding: 3px;
-    border-color: #dbdbdb;
+    border-color: #dbdbdb !important;
     border-radius: 3px;
     min-width: 118px;
 }
@@ -398,7 +398,7 @@ a.nav-link.active {
     border-top: unset !important;
 }
 .group_cats_type_select,.group_cats_type_sort {
-    text-align: left;
+    text-align: left !important;
     margin-top: 10px;
 }
 
@@ -569,7 +569,7 @@ select.group_small {
     min-width: unset !important;
 }
   .group_cats_type_select, .group_cats_type_sort {
-    text-align: right;
+    text-align: right !important;
 }
 }
 
