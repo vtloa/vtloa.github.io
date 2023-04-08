@@ -344,7 +344,7 @@ select.group_small {
 }
 .group_cats_menu_all, .group_cats_menu_link {
     border: unset !important;
-    padding: 3px;
+    padding: 3px !important;
     font-weight: normal;
 }
 
