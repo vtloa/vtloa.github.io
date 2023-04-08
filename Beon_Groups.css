@@ -1,1 +1,613 @@
 
+/*----------------------------------*/
+
+.group_pages_top {
+    background: #f2f2f2 !important;
+    border: 1px solid #00000020 !important;
+    border-radius: 3px;
+}
+
+
+
+.group_pages_top a, .group_pages_bottom a {
+    background: #54b9e7;
+    border-radius: 3px;
+    color: #fdfdfd;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    text-decoration: unset !important;
+}
+
+ul.nav.nav-tabs+table td {
+    min-width: 330px;
+}
+
+ul.nav.nav-tabs+table td+td td {
+    min-width: auto;
+}
+
+.content .page_header {
+    display: none;
+}
+
+
+.group_cats_type, .group_cats_menu, .group_list_row, .group_pages_top {
+    border: 1px solid #00000020 !important;
+    border-radius: 3px;
+}
+
+
+.group_list_row div a,.group_list_row div+div+div {
+    font-size: 14px !important;
+}
+
+.group_list_row [href^="https://beon.vip/group/"] {
+    font-size: 16px !important;
+}
+
+
+.group_list_row div {
+    font-size: 12px !important;
+}
+
+.group_list_row td+td [href^="https://beon.vip/group/"]:before,
+.group_row_title a:before {
+    content: url(https://beon.fun/i/blog.png);
+}
+.group_row_title a:before {
+    margin-right: 3px;
+}
+
+.group_pages_top {
+    color: #8e8c8c;
+}
+
+.group_pages_top b {
+    color: #282525;
+}
+
+ul.nav.nav-tabs+table td+td td {
+    vertical-align: baseline;
+}
+
+ul.nav.nav-tabs {
+    border: unset;
+}
+
+select.group_small {
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+/*общий с главной*/
+
+div#lefthome {
+    min-width: 330px;
+}
+
+.body {
+    width: 100% !important;
+    padding: 10px !important;
+    padding-top: 75px !important;
+}
+
+.card {
+    border: unset !important;
+    margin-bottom: 10px;
+}
+
+div#lefthome .card-body {
+    border-radius: 0 0 3px 3px !important;
+    border: 1px solid #00000020 !important;
+}
+
+.card-header {
+    text-align: center;
+    border-radius: 3px 3px 0 0 !important;
+}
+
+.card-header.header-orange {
+    background: #f36639;
+}
+
+.card-header.header-green {
+    background: #3152ae;
+}
+
+div#lefthome .card-body {
+    padding: 10px;
+    padding: 10px !important;
+}
+
+
+/*------------------*/
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: unset;
+    border-bottom: 1px solid #0000001a;
+}
+
+button.btn.btn-outline-success {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #0000001a;
+}
+
+div#mobile_photo img {
+    width: 100px;
+}
+
+div#mobile_photo+div {
+    margin-bottom: 5px !important;
+}
+
+div#mobile_menu {
+    width: 80%;
+    max-width: 300px;
+}
+
+img.photo {
+    border: unset;
+}
+
+.portal_spacer {
+    display: none;
+}
+
+
+
+/*upd*/
+
+ul.nav.nav-tabs+div {
+    display: none;
+}
+
+.group_row_title {
+    font-size: 16px !important;
+}
+
+.group_row_date {
+    font-size: 12px !important;
+}
+
+.group_row {
+    background: #ffffff !important;
+    border: 1px solid #ebebeb !important;
+    border-radius: 3px;
+}
+
+
+.group_row_buttons {
+    border: unset !important;
+}
+.group_row_photo {
+    border: unset !important;
+}
+
+div#righthome div+br+ul.nav.nav-tabs li.nav-item a,
+div#righthome table+ul.nav.nav-tabs li.nav-item a{
+    border-radius: 3px !important;
+    border: unset;
+}
+
+
+.icon_big+.page_header {
+    display: block;
+}
+
+textarea,input.text,select#group_groupcat_id {
+    border-radius: 3px;
+    border: 1px solid #cacaca;
+}
+
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: unset;
+}
+
+a.nav-link {
+    display: block;
+    transition: 0.2s;
+}
+
+.nav-tabs .nav-link {
+    border: unset;
+}
+
+
+a.nav-link.active {
+    border: 1px solid #ebebeb !important;
+}
+
+
+select.group_small {
+    padding: 3px;
+    border-color: #dbdbdb;
+    border-radius: 3px;
+    min-width: 118px;
+}
+
+
+
+/*----------------*/
+
+.group_cats_menu {
+    padding: 10px;
+    background: transparent;
+    border-top: unset !important;
+}
+
+.group_cats_menu:before {
+    content: 'Категория:';
+    display: block;
+    text-align: center;
+    background: #f36639;
+    border-radius: 3px 3px 0 0;
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: calc(100% + 22px);
+    margin-left: -11px;
+    margin-top: -10px;
+}
+.group_cats_menu_all, .group_cats_menu_link {
+    border: unset !important;
+    padding: 3px;
+    font-weight: normal;
+}
+
+[src="./images/icons/minus16_disabled.gif"] {
+    display: none;
+}
+
+.group_cats_menu a {
+    color: #212529;
+}
+
+.group_cats_menu a:hover {
+    color: #4f91d4;
+    text-decoration: unset;
+}
+
+/*кнопки*/
+
+
+ul.nav.nav-tabs li.nav-item,
+ul.nav.nav-tabs a.nav-link.active {
+    border-radius: 3px;
+    border: unset !important;
+}
+
+a.nav-link.active {
+    background: #54b9e7 !important;
+    color: white !important;
+}
+
+/*-----------*/
+
+.group_cats_type:before {
+    content: 'Фильтр:';
+    display: block;
+    text-align: center;
+    background: #8bc34a;
+    border-radius: 3px 3px 0 0;
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: calc(100% + 22px);
+    margin-left: -11px;
+    margin-top: -10px;
+}
+
+.group_cats_type {
+    background: transparent;
+    border-top: unset !important;
+}
+.group_cats_type_select,.group_cats_type_sort {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.group_cats_type_select select.group_small {
+    margin-left: 98px;
+}
+
+select.group_small {
+    margin-left: 73px;
+    min-width: 135px;
+    text-align: center;
+}
+
+.group_pages_top,.group_pages_bottom {
+    background: transparent !important;
+    border: unset !important;
+    padding: 0 !important;
+    text-align: right !important;
+}
+
+.group_pages_top {
+    margin-top: -35px;
+}
+
+.group_list_row div+div a:before,.group_row_date a:before {
+    content: url(https://beon.vip/uploads_user/10000/9068/0518999fba0117c71dd497398b1dbfec.png);
+}
+
+/*ховер кнопок*/
+
+a.nav-link.active:hover,
+.group_pages_top a:hover, .group_pages_bottom a:hover {
+    background: #968e8e !important;
+}
+
+/*------------*/
+
+
+
+.group_row_buttons {
+    text-align: right;
+}
+
+.group_row_buttons * {
+    float: unset !important;
+    padding: 0 !important;
+}
+
+.group_row_buttons .button {
+    display: inline;
+}
+
+
+.group_row_photo {
+    padding: 0 !important;
+}
+
+.show_menu.header-orange {
+    background: #f36639;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.group_row_buttons {
+    display: none;
+}
+.group_row_title {
+    padding-bottom: 5px;
+}
+
+
+
+
+/*убирает ту надпись с иконкой*/
+
+div#righthome div:nth-of-type(1),
+.page_header+div{
+    font-size: 0;
+}
+
+img.icon_big {
+    display: none;
+}
+
+div#righthome br {
+    display: none;
+}
+
+/*перенос навигации в обзоре сообществ*/
+
+.content {
+    position: relative;
+    padding: 0 !important;
+}
+ul.nav.nav-tabs {
+    position: absolute;
+    top: 0;
+    left: 340px;
+    width: calc(70% - 340px);
+}
+
+.group_pages_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    margin: 0px;
+}
+
+.group_pages_top+.group_list_row,
+div#invite_groups+.group_row,table.form {
+    margin-top: 35px;
+}
+
+
+div#righthome br+ul.nav.nav-tabs,
+div#righthome table+ul.nav.nav-tabs{
+    margin-top: 10px;
+}
+.group_pages_top {
+    font-size: 0;
+}
+
+div#content_flex {
+    padding-top: 10px;
+}
+
+.card-header {
+    padding: 3px !important;
+}
+
+.group_pages_top a {
+    margin-left: 10px;
+}
+
+
+/*-----------------MEDIA----------------------*/
+
+@media (max-width: 1024px) {
+  div#lefthome,.logo {
+    min-width: 240px;
+}
+.top_header button.btn.btn-primary {
+    width: 60px;
+    height: 38px;
+}
+.top_header button.btn.btn-primary:before {
+    content: url(https://beon.vip/uploads_user/10000/9068/c0f97719d3b33901c5d82701055aec47.png);
+    font-size: 18px;
+    text-align: center;
+    margin-left: -4px;
+}
+.top_header button.btn.btn-primary {
+    font-size: 0;
+}
+ul.nav.nav-tabs+table td {
+    min-width: 240px;
+}
+  
+.top_header table tbody tr td:first-child {
+    width: 240px !important;
+}
+  ul.nav.nav-tabs {
+    left: 250px;
+}
+select.group_small {
+    margin-left: unset !important;
+    min-width: unset !important;
+}
+  .group_cats_type_select, .group_cats_type_sort {
+    text-align: right;
+}
+}
+
+/*----------------------smart--------------------*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px){
+  
+div#lefthome {
+    min-width: 100% !important;
+}
+
+.content {
+    padding: 0 !important;
+}
+.content div+ul+table tbody tr {
+    display: flex;
+    flex-direction: column;
+}
+a.nav-link {
+    margin: 0px !important;
+}
+  
+ul.nav.nav-tabs+table td {
+    width: 100% !important;
+    min-width: 100%;
+    padding: 0 !important;
+}
+ul.nav.nav-tabs {
+    display: flex;
+    flex-flow: unset;
+}
+  
+ul.nav.nav-tabs [href="/user_group_add.php"] {
+    font-size: 0;
+}
+ul.nav.nav-tabs [href="/user_group_add.php"]:before {
+    content: 'Создать';
+    font-size: 14px;
+}
+  li.nav-item {
+    width: 50%;
+}
+  a.nav-link {
+    line-height: 2;
+    padding: 0 !important;
+    text-align: center;
+}
+.group_pages_top {
+    margin: 0px;
+} 
+.group_pages_top b {
+    font-size: 13px;
+    padding-right: 10px;
+}
+.group_pages_top {
+    font-size: 0;
+}
+  
+
+/*в моих группах*/
+.group_row {
+    padding: 5px !important;
+}
+.group_row img.photo {
+    width: 70px;
+    height: 70px;
+    image-rendering: -webkit-optimize-contrast;
+    object-fit: cover;
+}
+  td.group_row1 {
+    padding: 0 5px 5px 5px;
+}
+  
+.group_row {
+    display: flex !important;
+}
+  
+td.group_row1 {
+    float: right;
+}
+  
+div#content_flex {
+    display: grid;
+}
+  
+.group_row_date+div {
+    overflow-wrap: anywhere;
+}
+select.group_small {
+    margin: 0px !important;
+}
+.group_cats_type_select,.group_cats_type_sort {
+    text-align: right;
+}
+td.form1 {
+    display: block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+td.form2 {
+    display: block;
+    padding: 0;
+}
+div#righthome table.form textarea {
+    max-width: 260px;
+}
+.group_pages_top,ul.nav.nav-tabs {
+    position: unset;
+    width: 100%;
+}
+.group_pages_top+.group_list_row, div#invite_groups+.group_row, table.form {
+    margin-top: 0px;
+}
+  div#righthome br+ul.nav.nav-tabs, div#righthome table+ul.nav.nav-tabs {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
