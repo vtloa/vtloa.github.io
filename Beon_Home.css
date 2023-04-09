@@ -824,7 +824,16 @@ div#lefthome .portal_whatsnew div.portal_action {
 }
 
 
-/*new иконка*/
+/*new иконка в одном стиле*/
+
+
+[src="./images/like.png"],
+[src="/images/like.png"]{
+    content: url(https://img.icons8.com/fluency-systems-filled/1x/hearts.png);
+}
 
 
 
+.like_button.liked img {
+    content: url(https://beon.vip/uploads_user/10000/9068/811f7f4d9db48ba04e558ed10c6063b0.png);
+}
