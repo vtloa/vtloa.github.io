@@ -533,9 +533,7 @@ div#content_flex {
 .group_pages_top a {
     margin-left: 10px;
 }
-
-
-.group_pages_top {
+.group_pages_top,.group_pages_bottom {
     right: 10px;
 }
 .group_list_row {
