@@ -333,7 +333,7 @@ select.group_small {
     text-align: center;
     background: #f36639;
     border-radius: 3px 3px 0 0;
-    color: aliceblue;
+    color: #fdfdfd;
     font-weight: normal;
     font-size: 14px;
     padding: 3px;
@@ -383,7 +383,7 @@ a.nav-link.active {
     text-align: center;
     background: #8bc34a;
     border-radius: 3px 3px 0 0;
-    color: aliceblue;
+    color: #fdfdfd;
     font-weight: normal;
     font-size: 14px;
     padding: 3px;
