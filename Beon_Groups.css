@@ -533,10 +533,14 @@ div#content_flex {
 .group_pages_top a {
     margin-left: 10px;
 }
-.group_pages_top,.group_pages_bottom {
+.group_pages_top {
     right: 10px;
 }
 .group_list_row {
+    margin-right: 10px;
+}
+
+.group_pages_bottom {
     margin-right: 10px;
 }
 
@@ -812,9 +816,9 @@ table.form input.button {
 .group_pages_bottom b {
     font-size: 14px;
 }
-.group_list_row {
+.group_list_row,.group_pages_bottom {
     margin-right: 0px;
-} 
+}
 }
 
 /*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
