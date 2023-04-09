@@ -697,10 +697,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 nav.nav.nav-pills.float-left {
     margin-bottom: 10px !important;
 }
+
 /*в топ*/
 
 .list-users-home.pt-2.first-users-home a {
     font-size: 19px;
+    line-height: 1.6 !important;
 }
 }
 
