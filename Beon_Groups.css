@@ -535,6 +535,13 @@ div#content_flex {
 }
 
 
+.group_pages_top {
+    right: 10px;
+}
+.group_list_row {
+    margin-right: 10px;
+}
+
 /*-----------------MEDIA----------------------*/
 
 @media (max-width: 1024px) {
@@ -807,6 +814,9 @@ table.form input.button {
 .group_pages_bottom b {
     font-size: 14px;
 }
+.group_list_row {
+    margin-right: 0px;
+} 
 }
 
 /*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
