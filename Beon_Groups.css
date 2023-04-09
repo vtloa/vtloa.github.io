@@ -823,3 +823,9 @@ table.form input.button {
 .group_list_row div+div+div {
     overflow-wrap: anywhere;
 }
+
+/*UPD*/
+
+[src="./images/icons/group.png"] {
+    display: none !important;
+}
