@@ -595,17 +595,16 @@ select.group_small {
 .group_pages_top b, .group_pages_bottom b {
     display: block;
     text-align: center;
-    width: 100%;
+    width: 100px;
     padding: 0;
     line-height: 2;
 }
 
 
-.group_pages_top,
-.group_pages_bottom {
+.group_pages_top, .group_pages_bottom {
     display: flex;
+    justify-content: flex-end;
 }
-
 
 .group_pages_bottom {
     font-size: 0;
