@@ -462,9 +462,6 @@ a.nav-link.active:hover,
     border-radius: 3px;
 }
 
-.group_row_buttons {
-    display: none;
-}
 .group_row_title {
     padding-bottom: 5px;
 }
