@@ -826,9 +826,5 @@ div#lefthome .portal_whatsnew div.portal_action {
 
 /*new иконка*/
 
-[src="./images/like.png"],
-[src="/images/like.png"]{
-    content: url(https://img.icons8.com/fluency-systems-filled/1x/hearts.png);
-}
 
 
