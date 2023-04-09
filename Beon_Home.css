@@ -822,3 +822,10 @@ div#lefthome .card:nth-of-type(28) .card-header.header-orange {
 div#lefthome .portal_whatsnew div.portal_action {
     padding-bottom: 10px !important;
 }
+
+
+/*new иконка*/
+
+[src="./images/like.png"] {
+    content: url(https://img.icons8.com/fluency-systems-filled/1x/hearts.png);
+}
