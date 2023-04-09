@@ -613,6 +613,15 @@ select.group_small {
 .group_pages_bottom b {
     font-size: 14px;
 } 
+div#righthome br+ul.nav.nav-tabs,div#righthome table+ul.nav.nav-tabs {
+    position: unset;
+    width: 100%;
+    margin: 0px;
+}
+
+div#invite_groups+.group_row {
+    margin-top: 10px;
+}
 }
 
 /*----------------------smart--------------------*/
