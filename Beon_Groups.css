@@ -595,7 +595,7 @@ select.group_small {
 .group_pages_top b, .group_pages_bottom b {
     display: block;
     text-align: center;
-    width: 100px;
+    width: 10px;
     padding: 0;
     line-height: 2;
 }
@@ -621,6 +621,9 @@ div#righthome br+ul.nav.nav-tabs,div#righthome table+ul.nav.nav-tabs {
 
 div#invite_groups+.group_row {
     margin-top: 10px;
+}
+.group_pages_bottom b {
+    width: 100%;
 }
 }
 
