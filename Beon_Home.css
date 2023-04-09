@@ -697,6 +697,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 nav.nav.nav-pills.float-left {
     margin-bottom: 10px !important;
 }
+/*в топ*/
+
+.list-users-home.pt-2.first-users-home a {
+    font-size: 19px;
+}
 }
 
 
@@ -854,8 +859,8 @@ div#lefthome .portal_whatsnew div.portal_action {
     content: url(https://img.icons8.com/fluency-systems-filled/1x/hearts.png);
 }
 
-
-
 .like_button.liked img {
     content: url(https://beon.vip/uploads_user/10000/9068/811f7f4d9db48ba04e558ed10c6063b0.png);
 }
+
+
