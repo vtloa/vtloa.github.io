@@ -571,6 +571,49 @@ select.group_small {
  .group_cats_type_select, .group_cats_type_sort {
     text-align: right !important;
 }
+/*ДЛЯ КНОПОК НА 1024*/
+    
+/*кнопки перелистывания стрелками*/
+
+.group_pages_top a:before,
+.group_pages_bottom a:before {
+    content: url(https://beon.vip/uploads_user/1000/968/7a7bf5d05add613b9bfa5b0b1de5acb5.png);
+}
+
+.group_pages_top b+a:before,
+.group_pages_bottom b+a:before {
+    content: url(https://beon.vip/uploads_user/1000/968/b3aa749b6dbe5cf047f4ae703adb5214.png);
+}
+
+.group_pages_top a, .group_pages_bottom a {
+    font-size: 0 !important;
+    padding: 7px;
+    margin: 0px;
+    height: 30px;
+}
+
+.group_pages_top b, .group_pages_bottom b {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    line-height: 2;
+}
+
+
+.group_pages_top,
+.group_pages_bottom {
+    display: flex;
+}
+
+
+.group_pages_bottom {
+    font-size: 0;
+}
+
+.group_pages_bottom b {
+    font-size: 14px;
+} 
 }
 
 /*----------------------smart--------------------*/
