@@ -373,6 +373,7 @@ margin-top: 5px;
     height: 24px;
     margin: 3px;
     opacity: 0.3;
+    margin-top: 0px;
 }
 .post_data * {
     color: #8c8c8c !important;
