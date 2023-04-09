@@ -845,6 +845,6 @@ table.form input.button {
 
 /*UPD*/
 
-[src="./images/icons/group.png"] {
+.group_row_buttons [src="./images/icons/group.png"] {
     display: none !important;
 }
