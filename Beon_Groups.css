@@ -403,11 +403,11 @@ a.nav-link.active {
 }
 
 .group_cats_type_select select.group_small {
-    margin-left: 98px;
+    margin-left: 96px;
 }
 
 select.group_small {
-    margin-left: 73px;
+    margin-left: 71px;
     min-width: 135px;
     text-align: center;
 }
