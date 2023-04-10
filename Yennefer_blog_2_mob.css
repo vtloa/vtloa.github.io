@@ -705,6 +705,25 @@ h6.card-subtitle.mb-2.text-muted.post_date {
 
 }
 
+
+/*UPD*/
+
+
 .post_data img.menu_icon2 {
     display: unset !important;
+}
+
+.show_menu.header-orange {
+    text-align: center;
+    background: linear-gradient( 342deg, #2b2b2b, #616161,#3b3b3b);
+    border-radius: 10px;
+    color: #989898;
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-shadow: 0 0 2px black;
+    box-shadow: 3px 5px 7px black;
+    filter: brightness(0.5);
+    margin-top: 10px;
+    border: 2px outset #6d6d6d;
 }
