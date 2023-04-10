@@ -704,3 +704,7 @@ h6.card-subtitle.mb-2.text-muted.post_date {
 }
 
 }
+
+.post_data img.menu_icon2 {
+    display: unset !important;
+}
