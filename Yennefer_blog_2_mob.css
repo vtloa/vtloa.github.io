@@ -727,3 +727,7 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     margin-top: 10px;
     border: 2px outset #6d6d6d;
 }
+.post_data {
+    filter: grayscale(1) invert(1);
+    color: black;
+}
