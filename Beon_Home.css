@@ -868,7 +868,7 @@ div#lefthome .portal_whatsnew div.portal_action {
 }
 
 
-.like_button:before,p.card-link.post_views:before,p.card-link.post_comments:before,[onclick^="more_menu"]:before,
+.like_button:before,p.card-link.post_views:before,p.card-link.post_comments a:before,[onclick^="more_menu"]:before,
 p.card-link:before,a.commentReply,.commentDeleteLink:before,a.commentReply:before,
 [onclick^="newmessage"]:before,.commentEditLink:before {
     font-family: 'fontawesome';
@@ -895,7 +895,7 @@ p.card-link.post_views:before {
     content: "\f06e";
 }
 
-p.card-link.post_comments:before,
+p.card-link.post_comments a:before,
 [onclick^="newmessage"]:before{
     content: "\f0e6";
 }
