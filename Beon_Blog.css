@@ -11,7 +11,7 @@
 
 .like_button:before,p.card-link.post_views:before,p.card-link.post_comments a:before,[onclick^="more_menu"]:before,
 p.card-link:before,a.commentReply,.commentDeleteLink:before,a.commentReply:before,
-[onclick^="newmessage"]:before,.commentEditLink:before {
+[onclick^="newmessage"]:before,.commentEditLink:before,p.card-link.grouppost_comments:before {
     font-family: 'fontawesome';
     font-size: 18px;
     color: #868686;
