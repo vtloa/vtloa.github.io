@@ -129,3 +129,7 @@ a.commentReply:before {
 .profile_comment_links {
     letter-spacing: 3px;
 }
+
+.profile_comment_links *:hover {
+    text-decoration: unset;
+}
