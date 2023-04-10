@@ -709,10 +709,6 @@ h6.card-subtitle.mb-2.text-muted.post_date {
 /*UPD*/
 
 
-.post_data img.menu_icon2 {
-    display: unset !important;
-}
-
 .show_menu.header-orange {
     text-align: center;
     background: linear-gradient( 342deg, #2b2b2b, #616161,#3b3b3b);
