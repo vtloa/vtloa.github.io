@@ -1176,6 +1176,7 @@ button.navbar-toggler {
     padding: 0 !important;
     background: #a5a8ff !important;
     height: 40px;
+    margin: 0px;
 }
 
 .navbar-light .navbar-toggler-icon {
