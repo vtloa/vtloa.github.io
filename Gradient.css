@@ -1469,3 +1469,7 @@ div#designs:before {
     line-height: 2;
     color: #7176ef;
 }
+
+.post_data {
+    margin-top: 35px;
+}
