@@ -731,3 +731,20 @@ h6.card-subtitle.mb-2.text-muted.post_date {
     filter: grayscale(1) invert(1);
     color: black;
 }
+
+/*кнопка диза*/
+
+div#designs {
+    background: url(https://beon.vip/uploads_image/79/fb/79fb4a9c13f7a2d8483aa5aedca35751.png) no-repeat center / contain;
+    width: 35px !important;
+    height: 35px !important;
+    right: 10px !important;
+    bottom: 10px !important;
+    font-size: 0;
+    display: block !important;
+}
+
+div#postcomment_userphotos {
+    padding: 0;
+}
+
