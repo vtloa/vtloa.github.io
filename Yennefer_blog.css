@@ -456,3 +456,7 @@ div#user_status {margin: auto;}
 [style="font-size: 11px; color: #333333; word-break: break-word; width: 100px; text-align: center;"] {
     margin: auto;
 }
+
+.post_data img.menu_icon2 {
+    display: unset;
+}
