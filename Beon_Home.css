@@ -953,18 +953,18 @@ a.commentReply:before {
 /*----1024----*/
 
 @media (max-width: 1024px) {
-  .post_data p:first-child {
-    flex-grow: 0.5;
-}
 .post_data {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
+}
+
+.additional_info .card-link {
+    margin-right: 20px;
 }
 .additional_info .card-link {
     display: unset;
 } 
 }
+
 
 
 /*----SMART----*/
