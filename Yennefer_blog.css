@@ -458,5 +458,5 @@ div#user_status {margin: auto;}
 }
 
 .post_data img.menu_icon2 {
-    display: unset;
+    display: unset !important;
 }
