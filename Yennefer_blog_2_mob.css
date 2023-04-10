@@ -747,6 +747,6 @@ h2.card-title a {
     color: #c7b3a8 !important;
 }
 
-p.card-link.post_views:before, .like_button:before, p.card-link.post_comments a:before, [onclick^="newmessage"]:before {
+p.card-link.post_views:before, .like_button:before, p.card-link.post_comments a:before, [onclick^="newmessage"]:before,[onclick^="more_menu"]:before {
     color: #c7b3a8;
 }
