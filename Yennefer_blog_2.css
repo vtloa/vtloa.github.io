@@ -934,3 +934,9 @@ font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
 }
 
 @font-face { font-family: 'News702CyrillicBT-Italic';  src: local('News702CyrillicBT-Italic'), url('https://nomail.com.ua/files/woff/f05a559fc1fda895a62ad499dc9898ad.woff') format('woff'); }
+
+
+
+.post_data img.menu_icon2 {
+    display: unset !important;
+}
