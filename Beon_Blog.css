@@ -4,7 +4,7 @@
 /*------------------------*/
 
 
-.post_data a,p.card-link.post_views {
+.post_data a,p.card-link.post_views,.post_data,.profile_comment_links {
     color: #868686;
 }
 
