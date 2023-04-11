@@ -147,3 +147,11 @@ p.card-link.post_more {
 .like_user .photo img {
     width: 60px;
 }
+
+.modal-body {
+    display: grid;
+}
+
+.button.delete_button {
+    order: 1;
+}
