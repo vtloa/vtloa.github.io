@@ -1197,6 +1197,6 @@ div#user_status {
 /*UPD*/
 
 .like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before,
-.profile_comment_links,.post_data {
+.profile_comment_links,.post_data,.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
     color: #3398ff !important;
 }
