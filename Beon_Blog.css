@@ -120,6 +120,10 @@ a.commentReply:before {
 }
 .additional_info .card-link {
     display: unset;
+    margin-right: 0px;
+}
+p.card-link.post_more {
+    margin-right: 5px;
 }
 }
 
