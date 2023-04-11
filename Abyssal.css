@@ -350,16 +350,7 @@ blockquote.blockquote {
 }
 
 
-.profile_comment_links {
-    display: flex;
-    width: 50px;
-    font-family: 'font716ce4032f2a16a947b3a4c07174d183';
-    text-transform: uppercase;
-    font-size: 0px;
-    position: absolute;
-    bottom: 5px;
-    right: 0px;
-}
+
 
 
 .profile_comment_date {
