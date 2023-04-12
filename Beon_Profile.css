@@ -695,3 +695,8 @@ img.gift-photo {
 td.profile_menu1 a:hover {
     background: #968e8e !important;
 }
+
+.gifts-list .p-2 {
+    padding: 0px !important;
+    border: unset !important;
+}
