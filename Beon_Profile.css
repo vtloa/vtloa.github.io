@@ -780,11 +780,17 @@ td#profile_tabs_gift a {
 
 /*длинная кнопка*/
 
-table.profile_menu [id^="removefriend_"] a {
+table.profile_menu [id^="removefriend_"] a,
+table.profile_menu [id^="addfriend_"] a{
     font-size: 0px !important;
 }
 
 table.profile_menu [id^="removefriend_"] a:before {
     content: 'Удалить из друзей';
+    font-size: 14px;
+}
+
+table.profile_menu [id^="addfriend_"] a:before {
+    content: 'Добавить в друзья';
     font-size: 14px;
 }
