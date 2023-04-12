@@ -705,7 +705,9 @@ table [style="padding: 10px; text-align: center; margin-top: 10px;"] {
   .gift-row {
     width: auto;
 }
-
+td.profile_tab_end {
+    display: none;
+}
 }
 
 
