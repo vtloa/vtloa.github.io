@@ -711,9 +711,6 @@ td.profile_tab_end {
 td.profile_tab2 a,td.profile_tab a {
     text-align: center;
 }
-td.profile_menu1 a {
-    font-size: 13px;
-}
 }
 
 
@@ -781,4 +778,13 @@ td#profile_tabs_gift a {
 }
 }
 
+/*длинная кнопка*/
 
+[id^="removefriend_"] a {
+    font-size: 0px !important;
+}
+
+[id^="removefriend_"] a:before {
+    content: 'Удалить из друзей';
+    font-size: 14px;
+}
