@@ -700,3 +700,9 @@ td.profile_menu1 a:hover {
     padding: 0px !important;
     border: unset !important;
 }
+
+.he_styler_customize_btn {
+    background: transparent !important;
+    padding: 0px;
+    margin-bottom: 0px;
+}
