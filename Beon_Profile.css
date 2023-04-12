@@ -1,1 +1,11 @@
+/*размер картинок в подарках*/
 
+img.gift-photo {
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.gifts-list {
+    text-align: center;
+}
