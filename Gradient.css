@@ -1471,3 +1471,8 @@ div#designs:before {
 .post_data {
     margin-top: 35px;
 }
+
+#mobile_menu .menu_item_dropdown a {
+    text-align: left !important;
+    padding-left: 10px !important;
+}
