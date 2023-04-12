@@ -752,7 +752,7 @@ td.profile_menu1 a:hover {
 
 /*для микромоников*/
 
-@media (max-width: 280px), (max-width: 360px) {
+@media (max-width: 280px), (max-width: 350px) {
 
 table.profile_menu tbody {
     display: flex !important;
