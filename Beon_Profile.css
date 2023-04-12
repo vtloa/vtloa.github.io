@@ -582,8 +582,40 @@ div#postcomment_form {
 td.profile_menu1 [onclick^="newmessage"]:before {
     display: none;
 }
+
+
+
 /*MEDIA*/
 
+/*-----------1024-------------*/
+
+
+@media (max-width: 1024px) {
+.top_header table tbody tr td:first-child {
+    width: 240px;
+}
+
+td.profile_leftside {
+    min-width: 240px;
+}
+    
+.top_header button.btn.btn-primary {
+    width: 60px;
+    height: 38px;
+}
+.top_header button.btn.btn-primary:before {
+    content: url(https://beon.vip/uploads_user/10000/9068/c0f97719d3b33901c5d82701055aec47.png);
+    font-size: 18px;
+    text-align: center;
+    margin-left: -4px;
+}
+.top_header button.btn.btn-primary {
+    font-size: 0;
+}
+}
+
+
+/*-----smart------*/
 
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
