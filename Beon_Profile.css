@@ -706,3 +706,7 @@ td.profile_menu1 a:hover {
     padding: 0px;
     margin-bottom: 0px !important;
 }
+
+[src="./images/icons/online16.gif"] {
+    display: unset !important;
+}
