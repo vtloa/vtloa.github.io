@@ -326,7 +326,6 @@ td.header, .page_header {
 td.profile_leftside {
     min-width: 330px;
     padding: 0;
-    max-width: 330px;
 }
 
 td.profile {
@@ -674,9 +673,7 @@ table [style="padding: 10px; text-align: center; margin-top: 10px;"] {
   .gift-row {
     width: auto;
 }
-td.profile_leftside {
-    max-width: 100%;
-}
+
 }
 
 
