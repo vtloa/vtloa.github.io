@@ -742,3 +742,7 @@ td.profile_menu1 a:hover {
 [src="./images/icons/online16.gif"] {
     display: unset !important;
 }
+
+.menu_item_dropdown {
+    text-align: center;
+}
