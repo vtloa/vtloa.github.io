@@ -1,1 +1,162 @@
+@font-face { font-family: "fontawesome"; src: url('//Luatr.github.io/Fonts/fontawesome-webfont.ttf'); }
+@font-face { font-family: "fontawesome3"; src: url('//Luatr.github.io/Fonts/fa-solid-900.ttf'); }
 
+/*------------------------*/
+
+
+.post_data a,p.card-link.post_views,.post_data,.profile_comment_links {
+    color: #868686;
+}
+
+
+.like_button:before,p.card-link.post_views:before,p.card-link.post_comments a:before,[onclick^="more_menu"]:before,
+p.card-link:before,a.commentReply,.commentDeleteLink:before,a.commentReply:before,
+[onclick^="newmessage"]:before,.commentEditLink:before,p.card-link.grouppost_comments:before {
+    font-family: 'fontawesome';
+    font-size: 18px;
+    color: #868686;
+}
+
+
+
+.like_button:before {
+    content: "\f08a";
+}
+
+.like_button.liked:before {
+    content: '\f004';
+    color: #ff838f;
+}
+
+.like_button.liked+span {
+    color: #ff838f !important;
+}
+
+p.card-link.post_views:before {
+    content: "\f06e";
+}
+
+p.card-link.post_comments a:before,
+[onclick^="newmessage"]:before{
+    content: "\f0e6";
+}
+
+[onclick^="more_menu"]:before {
+    content: "\f142";
+}
+
+
+a.commentReply:before {
+    content: "\f112";
+}
+
+
+.commentDeleteLink:before, p.card-link.post_comments [onclick^="deletemessage"]:before {
+    content: "\f1f8";
+}
+
+.commentEditLink:before,p.card-link.post_comments [onclick^="editmessage"]:before {
+    content: "\f040";
+}
+
+.profile_comment_links {
+    padding-left: 7px;
+}
+
+.post_data .menu_icon2,
+.profile_comment_links .menu_icon2{
+    display: none;
+}
+
+.profile_comment_links1 {
+    letter-spacing: 5px;
+}
+
+
+/*active*/
+
+.like_button.liked:before {
+    text-shadow: 0 0 #ffb1b8;
+    text-shadow: 0px 0px #ffb1b8;
+}
+
+.like_button:active:before {
+    display: inline-block;
+    transform: scale(1.4);
+    transition: 0.2s;
+    text-shadow: 5px -20px #ffb1b8;
+}
+
+
+
+/*MEDIA*/
+
+/*----1024----*/
+
+@media (max-width: 1024px) {
+  
+/*только для лс, пока что*/
+
+.messages_actions.post_data {
+    display: flex;
+}
+  
+/*--------------*/
+
+.additional_info .card-link {
+    margin-right: 20px;
+}
+.additional_info .card-link {
+    display: unset;
+} 
+}
+
+
+/*----SMART----*/
+
+@media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
+.post_data p:first-child {
+    flex-grow: 0;
+}
+.post_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.additional_info .card-link {
+    display: unset;
+    margin-right: 0px;
+}
+p.card-link.post_more {
+    margin-right: 5px;
+}
+}
+
+
+
+.profile_comment_links {
+    letter-spacing: 3px;
+}
+
+.profile_comment_links *:hover {
+    text-decoration: unset;
+}
+
+/*размер авок в модалке лайков*/
+
+
+.like_user .photo {
+    height: 60px;
+}
+
+.like_user .photo img {
+    width: 60px;
+}
+
+.modal-body {
+    display: grid;
+}
+
+.button.delete_button {
+    order: 1;
+}
