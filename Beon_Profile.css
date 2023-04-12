@@ -749,3 +749,33 @@ td.profile_menu1 a:hover {
 }
 
 
+
+/*для микромоников*/
+
+@media (max-width: 280px), (max-width: 360px) {
+
+table.profile_menu tbody {
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+td.profile_menu1 a {
+    width: 100%;
+}
+
+  
+td#profile_tabs_gift a:before {
+    content: "\f06b";
+    font-family: 'fontawesome';
+    font-size: 14px;
+}
+td#profile_tabs_gift a {
+    font-size: 0;
+}
+  td.profile_tab2 a, td.profile_tab a {
+    padding: 2px !important;
+    font-size: 12px;
+}
+}
+
+
