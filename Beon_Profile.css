@@ -268,10 +268,8 @@ button.btn.btn-outline-success {
     border-color: #0000001a;
 }
 
-@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
-[src="./images/logo_new.png"] {
-    image-rendering: -webkit-optimize-contrast;
-}
+/*-------mob-------*/
+
 div#mobile_menu {
     width: 80%;
     max-width: 300px;
@@ -279,16 +277,23 @@ div#mobile_menu {
 div#mobile_photo img {
     width: 100px;
 }
-  div#mobile_photo+div {
+ div#mobile_photo+div {
     margin-bottom: 5px !important;
 }
   .portal_spacer {
     display: none;
 }
+
+/*--------------*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+[src="./images/logo_new.png"] {
+    image-rendering: -webkit-optimize-contrast;
+}
 }
 
 
-/*------------------------*/
+/*--------------*/
 
 .body {
     width: 100% !important;
