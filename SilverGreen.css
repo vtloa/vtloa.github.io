@@ -590,7 +590,7 @@ ul.menu__box:after {
     font-family: 'Viaoda Libre';
 }
 
-.row.w-100 *,.post-opt *,.post-content a {
+.row.w-100 *,.post-opt * {
     color: #606060 !important;
 }
 
