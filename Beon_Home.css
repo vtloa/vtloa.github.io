@@ -1009,7 +1009,7 @@ a.commentReply:before {
 /*микротоп лол*/
 
 #lefthome .card.mb-2.post_home::before {
-  content: 'Волк одиночка';
+  content: 'Волк-одиночка';
   text-align: center;
   background: #2b2b2b;
   padding: 3px;
