@@ -1003,3 +1003,21 @@ a.commentReply:before {
 .like_user .photo img {
     width: 60px;
 }
+
+
+
+/*микротоп лол*/
+
+#lefthome .card.mb-2.post_home::before {
+  content: 'Волк одиночка';
+  text-align: center;
+  background: #2b2b2b;
+  padding: 3px;
+  color: white;
+  border-radius: 3px 3px 0 0;
+}
+
+
+#lefthome .card.mb-2.post_home img {
+  width: 100px;
+}
