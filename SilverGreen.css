@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+/*
+font-family: 'Viaoda Libre', cursive;
+*/
+
+[src="//i1.beon.fun/21/15/1521/87/632887/574574.png"] {
+    content: url(https://64.media.tumblr.com/c2c3f3064037496f6e487c6178bf4666/tumblr_o0o0zlFlhj1qiotbqo1_500.gifv);
+}
+
+
+div#app {
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.post-text {
+    font-family: 'Nunito';
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+
+a.post-title {
+    color: #9e9e9e;
+    font-size: 30px;
+    display: block;
+    width: fit-content;
+}
+
+a.user.post-title-user {
+    color: #9e9e9e;
+    font-size: 18px;
+}
+
+span.post-title-date {
+    padding: 0;
+}
+
+span.post-title-date+span {
+    display: none;
+}
+
+div#app {
+    width: 58%;
+    margin: auto;
+    padding: 0;
+}
+
+
+.post-content.blog_total_counter {
+    display: none;
+}
+
+
+.content {
+    width: 100%;
+}
+
+body.bodybg {
+    background: url(https://i.ibb.co/VvQzxQD/mmnn2-rd.png) no-repeat left center fixed, url(https://i.ibb.co/fGCWLZL/095-3.png) no-repeat fixed right -172px bottom -100px;
+    background-color: #070707;
+    background-size: contain;
+    image-rendering: -webkit-optimize-contrast;
+    background-blend-mode: lighten;
+}
+.bg-white+.crumbs {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 300px;
+    background: url(https://i.ibb.co/3sTsbwF/bkr-1-222222222.png) no-repeat center, linear-gradient(45deg, #4f5d3f, #795548);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    border: 2px solid #5b5b5b;
+    border-radius: 20px;
+}
+
+
+.post-content {
+    margin: 0px !important;
+    padding: 20px;
+    background-color: #080808;
+}
+
+.datebg {
+    margin: 0px;
+    font-weight: 100;
+    line-height: 2.7;
+    text-align: center;
+    font-family: 'Viaoda Libre';
+    font-size: 20px;
+    color: #a4a3a3;
+}
+
+.post-text {
+    color: #9e9e9e;
+}
+
+.user:before {
+    display: none
+}
+
+.crumbs {
+    display: none;
+}
+
+.post-text a {
+    color: #9e9e9e;
+}
+
+
+
+.post-content {
+    position: relative;
+    margin: 0px !important;
+    padding: 20px;
+    background-color: #070707;
+}
+
+.post-content:before,.post-content:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #9e9e9e, transparent);
+}
+
+.post-content:after {
+    top: 0;
+}
+
+
+.crumbs:before {
+    content: '';
+    display: block;
+    width: calc(100% + 30px);
+    height: 305px;
+    background: url(https://i.ibb.co/f0F6W89/b1-1.png) no-repeat;
+    position: absolute;
+    top: -50px;
+    left: -51px;
+    background-size: contain;
+    z-index: 33;
+    filter: drop-shadow(2px 4px 6px black);
+    image-rendering: initial;
+}
+
+.crumbs:after {
+    content: '';
+    display: block;
+    width: calc(100% + 30px);
+    height: 305px;
+    background: url(https://i.ibb.co/whq9Hjf/b2-1.png) no-repeat right bottom;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-size: contain;
+    z-index: 33;
+    filter: drop-shadow(2px 4px 6px black);
+    image-rendering: initial;
+}
+
+.crumbs {
+    font-size: 0;
+}
+
+[onclick="return showSpoiler(this)"] {
+    font-size: 20px;
+}
+
+div#newpostform {
+    display: none;
+}
+
+.post-content img.flag {
+    display: none;
+}
+
+
+.crumbs {
+    position: relative;
+}
+
+span.crumb-item {
+    position: absolute;
+    bottom: -43px;
+    z-index: 22;
+    color: #b9b9b9;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.content {
+    position: relative;
+}
+
+
+.content:before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: url(https://i.pinimg.com/originals/64/9f/bb/649fbbce26a85f5296c98494f113a271.gif) no-repeat center / contain;
+    position: absolute;
+    top: -255px;
+    left: 27%;
+    z-index: 33;
+    mix-blend-mode: color-dodge;
+}
+
+.post-content.blog_total_counter+.post-content:before,
+.post-content.blog_total_counter+.post-content:after{
+    height: 6px;
+    background: linear-gradient(to right, transparent, #585656, transparent);
+}
+
+.post-content.blog_total_counter+.post-content:after {
+    opacity: 1;
+}
+
+.post-avatar img {
+    border: 1px solid #878787b8;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+span.crumb-item:before {
+    content: '';
+    display: block;
+    height: 107px;
+    width: 350px;
+    background: url(https://i.ibb.co/kG48FtP/022.png) no-repeat;
+    position: absolute;
+    top: -84px;
+    left: -325px;
+    background-size: contain;
+    filter: brightness(0.8);
+}
+
+span.crumb-item:after {
+    content: '';
+    display: block;
+    height: 107px;
+    width: 350px;
+    background: url(https://i.ibb.co/DQTp0yP/022-2.png) no-repeat;
+    position: absolute;
+    top: -58px;
+    right: -336px;
+    background-size: contain;
+    filter: brightness(0.8);
+}
+
+.bg-white+.crumbs {
+    margin-bottom: 41px;
+}
+
+/*левое меню*/
+
+.left-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+}
+
+.left-menu__friends.left-menu__friends_offline {
+    display: none !important;
+}
+
+h3.left-menu-text {
+    background: transparent !important;
+    text-align: center;
+    color: #9e9e9e;
+    position: relative;
+}
+
+.left-menu {
+    border: unset !important;
+    text-align: center;
+}
+
+
+.left-menu * {
+    color: #9e9e9e;
+}
+
+
+h3.left-menu-text:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #9e9e9e, transparent);
+}
+
+/*play*/
+
+/*----------------------------*/
+
+
+div#beon-fnplayer {
+    width: 100%;
+    margin: auto !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    background: transparent;
+}
+
+
+div#beon-fnplayer {
+    background: transparent;
+}
+div#beon-fnplayer {
+    background: transparent;
+}
+
+
+
+div#beon-fnplayer {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    position: relative;
+    background: transparent;
+}
+
+button#fnplayer-stop {
+    display: none;
+}
+
+button#fnplayer-play {
+    position: absolute;
+    bottom: 13px;
+    right: 0;
+    left: 0;
+    margin: auto !important;
+    background: #8f8f8f;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    width: 9px;
+    height: 11px;
+    border: unset;
+}
+
+div#fnplayer-slider {
+    margin: 0px !important;
+}
+
+
+div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    background: #8f8f8f;
+    height: 3px;
+}
+
+div#fnplayer-slider span {
+    font-size: 0;
+}
+
+div#fnplayer-slider, div#fnplayer-volume {
+    height: 3px;
+    background: #464646;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+#fnplayer-play.paused {
+    clip-path: unset;
+    background: transparent;
+    border-width: 0px 0 0px 7px;
+    padding: 0 !important;
+    color: #5d5d5d;
+}
+
+/*-------------------*/
+
+input[type="text"] {
+    background: #070707;
+    border: 1px inset #858585;
+}
+
+input[type="submit"] {
+    border: 1px outset #858585;
+    background: #070707;
+}
+
+.left-menu a:hover {
+    color: #dadada;
+}
+
+a.post-title:hover, a.user.post-title-user:hover,a.navbar-brand:hover {
+    color: #dadada !important;
+}
+
+.left-menu {
+    opacity: 0;
+    transition: 0.3s linear; 
+    
+}
+
+.left-menu:hover {
+    opacity: 1;
+    transition: 0.3s linear;
+    transition-delay: 0.2s;
+    
+}
+
+.post-content span.post-title-date {
+    font-size: 18px;
+    display: block;
+    text-align: right;
+    margin-top: -28px;
+}
+
+.post-content.blog_total_counter+.post-content span.post-title-date {
+    margin: unset;
+}
+
+div#page__admincontact,div#footer,div#page__rendertime {
+    font-size: 0;
+}
+
+/*скролл*/
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454545;
+    border: 2px solid #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #939393;
+}
+
+::selection {
+    background: #202020;
+    color: white;
+}
+
+/*навигашка*/
+
+
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    position: fixed;
+    bottom: 0;
+    right: 7px;
+    text-shadow: unset !important;
+    color: #9f9f9f;
+    font-size: 0px;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    content: '\f077';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 16px;
+}
+a.my-menu.for-mobile.d-none.d-md-inline {
+    display: none !important;
+}
+
+.pc-menu {
+    display: none;
+}
+
+
+.hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 13px;
+}
+label.menu__btn {
+    margin: 0px !important;
+    width: 35px;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #898888;
+    height: 2px;
+}
+
+a.navbar-brand:hover:after {
+    background: #ffffff96;
+}
+
+
+ul.menu__box {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: unset;
+    height: 0px;
+    padding: 0;
+    background: #070707;
+    border: unset !important;
+}
+
+a.menu__item {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 100;
+    padding: 0;
+    color: #b6b6b6;
+    font-family: 'Viaoda Libre';
+    font-size: 14px;
+    text-shadow: 0 0 3px black;
+}
+
+.menu__item:hover {
+    background-color: transparent;
+    padding-left: 10px;
+    color: #f2f2f2;
+}
+
+
+ul.menu__box::-webkit-scrollbar {
+    display: none;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    height: 600px;
+    padding-top: 5px;
+    border: 1px solid #ffffff1c;
+}
+
+.bg-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 0px;
+}
+
+.m2 {
+    display: none;
+}
+a.navbar-brand {
+    padding-left: 10px;
+    color: #8d8d8d !important;
+    font-family: 'Viaoda Libre';
+    font-size: 0;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+a.navbar-brand:before {
+    content: 'Exit';
+    font-size: 40px;
+}
+
+
+ul.menu__box:before, ul.menu__box:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #9e9e9e, transparent);
+}
+
+ul.menu__box:after {
+    top: 0;
+}
+
+[onclick="return showSpoiler(this)"] {
+    display: block;
+    text-align: center;
+    font-family: 'Viaoda Libre';
+}
+
+.row.w-100 *,.post-opt *,.post-content a {
+    color: #606060 !important;
+}
+
+.post-content h1,h2,.comment-box__message-partial.comment-content,.comment-box__message-partial.comment-content a {
+    color: #929292;
+}
+
+.small-text {
+    font-family: 'Nunito';
+    font-size: 12px;
+}
+
+.small-text+div {
+    font-family: 'Nunito';
+    font-size: 12px;
+}
+
+.post-opt {
+    font-family: 'Nunito';
+}
+
+span.comments_count {
+    position: sticky;
+    top: 100%;
+}
+
+.tag:before {
+    display: none;
+}
+
+.post-content+.post-content {
+    margin-top: 10px !important;
+}
+
+.post-avatar {
+    position: relative;
+}
+
+.post-avatar:before {
+    content: url(https://i.ibb.co/XDTZLHh/pre.png);
+    position: absolute;
+    top: -12px;
+    left: -14px;
+    filter: drop-shadow(2px 4px 6px black) brightness(1.2);
+    image-rendering: auto;
+}
+
+.post-content a.user.post-title-user {
+    margin-bottom: -9px !important;
+    display: block;
+    width: fit-content;
+}
+
+.sign {
+    color: #9e9e9e;
+    font-size: 10px;
+    font-family: 'Nunito';
+}
+
+.left-menu {
+    font-family: 'Nunito';
+}
+
+
+h3.left-menu-text {
+    font-family: 'Viaoda Libre';
+    font-size: 24px;
+    line-height: 2;
+    color: #b9b9b9;
+}
+
+[src="/i/user.png"] {
+    filter: grayscale(1);
+}
+
+.footer__infolinks.p-1 {
+    font-size: 0;
+}
+
+.comment-box {
+    padding: 20px;
+    background: #070707;
+}
+.comment-row {
+    margin-top: 10px;
+}
+
+.comment-text+div {
+    text-align: right;
+    color: #626262;
+}
+
+span.post-title-date {
+    font-family: 'Nunito';
+}
+
+span.post-title-date+a {
+    font-size: 11px;
+    color: #dfdfdf;
+}
