@@ -1021,3 +1021,7 @@ a.commentReply:before {
 #lefthome .card.mb-2.post_home img {
   width: 100px;
 }
+
+div#lefthome .card.mb-2.post_home {
+  text-align: center;
+}
