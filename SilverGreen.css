@@ -984,3 +984,7 @@ button.btn.btn-secondary,button.btn.btn-primary {
     border: 2px solid #595959;
     border-radius: 15px;
 }
+
+.avatar-select-label-selected {
+    filter: brightness(0.5);
+}
