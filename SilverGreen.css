@@ -992,3 +992,7 @@ button.btn.btn-secondary,button.btn.btn-primary {
 .hamburger-menu {
     z-index: 44;
 }
+
+.post-content.blog_total_counter+.post-content span.post-title-date {
+    padding: 0px;
+}
