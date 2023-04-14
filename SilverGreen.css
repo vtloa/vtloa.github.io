@@ -1353,5 +1353,11 @@ a.navbar-brand, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px whit
  .post-content {
     padding: 15px;
 }
+ .post-avatar {
+    margin: 0px !important;
+}
+  .post-text {
+    padding-left: 7px;
+}
 }
 
