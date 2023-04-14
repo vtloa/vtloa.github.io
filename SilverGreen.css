@@ -920,4 +920,6 @@ p.quotation {
     width: fit-content;
     color: #7e7e7e;
 }
-
+a.user.post-title-user {
+    color: #cacaca;
+}
