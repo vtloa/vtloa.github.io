@@ -817,8 +817,11 @@ textarea {
     padding: 10px;
 }
 
-input[type="text"] {
+div#newpostform input[type="text"] {
     border-radius: 7px;
+}
+
+input[type="text"] {
     color: #c4c4c4;
     font-family: 'Nunito';
 }
