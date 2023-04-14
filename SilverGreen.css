@@ -922,3 +922,7 @@ p.quotation {
 .comment-content a.user.post-title-user {
     color: #cacaca;
 }
+
+div#newpostform {
+    margin-top: 10px !important;
+}
