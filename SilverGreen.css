@@ -988,3 +988,7 @@ button.btn.btn-secondary,button.btn.btn-primary {
 .avatar-select-label-selected {
     filter: brightness(0.5);
 }
+
+.hamburger-menu {
+    z-index: 44;
+}
