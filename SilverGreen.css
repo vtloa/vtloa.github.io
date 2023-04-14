@@ -691,3 +691,210 @@ span.post-title-date+a {
     font-size: 11px;
     color: #dfdfdf;
 }
+
+.left-menu {
+    margin: 0px !important;
+    padding: 15px !important;
+}
+
+.post-content span.post-title-date {
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    margin-top: -42px;
+    padding-bottom: 23px;
+}
+
+.post-opt.col-12.col-md-6.text-right {
+    padding: 0px;
+}
+
+.row.w-100 {
+    margin: 0px;
+}
+
+.left-menu {
+    font-size: 15px;
+}
+a.menu__item {
+    font-family: 'Nunito';
+    font-size: 15px;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    height: 635px;
+}
+
+.small-text+div a {
+    color: #707070;
+}
+
+.small-text+div+div {
+    margin-bottom: 15px;
+}
+
+.prevsibling.col-md-6, .nextsibling.text-right.col-md-6{
+    display: none;
+}
+
+.comment-text+div {
+    position: sticky;
+    top: 100%;
+    text-align: left;
+}
+
+.crumbs [href="/"] {
+    position: absolute;
+    bottom: -39px;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    color: #bababa;
+    z-index: 222;
+}
+
+.crumbs [href="/"]+span.crumb-item {
+    display: none;
+}
+
+.crumbs [href="/"]~span.crumb-item {
+    display: none;
+}
+
+.comment-content {
+    min-height: auto;
+    position: relative;
+}
+
+.comment-content:before, .comment-content:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #9e9e9e, transparent);
+}
+
+.comment-content:after {
+    top: 0;
+}
+
+.comment-box {
+    padding: 0;
+    background: transparent;
+}
+
+.comment-content {
+    background: #070707;
+    padding: 20px;
+}
+
+.comment-base {
+    padding: 10px;
+}
+
+.textareabg {
+    padding: 20px;
+    background: #070707;
+    color: #858585;
+    position: relative;
+    border: 2px solid #595959;
+    border-radius: 20px;
+}
+
+
+input[type="submit"] {
+    color: #989898;
+}
+
+textarea {
+    background: #070707;
+    border: 1px solid #505050;
+    border-radius: 7px;
+    color: #c4c4c4;
+    font-family: 'Nunito';
+    padding: 10px;
+}
+
+input[type="text"] {
+    border-radius: 7px;
+    color: #c4c4c4;
+    font-family: 'Nunito';
+}
+
+.textareabg:before {
+    content: '';
+    display: block;
+    height: 107px;
+    width: 350px;
+    background: url(https://i.ibb.co/kG48FtP/022.png) no-repeat;
+    position: absolute;
+    top: 10px;
+    left: -196px;
+    background-size: contain;
+    filter: brightness(0.8);
+    transform: rotate(-90deg);
+}
+
+span.emj-dropdown {
+    padding: 0;
+}
+
+.textareabg input[type="submit"] {
+    font-size: 16px;
+    line-height: 2;
+}
+
+img.avatar-select-label {
+    border-color: transparent;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #9e9e9e !important;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    box-shadow: -3px 3px #9e9e9e;
+    transform: translateY(3px);
+}
+
+.comment-box h2 {
+    text-align: center;
+    padding-top: 7px;
+    line-height: 2;
+}
+
+.col-md-4 {
+    padding: 0;
+}
+
+div#newpostform {
+    margin: 0px !important;
+}
+
+div#newpostform br {
+    display: none;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+
+select {
+    background: #070707;
+    color: #bababa;
+    border-radius: 7px;
+}
+
+a.messageform__taglinks {
+    color: #548c21;
+}
