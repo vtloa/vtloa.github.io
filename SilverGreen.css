@@ -926,3 +926,8 @@ p.quotation {
 div#newpostform {
     margin-top: 10px !important;
 }
+
+a.post-title-user {
+    color: #cacaca;
+    font-size: 18px;
+}
