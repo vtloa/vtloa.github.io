@@ -1347,5 +1347,8 @@ a.navbar-brand, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px whit
   .comment-base {
     padding: 5px;
 }
+  .textareabg {
+    border-radius: unset;
+}
 }
 
