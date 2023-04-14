@@ -1359,5 +1359,14 @@ a.navbar-brand, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px whit
   .post-text {
     padding-left: 7px;
 }
+ .hamburger-menu, a.navbar-brand {
+    background: #070707;
+    border-color: #070707;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
+    background: #212121;
+    border-color: #212121;
+}
 }
 
