@@ -1350,5 +1350,8 @@ a.navbar-brand, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px whit
   .textareabg {
     border-radius: unset;
 }
+ .post-content {
+    padding: 15px;
+}
 }
 
