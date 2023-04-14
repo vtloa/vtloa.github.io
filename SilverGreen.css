@@ -175,9 +175,6 @@ body.bodybg {
     font-size: 20px;
 }
 
-div#newpostform {
-    display: none;
-}
 
 .post-content img.flag {
     display: none;
