@@ -907,3 +907,17 @@ span.crumb-item {
     color: #9e9e9e;
     font-family: 'Nunito';
 }
+
+p.quotation {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    border: unset;
+    background: #1e1e1e;
+    border-radius: 4px;
+    width: fit-content;
+    color: #7e7e7e;
+}
+
