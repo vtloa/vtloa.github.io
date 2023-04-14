@@ -895,3 +895,7 @@ select {
 a.messageform__taglinks {
     color: #548c21;
 }
+
+span.crumb-item {
+    filter: drop-shadow(2px 4px 6px black);
+}
