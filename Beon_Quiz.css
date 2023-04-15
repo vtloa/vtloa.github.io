@@ -657,13 +657,13 @@ ul.he_quiz_cats li a:hover {
 
  [onclick^="$$('.he_quiz_browse_results')"] {
     padding: 3px !important;
-    min-width: 173px;
     text-align: center;
 }
 
 
-.he_quiz_header a.he_quiz_take, .he_quiz_header input.button {
-    min-width: 173px;
+.he_quiz_header a.he_quiz_take, .he_quiz_header input.button,
+ [onclick^="$$('.he_quiz_browse_results')"]{
+    min-width: 180px;
 }
 
 .he_quiz_list_tabs {
