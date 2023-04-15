@@ -715,6 +715,9 @@ td.profile_tab_end {
 td.profile_tab2 a,td.profile_tab a {
     text-align: center;
 }
+td.profile_leftside {
+    min-width: 100% !important;
+}
 }
 
 
