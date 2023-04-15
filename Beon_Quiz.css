@@ -622,5 +622,6 @@ ul.he_quiz_cats li a:hover {
 
 .he_quiz_browse_results .he_quiz_browse_result {
     margin: 0px !important;
-    margin-top: 70px !important;
+    margin-top: 10px !important;
+    margin-bottom: 70px !important;
 }
