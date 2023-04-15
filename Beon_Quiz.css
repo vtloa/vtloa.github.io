@@ -388,9 +388,12 @@ ul.nav.nav-tabs {
 ul.nav.nav-tabs {
     position: unset;
 }
-  .page_header+br+ul.nav.nav-tabs {
+.page_header+br+ul.nav.nav-tabs {
     left: 250px;
     top: 0;
+}
+.page_header+br+ul.nav.nav-tabs {
+    position: absolute;
 }
 }
 
