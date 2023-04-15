@@ -625,3 +625,24 @@ ul.he_quiz_cats li a:hover {
     margin-top: 10px !important;
     margin-bottom: 70px !important;
 }
+
+.he_quiz_header {
+    font-size: 20px !important;
+}
+
+.he_quiz_user_result img.photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.he_quiz_user_result {
+    width: 110px;
+}
+
+.he_quiz_user_result {
+    overflow-wrap: break-word;
+    font-size: 12px;
+}
+
+
