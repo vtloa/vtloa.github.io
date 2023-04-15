@@ -350,9 +350,6 @@ td.profile span {
     font-weight: 600 !important;
 }
 
-div#ajax_status {
-    font-size: 0;
-}
 
 span#ajax_currentstatus_value {
     font-size: 14px;
