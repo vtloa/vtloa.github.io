@@ -557,3 +557,8 @@ table.quiz_tbl input.text,select {
 a.he_quiz_take:hover {
     background: #968e8e !important;
 }
+
+ul.he_quiz_cats li a:hover {
+    color: #4f91d4;
+    text-decoration: unset;
+}
