@@ -617,3 +617,8 @@ ul.he_quiz_cats li a:hover {
     border: unset !important;
     font-weight: 400 !important;
 }
+
+.he_quiz_browse_results .he_quiz_browse_result {
+    margin: 0px !important;
+    margin-top: 10px !important;
+}
