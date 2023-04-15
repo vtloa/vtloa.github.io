@@ -614,6 +614,13 @@ td.profile_leftside {
 .top_header button.btn.btn-primary {
     font-size: 0;
 }
+    
+/*по центру*/
+
+td.profile_menu1 a, table.profile_menu [id^="removefriend_"] a:before {
+    min-width: 126px;
+    font-size: 13px;
+}
 }
 
 
