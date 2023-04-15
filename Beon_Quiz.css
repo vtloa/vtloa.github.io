@@ -413,8 +413,10 @@ ul.nav.nav-tabs {
   .he_user_quiz_list [style="float: left;"] {
     margin: auto;
 }
-  a.he_quiz_take {
-    margin: 0px;
+a.he_quiz_take {
+    margin: 0px !important;
+    margin-top: 10px !important;
+    min-width: 100px;
 }
 div#righthome {
     padding-top: 0 !important;
