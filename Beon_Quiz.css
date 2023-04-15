@@ -377,7 +377,8 @@ a.active {
 #righthome {
     padding-top: 0 !important;
 }
-.he_user_quiz_list [style="float: left;"]+[style="float: left; width: 250px;"] {
+.he_user_quiz_list [style="float: left;"]+[style="float: left; width: 250px;"],
+div#lefthome {
     min-width: 240px;
 }
 ul.nav.nav-tabs {
