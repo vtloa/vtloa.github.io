@@ -379,7 +379,7 @@ a.active {
 }
 .he_user_quiz_list [style="float: left;"]+[style="float: left; width: 250px;"],
 div#lefthome {
-    min-width: 240px;
+    min-width: 240px !important;
 }
 ul.nav.nav-tabs {
     left: 250px;
