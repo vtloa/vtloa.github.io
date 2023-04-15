@@ -594,11 +594,11 @@ td.profile_menu1 [onclick^="newmessage"]:before {
 
 @media (max-width: 1024px) {
 .top_header table tbody tr td:first-child {
-    width: 240px;
+    width: 272px;
 }
 
 td.profile_leftside {
-    min-width: 240px;
+    min-width: 272px;
 }
     
 .top_header button.btn.btn-primary {
