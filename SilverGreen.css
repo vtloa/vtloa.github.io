@@ -1418,5 +1418,17 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
     width: 100%;
     background-position: center;
 } 
+.mobile_open_menu h3.left-menu-text:before, .mobile_open_menu:before {
+    height: 5px;
+    background: linear-gradient(to right, transparent, #535252, transparent);
+}
+
+.mobile_open_menu {
+    margin-top: 10px;
+}
+
+.left-menu > div.mobile_open_menu > h3 {
+    line-height: 3;
+}
 }
 
