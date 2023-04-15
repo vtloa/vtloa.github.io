@@ -221,7 +221,7 @@ ul.he_quiz_cats{
 }
 
 .he_quiz_cats li.active a {
-    color: #fdfdfd;
+    color: #fdfdfd !important;
 }
 
 .he_user_quiz_list [style="float: left;"] {
