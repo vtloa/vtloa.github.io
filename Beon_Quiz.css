@@ -553,3 +553,7 @@ table.quiz_tbl input.text,select {
 .portal_content {
     border-radius: 0 0 3px 3px;
 }
+
+a.he_quiz_take:hover {
+    background: #968e8e !important;
+}
