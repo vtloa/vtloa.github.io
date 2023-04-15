@@ -472,12 +472,12 @@ div#content_flex {
 /*кнопки*/
 
 .he_tab_act a,.he_step_tab span {
-    background: #54b9e7;
-    border-radius: 3px;
-    padding: 3px;
-    color: aliceblue;
-    font-weight: normal;
-    border: unset;
+    background: #54b9e7 !important;
+    border-radius: 3px !important;
+    padding: 3px !important;
+    color: aliceblue !important;
+    font-weight: normal !important;
+    border: unset !important;
 }
 
 .he_step_tab span {
