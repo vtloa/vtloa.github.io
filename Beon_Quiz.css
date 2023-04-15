@@ -151,12 +151,12 @@ div#mobile_photo img {
 }
 
 .he_quiz_act a.he_quiz_take {
-    background: #54b9e7;
-    border: unset;
-    font-size: 14px;
-    border-radius: 3px;
-    color: #fdfdfd;
-    font-weight: normal;
+    background: #54b9e7 !important;
+    border: unset !important;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    color: #fdfdfd !important;
+    font-weight: normal !important;
 }
 
 .he_user_quiz_name {
