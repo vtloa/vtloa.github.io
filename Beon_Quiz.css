@@ -524,3 +524,7 @@ table.quiz_tbl input.text,select {
     margin: 0px !important;
 }
 
+
+.portal_content {
+    border-radius: 0 0 3px 3px;
+}
