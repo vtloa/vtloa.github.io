@@ -155,3 +155,7 @@ p.card-link.post_more {
 .button.delete_button {
     order: 1;
 }
+
+.button.edit_button,.button.delete_button {
+    text-transform: capitalize;
+}
