@@ -146,6 +146,11 @@ div#mobile_photo img {
 .top_header button.btn.btn-primary {
     font-size: 0;
 }
+a.he_quiz_take {
+    margin: 0px !important;
+    margin-top: 10px !important;
+    min-width: 100px;
+}
 }
 
 
