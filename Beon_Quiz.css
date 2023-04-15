@@ -676,3 +676,9 @@ ul.he_quiz_cats li a:hover {
     float: left !important;
 } 
 }
+
+
+table.quiz_tbl td {
+    padding: 0 !important;
+    padding-top: 10px !important;
+}
