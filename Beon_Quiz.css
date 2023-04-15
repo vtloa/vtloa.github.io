@@ -595,6 +595,11 @@ ul.he_quiz_cats li a:hover {
 }
 
 .he_quiz_user_result img.photo {
+    border: unset;
+}
+
+
+.he_quiz_list_tabs {
     border: unset !important;
 }
 
@@ -608,7 +613,7 @@ ul.he_quiz_cats li a:hover {
 }
 
 .he_quiz_list_tabs a {
-    background: transparent;
-    border: unset;
-    font-weight: 400;
+    background: transparent !important;
+    border: unset !important;
+    font-weight: 400 !important;
 }
