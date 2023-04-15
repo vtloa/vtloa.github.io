@@ -577,7 +577,7 @@ ul.he_quiz_cats li a:hover {
 
 .he_quiz_take_cont a.he_quiz_take {
     margin: 0px;
-    margin-bottom: 6px;
+    margin-bottom: 6px !important;
 }
 
 
