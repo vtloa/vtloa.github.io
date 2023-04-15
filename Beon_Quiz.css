@@ -647,13 +647,6 @@ ul.he_quiz_cats li a:hover {
 }
 
 
-@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
-
-.he_quiz_take_cont {
-    float: left;
-} 
-}
-
 
 /*дисплей нон кнопок дублей*/
 
@@ -675,4 +668,11 @@ ul.he_quiz_cats li a:hover {
 
 .he_quiz_list_tabs {
     margin-top: 0px;
+}
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+.he_quiz_take_cont {
+    float: left !important;
+} 
 }
