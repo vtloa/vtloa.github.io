@@ -160,8 +160,8 @@ div#mobile_photo img {
 }
 
 .he_user_quiz_name {
-    border: unset;
-    font-size: 16px;
+    border: unset !important;
+    font-size: 16px !important;
 }
 
 .he_user_quiz_list {
