@@ -215,9 +215,9 @@ ul.he_quiz_cats{
 }
 
 .he_quiz_cats li.active {
-    border: unset;
-    background: #54b9e7;
-    border-radius: 3px;
+    border: unset !important;
+    background: #54b9e7 !important;
+    border-radius: 3px !important;
 }
 
 .he_quiz_cats li.active a {
