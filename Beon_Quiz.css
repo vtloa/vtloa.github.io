@@ -146,8 +146,8 @@ div#mobile_photo img {
 
 .he_user_quiz {
     border: 1px solid #00000020 !important;
-    border-radius: 3px;
-    background: transparent;
+    border-radius: 3px !important;
+    background: transparent !important;
 }
 
 .he_quiz_act a.he_quiz_take {
