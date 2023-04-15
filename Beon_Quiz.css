@@ -128,6 +128,28 @@ div#mobile_photo img {
 
 /*--------------*/
 
+
+@media (max-width: 1024px)
+.top_header table tbody tr td:first-child {
+    width: 240px;
+}
+.top_header button.btn.btn-primary {
+    width: 60px;
+    height: 38px;
+}
+.top_header button.btn.btn-primary:before {
+    content: url(https://beon.vip/uploads_user/10000/9068/c0f97719d3b33901c5d82701055aec47.png);
+    font-size: 18px;
+    text-align: center;
+    margin-left: -4px;
+}
+.top_header button.btn.btn-primary {
+    font-size: 0;
+}
+}
+
+
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 [src="./images/logo_new.png"] {
     image-rendering: -webkit-optimize-contrast;
