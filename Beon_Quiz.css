@@ -647,3 +647,9 @@ ul.he_quiz_cats li a:hover {
 }
 
 
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+
+.he_quiz_take_cont {
+    float: left;
+} 
+}
