@@ -595,7 +595,7 @@ ul.he_quiz_cats li a:hover {
 }
 
 .he_quiz_user_result img.photo {
-    border: unset;
+    border: unset !important;
 }
 
 .he_quiz_user_result img.cur_user_result {
