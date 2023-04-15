@@ -1411,9 +1411,12 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
     background-size: contain;
     filter: brightness(0.8);
 }
-
 .bg-white+.crumbs {
     margin-top: 60px;
 }
+.crumbs:before {
+    width: 100%;
+    background-position: center;
+} 
 }
 
