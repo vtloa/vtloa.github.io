@@ -154,7 +154,9 @@ div#mobile_photo img {
 [src="./images/logo_new.png"] {
     image-rendering: -webkit-optimize-contrast;
 }
-
+.page_header+br+ul.nav.nav-tabs {
+    position: unset !important;
+}
 }
 
 
