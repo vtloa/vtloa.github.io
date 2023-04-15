@@ -1103,6 +1103,36 @@ ul.menu__box {
   a.navbar-brand:before {
     font-size: 30px !important;
 }
+.crumbs:before {
+    content: '';
+    display: block;
+    height: 107px;
+    width: 350px;
+    background: url(https://i.ibb.co/0np2G7s/022.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    left: unset;
+    top: -34px;
+    background-size: contain;
+    filter: brightness(0.8);
+}
+
+.bg-white+.crumbs {
+    margin-top: 60px;
+}
+
+.crumbs:after {
+    content: '';
+    display: block;
+    height: 107px;
+    width: 350px;
+    background: url(https://i.ibb.co/kG48FtP/022.png) no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 223px;
+    background-size: contain;
+    filter: brightness(0.8);
+}
 }
 
 /*-----------------media------------------*/
@@ -1367,6 +1397,23 @@ a.navbar-brand, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px whit
 a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
     background: #212121;
     border-color: #212121;
+}
+.crumbs:before {
+    content: '';
+    display: block;
+    height: 107px;
+    width: 350px;
+    background: url(https://i.ibb.co/0np2G7s/022.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    left: unset;
+    top: -34px;
+    background-size: contain;
+    filter: brightness(0.8);
+}
+
+.bg-white+.crumbs {
+    margin-top: 60px;
 }
 }
 
