@@ -1430,5 +1430,8 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
 .left-menu > div.mobile_open_menu > h3 {
     line-height: 3;
 }
+.crumbs:before,.crumbs:after {
+    filter: drop-shadow(2px 4px 6px black);
+}
 }
 
