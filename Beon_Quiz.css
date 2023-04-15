@@ -562,3 +562,53 @@ ul.he_quiz_cats li a:hover {
     color: #4f91d4;
     text-decoration: unset;
 }
+
+/*результат*/
+
+.he_quiz_take_cont input.button {
+    background: #54b9e7;
+    font-size: 14px;
+    border-radius: 3px;
+    border: unset;
+    color: white;
+    padding: 3px;
+    margin-bottom: 6px;
+}
+
+.he_quiz_take_cont a.he_quiz_take {
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+
+.he_quiz_browse_results table.quiz_tbl th {
+    text-align: left !important;
+}
+
+.he_quiz_browse_results table.quiz_tbl {
+    border: unset !important;
+}
+
+.he_quiz_browse_results table.quiz_tbl thead tr th {
+    border: 1px solid #ebebeb !important;
+    border-radius: 3px;
+}
+
+.he_quiz_user_result img.photo {
+    border: unset;
+}
+
+.he_quiz_user_result img.cur_user_result {
+    box-shadow: 0 0 0 1px #00b6ff;
+}
+
+.he_quiz_list_tabs {
+    border: unset;
+    margin-top: 15px;
+}
+
+.he_quiz_list_tabs a {
+    background: transparent;
+    border: unset;
+    font-weight: 400;
+}
