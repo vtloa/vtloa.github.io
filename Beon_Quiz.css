@@ -692,3 +692,7 @@ table.quiz_tbl td {
     padding: 0 !important;
     padding-top: 10px !important;
 }
+
+.he_step_tab.he_tab_act {
+    margin-right: 5px !important;
+}
