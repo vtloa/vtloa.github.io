@@ -696,3 +696,7 @@ table.quiz_tbl td {
 .he_step_tab.he_tab_act {
     margin-right: 5px !important;
 }
+
+.he_quiz_browse_result .quiz_tbl thead th .d br {
+    display: unset;
+}
