@@ -1029,3 +1029,12 @@ div#lefthome .card.mb-2.post_home {
 .post_container .post_text img {
     height: auto !important;
 }
+
+/*кнопки*/
+
+a.nav-item.nav-link {
+    background: #f2f3f4;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #5a707a;
+}
