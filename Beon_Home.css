@@ -1038,3 +1038,8 @@ a.nav-item.nav-link {
     margin-bottom: 10px;
     color: #5a707a;
 }
+
+a.nav-item.nav-link:hover {
+    background: #968e8e;
+    color: white;
+}
