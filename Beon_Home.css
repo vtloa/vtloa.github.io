@@ -1033,10 +1033,10 @@ div#lefthome .card.mb-2.post_home {
 /*кнопки*/
 
 a.nav-item.nav-link {
-    background: #f2f3f4;
+    background: #f2f2f2;
     margin-right: 10px;
     margin-bottom: 10px;
-    color: #6f7c82;
+    color: #464646;
 }
 
 a.nav-item.nav-link:hover {
