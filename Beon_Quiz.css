@@ -711,6 +711,6 @@ table.quiz_tbl td {
     image-rendering: -webkit-optimize-contrast;
 }
 
-.he_quiz_list_tabs {
-    margin-top: 10px;
+.he_quiz_header {
+    margin-bottom: 10px;
 }
