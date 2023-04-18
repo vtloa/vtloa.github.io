@@ -735,7 +735,6 @@ img.gift-photo {
     text-align: center;
 }
 
-
 td.profile_menu1 a:hover {
     background: #968e8e !important;
 }
@@ -756,6 +755,28 @@ td.profile_menu1 a:hover {
 }
 
 
+/*окрас кнопок как на главной десктоп*/
+
+td.profile_tab a {
+    background: #f2f3f4;
+    color: #6c7376;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+td.profile_tab a:hover {
+    color: white !important;
+}
+
+td.profile_tab2 a {
+    margin-left: 10px;
+}
+
+td#profile_tabs_profile a {
+    margin: 0px;
+}
+
+
 
 /*для микромоников*/
 
@@ -769,23 +790,46 @@ table.profile_menu tbody {
 td.profile_menu1 a {
     width: 100%;
 }
-
   
 td#profile_tabs_gift a:before {
     content: "\f06b";
     font-family: 'fontawesome';
-    font-size: 14px;
+    font-size: 12px;
 }
+  
 td#profile_tabs_gift a {
     font-size: 0;
 }
-  td.profile_tab2 a, td.profile_tab a {
+td.profile_tab2 a, td.profile_tab a {
     padding: 2px !important;
     font-size: 12px;
 }
+    
+/*окрас кнопок как на главной моб*/
+    
+td.profile_tab a {
+    background: #f2f3f4;
+    color: #6c7376;
+    border-radius: 3px;
+    margin-left: 5px;
 }
 
-/*длинная кнопка*/
+td.profile_tab a:hover {
+    color: white !important;
+}
+
+td.profile_tab2 a {
+    margin-left: 5px;
+}
+
+td#profile_tabs_profile a {
+    margin: 0px;
+}
+}
+
+
+
+/*ренейм длинных кнопок*/
 
 table.profile_menu [id^="removefriend_"] a,
 table.profile_menu [id^="addfriend_"] a{
