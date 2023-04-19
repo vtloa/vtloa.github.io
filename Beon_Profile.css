@@ -849,3 +849,9 @@ table.profile_menu [id^="addfriend_"] a:before {
 div#profile_friends [onclick^="newmessage"]:before {
     display: none;
 }
+
+
+img.gift-photo {
+    max-width: 100px;
+    max-width: 100px !important;
+}
