@@ -381,14 +381,14 @@ table.profile_menu {
 }
 
 td.profile_rightside {
-    padding: 0;
-    display: block;
-    margin-left: 10px;
+    padding: 0 !important;
+    display: block !important;
+    margin-left: 10px !important;
 }
 
 .profile_content {
     border: 1px solid #ebebeb !important;
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 
 td.profile_tab2 a {
