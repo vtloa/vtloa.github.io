@@ -341,12 +341,7 @@ blockquote.blockquote img {
     transition: 0.2s;
 }
 
-blockquote.blockquote img:not([src^="./templates/images/smiles/"],[src^="/images/fffuuusmiles/"]):active {
-    transform: scale(2) translate(50px, 10px);
-    box-shadow: 0 0 12px #0000004f;
-    position: relative;
-    z-index: 2;
-}
+
 
 blockquote.blockquote {
     background: #161616;
