@@ -369,15 +369,15 @@ span#ajax_currentstatus_date {
 }
 
 td.profile_menu1 a, div.nolink {
-    background: #54b9e7;
-    border: unset;
-    text-align: center;
-    color: white;
-    border-radius: 3px;
+    background: #54b9e7 !important;
+    border: unset !important;
+    text-align: center !important;
+    color: white !important;
+    border-radius: 3px !important;
 }
 
 table.profile_menu {
-    border: unset;
+    border: unset !important;
 }
 
 td.profile_rightside {
