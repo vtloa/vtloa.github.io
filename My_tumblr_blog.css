@@ -881,7 +881,9 @@ div#user_status {
     color: white;
 }
 
-[onclick="window.scrollTo(0,100000); return false;"] {
+
+
+.top_header [onclick="window.scrollTo(0,100000); return false;"] {
     display: block !important;
     position: fixed;
     top: 0;
