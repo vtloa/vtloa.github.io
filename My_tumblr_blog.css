@@ -697,7 +697,9 @@ div#postcomment_userphotos {
     padding: 0;
     border: unset;
 }
-
+.profile_comment_links {
+    padding-left: 10px;
+}
 
 /*MEDIA*/
 
