@@ -721,7 +721,7 @@ div#righthome {
 
 /*---------------------------*/
 
-@media (max-width: 280px), (max-width: 480px), (max-width: 768px),(max-width: 1024px) {
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 .content {
     max-width: 100% !important;
     width: 100%;
