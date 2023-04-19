@@ -312,7 +312,7 @@ img.photo {
 }
 
 td.profile_photo {
-    border-color: #EBEBEB;
+    border-color: #EBEBEB !important;
 }
 
 td.header, .page_header {
