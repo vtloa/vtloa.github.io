@@ -626,10 +626,10 @@ div.menu_dropdown a.menu_item:hover {
     transition-delay: 3s;
 }
 
-td.top_menu:hover .top_menu_link_container {
+td.top_menu:active .top_menu_link_container {
     max-height: 30px;
     transition: 0.01s;
-    transition-delay: 0.15s;
+    transition-delay: 0.2s;
 }
 button.btn.btn-primary {
     margin-bottom: 7px;
@@ -879,4 +879,17 @@ div#user_status {
 ::selection {
     background: #ff838f;
     color: white;
+}
+
+[onclick="window.scrollTo(0,100000); return false;"] {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    transform: translateX(483px);
 }
