@@ -666,7 +666,7 @@ li.p-1.left_menu_gifts_link a:before {
 
 li.p-1.left_menu_gifts_link {
     position: absolute;
-    top: -55px;
+    top: -50px;
     right: 20px;
     background: #161616;
     padding: 10px !important;
@@ -870,4 +870,8 @@ div#mobile_menu::-webkit-scrollbar {
 }
 .comment_headline {
     margin-top: 20px;
+}
+
+.card.mt-3.blog_leftmenu {
+    margin-top: 10px !important;
 }
