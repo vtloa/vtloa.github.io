@@ -855,3 +855,7 @@ img.gift-photo {
     max-width: 100px;
     max-width: 100px !important;
 }
+
+.gift-row {
+    width: auto !important;
+}
