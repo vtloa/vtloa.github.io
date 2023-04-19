@@ -280,6 +280,7 @@ div#lefthome .card:nth-of-type(30) {
 
 div.portal_action {
     padding: 0;
+    padding: 0 !important;
     margin-bottom: 10px;
 }
 
