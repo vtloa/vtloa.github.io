@@ -879,3 +879,9 @@ div#mobile_menu::-webkit-scrollbar {
 div#user_status {
     margin-left: 5px;
 }
+
+
+::selection {
+    background: #ff838f;
+    color: white;
+}
