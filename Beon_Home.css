@@ -1048,3 +1048,9 @@ a.nav-item.nav-link:hover {
 .post_text.pl-3 img {
     cursor: zoom-in;
 }
+
+/*индекс шапки*/
+
+.top_header {
+    z-index: 999 !important;
+}
