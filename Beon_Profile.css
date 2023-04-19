@@ -330,7 +330,7 @@ td.header, .page_header {
 
 td.profile_leftside {
     min-width: 330px;
-    padding: 0;
+    padding: 0 !important;
 }
 
 td.profile {
