@@ -159,3 +159,7 @@ p.card-link.post_more {
 .button.edit_button,.button.delete_button {
     text-transform: capitalize;
 }
+
+.post_text.pl-3 img {
+    cursor: zoom-in;
+}
