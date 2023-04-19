@@ -895,3 +895,7 @@ div#user_status {
     height: 30px;
     transform: translateX(483px);
 }
+
+div#postcomment_userphotos {
+    max-height: 100px;
+}
