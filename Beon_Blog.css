@@ -160,7 +160,7 @@ p.card-link.post_more {
     text-transform: capitalize;
 }
 
-.post_text.pl-3 img {
+.post_text.pl-3 img,div.profile_comment_body img {
     cursor: zoom-in;
 }
 
