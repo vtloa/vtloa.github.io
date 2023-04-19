@@ -1044,3 +1044,7 @@ a.nav-item.nav-link:hover {
     background: #968e8e;
     color: white;
 }
+
+.post_text.pl-3 img {
+    cursor: zoom-in;
+}
