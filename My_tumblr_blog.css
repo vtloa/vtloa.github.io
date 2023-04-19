@@ -899,3 +899,12 @@ div#user_status {
 div#postcomment_userphotos {
     max-height: 100px;
 }
+
+td.top_menu:before {
+    background: #161616;
+    color: #fdfdfd;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+}
