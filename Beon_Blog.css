@@ -163,3 +163,7 @@ p.card-link.post_more {
 .post_text.pl-3 img {
     cursor: zoom-in;
 }
+
+.top_header {
+    z-index: 999 !important;
+}
