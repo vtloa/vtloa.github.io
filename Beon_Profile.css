@@ -845,3 +845,7 @@ table.profile_menu [id^="addfriend_"] a:before {
     content: 'Добавить в друзья';
     font-size: 14px;
 }
+
+div#profile_friends [onclick^="newmessage"]:before {
+    display: none;
+}
