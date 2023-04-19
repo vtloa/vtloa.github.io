@@ -701,6 +701,26 @@ div#postcomment_userphotos {
 
 /*MEDIA*/
 
+
+/*---------для жмыха-----------*/
+
+@media (max-width: 1024px) {
+
+div#lefthome {
+    width: 360px !important;
+}
+
+div#righthome {
+    margin-left: 60px !important;
+}
+.content {
+    max-width: 980px !important;
+    margin: unset !important;
+}
+}
+
+/*---------------------------*/
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px),(max-width: 1024px) {
 .content {
     max-width: 100% !important;
