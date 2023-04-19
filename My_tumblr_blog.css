@@ -313,7 +313,7 @@ div#righthome {
     transition: 0.2s;
 }
 
-.post_container .post_text img:active {
+.post_container .post_text img1:active {
     transform: scale(1.3);
     transition: 0.2s;
     box-shadow: 0 0 12px #0000004f;
