@@ -731,7 +731,7 @@ div#righthome {
   div#righthome {
     max-width: 100%;
     width: 100%;
-    margin: 0px;
+    margin: 0px !important;
 }
 .card.mb-2.post_home {
     padding: 10px;
