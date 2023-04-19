@@ -404,13 +404,13 @@ td.profile_tab2 a {
 
 td.profile_tab2 a:hover,td.profile_tab a:hover {
     background: #8d8d8d !important;
-    color: #fff;
-    font-weight: normal;
-    border: unset;
-    padding: 3px;
-    border-radius: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: #fff !important;
+    font-weight: normal !important;
+    border: unset !important;
+    padding: 3px !important;
+    border-radius: 3px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
     text-decoration: unset !important;
 }
 td#profile_tabs_profile,td.profile_tab_end {
@@ -418,12 +418,12 @@ td#profile_tabs_profile,td.profile_tab_end {
 }
 
 td.profile_tab a {
-    padding: 3px;
-    border: unset;
-    background: transparent;
-    font-weight: normal;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 3px !important;
+    border: unset !important;
+    background: transparent !important;
+    font-weight: normal !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 div.profile_headline b, div.profile_headline2 b, .profile_headline,.comment_headline {
