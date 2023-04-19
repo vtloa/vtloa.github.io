@@ -623,7 +623,7 @@ div.menu_dropdown a.menu_item:hover {
     max-height: 0;
     overflow: hidden;
     transition: 0.01s;
-    transition-delay: 3s;
+    transition-delay: 7s;
 }
 
 td.top_menu:active .top_menu_link_container {
