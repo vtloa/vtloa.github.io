@@ -808,9 +808,9 @@ td.profile_tab2 a, td.profile_tab a {
 /*окрас кнопок как на главной моб*/
     
 td.profile_tab a {
-    background: #f2f3f4;
-    color: #6c7376;
-    border-radius: 3px;
+    background: #f2f3f4 !important;
+    color: #6c7376 !important;
+    border-radius: 3px !important;
     margin-left: 5px;
 }
 
