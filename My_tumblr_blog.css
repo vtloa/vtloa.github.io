@@ -868,3 +868,6 @@ div#mobile_menu button.btn.btn-primary {
 div#mobile_menu::-webkit-scrollbar {
     display: none;
 }
+.comment_headline {
+    margin-top: 20px;
+}
