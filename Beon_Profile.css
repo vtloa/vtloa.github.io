@@ -436,7 +436,7 @@ td.profile_leftside [style="margin-bottom: 10px;"] {
 
 
 td.profile_menu1 a {
-    padding: 3px;
+    padding: 3px !important;
     margin-top: 10px !important;
     display: block !important;
 }
