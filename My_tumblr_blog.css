@@ -875,3 +875,7 @@ div#mobile_menu::-webkit-scrollbar {
 .card.mt-3.blog_leftmenu {
     margin-top: 10px !important;
 }
+
+div#user_status {
+    margin-left: 5px;
+}
