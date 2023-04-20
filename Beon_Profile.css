@@ -718,6 +718,23 @@ td.profile_tab2 a,td.profile_tab a {
 td.profile_leftside {
     min-width: 100% !important;
 }
+
+/*фикс для закрытых профилей*/
+    
+td.profile_leftside {
+    float: left;
+}
+
+td.profile_rightside {
+    float: left;
+    margin: 0px !important;
+    margin-top: 20px !important;
+}
+
+[src="./images/icons/error48.gif"] {
+    margin: 10px;
+    margin-top: 0px;
+}
 }
 
 
@@ -827,23 +844,6 @@ td#profile_tabs_profile a {
 }
 button#newupdates {
     margin-left: unset;
-}
-
-/*фикс для закрытых профилей*/
-    
-td.profile_leftside {
-    float: left;
-}
-
-td.profile_rightside {
-    float: left;
-    margin: 0px !important;
-    margin-top: 20px !important;
-}
-
-[src="./images/icons/error48.gif"] {
-    margin: 10px;
-    margin-top: 0px;
 }
 }
 
