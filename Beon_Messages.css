@@ -160,3 +160,13 @@ p.card-link.post_more {
 .button.delete_button {
     order: 1;
 }
+
+.post_text.pl-3 img {
+    cursor: zoom-in;
+}
+
+/*индекс шапки*/
+
+.top_header {
+    z-index: 999 !important;
+}
