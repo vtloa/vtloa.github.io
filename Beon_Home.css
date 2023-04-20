@@ -1029,6 +1029,7 @@ div#lefthome .card.mb-2.post_home {
 
 .post_container .post_text img {
     height: auto !important;
+    max-height: unset !important;
 }
 
 /*кнопки*/
