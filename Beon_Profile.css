@@ -825,6 +825,9 @@ td.profile_tab2 a {
 td#profile_tabs_profile a {
     margin: 0px;
 }
+button#newupdates {
+    margin-left: unset;
+}
 }
 
 
