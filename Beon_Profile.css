@@ -758,8 +758,8 @@ td.profile_menu1 a:hover {
 /*окрас кнопок как на главной десктоп*/
 
 td.profile_tab a {
-    background: #f2f3f4;
-    color: #6c7376;
+    background: #f2f3f4 !important;
+    color: #6c7376 !important;
     border-radius: 3px;
     margin-left: 10px;
 }
