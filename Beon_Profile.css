@@ -828,11 +828,28 @@ td#profile_tabs_profile a {
 button#newupdates {
     margin-left: unset;
 }
+
+/*фикс для закрытых профилей*/
+    
+td.profile_leftside {
+    float: left;
+}
+
+td.profile_rightside {
+    float: left;
+    margin: 0px !important;
+    margin-top: 20px !important;
+}
+
+[src="./images/icons/error48.gif"] {
+    margin: 10px;
+    margin-top: 0px;
+}
 }
 
 
 
-/*ренейм длинных кнопок*/
+/*-----------ренейм длинных кнопок---------------*/
 
 table.profile_menu [id^="removefriend_"] a,
 table.profile_menu [id^="addfriend_"] a{
