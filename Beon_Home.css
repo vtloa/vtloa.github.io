@@ -1055,3 +1055,8 @@ a.nav-item.nav-link:hover {
 .top_header {
     z-index: 999 !important;
 }
+
+
+.action_text_content {
+    overflow-wrap: anywhere;
+}
