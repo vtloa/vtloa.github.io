@@ -908,3 +908,11 @@ td.top_menu:before {
     height: 30px;
     right: 0px;
 }
+
+li.p-1.left_menu_gifts_link a:hover {
+    text-decoration: unset;
+}
+
+li.p-1.left_menu_gifts_link:hover {
+    background: #ff838f;
+}
