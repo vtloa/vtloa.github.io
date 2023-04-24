@@ -659,7 +659,7 @@ div#message_row_text {
     margin: 0px;
     padding: 0;
 }
-  .pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+ .pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
     bottom: unset;
     top: 0;
     left: 25px;
@@ -687,9 +687,6 @@ div#messages_scroll {
     padding-right: 5px !important;
 }
 div#smiles {
-    bottom: unset;
-    right: unset;
-    margin-top: -200px;
     left: 55px;
 }
   #message_row_text img {
