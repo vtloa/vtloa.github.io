@@ -2667,10 +2667,7 @@ span.crumb-item,.pagination a:before {
   .comment-box {
     margin-top: -50px;
 }
-  .post-content h1+div+div {
-    background: red;
-    display: none;
-}
+
 .post-content h1+div {
     margin-bottom: -55px;
 }
