@@ -2781,3 +2781,13 @@ label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2
 .content h1 {
     font-size: 0;
 }
+
+/*fix*/
+
+.m2,.footer__infolinks.p-1,div#page__rendertime {
+    display: none;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    height: 585px;
+}
