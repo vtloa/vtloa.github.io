@@ -838,6 +838,17 @@ table.form input.button {
 li.nav-item {
     margin-right: 10px;
 }
+
+/*ренейм обзор групп - обзор*/ 
+
+li.nav-item [href="/browse_groups.php"] {
+    font-size: 0px;
+}
+    
+li.nav-item [href="/browse_groups.php"]:before {
+    content: 'Обзор';
+    font-size: 14px;
+}
 }
 
 /*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
