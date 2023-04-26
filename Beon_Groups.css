@@ -513,7 +513,7 @@ ul.nav.nav-tabs {
     position: absolute;
     top: 0;
     left: 340px;
-    width: calc(70% - 340px);
+    width: calc(70% - 322px);
 }
 
 .group_pages_top {
