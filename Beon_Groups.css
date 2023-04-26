@@ -835,6 +835,9 @@ table.form input.button {
 .group_list_row,.group_pages_bottom {
     margin-right: 0px;
 }
+li.nav-item {
+    margin-right: 10px;
+}
 }
 
 /*ФИКС ПЕРЕНОСА ПО СЛОВАМ*/
@@ -847,4 +850,16 @@ table.form input.button {
 
 .group_row_buttons [src="./images/icons/group.png"] {
     display: none !important;
+}
+
+a.nav-link {
+    background: #f2f3f4 !important;
+    color: #6c7376 !important;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+a.nav-link:hover {
+    background: #8d8d8d !important;
+    color: #fff !important;
 }
