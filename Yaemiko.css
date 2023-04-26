@@ -2786,3 +2786,16 @@ a.post-subscribe:before {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+
+
+/*курсор*/
+main.py-4,.bookmarkbutton {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2aadb912a77841453b5.png) , default!important;}
+
+a,img,input,b,.tag_bar *,
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],
+button{cursor: url(https://beon.vip/uploads_image/63/b7/63b7c3e6d0b0b87544022d9883e19ace.png) , pointer!important;}
+
+h3.left-menu-text {cursor: url(https://beon.vip/uploads_image/00/e3/00e3b9bbb21960cbdd49f70bcec9f0f8.png) , pointer!important;}
+
+label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2aadb912a77841453b5.png) , pointer!important;}
