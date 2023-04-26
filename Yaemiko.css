@@ -2788,3 +2788,10 @@ label.menu__btn {cursor: url(https://beon.vip/uploads_image/5b/76/5b764aa6c783e2
 #menu__toggle:checked ~ .menu__box {
     height: 585px;
 }
+
+/*-----------------*/
+
+.blog__read-me div:hover, .blog__iread div:hover, .blog__last-comments div:hover, .left-menu__friends.left-menu__friends_offline div:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+}
