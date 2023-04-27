@@ -1333,3 +1333,8 @@ input[type="text"]::placeholder {
 .comment-base a {
     color: #2d45ec;
 }
+
+
+.footer__infolinks.p-1 {
+    display: none;
+}
