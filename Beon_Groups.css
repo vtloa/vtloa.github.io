@@ -586,8 +586,9 @@ ul.nav.nav-tabs+table td {
 .top_header table tbody tr td:first-child {
     width: 240px !important;
 }
-  ul.nav.nav-tabs {
+ul.nav.nav-tabs {
     left: 250px;
+    width: calc(70% - 250px);
 }
 select.group_small {
     margin-left: unset !important;
