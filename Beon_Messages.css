@@ -1007,6 +1007,10 @@ td.messages_right a {
 div#lefthome {
     min-width: 240px;
 }
+div#messages_scroll,div#message_post {
+    width: 100% !important;
+    min-width: 100% !important;
+}
 }
 
 
