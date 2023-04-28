@@ -1136,20 +1136,6 @@ td.messages_photo img.photo {
 }
 
 
-/*смайл*/
-
-.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
-    content: url(https://www.svgrepo.com/show/2684/emoticon-square-smiling-face-with-closed-eyes.svg);
-    padding: 1px !important;
-}
-
-@media (max-width: 280px), (max-width: 480px), (max-width: 768px){
-.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
-    padding: 6px !important;
-}
-}
-
-
 /*свг иконка*/
 
 [src="./images/icons/message_replied16.gif"] {
@@ -1158,3 +1144,52 @@ td.messages_photo img.photo {
     height: 14px;
     opacity: 0.3;
 }
+
+
+/*смайл, кнопки навигации*/
+
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    content: url(https://www.svgrepo.com/show/2684/emoticon-square-smiling-face-with-closed-eyes.svg);
+    padding: 1px !important;
+}
+
+
+div#righthome .center {
+    margin-top: -26px;
+    text-align: right;
+}
+div#righthome .center a {
+    font-size: 14px;
+    text-align: left !important;
+    background: #54b9e7 !important;
+    border: unset;
+    border-radius: 3px;
+    color: white !important;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: inherit;
+    width: fit-content;
+    margin-right: unset;
+    margin-left: auto;
+}
+div#righthome .center a:hover {
+    text-decoration: unset;
+    background: #8d8d8d !important;
+}
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px){
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    padding: 6px !important;
+}
+.center {
+    margin: 0px !important;
+}
+  div#righthome .center a {
+    margin: 0px;
+    margin-top: 10px !important;
+}
+}
+
+
