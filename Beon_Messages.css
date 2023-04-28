@@ -1116,3 +1116,17 @@ textarea#reply_body {
     border-radius: 3px;
 }
 
+
+
+/*upd*/
+
+div#message_row_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.messages_date {
+    line-height: 2.2;
+}
