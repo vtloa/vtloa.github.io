@@ -2333,3 +2333,7 @@ a.navbar-brand img {
 .post-content.p-2 .mb-3 a.user {
     color: #4b12d6 !important;
 }
+
+div#page__admincontact,.m2,.bottombg {
+    display: none;
+}
