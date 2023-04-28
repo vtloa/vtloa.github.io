@@ -1134,3 +1134,17 @@ div#message_row_text {
 td.messages_photo img.photo {
     object-fit: cover;
 }
+
+
+/*смайл*/
+
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    content: url(https://www.svgrepo.com/show/2684/emoticon-square-smiling-face-with-closed-eyes.svg);
+    padding: 1px !important;
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px){
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    padding: 6px !important;
+}
+}
