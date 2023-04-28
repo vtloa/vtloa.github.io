@@ -1242,4 +1242,6 @@ div#righthome .center a {
 }
 }
 
-
+td.messages_message img {
+    display: block;
+}
