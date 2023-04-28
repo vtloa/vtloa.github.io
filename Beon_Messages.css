@@ -430,6 +430,11 @@ textarea#reply_body {
     min-height: 50px;
 }
 
+textarea#reply_body {
+    padding: 7px;
+    padding-right: 105px !important;
+}
+
 button#messages_send {
     background: #54b9e7;
     min-width: 70px;
@@ -703,13 +708,13 @@ td.top_menu {
   div#message_post {
     padding: 0 !important;
 }
-  textarea#reply_body {
-    padding: 0 !important;
+textarea#reply_body {
+    padding: 5px !important;
 }
-  img#userphoto_url {
+ img#userphoto_url {
     width: 40px;
 }
-  textarea#reply_body {
+ textarea#reply_body {
     min-height: 35px;
 }
 button#messages_send {
