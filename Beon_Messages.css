@@ -1193,3 +1193,6 @@ div#righthome .center a:hover {
 }
 
 
+div#righthome .center {
+    display: flex;
+}
