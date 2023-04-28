@@ -1147,4 +1147,10 @@ td.messages_photo img.photo {
 .pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
     padding: 6px !important;
 }
+[src="./images/icons/message_replied16.gif"] {
+    content: url(https://www.svgrepo.com/show/501333/replied.svg);
+    width: 14px;
+    height: 14px;
+    opacity: 0.3;
+}
 }
