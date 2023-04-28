@@ -703,6 +703,9 @@ td.top_menu {
     padding: 0;
 }
 
+div#messages_scroll {
+    padding-bottom: 5px !important;
+}
 
 /*MEDIA*/
 
