@@ -1220,7 +1220,40 @@ div#righthome .center {
 div#righthome .center a {
     margin-left: 0px;
 }
+
+/*СТРЕЛКИ ДЛЯ МОБ ВЕРСИИ*/
+
+div#righthome .center a {
+    content: url(https://beon.vip/uploads_user/1000/968/7a7bf5d05add613b9bfa5b0b1de5acb5.png);
 }
 
+div#righthome .center a+a {
+    content: url(https://beon.vip/uploads_user/1000/968/b3aa749b6dbe5cf047f4ae703adb5214.png);
+}
+font.disabled+a {
+    content: url(https://beon.vip/uploads_user/1000/968/b3aa749b6dbe5cf047f4ae703adb5214.png) !important;
+}
+div#righthome .center {
+    display: flex;
+    justify-content: space-between;
+}
+div#righthome .center a {
+    height: 27px;
+    width: 27px;
+    object-fit: scale-down;
+}
+    
+.center {
+    margin-top: -37px !important;
+}
+.center {
+    width: fit-content;
+    margin-right: unset;
+    margin-left: auto !important;
+}
+.center a {
+    margin-left: 10px !important;
+}
+}
 
 
