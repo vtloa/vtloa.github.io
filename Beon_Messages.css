@@ -656,7 +656,6 @@ div#message_row_text {
 div#messages_scroll,div#message_post {
     width: 90% !important;
     margin: auto;
-    min-width: 1000px;
     background: white;
     border: 1px solid #ececec;
     border-radius: 3px;
