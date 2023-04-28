@@ -175,5 +175,932 @@ p.card-link.post_more {
 
 
 
+/*------------28.04.---------------*/
 
+
+
+/*другая система развёртывания выпадашек 2*/
+
+div.menu_dropdown {
+    display: block !important;
+    max-height: 0px;
+    overflow: hidden;
+    border-radius: unset !important;
+    padding: 1px;
+    border: 1px solid #fff0 !important;
+    transition: 0.1s;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    border: 1px solid #ebebeb !important;
+    max-height: 500px;
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+
+/*--------head единый---------*/
+
+.header_menu,.top_header {
+    width: 100%;
+}
+.top_header {
+    box-shadow: unset !important;
+    padding: 10px;
+}
+.top_menu {
+    padding-bottom: 23px;
+}
+
+a.top_menu_item {
+    font-size: 19px !important;
+    text-transform: capitalize !important;
+}
+
+.top_header {
+    box-shadow: unset !important;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+button.btn.btn-primary {
+    border: unset;
+    padding: 7px;
+}
+
+button.button_down {
+    padding: 7px;
+}
+
+/*лого*/
+
+.top_header table tbody tr td:first-child {
+    width: 330px;
+    text-align: center;
+}
+
+td.top_menu {
+    width: auto !important;
+    background: transparent !important;
+    text-align: left !important;
+}
+
+.top_header table {
+    width: 100% !important;
+}
+
+td.top_menu {
+    padding-bottom: 16px;
+}
+
+button.btn.btn-primary {
+    border: unset;
+    padding: 7px;
+    background: #54b9e7;
+}
+
+button.button_down {
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 5px;
+    background: #54b9e7;
+}
+
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+    background: #968e8e !important;
+    color: #fdfdfd !important;
+}
+
+button#newupdates:hover {
+    background: transparent !important;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: unset;
+    border-bottom: 1px solid #0000001a;
+    padding-bottom: 0 !important;
+}
+
+button.btn.btn-outline-success {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #0000001a;
+}
+
+/*-------mob-------*/
+
+div#mobile_menu {
+    width: 80%;
+    max-width: 300px;
+}
+div#mobile_photo img {
+    width: 100px;
+}
+ div#mobile_photo+div {
+    margin-bottom: 5px !important;
+}
+  .portal_spacer {
+    display: none;
+}
+
+/*--------------*/
+
+
+@media (max-width: 1024px) {
+.top_header table tbody tr td:first-child {
+    width: 240px;
+}
+.top_header button.btn.btn-primary {
+    width: 60px;
+    height: 38px;
+}
+.top_header button.btn.btn-primary:before {
+    content: url(https://beon.vip/uploads_user/10000/9068/c0f97719d3b33901c5d82701055aec47.png);
+    font-size: 18px;
+    text-align: center;
+    margin-left: -4px;
+}
+.top_header button.btn.btn-primary {
+    font-size: 0;
+}
+a.he_quiz_take {
+    margin: 0px !important;
+    margin-top: 10px !important;
+    min-width: 100px;
+}
+}
+
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+[src="./images/logo_new.png"] {
+    image-rendering: -webkit-optimize-contrast;
+}
+.page_header+br+ul.nav.nav-tabs {
+    position: unset !important;
+}
+}
+
+
+.body {
+    width: 100% !important;
+    padding: 10px !important;
+    padding-top: 75px !important;
+}
+
+div#lefthome {
+    min-width: 330px;
+}
+
+.card-header.header-orange,.show_menu.header-orange {
+    background: #f36639;
+}
+.card-header {
+    text-align: center;
+    border-radius: 3px 3px 0 0 !important;
+}
+.content {
+    padding-top: 0 !important;
+}
+.card {
+    border: unset !important;
+    margin-bottom: 10px;
+}
+div#lefthome .card-body {
+    border-radius: 0 0 3px 3px !important;
+    border: 1px solid #ebebeb !important;
+}
+/*-----------основной стиль лс-------------*/
+
+
+img.photo {
+    border: unset;
+}
+
+div#message_row_text {
+    display: grid;
+}
+
+.messages_text {
+    order: 1;
+}
+
+.messages_actions.post_data {
+    order: 2;
+}
+
+.messages_date {
+    font-size: 12px;
+}
+
+.messages_text {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.message_row {
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+img#userphoto_url {
+    width: 50px;
+    border-radius: 3px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.pl-5.p-2,div#smiles {
+    padding-left: 0 !important;
+    padding-bottom: 15px !important;
+}
+
+div#smiles {
+    padding-top: 0 !important;
+}
+
+.pt-3 {
+    font-weight: bold;
+}
+
+
+textarea#reply_body {
+    min-height: 50px;
+}
+
+button#messages_send {
+    background: #54b9e7;
+    min-width: 70px;
+    margin-left: 10px;
+}
+
+a#attach_file_click {
+    right: 120px !important;
+    padding: 0;
+    margin-top: 12px;
+}
+
+/*-----------смайлы------------*/
+
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    position: absolute;
+    top: 60px;
+    right: 180px;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+div#smiles {
+    background: white;
+    position: absolute;
+    bottom: 60px;
+    right: 95px;
+    width: 205px;
+    border-radius: 3px;
+    padding: 10px !important;
+    border: 1px solid #cecece;
+}
+
+div#smiles img {
+    padding: 10px !important;
+    border-radius: 3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+div#smiles img:hover {
+    background: #54b9e7;
+}
+
+button#messages_send [src="/images/paper-plane.svg"] {
+    filter: brightness(0) invert(1);
+}
+
+
+
+
+
+textarea#reply_body {
+    max-height: 250px;
+    overflow-y: auto !important;
+}
+
+
+
+.messages_author a {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+[src="/images/verify.png"] {
+    margin-top: -4px;
+}
+
+
+/*----------------------*/
+/*--------для поля ввода--------*/
+
+textarea#reply_body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f2f2f2d4;
+    border-radius: 10px;
+}
+
+textarea#reply_body::-webkit-scrollbar-thumb {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+}
+
+textarea#reply_body::-webkit-scrollbar-thumb:hover {
+    background: #e5e5e5;
+}
+
+
+
+.pt-3 {
+    margin-bottom: -25px !important;
+    margin-left: 0px;
+    padding: 0 !important;
+}
+
+.pt-3 div {
+    margin-left: 25px;
+}
+
+div.messages_author {
+    padding-bottom: 0;
+}
+
+div#message_row_text {
+    padding-left: 10px;
+}
+
+div#message_post {
+    position: sticky;
+    bottom: 0px;
+    padding: 15px !important;
+}
+
+
+/*основной стат чтобы текстбади был внизу*/
+
+div#messages_scroll {
+    min-height: 75vh;
+    padding: 0 !important;
+}
+
+@media (min-width: 1920px) {
+  div#messages_scroll {
+    min-height: 82vh;
+}
+}
+
+table.body {
+    padding-bottom: 0 !important;
+}
+
+table.body [style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    padding: 0 !important;
+    margin: 0px !important;
+}
+
+
+
+
+.pt-3 {
+    font-size: 0;
+}
+
+.pt-3 div:before {
+    content: 'Диалог: ';
+}
+
+.pt-3 div a,.pt-3 div:before {
+    font-size: 13px;
+}
+
+
+
+/*максимальная ширина блока с сообщением*/
+
+.col-7 {
+    flex: unset;
+    max-width: calc(100% - 100px);
+}
+
+
+button.btn.btn-light.btn-block {
+    background: #54b9e7;
+    border: unset;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+button.btn.btn-light.btn-block:hover {
+    background: #968e8e !important;
+    color: #fdfdfd !important;
+}
+
+.message_row {
+    padding-left: 30px;
+}
+
+.content1 {
+    width: 70% !important;
+    min-width: 1000px;
+}
+
+div#message_post {
+    border-top: 1px solid #ececec;
+}
+div#postcomment_userphotos {
+    width: 140px;
+    border: unset;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+button.btn.btn-light.btn-block:focus {
+    box-shadow: unset !important;
+}
+
+div#message_row_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.messages_text {
+    width: 100%;
+}
+.messages_actions.post_data {
+    width: 100%;
+}
+
+.messages_text img {
+    max-width: 400px;
+}
+
+.messages_author {
+    padding-right: 10px;
+}
+
+
+
+
+div#messages_scroll,div#message_post {
+    width: 90% !important;
+    margin: auto;
+    min-width: 1000px;
+    background: white;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+}
+
+
+div#messages_scroll {
+    border-bottom: unset;
+    border-radius: 3px 3px 0 0;
+}
+
+div#message_post {
+    border-radius: 0 0 3px 3px;
+}
+
+
+
+/*-----------минишапка для лс----------------*/
+
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/988605222fa680f1683204da0a07a6e2.png);
+    margin-top: -7px;
+    margin-left: -10px;
+    width: 144px;
+}
+
+td.top_menu {
+    padding: 10px;
+    padding-bottom: 7px;
+}
+
+.top_header table tbody tr td:first-child {
+    width: 62px;
+}
+
+.top_header {
+    padding: 0;
+}
+
+
+/*MEDIA*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+  div#message_post {
+    padding: 0 !important;
+}
+  textarea#reply_body {
+    padding: 0 !important;
+}
+  img#userphoto_url {
+    width: 40px;
+}
+  textarea#reply_body {
+    min-height: 35px;
+}
+button#messages_send {
+    min-width: 40px;
+    margin-left: 5px;
+}
+  button#messages_send [src="/images/paper-plane.svg"] {
+    width: 14px;
+}
+
+a#attach_file_click img {
+    width: 20px;
+}
+
+.pt-3 {
+    font-size: 13px;
+}
+.messages_author a {
+    font-size: 15px;
+}
+div#message_row_text {
+    padding-right: 0;
+}
+.message_row {
+    margin: 0px;
+    padding: 0;
+}
+
+textarea#reply_body {
+    max-height: 130px;
+}
+table.body {
+    padding: 5px !important;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    position: sticky !important;
+    top: 0px;
+}
+div#messages_scroll {
+    min-height: calc(100vh - 150px);
+    padding: 0 !important;
+}
+.pr-2 {
+    padding-right: 5px !important;
+}
+div#smiles {
+    left: 55px;
+}
+  #message_row_text img {
+    max-width: 100%;
+}
+  .pt-3 {
+    font-size: 0;
+}
+.message_row {
+    padding: 0;
+    padding-top: 5px;
+}
+div#messages_scroll {
+    padding: 5px !important;
+}
+  form#message_form {
+    padding: 5px;
+}
+a#attach_file_click {
+    top: 34px;
+    right: 60px !important;
+    bottom: unset;
+    margin: 0px;
+}
+[src="./images/logo_new.png"] {
+    width: 100px;
+    margin: 0px;
+    height: 47px;
+}
+
+.pl-5.p-2 {
+    padding: 0 !important;
+}
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    width: 20px;
+}
+  .pt-3 {
+    margin: 0px !important;
+}
+  .pt-3 div {
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.pl-5.p-2 img {
+    margin: 5px;
+}
+  .pl-5.p-2 {
+    padding: 0 !important;
+}
+  
+[onclick="messagesettings();"], .pl-5.p-2 [onclick="$j('#smiles').toggle();"],a#attach_file_click {
+    background: white;
+    position: absolute;
+    top: -42px;
+    right: 0;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 7px;
+    border-radius: 3px;
+    outline: 1px solid #e2e2e2;
+}
+
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    right: 40px;
+}
+  
+div#smiles {
+    top: -230px;
+    right: 0px;
+    left: unset;
+    bottom: unset;
+    padding: 5px !important;
+    width: 190px;
+}
+  [onclick="messagesettings();"] {
+    right: unset;
+    left: 0px;
+}
+a#attach_file_click {
+    top: -37px;
+    right: 5px !important;
+    padding: 4px;
+}
+
+div#messages_scroll,div#message_post {
+    width: 100% !important;
+    min-width: 100% !important;
+}
+div#messages_scroll {
+    padding-bottom: 30px !important;
+} 
+}
+
+
+
+/*----ЛС СНАРУЖИ----*/
+
+a.nav-link.active,td.messages_right a {
+    background: #54b9e7 !important;
+    border: unset;
+    border-radius: 3px;
+    color: white !important;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+ul.nav.nav-tabs {
+    border: unset !important;
+}
+
+div#lefthome .card-body {
+    border-radius: 0 0 3px 3px !important;
+    border: 1px solid #ebebeb !important;
+    border-top: 0px !important;
+    padding: 10px !important;
+}
+
+.card-header.header-green {
+    background: #8bc34a;
+}
+
+div#lefthome .card.mb-2.post_home .card-body {
+    border-top: 1px solid #ebebeb !important;
+    border-radius: 3px !important;
+}
+
+td.messages_header {
+    display: none;
+}
+
+table.messages_table,table.messages_table * {
+    border: unset;
+}
+
+table.messages_table tr.messages_read, tr.messages_unread {
+    border: 1px solid #ebebeb !important;
+    border-radius: 3px;
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
+    display: block;
+    background: transparent;
+    padding: 10px;
+}
+
+tr.messages_unread {
+    background: #f2f3f4;
+}
+.page_header {
+    margin-top: 5px;
+}
+td.messages_message {
+    padding: 0;
+}
+
+
+table.messages_table {
+    width: 100%;
+}
+
+td.messages_photo {
+    padding: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+td.messages_message input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+
+td.messages_left img.icon_big,[src="./images/icons/sendmessage16.gif"] {
+    display: none;
+}
+
+td.messages_right td.button {
+    background: transparent;
+    padding: 0;
+    border: unset;
+}
+
+div#righthome br {
+    display: none;
+}
+td.messages_message br {
+    display: unset !important;
+}
+
+td.messages_right a {
+    font-weight: normal;
+}
+
+td.messages_right [onclick^="newmessage"]:before {
+    display: none;
+}
+
+a.nav-link {
+    background: #f2f3f4 !important;
+    color: #6c7376 !important;
+    border-radius: 3px;
+    border: unset !important;
+    margin-right: 10px;
+}
+
+
+a.nav-link:hover,td.messages_right a:hover {
+    background: #8d8d8d !important;
+    color: #fff !important;
+}
+
+td.messages_message [href$="task=delete"]:before {
+    content: "\f1f8";
+    font-family: 'fontawesome';
+    font-size: 18px;
+    color: #868686;
+}
+
+td.messages_photo+td.messages_message+td.messages_message {
+    font-size: 0;
+    padding-top: 17px;
+}
+
+td.messages_message [href$="task=delete"]:before {
+    opacity: 0;
+}
+
+tr.messages_read:hover td.messages_message [href$="task=delete"]:before,
+tr.messages_unread:hover td.messages_message [href$="task=delete"]:before {
+    opacity: 1;
+}
+td.messages_message {
+    font-weight: normal;
+}
+
+div#lefthome a:hover {
+    color: #4f91d4;
+    text-decoration: unset;
+}
+
+td.messages_right a {
+    display: block;
+    text-decoration: unset;
+}
+
+
+@media (max-width: 1024px) {
+div#lefthome {
+    min-width: 240px;
+}
+}
+
+
+
+td.messages_left,td.messages_right {
+    float: left;
+}
+
+div#righthome .center {
+    text-align: right;
+}
+
+.center {
+    font-size: 0;
+}
+input.button {
+    background: #54b9e7;
+    border-radius: 3px;
+    color: #fdfdfd;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    text-decoration: unset !important;
+    border: unset;
+}
+
+td.messages_right {
+    margin-top: 6px;
+}
+
+tr.messages_read:hover {
+    background: #f2f3f4 !important;
+}
+td.messages_message [style="padding-left: 5px; padding-top: 3px;"] {
+    padding: 0 !important;
+
+}
+[src="./images/icons/message_replied16.gif"] {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+table.messages_table tbody {
+    display: block;
+}
+
+td.messages_message b a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+td.messages_message b+br {
+    display: none !important;
+}
+
+
+
+td.messages_message [href$="task=delete"] {
+    text-decoration: unset;
+}
+
+td.messages_message [href$="task=delete"]:hover:before {
+    color: #f44336;
+}
+
+
+/*ответил*/
+
+[src="./images/icons/message_replied16.gif"] {
+    content: url(https://img.icons8.com/?size=1x&id=50859&format=png);
+    opacity: 0.35;
+}
+
+td.messages_message input[type="checkbox"] {
+    opacity: 0.7;
+    filter: hue-rotate(-17deg);
+}
+
+/*---------------------*/
+
+.pt-3 div a {
+    font-weight: 500;
+}
+
+textarea#reply_body {
+    border-color: #dddddd;
+}
+
+.show_menu.header-orange {
+    text-align: center;
+    border-radius: 3px;
+}
 
