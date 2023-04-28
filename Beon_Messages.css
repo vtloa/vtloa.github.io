@@ -1130,3 +1130,7 @@ div#message_row_text {
 .messages_date {
     line-height: 2.1;
 }
+
+td.messages_photo img.photo {
+    object-fit: cover;
+}
