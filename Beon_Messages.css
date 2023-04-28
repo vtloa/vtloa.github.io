@@ -463,7 +463,8 @@ a#attach_file_click {
 div#smiles {
     background: white;
     position: absolute;
-    bottom: 60px;
+    bottom: unset;
+    top: -155px;
     right: 95px;
     width: 205px;
     border-radius: 3px;
