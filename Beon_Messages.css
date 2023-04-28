@@ -713,8 +713,10 @@ td.top_menu {
 textarea#reply_body {
     padding: 5px !important;
 }
- img#userphoto_url {
+img#userphoto_url {
     width: 40px;
+    height: 40px;
+    object-fit: cover;
 }
  textarea#reply_body {
     min-height: 35px;
