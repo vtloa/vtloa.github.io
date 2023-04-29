@@ -2341,3 +2341,25 @@ div#page__admincontact,.m2 {
 .footer__infolinks.p-1,div#page__rendertime {
     display: none;
 }
+
+
+
+
+/*UPD*/
+
+.modal-content {
+    background: black;
+    border: 4px double #ffffff;
+    color: white;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary,a.btn.btn-outline-primary.mb-2 {
+    background: black;
+    color: white;
+    border-radius: 3px;
+    border: 2px ridge;
+    padding: 0;
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
