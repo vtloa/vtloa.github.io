@@ -2334,6 +2334,6 @@ a.navbar-brand img {
     color: #4b12d6 !important;
 }
 
-div#page__admincontact,.m2,.bottombg {
+div#page__admincontact,.m2 {
     display: none;
 }
