@@ -389,6 +389,7 @@ td.profile_rightside {
 .profile_content {
     border: 1px solid #ebebeb !important;
     margin-top: 10px !important;
+    border-radius: 3px;
 }
 
 td.profile_tab2 a {
