@@ -458,8 +458,8 @@ div#postcomment_userphotos .p-1 {
 }
 
 img.img-thumbnail {
-    padding: 3px;
-    border: unset;
+    padding: 3px !important;
+    border: unset !important;
     border-radius: 3px;
     background: transparent;
 }
