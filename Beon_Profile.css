@@ -984,4 +984,15 @@ button.close {
     padding-left: 0px !important;
 }
 
+/*delete icon*/
 
+[src^="https://beon.vip/images/icons/action_delete"],
+[src^="./images/icons/action_delete"] {
+    content: url(https://www.svgrepo.com/show/405158/cross-mark.svg);
+    width: 11px;
+    height: 14px;
+}
+
+[src^="./images/icons/action_delete"] {
+    filter: grayscale(1) opacity(0.4);
+}
