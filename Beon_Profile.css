@@ -905,3 +905,9 @@ div#profile_gift .card-body {
 .profile_friend_photo {
     margin-right: 10px;
 }
+
+.browse_friends_result {
+    border: 1px solid #ebebeb !important;
+    background: transparent !important;
+    border-radius: 3px;
+}
