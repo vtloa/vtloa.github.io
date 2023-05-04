@@ -917,3 +917,20 @@ li.p-1.left_menu_gifts_link a:hover {
 li.p-1.left_menu_gifts_link:hover {
     background: #ff838f;
 }
+
+
+/*фикс после реворка*/
+
+.top_header table tbody tr td:first-child {
+    width: unset;
+    text-align: unset;
+}
+
+.top_header {
+    border: unset;
+    padding: 5px;
+}
+
+.body {
+    padding: 0px !important;
+}
