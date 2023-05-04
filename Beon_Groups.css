@@ -947,3 +947,15 @@ button.close {
 .modal-footer {
     display: none;
 }
+
+/*fix прогрузки стиля*/
+
+.group_cats_type,.group_cats_menu {
+    max-width: 330px;
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+  .group_cats_type,.group_cats_menu {
+    max-width: 100%;
+}
+}
