@@ -782,3 +782,8 @@ div#comment_subscribe a {
     width: 24px;
     text-align: center;
 }
+
+div#user_status {
+    color: #686868;
+    color: #686868 !important;
+}
