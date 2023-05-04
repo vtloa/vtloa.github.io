@@ -715,7 +715,7 @@ div#lefthome {
 }
   
 div#comment_subscribe {
-    font-size: 0;
+    font-size: 0 !important;
     font-family: 'FontAwesome';
 }
 
