@@ -956,9 +956,6 @@ h5.modal-title {
     text-align: center;
 }
 
-button.close {
-    display: none;
-}
 
 .modal-header {
     padding: 10px;
@@ -981,4 +978,12 @@ button.btn.btn-secondary {
     content: url(https://www.svgrepo.com/show/405158/cross-mark.svg);
     width: 11px;
     height: 14px;
+}
+
+button.close {
+    padding-left: 0px !important;
+}
+
+.modal-footer {
+    display: none;
 }
