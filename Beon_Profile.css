@@ -884,3 +884,12 @@ img.gift-photo {
 div#unblock a {
     background: #f44336 !important;
 }
+
+/*фикс длинных ников в подарках*/
+
+div#profile_gift .card-body {
+    max-width: 152px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
