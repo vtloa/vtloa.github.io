@@ -603,10 +603,10 @@ span.card-text img {
 /*desoff*/
 
 div#designs {
-    background: url(https://www.svgrepo.com/show/344295/palette-fill.svg) no-repeat center / 28px;
+    background: url(https://www.svgrepo.com/show/344295/palette-fill.svg) no-repeat center / 20px;
     background-color: #f2f2f2;
-    width: 38px;
-    height: 38px !important;
+    width: 30px;
+    height: 30px !important;
     font-size: 0;
     bottom: 5px !important;
     right: 5px !important;
