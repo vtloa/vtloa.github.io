@@ -802,3 +802,21 @@ div#user_status,.blog_user_status {
 .modal-body div {
     font-weight: 500;
 }
+
+
+.modal-content {
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+.modal-header {
+    padding: 10px;
+}
+
+.modal-footer {
+    padding: 10px;
+}
+
+.modal-body {
+    padding: 10px;
+}
