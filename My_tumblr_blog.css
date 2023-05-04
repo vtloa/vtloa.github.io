@@ -934,3 +934,6 @@ li.p-1.left_menu_gifts_link:hover {
 .body {
     padding: 0px !important;
 }
+div#lefthome {
+    min-width: unset;
+}
