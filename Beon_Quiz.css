@@ -305,6 +305,11 @@ a.nav-link.active {
     border: unset;
 }
 
+.he_user_quiz_thumb {
+    width: 100px !important;
+    height: 100px !important;
+}
+
 .he_user_quiz_takes a {
     display: block;
 }
