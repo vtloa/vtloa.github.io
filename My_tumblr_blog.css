@@ -192,9 +192,10 @@ input[type="text"]::placeholder {
 .gifts-list {
     pointer-events: none;
 }
+
 .card.blog_categories .card-header {
     display: block;
-    padding: 8px;
+    padding: 8px !important;
     text-align: center;
     text-transform: uppercase;
 }
