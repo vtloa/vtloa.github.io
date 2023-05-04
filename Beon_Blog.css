@@ -787,3 +787,7 @@ div#user_status,.blog_user_status {
     color: #686868;
     color: #686868 !important;
 }
+
+.profile_comment_links {
+    padding-left: 10px;
+}
