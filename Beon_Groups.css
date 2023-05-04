@@ -958,13 +958,12 @@ button.close {
 /*----------------------------*/
 
 @media (max-width: 1024px) {
-
 .group_cats_type, .group_cats_menu {
     max-width: 240px;
 }}
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
-  .group_cats_type,.group_cats_menu {
+ .group_cats_type,.group_cats_menu {
     max-width: 100%;
 }
 }
