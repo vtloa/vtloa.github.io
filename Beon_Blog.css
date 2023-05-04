@@ -783,7 +783,7 @@ div#comment_subscribe a {
     text-align: center;
 }
 
-div#user_status {
+div#user_status,.blog_user_status {
     color: #686868;
     color: #686868 !important;
 }
