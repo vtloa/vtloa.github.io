@@ -174,9 +174,13 @@ a.he_quiz_take {
 }
 
 .he_user_quiz {
-    border: 1px solid #00000020 !important;
+    border: 1px solid #ebebeb !important;
     border-radius: 3px !important;
     background: transparent !important;
+}
+
+div.portal_content {
+    border-color: #ebebeb !important;
 }
 
 .he_quiz_act a.he_quiz_take {
