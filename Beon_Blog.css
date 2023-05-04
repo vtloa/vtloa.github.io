@@ -816,3 +816,18 @@ div#user_status,.blog_user_status {
 .modal-body {
     padding: 10px;
 }
+
+
+.button.profile_button,.button.report_button,.button.add_quote_button,.button.edit_button,.button.fix_button,.button.delete_button {
+    font-weight: 500;
+}
+
+button.btn.btn-secondary {
+    background: #54b9e7;
+    border: unset;
+    border-radius: 3px;
+}
+
+.modal-footer {
+    border: unset;
+}
