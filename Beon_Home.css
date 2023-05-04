@@ -305,7 +305,7 @@ div.portal_action {
     display: inline-block;
 }
 
-[href^="blog.php?"]:before {
+div#lefthome [href^="blog.php?"]:before {
     content: url(https://beon.vip/uploads_user/10000/9068/2206db044c6c78fbb6df24597c5ed0b2.png);
     margin-right: 5px;
 }
