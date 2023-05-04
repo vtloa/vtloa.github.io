@@ -874,14 +874,5 @@ button.btn.btn-secondary {
     width: 11px;
     height: 14px;
 }
-.updatesWrap [href^="blog.php?user"]:before {
-    content: url(https://beon.vip/uploads_user/10000/9068/2206db044c6c78fbb6df24597c5ed0b2.png);
-    margin-right: 5px;
-}
 
-
-.updatesWrap [href="user_messages.php"]:before {
-    content: url(https://beon.vip/uploads_user/10000/9068/0518999fba0117c71dd497398b1dbfec.png);
-    margin-right: 5px;
-}
 
