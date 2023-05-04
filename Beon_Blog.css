@@ -355,7 +355,7 @@ div#lefthome .card {
 }
 
 img.photo {
-    border: unset;
+    border: unset !important;
 }
 
 ul.seBlogCategoryList {
