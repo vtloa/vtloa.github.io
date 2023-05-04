@@ -897,3 +897,11 @@ div#profile_gift .card-body {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+.profile_friend_info {
+    padding-left: 0px !important;
+}
+
+.profile_friend_photo {
+    margin-right: 10px;
+}
