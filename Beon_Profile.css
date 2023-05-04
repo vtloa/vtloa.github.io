@@ -814,6 +814,10 @@ td#profile_tabs_gift a:before {
     font-family: 'fontawesome';
     font-size: 12px;
 }
+ 
+td#profile_tabs_comments a:before {
+    font-size: 12px;
+}
   
 td#profile_tabs_gift a {
     font-size: 0;
