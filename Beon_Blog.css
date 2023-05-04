@@ -543,8 +543,8 @@ div#bbcode [src^="/images/bbcode/"] {
     padding: 2px;
 }
 
-[src="/images/bbcode/smile.gif"] {
-    content: url(https://www.svgrepo.com/show/349882/smile.svg);
+.pl-5.p-2 [onclick="$j('#smiles').toggle();"] {
+    content: url(https://www.svgrepo.com/show/352469/smile.svg);
     padding: 1px !important;
 }
 
