@@ -316,7 +316,7 @@ div#mobile_menu::-webkit-scrollbar {
 }
 
 .seBlogColumnRightPadding {
-    padding: 0;
+    padding: 0 !important;
 }
 
 div#lefthome {
