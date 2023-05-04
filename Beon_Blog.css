@@ -347,7 +347,7 @@ div#lefthome .card {
 .blog_leftprofile {
     margin: 0px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .blog_leftprofile {
     margin-top: 10px;
