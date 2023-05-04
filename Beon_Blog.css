@@ -338,7 +338,7 @@ div#lefthome .card {
     font-weight: 500 !important;
 }
 .card-body {
-    padding: 5px;
+    padding: 5px !important;
 }
 .blog_leftphoto {
     padding: 10px;
