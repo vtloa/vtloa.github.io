@@ -791,3 +791,9 @@ div#user_status,.blog_user_status {
 .profile_comment_links {
     padding-left: 10px;
 }
+
+.category {
+    font-size: 14px;
+    color: #797d80;
+    margin-top: 5px;
+}
