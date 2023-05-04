@@ -776,3 +776,9 @@ div#comment_subscribe a {
     content: "\f068";
     font-size: 14px;
 }
+
+div#comment_subscribe a {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+}
