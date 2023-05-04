@@ -1246,3 +1246,70 @@ div#righthome .center a {
 td.messages_message img {
     display: block;
 }
+
+
+/*-------------МОДАЛКА ALL-----------*/
+
+.modal-content {
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+.modal-header {
+    padding: 10px;
+}
+
+.modal-footer {
+    padding: 10px;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+
+.button.profile_button,.button.report_button,.button.add_quote_button,.button.edit_button,.button.fix_button,.button.delete_button {
+    font-weight: 500;
+}
+
+button.btn.btn-secondary {
+    background: #54b9e7;
+    border: unset;
+    border-radius: 3px;
+}
+
+
+h5.modal-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+button.close {
+    display: none;
+}
+
+.modal-header {
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.modal-footer {
+    border: unset;
+    padding: 5px;
+    border-top: 1px solid #ebebeb;
+}
+
+button.btn.btn-secondary {
+    background: #54b9e7;
+    border: unset;
+    border-radius: 3px;
+}
+
+[src="./images/icons/action_delete2.gif"] {
+    content: url(https://www.svgrepo.com/show/405158/cross-mark.svg);
+    width: 11px;
+    height: 14px;
+}
