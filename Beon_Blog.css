@@ -539,7 +539,8 @@ div#bbcode [src^="/images/bbcode/"] {
 
 
 [src="/images/bbcode/img.gif"] {
-    content: url(https://www.svgrepo.com/show/457694/img-load-box.svg);
+    content: url(https://www.svgrepo.com/show/479308/photo-7.svg);
+    padding: 2px;
 }
 
 [src="/images/bbcode/smile.gif"] {
