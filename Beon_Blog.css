@@ -875,3 +875,8 @@ button.btn.btn-secondary {
 button.close {
     padding-left: 0px !important;
 }
+
+.content .post_container .post_text iframe {
+    max-width: 600px;
+    height: 300px;
+}
