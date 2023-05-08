@@ -1771,3 +1771,7 @@ div#page__admincontact {
 .footer__infolinks.p-1,div#page__rendertime {
     display: none;
 }
+
+.notifications__comments.left-menu__user-notification {
+    margin-bottom: 0px;
+}
