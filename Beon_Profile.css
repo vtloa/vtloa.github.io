@@ -530,9 +530,10 @@ div.profile_action [href^="blog.php?user="]:before {
 table.profile_menu tbody {
     position: relative;
     display: grid !important;
-    grid-template-columns: 50% auto;
+    grid-template-columns: auto auto;
     justify-content: center;
 }
+
 td.profile_menu1 a {
     padding: 3px;
     margin-top: 10px !important;
