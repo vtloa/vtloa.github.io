@@ -996,3 +996,13 @@ button.close {
 [src^="./images/icons/action_delete"] {
     filter: grayscale(1) opacity(0.4);
 }
+
+/*-----ФОТО------*/
+
+td.profile_menu1 [href^="profile_photos.php?user="] {
+    font-size: 0px;
+}
+td.profile_menu1 [href^="profile_photos.php?user="]:before {
+    content: 'Фото';
+    font-size: 14px;
+}
