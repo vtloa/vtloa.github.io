@@ -1103,3 +1103,14 @@ a.navbar-brand img {
 .m2 {
     font-size: 0px;
 }
+
+
+/*----------------------*/
+
+div#page__admincontact {
+    display: none;
+}
+
+.footer__infolinks.p-1,div#page__rendertime {
+    display: none;
+}
