@@ -880,3 +880,9 @@ button.close {
     max-width: 600px;
     height: 300px;
 }
+
+
+.add_info {
+    font-size: 14px;
+    color: #797d80;
+}
