@@ -936,4 +936,85 @@ font-family: 'fontf05a559fc1fda895a62ad499dc9898ad';
 @font-face { font-family: 'News702CyrillicBT-Italic';  src: local('News702CyrillicBT-Italic'), url('https://nomail.com.ua/files/woff/f05a559fc1fda895a62ad499dc9898ad.woff') format('woff'); }
 
 
+/*---------------------*/
 
+
+.top_header {
+    border: unset;
+}
+
+.top_header table tbody tr td:first-child {
+    width: auto;
+}
+
+
+
+div.menu_dropdown {
+    padding: 0 !important;
+    border: unset !important;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    border: unset !important;
+}
+
+
+div.menu_item_dropdown a1, div.menu_item_dropdown a1:hover {
+    padding: 5px !important;
+}
+
+
+div.menu_dropdown a:hover {
+    transform: unset;
+    border: unset !important;
+}
+
+div.menu_dropdown a:hover {
+    transform: unset;
+    border: unset !important;
+    outline: 1px outset #a8948a5c;
+    border-radius: unset;
+}
+
+button.button_down:hover {
+    background: url(https://beon.vip/uploads_image/6e/d7/6ed7b2831506af05f21fde24d870bfe5.png) no-repeat center / contain !important;
+}
+
+.seBlogColumnRightPadding {
+    padding: 10px !important;
+}
+
+
+.card.mt-3.blog_leftmenu, .card.blog_gifts, .blog_leftsearch {
+    height: auto;
+    max-height: 25px;
+}
+
+.card.mt-3.blog_leftmenu:hover, .card.blog_gifts:hover, .blog_leftsearch:hover {
+    max-height: 800px;
+    height: auto;
+}
+
+.blog_leftsearch input[type="text"] {
+    background: transparent;
+}
+
+div#designs {
+    border: unset;
+    filter: unset;
+}
+
+a.top_menu_item {
+    font-size: 0 !important;
+}
+
+.profile_postcomment {
+    border: unset !important;
+    border-top: 2px solid #673243 !important;
+    padding-top: 25px !important;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: #673243;
+    border-radius: 3px;
+}
