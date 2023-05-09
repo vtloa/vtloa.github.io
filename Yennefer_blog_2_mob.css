@@ -762,3 +762,8 @@ p.card-link.post_views:before, .like_button:before, p.card-link.post_comments a:
 div#lefthome * {
     border: unset;
 }
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: #673243;
+    border-radius: 3px;
+}
