@@ -1843,3 +1843,10 @@ div#beon-fnplayer {
 .m2 {
     font-size: 0;
 }
+
+/*------UPD FIX-----*/
+
+.row.w-100 [href*=".beon.fun/"][href*="-read"] {
+    background: transparent;
+    padding: 0px;
+}
