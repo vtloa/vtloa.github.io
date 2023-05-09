@@ -767,3 +767,8 @@ div#bbcode [src^="/images/bbcode/"] {
     background: #673243;
     border-radius: 3px;
 }
+
+div#designs {
+    border: unset;
+    filter: unset;
+}
