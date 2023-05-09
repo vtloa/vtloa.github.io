@@ -758,3 +758,7 @@ p.card-link.post_views:before, .like_button:before, p.card-link.post_comments a:
     border-top: 2px solid #673243 !important;
     padding-top: 25px !important;
 }
+
+div#lefthome * {
+    border: unset;
+}
