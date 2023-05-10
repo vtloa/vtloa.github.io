@@ -1173,6 +1173,10 @@ div#user_status {
     line-height: 2;
 }
 
+[style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
+    width: 100px !important;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 div#postcomment_form {
     width: calc(100% - 70px) !important;
