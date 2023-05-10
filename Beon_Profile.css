@@ -1150,6 +1150,11 @@ a#attach_file_click {
     height: 25px;
 }
 
+div#user_status {
+    color: #686868;
+    color: #686868 !important;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 div#postcomment_form {
     width: calc(100% - 70px) !important;
