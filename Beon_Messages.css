@@ -1241,6 +1241,9 @@ div#righthome .center a {
 .center a {
     margin-left: 10px !important;
 }
+.pt-3 div {
+    margin-top: 3px;
+}
 }
 
 td.messages_message img {
