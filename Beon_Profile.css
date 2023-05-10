@@ -1176,6 +1176,20 @@ div#user_status {
 [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
     width: 100px !important;
 }
+.profile_comment_links {
+    padding-left: 10px;
+}
+
+div.profile_comment_body {
+    padding: 0 !important;
+    max-width: 100% !important;
+    padding-bottom: 15px !important;
+    padding-left: 10px !important;
+    padding-top: 7px !important;
+}
+
+
+/*-----smart-----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 div#postcomment_form {
