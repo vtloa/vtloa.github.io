@@ -1155,6 +1155,24 @@ div#user_status {
     color: #686868 !important;
 }
 
+.profile_comment_author {
+    padding: 0 !important;
+    padding-left: 10px !important;
+    margin-right: 10px;
+}
+
+.profile_comment_author b {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.profile_comment_date {
+    text-align: left !important;
+    font-size: 12px !important;
+    padding: 0 !important;
+    line-height: 2;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 div#postcomment_form {
     width: calc(100% - 70px) !important;
