@@ -1007,3 +1007,153 @@ td.profile_menu1 [href^="profile_photos.php?user="]:before {
     content: 'Фото';
     font-size: 14px;
 }
+
+
+
+/*-----------10.05-------ОБНОВЛНЕНИЕ КОММЕНТАРИЕВ В ПРОФИЛЕ-------------*/
+
+input#comment_submit {
+    background: #54b9e7;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: unset;
+}
+
+
+/*new img letter and*/
+
+div#bbcode [src^="/images/bbcode/"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+[src="/images/bbcode/b.gif"] {
+    content: url(https://www.svgrepo.com/show/509761/bold.svg);
+}
+
+[src="/images/bbcode/i.gif"] {
+    content: url(https://www.svgrepo.com/show/510029/italic.svg);
+}
+
+[src="/images/bbcode/u.gif"] {
+    content: url(https://www.svgrepo.com/show/511183/underline.svg);
+}
+
+
+[src="/images/bbcode/img.gif"] {
+    content: url(https://www.svgrepo.com/show/479308/photo-7.svg);
+    padding: 2px;
+}
+
+[src="/images/bbcode/smile.gif"] {
+    content: url(https://www.svgrepo.com/show/352469/smile.svg);
+    padding: 1px !important;
+}
+
+[alt="FFFUUU Смайлы"] {
+    content: url(https://beon.vip/images/fffuuusmiles/muhaha.gif);
+    padding: 2px !important;
+    width: 20px;
+    height: 20px;
+    object-fit: none;
+}
+
+/*загрузка фото*/
+
+a#attach_file_click {
+    background: url(https://beon.vip/images/photo.svg) no-repeat center / 25px;
+    position: absolute;
+    top: 65px;
+    right: 160px;
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: #f2f2f2;
+    border-radius: 3px;
+}
+
+div#postcomment_form {
+    width: calc(100% - 135px) !important;
+    margin-right: 10px;
+}
+
+div#postcomment_userphotos {
+    margin: 0px;
+    padding: 0;
+    width: 125px;
+    max-height: 150px;
+    border: 1px solid #f1f1f1;
+}
+
+div#postcomment_userphotos .p-1 {
+    padding: 0 !important;
+}
+
+textarea#comment_body {
+    border-color: #dddddd;
+    padding: 10px;
+    border-radius: 3px;
+    min-height: 50px;
+}
+
+img.img-thumbnail {
+    padding: 3px !important;
+    border: unset !important;
+    border-radius: 3px;
+    background: transparent;
+}
+
+div#bbcode {
+    float: left;
+    width: calc(100% - 300px);
+    text-align: left;
+}
+
+div#comment_subscribe {
+    font-size: 0;
+    font-family: 'FontAwesome';
+}
+
+[onclick^="subscribe"]:before {
+    content: "\f067";
+    font-size: 14px;
+}
+
+
+div#comment_subscribe a,.comment_headline {
+    text-decoration: unset;
+    color: #333333;
+}
+
+.comment_headline {
+    font-size: 14px !important;
+}
+div#comment_subscribe a {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+}
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+div#postcomment_form {
+    width: calc(100% - 70px) !important;
+    margin-right: 5px;
+}
+  div#postcomment_userphotos {
+    width: 65px;
+}
+  div#bbcode {
+    float: unset;
+    width: auto;
+    text-align: unset;
+}
+div#bbcode [src^="/images/bbcode/"] {
+    margin-right: 5px;
+}
+}
