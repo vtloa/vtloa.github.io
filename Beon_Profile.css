@@ -1145,8 +1145,8 @@ div#profile_comments {
 a#attach_file_click {
     background: url(https://beon.vip/images/photo.svg) no-repeat center / 25px;
     position: absolute;
-    top: 65px;
-    right: 160px;
+    top: 40px;
+    right: 150px;
     font-size: 0;
     width: 25px;
     height: 25px;
