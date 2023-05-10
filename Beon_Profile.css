@@ -1177,9 +1177,8 @@ div#user_status {
     width: 100px !important;
 }
 .profile_comment_links {
-    padding-left: 10px;
+    padding-left: 10px !important;
 }
-
 div.profile_comment_body {
     padding: 0 !important;
     max-width: 100% !important;
