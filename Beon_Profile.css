@@ -1139,7 +1139,9 @@ div#comment_subscribe a {
     text-align: center;
 }
 
-
+div#profile_comments {
+    position: relative;
+}
 a#attach_file_click {
     background: url(https://beon.vip/images/photo.svg) no-repeat center / 25px;
     position: absolute;
