@@ -1213,7 +1213,7 @@ a#attach_file_click {
     width: 20px;
     height: 20px;
     background-size: 20px;
-    top: 12px;
+    top: 0px;
     right: 12px;
 }
 .profile_comment_date,div#profile_comments .profile_comment_author {
