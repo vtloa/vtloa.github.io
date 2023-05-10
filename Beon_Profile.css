@@ -1162,6 +1162,7 @@ div#postcomment_form {
     float: unset;
     width: auto;
     text-align: unset;
+    margin-top: 10px; 
 }
 div#bbcode [src^="/images/bbcode/"] {
     margin-right: 5px;
