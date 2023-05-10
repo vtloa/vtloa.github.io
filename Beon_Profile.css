@@ -659,10 +659,10 @@ table [style="padding: 10px; text-align: center; margin-top: 10px;"] {
     padding: 0 !important;
     margin: 0px !important;
 }
-.profile_friend_photo img,div#profile_comments img.photo  {
+.profile_friend_photo img  {
     max-width: 60px;
 }
-  .profile_friend_photo,div#profile_comments [style="float: left; text-align: center; width: 110px;"],div#user_status {
+  .profile_friend_photo {
     width: 60px !important;
 }
   div#profile_comments img.photo {
