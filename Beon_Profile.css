@@ -1132,6 +1132,7 @@ div#comment_subscribe a,.comment_headline {
 
 .comment_headline {
     font-size: 14px !important;
+    color: #333333 !important;
 }
 div#comment_subscribe a {
     display: inline-block;
