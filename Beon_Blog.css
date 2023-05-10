@@ -750,6 +750,9 @@ div#comment_subscribe a {
 textarea#comment_body {
     padding: 7px;
 }
+div#bbcode [src^="/images/bbcode/"] {
+    margin-right: 5px;
+}
 }
 
 
