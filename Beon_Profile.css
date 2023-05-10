@@ -1218,4 +1218,7 @@ a#attach_file_click {
 .profile_comment_date,div#profile_comments .profile_comment_author {
     padding-left: 10px !important;
 }
+.profile_postcomment {
+    margin-bottom: 15px !important;
+}
 }
