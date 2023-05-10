@@ -1140,6 +1140,16 @@ div#comment_subscribe a {
 }
 
 
+a#attach_file_click {
+    background: url(https://beon.vip/images/photo.svg) no-repeat center / 25px;
+    position: absolute;
+    top: 65px;
+    right: 160px;
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 div#postcomment_form {
     width: calc(100% - 70px) !important;
@@ -1155,5 +1165,12 @@ div#postcomment_form {
 }
 div#bbcode [src^="/images/bbcode/"] {
     margin-right: 5px;
+}
+a#attach_file_click {
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    top: 12px;
+    right: 12px;
 }
 }
