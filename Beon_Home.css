@@ -1123,3 +1123,10 @@ button.btn.btn-secondary {
 [onclick^="showpost"] {
     font-weight: 500 !important;
 }
+
+a.page-link {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
