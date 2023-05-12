@@ -502,12 +502,6 @@ a.nav-item.nav-link.active,
     box-shadow: unset !important;
 }
 
-div#entry_main:before {
-    content: 'Добавить новую тему:';
-    font-size: 20px;
-    line-height: 3;
-}
-
 div#ajax_status a {
     font-size: 15px;
     padding-left: 10px;
