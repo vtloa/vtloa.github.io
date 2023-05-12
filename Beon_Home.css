@@ -1118,3 +1118,8 @@ button.btn.btn-secondary {
     height: 14px;
 }
 
+/*12.05*/
+
+[onclick^="showpost"] {
+    font-weight: 500 !important;
+}
