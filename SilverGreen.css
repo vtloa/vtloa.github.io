@@ -795,7 +795,7 @@ a.menu__item {
 }
 
 .textareabg {
-    padding: 20px;
+    padding: 20px !important;
     background: #070707;
     color: #858585;
     position: relative;
