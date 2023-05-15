@@ -454,6 +454,31 @@ div#postcomment_userphotos {
     max-height: 150px;
     border: unset;
 }
+
+
+/*UPD 15.05*/
+
+
+img.img-thumbnail {
+    padding: 0px !important;
+    margin-bottom: 5px;
+}
+
+.userphoto_selected {
+    background: transparent;
+}
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #54b9e7;
+    outline-offset: -3px;
+}
+
+div#postcomment_userphotos {
+    padding-right: 6px;
+}
+
+/*END 15.05*/
+
 div#postcomment_userphotos .p-1 {
     padding: 0 !important;
 }
