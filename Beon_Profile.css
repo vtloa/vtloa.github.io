@@ -1247,4 +1247,7 @@ a#attach_file_click {
 .profile_postcomment {
     margin-bottom: 15px !important;
 }
+#postcomment_userphotos {
+  padding-right: 0px !important;
+} 
 }
