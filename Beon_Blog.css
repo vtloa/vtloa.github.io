@@ -443,15 +443,16 @@ div.profile_comment_body {
 /*аватарки*/
 
 div#postcomment_form {
-    width: calc(100% - 135px) !important;
+    width: calc(100% - 133px) !important;
     margin-right: 10px;
 }
 
 div#postcomment_userphotos {
     margin: 0px;
     padding: 0;
-    width: 125px;
+    width: 123px;
     max-height: 150px;
+    border: unset;
 }
 div#postcomment_userphotos .p-1 {
     padding: 0 !important;
