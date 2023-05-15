@@ -1240,3 +1240,7 @@ a#attach_file_click {
   padding-right: 0px !important;
 } 
 }
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border-bottom: 1px solid #e4e4e4 !important;
+}
