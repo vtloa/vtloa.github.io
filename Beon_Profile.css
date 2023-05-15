@@ -548,17 +548,6 @@ td.profile_menu1 a {
     font-weight: 400;
     font-size: 15px;
 }
-
-div#postcomment_userphotos {
-    width: 100px;
-    padding: 0;
-    border: unset;
-    height: 100px;
-}
-div#postcomment_form {
-    width: calc(100% - 105px) !important;
-}
-
 .profile_postcomment {
     border: unset !important;
     padding: 0 !important;
