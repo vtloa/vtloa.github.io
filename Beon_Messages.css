@@ -1317,3 +1317,7 @@ button.btn.btn-secondary {
 button.close {
     padding-left: 0px !important;
 }
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border-bottom: 1px solid #e4e4e4 !important;
+}
