@@ -778,6 +778,9 @@ textarea#comment_body {
 div#bbcode [src^="/images/bbcode/"] {
     margin-right: 5px;
 }
+#postcomment_userphotos {
+  padding-right: 0px !important;
+}
 }
 
 
