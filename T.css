@@ -257,35 +257,3 @@ div#righthome textarea#comment_body {
 }
 
 
-/*----has focus----*/
-
-body:has([href="https://www.megadans.ru"]) {
-    background: url(https://beon.vip/uploads_image/9b/2a/9b2aebff77af3105584fe209fd139621.gif) no-repeat center top fixed;
-    background-size: cover;
-}
-
-
-/*------------------*/
-
-
-body:has([id^="comment_5"]:last-child .profile_comment_author [href="https://beon.vip/you/"]),
-body:has([id^="comment_5"]:nth-child(101) .profile_comment_author [href="https://beon.vip/you/"]) {
-    background: #bfb3ff;
-}
-
-
-body:has([id^="comment_5"]:last-child .profile_comment_author [href="https://beon.vip/satan/"]),
-body:has([id^="comment_5"]:nth-child(101) .profile_comment_author [href="https://beon.vip/satan/"]) {
-    background: #ffe585;
-}
-
-
-body:has([id^="comment_5"]:last-child .profile_comment_author [href="https://beon.vip/evol/"]),
-body:has([id^="comment_5"]:nth-child(101) .profile_comment_author [href="https://beon.vip/evol/"]){
-    background: #a4fb88;
-}
-
-body:has([id^="comment_5"]:last-child .profile_comment_author [href="https://beon.vip/ontologia/"]),
-body:has([id^="comment_5"]:nth-child(101) .profile_comment_author [href="https://beon.vip/ontologia/"]) {
-    background: #ea638b;
-}
