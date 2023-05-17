@@ -213,18 +213,24 @@ button.button_down {
 
 /*------Я ЖДАЛ ЭТОГО ДЕСЯТЬ ТЫСЯЧ ЛЕТ---------*/
 
-.top_header {
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border: unset !important;
+}
+
+.top_header,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     box-shadow: 0 0 15px 2px #0a0a0a63 !important;
 }
 
-body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header {
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header,
+body:has([class="seBlogColumnRight"][style="display: none;"]) nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{
     box-shadow: 0 0 15px 2px #0a0a0a !important;
 }
 
-body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header * {
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header *,
+body:has([class="seBlogColumnRight"][style="display: none;"]) nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu *{
     color: #ff5722 !important;
 }
-
 
 body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header div.menu_item_dropdown a {
     background: #131313;
