@@ -251,3 +251,7 @@ button.navbar-toggler {
     background: #fdfdfd;
     border-radius: unset;
 }
+
+div#righthome textarea#comment_body {
+    color: black !important;
+}
