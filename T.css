@@ -243,3 +243,8 @@ body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header div.me
 div#righthome input#comment_submit {
     color: white !important;
 }
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: #131313;
+    border: unset !important;
+}
