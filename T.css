@@ -1,0 +1,235 @@
+@import url('https://AstralSnake.github.io/sticer.css');
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+/*----------------*/
+
+body {
+    font-family: monospace;
+}
+
+a:hover {
+    text-decoration: unset !important;
+}
+
+
+.top_header:hover .top_menu_link:hover .menu_dropdown, .top_header .top_menu_link .menu_dropdown {
+   border: unset !important;
+}
+
+.menu_dropdown {
+   padding: 0px !important;
+   background: transparent !important;
+}
+
+div#lefthome *,.seBlogComments *,form#commentform * {
+   border: unset;
+}
+
+/*-----ПЕРЕКЛЮЧАТЕЛЬ CORE-------*/
+
+div#lefthome {
+   display: block !important;
+}
+
+.show_menu.header-orange {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: transparent;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    margin: 0px;
+    z-index: 22222;
+    border: 1px solid #ebebeb;
+    transition: 0.2s;
+}
+
+.show_menu.header-orange:before {
+    font-family: 'cappuccicons';
+    content: '\\eb96';
+    font-size: 20px;
+    color: #000000;
+    padding: 2px;
+    line-height: 1;
+}
+
+.show_menu.header-orange:hover {
+    transform: translateY(-3px);
+}
+
+[class="seBlogColumnRight"][style="display: none;"]:before {
+    background-color: transparent;
+    background-blend-mode: color-dodge;
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    z-index: -1;
+    margin: auto;
+}
+
+[class="seBlogColumnRight"][style="display: none;"]:before {
+    background-color: #131313;
+    background-blend-mode: color-dodge;
+    width: 100%;
+    height: 100%;
+}
+
+[class="seBlogColumnRight"][style="display: none;"] a,
+[class="seBlogColumnRight"][style="display: none;"]+div#righthome *,
+[class="seBlogColumnRight"][style="display: none;"] div {
+   color: #a5e76d !important;
+}
+
+[class="seBlogColumnRight"][style="display: none;"]+div#righthome .post_data *:before,
+[class="seBlogColumnRight"][style="display: none;"]+div#righthome h2.card-title a,
+[class="seBlogColumnRight"][style="display: none;"]+div#righthome .profile_comment_author b {
+   color: #ff5722 !important;
+}
+
+.like_button.liked+span, .post_data *:before,.post_data * {
+    color: #3f51b5 !important;
+}
+
+
+/*----ПЕРЕКЛЮЧАТЕЛЬ END-----*/
+
+.top_header {
+    padding: 0px !important;
+    background: #131313;
+    border-bottom: 1px solid #fdfdfd;
+    border-bottom: none;
+}
+
+
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+
+.top_header [href="./"]:before {
+    font-family: 'cappuccicons';
+    content: '\\ec0c';
+    font-size: 44px;
+}
+
+
+.top_header * {
+    color: #fdfdfd !important;
+}
+
+td.top_menu {
+    padding-bottom: 14px;
+}
+
+
+.top_header a.top_menu_item:before {
+    font-family: 'cappuccicons';
+    font-size: 20px;
+}
+
+.top_header a.top_menu_item {
+    font-size: 0px !important;
+    display: inline-block;
+    width: 100px;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+.top_header [onmouseover="showMenu('menu_dropdown_profile');"]:before {
+    content: '\\ec0e';
+}
+
+.top_header [onmouseover="showMenu('menu_dropdown_blog');"]:before {
+    content: '\\ec3d';
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"]:before {
+    content: '\\ec6a';
+}
+
+[onmouseover="showMenu('menu_dropdown_groups');"]:before {
+    content: '\\ec22';
+}
+
+[href="im.php"]:before {
+    content: '\\eb0b';
+}
+
+/*-----------------*/
+
+div.menu_item_dropdown a {
+    background: #fdfdfd;
+    border: 1px solid black;
+    color: black !important;
+    margin-bottom: 3px !important;
+    text-align: center;
+    padding: 4px !important;
+}
+
+div.menu_item_dropdown a:hover {
+    background: #131313;
+    color: #fdfdfd !important;
+}
+
+
+
+div.menu_dropdown {
+    backdrop-filter: blur(10px);
+}
+
+/*-----------------*/
+
+button.btn.btn-primary {
+    font-size: 0px;
+    min-width: 72px;
+    background: #fdfdfd;
+    color: #131313 !important;
+    padding: 4px;
+}
+
+button.btn.btn-primary:before {
+    font-family: 'cappuccicons';
+    content: '\\ec15';
+    font-size: 20px;
+}
+
+button.button_down {
+    background: #fdfdfd;
+}
+[src="/images/button_down.svg"],[src="/images/notify.svg"] {
+    filter: invert(1);
+}
+
+/*------Я ЖДАЛ ЭТОГО ДЕСЯТЬ ТЫСЯЧ ЛЕТ---------*/
+
+.top_header {
+    box-shadow: 0 0 15px 2px #0a0a0a63 !important;
+}
+
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header {
+    box-shadow: 0 0 15px 2px #0a0a0a !important;
+}
+
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header * {
+    color: #ff5722 !important;
+}
+
+
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header div.menu_item_dropdown a {
+    background: #131313;
+}
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header div.menu_item_dropdown a:hover {
+    background: #ff5722;
+    color: black !important;
+}
