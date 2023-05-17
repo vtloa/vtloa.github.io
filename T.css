@@ -222,13 +222,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     box-shadow: 0 0 15px 2px #0a0a0a63 !important;
 }
 
-body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header,
-body:has([class="seBlogColumnRight"][style="display: none;"]) nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header {
     box-shadow: 0 0 15px 2px #0a0a0a !important;
 }
 
-body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header *,
-body:has([class="seBlogColumnRight"][style="display: none;"]) nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu *{
+body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header * {
     color: #ff5722 !important;
 }
 
@@ -247,4 +245,9 @@ div#righthome input#comment_submit {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     background: #131313;
     border: unset !important;
+}
+
+button.navbar-toggler {
+    background: #fdfdfd;
+    border-radius: unset;
 }
