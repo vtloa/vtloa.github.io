@@ -49,7 +49,7 @@ div#lefthome {
 
 .show_menu.header-orange:before {
     font-family: 'cappuccicons';
-    content: '\\eb96';
+    content: '\eb96';
     font-size: 20px;
     color: #000000;
     padding: 2px;
@@ -117,7 +117,7 @@ div#lefthome {
 
 .top_header [href="./"]:before {
     font-family: 'cappuccicons';
-    content: '\\ec0c';
+    content: '\ec0c';
     font-size: 44px;
 }
 
@@ -147,23 +147,23 @@ img.menu_icon2 {
 }
 
 .top_header [onmouseover="showMenu('menu_dropdown_profile');"]:before {
-    content: '\\ec0e';
+    content: '\ec0e';
 }
 
 .top_header [onmouseover="showMenu('menu_dropdown_blog');"]:before {
-    content: '\\ec3d';
+    content: '\ec3d';
 }
 
 [onmouseover="showMenu('menu_dropdown_tests');"]:before {
-    content: '\\ec6a';
+    content: '\ec6a';
 }
 
 [onmouseover="showMenu('menu_dropdown_groups');"]:before {
-    content: '\\ec22';
+    content: '\ec22';
 }
 
 [href="im.php"]:before {
-    content: '\\eb0b';
+    content: '\eb0b';
 }
 
 /*-----------------*/
@@ -200,7 +200,7 @@ button.btn.btn-primary {
 
 button.btn.btn-primary:before {
     font-family: 'cappuccicons';
-    content: '\\ec15';
+    content: '\ec15';
     font-size: 20px;
 }
 
@@ -233,3 +233,5 @@ body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header div.me
     background: #ff5722;
     color: black !important;
 }
+
+
