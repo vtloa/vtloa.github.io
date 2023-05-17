@@ -255,3 +255,10 @@ button.navbar-toggler {
 div#righthome textarea#comment_body {
     color: black !important;
 }
+
+
+/*----has focus----*/
+
+body:has([href="https://www.megadans.ru"]) {
+    background: url(https://i.ibb.co/wMBmmdf/2.gif) no-repeat center fixed;
+}
