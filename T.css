@@ -240,4 +240,6 @@ body:has([class="seBlogColumnRight"][style="display: none;"]) .top_header div.me
     color: black !important;
 }
 
-
+div#righthome input#comment_submit {
+    color: white !important;
+}
