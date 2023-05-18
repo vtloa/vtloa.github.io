@@ -926,3 +926,9 @@ div#bbcode [src^="/images/bbcode/"] {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border-bottom: 1px solid #e4e4e4 !important;
 }
+
+/*----img----*/
+.post_container .post_text img {
+    height: auto !important;
+    max-height: 500px !important;
+}
