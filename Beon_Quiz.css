@@ -800,3 +800,28 @@ button.close {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border-bottom: 1px solid #e4e4e4 !important;
 }
+
+/*----25.05.23----*/
+
+span#notify_total {
+    height: 36px;
+    margin-top: -15px;
+    line-height: 3;
+    min-width: 36px;
+    font-weight: normal;
+    margin-right: 2px;
+}
+
+@media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
+span#notify_total {
+    height: unset;
+    margin-top: unset;
+    line-height: normal;
+    min-width: unset;
+    font-weight: unset;
+}
+button#newupdates {
+    padding: 0px;
+    margin: 0px;
+}
+}
