@@ -962,4 +962,6 @@ button#newupdates {
 }
 }
 
-
+span#notify_total {
+    background: #adadad;
+}
