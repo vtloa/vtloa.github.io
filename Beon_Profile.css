@@ -1251,15 +1251,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     white-space: nowrap;
 }
 
+
+
 /*----25.05.23----*/
 
 span#notify_total {
-    height: 36px;
-    margin-top: -15px;
-    line-height: 3.3;
+    height: 38px;
+    line-height: 3;
     min-width: 36px;
     font-weight: normal;
-    margin-right: 2px;
+    margin-right: 4px;
+    margin-top: -15px;
+}
+
+button#newupdates {
+    padding: 5px;
 }
 
 @media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
@@ -1275,3 +1281,4 @@ button#newupdates {
     margin: 0px;
 }
 }
+
