@@ -941,7 +941,7 @@ span#notify_total {
     min-width: 36px;
     font-weight: normal;
     margin-right: 4px;
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
 button#newupdates {
