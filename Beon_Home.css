@@ -1149,9 +1149,6 @@ button#newupdates {
     padding: 5px;
 }
 
-[src="/images/notify.svg"] {
-    margin-top: -1px;
-}
 
 @media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
 span#notify_total {
@@ -1164,9 +1161,6 @@ span#notify_total {
 button#newupdates {
     padding: 0px;
     margin: 0px;
-}
-[src="/images/notify.svg"] {
-    margin-top: unset;
 }
 }
 
