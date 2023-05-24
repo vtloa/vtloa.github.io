@@ -1000,3 +1000,7 @@ button#newupdates {
     margin: 0px;
 }
 }
+
+span#notify_total {
+    background: #adadad;
+}
