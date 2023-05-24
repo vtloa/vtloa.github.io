@@ -1142,4 +1142,5 @@ span#notify_total {
     line-height: 3;
     min-width: 36px;
     font-weight: normal;
+    margin-right: 2px;
 }
