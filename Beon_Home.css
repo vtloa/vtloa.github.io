@@ -1144,3 +1144,13 @@ span#notify_total {
     font-weight: normal;
     margin-right: 2px;
 }
+
+@media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
+span#notify_total {
+    height: unset;
+    margin-top: unset;
+    line-height: unset;
+    min-width: unset;
+    font-weight: unset;
+}
+}
