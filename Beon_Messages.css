@@ -1354,3 +1354,7 @@ button#newupdates {
 span#notify_total {
     background: #adadad;
 }
+
+.updatesDelete a {
+    color: #f44336;
+}
