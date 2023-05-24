@@ -938,7 +938,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 span#notify_total {
     height: 36px;
     margin-top: -15px;
-    line-height: 3;
+    line-height: 3.3;
     min-width: 36px;
     font-weight: normal;
     margin-right: 2px;
