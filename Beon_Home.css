@@ -1149,7 +1149,7 @@ span#notify_total {
 span#notify_total {
     height: unset;
     margin-top: unset;
-    line-height: unset;
+    line-height: normal;
     min-width: unset;
     font-weight: unset;
 }
