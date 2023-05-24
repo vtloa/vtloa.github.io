@@ -1134,6 +1134,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border-bottom: 1px solid #e4e4e4 !important;
 }
 
+
 /*----25.05.23----*/
 
 span#notify_total {
@@ -1149,6 +1150,12 @@ button#newupdates {
     padding: 5px;
 }
 
+/*-----разобраться, но вот решение через хас, хзхз----*/
+
+[src="/images/notify.svg"]:has(+span#notify_total) {
+    margin-top: -1px;
+}
+
 
 @media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
 span#notify_total {
@@ -1161,6 +1168,9 @@ span#notify_total {
 button#newupdates {
     padding: 0px;
     margin: 0px;
+}
+[src="/images/notify.svg"]:has(+span#notify_total) {
+    margin-top: unset;
 }
 }
 
