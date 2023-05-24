@@ -1153,4 +1153,8 @@ span#notify_total {
     min-width: unset;
     font-weight: unset;
 }
+button#newupdates {
+    padding: 0px;
+    margin: 0px;
+}
 }
