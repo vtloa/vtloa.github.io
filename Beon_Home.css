@@ -1133,3 +1133,13 @@ a.page-link {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border-bottom: 1px solid #e4e4e4 !important;
 }
+
+/*----25.05.23----*/
+
+span#notify_total {
+    height: 36px;
+    margin-top: -15px;
+    line-height: 3;
+    min-width: 36px;
+    font-weight: normal;
+}
