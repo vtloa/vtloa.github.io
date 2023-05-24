@@ -585,7 +585,7 @@ td.profile_menu1 [onclick^="newmessage"]:before {
 
 @media (max-width: 1024px) {
 .top_header table tbody tr td:first-child {
-    width: 240px;
+    width: 217px;
 }
     
 
