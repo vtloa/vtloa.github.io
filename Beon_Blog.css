@@ -672,8 +672,8 @@ blockquote.blockquote {
 
 @media (max-width: 1024px) {
 .top_header table tbody tr td:first-child {
-    min-width: 240px;
-    width: 240px !important;
+    min-width: 217px;
+    width: 217px !important;
 }
   div#lefthome {
     min-width: 240px;
