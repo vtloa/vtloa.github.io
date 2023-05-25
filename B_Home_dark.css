@@ -1,0 +1,175 @@
+body,#mobile_menu .menu_item_dropdown a {
+    color: #e7e6e6 !important;
+}
+
+/*------dark logo----*/
+
+[src="./images/logo_new.png"] {
+    content: url(https://i.ibb.co/McjWBpf/logo-new-dark.png);
+}
+
+/*----------------*/
+
+.top_menu_item {
+    color: #707070 !important;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    z-index: 444;
+}
+
+body,.top_header,div.menu_dropdown,nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu,.modal-content,div#mobile_menu,
+#mobile_menu .menu_item_dropdown a {
+    background: #141414;
+}
+
+.top_header, div#lefthome .card-body, div.menu_dropdown, .top_menu_link:hover div.menu_dropdown,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu,.modal-content,.modal-header,div#postcomment_userphotos {
+    border-color: #242424 !important;
+}
+
+
+a.nav-item.nav-link, .recentaction_div, button.btn.btn-primary, a.page-link,span#ajax_currentstatus_value {
+    background: #2e2e2e !important;
+    color: #8f8f8f !important;
+}
+
+h2.card-title a,h6.card-subtitle.mb-2.text-muted.post_date a,div#lefthome a,.category a,.post_text.pl-3 a,div#addmusic a,.updatesWrap a,.copyright a {
+    color: #6897e3 !important;
+}
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block, button.btn.btn-primary, div#ajax_status a, [onclick="window.scrollTo(0,100000); return false;"], a.nav-item.nav-link.active,button#attach_file_clickblog_post {
+    background: #4c7cc9 !important;
+    color: #fff !important;
+}
+
+input#search_text,input.form-control,select.form-control {
+    background: #34323259 !important;
+    color: #a3a6a7 !important;
+    border-color: transparent;
+}
+
+.recentaction_div,span#ajax_currentstatus_value {
+    color: #d7d6d6 !important;
+}
+.top_header div.menu_item_dropdown a {
+    background: #141414;
+    color: #e7e6e6;
+}
+
+.top_header div.menu_dropdown1,
+.top_header:hover div.menu_dropdown1{
+    border: unset !important;
+}
+
+div.menu_dropdown {
+    border-color: #141414 !important;
+}
+
+.post_image div,h6.card-subtitle.mb-2.text-muted.post_date,.category {
+    color: #868686 !important;
+}
+
+[src="/images/notify.svg"] {
+    filter: invert(1);
+}
+
+.card-header.header-orange,span#notify_total {
+    background: #b33e6e;
+}
+
+div#lefthome .card:nth-of-type(14) .card-header.header-orange, .card-header.header-green {
+    background: #523e83;
+}
+
+
+div#lefthome .card:nth-of-type(28) .card-header.header-orange {
+    background: #3152aea6;
+}
+
+.show_menu.header-orange {
+    background: #4c7cc9;
+}
+.card-header.header-red {
+    background: #237474;
+}
+
+a.nav-item.nav-link:hover,
+a.page-link:hover,
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover,
+div#ajax_status a:hover,
+button.btn.btn-primary.btn-block:hover,
+button#attach_file_clickblog_post:hover,
+button.btn.btn-primary:hover,
+button.button_down:hover {
+    background: #565656 !important;
+    color: #adadad !important;
+}
+
+button.button_down:hover [src="/images/button_down.svg"] {
+    opacity: 0.5;
+}
+
+/*в редактировании поста*/
+
+.cke_top,.cke_bottom {
+    background: #1f1e1e;
+    border-color: #242424;
+}
+
+.cke_chrome {
+    border: 1px solid #242424;
+}
+
+.cke_toolbar {
+    filter: invert(1);
+}
+
+.cke_dialog_body,.cke_dialog_contents_body {
+    background: #141414;
+}
+
+.cke_dialog_body * {
+    color: #e7e6e6;
+}
+
+table.cke_dialog_contents {
+    border-color: #242424;
+}
+
+/*----like цвет----*/
+
+.like_button.liked:before {
+    text-shadow: 0 0 #c54177;
+    text-shadow: 0px 0px #c54177;
+}
+.like_button.liked:before {
+    content: '\f004';
+    color: #c54177;
+}
+
+.like_button.liked+span {
+    color: #c54177 !important;
+}
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+button.navbar-toggler {
+    opacity: 0.5;
+    filter: invert(1);
+}
+button.btn.btn-outline-success {
+    background: transparent;
+    filter: invert(1);
+}
+button.btn.btn-outline-success:before {
+    opacity: 0.5;
+}
+button.btn.btn-outline-success {
+    background: transparent !important;
+}
+[src="/images/notify.svg"] {
+    filter: invert(1);
+    opacity: 0.6;
+}
+}
