@@ -1188,10 +1188,17 @@ span#notify_total {
 
 /*кнопка обновить подпись*/
 
-div#lefthome [onclick="Profile.changeStatus(); return false;"] {
+.card-body [onclick="Profile.changeStatus(); return false;"] {
     width: 100%;
     display: block;
     text-align: center;
     padding: 7px !important;
     line-height: 1.6;
+}
+
+.card-body div#ajax_status span {
+    background: #f2f2f2;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
 }
