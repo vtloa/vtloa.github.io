@@ -755,7 +755,7 @@ textarea#reply_body {
     max-height: 130px;
 }
 table.body {
-    padding: 5px !important;
+    padding: 10px !important;
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     position: sticky !important;
@@ -1440,6 +1440,6 @@ button.navbar-toggler:focus {
 }
 /*-----messages-----*/
 .content {
-    padding-top: 10px !important;
+    padding-top: 15px !important;
 }
 }
