@@ -257,3 +257,10 @@ div#righthome textarea#comment_body {
 }
 
 
+[onclick="Likes.open('post', '734653'); return false"] {
+font-size: 0px;
+}
+[onclick="Likes.open('post', '734653'); return false"]:before {
+content: '214234234325532532523';
+font-size: 15px;
+}
