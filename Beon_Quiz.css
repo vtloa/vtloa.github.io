@@ -838,3 +838,70 @@ span#notify_total {
 .updatesDelete a {
     color: #f44336;
 }
+
+
+/*---NEW шапка в моб версии-----*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+
+[src="./images/logo_new.png"] {
+    height: 40px;
+    width: auto;
+    image-rendering: unset;
+}
+[src="/images/notify.svg"] {
+    width: 20px;
+    opacity: 0.8;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button.navbar-toggler {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    
+button.btn.btn-outline-success {
+    height: 40px;
+    font-size: 0px;
+    padding: 0px;
+    width: 40px;
+    border: unset;
+}
+
+button.btn.btn-outline-success:before {
+    content: '';
+    width: 40px;
+    height: 38px;
+    display: block;
+    background: url(https://www.svgrepo.com/show/368655/down-small.svg) no-repeat center / 38px;
+    opacity: 0.3;
+}
+button.navbar-toggler {
+    border: unset;
+    padding: 5px;
+}
+button.navbar-toggler,
+button.navbar-toggler:hover{
+    background: url(https://www.svgrepo.com/show/473880/menu-hamburger.svg) no-repeat center / 32px !important;
+    opacity: 0.3;
+}
+span.navbar-toggler-icon {
+    background: transparent !important;
+}
+button.btn.btn-outline-success:hover {
+    background: transparent !important;
+}
+
+[src="./images/logo_new.png"] {
+    height: 28px;
+}
+
+span#notify_total1 {
+    background: #f36639;
+}
+}
