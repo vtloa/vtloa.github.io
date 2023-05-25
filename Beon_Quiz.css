@@ -910,6 +910,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 .btn-outline-success:focus, .btn-outline-success.focus {
     box-shadow: unset;
 }
+button.navbar-toggler:focus {
+    outline: unset !important;
+}
 /*-----tests-----*/
     
  [style="padding: 10px; text-align: center; margin-top: 10px;"] {
