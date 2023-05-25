@@ -1201,4 +1201,5 @@ span#notify_total {
     display: block;
     text-align: center;
     border-radius: 3px;
+    padding: 7px;
 }
