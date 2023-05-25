@@ -1201,11 +1201,11 @@ span#notify_total {
     display: block;
     border-radius: 3px;
     padding: 7px;
-    color: #606364;
+    color: #3e474a;
 }
 
 .recentaction_div {
-    color: #606364;
+    color: #3e474a;
 }
 
 input#search_text {
