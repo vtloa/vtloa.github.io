@@ -1199,7 +1199,24 @@ span#notify_total {
 .card-body div#ajax_status span {
     background: #f2f2f2;
     display: block;
-    text-align: center;
     border-radius: 3px;
     padding: 7px;
+    color: #586066;
+}
+
+.recentaction_div {
+    color: #586066;
+}
+
+input#search_text {
+    background: #f2f2f2;
+    display: block;
+    border-radius: 3px;
+    padding: 7px;
+    border: unset;
+    font-size: 14px;
+}
+
+input#search_text::placeholder {
+    color: #58606694;
 }
