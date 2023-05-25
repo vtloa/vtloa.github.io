@@ -1220,3 +1220,7 @@ input#search_text {
 input#search_text::placeholder {
     color: #58606694;
 }
+button.btn.btn-outline-success {
+    padding: 7px;
+    width: 56px;
+}
