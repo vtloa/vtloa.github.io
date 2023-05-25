@@ -839,6 +839,13 @@ span#notify_total {
     color: #f44336;
 }
 
+a.nav-link {
+    background: #f2f3f4;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #6c7376;
+}
+
 
 /*---NEW шапка в моб версии-----*/
 
@@ -920,4 +927,3 @@ button.navbar-toggler:focus {
     margin: 0px !important;
 }
 }
-
