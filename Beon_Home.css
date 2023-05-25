@@ -1185,3 +1185,13 @@ span#notify_total {
 .recentaction_div {
     border-radius: 3px;
 }
+
+/*кнопка обновить подпись*/
+
+div#lefthome [onclick="Profile.changeStatus(); return false;"] {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 7px !important;
+    line-height: 1.6;
+}
