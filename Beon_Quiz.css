@@ -904,4 +904,14 @@ button.btn.btn-outline-success:hover {
 span#notify_total1 {
     background: #f36639;
 }
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding: 5px !important;
 }
+/*-----tests-----*/
+    
+ [style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+}
+
