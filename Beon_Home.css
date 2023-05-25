@@ -1181,3 +1181,7 @@ span#notify_total {
 .updatesDelete a {
     color: #f44336;
 }
+
+.recentaction_div {
+    border-radius: 3px;
+}
