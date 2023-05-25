@@ -1077,7 +1077,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding: 5px !important;
 }
 .btn-outline-success:focus, .btn-outline-success.focus {
-    box-shadow: unset;
+    box-shadow: unset !important;
 }
 button.navbar-toggler:focus {
     outline: unset !important;
