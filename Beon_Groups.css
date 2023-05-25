@@ -1008,7 +1008,9 @@ span#notify_total {
 .updatesDelete a {
     color: #f44336;
 }
-
+.group_row_date a {
+    font-size: 14px;
+}
 /*---NEW шапка в моб версии-----*/
 
 
