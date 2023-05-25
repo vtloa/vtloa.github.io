@@ -907,6 +907,9 @@ span#notify_total1 {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding: 5px !important;
 }
+.btn-outline-success:focus, .btn-outline-success.focus {
+    box-shadow: unset;
+}
 /*-----tests-----*/
     
  [style="padding: 10px; text-align: center; margin-top: 10px;"] {
