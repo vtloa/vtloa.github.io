@@ -1304,4 +1304,8 @@ button.navbar-toggler:focus {
     padding: 0px !important;
     margin: 0px !important;
 }
+/*-----home-----*/
+.content {
+    padding-top: 0px !important;
+}
 }
