@@ -34,7 +34,8 @@ a.nav-item.nav-link, .recentaction_div, button.btn.btn-primary, a.page-link,span
     color: #8f8f8f !important;
 }
 
-h2.card-title a,h6.card-subtitle.mb-2.text-muted.post_date a,div#lefthome a,.category a,.post_text.pl-3 a,div#addmusic a,.updatesWrap a,.copyright a {
+h2.card-title a,h6.card-subtitle.mb-2.text-muted.post_date a,div#lefthome a,.category a,.post_text.pl-3 a,div#addmusic a,.updatesWrap a,.copyright a,
+.modal-content a {
     color: #6897e3 !important;
 }
 
@@ -151,7 +152,9 @@ table.cke_dialog_contents {
 .like_button.liked+span {
     color: #c54177 !important;
 }
-
+h5.modal-title {
+    color: #aeb1b3;
+}
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
 button.navbar-toggler {
