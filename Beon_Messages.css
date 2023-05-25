@@ -1438,4 +1438,8 @@ button.navbar-toggler:focus {
     padding: 0px !important;
     margin: 0px !important;
 }
+/*-----messages-----*/
+.content {
+    padding-top: 10px !important;
+}
 }
