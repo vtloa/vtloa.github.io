@@ -1225,6 +1225,10 @@ button.btn.btn-outline-success {
     width: 56px;
 }
 
+img.photo {
+    border: unset !important;
+}
+
 /*---NEW шапка в моб версии-----*/
 
 
