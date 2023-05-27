@@ -1,7 +1,28 @@
 @font-face { font-family: "fontawesome"; src: url('//Luatr.github.io/Fonts/fontawesome-webfont.ttf'); }
 @font-face { font-family: "fontawesome3"; src: url('//Luatr.github.io/Fonts/fa-solid-900.ttf'); }
+@font-face { font-family: "Cat"; src: url('//vtloa.github.io/BAG/QuietMeows-O20e.ttf'); }
 
-/*------------------------*/
+/*-----------MODER ICON------------*/
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:before,
+.profile_comment_author [href="https://beon.vip/washu/"]:before,
+.messages_author [href="https://beon.vip/washu/"]:before {
+    content: 'O';
+    font-family: "Cat";
+    color: #9b9b9b8f;
+    text-decoration: unset !important;
+    position: absolute;
+    margin-left: -23px;
+    font-size: 19px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"],
+.profile_comment_author [href="https://beon.vip/washu/"],
+.messages_author [href="https://beon.vip/washu/"] {
+    margin-left: 24px;
+}
+
+/*---------------------*/
 
 
 .post_data a,p.card-link.post_views,.post_data,.profile_comment_links {
