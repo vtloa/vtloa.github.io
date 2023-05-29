@@ -1,7 +1,56 @@
 @font-face { font-family: "fontawesome"; src: url('//Luatr.github.io/Fonts/fontawesome-webfont.ttf'); }
 @font-face { font-family: "fontawesome3"; src: url('//Luatr.github.io/Fonts/fa-solid-900.ttf'); }
+@font-face { font-family: "Cat"; src: url('//vtloa.github.io/BAG/QuietMeows-O20e.ttf'); }
 
-/*------------------------*/
+/*-----------MODER ICON------------*/
+
+/*1*/
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:before,
+.profile_comment_author [href="https://beon.vip/washu/"]:before,
+.messages_author [href="https://beon.vip/washu/"]:before,
+td.messages_message [href="https://beon.vip/washu/"]:before,
+
+/*2*/
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"]:before,
+.profile_comment_author [href="https://beon.vip/Satan/"]:before,
+.messages_author [href="https://beon.vip/Satan/"]:before,
+td.messages_message [href="https://beon.vip/Satan/"]:before,
+
+/*3*/
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:before,
+.profile_comment_author [href="https://beon.vip/GLEBACNK/"]:before,
+.messages_author [href="https://beon.vip/GLEBACNK/"]:before,
+td.messages_message [href="https://beon.vip/GLEBACNK/"]:before {
+    content: 'O';
+    font-family: "Cat";
+    color: #1a1a1a8f;
+    text-decoration: unset !important;
+    position: absolute;
+    margin-left: -23px;
+    font-size: 19px;
+}
+
+/*1*/
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"],
+.profile_comment_author [href="https://beon.vip/washu/"],
+.messages_author [href="https://beon.vip/washu/"],
+td.messages_message [href="https://beon.vip/washu/"],
+
+/*2*/
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"],
+.profile_comment_author [href="https://beon.vip/Satan/"],
+.messages_author [href="https://beon.vip/Satan/"],
+td.messages_message [href="https://beon.vip/Satan/"],
+
+/*3*/
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"],
+.profile_comment_author [href="https://beon.vip/GLEBACNK/"],
+.messages_author [href="https://beon.vip/GLEBACNK/"],
+td.messages_message [href="https://beon.vip/GLEBACNK/"]{
+    margin-left: 24px;
+}
+
+/*---------------------*/
 
 
 .post_data a,p.card-link.post_views,.post_data,.profile_comment_links {
