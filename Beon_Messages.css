@@ -7,10 +7,10 @@
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:before,
 .profile_comment_author [href="https://beon.vip/washu/"]:before,
 .messages_author [href="https://beon.vip/washu/"]:before,
-td.messages_message b [href="https://beon.vip/washu/"]:before {
+td.messages_message [href="https://beon.vip/washu/"]:before {
     content: 'O';
     font-family: "Cat";
-    color: #9b9b9b8f;
+    color: #1a1a1a8f;
     text-decoration: unset !important;
     position: absolute;
     margin-left: -23px;
@@ -20,7 +20,7 @@ td.messages_message b [href="https://beon.vip/washu/"]:before {
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"],
 .profile_comment_author [href="https://beon.vip/washu/"],
 .messages_author [href="https://beon.vip/washu/"],
-td.messages_message b [href="https://beon.vip/washu/"] {
+td.messages_message [href="https://beon.vip/washu/"] {
     margin-left: 24px;
 }
 
