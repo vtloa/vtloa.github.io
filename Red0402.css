@@ -1176,3 +1176,7 @@ input[type="submit"] {
 .post-content h1,.prevsibling.col-md-6 *,.nextsibling.text-right.col-md-6 *{
     color: #3a404d;
 }
+
+.left-menu__user-notification.left-menu__unread-notifications a {
+    color: #ebecf1;
+}
