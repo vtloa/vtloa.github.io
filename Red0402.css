@@ -1210,3 +1210,8 @@ input[type="submit"] {
 .notifications__comments.left-menu__user-notification .right-menu-text {
     display: none;
 }
+
+.emj-dropdown-content {
+    max-width: 440px;
+    max-height: 200px;
+}
