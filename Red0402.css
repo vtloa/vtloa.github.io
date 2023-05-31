@@ -1131,7 +1131,7 @@ i.far.fa-smile-wink {
 .pagination {
     position: unset;
     width: 100%;
-    padding-left: 7px;
+    padding-left: 6px;
 }
 .crumbs {
     height: 40px;
@@ -1181,4 +1181,18 @@ input[type="submit"] {
 .left-menu__user-notification.left-menu__unread-notifications a {
     color: #ebecf1;
     font-size: 15px;
+}
+
+.left-menu__user-notification.left-menu__unread-message,
+.left-menu__user-notification.left-menu__unread-message a {
+    color: #ebecf1;
+}
+
+.left-menu__user-notification.left-menu__unread-message span.post-title-date.pl-0 {
+    font-size: 12px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
