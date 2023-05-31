@@ -1219,3 +1219,7 @@ input[type="submit"] {
 span.readertime:after {
     color: transparent;
 }
+
+.crumbs [href="/"]:before {
+    content: '\e920';
+}
