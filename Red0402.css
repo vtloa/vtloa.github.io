@@ -1202,3 +1202,11 @@ input[type="submit"] {
     height: 50px;
     object-fit: cover;
 }
+
+.notifications__comments.left-menu__user-notification a {
+    color: #ebecf1;
+}
+
+.notifications__comments.left-menu__user-notification .right-menu-text {
+    display: none;
+}
