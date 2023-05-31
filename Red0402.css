@@ -1196,3 +1196,9 @@ input[type="submit"] {
     margin-bottom: 0px;
     margin-top: 5px;
 }
+
+.left-menu__user-notification.left-menu__unread-message img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
