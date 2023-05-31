@@ -1177,6 +1177,8 @@ input[type="submit"] {
     color: #3a404d;
 }
 
+/*UPD*/
 .left-menu__user-notification.left-menu__unread-notifications a {
     color: #ebecf1;
+    font-size: 15px;
 }
