@@ -990,7 +990,9 @@ main.py-4 {
     flex-direction: column;
 }
 .fas, .far, .tag_bar > * {
-    font-size: 12px;
+    font-size: 13px;
+    padding: 3px;
+    margin-right: 7px;
 }
 span.comments_count span::before,span.comments_count a {
     font-size: 12px;
