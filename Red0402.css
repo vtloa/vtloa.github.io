@@ -1163,6 +1163,13 @@ span.crumb-item {
 input[type="submit"] {
     margin-top: 0px;
 }
+.avatar-select-list {
+    width: 100%;
+}
+
+img.avatar-select-label {
+    margin-right: 5px;
+}
 }
 
 
