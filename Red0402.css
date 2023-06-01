@@ -1246,3 +1246,7 @@ ul.navbar-nav.ml-auto [href$=".beon.fun/login"], ul.navbar-nav.ml-auto [href$=".
     opacity: 0.5;
     text-align: left;
 }
+
+.post-text.comment-text {
+    padding: 0px;
+}
