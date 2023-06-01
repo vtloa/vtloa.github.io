@@ -1241,6 +1241,6 @@ ul.navbar-nav.ml-auto [href$=".beon.fun/login"], ul.navbar-nav.ml-auto [href$=".
 }
 
 .comment-text+.post-opt.mt-3 {
-    font-size: 14px;
-    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
 }
