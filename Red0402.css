@@ -486,7 +486,8 @@ input[type="submit"] {
 .tag_bar > span {
     margin-right: 3px;
 }
-input[type="submit"],button.btn.btn-secondary,button.btn.btn-primary,a.btn.btn-outline-primary.mb-2,.form__show-avatars {
+input[type="submit"],button.btn.btn-secondary,button.btn.btn-primary,a.btn.btn-outline-primary.mb-2,.form__show-avatars,
+input[type="button"]{
     background: #ebecf1;
     min-width: 26px;
     text-align: center;
