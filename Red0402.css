@@ -1244,4 +1244,5 @@ ul.navbar-nav.ml-auto [href$=".beon.fun/login"], ul.navbar-nav.ml-auto [href$=".
     font-size: 14px;
     font-weight: bold;
     opacity: 0.5;
+    text-align: left;
 }
