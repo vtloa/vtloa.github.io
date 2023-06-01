@@ -1237,3 +1237,8 @@ span.readertime:after {
 ul.navbar-nav.ml-auto [href$=".beon.fun/login"], ul.navbar-nav.ml-auto [href$=".beon.fun/register"] {
     font-size: 0px;
 }
+
+.comment-text+.post-opt.mt-3 {
+    font-size: 14px;
+    text-align: left;
+}
