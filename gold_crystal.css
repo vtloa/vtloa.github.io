@@ -911,3 +911,7 @@ div#page__rendertime {
 div#page__admincontact {
     display: none;
 }
+
+.small-text+div a,a.load_ignored_comments {
+    color: #be7808;
+}
