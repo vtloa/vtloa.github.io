@@ -915,3 +915,11 @@ div#page__admincontact {
 .small-text+div a,a.load_ignored_comments {
     color: #be7808;
 }
+
+.small-text {
+    color: #be7808;
+}
+.small-text i {
+    font-family: 'Font Awesome 5 Free' !important;
+    font-size: 10px !important;
+}
