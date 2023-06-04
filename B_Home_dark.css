@@ -176,3 +176,25 @@ button.btn.btn-outline-success {
     opacity: 0.6;
 }
 }
+
+
+/*----цвет иконки МОДЕРА в дарк моде----*/
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:before,
+.profile_comment_author [href="https://beon.vip/washu/"]:before,
+.messages_author [href="https://beon.vip/washu/"]:before,
+td.messages_message [href="https://beon.vip/washu/"]:before,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"]:before,
+.profile_comment_author [href="https://beon.vip/Satan/"]:before,
+.messages_author [href="https://beon.vip/Satan/"]:before,
+td.messages_message [href="https://beon.vip/Satan/"]:before,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:before,
+.profile_comment_author [href="https://beon.vip/GLEBACNK/"]:before,
+.messages_author [href="https://beon.vip/GLEBACNK/"]:before,
+td.messages_message [href="https://beon.vip/GLEBACNK/"]:before,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/adminbeon/"]:before,
+.profile_comment_author [href="https://beon.vip/adminbeon/"]:before,
+.messages_author [href="https://beon.vip/adminbeon/"]:before,
+td.messages_message [href="https://beon.vip/adminbeon/"]:before {
+    color: #b33e6e;
+}
