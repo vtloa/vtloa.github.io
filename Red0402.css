@@ -36,7 +36,7 @@ main.py-4 {
 }
 
 .left-menu__friends.left-menu__friends_offline,.community__moders,.community__members,.blog__tags,.blog__last-comments,h3.left-menu-text,
-.blog__iread,.blog__gifts,.text-center {
+.blog__iread,.blog__gifts,.left-menu .text-center {
     display: none !important;
 }
 
