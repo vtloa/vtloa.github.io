@@ -1250,3 +1250,7 @@ ul.navbar-nav.ml-auto [href$=".beon.fun/login"], ul.navbar-nav.ml-auto [href$=".
 .post-text.comment-text {
     padding: 0px;
 }
+
+div#page__admincontact {
+    display: none;
+}
