@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+/*
+font-family: 'Manrope', sans-serif;
+*/
+
+body.bodybg {
+    font-family: 'Manrope', sans-serif;
+}
+
+
 /*vtloa*/
 
 .crumbs:after {
