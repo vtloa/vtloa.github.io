@@ -428,24 +428,3 @@ div#giftmodal {
 }
 
 
-/*---UPD 12.06.23---*/
-
-.bg-white .m2 {
-    display: none;
-}
-
-.footer__infolinks.p-1 {
-    display: none;
-}
-
-div#page__rendertime {
-    display: none;
-}
-
-div#page__admincontact {
-    display: none;
-}
-
-div#page__admincontact {
-    display: none;
-}
