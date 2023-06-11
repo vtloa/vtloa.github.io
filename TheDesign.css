@@ -1349,3 +1349,7 @@ input[type="text"]::placeholder {
 div#page__rendertime {
     display: none;
 }
+
+a.btn.btn-outline-primary.mb-2 {
+    border: unset;
+}
