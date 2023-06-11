@@ -1338,3 +1338,14 @@ input[type="text"]::placeholder {
 .footer__infolinks.p-1 {
     display: none;
 }
+
+
+
+
+.bottombg div#footer {
+    padding: 0px !important;
+}
+
+div#page__rendertime {
+    display: none;
+}
