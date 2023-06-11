@@ -666,3 +666,7 @@ div#page__admincontact {
 .left-menu__friends.left-menu__friends_offline {
     display: none !important;
 }
+
+.user:before {
+    display: none;
+}
