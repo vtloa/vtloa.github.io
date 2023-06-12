@@ -746,3 +746,10 @@ div#newpostform {
 label.menu__btn {
     margin: 0px;
 }
+
+.post-avatar {
+    margin: 0px !important;
+}
+.post-content {
+    padding: 10px;
+}
