@@ -734,3 +734,7 @@ div#newpostform {
     margin: 0px !important;
     margin-top: 25px !important;
 }
+
+.post-text {
+    padding: 7px;
+}
