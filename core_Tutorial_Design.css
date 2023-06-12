@@ -388,7 +388,7 @@ nav.navbar {
     top: 0px;
 }
 .comment-text,.post-text {
-    font-size: 15px !important;
+    font-size: 14px !important;
 }
 .fas, .far, .tag_bar > * {
     font-size: 20px;
@@ -457,15 +457,6 @@ input[type="text"] {
     display: none;
 }
 
-@font-face {
-font-family: 'fontc32626ba379322d73d001cfd9a9bf1ba';
-    
-    src:    url('https://nomail.com.ua/files/eot/c32626ba379322d73d001cfd9a9bf1ba.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/c32626ba379322d73d001cfd9a9bf1ba.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/c32626ba379322d73d001cfd9a9bf1ba.woff2') format('woff2');
-}
-
-@font-face { font-family: 'FranckerCYR-CondensedLight';  src: local('FranckerCYR-CondensedLight'), url('https://nomail.com.ua/files/woff/c32626ba379322d73d001cfd9a9bf1ba.woff') format('woff'); }
 
 
 
@@ -737,4 +728,9 @@ div#beon-fnplayer {
 
 .blog__about .text-center {
     margin-bottom: 5px;
+}
+
+div#newpostform {
+    margin: 0px !important;
+    margin-top: 25px !important;
 }
