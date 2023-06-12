@@ -713,6 +713,9 @@ div#beon-fnplayer {
 input[type="submit"] {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.textareabg input[type="submit"] {
     line-height: 2;
 }
 
