@@ -727,3 +727,7 @@ span.comments_count a,span.comments_count span::before {
 .post-opt.col-12.col-md-6 {
     padding: 0px;
 }
+
+div#beon-fnplayer {
+    margin-top: 0px !important;
+}
