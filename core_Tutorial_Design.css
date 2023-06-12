@@ -421,6 +421,10 @@ span.comments_count a {
 span.comments_count span::before {
     font-size: 16px;
 }
+a.post-title {
+    display: block;
+    width: fit-content;
+}
 }
 
 
