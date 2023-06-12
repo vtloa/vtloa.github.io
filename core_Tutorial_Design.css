@@ -738,3 +738,7 @@ div#newpostform {
 .post-text {
     padding: 7px;
 }
+
+label.menu__btn {
+    margin: 0px;
+}
