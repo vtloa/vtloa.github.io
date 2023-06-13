@@ -1416,3 +1416,11 @@ audio::-webkit-media-controls-play-button {
 .content {
     padding-bottom: 70px !important;
 }
+
+.container_music {
+    position: relative;
+}
+
+.container_music:before {
+    top: 29px;
+}
