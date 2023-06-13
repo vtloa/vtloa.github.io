@@ -1377,6 +1377,11 @@ span#notify_total {
     transition: 0.2s;
 }
 
+
+.card.mb-2.post_home:first-child .container_music .music_title, .card.mb-2.post_home:first-child .container_music audio::-webkit-media-controls-panel, .card.mb-2.post_home:first-child .container_music audio {
+    transition: 0.2s;
+}
+
 ul.pagination.justify-content-end.float-right {
     display: none;
 }
