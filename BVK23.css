@@ -1365,13 +1365,13 @@ span#notify_total {
     left: 22px;
 }
 
-.container_music:hover .music_title,
-.container_music:hover audio::-webkit-media-controls-panel {
+.card.mb-2.post_home:first-child .container_music:hover .music_title,
+.card.mb-2.post_home:first-child .container_music:hover audio::-webkit-media-controls-panel {
     background: #aeb7c21f !important;
     transition: 0.2s;
 }
 
-.container_music:hover audio {
+.card.mb-2.post_home:first-child .container_music:hover audio {
     background: #e8e8e8 !important;
     border-radius: unset !important;
     transition: 0.2s;
