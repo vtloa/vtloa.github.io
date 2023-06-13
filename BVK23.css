@@ -1257,44 +1257,7 @@ span.card-text p {
     text-align: left !important;
 }
 
-/*---------MEDIA--------*/
 
-@media (max-width: 1024px) {div#content_flex {
-    width: 824px;
-}
-td.top_menu {
-    left: -824px;
-    min-width: 155px !important;
-}
-div#lefthome {
-    min-width: 300px;
-}
-.gifts-list .p-1 {
-    min-width: unset;
-    min-height: unset;
-    width: 76px;
-    height: 76px;
-}
-.blog_leftsearch input[type="text"] {
-    left: -435px;
-}
-button#newupdates {
-    left: -155px;
-}
-.card.mb-2.post_home:first-child .container_music audio, .card.mb-2.post_home:first-child .music_title {
-    left: 55px;
-}
-.card.mb-2.post_home:first-child .music_title {
-    left: 380px;
-}
-.top_header [href="./"]:before {
-    left: -865px;
-}
-.additional_info .card-link {
-    margin-right: 0px;
-    display: inline-block;
-}
-}
 
 
 a.top_menu_item:hover,.top_header a.menu_item:hover {
@@ -1423,4 +1386,44 @@ audio::-webkit-media-controls-play-button {
 
 .container_music:before {
     top: 29px;
+}
+
+
+/*---------MEDIA--------*/
+
+@media (max-width: 1024px) {div#content_flex {
+    width: 824px;
+}
+td.top_menu {
+    left: -824px;
+    min-width: 155px !important;
+}
+div#lefthome {
+    min-width: 300px;
+}
+.gifts-list .p-1 {
+    min-width: unset;
+    min-height: unset;
+    width: 76px;
+    height: 76px;
+}
+.blog_leftsearch input[type="text"] {
+    left: -435px;
+}
+button#newupdates {
+    left: -155px;
+}
+.card.mb-2.post_home:first-child .container_music audio, .card.mb-2.post_home:first-child .music_title {
+    left: 55px;
+}
+.card.mb-2.post_home:first-child .music_title {
+    left: 380px;
+}
+.top_header [href="./"]:before {
+    left: -865px;
+}
+.additional_info .card-link {
+    margin-right: 0px;
+    display: inline-block;
+}
 }
