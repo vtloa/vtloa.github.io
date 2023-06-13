@@ -31,34 +31,6 @@ div#righthome {
     width: 200px;
     height: 200px;
 }
-/*pleer*/
-
-.card.mb-2.post_home {
-    position: unset;
-}
-div#lefthome,.card.mb-2.post_home:first-child .container_music  {
-    min-width: 300px;
-}
-.card.mb-2.post_home:first-child .container_music {
-    background: #eceeef;
-    position: absolute;
-    top: 240px;
-    left: 0;
-    text-align: center;
-    font-size: 0;
-}
-
-.card.mb-2.post_home:first-child .container_music audio {
-    max-width: 100%;
-    background: #f1f3f4;
-    height: 32px;
-    filter: brightness(0.98);
-    min-width: 100%;
-}
-
-div#content_flex {
-    position: relative;
-}
 
 
 
