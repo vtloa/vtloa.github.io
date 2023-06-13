@@ -846,6 +846,9 @@ a.nav-link {
     color: #6c7376;
 }
 
+img.photo {
+    border: unset;
+}
 
 /*---NEW шапка в моб версии-----*/
 
