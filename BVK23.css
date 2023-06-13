@@ -1462,3 +1462,7 @@ button#newupdates {
     top: 350px;
 }
 }
+
+.card.mb-2.post_home:first-child .container_music .music_title {
+    padding-left: 10px;
+}
