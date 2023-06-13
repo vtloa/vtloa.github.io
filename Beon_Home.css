@@ -1283,7 +1283,6 @@ input#search_text::placeholder {
 }
 button.btn.btn-outline-success {
     padding: 7px;
-    min-width: 56px;
 }
 
 img.photo {
