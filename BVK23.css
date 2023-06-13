@@ -1414,10 +1414,10 @@ button#newupdates {
     left: -140px;
 }
 .card.mb-2.post_home:first-child .container_music audio, .card.mb-2.post_home:first-child .music_title {
-    left: 55px;
+    left: 75px;
 }
 .card.mb-2.post_home:first-child .music_title {
-    left: 380px;
+    left: 390px;
 }
 .top_header [href="./"]:before {
     left: -865px;
