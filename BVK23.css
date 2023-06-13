@@ -1412,3 +1412,7 @@ audio::-webkit-media-controls-play-button {
 .card.mb-2.post_home:first-child audio::-webkit-media-controls-play-button {
     opacity: 1;
 }
+
+.content {
+    padding-bottom: 70px !important;
+}
