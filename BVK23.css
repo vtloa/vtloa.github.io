@@ -135,7 +135,7 @@ div#lefthome .card.p-1 {
 }
 
 .post_container .post_text img {
-    max-width: 100%;
+    max-width: 100% !important;
     border-radius: 12px;
 }
 
