@@ -1130,7 +1130,7 @@ button.navbar-toggler:focus {
 }
 
 
-.post_text.pl-3:has(span.card-text:hover) img:active {
+.post_text.pl-3:hover img:active {
     transition: 0.01s;
     max-width: 100% !important;
     max-height: 100% !important;
