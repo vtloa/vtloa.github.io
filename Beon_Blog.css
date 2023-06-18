@@ -1103,6 +1103,22 @@ button.navbar-toggler:focus {
 }
 
 
+/*---------IMG---------*/
+
+.post_container .post_text img {
+    max-width: 420px !important;
+    height: auto !important;
+    max-height: 500px !important;
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+.post_container .post_text img {
+    max-width: 100%;
+    max-width: 100% !important;
+} 
+}
+
+
 
 /*-----------ЭКСПЕРИМЕНТАЛЬНЫЙ ЗУМ КАРТИНОК ОНЛИ CSS----------*/
 
