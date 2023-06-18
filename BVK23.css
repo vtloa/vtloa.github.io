@@ -1205,18 +1205,6 @@ textarea#comment_body::placeholder {
 }
 
 
-
-.profile_comment_author [href="https://beon.vip/Satan/"]:before,
-.profile_comment_author [href="https://beon.vip/washu/"]:before{
-    font-size: 15px;
-    margin-left: -18px;
-}
-
-.profile_comment_author [href="https://beon.vip/Satan/"],
-.profile_comment_author [href="https://beon.vip/washu/"] {
-    margin-left: 18px;
-}
-
 .seBlogComments .like_button.liked:before,.like_button.liked+span {
     color: #fa2f43 !important;
 }
