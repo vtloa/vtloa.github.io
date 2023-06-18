@@ -469,7 +469,7 @@ h6.card-subtitle.mb-2.text-muted.post_date a {
 
 .post_container .post_text img {
     padding: 3px;
-    max-width: 400px;
+    max-width: 420px;
 }
 .category {
     font-size: 14px;
@@ -668,7 +668,7 @@ div#mobile_menu::-webkit-scrollbar {
 .post_container .post_text img {
     max-height: 450px;
     max-height: 450px !important;
-    max-width: 400px !important;
+    max-width: 420px !important;
 }
 
 /*-----------1024-------------*/
