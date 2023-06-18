@@ -1101,3 +1101,22 @@ button.navbar-toggler:focus {
     margin: 0px !important;
 }
 }
+
+
+
+/*-----------ЭКСПЕРИМЕНТАЛЬНЫЙ ЗУМ КАРТИНОК ОНЛИ CSS----------*/
+
+@media (min-width: 1024px) {
+
+.post_container:hover .post_text.pl-3 img {
+    transition: 0.1s;
+    transition-delay: 999s;
+}
+
+
+.post_text.pl-3:has(span.card-text:hover) img:active {
+    transition: 0.01s;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+}
