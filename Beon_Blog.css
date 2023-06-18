@@ -981,6 +981,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 /*----img----*/
 .post_container .post_text img {
     height: auto !important;
+    max-width: 420px !important;
     max-height: 500px !important;
 }
 
