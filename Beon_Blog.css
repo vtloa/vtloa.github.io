@@ -981,7 +981,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 /*----img----*/
 .post_container .post_text img {
     height: auto !important;
-    max-height: 800px !important;
+    max-height: 500px !important;
 }
 
 /*----25.05.23----*/
@@ -1108,7 +1108,7 @@ button.navbar-toggler:focus {
 .post_container .post_text img {
     max-width: 420px !important;
     height: auto !important;
-    max-height: 500px !important;
+    max-height: 800px !important;
 }
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
