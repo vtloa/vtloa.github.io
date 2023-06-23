@@ -1254,3 +1254,8 @@ ul.navbar-nav.ml-auto [href$=".beon.fun/login"], ul.navbar-nav.ml-auto [href$=".
 div#page__admincontact {
     display: none;
 }
+
+
+.left-menu a {
+    color: #e12222 !important;
+}
