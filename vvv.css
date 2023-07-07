@@ -777,11 +777,10 @@ div#designs {
 /*----УСЛОВИЕ HAS----*/
 
 .top_header:has(div#menu_main_dropdown[style="display: inline;"])~div#designs {
-    top: 170px !important;
+    top: 160px !important;
     left: 20px;
     border-radius: 0px;
 }
-
 
 .top_header:has(div#menu_main_dropdown[style="display: inline;"]) .top_menu_link.top_menu_main_link [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
     outline: 1px solid #8b8b8b !important;
@@ -873,5 +872,10 @@ div#designs {
     right: 20px !important;
     left: unset;
     top: 85px;
+}
+.top_header:has(div#menu_main_dropdown[style="display: inline;"])~div#designs {
+    top: 175px !important;
+    right: 20px !important;
+    border-radius: 0px;
 }
 }
