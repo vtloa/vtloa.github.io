@@ -690,7 +690,7 @@ div#lefthome {
 
 div#lefthome:hover {
     transform: translateY(0px);
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 
 
