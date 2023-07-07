@@ -294,6 +294,11 @@ button.btn.btn-secondary {
 }
 
 
+.post_container .post_text img, iframe {
+    margin-bottom: 3px;
+}
+
+
 /*----МЕДИА----*/
 
 @media (min-width: 1024px) {
