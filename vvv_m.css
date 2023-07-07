@@ -176,6 +176,39 @@ div#designs {
 
 
 
+/*------ДОПЫ НА ВЕСЬ ДИЗ------*/
+
+div#designs:hover {
+    transform: unset;
+}
+
+.container_music audio {
+    position: relative;
+    height: 30px;
+}
+
+audio {
+    background: #f1f3f4;
+    filter: brightness(0.5);
+}
+
+
+audio::-webkit-media-controls-panel {
+    background: transparent;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: black;
+    text-shadow: 0 0 black;
+}
+
+div#content_flex+br {
+    display: none;
+}
+
+
+
 /*----МЕДИА----*/
 
 @media (min-width: 1024px) {
