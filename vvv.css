@@ -610,7 +610,7 @@ img.menu_icon2 {
 }
 
 div.menu_item_dropdown a {
-    background: #060606 !important;
+    background: #8b8b8b !important;
 }
 
 div.menu_dropdown {
@@ -618,12 +618,12 @@ div.menu_dropdown {
 }
 
 a.menu_item {
-    color: #bd0f2c !important;
+    color: #000000 !important;
 }
 
 .top_header a.menu_item:hover {
-    background: #ee0923 !important;
-    color: black !important;
+    background: #080203 !important;
+    color: #8b8b8b !important;
 }
 
 a.top_menu_item, [href="./"] {
