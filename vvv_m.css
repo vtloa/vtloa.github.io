@@ -259,6 +259,41 @@ li.page-item+li.page-item a:before {
 }
 
 
+/*-----ДОП 3------*/
+
+.modal-content {
+    border: unset;
+    outline: 1px solid black;
+    border-radius: unset !important;
+    background: #8b8b8b;
+}
+
+
+.modal-header {
+    color: black;
+    border: unset;
+}
+
+.modal-footer {
+    border: unset;
+}
+
+
+input#comment_submit {
+    text-shadow: 0 0 transparent;
+}
+
+button.btn.btn-secondary {
+    background: #050505;
+    color: #8b8b8b !important;
+    border-radius: unset;
+}
+
+.comment_headline a {
+    font-size: 0px;
+}
+
+
 /*----МЕДИА----*/
 
 @media (min-width: 1024px) {
