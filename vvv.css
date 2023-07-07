@@ -798,7 +798,7 @@ a.top_menu_item,[href="./"],button#newupdate,button.button_down,button.btn.btn-p
     transition: 0.3s !important;
 }
 
-a.top_menu_item:hover,[href="./"]:hover,button#newupdates:hover,button.button_down:hover,button.btn.btn-primary:hover {
+.top_menu_link_container:hover a.top_menu_item,[href="./"]:hover,button#newupdates:hover,button.button_down:hover,button.btn.btn-primary:hover {
     background: #8b8b8b !important;
     outline: 1px solid #8b8b8b !important;
     animation: blood2 0.4s linear infinite;
