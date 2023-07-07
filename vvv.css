@@ -326,12 +326,13 @@ div#bbcode [src^="/images/bbcode/"] {
     outline: 3px solid #bd0f22;
 }
 
-
 .post_container .post_text img, iframe {
     filter: grayscale(1);
-    box-shadow: 0 0 50px 0px #ee09236e;
+    box-shadow: 0 0 50px 0px #b60f2b52;
     padding: 0px;
 }
+
+
 [onclick^="showpost"] {
     color: #ee0923 !important;
 }
