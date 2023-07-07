@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=PT+Sans+Narrow&family=Sofia+Sans&display=swap');
+
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+/*
+font-family: 'Manrope', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+
+font-family:'cappuccicons';
+*/
+
+
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    color: #cfcfcf;
+}
+body {
+    background: url(https://i.ibb.co/fv4CH1X/back1.png) fixed;
+    background-color: #060403;
+}
+
+.blog_user_status {
+    display: none;
+}
+
+
+h2.card-title a, .text-muted, h6.card-subtitle.mb-2.text-muted.post_date a, div#user_status, .category, .post_data a, p.card-link.post_views, .post_data, .profile_comment_links, .post_data *:before, .like_button.liked+span, .category a, .like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before,
+.music_title {
+    color: #bd0f2c !important;
+    text-shadow: 0 0 7px #3e0000b3;
+}
+
+.post_image {
+    width: 100px;
+    height: 100px;
+    background: #ff155542;
+    filter: drop-shadow(2px 4px 60px #c10000);
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.post_image img {
+    box-shadow: 0 0 50px #ff000096;
+    mix-blend-mode: lighten;
+    outline: 1px solid #ac0605;
+    outline-offset: 3px;
+}
+
+div#righthome {
+    background: url(https://i.ibb.co/SspvBPv/back2.png);
+    background-color: black;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #000000;
+    padding: 0px;
+    position: relative;
+    box-shadow: 0 0 20px #000000;
+}
+
+.card.mb-2.post_home {
+    outline-offset: 6px;
+    margin-bottom: 7px !important;
+    padding: 7px;
+}
+
+.post_text.pl-3 {
+    padding-left: 0px !important;
+}
+
+
+.like_button.liked:before {
+    text-shadow: 0 0 4px #3e0000b3;
+}
+
+.container_music audio {
+    max-width: 100%;
+}
+.show_menu.header-orange {
+    background: #bd0e2a;
+    border-radius: unset;
+    color: black;
+    font-size: 18px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border: unset !important;
+    background: #bd0e2a;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+[href="./"]:before {
+    content: '\ea26';
+    color: #180207;
+    font-size: 21px;
+    font-family: 'cappuccicons';
+}
+
+button.navbar-toggler,button.btn.btn-outline-success:before {
+    opacity: 1 !important;
+}
+div#lefthome .card {
+    border: unset;
+}
+
+div#lefthome {
+    background: url(https://i.ibb.co/Qps8ddY/123.gif) no-repeat top center / cover fixed, url(https://i.ibb.co/XsnSpNY/5555-5-1.png) center top / cover fixed;
+    image-rendering: -webkit-optimize-contrast;
+    background-color: #7d091c;
+    background-blend-mode: overlay;
+}
+
+.card-header {
+    display: none;
+}
+
+.card.mt-3.blog_leftmenu li {
+    display: block;
+}
+
+.seBlogColumnRightPadding {
+    background: #07060678;
+}
+
+div#lefthome * {
+    color: #ff1137 !important;
+    text-shadow: 0 0 5px black;
+    font-size: 15px;
+}
+
+div#lefthome img.photo {
+    filter: grayscale(1);
+}
+.gifts-list a {
+    font-size: 0px !important;
+}
+
+.gifts-list .p-1 {
+    display: none;
+}
+
+.gifts-list .p-1:first-child, .gifts-list .p-1:first-child+.p-1 {
+    display: block;
+}
+
+.gifts-list {
+    pointer-events: none;
+}
+
+div#lefthome .card.blog_gifts {
+    margin-bottom: 0px !important;
+}
+.blog_leftsearch input[type="text"] {
+    background: #070606;
+    border-radius: unset;
+    line-height: 2;
+    width: 100%;
+}
+input[type="text"]::placeholder {
+    color: #bc0f2c;
+}
+
+div#designs {
+    border-radius: 0px;
+    border: unset;
+    background-color: #8b8b8b;
+} 
+/*----МЕДИА----*/
+
+@media (min-width: 1024px) {
+  .card.mb-2.post_home {
+    outline-offset: 6px;
+    margin-bottom: 15px !important;
+    padding: 15px;
+}
+  .post_image {
+    width: 100px;
+    height: 100px;
+    background: #ff155542;
+    filter: drop-shadow(2px 4px 60px #c10000);
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.post_text.pl-3, .additional_info.pl-3 {
+    padding-left: 10px !important;
+}
+div#lefthome,.seBlogColumnRightPadding {
+    background: transparent;
+}
+}
