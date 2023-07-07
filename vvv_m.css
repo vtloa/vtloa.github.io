@@ -168,7 +168,12 @@ div#designs {
     border-radius: 0px;
     border: unset;
     background-color: #8b8b8b;
-} 
+}
+
+.group_desc {
+    display: none;
+}
+
 /*----МЕДИА----*/
 
 @media (min-width: 1024px) {
