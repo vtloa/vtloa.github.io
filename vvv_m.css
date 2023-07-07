@@ -209,6 +209,56 @@ div#content_flex+br {
 
 
 
+/*-----ДОП 2------*/
+
+ul.pagination.justify-content-end.float-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin: 0px;
+}
+
+a.page-link {
+    background: #8b8b8b;
+    border-radius: 0px !important;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px !important;
+    font-size: 0px;
+    outline: 1px solid black;
+    padding: 0px;
+    text-align: center;
+    line-height: 2;
+}
+
+a.page-link:hover {
+    background: #8b8b8b !important;
+    outline: 1px solid #8b8b8b !important;
+    animation: blood2 0.4s linear infinite;
+}
+
+@keyframes blood2 {
+  0%   {outline-offset: 0px;}
+  90%  {outline-offset: 4px;}
+}
+
+
+li.page-item a:before,li.page-item+li.page-item a:before {
+    content: '\ea55';
+    font-size: 16px;
+    color: black;
+    font-family:'cappuccicons';
+}
+
+li.page-item+li.page-item a:before {
+    content: '\ea54';
+}
+
+:focus {
+    box-shadow: unset !important;
+}
+
+
 /*----МЕДИА----*/
 
 @media (min-width: 1024px) {
