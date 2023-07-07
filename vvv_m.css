@@ -328,5 +328,53 @@ div#lefthome {
 [href="./"]:before {
     font-size: 35px;
 }
+
+/*------ЧТОБЫ АНИМАЦИЯ БЫЛА НА ДЕСКТОПЕ-------*/
+ 
+body {
+    /*главный фон*/
+    background: url(https://i.ibb.co/fv4CH1X/back1.png) fixed;
+    background-color: #060403;
+    animation: cos 130s infinite linear; /*название и время анимации в секундах*/
+    background-position: 1920px 1200px; /*полный размер картинки в пикселах*/
+}
+
+@keyframes cos {
+  0%{background-position: 0 0;}
+}
+
+
+body:after,body:before {
+    content: 'stars';
+    font-size: 0px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+body:before {
+    /*второй фон*/
+    background: url(https://i.ibb.co/SspvBPv/back2.png) fixed;
+    opacity: 0.4; /*прозрачность для того чтоб он не перекрывал первый*/
+    animation: cos2 190s infinite linear; /*название и время анимации в секундах*/
+    background-position: 1024px 1024px; /*полный размер картинки в пикселах*/
+}
+
+@keyframes cos2 {
+  0%{background-position: 0 0;}
+}
+
+body1:after {
+    /*третий фон с звездой*/
+    background: url(https://i.ibb.co/twGXc1H/back3.png) fixed;
+    animation: cos3 250s infinite linear; /*название и время анимации в секундах*/
+    background-position: -1920px -1200px; /*полный размер картинки в пикселах*/
+}
+
+@keyframes cos3 {
+  0%{background-position: 0 0;}
+}
 }
 
