@@ -869,4 +869,9 @@ div#lefthome {
     font-size: 35px;
     margin-left: 0;
 }
+div#designs {
+    right: 20px !important;
+    left: unset;
+    top: 85px;
+}
 }
