@@ -876,6 +876,7 @@ div#designs {
 .top_header:has(div#menu_main_dropdown[style="display: inline;"])~div#designs {
     top: 175px !important;
     right: 20px !important;
+    left: unset;
     border-radius: 0px;
 }
 }
