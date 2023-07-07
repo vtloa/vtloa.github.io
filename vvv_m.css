@@ -199,6 +199,9 @@ div#designs {
 .seBlogColumnRightPadding {
     background: transparent;
 }
+div#lefthome {
+    background: #070606cc;
+}
 [href="./"]:before {
     font-size: 35px;
 }
