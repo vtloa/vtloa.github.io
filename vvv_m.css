@@ -479,4 +479,11 @@ table.body {
     padding: 10px !important;
     padding-top: 70px !important;
 }
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: #bd0e2abf;
+    backdrop-filter: blur(2px);
+}
+.show_menu.header-orange {
+    background: #bd0e2abf;
+}
 }
