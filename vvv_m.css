@@ -508,3 +508,11 @@ textarea#comment_body {
     color: black !important;
     text-shadow: 0 0 transparent;
 }
+
+
+/*----задержка для выпадашек меню----*/
+
+.top_menu_link:hover div.menu_dropdown {
+    transition: 0.1s !important;
+    transition-delay: 0.2s !important;
+}
