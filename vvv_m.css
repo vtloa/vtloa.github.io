@@ -427,3 +427,21 @@ textarea#comment_body::placeholder {
 .copyright {
     display: none;
 }
+
+[src="/images/verify.png"] {
+    filter: grayscale(1);
+}
+
+
+blockquote.blockquote {
+    color: #8b8b8b !important;
+    border-color: #8b8b8b;
+    padding: 0px;
+    line-height: 1;
+    padding-left: 10px;
+}
+
+blockquote.blockquote a {
+    font-size: 12px;
+    color: #8b8b8b !important;
+}
