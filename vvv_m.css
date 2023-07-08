@@ -402,3 +402,20 @@ input#comment_submit {
     color: black !important;
     border-radius: unset;
 }
+
+
+div#mobile_menu, div#mobile_menu a {
+    background: #060606 !important;
+    color: #bd0f2c !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div#mobile_menu button.btn.btn-primary {
+    border: unset;
+    padding: 7px;
+    background: #bd0e2a;
+    color: #060606;
+}
