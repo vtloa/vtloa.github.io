@@ -496,3 +496,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     background: #bd0e2abf;
 }
 }
+
+
+textarea#comment_body {
+    background: #bd0f22;
+    border: unset;
+    border-radius: unset;
+    color: black !important;
+    text-shadow: 0 0 transparent;
+}
