@@ -469,6 +469,10 @@ blockquote.blockquote a {
     outline: 3px solid #bd0f22;
 }
 
+.modal-content a {
+    color: #050505;
+}
+
 /*---НАВИГАЦИЯ---*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px){
