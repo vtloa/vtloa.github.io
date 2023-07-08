@@ -472,4 +472,11 @@ ul.pagination.justify-content-end.float-right {
     bottom: 5px;
     left: -10px;
 }
+.content {
+    padding: 0px !important;
+}
+table.body {
+    padding: 10px !important;
+    padding-top: 70px !important;
+}
 }
