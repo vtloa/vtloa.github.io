@@ -419,3 +419,8 @@ div#mobile_menu button.btn.btn-primary {
     background: #bd0e2a;
     color: #060606;
 }
+
+textarea#comment_body::placeholder {
+    color: #00000061;
+    text-shadow: 0 0 7px #e9000000;
+}
