@@ -460,3 +460,13 @@ blockquote.blockquote a {
     color: #ee0923 !important;
 }
 
+
+/*---НАВИГАЦИЯ---*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px){
+ul.pagination.justify-content-end.float-right {
+    right: unset;
+    bottom: 5px;
+    left: -10px;
+}
+}
