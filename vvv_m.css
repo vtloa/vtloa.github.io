@@ -385,3 +385,20 @@ body1:after {
     text-shadow: 0 0 7px #000000;
     font-size: 15px;
 }
+
+.comment_headline, .profile_postcomment {
+    border: unset !important;
+}
+
+textarea#comment_body {
+    background: #bd0f22;
+    border: unset;
+    border-radius: unset;
+    color: black;
+}
+
+input#comment_submit {
+    background: #bd0f22;
+    color: black !important;
+    border-radius: unset;
+}
