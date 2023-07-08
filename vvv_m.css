@@ -460,6 +460,9 @@ blockquote.blockquote a {
     color: #ee0923 !important;
 }
 
+.post_text.pl-3 a {
+    color: #8b8b8b;
+}
 
 /*---НАВИГАЦИЯ---*/
 
