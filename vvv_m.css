@@ -378,3 +378,10 @@ body1:after {
 }
 }
 
+
+
+.post_text.pl-3, .seBlogComments * {
+    color: #ec1438 !important;
+    text-shadow: 0 0 7px #000000;
+    font-size: 15px;
+}
