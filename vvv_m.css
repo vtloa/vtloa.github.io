@@ -464,6 +464,11 @@ blockquote.blockquote a {
     color: #8b8b8b;
 }
 
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #bd0f22;
+}
+
 /*---НАВИГАЦИЯ---*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px){
