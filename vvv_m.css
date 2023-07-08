@@ -459,3 +459,13 @@ blockquote.blockquote a {
 [onclick^="showpost"] {
     color: #ee0923 !important;
 }
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px)
+div#designs {
+    width: 30px;
+    height: 30px !important;
+    background-size: 20px;
+    bottom: 20px !important;
+    left: 20px;
+}
