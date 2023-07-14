@@ -299,6 +299,10 @@ button.btn.btn-secondary {
 }
 
 
+.additional_info.pl-3 {
+    padding-left: 0px !important;
+}
+
 /*----МЕДИА----*/
 
 @media (min-width: 1024px) {
@@ -455,9 +459,7 @@ blockquote.blockquote a {
     padding: 0px;
 }
 
-.additional_info.pl-3 {
-    padding-left: 0px !important;
-}
+
 
 [onclick^="showpost"] {
     color: #ee0923 !important;
