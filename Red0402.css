@@ -744,6 +744,7 @@ label.menu__btn {
 
 .blog__about [href="/design/disable"]:before {
     content: '\ebc3';
+    color: #ebecf1;
 }
 
 .blog__about [href="/p"]:before {
