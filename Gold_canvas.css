@@ -899,5 +899,9 @@ button.btn.btn-primary.btn-block.btn-post:before {
 }
 
 .top_header {
-    box-shadow: 0 0 7px #8d672f30 !important;
+    box-shadow: 0 0 7px #54535130 !important;
+}
+
+span#notify_total,a.top_menu_item,a.page-link {
+    box-shadow: 0 0 3px #836c32;
 }
