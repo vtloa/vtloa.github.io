@@ -491,6 +491,15 @@ div#bbcode [src^="/images/bbcode/"] {
     border-radius: 5px;
     line-height: 2;
     background: #fbfbfb;
+    width: 100%;
+}
+
+.blog_leftsearch {
+    display: block;
+}
+
+input[type="text"]::placeholder {
+    color: #555145;
 }
 
 
