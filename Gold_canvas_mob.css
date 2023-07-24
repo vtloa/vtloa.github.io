@@ -372,6 +372,11 @@ span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_m
     box-shadow: 0 0 3px #d1a369;
 }
 
+blockquote.blockquote {
+    color: #75571b;
+    border-color: #856525;
+}
+
 /*------------------------------МЕДИА----------------------------*/
 
 /*------------------------------МЕДИА----------------------------*/
