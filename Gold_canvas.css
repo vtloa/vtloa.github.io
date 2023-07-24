@@ -943,3 +943,8 @@ div#designs {
 li.page-item:only-child a:before {
     content: '\e921' !important;
 }
+
+
+div#bbcode {
+    width: calc(100% - 175px);
+}
