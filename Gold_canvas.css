@@ -807,19 +807,19 @@ ul.pagination.justify-content-end.float-right {
 a.page-link {
     background: #fbfbfb;
     border-radius: 3px !important;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin-left: 15px !important;
     font-size: 0px;
     padding: 0px;
     text-align: center;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 
 li.page-item a:before, li.page-item+li.page-item a:before {
     content: '\e920';
-    font-size: 16px;
+    font-size: 20px;
     color: #836c32;
     font-family: 'cappuccicons';
 }
