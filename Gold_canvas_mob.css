@@ -479,6 +479,11 @@ div#designs {
     backdrop-filter: unset;
     background: #ffffffe8;
 }
+span#notify_total {
+    background: #7a6f51;
+    min-width: 20px;
+    box-shadow: unset;
+}
 }
 
 
