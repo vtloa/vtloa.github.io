@@ -1,0 +1,96 @@
+@import url('https://vtloa.github.io/Gold_canvas_mob.css');
+
+td.profile_photo,td.header, .page_header,td.profile,.profile_content,div.profile_action,
+.browse_friends_result,.profile_blogentry,.profile_blogentry+div {
+    border: unset !important;
+}
+
+td.profile_rightside a:hover,
+td.profile_leftside a:hover {
+    color: #75571b !important;
+}
+
+td.profile_tab2 a:hover, td.profile_tab a:hover {
+    background: #836c32 !important;
+    color: #fbfbfb !important;
+}
+
+
+td.profile_tab2 a,
+td.profile_menu1 a, div.nolink {
+    background: url(https://i.ibb.co/hVf6gjB/gold-static.gif) center bottom !important;
+    background-color: #a68c66 !important;
+    background-blend-mode: soft-light;
+}
+
+
+
+td.profile_tab a {
+    background: #fbfbfb !important;
+    color: #2a2925 !important;
+}
+
+.gifts-list {
+    font-size: 14px;
+}
+
+[src="/images/verify.png"] {
+    width: 16px !important;
+}
+
+.gifts-list {
+    margin: 0px;
+}
+
+.gifts-list {
+    background: transparent;
+}
+
+/*------------------------------МЕДИА----------------------------*/
+
+/*------------------------------МЕДИА----------------------------*/
+
+/*------------------------------МЕДИА----------------------------*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+td.profile_leftside {
+    padding: 10px !important;
+    border-radius: 5px;
+}
+td.profile_leftside {
+    background: #fbfbfb url(https://www.transparenttextures.com/patterns/arches.png) fixed;
+    padding: 0px;
+    max-width: 750px;
+    margin-left: unset !important;
+    margin-right: auto !important;
+}
+  
+/*-----ИЗМЕНЕНИЕ КНОПОК В МОБИЛЬНОЙ ВЕРСИИ------*/
+
+script+[cellpadding="0"] tbody tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td.profile_tab a, td.profile_tab2 a {
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0 0 6px #cccccc8a;
+}
+
+td.profile_tab2 a {
+    margin-bottom: 10px !important;
+}
+
+td#profile_tabs_comments a {
+    font-size: 14px;
+}
+
+td#profile_tabs_comments a:before {
+    content: '';
+}
+  td.profile_tab2 a:hover, td.profile_tab a:hover {
+    padding: 4px !important;
+}
+}
