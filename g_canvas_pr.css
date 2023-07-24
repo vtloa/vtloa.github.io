@@ -1,0 +1,93 @@
+@import url('https://vtloa.github.io/Gold_canvas_HUB.css');
+@import url('https://vtloa.github.io/Gold_canvas_HUB_m.css');
+
+.page_header+table tr:not(div#profile_profile tr,td.profile_leftside tr,script+table[cellpadding="0"] tr,.profile_blogentry tr,div#profile_album tr) {
+    display: flex;
+    width: 70%;
+    flex-direction: row-reverse;
+    max-width: 1024px;
+    margin-left: 30%;
+}
+
+
+td.profile_leftside1 {
+    width: 32%;
+}
+
+img.photo {
+    border: unset !important;
+}
+
+td.profile_photo,td.header, .page_header,td.profile,.profile_content,div.profile_action,
+.browse_friends_result,.profile_blogentry,.profile_blogentry+div {
+    border: unset !important;
+}
+
+img.icon {
+    display: none;
+}
+
+td.profile_rightside {
+    background: #fbfbfb url(https://www.transparenttextures.com/patterns/arches.png) fixed;
+    padding: 0px;
+    max-width: 750px;
+    margin-left: unset !important;
+    margin-right: auto !important;
+}
+
+
+td.profile_rightside {
+    min-height: 100vh;
+    padding: 20px !important;
+}
+
+td.profile_rightside a:hover,
+td.profile_leftside a:hover {
+    color: #75571b !important;
+}
+
+td.profile_tab2 a:hover, td.profile_tab a:hover {
+    background: #836c32 !important;
+    color: #fbfbfb !important;
+}
+
+
+td.profile_tab2 a,
+td.profile_menu1 a, div.nolink {
+    background: url(https://i.ibb.co/hVf6gjB/gold-static.gif) center bottom !important;
+    background-color: #a68c66 !important;
+    background-blend-mode: soft-light;
+}
+
+
+td.profile_tab2 a:hover,
+td.profile_menu1 a:hover, div.nolink:hover {
+    background: url(https://i.ibb.co/w0cN3B8/gold.gif) center bottom !important;
+    background-color: #a68c66 !important;
+    background-blend-mode: soft-light;
+}
+
+
+td.profile_tab a {
+    background: #fbfbfb !important;
+    color: #2a2925 !important;
+}
+
+
+
+
+.gifts-list {
+    font-size: 14px;
+}
+
+[src="/images/verify.png"] {
+    width: 16px !important;
+}
+
+.gifts-list {
+    margin: 0px;
+}
+
+.gifts-list {
+    background: transparent;
+}
