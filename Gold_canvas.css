@@ -924,7 +924,7 @@ span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_m
     height: 35px !important;
     display: block !important;
     background: url(https://www.svgrepo.com/show/510001/home.svg) no-repeat center / 25px;
-    filter: invert(1) sepia(1) brightness(0.4) saturate(6) hue-rotate(-15deg);
+    filter: invert(1) sepia(1) brightness(0.45) saturate(6) hue-rotate(-15deg);
 }
 
 
