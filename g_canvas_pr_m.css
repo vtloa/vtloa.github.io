@@ -98,4 +98,9 @@ td#profile_tabs_comments a:before {
   td.profile_tab2 a:hover, td.profile_tab a:hover {
     padding: 4px !important;
 }
+span#notify_total {
+    background: #7a6f51;
+    min-width: 20px;
+    box-shadow: unset;
+}
 }
