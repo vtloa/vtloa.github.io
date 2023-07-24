@@ -470,6 +470,11 @@ a.page-link,div#designs {
 ul.seBlogCategoryList {
     text-align: center;
 }
+div#designs {
+    background-color: #826b33;
+    border: unset;
+    opacity: 0.8;
+}
 }
 
 
