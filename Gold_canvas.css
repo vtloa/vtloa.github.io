@@ -800,7 +800,7 @@ input#comment_submit:hover,button.btn.btn-secondary:hover {
 ul.pagination.justify-content-end.float-right {
     position: fixed;
     bottom: 20px;
-    left: 45px;
+    right: 45px;
     margin: 0px;
 }
 
@@ -903,7 +903,6 @@ button.btn.btn-primary.btn-block.btn-post:before {
 }
 
 span#notify_total,
-[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"],
-a.page-link {
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
     box-shadow: 0 0 3px #836c32;
 }
