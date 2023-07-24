@@ -1,2 +1,2 @@
-@import url('https://vtloa.github.io/Gold_canvas_HUB.css');
-@import url('https://vtloa.github.io/Gold_canvas_HUB_m.css')
+@import url('https://vtloa.github.io/g_canvas_pr_hub.css');
+@import url('https://vtloa.github.io/g_canvas_pr_hub_m.css')
