@@ -467,6 +467,9 @@ div#mobile_photo1+div {
 a.page-link,div#designs {
     box-shadow: 0 0 5px #8d784363;
 }
+ul.seBlogCategoryList {
+    text-align: center;
+}
 }
 
 
