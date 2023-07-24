@@ -260,7 +260,7 @@ button.navbar-toggler, button.navbar-toggler:hover {
 }
 
 
-.show_menu.header-orange, div#righthome {
+.show_menu.header-orange {
     box-shadow: 0 0 11px #53492e;
 }
 
@@ -439,7 +439,10 @@ div#mobile_menu {
     z-index: 3333333;
 }
 
-  
+div#righthome {
+    box-shadow: 0 0 11px #53492e;
+} 
+ 
 /*-----МИНИ ШАПКА В МЕНЮ-------*/
   
 
