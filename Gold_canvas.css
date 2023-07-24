@@ -818,7 +818,7 @@ a.page-link {
 
 
 li.page-item a:before, li.page-item+li.page-item a:before {
-    content: '\ea55';
+    content: '\e920';
     font-size: 16px;
     color: #836c32;
     font-family: 'cappuccicons';
@@ -826,7 +826,7 @@ li.page-item a:before, li.page-item+li.page-item a:before {
 
 
 li.page-item+li.page-item a:before {
-    content: '\ea54';
+    content: '\e921';
 }
 
 :focus {
