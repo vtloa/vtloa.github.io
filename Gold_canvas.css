@@ -608,7 +608,7 @@ a.top_menu_item:before, [href="./"]:before {
 }
 
 [href="./"]:before {
-    content: '\eb26';
+    content: '\eb0e';
 }
 
 
@@ -905,4 +905,16 @@ button.btn.btn-primary.btn-block.btn-post:before {
 span#notify_total,
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
     box-shadow: 0 0 3px #836c32;
+}
+
+
+/*----НОВАЯ ИКОНКА ПРОФИЛЯ----*/
+
+[onmouseover="showMenu('menu_dropdown_profile');"]:before {
+    content: '' !important;
+    width: 35px !important;
+    height: 35px !important;
+    display: block !important;
+    background: url(https://www.svgrepo.com/show/474643/user.svg) no-repeat center / 25px;
+    filter: invert(1) sepia(1) brightness(0.4) saturate(4) hue-rotate(-15deg);
 }
