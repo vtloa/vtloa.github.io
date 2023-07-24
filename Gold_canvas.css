@@ -902,9 +902,8 @@ button.btn.btn-primary.btn-block.btn-post:before {
     box-shadow: 0 0 7px #54535130 !important;
 }
 
-span#notify_total,
-[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
-    box-shadow: 0 0 3px #836c32;
+span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"], a.page-link {
+    box-shadow: 0 0 3px #d1a369;
 }
 
 
