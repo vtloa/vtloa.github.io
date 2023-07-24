@@ -475,6 +475,10 @@ div#designs {
     border: unset;
     opacity: 0.8;
 }
+.card.mt-3.blog_leftmenu li.p-1 a {
+    backdrop-filter: unset;
+    background: #ffffffe8;
+}
 }
 
 
