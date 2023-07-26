@@ -656,7 +656,186 @@ span.card-text img {
     padding: 2px;
 }
 
-
 .content {
     margin-top: 80px;
 }
+
+
+
+
+
+
+/*----ДОПЫ----*/
+
+/*----НЕ ВЛИЯЕТ НА ДЕСКТОП ИЛИ ОБЩЕЕ С НИМ----*/
+
+:focus {
+    box-shadow: unset !important;
+    outline: unset !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: url(https://www.transparenttextures.com/patterns/groovepaper.png) !important;
+    background-color: #937958 !important;
+    border: unset !important;
+}
+
+
+.show_menu.header-orange {
+    border-radius: unset;
+    background: url(https://www.transparenttextures.com/patterns/groovepaper.png) !important;
+    background-color: #937958 !important;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+a.top_menu_item:before, [href="./"]:before {
+    color: #2f271c;
+}
+
+[src="/images/notify.svg"] {
+    opacity: 0.7;
+}
+
+.modal-content {
+    border: unset;
+    border-radius: unset;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+.modal-header {
+    display: none;
+}
+
+
+.modal-content a {
+    color: #e8e6e3;
+}
+.modal-content {
+    background-color: #151315;
+    color: #e8e6e3;
+}
+
+button.btn.btn-secondary,div#mobile_menu button.btn.btn-primary {
+    background: url(https://www.transparenttextures.com/patterns/groovepaper.png) !important;
+    background-color: #937958 !important;
+    color: black;
+    border-radius: unset;
+}
+
+
+div.profile_comment_body {
+    color: #151315;
+}
+
+div#mobile_menu button.btn.btn-primary {
+    font-family: 'Victor Mono', monospace,'Noto Serif SC', serif;
+    color: black !important;
+    line-height: normal !important;
+    height: auto;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent !important;
+    color: #bb9666 !important;
+}
+
+.portal_spacer {
+    display: none;
+}
+
+div#mobile_menu {
+    background: url(https://i.ibb.co/LQ5Ljgj/blade-2-b.png) no-repeat left -145px top;
+    background-size: cover;
+    background-color: #151315;
+    background-blend-mode: color-burn;
+    color: #bb9666;
+}
+
+
+
+/*----ТОЛЬКО ДЛЯ СМАРТОВ-----*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+
+  div#righthome:before,div#righthome:after,div#mobile_menu button.btn.btn-primary:before {
+    display: none;
+}
+  .content {
+    width: 100% !important;
+    margin: auto;
+}
+  div#righthome {
+    max-width: 100%;
+    margin: auto;
+}
+ .post_data {
+    justify-content: space-between;
+}
+  [href="./"] {
+    position: unset;
+}
+  button#newupdates, button.btn.btn-primary, button.button_down {
+    position: unset;
+}
+  [src="/images/notify.svg"] {
+    width: 30px;
+}
+  [href="./"]:before {
+    font-size: 30px;
+}
+  button.navbar-toggler, button.navbar-toggler:hover,
+  button.navbar-toggler, button.navbar-toggler:hover {
+    background: url(https://www.svgrepo.com/show/473880/menu-hamburger.svg) no-repeat center / 32px !important;
+    opacity: 0.7;
+}
+  button.btn.btn-outline-success:before,
+  button.btn.btn-outline-success:hover:before {
+    background: url(https://www.svgrepo.com/show/368655/down-small.svg) no-repeat center / 38px;
+    opacity: 0.7;
+}
+
+  .seBlogColumnRightPadding {
+    position: unset;
+}
+  div#content_flex {
+    flex-direction: column;
+}
+  li.p-1, ul.seBlogCategoryList a,
+  li.p-1:hover, ul.seBlogCategoryList a:hover {
+    background: #151315e3;
+    color: #e8e6e3 !important;
+    display: block;
+    padding: 4px !important;
+}
+  li.p-1 a, ul.seBlogCategoryList a {
+    color: #e8e6e3 !important;
+}
+span#notify_total {
+    position: unset;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    margin: 0px;
+    background: #2e271e;
+    outline: unset;
+    color: #977e60;
+    border-radius: 20px;
+}
+  button#newupdates {
+    width: auto;
+}
+  .seBlogComments {
+    padding: 0px;
+}
+  .seBlogComments div[id^="comment"]:not(.comment_headline div) {
+    padding: 10px;
+}
+}
+
