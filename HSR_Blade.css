@@ -305,10 +305,6 @@ div#lefthome .blog_leftsearch .card-body {
 }
 
 
-.card.blog_categories:hover {
-    color: #977e60 !important;
-}
-
 
 /*-----ШАПКА-----*/
 
@@ -1002,5 +998,9 @@ input#comment_submit:hover {
 }
 
 .card.blog_categories:hover a {
+    color: #9b8468 !important;
+}
+
+.card.blog_categories:hover ul.seBlogCategoryList {
     color: #9b8468 !important;
 }
