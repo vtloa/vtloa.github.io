@@ -267,8 +267,8 @@ ul.seBlogCategoryList a {
 
 
 li.p-1:hover, ul.seBlogCategoryList a:hover {
-    background: #151315;
-    color: #e8e6e3 !important;
+    background: #586281 !important;
+    color: #e3e3e3 !important;
     display: block;
     padding-left: 15px;
 }
