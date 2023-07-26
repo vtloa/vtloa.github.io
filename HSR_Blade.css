@@ -964,6 +964,14 @@ span#notify_total {
 }
 
 
+
+
+/*---------ЧТО ТО ОСТАТНЕЕ----------*/
+
+.card.mt-3.blog_leftmenu li.p-1 a {
+    display: block;
+}
+
 button.navbar-toggler,button.btn.btn-outline-success.mr-1.mobile_button,button.btn.btn-outline-success {
     border: unset;
 }
