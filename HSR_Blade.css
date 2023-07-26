@@ -1009,3 +1009,9 @@ input#comment_submit:hover {
 ul.pagination.justify-content-end.float-right {
     display: none;
 }
+
+div#designs {
+    border-radius: unset;
+    background-color: #937958;
+    border: unset;
+}
