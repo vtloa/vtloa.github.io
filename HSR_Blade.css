@@ -975,4 +975,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href="./"] {
     position: unset;
 }
+.seBlogComments a {
+    color: #e8e6e3;
+}
 
+[src="/images/verify.png"] {
+    filter: grayscale(1);
+}
