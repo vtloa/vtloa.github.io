@@ -834,9 +834,6 @@ ul.seBlogCategoryList {
     display: none;
 }
 
-.card.blog_categories {
-    display: none;
-}
 
 .card.mt-3.blog_leftmenu {
     text-align: right;
