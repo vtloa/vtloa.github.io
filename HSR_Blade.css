@@ -764,6 +764,9 @@ button.btn.btn-primary:before {
     font-size: 35px;
 }
 
+span.card-text {
+    text-align: center;
+}
 
 
 /*----ТОЛЬКО ДЛЯ СМАРТОВ-----*/
