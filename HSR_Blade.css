@@ -606,8 +606,11 @@ div#menu_main_dropdown {
     border: unset;
 }
 
+
 [src="/images/button_down.svg"] {
     filter: invert(1);
+    width: 30px;
+    opacity: 0.7;
 }
 
 
