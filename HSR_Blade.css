@@ -993,3 +993,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href
 [src="/images/verify.png"] {
     filter: grayscale(1);
 }
+
+input#comment_submit:hover {
+    background: url(https://www.transparenttextures.com/patterns/groovepaper.png) !important;
+    background-color: #937958 !important;
+    opacity: 0.5;
+}
