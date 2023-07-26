@@ -1,3 +1,5 @@
+@import url('https://vtloa.github.io/HSR_Blade1.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Noto+Sans+Cypro+Minoan&family=Noto+Serif+SC:wght@300&family=Roboto+Condensed&family=Victor+Mono&display=swap');
 
 
@@ -256,19 +258,57 @@ li.p-1 {
     transition: 0.3s;
 }
 
-li.p-1:hover a, ul.seBlogCategoryList a:hover {
+li.p-1:hover a{
     color: #e2e0de !important;
 }
 
-li.p-1 a, ul.seBlogCategoryList a {
+li.p-1 a {
     transition: 0.2s;
 }
 
-li.p-1:hover, ul.seBlogCategoryList a:hover {
+li.p-1:hover {
     background: #586281 !important;
     color: #e3e3e3 !important;
     display: block;
     padding-left: 15px;
+}
+
+ul.seBlogCategoryList a:hover {
+    color: #cc1c21 !important;
+}
+
+div#lefthome .card {
+    border-radius: unset !important;
+}
+
+div#lefthome .card-body {
+    padding: 6px !important;
+}
+
+div#lefthome .blog_leftsearch .card-body {
+    padding: 5px !important;
+}
+
+.card.blog_categories:hover {
+    max-height: 700px;
+    transition: 0.3s;
+}
+.card.blog_categories {
+    max-height: 33px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.card.blog_categories:hover .card-body {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png) !important;
+    background-color: #151315 !important;
+}
+
+
+ul.seBlogCategoryList:hover,
+ul.seBlogCategoryList:hover a{
+    color: #977e60 !important;
 }
 
 
@@ -374,7 +414,7 @@ div#menu_main_dropdown>div {
     left: 20px;
 }
 
-button#newupdates, button.btn.btn-primary, button.button_down {
+b.top_header utton#newupdates, .top_header button.btn.btn-primary, .top_header button.button_down {
     background: transparent !important;
     position: absolute;
     bottom: 20px;
@@ -388,13 +428,13 @@ button#newupdates, button.btn.btn-primary, button.button_down {
     border-radius: 0px;
 }
 
-button.btn.btn-primary {
+.top_header button.btn.btn-primary {
     right: 80px;
     font-size: 0px;
     line-height: normal;
 }
 
-button.btn.btn-primary:before {
+.top_header button.btn.btn-primary:before {
     content: '\e97b';
     color: #180207;
     font-size: 35px;
@@ -424,11 +464,11 @@ button#newupdates {
 }
 
 
-a.top_menu_item {
+.top_header a.top_menu_item {
     font-size: 0px !important;
 }
 
-a.top_menu_item:before,[href="./"]:before {
+.top_header a.top_menu_item:before, [href="./"]:before {
     content: '\ea26';
     color: #180207;
     font-size: 35px;
@@ -663,8 +703,6 @@ span.card-text img {
 
 
 
-
-
 /*----ДОПЫ----*/
 
 /*----НЕ ВЛИЯЕТ НА ДЕСКТОП ИЛИ ОБЩЕЕ С НИМ----*/
@@ -756,7 +794,7 @@ div#mobile_menu {
     color: #bb9666;
 }
 
-button.btn.btn-primary:before {
+.top_header button.btn.btn-primary:before {
     content: '\e97b';
     color: #2f271c;
     font-size: 35px;
@@ -765,8 +803,6 @@ button.btn.btn-primary:before {
 span.card-text {
     text-align: center;
 }
-
-
 
 
 
@@ -889,12 +925,12 @@ ul.seBlogCategoryList {
   div#content_flex {
     flex-direction: column;
 }
-  li.p-1, ul.seBlogCategoryList a,
-  li.p-1:hover, ul.seBlogCategoryList a:hover {
+  li.p-1, ul.seBlogCategoryList a, li.p-1:hover, ul.seBlogCategoryList a:hover {
     background: #151315e3;
     color: #e8e6e3 !important;
     display: block;
-    padding: 4px !important;
+    padding-left: 7px;
+    padding-right: 7px;
 }
   li.p-1 a, ul.seBlogCategoryList a {
     color: #e8e6e3 !important;
@@ -922,3 +958,20 @@ span#notify_total {
     padding: 10px;
 }
 }
+
+
+button.navbar-toggler,button.btn.btn-outline-success.mr-1.mobile_button,button.btn.btn-outline-success {
+    border: unset;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu a {
+    color: #2d251c;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href="./"]:before {
+    font-size: 30px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href="./"] {
+    position: unset;
+}
+
