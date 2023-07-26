@@ -915,3 +915,9 @@ span#notify_total {
 }
 }
 
+
+
+
+.card.blog_categories {
+    display: none;
+}
