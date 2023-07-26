@@ -834,6 +834,17 @@ ul.seBlogCategoryList {
     display: none;
 }
 
+.card.blog_categories {
+    display: none;
+}
+
+.card.mt-3.blog_leftmenu {
+    text-align: right;
+}
+
+
+
+
 /*----ТОЛЬКО ДЛЯ СМАРТОВ-----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
@@ -913,11 +924,4 @@ span#notify_total {
   .seBlogComments div[id^="comment"]:not(.comment_headline div) {
     padding: 10px;
 }
-}
-
-
-
-
-.card.blog_categories {
-    display: none;
 }
