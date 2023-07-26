@@ -756,6 +756,12 @@ div#mobile_menu {
     color: #bb9666;
 }
 
+button.btn.btn-primary:before {
+    content: '\e97b';
+    color: #2f271c;
+    font-size: 35px;
+}
+
 
 
 /*----ТОЛЬКО ДЛЯ СМАРТОВ-----*/
