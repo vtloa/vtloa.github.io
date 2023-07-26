@@ -305,7 +305,7 @@ div#lefthome .blog_leftsearch .card-body {
 }
 
 
-ul.seBlogCategoryList:hover {
+.card.blog_categories:hover {
     color: #977e60 !important;
 }
 
@@ -1001,6 +1001,6 @@ input#comment_submit:hover {
     color: #e3e3e3 !important;
 }
 
-ul.seBlogCategoryList:hover a {
+.card.blog_categories:hover a {
     color: #9b8468 !important;
 }
