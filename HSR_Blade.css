@@ -769,6 +769,71 @@ span.card-text {
 }
 
 
+
+
+
+span#notify_total {
+    background: #d81d23;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    color: #151315;
+}
+
+
+audio {
+    height: 50px;
+}
+audio::-webkit-media-controls-panel {
+    background: #e8e6e3;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    text-shadow: 0 0 #2a2925;
+    color: #2a2925;
+}
+
+.copyright {
+    display: none;
+}
+
+div#content_flex+br {
+    display: none;
+}
+
+
+/*----РАЗМЕР АУДИО----*/
+
+.container_music audio {
+    width: 100% !important;
+    max-width: 100%;
+    min-width: 250px;
+}
+
+/*----КОНТЕЙНЕР----*/
+
+.container_music {
+    width: fit-content;
+    margin: auto;
+}
+
+.music_title {
+    color: #151315;
+    margin-top: 10px !important;
+}
+
+ul.seBlogCategoryList a:hover {
+    display: unset;
+    padding: unset;
+}
+
+ul.seBlogCategoryList {
+    color: black;
+}
+
+
 /*----ТОЛЬКО ДЛЯ СМАРТОВ-----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
