@@ -832,7 +832,9 @@ ul.seBlogCategoryList a:hover {
 ul.seBlogCategoryList {
     color: black;
 }
-
+.gifts-list {
+    display: none;
+}
 
 /*----ТОЛЬКО ДЛЯ СМАРТОВ-----*/
 
