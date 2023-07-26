@@ -1000,3 +1000,7 @@ input#comment_submit:hover {
     background: #586281 !important;
     color: #e3e3e3 !important;
 }
+
+ul.seBlogCategoryList:hover a {
+    color: #9b8468 !important;
+}
