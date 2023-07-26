@@ -469,7 +469,7 @@ button#newupdates {
 
 .top_header a.top_menu_item:before, [href="./"]:before {
     content: '\ea26';
-    color: #180207;
+    color: #2f271c;
     font-size: 35px;
 }
 
