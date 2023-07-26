@@ -252,14 +252,14 @@ span.category_post,h6.card-subtitle.mb-2.text-muted.post_date {
     justify-content: center;
 }
 
-
 li.p-1 {
     transition: 0.3s;
 }
-li.p-1:hover a,
-ul.seBlogCategoryList a:hover {
-    color: #e8e6e3 !important;
+
+li.p-1:hover a, ul.seBlogCategoryList a:hover {
+    color: #d2b187 !important;
 }
+
 li.p-1 a,
 ul.seBlogCategoryList a {
     transition: 0.2s;
