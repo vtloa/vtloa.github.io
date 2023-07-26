@@ -1004,3 +1004,8 @@ input#comment_submit:hover {
 .card.blog_categories:hover ul.seBlogCategoryList {
     color: #9b8468 !important;
 }
+
+
+ul.pagination.justify-content-end.float-right {
+    display: none;
+}
