@@ -306,8 +306,7 @@ div#lefthome .blog_leftsearch .card-body {
 }
 
 
-ul.seBlogCategoryList:hover,
-ul.seBlogCategoryList:hover a{
+ul.seBlogCategoryList:hover {
     color: #977e60 !important;
 }
 
