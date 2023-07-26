@@ -685,7 +685,11 @@ input#comment_submit {
 textarea#comment_body {
     border: unset;
     border-radius: unset;
-    background: #e8e6e3;
+    background: #937958;
+}
+
+textarea#comment_body::placeholder {
+    color: transparent;
 }
 
 div#bbcode [src^="/images/bbcode/"] {
