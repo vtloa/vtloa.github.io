@@ -558,11 +558,13 @@ span#notify_total {
     bottom: 0px;
     line-height: 2;
     font-size: 20px;
-    background: black;
-    outline: 1px solid black;
-    color: #ee0923;
+    background: transparent;
+    outline: unset;
+    color: #2f271c;
     font-family: 'Sofia Sans', sans-serif;
 }
+
+
 div#menu_main_dropdown {
     border: unset;
 }
