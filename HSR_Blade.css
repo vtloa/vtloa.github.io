@@ -670,7 +670,8 @@ div.profile_comment_body {
     color: #937958;
 }
 
-[onclick^="subscribe"]:before {
+[onclick^="subscribe"]:before,
+[onclick^="unsubscribe"]:before {
     color: #937958;
 }
 
