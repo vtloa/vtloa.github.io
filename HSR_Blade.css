@@ -685,7 +685,7 @@ input#comment_submit {
 textarea#comment_body {
     border: unset;
     border-radius: unset;
-    background: #937958;
+    background: #e8e6e3;
 }
 
 textarea#comment_body::placeholder {
