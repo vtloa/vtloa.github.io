@@ -286,7 +286,7 @@ div#lefthome .card-body {
 }
 
 div#lefthome .blog_leftsearch .card-body {
-    padding: 5px !important;
+    padding: 3.5px !important;
 }
 
 .card.blog_categories:hover {
@@ -294,7 +294,7 @@ div#lefthome .blog_leftsearch .card-body {
     transition: 0.3s;
 }
 .card.blog_categories {
-    max-height: 33px;
+    max-height: 30px;
     overflow: hidden;
     transition: 0.2s;
 }
