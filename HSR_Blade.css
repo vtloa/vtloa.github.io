@@ -995,7 +995,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href
 }
 
 input#comment_submit:hover {
-    background: url(https://www.transparenttextures.com/patterns/groovepaper.png) !important;
-    background-color: #937958 !important;
-    opacity: 0.5;
+    background: #586281 !important;
+    color: #e3e3e3 !important;
 }
