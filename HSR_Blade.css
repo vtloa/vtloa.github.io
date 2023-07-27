@@ -1015,3 +1015,7 @@ div#designs {
     background-color: #937958;
     border: unset;
 }
+
+blockquote.blockquote {
+    border-color: #3a405d;
+}
