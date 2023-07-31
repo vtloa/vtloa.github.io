@@ -859,3 +859,8 @@ span#notify_total {
     bottom: 0;
     left: 0;
 }
+
+
+.updatesWrap a {
+    color: #656565;
+}
