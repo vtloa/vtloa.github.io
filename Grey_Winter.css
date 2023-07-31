@@ -157,7 +157,7 @@ li.p-1 {
     object-fit: none;
 }
 .blog_leftphoto {
-    text-align: left;
+    text-align: left !important;
     padding: 0px;
 }
 
