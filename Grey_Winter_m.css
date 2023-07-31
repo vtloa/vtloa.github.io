@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Noto+Sans+Cypro+Minoan&family=Noto+Serif+SC:wght@300&family=Roboto+Condensed&family=Victor+Mono&display=swap');
+
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+/*
+
+font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans Cypro Minoan', sans-serif;
+font-family: 'Noto Serif SC', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Victor Mono', monospace;
+
+*/
+
+
+
+body {
+    font-family: 'Victor Mono', monospace,'Noto Serif SC', serif;
+}
+
+h2.card-title a,.blog_leftprofile a,.profile_comment_author a,.card.blog_categories a,.card.group_members a {
+    color: #343234;
+}
+
+
+h6.card-subtitle.mb-2.text-muted.post_date a,.category a,
+.card.blog_categories a, h6.card-subtitle.mb-2.text-muted.post_date {
+    color: #343234;
+}
+
+input[type="text"]::placeholder {
+    color: #343234;
+}
+
+.like_button.liked:before {
+    text-shadow: 0px 0px #ed9278;
+}
+.like_button.liked:before, .like_button.liked+span, span.card-text a, div.profile_comment_body a {
+    color: #ed9278 !important;
+}
+input[type="text"]::placeholder {
+    color: #343234;
+}
+
+body {
+    background-color: #8e9298;
+}
+
+.group_desc {
+    display: none;
+}
+
+.copyright {
+    display: none;
+}
+
+
+div#user_status,.blog_user_status {
+    font-size: 9px;
+}
+
+.content {
+    background: #ebebeb;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border: unset !important;
+    background-color: #c0c0c0;
+    background-image: url(https://www.transparenttextures.com/patterns/noisy-grid.png);
+}
+
+
+.show_menu.header-orange {
+    border-radius: unset;
+    background: #ed9278;
+    color: #f3f3f3;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+
+[href="./"]:before {
+    color: #4f4d4f;
+    font-size: 30px;
+    content: '\ec53';
+    font-family:'cappuccicons';
+}
+
+[src="/images/notify.svg"] {
+    width: 30px;
+    filter: contrast(0.6);
+}
+
+button.btn.btn-outline-success:before,button.navbar-toggler {
+    opacity: 0.6 !important;
+}
+
+div#mobile_menu {
+    background: silver;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent;
+}
+
+div#mobile_menu button.btn.btn-primary {
+    background: #ed9278;
+    color: #f3f3f3;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+.card-header {
+    background: #a8a8a8;
+    font-size: 16px;
+    color: #ebebeb;
+    text-align: revert;
+}
+
+li.p-1 {
+    list-style: decimal;
+    display: block;
+}
+div#lefthome .card,.card-header {
+    border: unset;
+    border-radius: unset !important;
+}
+
+div#mobile_menu {
+    background: url(https://i.ibb.co/8dgb9L3/pixel-treee.png) no-repeat bottom left 90px;
+    background-color: silver;
+    background-blend-mode: color-dodge;
+}
+
+
+
+input#comment_submit,button.btn.btn-secondary {
+    width: auto;
+    background: #adba9d;
+    border-radius: unset !important;
+    color: #fbfbfb;
+}
+
+textarea#comment_body {
+    border: unset;
+    border-radius: unset;
+    background: #fafafa;
+}
+
+.modal-content {
+    border: unset;
+    border-radius: unset;
+    background: #ebebeb;
+}
+
+
+.post_text.pl-3 {
+    padding: 10px !important;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+.noUpdates {
+    color: #4f4d4f;
+    text-align: center;
+}
+.modal-header {
+    display: none;
+}
+
+:focus {
+    box-shadow: unset !important;
+    outline: unset !important;
+}
+
+a#attach_file_click, [onclick^="subscribe"]:before, div#bbcode [src^="/images/bbcode/"] {
+    filter: contrast(0.3);
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: transparent;
+    border-radius: unset;
+    filter: contrast(0.5);
+}
+
+/*----МЕДИА----*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+  .content {
+    padding: 10px !important;
+}
+  [href="./"]:before {
+    font-size: 28px;
+}
+  [src="/images/notify.svg"] {
+    width: 28px;
+    filter: contrast(0.6);
+}
+.content:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 200px;
+    image-rendering: pixelated;
+    background: url(https://i.ibb.co/xD6LP5G/winter-red.png) no-repeat center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+  
+  
+.content:after {
+    content: 'stars';
+    font-size: 0px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+}
+
+.content:after {
+    background: url(https://i.ibb.co/t4fGyT9/snow.png) fixed;
+    background-size: 500px 500px;
+    opacity: 0.6;
+    animation: cos2 100s infinite linear;
+    background-position: 500px 500px;
+}
+
+@keyframes cos2 {
+  0%{background-position: 0 0;}
+}
+
+h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlogComments {
+    position: relative;
+    z-index: 1;
+}
+
+}
