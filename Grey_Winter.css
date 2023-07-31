@@ -818,3 +818,20 @@ div#bbcode [src^="/images/bbcode/"] {
 .seBlogComments {
     padding-bottom: 70px;
 }
+
+a:hover {
+    text-decoration: unset !important;
+}
+
+.left_category_block .p-1 {
+    transition: 0.2s;
+    transition-delay: 0.2s;
+}
+.left_category_block .p-1:hover {
+    background: #ebebeb;
+    transition-delay: 0s;
+}
+
+a.menu_item {
+    color: #414141 !important;
+}
