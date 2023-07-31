@@ -849,3 +849,13 @@ a.menu_item {
 h2.card-title a:hover {
     color: #ed9278;
 }
+
+
+span#notify_total {
+    outline: unset;
+    background: #4f4d4f;
+    color: #ebebeb;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
