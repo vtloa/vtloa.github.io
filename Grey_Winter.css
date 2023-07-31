@@ -835,3 +835,13 @@ a:hover {
 a.menu_item {
     color: #414141 !important;
 }
+
+.top_header a.menu_item{
+    transition: 0.2s;
+    transition-delay: 0.2s;
+}
+.top_header a.menu_item:hover {
+    transition-delay: 0s;
+}
+
+
