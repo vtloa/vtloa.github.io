@@ -238,7 +238,7 @@ div#bbcode [src^="/images/bbcode/"] {
   0%{background-position: 0 0;}
 }
 
-h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlogComments {
+h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlogComments,.show_menu.header-orange {
     position: relative;
     z-index: 1;
 }
