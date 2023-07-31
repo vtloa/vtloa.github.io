@@ -823,11 +823,13 @@ a:hover {
     text-decoration: unset !important;
 }
 
-.left_category_block .p-1 {
+.left_category_block .p-1,
+.card.mt-3.blog_leftmenu p-1 {
     transition: 0.2s;
     transition-delay: 0.2s;
 }
-.left_category_block .p-1:hover {
+.left_category_block .p-1:hover,
+.card.mt-3.blog_leftmenu p-1:hover {
     background: #ebebeb;
     transition-delay: 0s;
 }
@@ -844,4 +846,6 @@ a.menu_item {
     transition-delay: 0s;
 }
 
-
+h2.card-title a:hover {
+    color: #ed9278;
+}
