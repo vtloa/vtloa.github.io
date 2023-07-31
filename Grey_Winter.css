@@ -165,9 +165,10 @@ li.p-1 {
     position: absolute;
     top: 0;
     left: 110px;
-    text-align: left;
-    width: calc(100% - 120px);
+    text-align: left !important;
+    width: calc(100% - 120px) !important;
 }
+
 
 
 div#user_status,.blog_user_status {
