@@ -190,6 +190,12 @@ div#bbcode [src^="/images/bbcode/"] {
     filter: contrast(0.5);
 }
 
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #8e9298;
+}
+
+
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
@@ -242,5 +248,4 @@ h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlog
     position: relative;
     z-index: 1;
 }
-
 }
