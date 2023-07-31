@@ -20,7 +20,7 @@ body {
     font-family: 'Victor Mono', monospace,'Noto Serif SC', serif;
 }
 
-h2.card-title a,.blog_leftprofile a,.profile_comment_author a,.card.blog_categories a,.card.group_members a {
+h2.card-title a,.blog_leftprofile a,.profile_comment_author a,.card.blog_categories a,.card.group_members a,.card.blog_gifts a {
     color: #343234;
 }
 
@@ -244,7 +244,7 @@ div#bbcode [src^="/images/bbcode/"] {
   0%{background-position: 0 0;}
 }
 
-h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlogComments,.show_menu.header-orange {
+h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlogComments,.show_menu.header-orange,div#lefthome {
     position: relative;
     z-index: 1;
 }
