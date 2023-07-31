@@ -14,6 +14,14 @@ font-family: 'Victor Mono', monospace;
 
 */
 
+div#entry_main {
+    display: none;
+}
+
+.copyright {
+    display: none;
+}
+
 
 body {
     font-family: 'Victor Mono', monospace,'Noto Serif SC', serif;
