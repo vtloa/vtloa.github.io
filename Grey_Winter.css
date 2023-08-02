@@ -900,3 +900,8 @@ div#smiless::-webkit-scrollbar-thumb,
 div#fffuuusmiles::-webkit-scrollbar-thumb {
     background: #8e9298;
 }
+
+div#smiless::-webkit-scrollbar-thumb:hover,
+div#fffuuusmiles::-webkit-scrollbar-thumb:hover{
+    background: #ebebeb;
+}
