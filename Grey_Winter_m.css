@@ -280,6 +280,10 @@ img.fl_l[src="/images/bbcode/smile.gif"] {
 div#bbcode [src^="/images/fffuuusmiles/"] {
     padding: 36px;
 }
+div#fffuuusmiles,div#smiles {
+    max-height: 150px;
+    overflow-y: auto;
+}
 }
 
 
