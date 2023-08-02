@@ -277,6 +277,9 @@ img.fl_l[src="/images/bbcode/smile.gif"] {
     width: 74px;
     height: 74px;
 }
+div#bbcode [src^="/images/fffuuusmiles/"] {
+    padding: 36px;
+}
 }
 
 
