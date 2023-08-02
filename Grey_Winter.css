@@ -880,7 +880,7 @@ div#smiles {
 
 
 div#smiles,div#fffuuusmiles {
-    max-height: 200px;
+    max-height: 270px;
     overflow-y: auto;
     overflow-x: hidden !important;
 }
