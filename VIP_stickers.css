@@ -40,11 +40,7 @@ div#bbcode [src^="/images/fffuuusmiles/"] {
 
 
 @media (max-width: 280px), (max-width: 480px) {
-  
-  #smiles img:hover {
-    transform: unset;
-}
-  #smiles img {
+#smiles img {
     width: 80px;
     height: 80px;
 }
