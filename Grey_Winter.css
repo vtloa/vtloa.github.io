@@ -890,3 +890,13 @@ div#smiles::-webkit-scrollbar,
 div#fffuuusmiles::-webkit-scrollbar {
     background: #ebebeb;
 }
+
+div#smiless::-webkit-scrollbar-thumb,
+div#fffuuusmiles::-webkit-scrollbar-thumb {
+    background: #8e9298;
+}
+
+div#smiless::-webkit-scrollbar-thumb,
+div#fffuuusmiles::-webkit-scrollbar-thumb {
+    background: #8e9298;
+}
