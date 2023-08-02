@@ -275,3 +275,8 @@ img.fl_l[src="/images/bbcode/smile.gif"] {
 }
 
 
+#smiles img:hover {
+    box-shadow: 0 0 10px #adba9d;
+    outline: 1px solid #adba9d;
+}
+
