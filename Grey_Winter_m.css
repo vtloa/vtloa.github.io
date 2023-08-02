@@ -252,6 +252,11 @@ h2.card-title,h6.card-subtitle.mb-2.text-muted.post_date,.post_container,.seBlog
 }
 
 
+[src="/images/verify.png"] {
+    filter: grayscale(1);
+}
+
+
 /*----ФИКСЫ ПОД СТИКЕРЫ----*/
 
 blockquote.blockquote {
