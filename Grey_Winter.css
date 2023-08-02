@@ -864,3 +864,8 @@ span#notify_total {
 .updatesWrap a {
     color: #656565;
 }
+
+
+div#bbcode {
+    width: calc(100% - 185px);
+}
