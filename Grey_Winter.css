@@ -867,5 +867,7 @@ span#notify_total {
 
 
 div#bbcode {
-    width: calc(100% - 185px);
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
 }
