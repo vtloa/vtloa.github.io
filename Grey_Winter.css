@@ -877,3 +877,10 @@ div#bbcode {
 div#smiles {
     margin-top: 10px;
 }
+
+
+div#smiles,div#fffuuusmiles {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+}
