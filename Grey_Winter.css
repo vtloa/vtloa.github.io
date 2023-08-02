@@ -866,6 +866,8 @@ span#notify_total {
 }
 
 
+/*----ФИКСЫ ПОД СТИКЕРЫ----*/
+
 div#bbcode {
     width: 100%;
     text-align: right;
@@ -874,4 +876,11 @@ div#bbcode {
 
 div#smiles {
     margin-top: 10px;
+}
+
+@media (max-width: 280px), (max-width: 480px) {
+#smiles img {
+    width: 74px;
+    height: 74px;
+}
 }
