@@ -274,15 +274,38 @@ background: url(https://i.ibb.co/x2cQnmD/r1.png) no-repeat center / cover;
 }
 
 
-[src="/images/fffuuusmiles/fu.gif"],
-[src="/images/fffuuusmiles/megustagirl.gif"],
-[src="/images/fffuuusmiles/megustasmile.gif"],
-[src="/images/fffuuusmiles/muhaha.gif"],
-[src="/images/fffuuusmiles/shkololota.gif"],
-[src="/images/fffuuusmiles/yaoming.gif"],
-[src="/images/fffuuusmiles/yaominginv.gif"] {
-   display: none;
+
+/*--------------*/
+[src="/images/fffuuusmiles/fu.gif"] {
+background: url(https://i.ibb.co/djStLWD/z7.png) no-repeat center / cover;
 }
+
+[src="/images/fffuuusmiles/megustagirl.gif"] {
+background: url(https://i.ibb.co/7JGH33N/z6.png) no-repeat center / cover;
+}
+
+[src="/images/fffuuusmiles/megustasmile.gif"] {
+background: url(https://i.ibb.co/9hDYJnB/z5.png) no-repeat center / cover;
+}
+
+
+[src="/images/fffuuusmiles/muhaha.gif"] {
+background: url(https://i.ibb.co/rt4LdTw/z4.png) no-repeat center / cover;
+}
+
+
+[src="/images/fffuuusmiles/shkololota.gif"] {
+background: url(https://i.ibb.co/Qfnp6sz/z3.png) no-repeat center / cover;
+}
+
+[src="/images/fffuuusmiles/yaoming.gif"] {
+background: url(https://i.ibb.co/zVprVJr/z2.png) no-repeat center / cover;
+}
+
+[src="/images/fffuuusmiles/yaominginv.gif"] {
+background: url(https://i.ibb.co/GtkdWY7/z1.png) no-repeat center / cover;
+}
+
 
 
 /*-----------*/
