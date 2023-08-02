@@ -7,6 +7,9 @@
     background-color: white;
 }
 
+div#smiles {
+    margin-top: 10px;
+}
 
 #smiles img:hover {
     transform: scale(1.3);
