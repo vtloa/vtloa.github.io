@@ -884,3 +884,9 @@ div#smiles,div#fffuuusmiles {
     overflow-y: auto;
     overflow-x: hidden !important;
 }
+
+
+div#smiles::-webkit-scrollbar,
+div#fffuuusmiles::-webkit-scrollbar {
+    background: #ebebeb;
+}
