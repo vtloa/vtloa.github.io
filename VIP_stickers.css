@@ -29,7 +29,20 @@ img.fl_l[src="/images/bbcode/smile.gif"] {
 }
 
 
-/*сти колобки*/
+
+@media (max-width: 280px), (max-width: 480px) {
+  
+  #smiles img:hover {
+    transform: unset;
+}
+  #smiles img {
+    width: 80px;
+    height: 80px;
+}
+}
+
+
+/*----СТИКЕРЫ КОЛОБКИ----*/
 
 
 
