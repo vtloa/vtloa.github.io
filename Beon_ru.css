@@ -1896,3 +1896,16 @@ form.messageform input.w-100 {
 span.user-drop-menu.cur-p {
     display: none;
 }
+
+ul.menu__box {
+    max-width: 250px;
+    padding: 10px;
+}
+
+
+a.menu__item {
+    text-align: left;
+    padding: 0px;
+    display: block;
+    width: fit-content;
+}
