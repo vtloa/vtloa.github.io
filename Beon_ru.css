@@ -1876,3 +1876,13 @@ a.btn.btn-outline-primary.mb-2 {
 form.messageform input.w-100 {
     width: auto !important;
 }
+
+
+.mobile_open_menu h3.left-menu-text {
+    margin: 0px;
+}
+
+.mobile_open_menu {
+    margin: 0px !important;
+    padding: 0px !important;
+}
