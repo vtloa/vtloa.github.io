@@ -1331,6 +1331,9 @@ i.far.fa-smile-wink {
 .post-opt.col-12.col-md-6.text-right a {
     position: relative;
 }
+.post-opt.col-12.col-md-6.text-right {
+    margin-top: 10px;
+}
 }
 
 
@@ -1442,12 +1445,15 @@ i.far.fa-smile-wink {
 .post-opt.col-12.col-md-6.text-right a {
     position: relative;
 }
+.post-opt.col-12.col-md-6.text-right {
+    margin-top: 10px;
+}                      
 }
 
 
 
 
-/*UPD*/
+/*-----------------UPD-------------------*/
 
 b, strong {
     font-weight: bold;
