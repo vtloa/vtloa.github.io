@@ -1327,3 +1327,7 @@ i.far.fa-smile-wink {
 .footer__infolinks.p-1,div#footer,div#page__rendertime {
     display: none;
 }
+
+div#fnplayer-volume-inner {
+    border: unset;
+}
