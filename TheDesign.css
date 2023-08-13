@@ -1276,10 +1276,15 @@ ul.menu__box {
     width: auto;
     text-align: left;
 }
+
+.post-content span.post-title-date {
+    display: none;
+}
 .small-text+div+div+div span.post-title-date {
     background: #262626 !important;
     font-size: 16px;
     color: #ededed !important;
+    display: block;
 }
 }
 
