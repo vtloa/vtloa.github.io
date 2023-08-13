@@ -1892,3 +1892,7 @@ form.messageform input.w-100 {
     margin: 0px !important;
     padding: 0px !important;
 }
+
+span.user-drop-menu.cur-p {
+    display: none;
+}
