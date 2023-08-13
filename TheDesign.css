@@ -1377,3 +1377,7 @@ a.user.post-title-user:hover+img+span.user-drop-menu.cur-p+span {
     position: unset;
     margin: 0px;
 }
+
+span.user-drop-menu.cur-p {
+    display: none;
+}
