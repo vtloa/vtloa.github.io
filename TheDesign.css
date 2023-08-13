@@ -1366,3 +1366,14 @@ a.post-title:hover+a+img+span.user-drop-menu.cur-p+span {
 a.user.post-title-user:hover+img+span.user-drop-menu.cur-p+span {
     left: 60%;
 }
+
+.small-text+div+div+div a {
+    font-size: 0px !important;
+}
+
+.small-text+div+div+div span.post-title-date {
+    width: auto;
+    left: unset;
+    position: unset;
+    margin: 0px;
+}
