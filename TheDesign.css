@@ -1353,3 +1353,16 @@ div#page__rendertime {
 a.btn.btn-outline-primary.mb-2 {
     border: unset;
 }
+
+
+
+/*----Мини фикс после обновления сайта----*/
+
+
+a.post-title:hover+a+img+span.user-drop-menu.cur-p+span {
+    left: 60%;
+}
+
+a.user.post-title-user:hover+img+span.user-drop-menu.cur-p+span {
+    left: 60%;
+}
