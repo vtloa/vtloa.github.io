@@ -1860,3 +1860,10 @@ a.btn.btn-outline-primary.mb-2 {
     padding: 0px;
     margin-right: 10px;
 }
+
+
+/*---FIX 13.08.23---*/
+
+form.messageform input.w-100 {
+    width: auto !important;
+}
