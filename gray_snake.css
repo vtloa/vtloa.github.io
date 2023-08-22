@@ -777,3 +777,8 @@ span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover {
 .comment-text a {
     color: #881313;
 }
+
+.comment-box__message-partial.comment-content {
+    color: #881313;
+    text-align: center;
+}
