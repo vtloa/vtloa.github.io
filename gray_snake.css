@@ -1067,3 +1067,13 @@ a.menu__item {
 .content h1 {
     color: #666666;
 }
+
+.row.w-100.mt-3 * {
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+
+.row.w-100.mt-3 *:hover {
+    color: #881313 !important;
+    transition-delay: 0s;
+}
