@@ -769,3 +769,6 @@ a.user.post-title-user {
     max-width: 820px;
 }
 }
+.blog__gifts,.blog__iread,.blog__read-me {
+    display: none;
+}
