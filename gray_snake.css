@@ -787,3 +787,7 @@ span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover {
 p.quotation {
     margin-left: 15px;
 }
+
+[src="//beon.fun/i/offline.png"] {
+    display: none;
+}
