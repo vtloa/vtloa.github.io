@@ -1008,4 +1008,18 @@ a.menu__item {
   input#submitpreview {
     margin-top: 10px;
 }
+.mobile_open_menu h3.left-menu-text {
+    display: block;
+}
+
+.left-menu {
+    position: unset;
+}
+
+.left-menu {
+    width: 100%;
+    margin: auto !important;
+    max-width: 100%;
+    margin-top: 20px !important;
+} 
 }
