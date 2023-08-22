@@ -779,3 +779,7 @@ span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover {
     color: #881313;
     text-align: center;
 }
+
+.blog:before {
+    filter: grayscale(1);
+}
