@@ -764,11 +764,11 @@ a.user.post-title-user {
     display: none;
 }
 
-span.embed-responsive.embed-responsive-16by9,.post-text img {
+span.embed-responsive.embed-responsive-16by9,.post-text img,.comment-base img {
     filter: grayscale(1);
 }
 
-span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover {
+span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover,.comment-base img:hover {
     filter: unset;
 }
 .comment-text a {
