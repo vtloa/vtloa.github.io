@@ -206,6 +206,7 @@ div#fnplayer-volume-inner {
     height: 15px;
     margin-bottom: -5px;
     background: transparent;
+    border: unset;
     border-right: 15px solid #e72d2d;
 }
 /*плеер end*/
