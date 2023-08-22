@@ -774,3 +774,6 @@ span.embed-responsive.embed-responsive-16by9,.post-text img {
 span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover {
     filter: unset;
 }
+.comment-text a {
+    color: #881313;
+}
