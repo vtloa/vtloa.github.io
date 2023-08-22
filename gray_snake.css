@@ -783,3 +783,7 @@ span.embed-responsive.embed-responsive-16by9:hover,.post-text img:hover {
 .blog:before {
     filter: grayscale(1);
 }
+
+p.quotation {
+    margin-left: 15px;
+}
