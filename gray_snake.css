@@ -1021,5 +1021,37 @@ a.menu__item {
     margin: auto !important;
     max-width: 100%;
     margin-top: 20px !important;
-} 
+}
+.left-menu > div.mobile_open_menu > h3 {
+    font-weight: normal;
+    color: #6a6a6a !important;
+}
+
+
+
+.blog__gifts, .blog__iread, .blog__read-me,.text-center,.blog__tags,.blog__last-comments {
+    display: none !important;
+}
+
+.blog__about .text-center+div:not(div#beon-fnplayer) {
+    display: none !important;
+}
+
+.blog__about {
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.blog__about {
+    display: block !important;
+}
+
+.mobile_open_menu {
+    display: none !important;
+}
+
+.blog__about * {
+    color: #666666 !important;
+    font-size: 14px;
+}
 }
