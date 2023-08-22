@@ -493,10 +493,7 @@ ul.menu__box::-webkit-scrollbar,
 
 .crumbs a {
     font-size: 14px;
-}
-
-.crumbs a {
-    color: #6d6d6d;
+    color: #5e5e5e;
 }
 
 p.alert.alert-success {
