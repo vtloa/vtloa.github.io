@@ -443,7 +443,7 @@ ul.menu__box {
     width: 250px;
     height: 0px;
     padding: 15px;
-    background: #404040;
+    background: #616161;
 }
 
 a.menu__item {
@@ -471,7 +471,7 @@ a.menu__item {
 }
 
 a.menu__item:hover {
-    color: #9d9d9d;
+    color: #b3aeae;
 }
 
 .avatar-select-list::-webkit-scrollbar,
