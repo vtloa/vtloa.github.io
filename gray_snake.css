@@ -1060,13 +1060,16 @@ a.menu__item {
 
 
 .blog__about .left-menu-text a {
-    font-size: 14px;
+    font-size: 14px !important;
 }
 .blog__about .left-menu-text {
-    font-size: 0;
+    font-size: 0 !important;
 }
 .blog__about * {
     color: #666666 !important;
+}
+.left-menu div {
+    font-size: 14px !important;
 }
 }
 
