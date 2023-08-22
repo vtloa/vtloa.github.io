@@ -1266,3 +1266,7 @@ div#page__admincontact {
 .left-menu {
     color: #ebecf1;
 }
+
+span.user-drop-menu.cur-p {
+    display: none;
+}
