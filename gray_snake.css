@@ -772,3 +772,6 @@ a.user.post-title-user {
 .blog__gifts,.blog__iread,.blog__read-me {
     display: none;
 }
+[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
