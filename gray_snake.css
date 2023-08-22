@@ -874,6 +874,14 @@ div#commentpreviewplace a.post-title-user {
     font-size: 12px;
 }
 
+
+.blog__about .left-menu-text a {
+    font-size: 13px;
+}
+.blog__about .left-menu-text {
+    font-size: 0;
+}
+
 /*----MEDIA----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
@@ -1050,12 +1058,6 @@ a.menu__item {
     display: none !important;
 }
 
-.blog__about * {
-    color: #666666 !important;
-    font-size: 14px;
-}
-}
-
 
 .blog__about .left-menu-text a {
     font-size: 14px;
@@ -1063,6 +1065,11 @@ a.menu__item {
 .blog__about .left-menu-text {
     font-size: 0;
 }
+.blog__about * {
+    color: #666666 !important;
+}
+}
+
 
 .content h1 {
     color: #666666;
