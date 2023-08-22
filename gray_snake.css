@@ -538,7 +538,6 @@ a.post-title {
 }
 
 .post-content a.user.post-title-user, .post-content span.post-title-date, .post-contentspan.user-drop-menu.cur-p {
-    float: right;
     color: #606060 !important;
 }
 
@@ -732,12 +731,8 @@ input[type="submit"] {
     color: #606060 !important;
 }
 
-.post-content a.user.post-title-user {
-    margin-left: 10px;
-}
 
 .post-content span.user-drop-menu.cur-p {
-    float: right;
     margin-left: 15px;
 }
 
