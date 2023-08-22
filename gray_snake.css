@@ -1050,14 +1050,6 @@ a.menu__item {
     margin-bottom: 35px;
 }
 
-.blog__about {
-    display: block !important;
-}
-
-.mobile_open_menu {
-    display: none !important;
-}
-
 
 .blog__about .left-menu-text a {
     font-size: 14px !important;
@@ -1070,6 +1062,9 @@ a.menu__item {
 }
 .left-menu div {
     font-size: 14px !important;
+}
+.fa-angle-down:before {
+    color: #676666;
 }
 }
 
