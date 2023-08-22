@@ -1063,3 +1063,7 @@ a.menu__item {
 .blog__about .left-menu-text {
     font-size: 0;
 }
+
+.content h1 {
+    color: #666666;
+}
