@@ -282,7 +282,7 @@ button#fnplayer-play {
     right: 0;
     left: 0;
     margin: auto !important;
-    background: #881313;
+    background: #660e0e;
     clip-path: polygon(0 0, 0% 100%, 100% 50%);
     width: 9px;
     height: 11px;
@@ -295,7 +295,7 @@ div#fnplayer-slider {
 
 
 div#fnplayer-slider-inner, div#fnplayer-volume-inner {
-    background: #881313;
+    background: #660e0e;
     height: 3px;
     margin-top: -1px;
     border: unset;
