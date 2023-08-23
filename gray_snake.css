@@ -1112,7 +1112,7 @@ a.menu__item {
     transition-delay: 0s;
 }
 
-.comment-text+.mt-3 *,input[type="submit"] {
+.comment-text+.mt-3 *,input[type="submit"],.row.w-100.mt-3 * {
     cursor: pointer;
 }
 
