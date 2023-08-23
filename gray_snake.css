@@ -1146,3 +1146,8 @@ input.w-100,input[type="text"],select {
 .pagination a {
     margin-left: 10px;
 }
+
+a.post-title-user {
+    color: #606060 !important;
+    font-size: 13px;
+}
