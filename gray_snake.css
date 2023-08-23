@@ -1126,3 +1126,10 @@ a.load_ignored_comments:hover {
     color: #881313 !important;
     transition-delay: 0s;
 }
+
+
+input[type="submit"]:hover {
+    background: #3a0606;
+    color: black;
+    transition-delay: 0s;
+}
