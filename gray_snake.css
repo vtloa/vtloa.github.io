@@ -1144,3 +1144,7 @@ input.w-100,input[type="text"],select {
 .col-md-4 {
     padding: 0px;
 }
+
+.pagination a {
+    margin-left: 10px;
+}
