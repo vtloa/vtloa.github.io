@@ -1100,3 +1100,16 @@ a.menu__item {
     font-size: 13px !important;
     display: block;
 }
+
+.tag_bar > span {
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+
+.tag_bar > span:hover {
+    background: #404040;
+    color: black;
+    transition-delay: 0s;
+}
+
+
