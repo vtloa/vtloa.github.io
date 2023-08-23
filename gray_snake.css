@@ -1126,7 +1126,7 @@ a.load_ignored_comments:hover {
 }
 
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,.tag_bar > span:hover {
     background: #3a0606;
     color: black;
     transition-delay: 0s;
