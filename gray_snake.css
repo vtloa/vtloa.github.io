@@ -1097,3 +1097,8 @@ a.menu__item {
 .left-menu__user-notification.left-menu__unread-message img {
     filter: grayscale(1);
 }
+
+.blog__about [href="/design/disable"] {
+    font-size: 13px !important;
+    display: block;
+}
