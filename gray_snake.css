@@ -1112,4 +1112,6 @@ a.menu__item {
     transition-delay: 0s;
 }
 
-
+.comment-text+.mt-3 *,input[type="submit"] {
+    cursor: pointer;
+}
