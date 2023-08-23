@@ -1074,6 +1074,9 @@ a.menu__item {
     font-size: 17px !important;
     line-height: 2;
 }
+.crumbs a {
+    font-size: 16px;
+}
 }
 
 
