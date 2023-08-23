@@ -1115,3 +1115,11 @@ a.menu__item {
 .comment-text+.mt-3 *,input[type="submit"] {
     cursor: pointer;
 }
+
+input[type="submit"] {
+    line-height: 2;
+}
+
+.textareabg {
+    margin-bottom: 25px;
+}
