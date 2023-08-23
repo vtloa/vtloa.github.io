@@ -1093,3 +1093,7 @@ a.menu__item {
     color: #881313 !important;
     transition-delay: 0s;
 }
+
+.left-menu__user-notification.left-menu__unread-message img {
+    filter: grayscale(1);
+}
