@@ -1066,6 +1066,14 @@ a.menu__item {
 .fa-angle-down:before {
     color: #676666;
 }
+
+.left-menu > div.mobile_open_menu > h3 {
+    background: #191919 !important;
+    color: #616161 !important;
+    border: unset;
+    font-size: 17px !important;
+    line-height: 2;
+}
 }
 
 
