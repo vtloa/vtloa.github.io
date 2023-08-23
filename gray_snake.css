@@ -1123,3 +1123,16 @@ input[type="submit"] {
 .textareabg {
     margin-bottom: 25px;
 }
+
+
+a.post-subscribe,
+a.load_ignored_comments {
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+
+a.post-subscribe:hover,
+a.load_ignored_comments:hover {
+    color: #881313 !important;
+    transition-delay: 0s;
+}
