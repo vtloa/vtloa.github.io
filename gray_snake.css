@@ -1133,3 +1133,14 @@ input[type="submit"]:hover {
     color: black;
     transition-delay: 0s;
 }
+
+
+input.w-100,input[type="text"],select {
+    background: #0606068f;
+    border: unset;
+    color: #bdbdbd;
+}
+
+.col-md-4 {
+    padding: 0px;
+}
