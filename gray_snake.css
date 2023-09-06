@@ -1151,3 +1151,26 @@ a.post-title-user {
     color: #606060 !important;
     font-size: 13px;
 }
+
+
+/*------UPD 06.09.2023--------*/
+
+[onsubmit="confirmRemoving()"] a {
+    font-size: 12px !important;
+    display: unset !important;
+    color: #dadada !important;
+}
+
+[name="commname"] {
+    position: relative;
+    z-index: 22;
+}
+
+button.btn.btn-primary, button.btn.btn-secondary {
+    background: #191919;
+    color: #a0a0a0;
+    border: unset;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 5px;
+}
