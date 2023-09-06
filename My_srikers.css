@@ -45,6 +45,13 @@ img.fl_l[src="/images/bbcode/smile.gif"] {
 }
 
 
+
+
+[src^="/images/beonsmiles/"]:not(div#smiles [src^="/images/beonsmiles/"]), [src^="./templates/images/smiles/"]:not(div#smiles [src^="./templates/images/smiles/"]) {
+    display: block;
+}
+
+
 /*----СТИКЕРЫ КОЛОБКИ----*/
 
 
