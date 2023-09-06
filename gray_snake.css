@@ -1174,3 +1174,7 @@ button.btn.btn-primary, button.btn.btn-secondary {
     border-radius: 0px;
     padding: 5px;
 }
+
+.post-content .text-center {
+    display: unset !important;
+}
