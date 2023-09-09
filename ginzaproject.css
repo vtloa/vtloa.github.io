@@ -1095,25 +1095,17 @@ a.navbar-brand {
     margin-top: -190px;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px),(min-width: 2560px) {
 .crumbs {
     margin-top: -85px !important;
 }
 .hamburger-menu {
     margin-top: -75px;
 }
-}
-
-
-@media (min-width: 2560px) {
-.crumbs {
-    margin-top: -85px !important;
-}
-.hamburger-menu {
-    margin-top: -75px;
+.bg-white {
+    top: 115px;
 }
 }
-
 
 
 label.menu__btn {
