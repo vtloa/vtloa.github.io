@@ -1793,4 +1793,8 @@ span.post-title-date {
 
 
 
+.post-content a, .comment-base a {
+    color: #07322b;
+    font-weight: bold;
+}
 
