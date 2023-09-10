@@ -829,7 +829,11 @@ a.post-title, .post-content h1 {
 }
 .text-right+div+div .post-avatar {
     margin-top: -95px;
-}}
+}
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+}
 
 
 /*----ПЛЕЕР----*/
