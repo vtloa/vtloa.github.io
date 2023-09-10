@@ -1,4 +1,3 @@
-
 @font-face { font-family: "Century Gothic Regular"; src: url('//vtloa.github.io/BAG/Century Gothic Regular.ttf'); }
 
 body,a.menu__item {
@@ -1103,6 +1102,10 @@ a.navbar-brand {
 }
 
 
+
+
+
+
 label.menu__btn {
     width: 50px;
     height: 50px;
@@ -1285,14 +1288,12 @@ main.py-4+.crumbs span.pagination-goto {
 }
 
 .text-right+div+div .post-avatar {
-    margin-top: -80px;
+    margin-top: -105px;
 }
 
 .comment-row .post-avatar {
     margin-top: 5px;
 }
-
-
 
 
 .comment-content:has(img.flag) .post-avatar {
@@ -1320,12 +1321,7 @@ main.py-4+.crumbs span.pagination-goto {
 
 
 
-.post-content {
-    margin: 0px !important;
-    margin-bottom: 20px !important;
-}
-
-.content {
+.content1 {
     width: fit-content;
     position: absolute;
     top: 300px;
@@ -1337,6 +1333,40 @@ main.py-4+.crumbs span.pagination-goto {
 
 
 
+/*----------------ЦЕНТРОВКА---------------*/
+
+.content {
+    width: calc(100% - 360px);
+    margin: auto;
+}
+
+.post-content,.comment-box,.textareabg {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    transform: translateX(-180px);
+}
+
+.post-content {
+    margin-bottom: 20px !important;
+}
+
+.content {
+    z-index: 222;
+}
+
+.left-menu:hover {
+    z-index: 22222;
+}
+
+
+/*----END----*/
+
+
+.post-content h1 {
+    color: black;
+}
 
 /*-----МЕДИА----*/
 
@@ -1682,7 +1712,7 @@ button#fnplayer-stop {
 }
 span.post-title-date {
     right: 15px;
-    top: 10px;
+    top: 7px;
 }
 
 .comment-row {
@@ -1691,7 +1721,9 @@ span.post-title-date {
 .post-text.comment-text+.post-opt {
     padding: 0px;
 }
-
+.small-text, .small-text+div, .small-text+div+.text-right {
+    padding: 0px;
+}
 .crumbs {
     text-align: center;
 }
@@ -1709,10 +1741,24 @@ span.post-title-date {
 }
   .content {
     position: unset;
+    width: 100%;
+}
+.post-content, .comment-box, .textareabg {
+    position: relative;
+    left: unset;
+    right: unset;
+    margin: auto !important;
+    transform: unset;
+}
+  .post-content {
+    margin-bottom: 5px !important;
+}
+[href="/design/disable"] {
+    position: unset;
+    content: unset;
+}
+.bg-white {
+    z-index: 333333;
 }
 }
-
-
-
-
 
