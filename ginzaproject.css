@@ -14,6 +14,11 @@ body,a.menu__item {
 
 /*----------------------------*/
 
+p.quotation {
+    padding: 0px;
+    padding-left: 5px;
+}
+
 .sign {
     line-height: normal;
 }
@@ -588,7 +593,7 @@ span.comments_count {
 
 
 .blog__tags a:after {
-    content: '12';
+    content: '1';
     background: url(https://i.ibb.co/1TXX3Xm/image.png);
     position: absolute;
     right: -1px;
