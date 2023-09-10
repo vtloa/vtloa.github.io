@@ -1676,6 +1676,9 @@ span.post-title-date {
 .crumbs span {
     font-size: 14px;
 }
+.comment-text {
+    padding-top: 0;
+}
 }
 
 
