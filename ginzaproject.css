@@ -1565,9 +1565,10 @@ button#fnplayer-stop {
 .blog__about h3.left-menu-text {
     top: 380px;
     padding-left: 30px;
+    display: none;
 }
 
-.blog__about .text-center {
+.blog__about .text-center1 {
     padding-bottom: 55px;
 }
     
