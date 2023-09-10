@@ -1281,7 +1281,19 @@ main.py-4+.crumbs span.pagination-goto {
 }
 
 
+.content h1, .content h1+h2 {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
 
+.text-right+div+div .post-avatar {
+    margin-top: -80px;
+}
+
+.comment-row .post-avatar {
+    margin-top: 5px;
+}
 
 
 
@@ -1655,8 +1667,4 @@ span.post-title-date {
 }
 
 
-.content h1, .content h1+h2 {
-    font-size: 12px;
-    color: white;
-    font-weight: bold;
-}
+
