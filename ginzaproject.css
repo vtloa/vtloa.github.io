@@ -132,23 +132,6 @@ body.bodybg {
 /*---ШАПКА---*/
 
 
-div#app:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 500px;
-    background: url(https://i.ibb.co/j6hr9Rw/image.png) no-repeat center top;
-}
-
-/*---- МНЕ для 1600----*/
-
-@media (max-width: 1600px) {
-div#app:before {
-    background: url(https://i.ibb.co/j6hr9Rw/image.png) no-repeat center top;
-    background-size: 1920px;
-}}
-
-
 @media (min-width: 2560px) {
 div#app:before {
     background: url(https://i.ibb.co/j6hr9Rw/image.png) no-repeat center top;
@@ -210,7 +193,7 @@ main.py-4 {
 
 .comment-content {
     min-height: auto;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 20px !important;
     border: 2px solid white !important;
     border-radius: 10px;
@@ -253,8 +236,8 @@ p.quotation {
     border-radius: 10px;
     position: relative;
     background: url(https://i.ibb.co/wYf6HRg/1920.png);
-    padding: 10px;
-    padding-top: 5px;
+    padding: 10px !important;
+    padding-top: 5px !important;
 }
 
 form#messageform br {
@@ -282,11 +265,21 @@ span.emj-dropdown {
     padding: 0px;
 }
 
-textarea {
+textarea, input[type="text"], select {
     border: 2px solid #79954d;
     border-radius: 15px;
     padding: 15px;
+    padding-top: 10px;
     background: white;
+}
+
+input[type="text"],select {
+    padding: 3px;
+}
+
+
+.col-md-4 {
+    padding: 0px;
 }
 
 input[type="submit"] {
@@ -303,7 +296,7 @@ input[type="submit"] {
     height: 24px;
 }
 
-textarea:focus {
+textarea:focus,input[type="text"]:focus {
     outline: 2px solid #79954d !important;
     outline-offset: -2px;
 }
@@ -343,7 +336,7 @@ main.py-4+.crumbs span {
 
 @media (min-width: 1920px){
 .post-content,.comment-box,.textareabg,.comment-box__message-partial.comment-content {
-    margin-left: 180px !important;
+    margin-left: 185px !important;
 }
 
 [href="/design/disable"],main.py-4+.crumbs {
@@ -354,7 +347,7 @@ main.py-4+.crumbs span {
 
 @media (min-width: 2560px){
 .post-content,.comment-box,.textareabg,.comment-box__message-partial.comment-content {
-    margin-left: 510px !important;
+    margin-left: 515px !important;
 }
 [href="/design/disable"],main.py-4+.crumbs {
     left: 15px;
@@ -436,8 +429,8 @@ h3.left-menu-text {
 .blog__about a:hover {
     background: linear-gradient(45deg, white, transparent);
     color: #242424;
-    padding-left: 15px;
-    margin-left: -15px;
+    padding-left: 10px;
+    margin-left: -10px;
 }
 
 .bg-white+.crumbs {
@@ -510,7 +503,7 @@ a.post-title,.post-content h1 {
 }
 
 .post-text {
-    padding: 20px;
+    padding: 25px;
     padding-top: 55px;
     padding-bottom: 10px;
 }
@@ -518,9 +511,9 @@ a.post-title,.post-content h1 {
 .row.w-100.mt-3 {
     margin: 0px;
     padding: 0px;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    padding-bottom: 9px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 7px;
 }
 
 .post-text.comment-text+.post-opt {
@@ -1195,8 +1188,71 @@ a.menu__item {
     background: transparent !important;
 }
 
-/*----УДАЛИТЬ-----*/
+
+
+div#app:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 395px;
+    background: url(https://i.ibb.co/85cXsv0/2.png) no-repeat center top;
+    background-size: contain;
+}
+
+
+.post-content.p-3 h1.left-menu-text {
+    line-height: 2;
+    padding-bottom: 15px;
+}
+
+.btn-outline-primary {
+    background: white;
+    border: unset;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #728d46;
+}
+
+.col-md-6 a,.col-md-6 span {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+.post-content .col-12 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-12 hr {
+    border-color: white;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+div#newpostform br {
+    display: none;
+}
+
+.col-md-4 p,div#newpostform p {
+    margin-bottom: 0px;
+}
+
 
 div#newpostform {
-    display: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+textarea.postdesc,
+input[type="text"], select {
+    font-size: 14px;
 }
