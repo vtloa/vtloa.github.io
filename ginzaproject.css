@@ -1405,6 +1405,17 @@ main.py-4+.crumbs span.pagination-goto {
 }
 
 
+.comment-box__message-partial.comment-content {
+    position: relative;
+    margin: auto !important;
+    margin-bottom: 15px !important;
+    transform: translateX(-180px);
+}
+
+h2+.comment-box__message-partial.comment-content {
+    transform: unset;
+}
+
 
 
 span.pagination-goto+[href="/page/2"]:before {
