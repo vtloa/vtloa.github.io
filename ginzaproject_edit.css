@@ -1,0 +1,572 @@
+
+/*------------------------РЕДАКТИРОВАНИЕ------------------------*/
+
+/*----НАЗВАНИЕ ФОНОВОЙ----*/
+
+div#fnplayer-slider:before {
+    content: 'Группа - Название';
+}
+
+/*----КАРТИНКА ФОНОВОЙ----*/
+
+.blog__tags:before {
+    background: url(ссылка на картинку) no-repeat center left;
+}
+
+
+/*----СПИСОК КАТЕГОРИЙ----*/
+
+/*----#Навигация----*/
+.blog__tags [href$="/tag/%23%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F"]:after {
+    content: '1';
+}
+
+/*----Август Хаген-Тамура----*/
+.blog__tags [href="/tag/%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82%20%D0%A5%D0%B0%D0%B3%D0%B5%D0%BD-%D0%A2%D0%B0%D0%BC%D1%83%D1%80%D0%B0"]:after {
+    content: '2';
+}
+
+
+
+
+/*----Адам Кензо----*/
+.blog__tags [href="/tag/%D0%90%D0%B4%D0%B0%D0%BC%20%D0%9A%D0%B5%D0%BD%D0%B7%D0%BE"]:after {
+    content: '3';
+}
+
+
+/*----Аидзава Хината----*/
+.blog__tags [href="/tag/%D0%90%D0%B8%D0%B4%D0%B7%D0%B0%D0%B2%D0%B0%20%D0%A5%D0%B8%D0%BD%D0%B0%D1%82%D0%B0"]:after {
+    content: '4';
+}
+
+/*----Александр Ульрих----*/
+.blog__tags [href="/tag/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%A3%D0%BB%D1%8C%D1%80%D0%B8%D1%85"]:after {
+    content: '5';
+}
+
+
+/*----Александр Фирсов----*/
+.blog__tags [href="/tag/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%A4%D0%B8%D1%80%D1%81%D0%BE%D0%B2"]:after {
+    content: '6';
+}
+
+/*----Алексис Герберт-Кей----*/
+.blog__tags [href="/tag/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D1%81%20%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82-%D0%9A%D0%B5%D0%B9"]:after {
+    content: '7';
+}
+
+/*----Алистер Лир-Клиленд----*/
+.blog__tags [href="/tag/%D0%90%D0%BB%D0%B8%D1%81%D1%82%D0%B5%D1%80%20%D0%9B%D0%B8%D1%80-%D0%9A%D0%BB%D0%B8%D0%BB%D0%B5%D0%BD%D0%B4"]:after {
+    content: '8';
+}
+
+/*----Амайа Одзава----*/
+.blog__tags [href="/tag/%D0%90%D0%BC%D0%B0%D0%B9%D0%B0%20%D0%9E%D0%B4%D0%B7%D0%B0%D0%B2%D0%B0"]:after {
+    content: '9';
+}
+
+/*----Ариэль Лоуренс----*/
+.blog__tags [href="/tag/%D0%90%D1%80%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81"]:after {
+    content: '10';
+}
+
+/*----Арн ЧхэРин----*/
+.blog__tags [href="/tag/%D0%90%D1%80%D0%BD%20%D0%A7%D1%85%D1%8D%D0%A0%D0%B8%D0%BD"]:after {
+    content: '11';
+}
+
+/*----Арчибальд Джонс----*/
+.blog__tags [href="/tag/%D0%90%D1%80%D1%87%D0%B8%D0%B1%D0%B0%D0%BB%D1%8C%D0%B4%20%D0%94%D0%B6%D0%BE%D0%BD%D1%81"]:after {
+    content: '12';
+}
+
+/*----АУ!Вампиры ----*/
+.blog__tags [href="/tag/%D0%90%D0%A3%21%D0%92%D0%B0%D0%BC%D0%BF%D0%B8%D1%80%D1%8B"]:after {
+    content: '13';
+}
+
+/*----АУ!Гарри Поттер----*/
+.blog__tags [href="/tag/%D0%90%D0%A3%21%D0%93%D0%B0%D1%80%D1%80%D0%B8%20%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80"]:after {
+    content: '14';
+}
+
+/*----АУ!Русалки----*/
+.blog__tags [href="/tag/%D0%90%D0%A3%21%D0%A0%D1%83%D1%81%D0%B0%D0%BB%D0%BA%D0%B8"]:after {
+    content: '15';
+}
+
+/*----Батильда Хольм----*/
+.blog__tags [href="/tag/%D0%91%D0%B0%D1%82%D0%B8%D0%BB%D1%8C%D0%B4%D0%B0%20%D0%A5%D0%BE%D0%BB%D1%8C%D0%BC"]:after {
+    content: '16';
+}
+
+/*----Бенбе Хорайзон----*/
+.blog__tags [href="/tag/%D0%91%D0%B5%D0%BD%D0%B1%D0%B5%20%D0%A5%D0%BE%D1%80%D0%B0%D0%B9%D0%B7%D0%BE%D0%BD"]:after {
+    content: '17';
+}
+
+/*----Валентиниан Баденский----*/
+.blog__tags [href="/tag/%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B8%D0%B0%D0%BD%20%D0%91%D0%B0%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9"]:after {
+    content: '18';
+}
+
+/*----Ванесса Фрицджеральд-Айдашева----*/
+.blog__tags [href="/tag/%D0%92%D0%B0%D0%BD%D0%B5%D1%81%D1%81%D0%B0%20%D0%A4%D1%80%D0%B8%D1%86%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%B4-%D0%90%D0%B9%D0%B4%D0%B0%D1%88%D0%B5%D0%B2%D0%B0"]:after {
+    content: '19';
+}
+
+/*----Василий Игаев----*/
+.blog__tags [href="/tag/%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9%20%D0%98%D0%B3%D0%B0%D0%B5%D0%B2"]:after {
+    content: '20';
+}
+
+/*----Велиар Нигай----*/
+.blog__tags [href="/tag/%D0%92%D0%B5%D0%BB%D0%B8%D0%B0%D1%80%20%D0%9D%D0%B8%D0%B3%D0%B0%D0%B9"]:after {
+    content: '21';
+}
+
+/*----Вентц Янг----*/
+.blog__tags [href="/tag/%D0%92%D0%B5%D0%BD%D1%82%D1%86%20%D0%AF%D0%BD%D0%B3"]:after {
+    content: '22';
+}
+
+/*----Вера Бассалик----*/
+.blog__tags [href="/tag/%D0%92%D0%B5%D1%80%D0%B0%20%D0%91%D0%B0%D1%81%D1%81%D0%B0%D0%BB%D0%B8%D0%BA"]:after {
+    content: '23';
+}
+
+/*----Габриэлла Ферреро----*/
+.blog__tags [href="/tag/%D0%93%D0%B0%D0%B1%D1%80%D0%B8%D1%8D%D0%BB%D0%BB%D0%B0%20%D0%A4%D0%B5%D1%80%D1%80%D0%B5%D1%80%D0%BE"]:after {
+    content: '24';
+}
+
+/*----Габриэль Готье----*/
+.blog__tags [href="/tag/%D0%93%D0%B0%D0%B1%D1%80%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%93%D0%BE%D1%82%D1%8C%D0%B5"]:after {
+    content: '25';
+}
+
+/*----Григорий Цветаев----*/
+.blog__tags [href="/tag/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9%20%D0%A6%D0%B2%D0%B5%D1%82%D0%B0%D0%B5%D0%B2"]:after {
+    content: '26';
+}
+
+/*----Джеймс Уильямс----*/
+.blog__tags [href="/tag/%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81%20%D0%A3%D0%B8%D0%BB%D1%8C%D1%8F%D0%BC%D1%81"]:after {
+    content: '27';
+}
+
+/*----Джек Рассел----*/
+.blog__tags [href="/tag/%D0%94%D0%B6%D0%B5%D0%BA%20%D0%A0%D0%B0%D1%81%D1%81%D0%B5%D0%BB"]:after {
+    content: '28';
+}
+
+/*----Джубелиан Лагранж----*/
+.blog__tags [href="/tag/%D0%94%D0%B6%D1%83%D0%B1%D0%B5%D0%BB%D0%B8%D0%B0%D0%BD%20%D0%9B%D0%B0%D0%B3%D1%80%D0%B0%D0%BD%D0%B6"]:after {
+    content: '29';
+}
+
+/*----Дин Ету----*/
+.blog__tags [href="/tag/%D0%94%D0%B8%D0%BD%20%D0%95%D1%82%D1%83"]:after {
+    content: '30';
+}
+
+/*----Дина Ливингстон----*/
+.blog__tags [href="/tag/%D0%94%D0%B8%D0%BD%D0%B0%20%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%D1%81%D1%82%D0%BE%D0%BD"]:after {
+    content: '31';
+}
+
+/*----Дмитрий Айдашев-Селивёрстов----*/
+.blog__tags [href="/tag/%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9%20%D0%90%D0%B9%D0%B4%D0%B0%D1%88%D0%B5%D0%B2-%D0%A1%D0%B5%D0%BB%D0%B8%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BE%D0%B2"]:after {
+    content: '32';
+}
+
+/*----Доминика Германович----*/
+.blog__tags [href="/tag/%D0%94%D0%BE%D0%BC%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87"]:after {
+    content: '33';
+}
+
+/*----Е Минсу----*/
+.blog__tags [href="/tag/%D0%95%20%D0%9C%D0%B8%D0%BD%D1%81%D1%83"]:after {
+    content: '34';
+}
+
+/*----Ивон Демаре----*/
+.blog__tags [href="/tag/%D0%98%D0%B2%D0%BE%D0%BD%20%D0%94%D0%B5%D0%BC%D0%B0%D1%80%D0%B5"]:after {
+    content: '35';
+}
+
+/*----Им Юн Джин----*/
+.blog__tags [href="/tag/%D0%98%D0%BC%20%D0%AE%D0%BD%20%D0%94%D0%B6%D0%B8%D0%BD"]:after {
+    content: '36';
+}
+
+/*----Ито Сейджи----*/
+.blog__tags [href="/tag/%D0%98%D1%82%D0%BE%20%D0%A1%D0%B5%D0%B9%D0%B4%D0%B6%D0%B8"]:after {
+    content: '37';
+}
+
+/*----Кадзуми Миура----*/
+.blog__tags [href="/tag/%D0%9A%D0%B0%D0%B4%D0%B7%D1%83%D0%BC%D0%B8%20%D0%9C%D0%B8%D1%83%D1%80%D0%B0"]:after {
+    content: '38';
+}
+
+/*----Каин Гарт----*/
+.blog__tags [href="/tag/%D0%9A%D0%B0%D0%B8%D0%BD%20%D0%93%D0%B0%D1%80%D1%82"]:after {
+    content: '39';
+}
+
+/*----Кай Доу----*/
+.blog__tags [href="/tag/%D0%9A%D0%B0%D0%B9%20%D0%94%D0%BE%D1%83"]:after {
+    content: '40';
+}
+
+/*----Капитолина Ооно----*/
+.blog__tags [href="/tag/%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%9E%D0%BE%D0%BD%D0%BE"]:after {
+    content: '41';
+}
+
+/*----Квест----*/
+.blog__tags [href="/tag/%D0%9A%D0%B2%D0%B5%D1%81%D1%82"]:after {
+    content: '42';
+}
+
+/*----Кертту Виртаннен----*/
+.blog__tags [href="/tag/%D0%9A%D0%B5%D1%80%D1%82%D1%82%D1%83%20%D0%92%D0%B8%D1%80%D1%82%D0%B0%D0%BD%D0%BD%D0%B5%D0%BD"]:after {
+    content: '43';
+}
+
+/*----Киёши Ишикава----*/
+.blog__tags [href="/tag/%D0%9A%D0%B8%D1%91%D1%88%D0%B8%20%D0%98%D1%88%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0"]:after {
+    content: '44';
+}
+
+/*----Коичи Хаякава----*/
+.blog__tags [href="/tag/%D0%9A%D0%BE%D0%B8%D1%87%D0%B8%20%D0%A5%D0%B0%D1%8F%D0%BA%D0%B0%D0%B2%D0%B0"]:after {
+    content: '45';
+}
+
+/*----Кояма Ллойд----*/
+.blog__tags [href="/tag/%D0%9A%D0%BE%D1%8F%D0%BC%D0%B0%20%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4"]:after {
+    content: '46';
+}
+
+/*----Куробэ Чихиро----*/
+.blog__tags [href="/tag/%D0%9A%D1%83%D1%80%D0%BE%D0%B1%D1%8D%20%D0%A7%D0%B8%D1%85%D0%B8%D1%80%D0%BE"]:after {
+    content: '47';
+}
+
+/*----Лань Юнь----*/
+.blog__tags [href="/tag/%D0%9B%D0%B0%D0%BD%D1%8C%20%D0%AE%D0%BD%D1%8C"]:after {
+    content: '48';
+}
+
+/*----Лизбетт Харрис----*/
+.blog__tags [href="/tag/%D0%9B%D0%B8%D0%B7%D0%B1%D0%B5%D1%82%D1%82%20%D0%A5%D0%B0%D1%80%D1%80%D0%B8%D1%81"]:after {
+    content: '49';
+}
+
+/*----Ллойд Кояма----*/
+.blog__tags [href="/tag/%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4%20%D0%9A%D0%BE%D1%8F%D0%BC%D0%B0"]:after {
+    content: '50';
+}
+
+/*----Лори Ли----*/
+.blog__tags [href="/tag/%D0%9B%D0%BE%D1%80%D0%B8%20%D0%9B%D0%B8"]:after {
+    content: '51';
+}
+
+/*----Луань Цзюнь----*/
+.blog__tags [href="/tag/%D0%9B%D1%83%D0%B0%D0%BD%D1%8C%20%D0%A6%D0%B7%D1%8E%D0%BD%D1%8C"]:after {
+    content: '52';
+}
+
+/*----Лэй Юнксу----*/
+.blog__tags [href="/tag/%D0%9B%D1%8D%D0%B9%20%D0%AE%D0%BD%D0%BA%D1%81%D1%83"]:after {
+    content: '53';
+}
+
+/*----Мамору Ямамото----*/
+.blog__tags [href="/tag/%D0%9C%D0%B0%D0%BC%D0%BE%D1%80%D1%83%20%D0%AF%D0%BC%D0%B0%D0%BC%D0%BE%D1%82%D0%BE"]:after {
+    content: '54';
+}
+
+/*----Марк Рой----*/
+.blog__tags [href="/tag/%D0%9C%D0%B0%D1%80%D0%BA%20%D0%A0%D0%BE%D0%B9"]:after {
+    content: '55';
+}
+
+/*----Маруяма Иньхэ----*/
+.blog__tags [href="/tag/%D0%9C%D0%B0%D1%80%D1%83%D1%8F%D0%BC%D0%B0%20%D0%98%D0%BD%D1%8C%D1%85%D1%8D"]:after {
+    content: '56';
+}
+
+/*----Мейкен Л'Вирго----*/
+.blog__tags [href="/tag/%D0%9C%D0%B5%D0%B9%D0%BA%D0%B5%D0%BD%20%D0%9B%27%D0%92%D0%B8%D1%80%D0%B3%D0%BE"]:after {
+    content: '57';
+}
+
+/*----Микеле Рошер----*/
+.blog__tags [href="/tag/%D0%9C%D0%B8%D0%BA%D0%B5%D0%BB%D0%B5%20%D0%A0%D0%BE%D1%88%D0%B5%D1%80"]:after {
+    content: '58';
+}
+
+/*----Минами Такада----*/
+.blog__tags [href="/tag/%D0%9C%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%A2%D0%B0%D0%BA%D0%B0%D0%B4%D0%B0"]:after {
+    content: '59';
+}
+
+/*----Мицуко Такаяма----*/
+.blog__tags [href="/tag/%D0%9C%D0%B8%D1%86%D1%83%D0%BA%D0%BE%20%D0%A2%D0%B0%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0"]:after {
+    content: '60';
+}
+
+/*----Мори Сота----*/
+.blog__tags [href="/tag/%D0%9C%D0%BE%D1%80%D0%B8%20%D0%A1%D0%BE%D1%82%D0%B0"]:after {
+    content: '61';
+}
+
+/*----Мэдисон Хаяси----*/
+.blog__tags [href="/tag/%D0%9C%D1%8D%D0%B4%D0%B8%D1%81%D0%BE%D0%BD%20%D0%A5%D0%B0%D1%8F%D1%81%D0%B8"]:after {
+    content: '62';
+}
+
+/*----Навин Шарма----*/
+.blog__tags [href="/tag/%D0%9D%D0%B0%D0%B2%D0%B8%D0%BD%20%D0%A8%D0%B0%D1%80%D0%BC%D0%B0"]:after {
+    content: '63';
+}
+
+/*----Наото Янаги----*/
+.blog__tags [href="/tag/%D0%9D%D0%B0%D0%BE%D1%82%D0%BE%20%D0%AF%D0%BD%D0%B0%D0%B3%D0%B8"]:after {
+    content: '64';
+}
+
+/*----Ойген Дитрих----*/
+.blog__tags [href="/tag/%D0%9E%D0%B9%D0%B3%D0%B5%D0%BD%20%D0%94%D0%B8%D1%82%D1%80%D0%B8%D1%85"]:after {
+    content: '65';
+}
+
+/*----Олег Драгунов----*/
+.blog__tags [href="/tag/%D0%9E%D0%BB%D0%B5%D0%B3%20%D0%94%D1%80%D0%B0%D0%B3%D1%83%D0%BD%D0%BE%D0%B2"]:after {
+    content: '66';
+}
+
+/*----Оливер Роджерсон----*/
+.blog__tags [href="/tag/%D0%9E%D0%BB%D0%B8%D0%B2%D0%B5%D1%80%20%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80%D1%81%D0%BE%D0%BD"]:after {
+    content: '67';
+}
+
+/*----Рафаэль Деланнуа----*/
+.blog__tags [href="/tag/%D0%A0%D0%B0%D1%84%D0%B0%D1%8D%D0%BB%D1%8C%20%D0%94%D0%B5%D0%BB%D0%B0%D0%BD%D0%BD%D1%83%D0%B0"]:after {
+    content: '68';
+}
+
+/*----Рафаэль Лоуренс----*/
+.blog__tags [href="/tag/%D0%A0%D0%B0%D1%84%D0%B0%D1%8D%D0%BB%D1%8C%20%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81"]:after {
+    content: '69';
+}
+
+/*----Рей Кавахара----*/
+.blog__tags [href="/tag/%D0%A0%D0%B5%D0%B9%20%D0%9A%D0%B0%D0%B2%D0%B0%D1%85%D0%B0%D1%80%D0%B0"]:after {
+    content: '70';
+}
+
+/*----Рей лос Сантос----*/
+.blog__tags [href="/tag/%D0%A0%D0%B5%D0%B9%20%D0%BB%D0%BE%D1%81%20%D0%A1%D0%B0%D0%BD%D1%82%D0%BE%D1%81"]:after {
+    content: '71';
+}
+
+/*----Ривер Хансен----*/
+.blog__tags [href="/tag/%D0%A0%D0%B8%D0%B2%D0%B5%D1%80%20%D0%A5%D0%B0%D0%BD%D1%81%D0%B5%D0%BD"]:after {
+    content: '72';
+}
+
+/*----Рика Наито----*/
+.blog__tags [href="/tag/%D0%A0%D0%B8%D0%BA%D0%B0%20%D0%9D%D0%B0%D0%B8%D1%82%D0%BE"]:after {
+    content: '73';
+}
+
+/*----Рокеро Накаяма----*/
+.blog__tags [href="/tag/%D0%A0%D0%BE%D0%BA%D0%B5%D1%80%D0%BE%20%D0%9D%D0%B0%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0"]:after {
+    content: '74';
+}
+
+/*----Рэй Шинадзугава----*/
+.blog__tags [href="/tag/%D0%A0%D1%8D%D0%B9%20%D0%A8%D0%B8%D0%BD%D0%B0%D0%B4%D0%B7%D1%83%D0%B3%D0%B0%D0%B2%D0%B0"]:after {
+    content: '75';
+}
+
+/*----Рюноскэ Ханакагэ----*/
+.blog__tags [href="/tag/%D0%A0%D1%8E%D0%BD%D0%BE%D1%81%D0%BA%D1%8D%20%D0%A5%D0%B0%D0%BD%D0%B0%D0%BA%D0%B0%D0%B3%D1%8D"]:after {
+    content: '76';
+}
+
+/*----Рюске Тоодо----*/
+.blog__tags [href="/tag/%D0%A0%D1%8E%D1%81%D0%BA%D0%B5%20%D0%A2%D0%BE%D0%BE%D0%B4%D0%BE"]:after {
+    content: '77';
+}
+
+/*----Саю Бёрнелл----*/
+.blog__tags [href="/tag/%D0%A1%D0%B0%D1%8E%20%D0%91%D1%91%D1%80%D0%BD%D0%B5%D0%BB%D0%BB"]:after {
+    content: '78';
+}
+
+/*----Светлана Львова----*/
+.blog__tags [href="/tag/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D0%BD%D0%B0%20%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D0%B0"]:after {
+    content: '79';
+}
+
+/*----Сиамон Рокфеллер----*/
+.blog__tags [href="/tag/%D0%A1%D0%B8%D0%B0%D0%BC%D0%BE%D0%BD%20%D0%A0%D0%BE%D0%BA%D1%84%D0%B5%D0%BB%D0%BB%D0%B5%D1%80"]:after {
+    content: '80';
+}
+
+/*----Сидни Трамп----*/
+.blog__tags [href="/tag/%D0%A1%D0%B8%D0%B4%D0%BD%D0%B8%20%D0%A2%D1%80%D0%B0%D0%BC%D0%BF"]:after {
+    content: '81';
+}
+
+/*----Сузуки Хоро----*/
+.blog__tags [href="/tag/%D0%A1%D1%83%D0%B7%D1%83%D0%BA%D0%B8%20%D0%A5%D0%BE%D1%80%D0%BE"]:after {
+    content: '82';
+}
+
+/*----Сурия Сириндхон----*/
+.blog__tags [href="/tag/%D0%A1%D1%83%D1%80%D0%B8%D1%8F%20%D0%A1%D0%B8%D1%80%D0%B8%D0%BD%D0%B4%D1%85%D0%BE%D0%BD"]:after {
+    content: '83';
+}
+
+/*----Сюй Чанлэ----*/
+.blog__tags [href="/tag/%D0%A1%D1%8E%D0%B9%20%D0%A7%D0%B0%D0%BD%D0%BB%D1%8D"]:after {
+    content: '84';
+}
+
+/*----Такара Мирабель----*/
+.blog__tags [href="/tag/%D0%A2%D0%B0%D0%BA%D0%B0%D1%80%D0%B0%20%D0%9C%D0%B8%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C"]:after {
+    content: '85';
+}
+
+/*----Такеши Янаи----*/
+.blog__tags [href="/tag/%D0%A2%D0%B0%D0%BA%D0%B5%D1%88%D0%B8%20%D0%AF%D0%BD%D0%B0%D0%B8"]:after {
+    content: '86';
+}
+
+/*----Теруко Фурукава----*/
+.blog__tags [href="/tag/%D0%A2%D0%B5%D1%80%D1%83%D0%BA%D0%BE%20%D0%A4%D1%83%D1%80%D1%83%D0%BA%D0%B0%D0%B2%D0%B0"]:after {
+    content: '87';
+}
+
+/*----Томое Хирагидзава----*/
+.blog__tags [href="/tag/%D0%A2%D0%BE%D0%BC%D0%BE%D0%B5%20%D0%A5%D0%B8%D1%80%D0%B0%D0%B3%D0%B8%D0%B4%D0%B7%D0%B0%D0%B2%D0%B0"]:after {
+    content: '88';
+}
+
+/*----У Джинхе----*/
+.blog__tags [href="/tag/%D0%A3%20%D0%94%D0%B6%D0%B8%D0%BD%D1%85%D0%B5"]:after {
+    content: '89';
+}
+
+/*----Уильям Теодор Кавендиш----*/
+.blog__tags [href="/tag/%D0%A3%D0%B8%D0%BB%D1%8C%D1%8F%D0%BC%20%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%80%20%D0%9A%D0%B0%D0%B2%D0%B5%D0%BD%D0%B4%D0%B8%D1%88"]:after {
+    content: '90';
+}
+
+/*----Утена Райдзен----*/
+.blog__tags [href="/tag/%D0%A3%D1%82%D0%B5%D0%BD%D0%B0%20%D0%A0%D0%B0%D0%B9%D0%B4%D0%B7%D0%B5%D0%BD"]:after {
+    content: '91';
+}
+
+/*----Уэно Шоичи----*/
+.blog__tags [href="/tag/%D0%A3%D1%8D%D0%BD%D0%BE%20%D0%A8%D0%BE%D0%B8%D1%87%D0%B8"]:after {
+    content: '92';
+}
+
+/*----Фаст----*/
+.blog__tags [href="/tag/%D0%A4%D0%B0%D1%81%D1%82"]:after {
+    content: '93';
+}
+
+/*----Ферка Дюркони----*/
+.blog__tags [href="/tag/%D0%A4%D0%B5%D1%80%D0%BA%D0%B0%20%D0%94%D1%8E%D1%80%D0%BA%D0%BE%D0%BD%D0%B8"]:after {
+    content: '94';
+}
+
+/*----Франциск Лоусон----*/
+.blog__tags [href="/tag/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA%20%D0%9B%D0%BE%D1%83%D1%81%D0%BE%D0%BD"]:after {
+    content: '95';
+}
+
+/*----Хантер Чинаски----*/
+.blog__tags [href="/tag/%D0%A5%D0%B0%D0%BD%D1%82%D0%B5%D1%80%20%D0%A7%D0%B8%D0%BD%D0%B0%D1%81%D0%BA%D0%B8"]:after {
+    content: '96';
+}
+
+/*----Хасан бен Халид----*/
+.blog__tags [href="/tag/%D0%A5%D0%B0%D1%81%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BD%20%D0%A5%D0%B0%D0%BB%D0%B8%D0%B4"]:after {
+    content: '97';
+}
+
+/*----Хидето Като----*/
+.blog__tags [href="/tag/%D0%A5%D0%B8%D0%B4%D0%B5%D1%82%D0%BE%20%D0%9A%D0%B0%D1%82%D0%BE"]:after {
+    content: '98';
+}
+
+/*----Хитоми Симидзу----*/
+.blog__tags [href="/tag/%D0%A5%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%20%D0%A1%D0%B8%D0%BC%D0%B8%D0%B4%D0%B7%D1%83"]:after {
+    content: '99';
+}
+
+/*----Цзинь Вэйюй----*/
+.blog__tags [href="/tag/%D0%A6%D0%B7%D0%B8%D0%BD%D1%8C%20%D0%92%D1%8D%D0%B9%D1%8E%D0%B9"]:after {
+    content: '100';
+}
+
+/*----Чериш Мертенс----*/
+.blog__tags [href="/tag/%D0%A7%D0%B5%D1%80%D0%B8%D1%88%20%D0%9C%D0%B5%D1%80%D1%82%D0%B5%D0%BD%D1%81"]:after {
+    content: '101';
+}
+
+/*----Чихиро Куробэ----*/
+.blog__tags [href="/tag/%D0%A7%D0%B8%D1%85%D0%B8%D1%80%D0%BE%20%D0%9A%D1%83%D1%80%D0%BE%D0%B1%D1%8D"]:after {
+    content: '102';
+}
+
+/*----Шиничи Такахаси----*/
+.blog__tags [href="/tag/%D0%A8%D0%B8%D0%BD%D0%B8%D1%87%D0%B8%20%D0%A2%D0%B0%D0%BA%D0%B0%D1%85%D0%B0%D1%81%D0%B8"]:after {
+    content: '103';
+}
+
+/*----Шэрил Роуз----*/
+.blog__tags [href="/tag/%D0%A8%D1%8D%D1%80%D0%B8%D0%BB%20%D0%A0%D0%BE%D1%83%D0%B7"]:after {
+    content: '104';
+}
+
+/*----Эвелина Риццо----*/
+.blog__tags [href="/tag/%D0%AD%D0%B2%D0%B5%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%A0%D0%B8%D1%86%D1%86%D0%BE"]:after {
+    content: '105';
+}
+
+/*----Элейн Россо----*/
+.blog__tags [href="/tag/%D0%AD%D0%BB%D0%B5%D0%B9%D0%BD%20%D0%A0%D0%BE%D1%81%D1%81%D0%BE"]:after {
+    content: '106';
+}
+
+/*----Энтони Крафт----*/
+.blog__tags [href="/tag/%D0%AD%D0%BD%D1%82%D0%BE%D0%BD%D0%B8%20%D0%9A%D1%80%D0%B0%D1%84%D1%82"]:after {
+    content: '107';
+}
+
+/*----Эркюль Порье----*/
+.blog__tags [href="/tag/%D0%AD%D1%80%D0%BA%D1%8E%D0%BB%D1%8C%20%D0%9F%D0%BE%D1%80%D1%8C%D0%B5"]:after {
+    content: '108';
+}
+
+/*----Ян Эрман----*/
+.blog__tags [href="/tag/%D0%AF%D0%BD%20%D0%AD%D1%80%D0%BC%D0%B0%D0%BD"]:after {
+    content: '109';
+}
+
+/*----Яна Эрман----*/
+.blog__tags [href="/tag/%D0%AF%D0%BD%D0%B0%20%D0%AD%D1%80%D0%BC%D0%B0%D0%BD"]:after {
+    content: '110';
+}
