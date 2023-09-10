@@ -1784,6 +1784,9 @@ span.post-title-date {
 .bg-white {
     z-index: 333333;
 }
+.text-right+div+div .post-avatar {
+    position: unset;
+}
 }
 
 
