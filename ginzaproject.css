@@ -1344,11 +1344,7 @@ button#fnplayer-stop {
     display: none;
 }
   
- .blog__about h3.left-menu-text {
-    position: unset;
-    display: none;
-} 
-  
+
   
   div#fnplayer-slider:before,
   button#fnplayer-play:after, #fnplayer-play.paused:after {
@@ -1458,11 +1454,7 @@ button#fnplayer-stop {
 .post__tags-list {
     padding-bottom: 0px;
 }  
-  
-  
-  
-  
-  
+
   main.py-4+.crumbs {
     background: #728d46;
     border: 2px solid white;
