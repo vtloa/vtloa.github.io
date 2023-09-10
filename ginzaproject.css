@@ -1303,6 +1303,17 @@ main.py-4+.crumbs span.pagination-goto {
 }
 
 
+.comment-text {
+    padding-top: 20px;
+}
+
+.comment-content:has(img.flag) .comment-text {
+    padding-top: 0px;
+}
+
+
+
+
 
 
 /*-----МЕДИА----*/
