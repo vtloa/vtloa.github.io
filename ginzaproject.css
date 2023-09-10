@@ -1653,3 +1653,10 @@ span.post-title-date {
     font-size: 14px;
 }
 }
+
+
+.content h1, .content h1+h2 {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
