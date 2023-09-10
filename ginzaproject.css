@@ -1404,6 +1404,13 @@ main.py-4+.crumbs span.pagination-goto {
     z-index: 22222;
 }
 
+
+
+
+span.pagination-goto+[href="/page/2"]:before {
+    content: '2';
+}
+
 /*-----МЕДИА----*/
 
 
