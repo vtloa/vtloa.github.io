@@ -1560,5 +1560,15 @@ button#fnplayer-stop {
     width: 100%;
     max-height: 325px;
 }
+
+      
+.blog__about h3.left-menu-text {
+    top: 380px;
+    padding-left: 30px;
+}
+
+.blog__about .text-center {
+    padding-bottom: 55px;
+}
     
 }
