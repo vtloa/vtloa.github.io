@@ -1571,5 +1571,80 @@ button#fnplayer-stop {
 .blog__about .text-center1 {
     padding-bottom: 55px;
 }
-    
+
+
+.bg-white+.crumbs {
+    display: block;
+    opacity: 1;
+    background: #728d46 !important;
+    margin-top: 100px !important;
+    pointer-events: unset;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.pagination a {
+    height: 28px;
+    line-height: 2;
+}
+
+.left-menu {
+    margin-top: 5px !important;
+}
+.post-content h1 {
+    line-height: 2;
+    margin-left: 25px;
+}
+
+.small-text+div {
+    margin: 0px;
+}
+
+.comment-row .post-avatar {
+    margin: 0px !important;
+}
+.comment-content a.user.post-title-user {
+    position: unset !important;
+    margin: 0px !important;
+}
+
+.comment-content {
+    padding: 15px;
+    padding-top: 5px;
+    margin-bottom: 5px !important;
+}
+
+.comment-content .comment-base {
+    padding-left: 10px;
+}
+
+.comment-content a.user.post-title-user {
+    text-shadow: unset;
+    color: black;
+}
+
+.comment-box {
+    width: 100%;
+}
+span.post-title-date {
+    right: 15px;
+    top: 10px;
+}
+
+.comment-row {
+    margin-top: 5px;
+}
+.post-text.comment-text+.post-opt {
+    padding: 0px;
+}
+
+.crumbs {
+    text-align: center;
+}
+.crumbs span {
+    font-size: 14px;
+}
 }
