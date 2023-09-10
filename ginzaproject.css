@@ -1340,7 +1340,7 @@ main.py-4+.crumbs span.pagination-goto {
     margin: auto;
 }
 
-.post-content,.comment-box,.textareabg {
+.post-content,.comment-box,.textareabg,.comment-box__message-partial.comment-content {
     position: relative;
     left: 0;
     right: 0;
@@ -1743,7 +1743,7 @@ span.post-title-date {
     position: unset;
     width: 100%;
 }
-.post-content, .comment-box, .textareabg {
+.post-content, .comment-box, .textareabg,.comment-box__message-partial.comment-content {
     position: relative;
     left: unset;
     right: unset;
