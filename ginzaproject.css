@@ -1340,12 +1340,18 @@ main.py-4+.crumbs span.pagination-goto {
     margin: auto;
 }
 
-.post-content,.comment-box,.textareabg,.comment-box__message-partial.comment-content {
+.post-content,.comment-box,.textareabg {
     position: relative;
     left: 0;
     right: 0;
     margin: auto !important;
     transform: translateX(-180px);
+}
+
+.comment-box__message-partial.comment-content {
+    position: relative;
+    margin: auto !important;
+    margin-bottom: 15px !important;
 }
 
 .post-content {
