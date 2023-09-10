@@ -701,7 +701,7 @@ span.pagination-goto {
     display: flex;
     justify-content: space-evenly;
     font-size: 0px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .pagination a {
