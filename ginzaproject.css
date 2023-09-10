@@ -1803,8 +1803,10 @@ span.post-title-date {
 
 
 
-.post-content a, .comment-base a {
+.post-content a, .comment-base a,
+.comment-box__message-partial.comment-content a {
     color: #07322b;
     font-weight: bold;
 }
+
 
