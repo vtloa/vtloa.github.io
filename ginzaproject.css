@@ -1361,12 +1361,36 @@ main.py-4+.crumbs span.pagination-goto {
 }
 
 
+
+
 /*----END----*/
 
 
 .post-content h1 {
     color: black;
 }
+
+
+
+.textareabg {
+    margin-bottom: 20px !important;
+}
+
+.text-right+div+div .post-avatar {
+    margin-top: -80px;
+}
+
+.text-right+div+div .post-avatar {
+    margin: 0px;
+    position: absolute;
+    top: 20px;
+}
+
+.sign {
+    font-size: 11px;
+    font-weight: normal;
+}
+
 
 /*-----МЕДИА----*/
 
@@ -1761,4 +1785,7 @@ span.post-title-date {
     z-index: 333333;
 }
 }
+
+
+
 
