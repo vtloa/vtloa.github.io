@@ -1390,7 +1390,9 @@ main.py-4+.crumbs span.pagination-goto {
     font-size: 11px;
     font-weight: normal;
 }
-
+.bg-white {
+    z-index: 22222;
+}
 
 /*-----МЕДИА----*/
 
