@@ -312,7 +312,6 @@ span.crumb-item {
     display: none;
 }
 
-
 main.py-4+.crumbs {
     background: #728d46;
     border: 2px solid white;
@@ -323,6 +322,7 @@ main.py-4+.crumbs {
     margin: 0px !important;
     padding: 0px;
     height: 24px;
+    overflow: hidden;
 }
 
 main.py-4+.crumbs,[href="/design/disable"] {
@@ -1255,4 +1255,19 @@ div#newpostform {
 textarea.postdesc,
 input[type="text"], select {
     font-size: 14px;
+}
+
+
+span.pagination-goto+a,
+.pagination a:last-child {
+    font-size: 0px;
+}
+span.pagination-goto+a:before {
+    content: '<';
+    font-size: 12px;
+}
+
+.pagination a:last-child:before {
+    content: '>';
+    font-size: 12px;
 }
