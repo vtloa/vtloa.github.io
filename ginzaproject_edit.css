@@ -10,7 +10,7 @@ div#fnplayer-slider:before {
 /*----КАРТИНКА ФОНОВОЙ----*/
 
 .blog__tags:before {
-    background: url(ссылка на картинку) no-repeat center left;
+    background: url(ссылка на картинку) no-repeat center;
 }
 
 
