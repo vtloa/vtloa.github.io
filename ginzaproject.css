@@ -1679,6 +1679,12 @@ span.post-title-date {
 .comment-text {
     padding-top: 0;
 }
+.comment-row .sign {
+    display: block;
+    color: black;
+    text-shadow: unset;
+    text-align: center;
+}
 }
 
 
