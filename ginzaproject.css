@@ -1,3 +1,4 @@
+
 @font-face { font-family: "Century Gothic Regular"; src: url('//vtloa.github.io/BAG/Century Gothic Regular.ttf'); }
 
 body,a.menu__item {
@@ -340,9 +341,7 @@ main.py-4+.crumbs span {
 }
 
 @media (min-width: 1920px){
-.post-content,.comment-box,.textareabg,.comment-box__message-partial.comment-content {
-    margin-left: 185px !important;
-}
+
 
 [href="/design/disable"],main.py-4+.crumbs {
     left: 15px;
@@ -351,9 +350,7 @@ main.py-4+.crumbs span {
 }
 
 @media (min-width: 2560px){
-.post-content,.comment-box,.textareabg,.comment-box__message-partial.comment-content {
-    margin-left: 515px !important;
-}
+
 [href="/design/disable"],main.py-4+.crumbs {
     left: 15px;
 }
@@ -1323,6 +1320,22 @@ main.py-4+.crumbs span.pagination-goto {
 
 
 
+.post-content {
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+}
+
+.content {
+    width: fit-content;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
 
 
 /*-----МЕДИА----*/
@@ -1694,7 +1707,12 @@ span.post-title-date {
     text-shadow: unset;
     text-align: center;
 }
+  .content {
+    position: unset;
 }
+}
+
+
 
 
 
