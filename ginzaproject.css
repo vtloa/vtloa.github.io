@@ -1313,6 +1313,15 @@ main.py-4+.crumbs span.pagination-goto {
 
 
 
+.post-content .post__tags-list+[style="font-size: 1rem;"] {
+    margin-bottom: -9px;
+}
+
+.comment-text+div * {
+    font-size: 12px;
+}
+
+
 
 
 
