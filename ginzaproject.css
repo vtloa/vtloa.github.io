@@ -1271,3 +1271,6 @@ span.pagination-goto+a:before {
     content: '>';
     font-size: 12px;
 }
+main.py-4+.crumbs span.pagination-goto {
+    display: none;
+}
