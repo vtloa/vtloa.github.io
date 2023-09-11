@@ -1846,3 +1846,28 @@ span.post-title-date {
     transform: translateX(0px);
 }
 }
+
+
+.post-content h2.left-menu-text {
+    font-size: 12px;
+    line-height: 0;
+    margin-top: 18px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.post-content p.left-menu-text {
+    background: white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.post-content h2.left-menu-text+h2.left-menu-text {
+    margin-bottom: 25px;
+}
