@@ -1827,4 +1827,11 @@ span.post-title-date {
     font-weight: bold;
 }
 
+.blog__tags a:after {
+    content: '1';
+    display: none;
+}
 
+.blog__tags a {
+    padding-right: 5px;
+}
