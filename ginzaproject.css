@@ -1857,7 +1857,7 @@ span.post-title-date {
 }
 
 .post-content p.left-menu-text {
-    background: white;
+    background: transparent;
     border-radius: 10px;
     width: fit-content;
     padding: 0px;
@@ -1866,6 +1866,19 @@ span.post-title-date {
     margin-left: 25px;
     font-size: 12px;
     margin-bottom: 10px;
+}
+
+.post-content p.left-menu-text a:not([href^="remove"]) {
+    background: white;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+.post-content p.left-menu-text a {
+    color: black;
 }
 
 .post-content h2.left-menu-text+h2.left-menu-text {
