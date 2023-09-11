@@ -1835,3 +1835,14 @@ span.post-title-date {
 .blog__tags a {
     padding-right: 5px;
 }
+
+
+@media (max-width: 1600px),(max-width: 1366px) {
+  .post-content, .comment-box, .textareabg {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    transform: translateX(0px);
+}
+}
