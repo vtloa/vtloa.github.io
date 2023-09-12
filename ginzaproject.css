@@ -465,7 +465,7 @@ a.user.post-title-user {
     top: 0;
     right: 811px;
     width: 100px;
-    text-align: right;
+    text-align: center;
 }
 
 a.user.post-title-user, .sign, .small-text, .small-text+div a, .small-text+div+.text-right a {
