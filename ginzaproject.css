@@ -1839,11 +1839,12 @@ span.post-title-date {
 
 
 @media (max-width: 1600px),(max-width: 1366px) {
-  .post-content, .comment-box, .textareabg {
+.post-content, .comment-box, .textareabg {
     position: relative;
     left: 0;
     right: 0;
     margin: auto !important;
+    margin-bottom: 20px !important;
     transform: translateX(0px);
 }
 }
