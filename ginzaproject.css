@@ -2000,3 +2000,8 @@ span.post-title-date {
 .post-content h2.left-menu-text+h2.left-menu-text {
     margin-bottom: 25px;
 }
+
+
+.left-menu>div:before {
+    cursor: pointer;
+}
