@@ -223,9 +223,10 @@ p.quotation {
 }
 
 .comment-row .post-avatar {
-    margin-left: -135px !important;
+    margin-left: -145px !important;
     margin-top: -15px;
 }
+
 .comment-text+div {
     position: sticky;
     top: 100%;
@@ -1301,7 +1302,7 @@ main.py-4+.crumbs span.pagination-goto {
 
 
 .comment-content:has(img.flag) .post-avatar {
-    margin-top: -17px;
+    margin-top: -30px;
 }
 
 
