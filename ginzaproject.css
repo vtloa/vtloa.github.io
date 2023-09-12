@@ -1420,9 +1420,110 @@ span.pagination-goto+[href="/page/2"]:before {
     content: '2';
 }
 
+
+
+/*------ОПОВЕЩЕНИЯ------*/
+
+
+
+
+.left-menu__user-notification.left-menu__unread-message,
+.notifications__comments.left-menu__user-notification{
+    position: absolute;
+    top: 0px;
+    left: 63px;
+    width: 297px;
+    height: 512px;
+    padding: 15px;
+    background: url(https://i.ibb.co/wz7SrNC/image.png) no-repeat top right;
+}
+
+
+.left-menu__user-notification.left-menu__unread-message:before,
+.notifications__comments.left-menu__user-notification:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: -60px;
+    text-align: center;
+    line-height: 4;
+    transform: translateX(-3px);
+    background: url(https://i.ibb.co/v3r1HLb/image.png) no-repeat center left;
+}
+
+.left-menu__user-notification.left-menu__unread-message:hover,
+.notifications__comments.left-menu__user-notification:hover {
+    z-index: 222222222;
+}
+
+.notifications__comments.left-menu__user-notification p,
+.notifications__comments.left-menu__user-notification p+.right-menu-text {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.notifications__comments.left-menu__user-notification p a {
+    background: white;
+    border-radius: 10px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.notifications__comments.left-menu__user-notification p {
+    padding: 0px;
+    padding-bottom: 0px !important;
+    padding-top: 5px;
+}
+
+
+.left-menu__user-notification.left-menu__unread-message span.post-title-date.pl-0 {
+    position: unset;
+}
+.left-menu__user-notification.left-menu__unread-message img+p {
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text+p {
+    margin-bottom: 10px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img {
+    border-radius: 10px;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.left-menu__user-notification.left-menu__unread-message1,
+.notifications__comments.left-menu__user-notification1 {
+    background: url(https://i.ibb.co/g4zyM9t/image.png) no-repeat top right;
+    height: fit-content;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    white-space: pre-wrap;
+}
+
+.left-menu__user-notification.left-menu__unread-message+.notifications__comments.left-menu__user-notification:before {
+    margin-top: 50px;
+    filter: hue-rotate(230deg);
+}
+
+
+/*----END----*/
+
+
+
+
 /*-----МЕДИА----*/
-
-
 
 
 
