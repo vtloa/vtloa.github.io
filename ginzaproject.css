@@ -1926,6 +1926,10 @@ span.post-title-date {
     padding: 15px;
     background: unset;
 }
+
+.left-menu__user-notification.left-menu__unread-message:before, .notifications__comments.left-menu__user-notification:before {
+    display: none;
+}
 }
 
 
