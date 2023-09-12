@@ -1916,8 +1916,20 @@ span.post-title-date {
 .text-right+div+div .post-avatar {
     position: unset;
 }
+
+.left-menu__user-notification.left-menu__unread-message, .notifications__comments.left-menu__user-notification {
+    position: unset;
+    top: 0px;
+    left: 63px;
+    width: unset;
+    height: unset;
+    padding: 15px;
+    background: unset;
+}
 }
 
+
+/*---UPD----*/
 
 
 .post-content a, .comment-base a,
