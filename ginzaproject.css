@@ -223,7 +223,7 @@ p.quotation {
 }
 
 .comment-row .post-avatar {
-    margin-left: -145px !important;
+    margin-left: -150px !important;
     margin-top: -15px;
 }
 
@@ -1297,12 +1297,12 @@ main.py-4+.crumbs span.pagination-goto {
 }
 
 .comment-row .post-avatar {
-    margin-top: 5px;
+    margin-top: -12px;
 }
 
 
 .comment-content:has(img.flag) .post-avatar {
-    margin-top: -30px;
+    margin-top: -35px;
 }
 
 
@@ -1387,14 +1387,11 @@ main.py-4+.crumbs span.pagination-goto {
     margin-bottom: 20px !important;
 }
 
-.text-right+div+div .post-avatar {
-    margin-top: -80px;
-}
 
 .text-right+div+div .post-avatar {
     margin: 0px;
     position: absolute;
-    top: 20px;
+    top: 25px;
 }
 
 .sign {
