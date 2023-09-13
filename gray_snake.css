@@ -1178,3 +1178,7 @@ button.btn.btn-primary, button.btn.btn-secondary {
 .post-content .text-center {
     display: unset !important;
 }
+
+.blog__about [href$=".beon.fun/friends-posts/"] {
+    display: block;
+}
