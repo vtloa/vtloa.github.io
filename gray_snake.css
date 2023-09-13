@@ -1179,6 +1179,20 @@ button.btn.btn-primary, button.btn.btn-secondary {
     display: unset !important;
 }
 
+
+/*-----UPD-----*/
+
+
 .blog__about [href$=".beon.fun/friends-posts/"] {
     display: block;
+}
+
+
+.blog__about [href$=".beon.fun/friends-posts/"] {
+    font-size: 0px !important;
+}
+
+.blog__about [href$=".beon.fun/friends-posts/"]:before {
+    content: 'записи друзей';
+    font-size: 13px;
 }
