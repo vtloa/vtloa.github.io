@@ -921,3 +921,233 @@ a.btn.btn-outline-primary.mb-3 {
     width: 115px;
     image-rendering: -webkit-optimize-contrast;
 }
+
+
+
+
+/*----АДАПТАЦИЯ-----*/
+
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+
+
+div#app {
+    margin: auto !important;
+    width: 100%;
+}
+
+main.py-4 {
+    flex-direction: column;
+}
+
+.content {
+    width: 100%;
+}
+
+div#app {
+    margin: auto !important;
+    width: 100%;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    padding: 10px !important;
+}
+
+
+textarea.postdesc,textarea {
+    min-width: 100%;
+}
+
+.post-avatar img {
+    max-width: 100px;
+}
+
+.left-menu__user-notification.left-menu__unread-message, .notifications__comments.left-menu__user-notification, .left-menu__user-notification.left-menu__unread-notifications {
+    position: unset;
+    display: block;
+    background: white;
+    top: 30px;
+    left: 8%;
+    right: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 0px !important;
+}
+
+.left-menu {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    max-height: unset;
+    height: auto !important;
+    padding: 10px !important;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.left-menu:has(.left-menu__user-notification.left-menu__unread-message) .notifications__comments.left-menu__user-notification {
+    margin: 0px;
+}
+
+a.post-title {
+    margin-left: -25px;
+    padding-left: 15px;
+}
+
+.post-content {
+    padding: 1px;
+    position: relative;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+h3.left-menu-text {
+    font-weight: normal !important;
+    text-align: center;
+}
+
+i.fas.fa-angle-down {
+    display: none;
+}
+
+span.post-title-date {
+    position: unset;
+    padding: 0px;
+}
+
+.left-menu__friends.left-menu__friends_offline .right-menu-text,
+.notifications__comments.left-menu__user-notification .right-menu-text {
+    display: none !important;
+}
+
+.left-menu>div {
+    margin-bottom: 25px !important;
+}
+
+
+
+div#newpostform,.comment-box+.textareabg {
+    margin: 0px !important;
+    padding: 10px !important;
+    border-radius: 25px;
+}
+
+.fas, .far, .tag_bar > * {
+    padding: 0px;
+    font-size: 20px;
+}
+
+.post-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-text,.comment-content {
+    padding: 0px;
+}
+  
+.post-opt, .comment-text {
+    padding-left: 10px;
+}
+
+.hamburger-menu {
+    bottom: unset;
+    top: 10px;
+    right: 25px;
+}
+
+a.navbar-brand {
+    bottom: unset;
+    top: 10px;
+    left: 25px;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    background: #dff0fe;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #4788c7;
+    color: #4788c7 !important;
+    font-weight: normal;
+    box-shadow: inset 0px -5px #b6dcfe;
+    z-index: 2;
+    font-size: 0;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0px !important;
+}
+
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: '';
+    background: url(https://www.svgrepo.com/show/533601/arrow-narrow-down.svg) no-repeat center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: 30px;
+    filter: invert(54%) sepia(55%) saturate(554%) hue-rotate(169deg) brightness(82%) contrast(88%);
+}
+
+.mobile_open_menu h3.left-menu-text {
+    background: url(https://i.ibb.co/7jxv86d/f2a0c12d2268adead73d4d66b97964bd.gif) center !important;
+    color: white !important;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px !important;
+}
+  
+
+.left-menu> .mobile_open_menu {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+ul.menu__box {
+    bottom: unset !important;
+    top: 55px;
+    right: 10px !important;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    height: 380px;
+}
+.crumbs [href="/"] {
+    display: none;
+}
+.textareabg input[type="submit"] {
+    margin-bottom: 10px;
+}
+  .post-text.comment-text {
+    padding: 0px;
+}
+main.py-4 {
+    flex-direction: column;
+    padding: 0px !important;
+    padding-top: 20px !important;
+}
+  
+.bg-white+.crumbs {
+    position: unset;
+    width: 100%;
+    margin-top: 70px !important;
+}
+.pagination {
+    transform: scale(1.5);
+}
+  body.bodybg {
+    background: #b0c3e7;
+}
+  .notifications__comments.left-menu__user-notification+.left-menu__user-notification.left-menu__unread-notifications {
+    margin-top: 0;
+}
+
+}
