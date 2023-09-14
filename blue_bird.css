@@ -718,6 +718,13 @@ p.quotation {
     display: none;
 }
 
+a.btn.btn-outline-primary.mb-3 {
+    border: unset;
+    padding: 0;
+}
+
+
+
 
 
 
