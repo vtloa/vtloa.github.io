@@ -911,3 +911,8 @@ a.btn.btn-outline-primary.mb-3 {
 .left-menu__user-notification.left-menu__friends {
     order: 1;
 }
+
+.left-menu__user-notification.left-menu__friends .right-menu-text,
+[src="/i/online.png"] {
+    display: none;
+}
