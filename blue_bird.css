@@ -916,3 +916,8 @@ a.btn.btn-outline-primary.mb-3 {
 [src="/i/online.png"] {
     display: none;
 }
+
+.post-avatar img {
+    width: 115px;
+    image-rendering: -webkit-optimize-contrast;
+}
