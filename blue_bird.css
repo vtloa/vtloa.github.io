@@ -281,8 +281,8 @@ span.post-title-date {
 .left-menu {
     min-width: 335px;
     max-width: 353px;
-    min-height: 895px;
-    height: 910px;
+    max-height: calc(100vh - 125px);
+    overflow-y: auto;
     background: white;
     border: unset !important;
     display: grid;
@@ -293,6 +293,10 @@ span.post-title-date {
     margin-top: -100px;
     margin-right: 0px !important;
     margin-left: 15px;
+}
+
+.left-menu::-webkit-scrollbar {
+    display: none;
 }
 
 .blog__about h3.left-menu-text {
