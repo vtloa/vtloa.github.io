@@ -922,6 +922,11 @@ a.btn.btn-outline-primary.mb-3 {
     image-rendering: -webkit-optimize-contrast;
 }
 
+a.btn.btn-outline-primary.mb-3 {
+    background: transparent;
+}
+
+
 
 
 
@@ -1138,7 +1143,7 @@ main.py-4 {
 .bg-white+.crumbs {
     position: unset;
     width: 100%;
-    margin-top: 70px !important;
+    margin-top: 83px !important;
 }
 .pagination {
     transform: scale(1.5);
