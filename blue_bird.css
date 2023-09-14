@@ -385,7 +385,7 @@ div#fnplayer-slider,div#fnplayer-volume {
 div#fnplayer-slider-inner, div#fnplayer-volume-inner {
     height: 5px;
     border-radius: 10px;
-    background: #d8eaff;
+    background: #95b3dc;
 }
 
 div#fnplayer-volume-mask,div#fnplayer-volume-inner {
@@ -402,7 +402,7 @@ div#fnplayer-volume {
 }
 
 div#fnplayer-volume {
-    background: #cfd3f0;
+    background: #95b3dc;
 }
 
 div#fnplayer-volume-inner {
@@ -421,7 +421,7 @@ div#fnplayer-volume-inner {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #d8eaff;
+    background-color: #a2c5f4;
 }
 
 /*----END----*/
