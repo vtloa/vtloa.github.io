@@ -668,7 +668,7 @@ span.pagination-goto+[href="/page/2"]:before {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 20px;
+    bottom: 15px;
     border-radius: 5px;
     border: 2px solid #4788c7;
     color: #4788c7 !important;
@@ -682,7 +682,7 @@ span.pagination-goto+[href="/page/2"]:before {
 
 
 .crumbs [href="/"] {
-    right: 90px;
+    right: 80px;
 }
 
 .crumbs [href="/"]:before {
@@ -888,4 +888,22 @@ a.btn.btn-outline-primary.mb-3 {
   .left-menu__user-notification.left-menu__unread-notifications {
     left: 2%;
 }
+}
+
+
+
+
+
+
+
+
+
+/*---UPD----*/
+
+.pagination {
+    background: white;
+}
+
+.crumbs a {
+    color: #9cc4f4 !important;
 }
