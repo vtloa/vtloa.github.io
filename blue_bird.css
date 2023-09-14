@@ -907,3 +907,7 @@ a.btn.btn-outline-primary.mb-3 {
 .crumbs a {
     color: #9cc4f4 !important;
 }
+
+.left-menu__user-notification.left-menu__friends {
+    order: 1;
+}
