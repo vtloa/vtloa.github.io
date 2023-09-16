@@ -1196,3 +1196,14 @@ button.btn.btn-primary, button.btn.btn-secondary {
     content: 'записи друзей';
     font-size: 13px;
 }
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+  .blog__about [href$=".beon.fun/friends-posts/"]:before {
+    content: 'записи друзей';
+    font-size: 14px;
+}
+  .left-menu .blog__about [href$=".beon.fun/friends-posts/"] {
+    font-size: 0px !important;
+}
+}
