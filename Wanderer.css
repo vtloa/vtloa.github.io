@@ -861,3 +861,17 @@ div#fnplayer-slider {
     background: #fdefff;
     border-radius: 15px;
 }
+
+.left-menu__gift {
+    width: 100%;
+}
+.left-menu__gift img {
+    width: 30px;
+    mix-blend-mode: overlay;
+}
+
+.left-menu__gift .user:before,
+[src="//beon.fun/i/offline.png"] {
+    display: none;
+}
+
