@@ -875,3 +875,8 @@ div#fnplayer-slider {
     display: none;
 }
 
+.pagination a {
+    color: white;
+    margin-right: 10px;
+}
+
