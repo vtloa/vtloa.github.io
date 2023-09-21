@@ -215,7 +215,7 @@ p.left-menu-text {
 
 
 input[type="submit"], input[type="text"], textarea {
-    background: #fefeff;
+    background: #f8fafc;
     border: unset;
     font-size: 13px !important;
     border-radius: 20px;
