@@ -852,3 +852,12 @@ a.my-menu.for-mobile.d-none.d-md-inline:before {
     padding: 5px;
     padding-right: 11px;
 }
+
+[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
+
+div#fnplayer-slider {
+    background: #fdefff;
+    border-radius: 15px;
+}
