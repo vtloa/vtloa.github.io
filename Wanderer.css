@@ -121,15 +121,32 @@ body.bodybg {
     background-color: #e4e6ff;
 }
 
-div#app {
-    background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) no-repeat right fixed;
-    background-size: contain , auto;
-}
 
 div#app {
-    background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) no-repeat right fixed, url(https://i.ibb.co/TvbzX3w/skachild.png) no-repeat left bottom fixed;
-    background-size: contain , 700px;
+    background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) no-repeat right fixed,
+                url(https://i.ibb.co/TvbzX3w/skachild.png) no-repeat left bottom fixed,
+                url(https://i.ibb.co/4ZNKwGL/cat1-tr.png) no-repeat top 145px left 70px fixed,
+                url(https://i.ibb.co/RYs93Kq/cat2-tr.png) no-repeat top 345px left 70px fixed;
+    background-size: contain , 700px, auto, auto, auto;
 }
+
+
+
+
+@media (min-width: 1920px) {
+
+div#app {
+    background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) no-repeat right fixed,
+                url(https://i.ibb.co/TvbzX3w/skachild.png) no-repeat left bottom fixed,
+                url(https://i.ibb.co/4ZNKwGL/cat1-tr.png) no-repeat top 145px left 70px fixed,
+                url(https://i.ibb.co/RYs93Kq/cat2-tr.png) no-repeat top 345px left 70px fixed,
+                url(https://i.ibb.co/60St6ZY/cat3-tr.png) no-repeat top 420px left 285px fixed;
+    background-size: contain , 700px, auto, auto, auto;
+}
+}
+
+
+
 
 a {
     color: #a2a3ff;
@@ -254,9 +271,8 @@ img.mw-100 {
     margin-bottom: 10px;
 }
 
-.post-avatar img,
-img.mw-100{
-    border-radius: 10px;
+.post-avatar img, img.mw-100 {
+    border-radius: 3px;
 }
 
 
@@ -878,5 +894,12 @@ div#fnplayer-slider {
 .pagination a {
     color: white;
     margin-right: 10px;
+}
+
+i.far.fa-smile-wink {
+    color: #f9aaff;
+}
+.post-text, .comment-box .comment-base {
+    box-shadow: 0 0 30px #cad1f7;
 }
 
