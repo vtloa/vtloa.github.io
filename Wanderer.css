@@ -935,3 +935,6 @@ button.btn.btn-secondary,button.btn.btn-primary {
     border: unset;
 }
 
+.embed-responsive {
+    border-radius: 20px;
+}
