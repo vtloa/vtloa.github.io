@@ -903,3 +903,35 @@ i.far.fa-smile-wink {
     box-shadow: 0 0 30px #cad1f7;
 }
 
+.modal-content {
+    background-color: #f8fafc;
+    border: unset;
+    border-radius: 20px;
+}
+
+textarea#addtag-img-urls {
+    min-height: 100px;
+}
+
+
+
+a.btn.btn-outline-primary.mb-2 {
+    background: transparent;
+    border: unset;
+    color: #9599ed;
+    border-radius: 20px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary {
+    background: transparent;
+    border: unset;
+    color: #9599ed;
+    font-size: 16px;
+}
+
+.modal-header {
+    border: unset;
+}
+
