@@ -142,7 +142,7 @@ div#app {
 
 
 a {
-    color: #a2a3ff;
+    color: #8784f0;
     text-decoration: unset !important;
 }
 
@@ -1267,5 +1267,9 @@ span.post-title-date.pl-0 {
 
   .crumbs {
     margin-right: 0;
+}
+  
+  .left-menu>.left-menu__user-notification.left-menu__unread-message span.post-title-date.pl-0 {
+    font-size: 13px !important;
 }
 }
