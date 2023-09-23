@@ -12,7 +12,7 @@ font-family: 'Overpass Mono', monospace;
 
 */
 
-body.bodybg {
+body.bodybg,a.menu__item  {
     font-family: 'Jost', sans-serif;
 }
 
@@ -83,16 +83,9 @@ div#footer,div#page__rendertime{
     background: red;
 }
 
-/*-----УДАЛИТЬ-----*/
-
-.notifications__comments.left-menu__user-notification,
-.left-menu__user-notification.left-menu__unread-notifications,
-.left-menu__user-notification.left-menu__unread-message {
-    display: none;
+.community__moders,.community__members {
+    display: none !important;
 }
-
-
-
 
 
 /*----ПАЛИТРА----*/
@@ -388,7 +381,7 @@ a.user.post-title-user,i.fas.fa-chevron-down {
 
 
 .sign {
-    padding-top: 10px;
+    padding-top: 5px;
     color: #a2a3ff;
     font-size: 11px;
 }
@@ -961,3 +954,312 @@ img.mw-100 {
     border-radius: 10px;
 }
 
+
+/*----ОПОВЕЩЕНИЯ-----*/
+
+.left-menu__user-notification.left-menu__unread-message {
+    background: url(https://www.transparenttextures.com/patterns/fresh-snow.png) fixed;
+    background-color: #eff0ff;
+    outline: unset;
+}
+
+
+
+
+
+.left-menu>.left-menu__user-notification.left-menu__unread-message * {
+    color: #3f51b5 !important;
+    font-size: 15px !important;
+}
+
+.left-menu__user-notification.left-menu__unread-notifications {
+    text-align: center;
+}
+
+
+.mobile_open_menu h3.left-menu-text {
+    padding: 0px !important;
+}
+
+
+a:hover {
+    color: #f67aff;
+}
+
+
+
+.pagination a {
+    background: white;
+    display: inline-block;
+    padding: 6px;
+    height: 26px;
+    line-height: 1;
+    margin-bottom: 11px;
+    color: #9587fd;
+    border-radius: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    box-shadow: 0 0 30px #cad1f7;
+}
+
+.crumbs {
+    margin-right: 20%;
+}
+
+span.post-title-date.pl-0 {
+    position: unset;
+}
+
+/*----MEDIA----*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+  .left-menu {
+    min-width: 100%;
+    width: 100%;
+}
+  .content {
+    width: 100%;
+    max-width: 100%;
+    margin: auto !important;
+}
+  .content {
+    width: 100% !important;
+    max-width: 100%;
+    margin: auto !important;
+}
+  div#app {
+    padding: 5px;
+}
+  div#newpostform {
+    margin: 0px !important;
+}
+  textarea.postdesc {
+    min-width: 100% !important;
+}
+  div#newpostform {
+    padding: 10px !important;
+}
+
+  a.post-title {
+    max-width: 90%;
+    position: unset;
+}
+  .post-text {
+    padding: 5px;
+    background: transparent;
+    box-shadow: unset;
+    padding-top: 0;
+}
+  .post-content {
+    background: url(https://www.transparenttextures.com/patterns/fresh-snow.png) fixed;
+    background-color: #eff0ff;
+    border-radius: 20px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-bottom: 25px !important;
+}
+
+  span.post-title-date {
+    position: unset;
+}
+  span.comments_count a,span.comments_count span::before {
+    font-size: 13px;
+}
+  .sign {
+    padding: 0;
+}
+  .fas, .far, .tag_bar > * {
+    padding: 0;
+    font-size: 11px;
+}
+  i.far.fa-smile-wink {
+    font-size: 15px;
+}
+  .form__show-avatars {
+    background: #f9aaff;
+    color: #f8fafc !important;
+    font-size: 16px !important;
+    border-radius: 15px;
+}
+  input[type="submit"] {
+    box-shadow: unset;
+    margin-bottom: 5px;
+}
+  .tag_bar span {
+    margin-right: 5px;
+}
+  div#app {
+    background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) no-repeat top 45px right -200px fixed;
+    background-size: cover;
+}
+  .bg-white {
+    padding: 10px;
+    border-radius: 20px;
+    background: url(https://www.transparenttextures.com/patterns/fresh-snow.png) fixed;
+    background-color: #eff0ff;
+    box-shadow: 0 0 30px #cad1f7 !important;
+}
+  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-size: 0px !important;
+}
+  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: 'DONW';
+    font-size: 16px;
+}
+  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #a598ff;
+}
+  ul.menu__box {
+    padding: 0;
+    overflow: auto;
+}
+  a.menu__item {
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+  ul.menu__box {
+    background-color: #f3f4ff;
+    border-radius: 30px;
+    margin-top: 95px;
+    padding: 20px;
+    height: auto;
+    width: 240px;
+    margin-right: 5px;
+    box-shadow: 0 0 30px #cad1f7 !important;
+}
+  a.menu__item:hover {
+    background: #f9aaff;
+    border-radius: 10px;
+    color: white !important;
+}
+  label.menu__btn {
+    margin: 0;
+    margin-right: 10px;
+}
+  .left-menu>.left-menu__user-notification.left-menu__unread-message a {
+    color: #f9aaff !important;
+    font-size: 16px !important;
+}
+  .left-menu__user-notification.left-menu__unread-message .user:before {
+    display: none;
+}
+  .left-menu__user-notification.left-menu__unread-message input[type="submit"] {
+    background: white;
+}
+  i.fas.fa-angle-down:after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(https://www.svgrepo.com/show/522144/heart-like.svg) no-repeat center;
+    background-size: cover;
+    filter: invert(74%) sepia(59%) saturate(719%) hue-rotate(207deg) brightness(100%) contrast(110%);
+}
+  .fa-angle-down:before {
+    font-size: 0;
+}
+  .mobile_open_menu h3.left-menu-text {
+    font-weight: normal !important;
+    font-size: 20px !important;
+}
+  
+  .left-menu__user-notification.left-menu__unread-message h3.left-menu-text+p {
+    margin-bottom: 5px;
+}
+  .left-menu__user-notification.left-menu__unread-message img+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    width: 30px;
+    height: 30px;
+    bottom: 10px;
+}
+  .left-menu__user-notification.left-menu__unread-notifications p {
+    margin: 0px;
+}
+  
+
+  .post-opt {
+    font-size: 14px;
+}
+  .comment-box .comment-base {
+    padding: 0;
+    background: transparent;
+    box-shadow: unset;
+    border-radius: unset;
+}
+  .comment-content {
+    background: url(https://www.transparenttextures.com/patterns/fresh-snow.png) fixed;
+    background-color: #eff0ff;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px !important;
+}
+  .comment-box a.user.post-title-user {
+    position: unset;
+}
+  .comment-content .comment-row {
+    margin-top: 5px;
+}
+  .comment-box  .comment-text {
+    padding-left: 5px;
+}
+  .textareabg {
+    padding: 10px !important;
+}
+  .post-content .text-right {
+    position: unset;
+}
+  .comment-box h2 {
+    background: #f9aaff;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+  .small-text+div a {
+    background: #f9aaff;
+    color: white;
+}
+  .text-right {
+    text-align: left !important;
+}
+  .post-text.comment-text+.post-opt {
+    text-align: left;
+}
+  .left-menu__user-notification.left-menu__unread-message,
+  .post-content,.comment-content {
+    box-shadow: 0 0 30px #cad1f7;
+}
+  .comment-box h2 {
+    margin-top: -15px;
+}
+  .fa-smile-wink:before {
+    content: "\f4da";
+    display: inline-block;
+    transform: translateY(3px);
+}
+  
+  main.py-4+.crumbs .crumbs a {
+    padding: 5px;
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+  .crumbs {
+    padding: 0px !important;
+    padding-top: 10px !important;
+}
+
+  .crumbs {
+    margin-right: 0;
+}
+}
