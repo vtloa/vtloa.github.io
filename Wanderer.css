@@ -938,3 +938,26 @@ button.btn.btn-secondary,button.btn.btn-primary {
 .embed-responsive {
     border-radius: 20px;
 }
+
+
+a.btn.btn-outline-primary.mb-3 {
+    border: unset;
+    background: #fefeff;
+    border-radius: 15px;
+    color: #a7a8ff;
+    margin-bottom: 5px !important;
+}
+
+a.btn.btn-outline-primary.mb-3:hover {
+    background: #f9aaff;
+    color: #fefeff;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: unset !important;
+}
+
+img.mw-100 {
+    border-radius: 10px;
+}
+
