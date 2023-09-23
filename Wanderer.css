@@ -1279,3 +1279,10 @@ span.post-title-date.pl-0 {
     font-size: 13px !important;
 }
 }
+
+
+/*---UPD----*/
+
+span.imagewrapper img {
+    border-radius: 9px;
+}
