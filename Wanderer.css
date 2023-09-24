@@ -1102,10 +1102,7 @@ span.post-title-date.pl-0 {
   .tag_bar span {
     margin-right: 5px;
 }
-  div#app {
-    background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) no-repeat top 45px right -200px fixed;
-    background-size: cover;
-}
+
   .bg-white {
     padding: 10px;
     border-radius: 20px;
@@ -1277,6 +1274,29 @@ span.post-title-date.pl-0 {
   
   .left-menu>.left-menu__user-notification.left-menu__unread-message span.post-title-date.pl-0 {
     font-size: 13px !important;
+}
+
+
+/*-----БЕК ДЛЯ АЙФОНА?-----*/
+
+body:after {
+      content:'';
+      position: fixed;
+      top: 0;
+      height: 100vh;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      background: url(https://i.ibb.co/s1Hg6sn/Wanderer-trans2.png) top right -200px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: #f2f3ff;
+}
+
+div#app {
+    background: transparent !important;
 }
 }
 
