@@ -1306,3 +1306,11 @@ div#app {
 span.imagewrapper img {
     border-radius: 9px;
 }
+
+
+@media (min-width: 1200px) {
+.comment-content:has(a.user.post-title-user+span.user-drop-menu.cur-p) a.user.post-title-user,
+.comment-content:has(a.user.post-title-user+span.user-drop-menu.cur-p) span.post-title-date {
+    top: 20px;
+}
+}
