@@ -1299,6 +1299,14 @@ main.py-4 {
 
 
 
+.post-content h1 {
+    color: black !important;
+}
+
+
+
+
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
