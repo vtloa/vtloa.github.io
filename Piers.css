@@ -1516,4 +1516,9 @@ a.post-title {
   .comment-content .comment-text+.mt-3 {
     font-size: 8px;
 }
+.post-content .post-opt .post__tags-list,
+.post-content .post-opt .post__wish,
+.post-content .post-opt .post__musicplay {
+    font-size: 14px !important;
+}
 }
