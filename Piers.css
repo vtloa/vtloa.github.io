@@ -1466,9 +1466,7 @@ a.post-title {
     z-index: 222;
     top: -100px;
 }
-  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
-    margin-top: -5px;
-}
+
   .hamburger-menu {
     margin: 0px;
 }
@@ -1530,5 +1528,8 @@ a.post-title {
 .post-content .post-opt .post__wish,
 .post-content .post-opt .post__musicplay {
     font-size: 14px !important;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    margin-top: -8px;
 }
 }
