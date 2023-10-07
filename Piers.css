@@ -71,7 +71,11 @@ span.imagewrapper1:has([src="//i.ibb.co/VNZTQ4z/krol.png"]):before {
     margin-bottom: 5px !important;
 }
 .notifications__comments.left-menu__user-notification .right-menu-text {
-    display: none;
+    display: none !important;
+}
+
+.left-menu__friends.left-menu__friends_offline .right-menu-text {
+    display: none !important;
 }
 
 /*------END-----------*/
