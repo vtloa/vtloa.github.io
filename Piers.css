@@ -259,8 +259,8 @@ img.mw-100 {
     margin-bottom: 10px;
 }
 
-.blog__about {
-    background: url(https://i.ibb.co/MRsj705/p-b.png),linear-gradient(0deg, black, #8b8b8b);
+.left-menu .blog__about {
+    background: url(https://i.ibb.co/MRsj705/p-b.png),linear-gradient(0deg, black, #8b8b8b) !important;
     background-blend-mode: color-burn;
 }
 
@@ -1531,5 +1531,10 @@ a.post-title {
 }
 a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
     margin-top: -8px;
+}
+.left-menu .blog__about {
+    background: url(https://i.ibb.co/MRsj705/p-b.png) !important;
+    background-color: #202020 !important;
+    background-blend-mode: color-burn;
 }
 }
