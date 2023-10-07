@@ -486,7 +486,6 @@ span.comments_count * {
 
 .datebg {
     position: relative;
-    background-blend-mode: color-burn;
     background: url(https://i.ibb.co/MRsj705/p-b.png);
     background-color: #fcfcfc;
     margin: 0px !important;
