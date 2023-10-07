@@ -1559,3 +1559,7 @@ input[type="submit"]:hover {
 .left-menu__user-notification.left-menu__friends {
     display: none !important;
 }
+
+.container-fluid.gifts-page .col-lg-2.col-md-4.col-6.gifts-page__gifts-item .post-opt {
+    font-size: 14px;
+}
