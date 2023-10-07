@@ -484,6 +484,7 @@ span.comments_count * {
     position: relative;
     background-blend-mode: color-burn;
     background: url(https://i.ibb.co/MRsj705/p-b.png);
+    background-color: #fcfcfc;
     margin: 0px !important;
     margin-bottom: 5px !important;
     padding: 20px;
