@@ -1545,4 +1545,9 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
 
 input[type="submit"] {
     cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.7;
 }
