@@ -1551,3 +1551,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     opacity: 0.7;
 }
+
+.left-menu__user-notification.left-menu__friends {
+    display: none !important;
+}
