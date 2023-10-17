@@ -1561,36 +1561,6 @@ span.crumb-item {
     display: none;
 }
 
-/*---------ДЛЯ 1920-----------*/
-
-
-@media (min-width: 1920px) {
-  .left-menu:before {
-    width: 500px;
-    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png), url(https://i.ibb.co/nbBCC7s/canr-4.png) no-repeat center bottom 0px;
-    background-size: cover;
-    background-color: #140c10;
-}
-  .left-menu:after {
-    width: 535px;
-}
-  .left-menu {
-    min-width: 500px;
-    max-width: 500px;
-}
-  .bg-white,.bg-white+.crumbs {
-    margin-left: 590px !important;
-}
-  .blog__about,.blog__tags, .blog__read-me,
-  .left-menu__user-notification.left-menu__unread-message,
-  .left-menu__user-notification.left-menu__unread-notifications,
-  .notifications__comments.left-menu__user-notification {
-    width: 480px;
-}
-}
-
-
-/*-------------------*/
 
 
 .bg-white {
@@ -1654,3 +1624,42 @@ a.menu__item:hover {
 [src="//beon.fun/i/design-off.png"] {
     display: none;
 }
+
+
+
+/*---------ДЛЯ 1920-----------*/
+
+
+@media (min-width: 1920px) {
+  .left-menu:before {
+    width: 500px;
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png), url(https://i.ibb.co/nbBCC7s/canr-4.png) no-repeat center bottom 0px;
+    background-size: cover;
+    background-color: #140c10;
+}
+  .left-menu:after {
+    width: 535px;
+}
+  .left-menu {
+    min-width: 500px;
+    max-width: 500px;
+}
+  .bg-white,.bg-white+.crumbs {
+    margin-left: 590px !important;
+}
+  .blog__about,.blog__tags, .blog__read-me,
+  .left-menu__user-notification.left-menu__unread-message {
+    width: 480px;
+}
+  .notifications__comments.left-menu__user-notification {
+    width: 350px;
+}
+
+  .left-menu__user-notification.left-menu__unread-notifications {
+    width: 120px;
+    left: 370px;
+}
+}
+
+
+/*-------------------*/
