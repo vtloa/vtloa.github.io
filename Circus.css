@@ -1664,6 +1664,27 @@ a.menu__item:hover {
 
 /*-------------------*/
 
-.post-text1 a {
-    color: #be0133 !important;
+/*---------нумерация внизу-------*/
+main.py-4+.crumbs {
+    display: block;
+    box-shadow: unset !important;
+    padding: 0px;
+    margin-left: 490px !important;
+    width: calc(70% - 180px);
+    position: relative;
+    z-index: 3333;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-top: -11px !important;
+}
+
+main.py-4+.crumbs span.crumb-item {
+    display: none;
+}
+
+
+@media (min-width: 1920px){
+main.py-4+.crumbs {
+    margin-left: 590px !important;
+}
 }
