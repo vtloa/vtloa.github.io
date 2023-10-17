@@ -1689,6 +1689,10 @@ main.py-4+.crumbs span.crumb-item {
     font-size: 0px !important;
 }
 
+.pagination a {
+    margin-right: 8px;
+}
+
 
 @media (min-width: 1920px){
 main.py-4+.crumbs {
