@@ -1701,7 +1701,26 @@ main.py-4+.crumbs {
 }
 
 
-.post-content {
-    position: relative;
-    z-index: 22;
+/*-----кнопки в посте-----*/
+
+.small-text+div a,.text-right a {
+    margin-right: 15px;
+    background: #d9d6cf;
+    padding: 3px;
+    border-radius: 3px;
+    color: #706e6b !important;
+    display: inline-block;
+}
+.small-text+div {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.post-content .text-right {
+    text-align: left !important;
+}
+
+a.load_ignored_comments {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
