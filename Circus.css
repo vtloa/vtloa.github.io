@@ -1453,7 +1453,7 @@ div#footer:before {
     margin-left: 490px !important;
     width: calc(70% - 180px);
     position: relative;
-    z-index: 22;
+    z-index: 3333;
     margin-top: -75px !important;
     margin-bottom: 45px !important;
     font-family: 'Pacifico', cursive;
