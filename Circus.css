@@ -1703,14 +1703,21 @@ main.py-4+.crumbs {
 
 /*-----кнопки в посте-----*/
 
-.small-text+div a,.text-right a {
+.small-text+div a, .post-content .text-right a {
     margin-right: 15px;
     background: #d9d6cf;
     padding: 3px;
     border-radius: 3px;
     color: #706e6b !important;
     display: inline-block;
+    font-size: 12px;
 }
+
+.small-text+div a:hover, .post-content .text-right a:hover {
+    transform: translate(3px, 3px);
+}
+
+
 .small-text+div {
     display: flex;
     justify-content: flex-start !important;
