@@ -1699,3 +1699,9 @@ main.py-4+.crumbs {
     margin-left: 590px !important;
 }
 }
+
+
+.post-content {
+    position: relative;
+    z-index: 22;
+}
