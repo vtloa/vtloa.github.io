@@ -1650,3 +1650,7 @@ a.menu__item {
 a.menu__item:hover {
     background: #ffb000;
 }
+
+[src="//beon.fun/i/design-off.png"] {
+    display: none;
+}
