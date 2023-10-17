@@ -1703,7 +1703,7 @@ main.py-4+.crumbs {
 
 /*-----кнопки в посте-----*/
 
-.small-text+div a, .post-content .text-right a {
+.small-text+div a, .post-content a.load_ignored_comments {
     margin-right: 15px;
     background: #d9d6cf;
     padding: 3px;
@@ -1713,7 +1713,7 @@ main.py-4+.crumbs {
     font-size: 12px;
 }
 
-.small-text+div a:hover, .post-content .text-right a:hover {
+.small-text+div a:hover, .post-content a.load_ignored_comments:hover {
     transform: translate(3px, 3px);
 }
 
@@ -1723,7 +1723,7 @@ main.py-4+.crumbs {
     justify-content: flex-start !important;
 }
 
-.post-content .text-right {
+.post-content .text-right:has(a.load_ignored_comments) {
     text-align: left !important;
 }
 
