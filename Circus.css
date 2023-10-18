@@ -1754,6 +1754,12 @@ h3.left-menu-text:before {
     color: #706e6b !important;
 }
 
+
+.left-menu__user-notification.left-menu__unread-message input[type="submit"] {
+    border: unset;
+    border-radius: 3px;
+}
+
 /*---цирк шрифт жирнее*/
 a.navbar-brand {
     font-weight: bold;
