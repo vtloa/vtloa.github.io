@@ -2213,6 +2213,7 @@ a.btn.btn-outline-primary.mb-2,.modal-footer {
     border: unset;
 }
 
-a.btn.btn-outline-primary.mb-2,a.btn.btn-outline-primary.mb-2:hover,button.btn.btn-secondary,button.btn.btn-primary {
+a.btn.btn-outline-primary.mb-2, a.btn.btn-outline-primary.mb-2:hover, button.btn.btn-secondary, button.btn.btn-primary {
     background: #d1cec6;
+    border: unset;
 }
