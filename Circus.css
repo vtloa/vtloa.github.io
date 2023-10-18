@@ -2192,3 +2192,27 @@ a.navbar-brand {
     height: auto !important;
 }
 }
+
+
+/*---UPD модалки*/
+
+.modal-content {
+    padding: 0px;
+    background: url(https://i.ibb.co/JHzZGWF/stars-1000-black.png) center;
+    background-size: 800px;
+    background-color: #e7e5e1;
+    background-blend-mode: soft-light;
+    border-radius: 5px;
+    margin-bottom: 10px !important;
+    border: 3px solid #55555552;
+}
+.modal-header {
+    border: unset;
+}
+a.btn.btn-outline-primary.mb-2,.modal-footer {
+    border: unset;
+}
+
+a.btn.btn-outline-primary.mb-2,a.btn.btn-outline-primary.mb-2:hover,button.btn.btn-secondary,button.btn.btn-primary {
+    background: #d1cec6;
+}
