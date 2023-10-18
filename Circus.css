@@ -2164,4 +2164,9 @@ a.navbar-brand {
   span.comments_count span::before {
     font-weight: bold;
 }
+  .left-menu>div {
+    position: unset !important;
+    width: 100% !important;
+    opacity: 1 !important;
+}
 }
