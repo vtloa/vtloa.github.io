@@ -2169,4 +2169,18 @@ a.navbar-brand {
     width: 100% !important;
     opacity: 1 !important;
 }
+    .left-menu__user-notification.left-menu__unread-message h3.left-menu-text,
+    .notifications__comments.left-menu__user-notification h3.left-menu-text,
+    .left-menu__user-notification.left-menu__unread-notifications h3.left-menu-text {
+    color: black !important;
+    text-align: center !important;
+}
+    .left-menu__user-notification.left-menu__unread-notifications {
+    padding: 5px;
+    height: auto;
+}
+    .left-menu__user-notification.left-menu__unread-notifications [href="//beon.fun/p/likes?new_only=true"]:before {
+    margin-top: 25px;
+}
+
 }
