@@ -2188,5 +2188,7 @@ a.navbar-brand {
     .left-menu__user-notification.left-menu__unread-notifications [href="//beon.fun/p/likes?new_only=true"]:before {
     margin-top: 25px;
 }
-
+    .left-menu>div {
+    height: auto !important;
+}
 }
