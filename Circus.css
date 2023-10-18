@@ -1793,6 +1793,11 @@ a.navbar-brand {
 
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+ main.py-4 {
+    flex-direction: column;
+}
+
+
   .left-menu {
     min-width: 100%;
     max-width: 100%;
