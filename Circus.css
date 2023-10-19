@@ -2230,3 +2230,12 @@ a.navbar-brand:before {
     padding: 0;
     padding-top: 3px;
 }
+
+
+/*----FIX----*/
+
+.content:has(h1+.datebg) h1 {
+    padding-left: 90px;
+    padding-top: 20px;
+    font-size: 20px;
+}
