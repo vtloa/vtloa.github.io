@@ -25,7 +25,8 @@ body.bodybg {
 @font-face { font-family: "FunnyWitchesDemo-rgeey"; src: url('//vtloa.github.io/BAG/FunnyWitchesDemo-rgeey.ttf'); }
 
 
-
+@font-face { font-family: "vm0nO"; src: url('//vtloa.github.io/BAG/BrushSquadDemoVersionRegular-vm0nO.ttf'); }
+@font-face { font-family: "2OVvK"; src: url('//vtloa.github.io/BAG/BrushSquadDemoVersionRegular-2OVvK.otf'); }
 
 
 
@@ -2216,4 +2217,16 @@ a.btn.btn-outline-primary.mb-2,.modal-footer {
 a.btn.btn-outline-primary.mb-2, a.btn.btn-outline-primary.mb-2:hover, button.btn.btn-secondary, button.btn.btn-primary {
     background: #d1cec6;
     border: unset;
+}
+
+
+
+a.navbar-brand {
+    font-family: "vm0nO";
+    font-weight: 100;
+}
+
+a.navbar-brand:before {
+    padding: 0;
+    padding-top: 3px;
 }
