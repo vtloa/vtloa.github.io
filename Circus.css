@@ -2241,6 +2241,7 @@ a.navbar-brand:before {
 }
 
 
-.row.w-100.mt-3 .liked .fas, .row.w-100.mt-3 .reposted .fas, .row.w-100.mt-3 .bookmarked .fas {
+.row.w-100.mt-3 .liked .fas, .row.w-100.mt-3 .reposted .fas, .row.w-100.mt-3 .bookmarked .fas,
+.mt-3 .liked .fas, .mt-3 .reposted .fas, .mt-3 .bookmarked .fas {
     color: #b2222f !important;
 }
