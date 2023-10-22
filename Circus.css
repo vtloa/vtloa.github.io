@@ -2245,3 +2245,7 @@ a.navbar-brand:before {
 .mt-3 .liked .fas, .mt-3 .reposted .fas, .mt-3 .bookmarked .fas {
     color: #b2222f !important;
 }
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #923458 !important;
+}
