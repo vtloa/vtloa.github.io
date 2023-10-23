@@ -95,3 +95,10 @@ div#settingscollapse+div+hr+.comment-box .post-content .comment-row {
 .post-content.dialog-preview .comment-row+div:hover {
     background: #2d45ec !important;
 }
+
+/*----цвет ссылок----*/
+
+
+.post-text a,.comment-base a {
+    color: #e6221f;
+}
