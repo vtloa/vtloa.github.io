@@ -518,3 +518,8 @@ textarea#comment_body {
     transition: 0.1s !important;
     transition-delay: 0.2s !important;
 }
+
+
+.post_image a img {
+    max-height: 100px !important;
+}
