@@ -1394,3 +1394,23 @@ a.user.post-title-user:hover+img+span.user-drop-menu.cur-p+span {
 span.user-drop-menu.cur-p {
     display: none;
 }
+
+
+
+/*----fix без флага----*/
+
+
+a.user.post-title-user:hover+span.user-drop-menu.cur-p+span {
+    left: 60%;
+}
+
+
+a.post-title:hover+a+span.user-drop-menu.cur-p+span {
+    left: 60%;
+}
+
+span.user-drop-menu.cur-p {
+    display: block;
+    opacity: 0;
+    height: 0;
+}
