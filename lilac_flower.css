@@ -864,6 +864,18 @@ a.load_ignored_comments,.post-content [href$="unsubscribe"],a.post-subscribe {
 }
 
 
+h3.left-menu-text {
+    text-align: center !important;
+}
+
+.left-menu__user-notification.left-menu__unread-message p+img {
+    border-radius: 5px;
+}
+
+
+
+
+
 /*-------------------------МЕДИА----*/
 
 
