@@ -16,17 +16,11 @@ body.bodybg {
     background: url(https://i.ibb.co/Pm3ddHw/sirenblur-post.png) no-repeat right -60px top;
     background-color: #ebebeb;
     background-blend-mode: color-burn;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 45px !important;
 }
 
 .left-menu>div {
     background: url(https://i.ibb.co/HdKtcNd/sirenblur-post-wtite2.png) no-repeat left -240px top -150px;
     background-color: #673f8a;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-radius: 10px;
     background-blend-mode: hard-light;
 }
 
