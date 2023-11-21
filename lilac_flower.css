@@ -855,8 +855,8 @@ a.load_ignored_comments,.post-content [href$="unsubscribe"],a.post-subscribe {
     font-size: 13px;
 }
 
-.post-content a:hover,.comment-box a:hover {
-    color: #843cdf !important;
+.post-content a:hover, .comment-box a:hover {
+    color: #794db1 !important;
 }
 
 .left-menu a:hover {
