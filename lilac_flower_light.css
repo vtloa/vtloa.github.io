@@ -1,0 +1,96 @@
+/*----СВЕТЛЫЙ ВАРИАНТ-----*/
+
+
+/*----АЛЬТЕРНАТИВА---*/
+
+
+body.bodybg {
+    background: url(https://i.ibb.co/PmwTzFf/sirenblur.png) no-repeat center fixed;
+    background-color: #906bb3;
+    background-size: cover;
+    background-blend-mode: unset;
+}
+
+
+.post-content {
+    background: url(https://i.ibb.co/Pm3ddHw/sirenblur-post.png) no-repeat right -60px top;
+    background-color: #ebebeb;
+    background-blend-mode: color-burn;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 45px !important;
+}
+
+.left-menu>div {
+    background: url(https://i.ibb.co/HdKtcNd/sirenblur-post-wtite2.png) no-repeat left -240px top -150px;
+    background-color: #673f8a;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-blend-mode: hard-light;
+}
+
+.left-menu>div {
+    color: #ebebeb;
+}
+
+
+.left-menu>div a, span.post-title-date {
+    color: #ebebeb;
+}
+
+h3.left-menu-text {
+    color: #663d89 !important;
+}
+
+
+
+.blog__about .text-center,.comment-box,div#beon-fnplayer,a.post-title,h3.left-menu-text,.modal-content {
+    background-color: #ebebeb !important; 
+}
+
+
+.crumbs,.container,div#newpostform {
+    background: #613c82;
+}
+
+
+
+.avatar-select-list::-webkit-scrollbar {
+    background: #dad4df;
+    width: 10px;
+    border: 4px solid #613c82;
+}
+
+
+
+textarea, input.w-100, input[type="text"], select {
+    background-color: #ebebeb;
+}
+
+
+input[type="submit"] {
+    background: #ebebeb;
+}
+
+
+a.my-menu.for-mobile.d-none.d-md-inline:before,
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    color: #ebebeb;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #e9ebe6;
+}
+
+
+textarea#addtag-img-urls, textarea#add-inst-urls, textarea#addtag-video-urls {
+    background: #9876b12b;
+}
+
+a.btn.btn-outline-primary.mb-2:hover, button.btn.btn-secondary, button.btn.btn-primary, .modal-content select {
+    background: #ddd7e1;
+}
+
+/*-----------*/
