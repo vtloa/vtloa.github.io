@@ -45,7 +45,13 @@ h3.left-menu-text {
 
 
 
-.blog__about .text-center,.comment-box,div#beon-fnplayer,a.post-title,h3.left-menu-text,.modal-content {
+.blog__about .text-center,
+.comment-box,
+div#beon-fnplayer,
+a.post-title,
+h3.left-menu-text,
+.modal-content,
+.datebg {
     background-color: #ebebeb !important; 
 }
 
@@ -53,7 +59,6 @@ h3.left-menu-text {
 .crumbs,.container,div#newpostform,.textareabg {
     background: #613c82;
 }
-
 
 
 .avatar-select-list::-webkit-scrollbar {
