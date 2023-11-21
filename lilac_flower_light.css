@@ -45,7 +45,8 @@ div#beon-fnplayer,
 a.post-title,
 h3.left-menu-text,
 .modal-content,
-.datebg {
+.datebg,
+.pagination a {
     background-color: #ebebeb !important; 
 }
 
