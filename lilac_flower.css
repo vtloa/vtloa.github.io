@@ -1087,3 +1087,14 @@ div#navbarSupportedContent {
     display: none;
 }
 }
+
+
+/*----UPD----*/
+
+
+a.btn.btn-outline-primary.mb-3:hover {
+    background: #eae6ed;
+}
+a.btn.btn-outline-primary.mb-3 {
+    border-color: #9876b1;
+}
