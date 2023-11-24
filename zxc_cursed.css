@@ -1,0 +1,791 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+/*
+font-family: 'Martian Mono', monospace;
+
+
+font-family: 'Kosugi Maru', sans-serif;
+
+*/
+
+
+body {cursor: url(https://i.ibb.co/6mGB0L8/1.png) , default!important;}
+a,button,img,input,b,label.menu__btn {cursor: url(https://i.ibb.co/YtgcLzr/2.png) , pointer!important;}
+
+
+
+body,a.menu__item {
+    font-family: 'Martian Mono', monospace;
+}
+
+
+.post-text {
+    font-size: 11px;
+}
+
+
+.left-menu * {
+    font-size: 11px;
+}
+
+
+.footer__infolinks.p-1,
+div#page__admincontact,
+div#footer,div#page__rendertime{
+    font-size: 0;
+    padding: 0px !important;
+}
+
+.left-menu__friends.left-menu__friends_offline,
+.blog__about h3.left-menu-text,
+.community__moders,
+.community__members{
+    display: none !important;
+}
+
+div#newpostform {
+    display: none;
+}
+
+
+main.py-4+.crumbs {
+    display: none;
+}
+
+
+/*----------------*/
+
+span i strong {
+    background: #3b3b3b;
+    padding: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: #0e0e0e !important;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    text-shadow: 0 0 transparent;
+}
+
+[src="//i0.beon.fun/21/15/1521/avatars/13.png?1648879615"] {
+    content: url(https://i.ibb.co/jDqNk3P/c-ava2.png);
+}
+
+/*----------------*/
+
+body.bodybg {
+    background: url(https://i.ibb.co/BzNdNrB/cursed-b-rev.png) no-repeat right top fixed,
+                url(https://i.ibb.co/7jjqtbf/cursed-b2.png) fixed;
+    background-size: contain, auto;
+    background-color: #141414;
+}
+
+
+
+
+
+.bg-white {
+    background: transparent;
+    padding: 0px;
+    box-shadow: unset !important;
+}
+
+
+.post-content.blog_total_counter {
+    display: none;
+}
+
+body.bodybg {
+    color: #000;
+}
+
+main.py-4 {
+    width: 45%;
+    min-width: 700px;
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+
+.crumbs {
+    width: 1000px;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+
+.post-content1 {
+    margin: 0px !important;
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-color: #141414;
+    padding: 10px;
+    margin-bottom: 60px !important;
+    position: relative;
+}
+
+
+.post-content {
+    margin: 0px !important;
+    padding: 10px;
+    margin-bottom: 60px !important;
+    position: relative;
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png) repeat-y center right 121px, url(https://i.ibb.co/qWbTXm7/kogti3.png) repeat-y bottom 110px right -47px;
+}
+
+
+
+.post-text {
+    color: #dfdfdf;
+}
+
+.datebg {
+    margin: 0px;
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #898989;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    border-bottom: unset;
+    position: relative;
+    margin-bottom: -35px;
+    margin-right: 10px;
+    z-index: 2;
+}
+
+.post-content a, .post-content span {
+    color: #7638db;
+}
+
+h3.left-menu-text {
+    background: transparent !important;
+}
+
+.left-menu *{
+    color: #ab78ff !important;
+    text-shadow: 0 0 2px black;
+}
+
+
+h3.left-menu-text {
+    text-align: center;
+}
+
+.blog__about [action="/search"] {
+    display: none;
+}
+
+.row.w-100.mt-3 * {
+    font-size: 10px !important;
+    color: #898989 !important;
+}
+
+.post-opt.col-12.col-md-6 {
+    padding: 0px;
+}
+
+.row.w-100.mt-3 {
+    margin: 0px;
+}
+
+
+.tag:before,.user:before,[src="/i/user.png"] {
+    display: none;
+}
+
+
+a.user.post-title-user {
+    font-size: 12px;
+}
+
+span.post-title-date+span {
+    display: none;
+}
+
+.post-opt.col-12.col-md-6 {
+    font-size: 2px !important;
+}
+
+
+.container {
+    max-width: 100%;
+    padding: 0px;
+}
+
+.crumbs {
+    padding: 0px;
+}
+
+span.crumb-item {
+    font-weight: unset;
+    color: #dbdbdb;
+    font-size: 11px;
+}
+
+a.post-title {
+    text-decoration: unset;
+    margin-bottom: 15px;
+}
+
+.pc-menu {
+    display: none;
+}
+
+.bg-white {
+    position: relative;
+    height: 200px;
+}
+
+.m2 {
+    display: none;
+}
+
+a.navbar-brand {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 40px;
+    width: fit-content;
+    margin: auto !important;
+    font-weight: normal;
+    font-size: 0;
+    color: #6f3cc5 !important;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+a.post-title:hover {
+    color: #7638db !important;
+}
+
+a.navbar-brand:hover {
+    color: #898989 !important;
+}
+
+a.navbar-brand:before {
+    content: 'С̴̞̜̺̖͓̈́̓̾̋̿̊̋͐̋͑̊́̿̄͂͗̎̕͘͜Д̴̢̫̩̭̣̣̩̹̫̰̬̓̾̐͑̏̓̽̽̈́͐̀̌О̸̢̧̛͚͍͓̺͓̙̼̘̹̟̫̤̞̦́͛̓̂̈̌̾̈͐̄̓̚͘͝͠͠Х̷̨̡̹͎̮̮̠̋̒̋͛͐̈̍̚Н̷̧̡̰̬̥̥̘̹̰̙̥̙͚̭͐̋̃̋̾̋̉̐̆͒͑͋̀̉͋͘͝͠͝У̴̧̮̱̟̰͑̂̀̈́̀̔͑̑͘Т̵̢̨̧̡̗̯̝̩̲̺̣̺͇̯̻͎̤̬̘̾͑͂̄̈́̌̋̾́͋̌̉̇̃̉̃̈́̐͜͜͝Ь̸̧͓̯̳̙̖̥͈̦̼̯̻̗̜̩̮̜̫̞͚͑͌̈́́̀̕̚͝ͅ';
+    font-size: 20px;
+}
+
+span.crumb-item {
+    display: none;
+}
+
+.sign {
+    font-size: 8px;
+    color: #898989;
+}
+
+.content {
+    width: 100%;
+}
+
+a.post-title::first-letter {
+    color: #7638db !important;
+}
+a.post-title {
+    display: inline-block;
+    font-size: 30px;
+    color: #cfcfcf;
+    position: absolute;
+    top: -36px;
+}
+
+.fa-heart:before,
+.row.w-100.mt-3 span.post-likes-count {
+    color: #6c2ff3 !important;
+}
+
+
+.post-header {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+a.user.post-title-user,.fa-chevron-down:before,span.post-title-date {
+    color: #898989;
+}
+
+.fa-chevron-down:before,span.post-title-date {
+    font-size: 10px;
+}
+
+span.post-title-date {
+    padding: 0;
+}
+
+.post-text {
+    padding: 10px;
+}
+
+
+.left-menu {
+    border: unset !important;
+    width: 18%;
+    margin: 0px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.left-menu:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.ibb.co/3cQRbn6/236623623623.png) no-repeat,url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-size: cover,auto;
+    position: absolute;
+    z-index: -1;
+    filter: saturate(0.8) hue-rotate(-3deg);
+}
+
+.left-menu {
+    overflow: visible;
+}
+
+.left-menu:after {
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    background: url(https://i.ibb.co/9v6k9Wk/73474373773.png) no-repeat top left;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-left: -4%;
+    filter: saturate(0.8) hue-rotate(-3deg);
+}
+
+.blog__about .text-center+div {
+    background: #171717;
+    padding: 3px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #924eff !important;
+    font-size: 10px;
+    text-align: center;
+}
+
+h3.left-menu-text {
+    font-size: 11px;
+}
+
+
+.blog__read-me, .blog__tags, .blog__last-comments {
+    max-height: 30px;
+    overflow: hidden;
+}
+
+h3.left-menu-text {
+    background: linear-gradient(90deg, #141414 10%, #673eb7 100%) !important;
+    height: 30px;
+    font-size: 13px;
+    line-height: 2.3;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+}
+
+.left-menu>div {
+    margin-bottom: 10px;
+}
+
+
+.blog__about {
+    margin-top: 60%;
+    position: relative;
+}
+
+
+.blog__about .text-center {
+    margin-bottom: 30px;
+}
+
+
+/*------ПЛЕЕР------*/
+
+div#beon-fnplayer {
+    position: absolute;
+    top: -48px;
+    left: 0;
+    width: 100%;
+    margin: 0px !important;
+    background: transparent;
+}
+
+
+div#fnplayer-slider, div#fnplayer-volume {
+    background: #161616;
+    height: 4px;
+}
+
+
+div#fnplayer-slider span {
+    font-size: 0;
+}
+
+div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    height: 4px;
+    background: #6f6f6f;
+    border: unset;
+}
+
+div#fnplayer-volume-mask {
+    border: unset;
+}
+
+
+
+button#fnplayer-play {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    border: unset;
+    width: 12px;
+    height: 15px;
+    background: #161616;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+
+button#fnplayer-stop {
+    display: none;
+}
+
+/*-----END-----*/
+
+.blog__about a {
+    background: #171717;
+    padding: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: #919191 !important;
+}
+
+.post-text {
+    text-shadow: 0 0 2px black;
+}
+
+main.py-4:before {
+    content: url(https://i.ibb.co/RDM3wfW/MOSHED.gif);
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+    position: fixed;
+    color: #cfcfcf;
+    z-index: 22;
+    font-size: 23px;
+    margin-right: -220px !important;
+    mix-blend-mode: plus-lighter;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+/*--------------*/
+
+
+.post-content h1 {
+    color: #898989;
+    font-size: 30px !important;
+}
+
+.comment-box h2 {
+    color: #898989;
+    padding-left: 10px;
+    font-size: 20px !important;
+}
+
+.small-text, .small-text+div a,a.load_ignored_comments,.post-opt *,.comment-box .mt-3 * {
+    font-size: 10px !important;
+    color: #898989 !important;
+}
+
+
+.comment-content {
+    margin: 0px !important;
+    padding: 10px;
+    margin-bottom: 30px !important;
+    position: relative;
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png) repeat-y center right 121px, url(https://i.ibb.co/qWbTXm7/kogti3.png) repeat-y bottom 110px right -47px;
+    min-height: auto;
+}
+
+.comment-box .post-opt.mt-3, .comment-box .mt-3 {
+    position: sticky;
+    top: 100%;
+    text-align: right;
+}
+
+span.post-title-date+a {
+    font-size: 10px;
+    color: #8345fd;
+}
+
+.comment-base {
+    color: #dfdfdf;
+    font-size: 11px;
+}
+
+.comment-text {
+    padding: 10px;
+}
+
+p.quotation {
+    border-color: #693ad1;
+    font-size: 11px;
+    color: #884ee7;
+}
+
+.comment-text a {
+    color: #7638db;
+}
+
+.textareabg {
+    padding: 10px;
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-color: #171717;
+    color: #b9b9b9;
+    font-size: 10px;
+}
+
+.tag_bar {
+    font-size: 15px;
+    color: #7347c9;
+    margin-bottom: 5px;
+}
+
+span.emj-dropdown {
+    padding: 0px;
+}
+
+div#commentpreviewplace+p {
+    display: none;
+}
+
+textarea {
+    background: #5b5b5b;
+    border: unset;
+}
+
+.avatar-select-label {
+    border: 4px solid #633cae;
+    margin-bottom: 5px;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #5b5b5b !important;
+}
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #633cae;
+}
+
+.avatar-select-list::-webkit-scrollbar {
+    background: #633cae;
+    width: 10px;
+    border: 4px solid #171717;
+}
+
+.avatar-select-list::-webkit-scrollbar-thumb {
+    background-color: #633cae;
+}
+
+/*----END----*/
+
+
+.crumbs {
+    width: 45%;
+    min-width: 700px;
+    max-width: 1000px;
+    padding-left: 10px;
+    color: #898989;
+    font-size: 10px;
+}
+
+.crumbs a {
+    color: #898989 !important;
+}
+
+.crumbs a:hover,a.user.post-title-user:hover,.small-text+div a:hover,a.load_ignored_comments:hover,.blog__about a:hover {
+    color: #924eff !important;
+}
+
+input[type="submit"] {
+    background: #5d39a4;
+    height: 30px;
+    font-size: 13px;
+    line-height: 2.3;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border: unset;
+}
+
+a:hover {
+    text-decoration: unset !important;
+}
+
+.prevsibling.col-md-6,.nextsibling.text-right.col-md-6 {
+    font-size: 10px;
+    color: #6c2ff3;
+}
+
+/*-------------*/
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"], a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-family: 'cappuccicons';
+    color: #7638db !important;
+    font-size: 0;
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 0px !important;
+    padding-top: 0 !important;
+    line-height: normal;
+    border: 1px solid;
+    text-shadow: unset !important;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2222;
+    top: unset;
+    display: block !important;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline:before, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: '\e9e2';
+    font-size: 40px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    content: '\e9e5';
+    font-size: 40px;
+}
+
+
+.hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    width: 250px;
+    height: 30px;
+}
+
+label.menu__btn {
+    margin: 0px !important;
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #7638db;
+}
+
+ul.menu__box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0px;
+    left: 272px;
+    width: 250px;
+    background: #171717;
+    padding: 3px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #924eff !important;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    height: 410px;
+}
+
+a.menu__item {
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    color: #7a4dd1;
+}
+
+a.menu__item:hover {
+    background: #7a4dd1;
+    color: black;
+}
+
+ul.menu__box::-webkit-scrollbar {
+    display: none;
+}
+
+a.navbar-brand {
+    z-index: 22;
+}
+
+input[type="submit"]:hover {
+    background: #474747;
+}
+
+
+.blog__read-me,.blog__tags,.blog__last-comments {
+    background: #191919;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+
+.blog__read-me:hover, .blog__tags:hover {
+    max-height: 145px;
+}
+
+.left-menu {
+    z-index: 2;
+}
+
+.blog__last-comments {
+    display: none !important;
+}
