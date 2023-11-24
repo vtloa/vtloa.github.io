@@ -801,3 +801,11 @@ div#beon-fnplayer {
     border-color: black;
     height: 13px;
 }
+
+
+@media (min-width: 1920px) {
+  .left-menu:after {
+    margin-top: 30%;
+    margin-left: -18%;
+}
+}
