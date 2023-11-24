@@ -809,3 +809,13 @@ div#beon-fnplayer {
     margin-left: -18%;
 }
 }
+
+
+
+/*------УДАЛИТЬ и ДОРАБОТАТЬ-------*/
+
+.left-menu__user-notification.left-menu__unread-message,
+.notifications__comments.left-menu__user-notification,
+.left-menu__user-notification.left-menu__unread-notifications {
+    display: none !important;
+}
