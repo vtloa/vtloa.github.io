@@ -15,8 +15,8 @@ font-family: 'Kosugi Maru', sans-serif;
 */
 
 
-body {cursor: url(https://i.ibb.co/6mGB0L8/1.png) , default!important;}
-a,button,img,input,b,label.menu__btn {cursor: url(https://i.ibb.co/YtgcLzr/2.png) , pointer!important;}
+body {cursor: url(https://i.ibb.co/Wks5KHL/23.png) , default!important;}
+a,button,img,input,b,label.menu__btn,div#fnplayer-volume-inner,div#fnplayer-slider {cursor: url(https://i.ibb.co/Fw8yWLX/23-2.png) , pointer!important;}
 
 
 
@@ -788,4 +788,16 @@ input[type="submit"]:hover {
 
 .blog__last-comments {
     display: none !important;
+}
+
+div#beon-fnplayer {
+    z-index: 222;
+}
+
+
+#fnplayer-play.paused {
+    clip-path: unset;
+    background: transparent;
+    border-color: black;
+    height: 13px;
 }
