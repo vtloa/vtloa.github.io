@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+/*
+font-family: 'Martian Mono', monospace;
+
+
+font-family: 'Kosugi Maru', sans-serif;
+
+*/
+
+
+/*----------------*/
+
+em strong {
+    background: #3b3b3b;
+    padding: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: #0e0e0e !important;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    text-shadow: 0 0 transparent;
+}
+
+[src="//i0.beon.fun/21/15/1521/avatars/13.png?1648879615"] {
+    content: url(https://i.ibb.co/jDqNk3P/c-ava2.png);
+}
+
+.card.mb-2.post_home+br+div#entry_main {
+    display: none !important;
+}
+/*----------------*/
+
+
+body {cursor: url(https://i.ibb.co/Wks5KHL/23.png) , default!important;}
+a,button,img,input,b,label.menu__btn,div#fnplayer-volume-inner,div#fnplayer-slider {cursor: url(https://i.ibb.co/Fw8yWLX/23-2.png) , pointer!important;}
+
+
+
+body,a.menu__item {
+    font-family: 'Martian Mono', monospace;
+}
+
+
+
+body {
+    background: url(https://i.ibb.co/BzNdNrB/cursed-b-rev.png) no-repeat right top fixed, url(https://i.ibb.co/7jjqtbf/cursed-b2.png) fixed;
+    background-size: contain, auto;
+    background-color: #141414;
+}
+
+
+div#lefthome {
+    border: unset !important;
+    width: 18%;
+    margin: 0px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    min-width: 18%;
+    overflow: visible;
+}
+
+
+div#lefthome:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.ibb.co/3cQRbn6/236623623623.png) no-repeat,url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-size: cover,auto;
+    position: absolute;
+    z-index: -1;
+    filter: saturate(0.8) hue-rotate(-3deg);
+}
+
+div#lefthome:after {
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    background: url(https://i.ibb.co/9v6k9Wk/73474373773.png) no-repeat top left;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-left: -4%;
+    filter: saturate(0.8) hue-rotate(-3deg);
+}
+
+div#lefthome .card.p-1 {
+    margin-top: 55% !important;
+    position: relative;
+}
+
+div#lefthome * {
+    font-size: 11px;
+}
+
+.card.mt-3.blog_leftmenu a {
+    background: #171717;
+    padding: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: #919191 !important;
+}
+
+li.p-1 {
+    display: block;
+    padding: 0px !important;
+}
+
+
+div#lefthome .card,.card-header {
+    border: unset !important;
+}
+
+
+.group_desc,.blog_leftprofile,.blog_leftsearch,.card.group_members {
+    display: none;
+}
+
+.content {
+    width: 45% !important;
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: row-reverse;
+    overflow: visible;
+    padding: 0px !important;
+    margin-top: 165px;
+}
+
+div#righthome {
+    padding: 0px;
+    overflow: visible !important;
+}
+
+.blog_leftphoto img {
+    max-width: 170px;
+}
+
+
+
+.post {
+    margin: 0px !important;
+    padding: 10px;
+    margin-bottom: 60px !important;
+    position: relative;
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png) repeat-y center right 121px, url(https://i.ibb.co/qWbTXm7/kogti3.png) repeat-y bottom 110px right -47px;
+}
+
+
+.post a,div.profile_comment_body a {
+    color: #7638db;
+}
+
+
+
+h2.card-title {
+    position: absolute;
+    top: -40px;
+}
+
+.post_text.pl-3 {
+    color: #dfdfdf;
+    text-shadow: 0 0 2px black;
+    padding: 10px;
+    font-size: 11px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date,h6.card-subtitle.mb-2.text-muted.post_date a {
+    font-size: 11px;
+    color: #898989;
+}
+
+h2.card-title a {
+    font-size: 30px;
+    color: #cfcfcf;
+}
+
+h2.card-title::first-letter {
+    color: #7638db !important;
+}
+
+.additional_info.pl-3 * {
+    font-size: 10px !important;
+    color: #898989 !important;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    font-size: 10px !important;
+}
+
+.like_button.liked:before {
+    color: #6c2ff3 !important;
+    text-shadow: 0px 0px #6c2ff3 !important;
+}
+
+.like_button.liked+span {
+    color: #6c2ff3 !important;
+}
+
+
+div#user_status,.blog_user_status {
+    font-size: 8px;
+    color: #898989 !important;
+}
+
+
+.content:before {
+    content: url(https://i.ibb.co/RDM3wfW/MOSHED.gif);
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+    position: fixed;
+    color: #cfcfcf;
+    z-index: 22;
+    font-size: 23px;
+    margin-left: 45%;
+    mix-blend-mode: plus-lighter;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+
+/*-------------*/
+
+.seBlogComments div [id^="comment_"]:not(a) {
+    margin: 0px !important;
+    padding: 10px;
+    margin-bottom: 30px !important;
+    position: relative;
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png) repeat-y center right 121px, url(https://i.ibb.co/qWbTXm7/kogti3.png) repeat-y bottom 110px right -47px;
+    min-height: auto;
+    color: #dfdfdf;
+    font-size: 11px;
+}
+
+textarea#comment_body {
+    background: #5b5b5b;
+    border: unset;
+    border-radius: unset;
+    color: black;
+}
+
+.comment_headline,.profile_postcomment {
+    border: unset !important;
+}
+
+
+.comment_headline {
+    font-size: 13px;
+    color: #7347c9;
+}
+
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: transparent;
+    border-radius: 3px;
+    filter: invert(35%) sepia(92%) saturate(920%) hue-rotate(232deg) brightness(79%) contrast(99%);
+}
+
+div#comment_subscribe a {
+    text-decoration: unset;
+    color: #5d39a4;
+}
+
+[id^="grouptopic_"][id$="_postcomment"] {
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+}
+
+
+input#comment_submit {
+    background: #5d39a4;
+    height: 30px;
+    font-size: 13px;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border: unset;
+    width: auto;
+    border-radius: unset;
+}
+
+
+input#comment_submit:hover {
+    background: #474747 !important;
+}
+
+textarea#comment_body::placeholder {
+    color: #5b5b5b;
+}
+
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #5b5b5b;
+    outline-offset: -3px;
+}
+
+img.img-thumbnail {
+    border-radius: 0;
+}
+
+.profile_comment_author a {
+    color: #898989;
+}
+
+.profile_comment_author b {
+    font-size: 12px;
+}
+
+.profile_comment_date {
+    color: #898989 !important;
+    font-size: 10px !important;
+}
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #633cae;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar {
+    background: #633cae;
+    width: 10px;
+    border: 4px solid #171717;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar-thumb {
+    background-color: #633cae;
+}
+
+blockquote.blockquote {
+    border-color: #693ad1;
+    font-size: 11px !important;
+    color: #884ee7 !important;
+    margin-left: 10px;
+}
+
+/*----END----*/
+
+div#lefthome .card, .card-header {
+    border-radius: unset !important;
+}
+
+.card.blog_gifts a {
+    font-size: 0px !important;
+}
+
+.gifts-list img {
+    max-width: 30px;
+}
+.card.blog_gifts .p-1 {
+    width: 70px;
+}
+.card.mt-3.blog_leftmenu .card-header {
+    display: none;
+}
+
+.card-header {
+    background: linear-gradient(90deg, #141414 10%, #673eb7 100%) !important;
+    height: 33px;
+    line-height: 2.3;
+    font-size: 13px !important;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border-radius: 0px !important;
+}
+
+.card.blog_categories .card-body,.gifts-list {
+    background: #191919;
+    position: relative;
+    transition: 0.5s;
+}
+
+ul.seBlogCategoryList a {
+    color: #6437bd;
+}
+
+[onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"],[href="user_blog.php"] {
+    display: none !important;
+}
+
+.card.blog_categories,.card.blog_gifts {
+    max-height: 33px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+.card.blog_categories:hover, .card.blog_gifts:hover {
+    max-height: 139px;
+}
+
+.card.blog_categories .card-body li {
+    color: #8b8b8b;
+    font-size: 10px !important;
+}
+
+.profile_comment_links *:before {
+    font-size: 10px !important;
+}
+
+
+
+/*-------------*/
+
+[onclick="scrolltop(); return false;"] {
+    font-family: 'cappuccicons';
+    color: #7638db !important;
+    font-size: 0;
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 0px !important;
+    padding-top: 0 !important;
+    line-height: normal;
+    outline: 2px solid #7638db;
+    text-shadow: unset !important;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+[onclick="scrolltop(); return false;"] {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2222;
+    top: unset;
+    display: block !important;
+    margin: 0px !important;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline:before, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: '\e9e2';
+    font-size: 40px;
+}
+
+[onclick="scrolltop(); return false;"]:before {
+    content: '\e9e5';
+    font-size: 40px;
+}
+
+
+div#designs {
+    bottom: 10px !important;
+    right: 65px !important;
+    border-radius: unset;
+    background-color: #8236ff;
+    border: 1px solid #7725ff;
+    filter: contrast(0.8);
+}
+
+.copyright *,.copyright {
+    font-size: 0;
+}
+
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+
+
+
+
+
+/*-----ШАПКА-----*/
+
+.top_header {
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png) !important;
+    border: unset;
+    display: block;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    right: 0;
+    bottom: 0;
+    z-index: 222 !important;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.top_header {
+    top: -90px;
+}
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: -55px !important;
+    left: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png) !important;
+}
+
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: 20px;
+    left: 440px;
+    outline: 2px solid #6639b1;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) {
+    top: 0px;
+    transition-delay: 0s;
+}
+
+div#menu_main_dropdown>div {
+    display: none;
+}
+
+.top_menu_link_container {
+    display: block !important;
+}
+
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"], [onmouseover="showMenu('menu_dropdown_blog');"], [onmouseover="showMenu('menu_dropdown_tests');"], [onmouseover="showMenu('menu_dropdown_groups');"], [onmouseover="showMenu('menu_dropdown_albums');"], [href="im.php"], [onmouseover="showMenu('menu_dropdown_albums');"], [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"], [href="./"] {
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    font-family: 'cappuccicons';
+    color: #180207;
+    text-align: center;
+    text-decoration: unset !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"] {
+    bottom: 20px;
+    left: 80px;
+}
+
+[onmouseover="showMenu('menu_dropdown_blog');"] {
+    top: 20px;
+    left: 140px;
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"] {
+    bottom: 20px;
+    left: 200px;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_groups');"] {
+    bottom: 20px;
+    left: 260px;
+}
+
+[onmouseover="showMenu('menu_dropdown_albums');"] {
+    bottom: 20px;
+    left: 380px;
+}
+
+[href="im.php"] {
+    bottom: 20px;
+    left: 320px;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: 20px;
+    left: 440px;
+}
+
+
+[href="./"] {
+    bottom: 20px;
+    left: 20px;
+}
+
+b.top_header utton#newupdates, .top_header button.btn.btn-primary, .top_header button.button_down {
+    background: transparent !important;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-family: 'cappuccicons';
+    color: #180207;
+    text-align: center;
+    text-decoration: unset !important;
+    border-radius: 0px;
+}
+
+.top_header button.btn.btn-primary {
+    right: 80px;
+    font-size: 0px;
+    line-height: normal;
+}
+
+.top_header button.btn.btn-primary:before {
+    content: '\ea7c';
+    font-size: 30px;
+    color: #6f3cc5;
+}
+
+
+button#newupdates {
+    right: 140px;
+}
+
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+.top_header table tbody tr td:first-child {
+    width: auto !important;
+}
+
+.top_header div.menu_dropdown {
+    border: unset !important;
+    padding: 0px;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    border: unset !important;
+}
+
+
+.top_header a.top_menu_item {
+    font-size: 0px !important;
+}
+
+.top_header a.top_menu_item:before, [href="./"]:before {
+    content: '\ea26';
+    color: #6f3cc5;
+    font-size: 30px;
+}
+
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"]:before {
+    content: '\ec81' !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_blog');"]:before {
+    content: '\e97b' !important;
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"]:before {
+    content: '\eaea' !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_groups');"]:before {
+    content: '\eaf9' !important;
+}
+
+[onmouseover="showMenu('menu_dropdown_albums');"]:before {
+    content: '\ec03' !important;
+}
+
+[href="im.php"]:before {
+    content: '\e9d5' !important;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]:before {
+    content: '\eb48' !important;
+    font-size: 20px !important;
+}
+
+[href="./"]:before {
+    content: '\ec81';
+}
+
+
+div.menu_dropdown {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin: 0px;
+    padding-top: 10px !important;
+}
+
+
+div#menu_dropdown_profile {
+    top: 70px;
+    left: 80px;
+}
+
+div#menu_dropdown_blog {
+    top: 70px;
+    left: 140px;
+}
+
+div#menu_dropdown_tests {
+    top: 70px;
+    left: 200px;
+}
+
+
+div#menu_dropdown_groups {
+    top: 70px;
+    left: 260px;
+}
+
+div#menu_dropdown_albums {
+    top: 70px;
+    left: 380px;
+}
+
+
+[href="user_logout.php"] {
+    display: none !important;
+}
+
+div.menu_dropdown {
+    transition: unset !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div.menu_item_dropdown a {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    background-color: #e8e6e3;
+}
+
+div.menu_dropdown {
+    background: transparent;
+}
+
+a.menu_item {
+    color: #000000 !important;
+}
+
+.top_header a.menu_item:hover {
+    background: #586281 !important;
+    color: #e3e3e3 !important;
+}
+
+.top_header a.menu_item {
+    padding: 0px !important;
+    line-height: 2.5;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center;
+}
+
+
+span#notify_total {
+    position: absolute;
+    left: -60px;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    line-height: 2;
+    font-size: 20px;
+    background: transparent;
+    outline: unset;
+    color: #6f3cc5;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+
+div#menu_main_dropdown {
+    border: unset;
+}
+
+
+[src="/images/button_down.svg"] {
+    filter: invert(1);
+    width: 30px;
+    opacity: 0.7;
+}
+
+
+/*----ШАПКА END----*/
+
+.top_header [href="./"] {
+    width: 140px;
+    margin: auto !important;
+    font-weight: normal;
+    font-size: 0;
+    color: #6f3cc5 !important;
+    font-family: 'Kosugi Maru', sans-serif;
+    transform: translateY(155px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.top_header [href="./"]:hover:before {
+    color: #898989 !important;
+}
+
+.top_header {
+    position: absolute !important;
+}
+
+.top_header [href="./"]:before {
+    content: 'С̴̞̜̺̖͓̈́̓̾̋̿̊̋͐̋͑̊́̿̄͂͗̎̕͘͜Д̴̢̫̩̭̣̣̩̹̫̰̬̓̾̐͑̏̓̽̽̈́͐̀̌О̸̢̧̛͚͍͓̺͓̙̼̘̹̟̫̤̞̦́͛̓̂̈̌̾̈͐̄̓̚͘͝͠͠Х̷̨̡̹͎̮̮̠̋̒̋͛͐̈̍̚Н̷̧̡̰̬̥̥̘̹̰̙̥̙͚̭͐̋̃̋̾̋̉̐̆͒͑͋̀̉͋͘͝͠͝У̴̧̮̱̟̰͑̂̀̈́̀̔͑̑͘Т̵̢̨̧̡̗̯̝̩̲̺̣̺͇̯̻͎̤̬̘̾͑͂̄̈́̌̋̾́͋̌̉̇̃̉̃̈́̐͜͜͝Ь̸̧͓̯̳̙̖̥͈̦̼̯̻̗̜̩̮̜̫̞͚͑͌̈́́̀̕̚͝ͅ';
+    font-size: 20px;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_albums');"] {
+    display: none;
+}
+
+[src="/images/notify.svg"] {
+    filter: invert(29%) sepia(97%) saturate(1383%) hue-rotate(244deg) brightness(79%) contrast(95%);
+    width: 30px;
+}
+
+span#notify_total {
+    font-size: 30px;
+    line-height: normal;
+}
+
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [href="./"] {
+    transform: translateY( 70px);
+}
+
+
+.top_header [onclick="window.scrollTo(0,100000); return false;"] {
+    font-family: 'cappuccicons';
+    color: #7638db !important;
+    font-size: 0;
+    width: 30px !important;
+    height: 30px !important;
+    text-align: center;
+    overflow: hidden;
+    line-height: normal;
+    outline: 2px solid #7638db;
+    text-shadow: unset !important;
+    position: fixed !important;
+    padding: 0px !important;
+    top: 10px !important;
+    right: 10px !important;
+    transition: 0.5s;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onclick="window.scrollTo(0,100000); return false;"]  {
+    top: 30px !important;
+    right: 30px !important;
+}
+
+.top_header [onclick="window.scrollTo(0,100000); return false;"]:before {
+    content: '\e9e2';
+    font-size: 40px;
+}
+
+.top_header button.button_down {
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png) !important;
+}
+
+button.button_down:hover {
+    color: #6f3cc5 !important;
+}
+
+[src="/images/button_down.svg"] {
+    display: none;
+}
+
+
+/*-----------ховеры-------------*/
+
+a {
+    text-decoration: unset !important;
+}
+
+.card.mt-3.blog_leftmenu a:hover,h6.card-subtitle.mb-2.text-muted.post_date a:hover {
+    color: #924eff !important;
+}
+
+
+h2.card-title a:hover,.category a:hover,.profile_comment_author b:hover {
+    color: #7638db !important;
+}
+
+.post a:hover, div.profile_comment_body a:hover {
+    color: #898989;
+}
