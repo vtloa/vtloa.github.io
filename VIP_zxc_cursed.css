@@ -957,3 +957,29 @@ div.menu_item_dropdown a {
 .seBlogComments .like_button.liked+span {
     font-size: 10px;
 }
+
+.modal-content {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    background-color: #7d7d7d;
+    border: unset;
+    border-radius: unset;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+button.btn.btn-secondary {
+    background: #6f3cc5 !important;
+    color: #141414 !important;
+    border-radius: unset;
+    font-size: 13px;
+}
+
+.updatesWrap a {
+    color: #f1f1f1;
+}
+
+.updatesDelete a {
+    color: #5e31a9;
+}
