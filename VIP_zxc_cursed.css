@@ -912,3 +912,9 @@ h2.card-title a:hover,.category a:hover,.profile_comment_author b:hover {
 .post a:hover, div.profile_comment_body a:hover {
     color: #898989;
 }
+
+
+.container_music audio {
+    background: #f1f3f4;
+    filter: invert(1) grayscale(1);
+}
