@@ -202,12 +202,12 @@ h2.card-title::first-letter {
 }
 
 .like_button.liked:before {
-    color: #6c2ff3 !important;
-    text-shadow: 0px 0px #6c2ff3 !important;
+    color: #7638db !important;
+    text-shadow: 0px 0px #7638db !important;
 }
 
 .like_button.liked+span {
-    color: #6c2ff3 !important;
+    color: #7638db !important;
 }
 
 
