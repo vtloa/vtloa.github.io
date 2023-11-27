@@ -928,3 +928,14 @@ h2.card-title a:hover,.category a:hover,.profile_comment_author b:hover {
 .music_title {
     color: #7638db;
 }
+
+
+div.menu_item_dropdown a {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    background-color: #959595;
+}
+
+.top_header a.menu_item:hover {
+    background: #6f3cc5 !important;
+    color: #141414 !important;
+}
