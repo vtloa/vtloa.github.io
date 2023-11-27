@@ -950,3 +950,10 @@ div.menu_item_dropdown a {
 .top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
     bottom: 31px !important;
 }
+
+
+/*----UPD----*/
+
+.seBlogComments .like_button.liked+span {
+    font-size: 10px;
+}
