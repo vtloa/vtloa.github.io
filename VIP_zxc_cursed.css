@@ -939,3 +939,7 @@ div.menu_item_dropdown a {
     background: #6f3cc5 !important;
     color: #141414 !important;
 }
+
+::selection {
+    background: #3b3b3b;
+}
