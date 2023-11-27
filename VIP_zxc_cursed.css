@@ -477,7 +477,8 @@ div#designs {
     right: 65px !important;
     border-radius: unset;
     background-color: #8236ff;
-    border: 1px solid #7725ff;
+    outline: 2px solid #000000;
+    border: unset;
     filter: contrast(0.8);
 }
 
