@@ -400,7 +400,11 @@ ul.seBlogCategoryList a {
     color: #6437bd;
 }
 
-[onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"],[href="user_blog.php"] {
+.card.mt-3.blog_leftmenu [onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"],[href="user_blog.php"] {
+    display: none !important;
+}
+
+.blog_leftprofile {
     display: none !important;
 }
 
