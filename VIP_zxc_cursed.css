@@ -918,3 +918,8 @@ h2.card-title a:hover,.category a:hover,.profile_comment_author b:hover {
     background: #f1f3f4;
     filter: invert(1) grayscale(1);
 }
+
+
+.music_title {
+    color: #7638db;
+}
