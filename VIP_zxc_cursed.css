@@ -97,10 +97,6 @@ div#lefthome:after {
     filter: saturate(0.8) hue-rotate(-3deg);
 }
 
-div#lefthome:after {
-    margin-top: 30%;
-    margin-left: -18%;
-}
 
 div#lefthome .card.p-1 {
     margin-top: 55% !important;
