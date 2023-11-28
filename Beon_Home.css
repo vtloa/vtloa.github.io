@@ -1388,3 +1388,13 @@ div#lefthome [src="/images/verify.png"] {
 }
 }
 
+
+
+/*---28.11.2023---*/
+/*----апдейт к зиме----*/
+
+[src="./images/logo_new.png"] {
+    content: url(https://i.ibb.co/nmcBbVg/logo-new-winter.png);
+    margin-top: -7px;
+}
+
