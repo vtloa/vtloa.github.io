@@ -344,4 +344,7 @@ h6.card-subtitle.mb-2.text-muted.post_date, h6.card-subtitle.mb-2.text-muted.pos
 h2.card-title a {
     font-size: 27px !important;
 }
+[id^="blog"][id$="_postcomment"] {
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+}
 }
