@@ -326,4 +326,8 @@ a.page-link {
     border-radius: unset !important;
     color: #959595;
 }
+
+div#lefthome .gifts-list .p-1 a {
+    font-size: 0px !important;
+}
 }
