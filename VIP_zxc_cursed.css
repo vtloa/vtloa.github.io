@@ -983,3 +983,9 @@ button.btn.btn-secondary {
 .updatesDelete a {
     color: #5e31a9;
 }
+
+a.page-link {
+    background: #353535;
+    border-radius: unset !important;
+    color: #959595;
+}
