@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+/*
+font-family: 'Martian Mono', monospace;
+
+
+font-family: 'Kosugi Maru', sans-serif;
+
+*/
+
+
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    
+    
+
+
+/*----------------*/
+
+em strong {
+    background: #3b3b3b;
+    padding: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: #0e0e0e !important;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    text-shadow: 0 0 transparent;
+}
+
+[src="//i0.beon.fun/21/15/1521/avatars/13.png?1648879615"] {
+    content: url(https://i.ibb.co/jDqNk3P/c-ava2.png);
+}
+
+.card.mb-2.post_home+br+div#entry_main {
+    display: none !important;
+}
+/*----------------*/
+
+
+body {cursor: url(https://i.ibb.co/Wks5KHL/23.png) , default!important;}
+a,button,img,input,b,label.menu__btn,div#fnplayer-volume-inner,div#fnplayer-slider {cursor: url(https://i.ibb.co/Fw8yWLX/23-2.png) , pointer!important;}
+
+
+
+body,a.menu__item {
+    font-family: 'Martian Mono', monospace;
+}
+
+    
+
+body:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.ibb.co/3cQRbn6/236623623623.png) no-repeat,url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-size: cover,auto;
+    position: fixed;
+    z-index: -1;
+    filter: saturate(0.8) hue-rotate(-3deg);
+}
+    
+    
+.group_desc {
+    display: none;
+}
+    
+.post,.seBlogComments div [id^="comment_"]:not(a) {
+    margin: 0px !important;
+    padding: 10px;
+    margin-bottom: 20px !important;
+    position: relative;
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+}
+
+.post_text.pl-3,div.profile_comment_body {
+    color: #dfdfdf;
+    text-shadow: 0 0 2px black;
+    padding: 10px;
+    font-size: 11px;
+}
+    
+    
+h2.card-title a {
+    font-size: 30px;
+    color: #cfcfcf;
+}
+    h2.card-title::first-letter {
+    color: #7638db !important;
+}
+.show_menu.header-orange {
+    background: #6f6f6f;
+    height: 33px;
+    line-height: 2.3;
+    font-size: 13px !important;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border-radius: 0px !important;
+}
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: #6f6f6f;
+    border: unset !important;
+}
+    .like_button.liked:before {
+    color: #7638db !important;
+    text-shadow: 0px 0px #7638db !important;
+}
+    .like_button.liked+span {
+    color: #7638db !important;
+}
+    .additional_info.pl-3 * {
+    color: #898989 !important;
+}
+    .post a, div.profile_comment_body a {
+    color: #7638db;
+}
+    div#user_status, .blog_user_status {
+    font-size: 8px;
+    color: #898989 !important;
+}
+    div#lefthome2 {
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+}
+    div#lefthome .card,.card-header {
+    border: unset !important;
+}
+    .card-header {
+    background: linear-gradient(90deg, #141414 10%, #673eb7 100%) !important;
+    height: 33px;
+    line-height: 2.3;
+    font-size: 13px !important;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border-radius: 0px !important;
+}
+    .blog_leftsearch,.card.group_members,.blog_leftprofile {
+    display: none;
+}
+    .card.mt-3.blog_leftmenu a {
+    background: #171717;
+    padding: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: #919191 !important;
+}
+    ul.seBlogCategoryList a {
+    color: #6437bd;
+}
+    .card.blog_categories .card-body li {
+    color: #8b8b8b;
+    font-size: 10px !important;
+}
+    div#lefthome * {
+    font-size: 13px !important;
+}
+.card.blog_categories .card-body, .gifts-list {
+    background: #191919;
+    position: relative;
+    transition: 0.5s;
+}
+    .profile_comment_author a,.profile_comment_date {
+    color: #898989 !important;
+}
+    .profile_comment_author b,.profile_comment_date {
+    font-size: 11px !important;
+}
+    blockquote.blockquote {
+    border-color: #693ad1;
+    font-size: 11px !important;
+    color: #884ee7 !important;
+    margin-left: 10px;
+}
+    
+    
+    
+    textarea#comment_body {
+    background: #5b5b5b;
+    border: unset;
+    border-radius: unset;
+    color: black;
+}
+
+.comment_headline,.profile_postcomment {
+    border: unset !important;
+}
+
+
+.comment_headline {
+    font-size: 13px;
+    color: #7347c9;
+}
+
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: transparent;
+    border-radius: 3px;
+    filter: invert(35%) sepia(92%) saturate(920%) hue-rotate(232deg) brightness(79%) contrast(99%);
+}
+
+div#comment_subscribe a {
+    text-decoration: unset;
+    color: #5d39a4;
+}
+
+[id^="grouptopic_"][id$="_postcomment"] {
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+}
+
+
+input#comment_submit {
+    background: #5d39a4;
+    height: 30px;
+    font-size: 13px;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border: unset;
+    width: auto;
+    border-radius: unset;
+}
+
+
+input#comment_submit:hover {
+    background: #474747 !important;
+}
+
+textarea#comment_body::placeholder {
+    color: #5b5b5b;
+}
+
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #5b5b5b;
+    outline-offset: -3px;
+}
+
+img.img-thumbnail {
+    border-radius: 0;
+}
+    .copyright {
+    display: none;
+}
+    a#attach_file_click {
+    filter: invert(35%) sepia(92%) saturate(920%) hue-rotate(232deg) brightness(79%);
+}
+    div#mobile_menu {
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+    background-size: cover;
+    color: #737373;
+}
+    div#mobile_menu a.menu_item {
+    background: transparent !important;
+    color: #8242e3;
+}
+    div#mobile_menu button.btn.btn-primary {
+    background: #6f6f6f !important;
+    color: #0e0e0e !important;
+    text-transform: lowercase;
+    text-shadow: 0 0 transparent;
+    border-radius: 0px !important;
+    padding: 0;
+}
+    div#mobile_menu img.menu_icon2 {
+    filter: grayscale(1);
+}
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [src="./images/logo_new.png"] {
+    display: none;
+}
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href="./"]:before {
+    content: 'EXIT';
+    color: #191919;
+}
+    span#notify_total {
+    background: transparent;
+    color: #191919;
+}
+    button.navbar-toggler, button.navbar-toggler:hover,button.btn.btn-outline-success:before {
+    opacity: 0.5 !important;
+}
+    li.p-1 {
+    display: block;
+}
+    .modal-content {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    background-color: #7d7d7d;
+    border: unset;
+    border-radius: unset;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+button.btn.btn-secondary {
+    background: #6f3cc5 !important;
+    color: #141414 !important;
+    border-radius: unset;
+    font-size: 13px;
+}
+
+.updatesWrap a {
+    color: #f1f1f1;
+}
+
+.updatesDelete a {
+    color: #5e31a9;
+}
+}
