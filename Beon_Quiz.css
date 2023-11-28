@@ -930,3 +930,13 @@ button.navbar-toggler:focus {
     margin: 0px !important;
 }
 }
+
+
+
+/*---28.11.2023---*/
+/*----апдейт к зиме----*/
+
+[src="./images/logo_new.png"] {
+    content: url(https://i.ibb.co/ZNpMTvZ/logo-new-winter.png);
+    margin-top: -7px;
+}
