@@ -53,7 +53,9 @@ body,a.menu__item {
     font-family: 'Martian Mono', monospace;
 }
 
-    
+body {
+    background-color: #161418;
+}  
 
 body:before {
     content: '';
