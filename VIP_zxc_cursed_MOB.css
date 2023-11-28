@@ -332,4 +332,16 @@ a.page-link {
 div#lefthome .gifts-list .p-1 a {
     font-size: 0px !important;
 }
+
+h6.card-subtitle.mb-2.text-muted.post_date, h6.card-subtitle.mb-2.text-muted.post_date a {
+    font-size: 12px !important;
+}
+
+.post_text.pl-3, div.profile_comment_body {
+    font-size: 12px !important;
+}
+
+h2.card-title a {
+    font-size: 27px !important;
+}
 }
