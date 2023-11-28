@@ -347,4 +347,7 @@ h2.card-title a {
 [id^="blog"][id$="_postcomment"] {
     background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
 }
+.profile_comment_date {
+    font-size: 9px !important;
+}
 }
