@@ -989,3 +989,7 @@ a.page-link {
     border-radius: unset !important;
     color: #959595;
 }
+
+.profile_postcomment {
+    background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
+}
