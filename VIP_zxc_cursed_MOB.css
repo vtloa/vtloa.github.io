@@ -17,10 +17,8 @@ font-family: 'Kosugi Maru', sans-serif;
 
 
 
-@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px), (max-width: 1024px) {
     
-    
-
 
 /*----------------*/
 
