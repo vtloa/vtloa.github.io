@@ -1136,3 +1136,15 @@ button.navbar-toggler:focus {
     max-height: 100% !important;
 }
 }
+
+
+
+
+/*---28.11.2023---*/
+/*----апдейт к зиме----*/
+
+[src="./images/logo_new.png"] {
+    content: url(https://i.ibb.co/nmcBbVg/logo-new-winter.png);
+    margin-top: -7px;
+}
+
