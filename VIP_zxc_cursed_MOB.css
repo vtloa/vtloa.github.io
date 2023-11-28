@@ -350,4 +350,7 @@ h2.card-title a {
 .profile_comment_date {
     font-size: 9px !important;
 }
+.card.blog_gifts a {
+    color: #919191;
+}
 }
