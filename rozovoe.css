@@ -442,6 +442,10 @@ span.emj-dropdown {
     font-size: 15px;
     padding: 0px;
 }
+    input[type="submit"] {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 }
 
 
