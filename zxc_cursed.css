@@ -49,9 +49,6 @@ div#footer,div#page__rendertime{
     display: none !important;
 }
 
-div#newpostform {
-    display: none;
-}
 
 
 main.py-4+.crumbs {
@@ -120,15 +117,6 @@ main.py-4 {
     flex-direction: row-reverse;
 }
 
-
-.post-content1 {
-    margin: 0px !important;
-    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
-    background-color: #141414;
-    padding: 10px;
-    margin-bottom: 60px !important;
-    position: relative;
-}
 
 
 .post-content {
@@ -818,4 +806,195 @@ div#beon-fnplayer {
 .notifications__comments.left-menu__user-notification,
 .left-menu__user-notification.left-menu__unread-notifications {
     display: none !important;
+}
+
+
+
+
+
+
+
+
+
+/*----МЕДИА----*/
+
+
+
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    main.py-4 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: auto;
+    flex-direction: column;
+}
+    .left-menu {
+    position: unset;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    z-index: unset;
+}
+    .left-menu:after,main.py-4:before,.left-menu:before {
+    display: none;
+}
+    .hamburger-menu,a.navbar-brand {
+    position: unset;
+}
+    .bg-white {
+    height: auto;
+    background: #838383;
+    padding: 10px;
+    z-index: 333;
+}
+    .left-menu > div.mobile_open_menu > h3 {
+    height: auto;
+    margin: 0px !important;
+    background: #838383 !important;
+    font-weight: normal;
+}
+
+    a.navbar-brand:before {
+    content: 'EXIT';
+    color: black;
+    font-size: 26px;
+}
+    .hamburger-menu {
+    width: 30px;
+    margin: 0px !important;
+    transform: unset !important;
+}
+    label.menu__btn {
+    margin: 0px !important;
+}
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #161616;
+}
+    a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: '\e9e2';
+    font-size: 40px;
+    background: #838383 !important;
+    color: #161616;
+}
+    a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    border-color: #151515;
+}
+    ul.menu__box {
+    left: unset;
+    right: 0;
+    top: 70px;
+}
+    a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"], a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    position: unset;
+}
+    .content {
+    margin-top: 0px;
+}
+    a.post-title {
+    position: unset;
+    margin: 0px;
+}
+    .post-content,.comment-content,.left-menu>div {
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+}
+    .post-text,.post-content,.comment-content,.comment-text {
+    padding: 7px;
+}
+    
+    body:before {
+    content: '';
+    display: block;
+    background: url(https://i.ibb.co/3cQRbn6/236623623623.png) no-repeat,url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-size: cover,auto;
+    position: fixed;
+    z-index: -1;
+    filter: saturate(0.8) hue-rotate(-3deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+    div#app {
+    padding: 10px;
+}
+    i.fas.fa-angle-down {
+    display: none;
+}
+    [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+    .row.w-100.mt-3 span.comments_count span {
+    font-size: 0px !important;
+}
+    .row.w-100.mt-3 .post-opt.col-12.col-md-6.text-right a,span.comments_count span::before {
+    font-size: 15px !important;
+}
+    .datebg {
+    width: 100%;
+    line-height: 2;
+    color: #0c0c0c;
+    background: #838383;
+    font-size: 16px;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+}
+    .blog__about {
+    margin-top: 90px;
+}
+    div#beon-fnplayer {
+    background: #838383 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    button#fnplayer-play {
+    position: unset;
+    margin-left: 10px !important;
+    height: 12px;
+    width: 10px;
+    margin-top: -6px !important;
+}
+    .left-menu>div {
+    max-height: unset !important;
+}
+    .crumbs {
+    background: #141414;
+    line-height: 3;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+    body.bodybg {
+    background: #191919;
+}
+    input[type="submit"] {
+    margin-bottom: 5px;
+}
+    .fas, .far, .tag_bar > * {
+    font-size: 14px;
+    padding: 0px;
+}
+    .blog__read-me, .blog__tags, .blog__last-comments {
+    background: transparent;
+}
+    div#beon-fnplayer {
+    position: unset;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+    .blog__about .text-center+div {
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+    .blog__about {
+    padding-top: 20px;
+}
+    .blog__about {
+    display: block !important;
+}
 }
