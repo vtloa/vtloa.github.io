@@ -1,2 +1,1 @@
-@import url('https://vtloa.github.io/HUB_VIP_zxc_cursed.css');
-@import url('https://vtloa.github.io/HUB_VIP_zxc_cursed_MOB.css')
+@import url('https://vtloa.github.io/zxc_cursed.css');
