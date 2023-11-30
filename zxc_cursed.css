@@ -998,3 +998,30 @@ div#beon-fnplayer {
     display: block !important;
 }
 }
+
+
+
+/*----UPD ALL-----*/
+
+
+div#newpostform {
+    margin: 0px !important;
+    padding: 7px !important;
+}
+
+input.w-100,input[type="text"],select {
+    background: #5b5b5b;
+    border: unset;
+}
+
+.col-md-4 {
+    padding: 0px;
+}
+
+div#newpostform br {
+    display: none;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
