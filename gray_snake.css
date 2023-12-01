@@ -1215,3 +1215,7 @@ button.btn.btn-primary, button.btn.btn-secondary {
 .liked .fas, .reposted .fas, .bookmarked .fas {
     color: #660e0e !important;
 }
+
+.row.w-100.mt-3 .liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #660e0e !important;
+}
