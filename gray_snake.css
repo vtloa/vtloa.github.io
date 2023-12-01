@@ -1207,3 +1207,11 @@ button.btn.btn-primary, button.btn.btn-secondary {
     font-size: 0px !important;
 }
 }
+
+
+
+/*---ФИКС ЛАЙКОВ----*/
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #660e0e !important;
+}
