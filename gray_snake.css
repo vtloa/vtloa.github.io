@@ -1219,3 +1219,10 @@ button.btn.btn-primary, button.btn.btn-secondary {
 .row.w-100.mt-3 .liked .fas, .reposted .fas, .bookmarked .fas {
     color: #660e0e !important;
 }
+
+.comment-row .post-avatar [href="//milash.beon.fun"]:before {
+    font-family: 'cappuccicons';
+    color: #660e0e;
+    content: '\eb03 \eb03 \eb03';
+    letter-spacing: 5px;
+}
