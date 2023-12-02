@@ -1225,4 +1225,7 @@ button.btn.btn-primary, button.btn.btn-secondary {
     color: #660e0e;
     content: '\eb03 \eb03 \eb03';
     letter-spacing: 5px;
+    display: block;
+    width: 100px;
+    text-align: center;
 }
