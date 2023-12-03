@@ -1504,3 +1504,15 @@ table.body {
     padding: 5px !important;
 }
 }
+
+
+
+/*----NEW галочка----*/
+
+
+[src="/images/verify.png"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/8d6505bf4b99ca28da5448c269cfe553.png);
+    width: 16px;
+    height: 16px;
+    filter: saturate(0.9);
+}
