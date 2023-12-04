@@ -1033,3 +1033,8 @@ img.avatar-select-label {
     border-radius: 100%;
     object-fit: cover;
 }
+
+
+.blog__iread {
+    display: none !important;
+}
