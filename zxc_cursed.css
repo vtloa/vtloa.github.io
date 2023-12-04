@@ -1028,7 +1028,8 @@ div#newpostform br {
 
 
 img.avatar-select-label {
-    max-width: 100px;
-    max-height: 100px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
+    object-fit: cover;
 }
