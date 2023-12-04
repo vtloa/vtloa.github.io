@@ -1413,3 +1413,11 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/Judas/"]:af
     margin-left: 5px;
     filter: invert(1) hue-rotate(-15deg);
 }
+
+
+/*----ФИОЛЕТОВАЯ ГАЛОЧКА----*/
+
+[href="https://beon.vip/washu/"] b [src="/images/verify.png"],
+.messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"]{
+    filter: hue-rotate(56deg);
+}
