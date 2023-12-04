@@ -1516,3 +1516,18 @@ table.body {
     height: 16px;
     filter: saturate(0.9);
 }
+
+
+/*----ТОП ДОНАТЕРЫ----*/
+
+div#message_post [href="https://beon.vip/Judas/"]:after,
+div#messages .messages_author [href="https://beon.vip/Judas/"]:after{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
+    margin-left: 5px;
+    filter: invert(1) hue-rotate(-15deg);
+}
+
