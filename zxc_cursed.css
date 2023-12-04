@@ -1053,3 +1053,17 @@ a.post-title {
 .bg-white {
     z-index: 22;
 }
+
+
+.left-menu .blog__about div {
+    font-size: 0px !important;
+}
+
+[src="//beon.fun/i/offline.png"] {
+    display: none;
+}
+
+.left-menu .blog__about .text-center+div {
+    font-size: 10px !important;
+    width: 100%;
+}
