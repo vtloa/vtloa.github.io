@@ -1535,6 +1535,7 @@ div#messages .messages_author [href="https://beon.vip/Judas/"]:after{
 /*----ФИОЛЕТОВАЯ ГАЛОЧКА----*/
 
 [href="https://beon.vip/washu/"] b [src="/images/verify.png"],
-.messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"]{
+.messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"],
+div#message_post [href="https://beon.vip/washu/"] [src="/images/verify.png"] {
     filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
 }
