@@ -1038,3 +1038,14 @@ img.avatar-select-label {
 .blog__iread {
     display: none !important;
 }
+
+/*----FIX----*/
+
+a.post-title {
+    max-width: 91%;
+    height: 48px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    top: -45px;
+}
