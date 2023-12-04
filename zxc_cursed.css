@@ -1049,3 +1049,7 @@ a.post-title {
     text-overflow: ellipsis;
     top: -45px;
 }
+
+.bg-white {
+    z-index: 22;
+}
