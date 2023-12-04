@@ -993,3 +993,10 @@ a.page-link {
 .profile_postcomment {
     background: url(https://i.ibb.co/p0KM2BS/kogti-post.png);
 }
+
+
+img.avatar-select-label {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100%;
+}
