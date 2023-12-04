@@ -894,3 +894,8 @@ div#fffuuusmiles::-webkit-scrollbar {
 div#smiles::-webkit-scrollbar-thumb:hover {
     background: #8e9298;
 }
+
+
+a#comment_next_page_top,a#comment_next_page_bottom {
+    color: #ed9278 !important;
+}
