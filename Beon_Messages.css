@@ -1507,6 +1507,12 @@ table.body {
 
 
 
+tr.messages_unread {
+    background: #54b9e733 !important;
+    border-color: #dbeff8 !important;
+}
+
+
 /*----NEW галочка----*/
 
 
@@ -1539,3 +1545,5 @@ div#messages .messages_author [href="https://beon.vip/Judas/"]:after{
 div#message_post [href="https://beon.vip/washu/"] [src="/images/verify.png"] {
     filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
 }
+
+
