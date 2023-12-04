@@ -1446,7 +1446,9 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/washu/"] [src="/images
 /*----ДЛЯ ВСЕХ ЮЗЕРОВ----*/
 
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Qumo/"]:after,
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Apricot/"]:after{
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Apricot/"]:after,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"]:after,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/ontologia/"]:after{
     content: '';
     display: inline-block;
     width: 16px;
