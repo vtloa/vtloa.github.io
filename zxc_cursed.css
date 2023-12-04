@@ -1059,7 +1059,7 @@ a.post-title {
     font-size: 0px !important;
 }
 
-[src="//beon.fun/i/offline.png"] {
+[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/design-off.png"] {
     display: none;
 }
 
