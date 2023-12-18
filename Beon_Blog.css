@@ -1177,7 +1177,10 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Judas/"]:after,
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
-.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after, h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after, div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after, .blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
+.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after,
+div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
+.blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
