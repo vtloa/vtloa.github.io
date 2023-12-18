@@ -1425,6 +1425,20 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Judas/"]:after,
     filter: invert(1) hue-rotate(-15deg);
 }
 
+
+
+/*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
+
+.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after, h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after, div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after, .blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
+    margin-left: 5px;
+    filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
+}
+
 /*----ГАЛОЧКИ НА ГЛАВНОЙ----*/
 
 
