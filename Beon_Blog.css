@@ -1192,16 +1192,11 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 
 /*----ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
 
-.seBlogComments .profile_comment_author [href="https://beon.vip/GLEBACNK/"]:after,
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:after,
-div#lefthome .portal_spacer+.card [href="https://beon.vip/GLEBACNK/"]:after,
-.blog_leftprofile [href="https://beon.vip/GLEBACNK/blog/"]:after {
-    content: '';
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
-    margin-left: 5px;
+/*----ФИОЛЕТОВАЯ ГАЛОЧКА----*/
+
+[href="https://beon.vip/GLEBACNK/"] b [src="/images/verify.png"],
+.messages_author [href="https://beon.vip/GLEBACNK/"] [src="/images/verify.png"],
+.blog_leftprofile [href="https://beon.vip/GLEBACNK/blog/"] [src="/images/verify.png"]{
     filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
 }
 
