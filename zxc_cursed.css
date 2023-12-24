@@ -1072,3 +1072,8 @@ a.post-title {
 a.navbar-brand [src="/i/logo2.svg"] {
     display: none;
 }
+
+
+[src="//beon.fun/i/online.png"] {
+    display: none;
+}
