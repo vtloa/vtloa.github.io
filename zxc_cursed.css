@@ -1067,3 +1067,8 @@ a.post-title {
     font-size: 10px !important;
     width: 100%;
 }
+
+
+a.navbar-brand [src="/i/logo2.svg"] {
+    display: none;
+}
