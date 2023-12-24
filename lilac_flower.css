@@ -1098,3 +1098,16 @@ a.btn.btn-outline-primary.mb-3:hover {
 a.btn.btn-outline-primary.mb-3 {
     border-color: #9876b1;
 }
+
+
+.post-content {
+    background: url(https://i.ibb.co/LN9dQqQ/sirenblur-post2.png) repeat-y right -120px top -170px;
+    background-color: #dad4df;
+    background-blend-mode: color-burn;
+}
+
+.datebg {
+    background: url(https://i.ibb.co/LN9dQqQ/sirenblur-post2.png) repeat-y right -120px top -165px;
+    background-color: #dad4df;
+    background-blend-mode: color-burn;
+}
