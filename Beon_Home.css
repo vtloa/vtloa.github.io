@@ -1498,6 +1498,30 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/washu/"] [src="/images
 }
 
 
+
+/*----ГАЛОЧКИ НА ГЛАВНОЙ САТАНЧИК----*/
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"]:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
+    margin-left: 5px;
+    filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
+}
+
+
+[href="https://beon.vip/Satan/"] b [src="/images/verify.png"], .messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"], .blog_leftprofile [href="https://beon.vip/Satan/blog/"] [src="/images/verify.png"],
+[href="https://beon.vip/Satan/"] b [src="/images/verify.png"], .messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"], div#message_post [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
+.action_text.pl-2 .action_text_content [href="profile.php?user=Satan"] [src="/images/verify.png"],
+div#lefthome .portal_spacer+.card [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
+.profile_content [href="profile.php?user=Satan"] [src="/images/verify.png"] {
+    filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
+}
+
+
+
 /*----ДЛЯ ВСЕХ ЮЗЕРОВ----*/
 
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Qumo/"]:after,
