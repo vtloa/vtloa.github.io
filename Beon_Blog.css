@@ -1209,3 +1209,13 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
     filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
 }
 
+
+
+/*----СИНЯЯ ГАЛОЧКА САТАНЧИК---*/
+
+[href="https://beon.vip/Satan/"] b [src="/images/verify.png"],
+.messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
+.blog_leftprofile [href="https://beon.vip/Satan/blog/"] [src="/images/verify.png"]{
+    filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
+}
+
