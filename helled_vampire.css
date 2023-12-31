@@ -689,13 +689,14 @@ main.py-4 {
 /*----СКРОЛЛ----*/
 
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 12px;
     background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: url(https://i.ibb.co/pZ50gzP/image.png) center;
-    background-size: 70px;
+    background: #950004;
+    border-radius: 10px;
+    border: 4px solid black;
 }
 
 .avatar-select-list::-webkit-scrollbar {
