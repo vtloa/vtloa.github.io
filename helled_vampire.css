@@ -1242,3 +1242,7 @@ label.custom-file-label {
     color: black;
     border-radius: unset !important;
 }
+
+.crumbs [href="/p"]+span.crumb-item {
+    display: none;
+}
