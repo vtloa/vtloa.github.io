@@ -1257,11 +1257,11 @@ label.custom-file-label {
     text-shadow: 0 0 5px black;
 }
 
-.left-menu a {
+.left-menu a,a.user.post-title-user {
     transition: 0.5s;
 }
 
-.left-menu a:hover {
+.left-menu a:hover,a.user.post-title-user:hover {
     text-shadow: 20px 0px 3px #630000;
 }
 
