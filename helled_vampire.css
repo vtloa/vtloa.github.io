@@ -1273,3 +1273,7 @@ label.custom-file-label {
 .left-menu__friends.left-menu__friends_offline {
     display: none !important;
 }
+
+.blog__gifts img {
+    filter: grayscale(1);
+}
