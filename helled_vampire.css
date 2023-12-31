@@ -1246,3 +1246,14 @@ label.custom-file-label {
 .crumbs [href="/p"]+span.crumb-item {
     display: none;
 }
+
+.alert.alert-success {
+    background: url(https://i.pinimg.com/originals/46/4a/89/464a891694ed9dc9cb20cac47c8d4440.gif);
+    border: unset;
+    color: #bb0000;
+    border-radius: unset;
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
+    text-shadow: 0 0 5px black;
+}
