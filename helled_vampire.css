@@ -1260,6 +1260,11 @@ label.custom-file-label {
 .left-menu a {
     transition: 0.5s;
 }
+
 .left-menu a:hover {
     text-shadow: 20px 0px 3px #630000;
+}
+
+.blog__read-me [src="/i/blog.png"] {
+    display: none;
 }
