@@ -1268,3 +1268,8 @@ label.custom-file-label {
 .blog__read-me [src="/i/blog.png"] {
     display: none;
 }
+
+
+.left-menu__friends.left-menu__friends_offline {
+    display: none !important;
+}
