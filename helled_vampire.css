@@ -165,7 +165,7 @@ main.py-4:before {
     display: block;
     width: 500px;
     height: calc(100% + 30px);
-    background: url(https://i.ibb.co/41vK8zQ/24.png) repeat-y top 220px left;
+    background: url(https://i.ibb.co/41vK8zQ/24.png) repeat-y top 255px left;
     position: absolute;
     background-size: 355px;
     top: -35px;
@@ -180,7 +180,7 @@ main.py-4:after {
     display: block;
     width: 500px;
     height: calc(100% + 30px);
-    background: url(https://i.ibb.co/dbQ53nr/24-2.png) repeat-y top 220px right;
+    background: url(https://i.ibb.co/dbQ53nr/24-2.png) repeat-y top 330px right;
     position: absolute;
     background-size: 355px;
     top: -35px;
