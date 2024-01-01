@@ -1277,3 +1277,25 @@ label.custom-file-label {
 .blog__gifts img {
     filter: grayscale(1);
 }
+
+/*----ЛАЙКИ И КНОПКА ПАУЗЫ----*/
+
+#fnplayer-play.paused {
+    border-style: double;
+    border-width: 0px 0 0px 9px;
+    clip-path: unset;
+    background: transparent;
+    border-color: #393939;
+}
+
+.row.w-100.mt-3 .liked .fas,
+.row.w-100.mt-3 .reposted .fas,
+.row.w-100.mt-3 .bookmarked .fas,
+.mt-3 .liked .fas,
+.mt-3 .reposted .fas, 
+.mt-3 .bookmarked .fas,
+.post-opt .liked .fas,
+.post-opt .reposted .fas,
+.post-opt .bookmarked .fas{
+    color: #950004 !important;
+}
