@@ -1246,7 +1246,7 @@ p.left-menu-text {
 
 
 .blog__tags {
-    display: block !important;
+    display: block;
     position: relative;
 }
 
