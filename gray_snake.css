@@ -1229,3 +1229,33 @@ button.btn.btn-primary, button.btn.btn-secondary {
     width: 100px;
     text-align: center;
 }
+
+
+/*=====UPD 12.01.24=====*/
+
+p.left-menu-text {
+    padding: 0px !important;
+}
+
+.blog__tags .left-menu-text a {
+    font-size: 13px !important;
+    text-align: center;
+    display: block;
+    text-transform: initial;
+}
+
+
+.blog__tags {
+    display: block !important;
+    position: relative;
+}
+
+.blog__tags:before {
+    content: 'о самом важном:';
+    font-size: 14px !important;
+    text-align: center;
+    display: block;
+    color: #545454;
+}
+
+
