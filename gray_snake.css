@@ -1023,7 +1023,7 @@ a.menu__item {
 
 
 
-.blog__gifts, .blog__iread, .blog__read-me,.text-center,.blog__tags,.blog__last-comments {
+.blog__gifts, .blog__iread, .blog__read-me,.text-center,.blog__last-comments {
     display: none !important;
 }
 
@@ -1262,3 +1262,9 @@ a.tag {
     text-transform: capitalize;
 }
 
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+p.left-menu-text,.left-menu__user-notification.left-menu__unread-notifications a {
+    padding-left: 10px !important;
+    padding-bottom: 5px !important;
+}
+}
