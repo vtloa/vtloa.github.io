@@ -1258,4 +1258,7 @@ p.left-menu-text {
     color: #545454;
 }
 
+a.tag {
+    text-transform: capitalize;
+}
 
