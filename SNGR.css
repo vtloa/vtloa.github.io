@@ -1775,3 +1775,7 @@ div#page__admincontact {
 .notifications__comments.left-menu__user-notification {
     margin-bottom: 0px;
 }
+
+span.font-snowblue {
+    display: none;
+}
