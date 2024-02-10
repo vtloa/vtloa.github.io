@@ -1273,7 +1273,7 @@ p.left-menu-text,.left-menu__user-notification.left-menu__unread-notifications a
 /*---UPD ПОДАРКИ---*/
 
 .blog__gifts {
-    display: block !important;
+    display: block;
 }
 
 .blog__gifts img {
