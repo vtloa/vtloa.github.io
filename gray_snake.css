@@ -1280,8 +1280,12 @@ p.left-menu-text,.left-menu__user-notification.left-menu__unread-notifications a
     filter: grayscale(1);
 }
 
-.blog__gifts img:hover {
-    filter: grayscale(0);
+.blog__gifts .left-menu__gift img {
+    transition: 0.5s;
+}
+
+.blog__gifts .left-menu__gift:hover img {
+    filter: grayscale(0.4);
 }
 
 .blog__gifts img {
