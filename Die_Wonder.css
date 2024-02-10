@@ -1121,3 +1121,10 @@ a.btn.btn-outline-primary.mb-2 {
     padding: 5px;
     font-size: 14px;
 }
+
+
+/*---UPD УБРАТЬ НОВОГОДНЕЕ ЛОГО---*/
+
+span.font-snowblue {
+    display: none;
+}
