@@ -1493,8 +1493,9 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:afte
     filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
 }
 
-div#lefthome .portal_spacer+.card [href="https://beon.vip/washu/"] [src="/images/verify.png"] {
-    filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
+div#lefthome .portal_spacer+.card [href="https://beon.vip/washu/"] [src="/images/verify.png"],
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:after {
+    filter: hue-rotate(123deg) brightness(1.7) saturate(1);
 }
 
 
