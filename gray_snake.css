@@ -1268,3 +1268,38 @@ p.left-menu-text,.left-menu__user-notification.left-menu__unread-notifications a
     padding-bottom: 5px !important;
 }
 }
+
+
+/*---UPD ПОДАРКИ---*/
+
+.blog__gifts {
+    display: block !important;
+}
+
+.blog__gifts img {
+    filter: grayscale(1);
+}
+
+.blog__gifts img:hover {
+    filter: grayscale(0);
+}
+
+.blog__gifts img {
+    width: 30px;
+}
+
+.left-menu__gift a {
+    text-wrap: nowrap;
+    display: inline-block;
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog__gifts p {
+    margin: 0px;
+}
+
+.blog__gifts {
+    margin-top: 20px;
+}
