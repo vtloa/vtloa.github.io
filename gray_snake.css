@@ -1021,9 +1021,7 @@ a.menu__item {
     color: #6a6a6a !important;
 }
 
-
-
-.blog__gifts, .blog__iread, .blog__read-me,.text-center,.blog__last-comments {
+.blog__iread, .blog__read-me,.text-center,.blog__last-comments {
     display: none !important;
 }
 
