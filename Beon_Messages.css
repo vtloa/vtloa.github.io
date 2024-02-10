@@ -1563,12 +1563,12 @@ div#message_post [href="https://beon.vip/GLEBACNK/"] [src="/images/verify.png"] 
 }
 
 
-/*----ФИОЛЕТОВАЯ ГАЛОЧКА----*/
+/*----РОЗОВАЯ ГАЛОЧКА ВАШУ----*/
 
 [href="https://beon.vip/washu/"] b [src="/images/verify.png"],
 .messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"],
 div#message_post [href="https://beon.vip/washu/"] [src="/images/verify.png"] {
-    filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
+    filter: hue-rotate(123deg) brightness(1.7) saturate(1);
 }
 
 /*----СИНЯЯ ГАЛОЧКА----*/
