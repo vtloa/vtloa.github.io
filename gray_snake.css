@@ -1307,3 +1307,35 @@ p.left-menu-text,.left-menu__user-notification.left-menu__unread-notifications a
 .blog__gifts {
     margin-top: 20px;
 }
+
+.blog__gifts .left-menu__gift {
+    display: none !important;
+}
+
+.blog__gifts .left-menu__gift:first-child,
+.blog__gifts .left-menu__gift:first-child+.left-menu__gift,
+.blog__gifts .left-menu__gift:first-child+.left-menu__gift+.left-menu__gift {
+    display: block !important;
+}
+
+
+.left-menu__gift {
+    width: 50%;
+}
+
+.blog__gifts .right-menu-text {
+    display: block;
+    opacity: 0;
+    line-height: 0;
+    transition: 0.5s;
+}
+
+.blog__gifts:hover .right-menu-text {
+    opacity: 1;
+}
+
+.right-menu-text a {
+    color: #545454!important;
+}
+
+
