@@ -442,3 +442,6 @@ div#designs {
     color: #8d7b6a !important;
 }
 
+.group_desc {
+    display: none !important;
+}
