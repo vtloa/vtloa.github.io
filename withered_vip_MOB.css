@@ -422,3 +422,9 @@ textarea#comment_body:focus {
     outline: 3px solid #8d7a5f;
     outline-offset: -3px;
 }
+
+div#designs {
+    background-color: transparent;
+    border: unset;
+    filter: invert(49%) sepia(13%) saturate(577%) hue-rotate(348deg) brightness(97%) contrast(87%);
+}
