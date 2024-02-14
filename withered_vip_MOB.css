@@ -193,7 +193,7 @@ em strong {
     outline: 2px solid #8d7b6a;
 }
     .blog_leftprofile {
-    display: none;
+    display: none !important;
 }
     li.p-1 a, ul.seBlogCategoryList a {
     color: #8d7b6a !important;
