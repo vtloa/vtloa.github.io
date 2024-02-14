@@ -855,8 +855,20 @@ h6.card-subtitle.mb-2.text-muted.post_date a:hover {
 
 /*---FIX*/
 
-.content {
+
+body:before {
+    content: '';
+    display: block;
+    position: fixed;
     background-color: #130e0a73;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    background-color: transparent !important;
 }
 
 .post,
@@ -868,3 +880,5 @@ div[id^="comment_"]:not(div#comment_subscribe){
 .seBlogColumnRightPadding:after {
     opacity: 0.8;
 }
+
+
