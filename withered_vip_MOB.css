@@ -417,3 +417,8 @@ button.btn.btn-secondary {
 textarea#comment_body:focus {
     outline: 1px solid #835a69;
 }
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #8d7a5f;
+    outline-offset: -3px;
+}
