@@ -55,23 +55,11 @@ em strong {
 
 body {
     background: url(https://www.transparenttextures.com/patterns/black-orchid.png), 
-                url(https://i.ibb.co/28sNdkp/flower3.png) no-repeat right top fixed;
+                url(https://i.ibb.co/9qSQx7K/flower2t01.png) no-repeat right top fixed;
     background-color: #120d0a;
     background-size: auto,contain;
     background-blend-mode: color-dodge;
 }
-
-body1 {
-    background: url(https://www.transparenttextures.com/patterns/black-orchid.png), 
-        url(https://i.ibb.co/nzW6KGm/flower2.jpg) no-repeat right top fixed,
-        url(https://i.ibb.co/853w9kv/flower-blur.jpg) no-repeat left 14% bottom -111px;
-    background-color: #120d0a;
-    background-size: auto,contain,contain;
-    background-blend-mode: color-dodge;
-}
-
-
-
 
 .seBlogColumnRightPadding:after {
     content: '';
