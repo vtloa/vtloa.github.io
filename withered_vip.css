@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=PT+Sans+Narrow:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+/*
+font-family: "PT Sans Narrow", sans-serif;
+font-family: "Comfortaa", sans-serif;
+font-family: "Philosopher", sans-serif;
+*/
+
+body,textarea#comment_body {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-family: "Comfortaa", sans-serif;
+}
+
+h2.card-title {
+    font-family: "Philosopher", sans-serif;
+    font-size: 35px;
+}
+div#entry_main {
+    display: none;
+}
+    
+/*--------------*/
+
+.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after, h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after, div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after, .blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
+    opacity: 1;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after {
+    display: none;
+}
+
+.seBlogComments .profile_comment_author a:after, [src="/images/verify.png"] {
+    filter: grayscale(1) invert(8%) sepia(8%) saturate(2000%) hue-rotate(347deg) brightness(38%) contrast(83%) !important;
+}
+
+/*--------------*/
+
+
+/*---kto prochel tot sdohnet---*/
+
+em strong {
+    font-family: "Caveat", cursive;
+    font-size: 17px;
+    font-weight: normal;
+    color: #835a69;
+}
+
+/*-----END----*/
+
+
+body {
+    background: url(https://www.transparenttextures.com/patterns/black-orchid.png), 
+                url(https://i.ibb.co/nzW6KGm/flower2.jpg) no-repeat right top fixed;
+    background-color: #120d0a;
+    background-size: auto,contain;
+    background-blend-mode: color-dodge;
+}
+
+body1 {
+    background: url(https://www.transparenttextures.com/patterns/black-orchid.png), 
+        url(https://i.ibb.co/nzW6KGm/flower2.jpg) no-repeat right top fixed,
+        url(https://i.ibb.co/853w9kv/flower-blur.jpg) no-repeat left 14% bottom -111px;
+    background-color: #120d0a;
+    background-size: auto,contain,contain;
+    background-blend-mode: color-dodge;
+}
+
+
+
+
+.seBlogColumnRightPadding:after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: url(https://i.ibb.co/bFPVN2n/list.png) no-repeat center / contain;
+    position: absolute;
+    top: -50px;
+    right: -59px;
+    filter: brightness(1.5) saturate(0.8);
+    z-index: -1;
+}
+
+
+.top_header {
+    display: none;
+}
+
+.group_desc,.card.group_members {
+    display: none;
+}
+
+.card-header {
+    display: none;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width: 100% !important;
+    padding-top: 15px !important;
+}
+
+html {
+    overflow: hidden;
+}
+
+div#lefthome .card,.card-header {
+    border: unset !important;
+}
+
+div#content_flex {
+    width: 48%;
+    margin: auto;
+}
+
+.post {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    background-color: #393028;
+    padding: 20px;
+}
+
+div#lefthome {
+    position: fixed;
+    width: 15%;
+    left: 0;
+    min-width: unset;
+    background: transparent;
+    top: 0;
+    bottom: 0;
+}
+
+.seBlogColumnRightPadding {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    padding-right: 5px !important;
+}
+
+.seBlogColumnRightPadding:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #715842,transparent);
+}
+
+div#righthome {
+    padding: 0;
+    overflow: visible;
+}
+
+.blog_leftphoto img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    outline: 2px solid #8d7b6a;
+}
+
+li.p-1 a, ul.seBlogCategoryList a {
+    color: #8d7b6a !important;
+    text-shadow: 0 0 5px black;
+}
+
+li.p-1 {
+    font-size: 10px;
+    text-align: right;
+    display: block;
+    padding: 0px !important;
+    text-transform: uppercase;
+}
+
+.blog_leftprofile {
+    display: none;
+}
+
+.blog_leftphoto {
+    text-align: right;
+}
+
+
+.blog_leftsearch input[type="text"] {
+    width: 100px;
+    background: #433629;
+    outline: 1px solid #8d7b6a;
+    margin-bottom: 5px;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-right: 4px;
+}
+
+textarea#comment_body {
+    background: #433629;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-right: 4px;
+    border: unset;
+    margin-bottom: 15px;
+}
+
+
+
+input[type="text"]::placeholder,
+textarea#comment_body::placeholder {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #090807;
+}
+
+ul.seBlogCategoryList {
+    text-align: right;
+}
+
+ul.seBlogCategoryList a {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+
+.post {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b);
+    background-color: #393028;
+    padding: 20px;
+}
+
+h2.card-title a,h6.card-subtitle.mb-2.text-muted.post_date a,.profile_comment_date,
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    color: #8d7b6a !important;
+}
+
+.post,div.profile_comment_body {
+    color: #8d7b6a;
+    font-size: 13px;
+    position: relative;
+}
+
+.post:before,.post:after,
+div[id^="comment_"]:not(div#comment_subscribe):before,
+div[id^="comment_"]:not(div#comment_subscribe):after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(45deg, transparent, #715842,transparent);
+}
+
+.post:after,div[id^="comment_"]:not(div#comment_subscribe):after {
+    top: unset;
+    bottom: 0;
+}
+
+.post a,.seBlogComments a,
+.like_button.liked:before,.like_button.liked+span,.additional_info.pl-3 .category a{
+    color: #835a69 !important;
+}
+
+
+.like_button.liked:before {
+    text-shadow: 0px 0px #835a69;
+}
+
+div#user_status {
+    font-size: 10px;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date,.additional_info.pl-3 *,p.card-link.post_views:before,p.card-link.post_comments a:before,
+[onclick^="more_menu"]:before,div#user_status,.like_button:before {
+    color: #8d7b6a !important;
+}
+
+
+
+ul.seBlogCategoryList {
+    color: #796453;
+}
+
+ul.seBlogCategoryList {
+    max-height: 148px;
+    overflow: hidden;
+}
+
+li.p-1.left_menu_account_link,li.p-1.left_menu_userphotos_link,li.p-1.left_menu_blog_sttings_link,li.p-1.left_menu_editprofile_link {
+    display: none;
+}
+
+.gifts-list {
+    font-size: 0;
+}
+
+.gifts-list img {
+    width: 35px;
+    filter: grayscale(1) sepia(1) brightness(0.5) saturate(2) hue-rotate(-6deg);
+}
+.gifts-list {
+    display: none;
+}
+
+.post_image img,.seBlogComments img.photo {
+    outline: 2px solid #8d7b6a;
+    margin-bottom: 5px;
+    outline-offset: 2px;
+    border-radius: 1px;
+}
+
+.post_image,.blog_user_status,div#user_status {
+    position: relative;
+}
+
+.post_image {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.post_image:before,.blog_user_status:before, .post_image div#user_status:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(332deg, #997d62, #cfb59b);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    border-radius: 1px;
+}
+
+.blog_user_status:before, .post_image div#user_status:before {
+    left: unset;
+    right: -12px;
+    top: unset;
+}
+
+.copyright {
+    display: none;
+}
+
+.post_image img, .blog_leftphoto img.photo {
+    box-shadow: 0 0 11px #8d7b6a82;
+}
+
+.post_image img {
+    border-radius: 1px;
+}
+
+div#righthome {
+    transform: translateX(-20px);
+}
+
+.seBlogColumnRightPadding img.photo {
+    object-fit: cover;
+}
+
+div[id^="comment_"]:not(div#comment_subscribe) {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b);
+    background-color: #393028;
+    padding: 20px;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+div.profile_comment_body,.profile_comment_author,.seBlogComments .profile_comment_links{
+    margin-left: 15px;
+}
+
+.card.mb-2.post_home {
+    margin-bottom: 15px !important;
+}
+
+blockquote.blockquote {
+    background: #433629;
+    outline: 1px solid #8d7b6a;
+    margin-bottom: 5px;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-right: 4px;
+    border: unset;
+}
+
+.comment_headline,div.profile_postcomment {
+    border: unset;
+}
+
+
+input#comment_submit {
+    width: auto;
+    color: #000000;
+    text-shadow: 0 0 6px #ac967b;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 7px;
+}
+
+
+input#comment_submit {
+    background-color: #5f503e;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    border-radius: 2px;
+    background-color: transparent;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    margin-right: 8px;
+    filter: invert(50%) sepia(28%) saturate(370%) hue-rotate(353deg) brightness(97%) contrast(89%);
+}
+
+div#smiles {
+    margin-top: 15px;
+}
+
+a#attach_file_click {
+    filter: invert(50%) sepia(28%) saturate(370%) hue-rotate(353deg) brightness(97%) contrast(89%);
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    border-radius: 2px;
+    background-size: 19px;
+}
+
+[onclick^="subscribe"]:before {
+    content: "\f067";
+    font-size: 14px;
+}
+
+.comment_headline,.comment_headline a {
+    color: #8d7b6a !important;
+}
+
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: #140e0b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #433629;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    border: 5px solid #140e0b;
+}
+
+
+
+/*----END----*/
+
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #8d7a5f;
+    outline-offset: -3px;
+}
+
+
+div.profile_comment_author {
+    position: relative;
+}
+
+div.profile_comment_author:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(332deg, #997d62, #cfb59b);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    border-radius: 1px;
+    z-index: 222;
+}
+
+.profile_comment_author b {
+    padding-left: 10px;
+}
+
+.profile_comment_author a,li.p-1 a {
+    transition: 0.5s;
+}
+
+.profile_comment_author a:hover,li.p-1 a:hover {
+    color: #bda388 !important;
+}
+
+input#comment_submit {
+    transition: 0.5s;
+}
+
+input#comment_submit:hover {
+    background-color: #59404a !important;
+    text-shadow: unset;
+    outline: 1px solid #59404a;
+}
+
+
+/*-----ШАПКА-----*/
+
+.top_header {
+    background-color: #5f503e !important;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png) !important;
+    border: unset;
+    display: block;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    right: 0;
+    bottom: 0;
+    z-index: 222 !important;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.top_header {
+    top: -90px;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: -65px !important;
+    left: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #433629 !important;
+    border-radius: 2px;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) {
+    top: 0px;
+    transition-delay: 0s;
+}
+
+div#menu_main_dropdown>div {
+    display: none;
+}
+
+.top_menu_link_container {
+    display: block !important;
+}
+
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"], [onmouseover="showMenu('menu_dropdown_blog');"], [onmouseover="showMenu('menu_dropdown_tests');"], [onmouseover="showMenu('menu_dropdown_groups');"], [onmouseover="showMenu('menu_dropdown_albums');"], [href="im.php"], [onmouseover="showMenu('menu_dropdown_albums');"], [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"], [href="./"] {
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    font-family: 'cappuccicons';
+    color: #180207;
+    text-align: center;
+    text-decoration: unset !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"] {
+    bottom: 10px;
+    left: 80px;
+}
+
+[onmouseover="showMenu('menu_dropdown_blog');"] {
+    bottom: 10px;
+    left: 140px;
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"] {
+    bottom: 10px;
+    left: 200px;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_groups');"] {
+    bottom: 10px;
+    left: 260px;
+}
+
+[onmouseover="showMenu('menu_dropdown_albums');"] {
+    bottom: 10px;
+    left: 380px;
+}
+
+[href="im.php"] {
+    bottom: 10px;
+    left: 320px;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: 10px;
+    left: 440px;
+}
+
+
+[href="./"] {
+    bottom: 10px;
+    left: 20px;
+}
+
+b.top_header utton#newupdates, .top_header button.btn.btn-primary, .top_header button.button_down {
+    background: transparent !important;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-family: 'cappuccicons';
+    color: #180207;
+    text-align: center;
+    text-decoration: unset !important;
+    border-radius: 0px;
+}
+
+
+.top_header button.btn.btn-primary {
+    right: 80px;
+    font-size: 0px;
+    line-height: normal;
+    transform: translateY(5px);
+}
+
+.top_header button.btn.btn-primary:before {
+    content: '\e97b';
+    color: #7d6d5e;
+    font-size: 25px;
+}
+
+button#newupdates {
+    right: 140px;
+}
+
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+.top_header table tbody tr td:first-child {
+    width: auto !important;
+}
+
+.top_header div.menu_dropdown {
+    border: unset !important;
+    padding: 0px;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    border: unset !important;
+}
+
+
+.top_header a.top_menu_item {
+    font-size: 0px !important;
+}
+
+.top_header a.top_menu_item:before, [href="./"]:before {
+    content: '\ea26';
+    color: #7d6d5e;
+    font-size: 25px;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"]:before {
+    content: '\ecf0' !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_blog');"]:before {
+    content: '\eb0d' !important;
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"]:before {
+    content: '\eaea' !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_groups');"]:before {
+    content: '\eaf9' !important;
+}
+
+[onmouseover="showMenu('menu_dropdown_albums');"]:before {
+    content: '\e9ad' !important;
+}
+
+[href="im.php"]:before {
+    content: '\ea88' !important;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]:before {
+    content: '\e90c' !important;
+    font-size: 20px !important;
+}
+
+[href="./"]:before {
+    content: '\eab7';
+}
+
+
+div.menu_dropdown {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin: 0px;
+    padding-top: 10px !important;
+}
+
+
+div#menu_dropdown_profile {
+    top: 70px;
+    left: 80px;
+}
+
+div#menu_dropdown_blog {
+    top: 70px;
+    left: 140px;
+}
+
+div#menu_dropdown_tests {
+    top: 70px;
+    left: 200px;
+}
+
+
+div#menu_dropdown_groups {
+    top: 70px;
+    left: 260px;
+}
+
+div#menu_dropdown_albums {
+    top: 70px;
+    left: 380px;
+}
+
+
+[href="user_logout.php"] {
+    display: none !important;
+}
+
+div.menu_dropdown {
+    transition: unset !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div.menu_item_dropdown a {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    background: #433629;
+    color: #ad9b81 !important;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    text-transform: inherit;
+}
+
+div.menu_dropdown {
+    background: transparent;
+}
+
+a.menu_item {
+    color: #000000 !important;
+}
+
+
+.top_header a.menu_item:hover {
+    background: #917c62 !important;
+    color: #020201 !important;
+}
+
+.top_header a.menu_item {
+    padding: 0px !important;
+    line-height: 2.5;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center;
+}
+
+
+span#notify_total {
+    position: absolute;
+    left: -60px;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    line-height: 2;
+    font-size: 20px;
+    background: transparent;
+    outline: unset;
+    color: #2f271c;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+
+div#menu_main_dropdown {
+    border: unset;
+}
+
+
+[src="/images/button_down.svg"] {
+    width: 30px;
+    filter: invert(5%) sepia(5%) saturate(5659%) hue-rotate(342deg) brightness(10%) contrast(82%);
+}
+
+[src="/images/notify.svg"] {
+    filter: invert(42%) sepia(28%) saturate(280%) hue-rotate(348deg) brightness(97%) contrast(87%);
+    width: 25px;
+}
+
+button#newupdates {
+    transform: translateY(5px);
+}
+
+/*----ШАПКА END----*/
+
+.top_header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(45deg, transparent, #715842,transparent);
+}
+
+
+[onclick="window.scrollTo(0,100000); return false;"] {
+    display: none;
+}
+
+.top_header {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b) !important;
+    background-color: #393028 !important;
+}
