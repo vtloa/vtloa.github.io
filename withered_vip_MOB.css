@@ -365,6 +365,9 @@ em strong {
     height: 100%;
     background: linear-gradient(45deg, transparent, #715842,transparent);
 }
+    div#bbcode {
+    margin-top: 15px;
+}
 }
 
 
@@ -428,3 +431,8 @@ div#designs {
     border: unset;
     filter: invert(49%) sepia(13%) saturate(577%) hue-rotate(348deg) brightness(97%) contrast(87%);
 }
+
+.blog_user_status,font.disabled,.seBlogComments {
+    color: #8d7b6a !important;
+}
+
