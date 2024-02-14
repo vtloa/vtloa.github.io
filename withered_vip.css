@@ -191,7 +191,7 @@ li.p-1 {
 }
 
 .blog_leftphoto {
-    text-align: right;
+    text-align: right !important;
 }
 
 
