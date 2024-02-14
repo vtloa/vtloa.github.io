@@ -851,3 +851,16 @@ button#newupdates {
 h6.card-subtitle.mb-2.text-muted.post_date a:hover {
     color: #835a69 !important;
 }
+
+
+/*---FIX*/
+
+.content {
+    background-color: #130e0a73;
+}
+
+.post,
+div[id^="comment_"]:not(div#comment_subscribe){
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140e0b);
+    background-color: #393028;
+}
