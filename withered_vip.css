@@ -436,11 +436,10 @@ div#smiles {
 }
 
 a#attach_file_click {
-    filter: invert(50%) sepia(28%) saturate(370%) hue-rotate(353deg) brightness(97%) contrast(89%);
-    outline: 1px solid #8d7b6a;
-    outline-offset: 2px;
     border-radius: 2px;
     background-size: 19px;
+    transform: translateY(3px);
+    filter: invert(5%) sepia(11%) saturate(1407%) hue-rotate(339deg) brightness(99%) contrast(98%);
 }
 
 [onclick^="subscribe"]:before {
@@ -774,7 +773,8 @@ div.menu_item_dropdown a {
     background: #433629;
     color: #ad9b81 !important;
     border-radius: 2px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
+    margin-top: 3px;
     font-size: 12px;
     text-transform: inherit;
 }
