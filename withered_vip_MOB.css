@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=PT+Sans+Narrow:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+/*
+font-family: "PT Sans Narrow", sans-serif;
+font-family: "Comfortaa", sans-serif;
+font-family: "Philosopher", sans-serif;
+*/
+
+body,textarea#comment_body {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-family: "Comfortaa", sans-serif;
+}
+
+h2.card-title {
+    font-family: "Philosopher", sans-serif;
+    font-size: 35px;
+}
+div#entry_main {
+    display: none;
+}
+    
+/*--------------*/
+
+.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after, h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after, div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after, .blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
+    opacity: 1;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after {
+    display: none;
+}
+
+.seBlogComments .profile_comment_author a:after, [src="/images/verify.png"] {
+    filter: grayscale(1) invert(8%) sepia(8%) saturate(2000%) hue-rotate(347deg) brightness(38%) contrast(83%) !important;
+}
+
+/*--------------*/
+
+
+/*---kto prochel tot sdohnet---*/
+
+em strong {
+    font-family: "Caveat", cursive;
+    font-size: 17px;
+    font-weight: normal;
+    color: #835a69;
+}
+
+/*-----END----*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px), (max-width: 1024px) {
+    body {
+    background: url(https://www.transparenttextures.com/patterns/black-orchid.png), url(https://i.ibb.co/nzW6KGm/flower2.jpg) no-repeat right top fixed;
+    background-color: #120d0a;
+    background-size: auto,contain;
+    background-blend-mode: color-dodge;
+}
+    .post {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b);
+    background-color: #393028;
+}
+    .post, div.profile_comment_body {
+    color: #8d7b6a;
+    font-size: 13px;
+    position: relative;
+}
+    h6.card-subtitle.mb-2.text-muted.post_date, 
+    .additional_info.pl-3 *, 
+    p.card-link.post_views:before, 
+    p.card-link.post_comments a:before, [onclick^="more_menu"]:before, div#user_status, 
+    .like_button:before,h2.card-title a, h6.card-subtitle.mb-2.text-muted.post_date a, 
+    .profile_comment_date, .like_button:before, p.card-link.post_views:before, 
+    p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, 
+    a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, 
+    .commentEditLink:before, p.card-link.grouppost_comments:before {
+    color: #8d7b6a !important;
+}
+    .post_image img, .seBlogComments img.photo {
+    outline: 2px solid #8d7b6a;
+    margin-bottom: 5px;
+    outline-offset: 2px;
+    border-radius: 1px;
+}
+    .post_image {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+    div[id^="comment_"]:not(div#comment_subscribe) {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b);
+    background-color: #393028;
+    padding: 20px;
+    padding-left: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+    .profile_comment_author a:hover, li.p-1 a:hover {
+    color: #bda388 !important;
+}
+    .post a, .seBlogComments a, .like_button.liked:before, .like_button.liked+span, .additional_info.pl-3 .category a {
+    color: #835a69 !important;
+}
+    
+    .post:before, .post:after, 
+    div[id^="comment_"]:not(div#comment_subscribe):before, 
+    div[id^="comment_"]:not(div#comment_subscribe):after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(45deg, transparent, #715842,transparent);
+}
+    .post:after, div[id^="comment_"]:not(div#comment_subscribe):after {
+    top: unset;
+    bottom: 0;
+}
+    blockquote.blockquote {
+    background: #433629;
+    outline: 1px solid #8d7b6a;
+    margin-bottom: 5px;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-right: 4px;
+    border: unset;
+}
+    div.profile_comment_body, .profile_comment_author, .seBlogComments .profile_comment_links {
+    margin-left: 10px;
+}
+    .comment_headline, div.profile_postcomment {
+    border: unset;
+}
+    .comment_headline, .comment_headline a {
+    color: #8d7b6a !important;
+}
+    textarea#comment_body {
+    background: #433629;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-right: 4px;
+    border: unset;
+    margin-bottom: 15px;
+}
+    input#comment_submit {
+    width: auto;
+    color: #000000;
+    text-shadow: 0 0 6px #ac967b;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 7px;
+}
+    input#comment_submit {
+    background-color: #5f503e;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+}
+    input[type="text"]::placeholder,
+    textarea#comment_body::placeholder {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #090807;
+}
+    div#bbcode [src^="/images/bbcode/"] {
+    border-radius: 2px;
+    background-color: transparent;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    margin-right: 8px;
+    filter: invert(50%) sepia(28%) saturate(370%) hue-rotate(353deg) brightness(97%) contrast(89%);
+}
+    a#attach_file_click {
+    filter: invert(50%) sepia(28%) saturate(370%) hue-rotate(353deg) brightness(97%) contrast(89%);
+    background-size: 19px;
+}
+    .copyright {
+    display: none;
+}
+    .blog_leftphoto img.photo {
+    max-width: 170px;
+    max-height: 170px;
+    object-fit: cover;
+    border-radius: 100%;
+    outline: 2px solid #8d7b6a;
+}
+    .blog_leftprofile {
+    display: none;
+}
+    li.p-1 a, ul.seBlogCategoryList a {
+    color: #8d7b6a !important;
+    text-shadow: 0 0 5px black;
+}
+    li.p-1 {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    padding: 0px !important;
+    text-transform: uppercase;
+}
+    div#lefthome .card-body {
+    position: relative;
+    padding-top: 15px !important;
+}
+    div#lefthome .card {
+    border: unset;
+}
+    div#lefthome .card-body:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(45deg, transparent, #715842,transparent);
+}
+    .card-header {
+    display: none;
+}
+    .blog_leftsearch input[type="text"] {
+    background: #433629;
+    outline: 1px solid #8d7b6a;
+    margin-bottom: 5px;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-top: 5px;
+}
+    .card.group_members {
+    display: none !important;
+}
+    .show_menu.header-orange {
+    background-color: #5f503e;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    width: auto;
+    color: #000000;
+    text-shadow: 0 0 6px #ac967b;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 7px
+}
+    .like_button.liked:before {
+    text-shadow: 0px 0px #835a69;
+}
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background-color: #5f503e;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    color: #000000;
+    text-shadow: 0 0 6px #ac967b;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 7px;
+    border: unset !important;
+}
+    button.navbar-toggler, button.navbar-toggler:hover,button.btn.btn-outline-success:before {
+    opacity: 1;
+    filter: invert(3%) sepia(7%) saturate(3737%) hue-rotate(344deg) brightness(95%) contrast(94%);
+}
+    span#notify_total {
+    background: #140f0b;
+    color: #c7b291;
+    font-size: 11px;
+    min-width: 18px;
+}
+    [src="./images/logo_new.png"] {
+    display: none;
+}
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [href="./"]:before {
+    content: '\eab7';
+    font-family: 'cappuccicons';
+    color: #1f1b15;
+    text-decoration: unset !important;
+    font-size: 21px;
+}
+    [href="./"]:hover {
+    text-decoration: unset !important;
+}
+    
+    div#mobile_photo img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+    outline: 2px solid #8d7b6a;
+    box-shadow: 0 0 11px #8d7b6a82;
+}
+    div#mobile_photo {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+    div#mobile_photo:after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(https://i.ibb.co/bFPVN2n/list.png) no-repeat center / contain;
+    position: absolute;
+    top: 0;
+    left: 87px;
+    filter: brightness(1.5) saturate(0.8);
+    z-index: -1;
+}
+    div#mobile_menu {
+    background: url(https://www.transparenttextures.com/patterns/black-orchid.png);
+    background-color: #120d0a;
+}
+    div#mobile_photo_wrap {
+    color: #8d7b6a;
+}
+    #mobile_menu .menu_item_dropdown a {
+    background: transparent;
+    color: #8d7b6a;
+    border: none;
+    padding: 10px;
+}
+    #mobile_menu button.btn.btn-primary {
+    background-color: #5f503e;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    width: auto;
+    color: #000000;
+    text-shadow: 0 0 6px #ac967b;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 7px;
+    font-size: 12px !important;
+}
+    .post_image img, .blog_leftphoto img.photo {
+    box-shadow: 0 0 11px #8d7b6a82;
+}
+    img.menu_icon2 {
+    filter: grayscale(1);
+}
+    #mobile_menu button.btn.btn-primary:hover {
+    background-color: #59404a !important;
+    text-shadow: unset;
+    outline: 1px solid #59404a;
+}
+    .profile_comment_date {
+    margin-left: 10px;
+}
+    #mobile_menu:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #715842,transparent);
+}
+}
+
+
+
+/*----ОБЩЕЕ----*/
+
+h2.card-title a:hover {
+    color: #835a69 !important;
+}
+
+.modal-content {
+    background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b);
+    background-color: #393028;
+    border: unset;
+    border-radius: 2px;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+.modal-header h5.modal-title {
+    font-family: "Philosopher", sans-serif;
+    font-size: 25px;
+    color: #8d7b6a !important;
+}
+
+.modal-dialog a {
+    color: #835a69 !important;
+}
+
+button.btn.btn-secondary {
+    background-color: #5f503e;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    width: auto;
+    color: #000000;
+    text-shadow: 0 0 6px #ac967b;
+    outline: 1px solid #8d7b6a;
+    outline-offset: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 7px;
+    font-size: 12px !important;
+}
+
+:focus:not(textarea#comment_body) {
+    outline: unset !important;
+}
+
+textarea#comment_body:focus {
+    outline: 1px solid #835a69;
+}
