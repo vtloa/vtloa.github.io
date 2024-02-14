@@ -187,7 +187,7 @@ li.p-1 {
 }
 
 .blog_leftprofile {
-    display: none;
+    display: none !important;
 }
 
 .blog_leftphoto {
