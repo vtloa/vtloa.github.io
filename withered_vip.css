@@ -859,3 +859,7 @@ button#newupdates {
     background: url(https://www.transparenttextures.com/patterns/concrete-wall.png),linear-gradient(90deg, #130e0a, #130e0a91,#140f0b) !important;
     background-color: #393028 !important;
 }
+
+h6.card-subtitle.mb-2.text-muted.post_date a:hover {
+    color: #835a69 !important;
+}
