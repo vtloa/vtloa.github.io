@@ -368,6 +368,12 @@ em strong {
     div#bbcode {
     margin-top: 15px;
 }
+    .profile_comment_author b {
+    font-size: 14px;
+}
+    div.profile_comment_body {
+    font-size: 14px;
+}
 }
 
 
