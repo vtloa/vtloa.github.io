@@ -451,6 +451,9 @@ div#designs {
     font-size: 13px;
 }
 
+.total_likes {
+    color: #8d7b6a !important;
+}
 
 textarea#comment_body:focus {
     background: #968065;
