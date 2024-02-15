@@ -450,3 +450,8 @@ div#designs {
     color: #8d7b6a;
     font-size: 13px;
 }
+
+
+textarea#comment_body:focus {
+    background: #968065;
+}
