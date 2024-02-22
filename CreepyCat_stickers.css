@@ -172,5 +172,5 @@ div#bbcode [src^="/images/fffuuusmiles/"] {
 div#bbcode [src^="/images/fffuuusmiles/"]:hover {
     outline: 2px solid #54b9e7;
     outline-offset: -5px;
-    scale: 1.1;
+    scale: 1.4;
 }
