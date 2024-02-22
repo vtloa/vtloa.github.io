@@ -155,7 +155,7 @@ background: url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/master/3
 
 
 
-[alt="FFFUUU Смайлы"] {
+div#bbcode [alt="FFFUUU Смайлы"] {
     background: url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/master/35/1.png) no-repeat center;
     background-size: cover;
     padding: 10px !important;
