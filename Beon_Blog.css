@@ -1210,3 +1210,25 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 .blog_leftprofile [href="https://beon.vip/Satan/blog/"] [src="/images/verify.png"]{
     filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
 }
+
+
+/*-----------ЭКСПЕРИМЕНТАЛЬНЫЙ ЗУМ КАРТИНОК ОНЛИ CSS в комментариях----------*/
+
+@media (min-width: 1024px) {
+
+div.profile_comment_body:hover img {
+    transition: 0.1s;
+    transition-delay: 999s;
+}
+
+
+div.profile_comment_body:hover img:active {
+    transition: 0.01s;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+}
+
+
+/*-----------------------*/
+
