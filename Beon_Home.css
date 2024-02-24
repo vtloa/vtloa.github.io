@@ -1542,3 +1542,9 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Onee/"]:after
     filter: saturate(0.9);
 }
 
+/*----------УБРАТЬ АУТЛАЙН С КНОПОК ЗАКРЫТЬ-------*/
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+    outline: unset;
+}
+
