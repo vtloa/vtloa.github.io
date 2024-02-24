@@ -1232,3 +1232,8 @@ div.profile_comment_body:hover img:active {
 
 /*-----------------------*/
 
+/*----------УБРАТЬ АУТЛАЙН С КНОПОК ЗАКРЫТЬ-------*/
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+    outline: unset;
+}
