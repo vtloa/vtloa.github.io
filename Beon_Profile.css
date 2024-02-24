@@ -1446,3 +1446,13 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 .messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"]{
     filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
 }
+
+
+/*----------УБРАТЬ АУТЛАЙН С КНОПОК ФОКУСА-------*/
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus,
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled){
+    outline: unset;
+}
+
+/*-----------------------*/
