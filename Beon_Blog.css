@@ -1232,8 +1232,11 @@ div.profile_comment_body:hover img:active {
 
 /*-----------------------*/
 
-/*----------УБРАТЬ АУТЛАЙН С КНОПОК ЗАКРЫТЬ-------*/
+/*----------УБРАТЬ АУТЛАЙН С КНОПОК ФОКУСА-------*/
 
-.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus,
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled){
     outline: unset;
 }
+
+/*-----------------------*/
