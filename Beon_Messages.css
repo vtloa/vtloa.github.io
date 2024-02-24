@@ -1580,3 +1580,26 @@ div#message_post [href="https://beon.vip/Satan/"] [src="/images/verify.png"] {
 }
 
 
+
+/*-----------ЭКСПЕРИМЕНТАЛЬНЫЙ ЗУМ КАРТИНОК ОНЛИ CSS в личных сообщениях----------*/
+
+@media (min-width: 1024px) {
+
+div#message_row_text:hover .messages_text img {
+    transition: 0.1s;
+    transition-delay: 999s;
+}
+
+
+div#message_row_text:hover img:active {
+    transition: 0.01s;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+}
+
+
+/*-----------------------*/
+
+
+
