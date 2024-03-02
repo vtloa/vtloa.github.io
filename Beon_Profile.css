@@ -1456,3 +1456,11 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 }
 
 /*-----------------------*/
+
+/*---ВЕСЕННЕЕ ЛОГО---*/
+
+.top_header [src="./images/logo_new.png"] {
+    content: url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/master/logo/logo_new_spring.png);
+}
+
+/*----------------*/
