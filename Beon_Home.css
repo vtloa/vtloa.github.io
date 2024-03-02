@@ -1548,3 +1548,11 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Onee/"]:after
     outline: unset;
 }
 
+/*---ВЕСЕННЕЕ ЛОГО---*/
+
+.top_header [src="./images/logo_new.png"] {
+    content: url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/master/logo/logo_new_spring.png);
+}
+
+/*----------------*/
+
