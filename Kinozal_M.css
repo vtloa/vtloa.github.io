@@ -60,7 +60,7 @@ div {
     display: none;
 }
 
-.card.mb-2.post_home:first-child iframe {
+.card.mb-2.post_home:first-child [src^="https://www.youtube.com/embed/"] {
     max-width: 100% !important;
     height: 100%;
     max-height: 100%;
