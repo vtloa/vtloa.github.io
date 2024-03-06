@@ -48,7 +48,7 @@ div {
 /*-------------------*/
 
 
-.card.mb-2.post_home p.kinozal{
+.card.mb-2.post_home:first-child [src^="https://www.youtube.com/embed/"] {
     position: fixed;
     top: 0;
     left: 0;
@@ -56,11 +56,11 @@ div {
     width: 65%;
 }
 
-.card.mb-2.post_home:has(p.kinozal) .post_image {
+.card.mb-2.post_home:first-child .post_image {
     display: none;
 }
 
-.card.mb-2.post_home:has(p.kinozal) iframe {
+.card.mb-2.post_home:first-child iframe {
     max-width: 100% !important;
     height: 100%;
     max-height: 100%;
