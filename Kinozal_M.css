@@ -425,6 +425,10 @@ div#bbcode {
     direction: rtl;
 }
 
+div#fffuuusmiles {
+    direction: ltr;
+}
+
 .content:has(.card.mb-2.post_home:first-child p.k) div#bbcode {
     margin-top: 0;
     text-align: left;
