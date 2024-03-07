@@ -421,6 +421,16 @@ div#bbcode {
 }
 
 
+div#bbcode {
+    direction: rtl;
+}
+
+.content:has(.card.mb-2.post_home:first-child p.k) div#bbcode {
+    margin-top: 0;
+    text-align: left;
+}
+
+
 /*-----ПОЛЕЗНОЕ И ДЛЯ ОБЩЕГО БЕОНА----*/
 
 [onclick^="more_menu"]:before {
@@ -428,3 +438,6 @@ div#bbcode {
     display: inline-block;
     text-align: right;
 }
+
+
+
