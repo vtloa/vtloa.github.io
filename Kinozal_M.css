@@ -45,30 +45,21 @@ div {
 .copyright {
     display: none !important;
 }
+
 /*-------------------*/
 
-
-.card.mb-2.post_home:first-child [src^="https://www.youtube.com/embed/"] {
+.contentDELETE {
     position: fixed;
     top: 0;
-    left: 0;
+    width: 20% !important;
     bottom: 0;
-    width: 65%;
+    right: 0;
+    overflow-y: scroll;
 }
 
-.card.mb-2.post_home:first-child .post_image {
-    display: none;
-}
-
-.card.mb-2.post_home:first-child [src^="https://www.youtube.com/embed/"] {
-    max-width: 100% !important;
-    height: 100%;
-    max-height: 100%;
-}
-
-/*-------------------*/
-
-.content {
+/*------ОЧЕНЬ ВАЖНОЕ-------*/
+    
+    .content:has(.card.mb-2.post_home:first-child p.k) {
     position: fixed;
     top: 0;
     width: 35% !important;
@@ -76,6 +67,34 @@ div {
     right: 0;
     overflow-y: scroll;
 }
+
+html:has(.card.mb-2.post_home:first-child p.k) {
+    overflow: hidden;
+}
+
+.content:has(.card.mb-2.post_home:first-child p.k) div#lefthome {
+    display: none;
+}
+
+
+.content:has(.card.mb-2.post_home:first-child p.k) [src^="https://www.youtube.com/embed/"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 65%;
+    max-width: 100% !important;
+    height: 100%;
+    max-height: 100%;
+}
+
+
+.card.mb-2.post_home:first-child .post_image {
+    display: none;
+}
+
+
+/*-------------------*/
 
 .content {
     padding: 0px !important;
