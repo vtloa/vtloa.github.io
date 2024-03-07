@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=PT+Sans+Narrow:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+/*
+font-family: "PT Sans Narrow", sans-serif;
+font-family: "Comfortaa", sans-serif;
+font-family: "Philosopher", sans-serif;
+*/
+
+body,textarea#comment_body {
+    font-family: "PT Sans Narrow1", sans-serif;
+}
+
+
 .top_header {
     display: none;
 }
@@ -203,3 +221,313 @@ div#fffuuusmiles::-webkit-scrollbar {
 }
 
 /*----------------*/
+
+
+/*-----ШАПКА-----*/
+
+.top_header {
+    background: #0e39a7e6;
+    border: unset;
+    display: block;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    right: 0;
+    bottom: 0;
+    z-index: 222 !important;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.top_header {
+    top: -90px;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: -55px !important;
+    left: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #0e39a7e6 !important;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) {
+    top: 0px;
+    transition-delay: 0s;
+}
+
+div#menu_main_dropdown>div {
+    display: none;
+}
+
+.top_menu_link_container {
+    display: block !important;
+}
+
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"], [onmouseover="showMenu('menu_dropdown_blog');"], [onmouseover="showMenu('menu_dropdown_tests');"], [onmouseover="showMenu('menu_dropdown_groups');"], [onmouseover="showMenu('menu_dropdown_albums');"], [href="im.php"], [onmouseover="showMenu('menu_dropdown_albums');"], [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"], [href="./"] {
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    font-family: 'cappuccicons';
+    color: #180207;
+    text-align: center;
+    text-decoration: unset !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"] {
+    bottom: 10px;
+    left: 80px;
+}
+
+[onmouseover="showMenu('menu_dropdown_blog');"] {
+    bottom: 10px;
+    left: 140px;
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"] {
+    bottom: 10px;
+    left: 200px;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_groups');"] {
+    bottom: 10px;
+    left: 260px;
+}
+
+[onmouseover="showMenu('menu_dropdown_albums');"] {
+    bottom: 10px;
+    left: 380px;
+}
+
+[href="im.php"] {
+    bottom: 10px;
+    left: 320px;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: 10px;
+    left: 440px;
+}
+
+
+[href="./"] {
+    bottom: 10px;
+    left: 20px;
+}
+
+b.top_header utton#newupdates, .top_header button.btn.btn-primary, .top_header button.button_down {
+    background: transparent !important;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-family: 'cappuccicons';
+    color: #180207;
+    text-align: center;
+    text-decoration: unset !important;
+    border-radius: 0px;
+}
+
+.top_header button.btn.btn-primary {
+    right: 80px;
+    font-size: 0px;
+    line-height: normal;
+}
+
+
+
+
+button#newupdates {
+    right: 140px;
+}
+
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+.top_header table tbody tr td:first-child {
+    width: auto !important;
+}
+
+.top_header div.menu_dropdown {
+    border: unset !important;
+    padding: 0px;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    border: unset !important;
+}
+
+
+.top_header a.top_menu_item {
+    font-size: 0px !important;
+}
+
+.top_header a.top_menu_item:before, [href="./"]:before {
+    content: '\ea26';
+}
+
+
+.top_header button.btn.btn-primary:before {
+    content: '\e97b';
+}
+
+.top_header a.top_menu_item:before, [href="./"]:before,
+.top_header button.btn.btn-primary:before {
+    color: #5c86ed;
+    font-size: 25px;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_profile');"]:before {
+    content: '\ecf0' !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_blog');"]:before {
+    content: '\eb0d' !important;
+}
+
+[onmouseover="showMenu('menu_dropdown_tests');"]:before {
+    content: '\eaea' !important;
+}
+
+
+[onmouseover="showMenu('menu_dropdown_groups');"]:before {
+    content: '\eaf9' !important;
+}
+
+[onmouseover="showMenu('menu_dropdown_albums');"]:before {
+    content: '\e9ad' !important;
+}
+
+[href="im.php"]:before {
+    content: '\ea88' !important;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]:before {
+    content: '\e90c' !important;
+    font-size: 20px !important;
+}
+
+[href="./"]:before {
+    content: '\eab7';
+}
+
+
+div.menu_dropdown {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin: 0px;
+    padding-top: 10px !important;
+}
+
+
+div#menu_dropdown_profile {
+    top: 70px;
+    left: 80px;
+}
+
+div#menu_dropdown_blog {
+    top: 70px;
+    left: 140px;
+}
+
+div#menu_dropdown_tests {
+    top: 70px;
+    left: 200px;
+}
+
+
+div#menu_dropdown_groups {
+    top: 70px;
+    left: 260px;
+}
+
+div#menu_dropdown_albums {
+    top: 70px;
+    left: 380px;
+}
+
+
+[href="user_logout.php"] {
+    display: none !important;
+}
+
+div.menu_dropdown {
+    transition: unset !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div.menu_item_dropdown a {
+    background: #1746b9;
+    color: #b4caff !important;
+    margin-bottom: 4px;
+    font-size: 12px;
+    text-transform: inherit;
+}
+
+div.menu_dropdown {
+    background: transparent;
+}
+
+
+.top_header a.menu_item:hover {
+    background: #5c86ed !important;
+    color: #ffffff !important;
+}
+
+.top_header a.menu_item {
+    padding: 0px !important;
+    line-height: 2.5;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center;
+}
+
+
+span#notify_total {
+    position: absolute;
+    left: -60px;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    line-height: 2;
+    font-size: 20px;
+    background: transparent;
+    outline: unset;
+    color: #2f271c;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+
+div#menu_main_dropdown {
+    border: unset;
+}
+
+
+[src="/images/notify.svg"],[src="/images/button_down.svg"] {
+    width: 25px;
+    filter: invert(50%) sepia(24%) saturate(1199%) hue-rotate(185deg) brightness(99%) contrast(99%);
+}
+
+[src="/images/button_down.svg"] {
+    width: 30px;
+}
+
+/*----ШАПКА END----*/
