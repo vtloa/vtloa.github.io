@@ -1,9 +1,4 @@
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px),(max-width: 1024px) {
-
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
-    display: none;
-}
-
     
 /*-------------------*/
 
@@ -207,14 +202,17 @@ div#fffuuusmiles::-webkit-scrollbar {
 }
 
 
-/*----ШАПКА----*/ 
+/*----ШАПКА----*/
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: #0e39a7e6;
+    border: unset !important;
+}
 
 body:has(.card.mb-2.post_home:first-child p.k) nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     height: 40px;
     display: flex;
     align-content: center;
-    background: #0e39a7e6;
-    border: unset !important;
     left: 65%;
     right: 0;
     width: 35%;
