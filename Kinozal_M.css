@@ -385,7 +385,7 @@ div#postcomment_userphotos::-webkit-scrollbar {
     position: absolute;
     top: 31px;
     right: 55px;
-    height: calc(100% - 58px);
+    height: calc(100% - 59px);
     width: 45px;
 }
 
