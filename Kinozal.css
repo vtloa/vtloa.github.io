@@ -15,6 +15,9 @@ body,textarea#comment_body {
     font-family: "PT Sans Narrow1", sans-serif;
 }
 
+a {
+    text-decoration: unset !important;
+}
 
 .top_header {
     display: none;
