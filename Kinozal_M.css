@@ -298,7 +298,7 @@ blockquote.blockquote {
 
 .content:has(.card.mb-2.post_home:first-child p.k) .category {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 textarea#comment_body {
