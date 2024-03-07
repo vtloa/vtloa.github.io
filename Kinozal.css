@@ -246,7 +246,8 @@ div#fffuuusmiles::-webkit-scrollbar {
 
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
     bottom: -55px !important;
-    left: 20px !important;
+    right: 20px !important;
+    left: unset !important;
     width: 30px !important;
     height: 30px !important;
     background-color: #0e39a7e6 !important;
