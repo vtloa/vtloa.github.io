@@ -351,6 +351,10 @@ input#comment_submit {
     text-shadow: 0px 0px #388fff;
 }
 
+div#bbcode {
+    width: 100%;
+}
+
 /*-----ПОЛЕЗНОЕ И ДЛЯ ОБЩЕГО БЕОНА----*/
 
 [onclick^="more_menu"]:before {
