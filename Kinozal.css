@@ -80,6 +80,10 @@ html:has(.card.mb-2.post_home:first-child p.k) {
     overflow: hidden;
 }
 
+div#lefthome:has(.card.mb-2.post_home:first-child p.k) {
+    display: none;
+}
+
 /*-------------------*/
 
 .content {
@@ -90,9 +94,7 @@ div#righthome {
     padding: 10px !important;
 }
 
-div#lefthome {
-    display: none;
-}
+
 
 div#bbcode {
     width: 70%;
