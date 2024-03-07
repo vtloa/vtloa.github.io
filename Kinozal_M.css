@@ -505,7 +505,7 @@ input#comment_secure {
 
 @media (max-width: 1366px){
 img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
-    width: 50px !important;
+    width: 60px !important;
 }    
 }
 
