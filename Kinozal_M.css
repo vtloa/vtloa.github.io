@@ -491,3 +491,21 @@ div#mobile_photo_wrap div {
     color: #b4caff !important;
 }
 
+
+img#secure_image {
+    filter: grayscale(1) brightness(7.5);
+}
+
+input#comment_secure {
+    background: #184fd7;
+    border: unset;
+    color: white !important;
+}
+
+
+@media (max-width: 1366px){
+img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
+    width: 50px !important;
+}    
+}
+
