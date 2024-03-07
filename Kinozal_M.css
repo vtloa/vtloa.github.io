@@ -96,10 +96,6 @@ div#lefthome {
     display: none;
 }
 
-div#bbcode {
-    width: 70%;
-}
-
 input#comment_submit {
     width: 30%;
 }
@@ -265,6 +261,9 @@ button.btn.btn-outline-success {
     font-weight: bold;
 }
 
+div#bbcode {
+    margin: 0px !important;
+}
 }
 
 
@@ -408,6 +407,7 @@ input#comment_submit {
 div#bbcode {
     width: 100%;
 }
+
 
 /*-----ПОЛЕЗНОЕ И ДЛЯ ОБЩЕГО БЕОНА----*/
 
