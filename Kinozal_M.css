@@ -7,10 +7,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     
 /*-------------------*/
 
-.top_header {
-    display: none;
-}
-
 
 body {
     background: #1d1e21;
@@ -210,7 +206,67 @@ div#fffuuusmiles::-webkit-scrollbar {
     display: none;
 }
 
-/*----------------*/
+
+/*----ШАПКА----*/ 
+
+body:has(.card.mb-2.post_home:first-child p.k) nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    height: 40px;
+    display: flex;
+    align-content: center;
+    background: #0e39a7e6;
+    border: unset !important;
+    left: 65%;
+    right: 0;
+    width: 35%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu .p-1 [src="./images/logo_new.png"] {
+    width: 40px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [src="/images/notify.svg"] {
+    width: 20px;
+}
+
+button.navbar-toggler,button.btn.btn-outline-success {
+    border: unset;
+}
+
+[src="/images/notify.svg"], [src="/images/button_down.svg"],button.navbar-toggler {
+    filter: invert(50%) sepia(24%) saturate(1199%) hue-rotate(185deg) brightness(99%) contrast(99%);
+}
+
+button.navbar-toggler:hover,
+button.btn.btn-outline-success:hover{
+    background: transparent !important;
+    color: #5d86ed !important;
+}
+
+button.btn.btn-outline-success {
+    color: #5d86ed !important;
+}
+
+.content {
+    padding-top: 50px !important;
+}
+
+.show_menu.header-orange {
+    border-radius: unset;
+    background: #1746b9;
+    color: #8fafff !important;
+}
+
+.p-1 [src="./images/logo_new.png"] {
+    display: none;
+}
+
+.p-1 [href="./"]:before {
+    content: 'BEON';
+    text-decoration: unset !important;
+    color: #5d86ed !important;
+    font-weight: bold;
+}
+
 }
 
 
