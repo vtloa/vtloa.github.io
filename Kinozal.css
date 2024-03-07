@@ -180,15 +180,15 @@ input#comment_submit {
 
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 20px;
 }
 
 
 ::-webkit-scrollbar-thumb {
     background: #666666;
     border-radius: 5px;
+    border: 5px solid #1d1e21;
 }
-
 
 ::-webkit-scrollbar-track {
     margin-top: 200px;
