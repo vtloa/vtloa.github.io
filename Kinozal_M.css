@@ -221,3 +221,140 @@ div#fffuuusmiles::-webkit-scrollbar {
 .profile_comment_date {
     padding-left: 10px !important;
 }
+
+
+/*---ОБЩЕЕ закинуть в М версию---*/
+
+.modal-content {
+    background: #1746b9;
+    color: #b4caff !important;
+    border-radius: unset;
+}
+
+h5.modal-title,.noUpdates {
+    color: #b4caff !important;
+}
+
+button.btn.btn-secondary {
+    border-radius: unset;
+    background: #dbe5ff;
+    color: #1746b9 !important;
+}
+
+.modal-body a {
+    color: #b4caff !important;
+}
+
+button.close {
+    display: none;
+}
+
+.modal-footer {
+    position: absolute;
+    top: auto;
+    right: 0;
+}
+
+input#comment_submit {
+    background: #1746b9;
+    color: transparent !important;
+    border-radius: unset !important;
+}
+
+input#comment_submit:hover {
+    background: #5c86ed !important;
+}
+
+font.disabled{
+    font-size: 11px;
+    color: #4d4d4d !important;
+}
+
+.comment_headline a:before,
+.comment_headline span {
+    font-size: 14px;
+    color: #4d4d4d !important;
+}
+
+a#comment_next_page_bottom,a#comment_next_page_top,a#comment_last_page_top,a#comment_last_page_bottom,.category a{
+    color: #265eff !important;
+}
+
+blockquote.blockquote {
+    background: #184fd7;
+    color: #a8c1ff !important;
+    border: unset;
+}
+
+.content:has(.card.mb-2.post_home:first-child p.k) h2.card-title,
+.content:has(.card.mb-2.post_home:first-child p.k) h6.card-subtitle.mb-2.text-muted.post_date {
+    display: none;
+}
+
+.content:has(.card.mb-2.post_home:first-child p.k) .post_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content:has(.card.mb-2.post_home:first-child p.k) .category {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+textarea#comment_body {
+    border-radius: unset;
+}
+
+
+div#bbcode [src^="/images/bbcode/"] {
+    border-radius: unset;
+    background: transparent;
+    filter: invert(14%) sepia(83%) saturate(4935%) hue-rotate(227deg) brightness(97%) contrast(84%);
+}
+
+div#postcomment_userphotos::-webkit-scrollbar {
+    display: none;
+}
+
+input#comment_submit {
+    position: absolute;
+    top: 31px;
+    right: 55px;
+    height: calc(100% - 58px);
+    width: 45px;
+}
+
+.comment_headline {
+    font-size: 11px;
+    color: #4d4d4d !important;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    font-size: 14px;
+}
+
+.like_button.liked+span {
+    font-size: 12px;
+}
+
+
+.like_button.liked:before{
+    color: #388fff;
+}
+
+.like_button.liked+span {
+    color: #388fff !important;
+}
+
+
+.like_button.liked:before {
+    text-shadow: 0px 0px #388fff;
+}
+
+/*-----ПОЛЕЗНОЕ И ДЛЯ ОБЩЕГО БЕОНА----*/
+
+[onclick^="more_menu"]:before {
+    width: 20px;
+    display: inline-block;
+    text-align: right;
+}
