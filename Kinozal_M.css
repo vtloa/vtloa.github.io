@@ -435,6 +435,18 @@ div#fffuuusmiles {
 }
 
 
+div#smiles {
+    position: fixed;
+    bottom: 0;
+    right: 35%;
+    left: unset;
+    background: #0e39a7ad;
+    width: 150px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+
 /*-----ПОЛЕЗНОЕ И ДЛЯ ОБЩЕГО БЕОНА----*/
 
 [onclick^="more_menu"]:before {
