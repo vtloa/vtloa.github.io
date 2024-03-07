@@ -269,6 +269,9 @@ button.btn.btn-outline-success:before {
     opacity: 0.5;
     filter: invert(50%) sepia(24%) saturate(1199%) hue-rotate(185deg) brightness(99%) contrast(99%);
 }
+body:has(.card.mb-2.post_home:first-child p.k) button.btn.btn-outline-success {
+    display: none;
+}
 }
 
 
@@ -374,7 +377,7 @@ div#postcomment_userphotos::-webkit-scrollbar {
     display: none;
 }
 
-input#comment_submit {
+.content:has(.card.mb-2.post_home:first-child p.k) input#comment_submit {
     position: absolute;
     top: 31px;
     right: 55px;
