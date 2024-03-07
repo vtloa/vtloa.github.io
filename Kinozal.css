@@ -59,7 +59,16 @@ div {
 
 /*-------------------*/
 
-.content {
+.contentDELETE {
+    position: fixed;
+    top: 0;
+    width: 20% !important;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.content:has(.card.mb-2.post_home:first-child p.k) {
     position: fixed;
     top: 0;
     width: 20% !important;
