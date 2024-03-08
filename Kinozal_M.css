@@ -513,3 +513,16 @@ div#comment_error {
     font-size: 0;
 }
 
+body {
+    cursor: url(http://i.imgur.com/2qleX.jpg), auto;
+}
+
+a, a:hover {
+    cursor: url(http://i.imgur.com/IepP2.jpg), auto;
+}
+
+span.card-text img {
+    padding: 0px !important;
+    margin: 3px;
+}
+
