@@ -403,17 +403,17 @@ div#postcomment_userphotos::-webkit-scrollbar {
 }
 
 
-.like_button.liked:before{
-    color: #388fff;
+.like_button.liked:before {
+    color: #265eff !important;
 }
 
 .like_button.liked+span {
-    color: #388fff !important;
+    color: #265eff !important;
 }
 
 
 .like_button.liked:before {
-    text-shadow: 0px 0px #388fff;
+    text-shadow: 0px 0px #265eff;
 }
 
 div#bbcode {
@@ -526,3 +526,7 @@ span.card-text img {
     margin: 3px;
 }
 
+
+a:hover {
+    color: #265eff !important;
+}
