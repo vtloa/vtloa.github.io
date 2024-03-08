@@ -1564,3 +1564,7 @@ input[type="submit"]:hover {
 .container-fluid.gifts-page .col-lg-2.col-md-4.col-6.gifts-page__gifts-item .post-opt {
     font-size: 14px;
 }
+
+.text-right+div {
+    padding: 0px;
+}
