@@ -535,3 +535,8 @@ div#menu_main_dropdown {
 }
 
 /*----ШАПКА END----*/
+
+
+div#righthome {
+    padding-right: 0px !important;
+}
