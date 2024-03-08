@@ -509,3 +509,7 @@ img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left;
 }    
 }
 
+div#comment_error {
+    font-size: 0;
+}
+
