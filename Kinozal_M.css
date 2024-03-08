@@ -548,3 +548,7 @@ input[type="text"]::placeholder {
 blockquote.blockquote {
     width: fit-content;
 }
+
+span#notify_total {
+    color: #b2c8ff !important;
+}
