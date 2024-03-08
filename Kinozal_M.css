@@ -509,7 +509,7 @@ input#comment_secure {
 
 
 @media (max-width: 1366px){
-img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
+.seBlogComments img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
     width: 70px !important;
 }    
 }
