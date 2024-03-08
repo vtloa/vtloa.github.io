@@ -184,8 +184,12 @@ input#comment_submit {
     border-radius: 5px;
 }
 
+::-webkit-scrollbar-thumb:hover {
+    background: #2769e9;
+}
 
-::-webkit-scrollbar-track {
+
+::-webkit-scrollbar-track1 {
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 100px;
