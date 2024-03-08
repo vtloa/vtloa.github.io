@@ -1532,3 +1532,7 @@ input[type="submit"]:hover {
     display: block;
     padding-top: 5px;
 }
+
+.post-content h1,.small-text, .small-text+div {
+    padding: 0;
+}
