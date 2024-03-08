@@ -207,14 +207,6 @@ input#comment_submit {
     border: 5px solid #1d1e21;
 }
 
-::-webkit-scrollbar-track {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 5px;
-}
-
 div#fffuuusmiles::-webkit-scrollbar {
     display: none;
 }
