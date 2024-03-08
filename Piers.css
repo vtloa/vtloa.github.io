@@ -110,6 +110,7 @@ span.user-drop-menu.cur-p {
     height: 100px;
     width: 100px;
     object-fit: none;
+    object-position: top;
 }
 
 body.bodybg {
