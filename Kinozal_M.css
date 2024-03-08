@@ -464,7 +464,8 @@ div#designs {
     width: 20px;
     height: 20px !important;
     background-size: 14px;
-    background-color: #0e39a7e6;
+    background-color: transparent;
+    filter: invert(16%) sepia(84%) saturate(3040%) hue-rotate(219deg) brightness(137%) contrast(96%);
 }
 
 div#mobile_menu {
