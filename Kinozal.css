@@ -540,3 +540,8 @@ div#menu_main_dropdown {
 div#righthome {
     padding-right: 0px !important;
 }
+
+table.body {
+    padding-top: 10px !important;
+}
+
