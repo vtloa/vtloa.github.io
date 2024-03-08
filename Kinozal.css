@@ -101,7 +101,7 @@ html:has(.card.mb-2.post_home:first-child p.k) {
 
 
 
-.card.mb-2.post_home:first-child .post_image {
+.content:has(.card.mb-2.post_home:first-child p.k) .post_image {
     display: none;
 }
 
