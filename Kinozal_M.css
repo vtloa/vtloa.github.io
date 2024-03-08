@@ -535,3 +535,16 @@ span.card-text img {
 a:hover {
     color: #265eff !important;
 }
+
+.blog_leftsearch input[type="text"] {
+    background: #184fd7;
+    border-radius: unset;
+}
+
+input[type="text"]::placeholder {
+    color: #a8c1ff;
+}
+
+blockquote.blockquote {
+    width: fit-content;
+}
