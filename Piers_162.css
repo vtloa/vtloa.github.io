@@ -1529,7 +1529,7 @@ input[type="submit"]:hover {
 }
 
 .sign {
-    display: block;
+    display: block !important;
     padding-top: 5px;
 }
 
