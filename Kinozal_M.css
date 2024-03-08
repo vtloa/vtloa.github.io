@@ -552,3 +552,16 @@ blockquote.blockquote {
 span#notify_total {
     color: #b2c8ff !important;
 }
+
+.post_image img, .post_image,.blog_user_status {
+    max-width: 80px;
+}
+
+.blog_user_status {
+    font-size: 9px;
+    color: #838383 !important;
+}
+
+.blog_leftphoto img.photo {
+    max-width: 150px;
+}
