@@ -565,3 +565,12 @@ span#notify_total {
 .blog_leftphoto img.photo {
     max-width: 150px;
 }
+
+
+::-webkit-scrollbar-track {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
