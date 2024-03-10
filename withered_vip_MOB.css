@@ -458,3 +458,45 @@ div#designs {
 textarea#comment_body:focus {
     background: #968065;
 }
+
+
+/*-----------UPD 11.03.24--------------*/
+
+
+a.page-link {
+    background: transparent;
+    color: #5e4d40;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    border-radius: 3px !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+a.page-link:hover {
+    background: #433629 !important;
+    color: #130e0b !important;
+}
+
+a.page-link {
+    text-align: center;
+}
+
+a.page-link {
+    max-width: 200px;
+    margin: auto !important;
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px), (max-width: 1024px) {
+a.page-link {
+    margin: 0px;
+    font-size: 10px;
+}
+    ul.pagination.justify-content-end.float-right {
+    width: 100%;
+}
+    li.page-item {
+    width: 50%;
+}
+}
