@@ -106,6 +106,18 @@
 }
 
 
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(10n+10) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(10n-10) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(30n-10) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(11n+3) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(40n-5) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(11n+7) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(90n-2) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(12n+8) .profile_comment_body:after {
+    content: 'хомкаминг...';
+}
+
+
 .seBlogComments div[id^="comment_"]:nth-child(10n+10) .profile_comment_body:after,
 .seBlogCommentsNONE div[id^="comment_"]:nth-child(10n-10) .profile_comment_body:after,
 .seBlogCommentsNONE div[id^="comment_"]:nth-child(30n-10) .profile_comment_body:after,
@@ -119,6 +131,7 @@
     animation: twerk 0.5s;
     animation-iteration-count: infinite;
 }
+
 
 
 @keyframes twerk {
