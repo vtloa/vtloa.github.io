@@ -1468,10 +1468,19 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu .p-1 
 
 /*----ОТКЛЮЧИТЬ СТИКЕРЫ с котом ЮЗЕРУ*/
 
-body:has(.top_header [href*="SpaceVvene"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(.top_header [href*="SpaceVvene"]) [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="SpaceVvene"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="SpaceVvene"]) [src^="/images/fffuuusmiles/"]{
+body:has(.top_header [href*="AkiraKenRen"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(.top_header [href*="AkiraKenRen"]) [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="AkiraKenRen"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="AkiraKenRen"]) [src^="/images/fffuuusmiles/"]{
+padding: unset !important;
+width: auto !important;
+background: unset !important;
+}
+
+body:has(.top_header [href*="Y3RgPqaCq1lNutA5072"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(.top_header [href*="Y3RgPqaCq1lNutA5072"]) [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="Y3RgPqaCq1lNutA5072"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="Y3RgPqaCq1lNutA5072"]) [src^="/images/fffuuusmiles/"]{
 padding: unset !important;
 width: auto !important;
 background: unset !important;
