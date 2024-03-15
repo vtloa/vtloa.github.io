@@ -1,0 +1,150 @@
+.seBlogComments1 div[id^="comment_"]:nth-of-type(2n) .profile_comment_body:after {
+    content: 'блёб';
+}
+
+
+.seBlogComments1 div[id^="comment_"]:nth-of-type(2n+1) .profile_comment_body:after {
+    content: 'uwu';
+}
+
+
+.seBlogComments1 div[id^="comment_"]:nth-of-type(2n+1) .profile_comment_body:after {
+    content: 'uwu';
+}
+
+
+/*---------*/
+
+.seBlogComments div[id^="comment_"]:nth-child(odd) .profile_comment_body:after {
+    content: 'uWu';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(2n+2) .profile_comment_body:after{
+    content: '*boops your nose*';
+}
+.seBlogComments div[id^="comment_"]:nth-child(even) .profile_comment_body:after {
+    content: '^_^';
+}
+.seBlogComments div[id^="comment_"]:nth-child(5n-2) .profile_comment_body:after {
+    content: ':3';
+}
+.seBlogComments div[id^="comment_"]:nth-child(5n-3) .profile_comment_body:after {
+    content: '*walks away*';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(10) .profile_comment_body:after {
+    content: 'owo';
+}
+.seBlogComments div[id^="comment_"]:nth-child(100n-10) .profile_comment_body:after {
+    content: '*cries*';
+}
+.seBlogComments div[id^="comment_"]:nth-child(100n-15) .profile_comment_body:after {
+    content: '*uWu*';
+}
+.seBlogComments div[id^="comment_"]:nth-child(100n-20) .profile_comment_body:after {
+    content: '^_^';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(100n-22) .profile_comment_body:after {
+    content: '!!?';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(100n-25) .profile_comment_body:after {
+    content: '*hugs*';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(100n-5) .profile_comment_body:after {
+    content: '*screams*';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(100n-34) .profile_comment_body:after {
+    content: '*walks away*';
+}
+
+
+
+.seBlogComments div[id^="comment_"]:nth-child(28) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(42) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(38) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(71) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(111) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(116) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(135) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(209) .profile_comment_body:after {
+    content: '*huggles tightly*';
+}
+
+.seBlogComments div[id^="comment_"]:nth-child(10) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(25) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(27) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(32) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(40) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(52) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(54) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(56) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(58) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(64) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(70) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(78) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(79) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(90) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(92) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(120) .profile_comment_body:after {
+    content: 'блёб';
+}
+
+
+.seBlogComments div[id^="comment_"]:nth-child(5) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(12) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(19) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(23) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(40) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(50) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(51) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(56) .profile_comment_body:after {
+    content: '!?!?!?!??!?';
+}
+
+
+.seBlogComments div[id^="comment_"]:nth-child(10n+10) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(10n-10) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(30n-10) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(11n+3) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(40n-5) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(11n+7) .profile_comment_body:after,
+.seBlogCommentsNONE div[id^="comment_"]:nth-child(90n-2) .profile_comment_body:after,
+.seBlogComments div[id^="comment_"]:nth-child(12n+8) .profile_comment_body:after {
+    content: '*twerk*';
+    display: inline-block;
+    animation: twerk 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes twerk {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.seBlogComments div[id^="comment_"]:nth-child(3n+2) .profile_comment_body:after {
+    content: 'OwO';
+    display: inline-block;
+    animation: OwO 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes OwO {
+  0%   { transform: scale(1.5); }
+  50%  { transform: scale(1); }
+  100% { transform: scale(1.5); }
+}
