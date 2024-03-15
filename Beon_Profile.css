@@ -1,4 +1,4 @@
-@import url('https://vtloa.github.io/CreepyCat_stickers.css');
+@import url('https://vtloa.github.io/CreepyCat_stickers666.css');
 @font-face { font-family: "fontawesome"; src: url('//Luatr.github.io/Fonts/fontawesome-webfont.ttf'); }
 @font-face { font-family: "fontawesome3"; src: url('//Luatr.github.io/Fonts/fa-solid-900.ttf'); }
 
@@ -1466,40 +1466,3 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu .p-1 
 
 /*----------------*/
 
-/*----ОТКЛЮЧИТЬ СТИКЕРЫ с котом ЮЗЕРУ*/
-
-body:has(.top_header [href*="AkiraKenRen"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(.top_header [href*="AkiraKenRen"]) [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="AkiraKenRen"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="AkiraKenRen"]) [src^="/images/fffuuusmiles/"]{
-padding: unset !important;
-width: auto !important;
-background: unset !important;
-}
-
-body:has(.top_header [href*="Y3RgPqaCq1lNutA5072"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(.top_header [href*="Y3RgPqaCq1lNutA5072"]) [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="Y3RgPqaCq1lNutA5072"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="Y3RgPqaCq1lNutA5072"]) [src^="/images/fffuuusmiles/"]{
-padding: unset !important;
-width: auto !important;
-background: unset !important;
-}
-
-body:has(.top_header [href*="3aBucTb"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(.top_header [href*="3aBucTb"]) [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="3aBucTb"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="3aBucTb"]) [src^="/images/fffuuusmiles/"]{
-padding: unset !important;
-width: auto !important;
-background: unset !important;
-}
-
-body:has(.top_header [href*="Pureshkaskartoshkoi"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(.top_header [href*="Pureshkaskartoshkoi"]) [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="Pureshkaskartoshkoi"]) div#bbcode [src^="/images/fffuuusmiles/"],
-body:has(div#mobile_photo [href*="Pureshkaskartoshkoi"]) [src^="/images/fffuuusmiles/"]{
-padding: unset !important;
-width: auto !important;
-background: unset !important;
-}
