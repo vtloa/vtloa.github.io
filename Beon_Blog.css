@@ -1317,4 +1317,13 @@ width: auto !important;
 background: unset !important;
 }
 
+body:has(.top_header [href*="orlandofurioso"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(.top_header [href*="orlandofurioso"]) [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="orlandofurioso"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="orlandofurioso"]) [src^="/images/fffuuusmiles/"]{
+padding: unset !important;
+width: auto !important;
+background: unset !important;
+}
+
 
