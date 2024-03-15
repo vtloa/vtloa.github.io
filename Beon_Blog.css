@@ -1290,3 +1290,13 @@ width: auto !important;
 background: unset !important;
 }
 
+body:has(.top_header [href*="ulver"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(.top_header [href*="ulver"]) [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="ulver"]) div#bbcode [src^="/images/fffuuusmiles/"],
+body:has(div#mobile_photo [href*="ulver"]) [src^="/images/fffuuusmiles/"]{
+padding: unset !important;
+width: auto !important;
+background: unset !important;
+}
+
+
