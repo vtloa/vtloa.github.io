@@ -1471,7 +1471,7 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/GLEBACNK/"] [src="/ima
     filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
 }
 
-/*----ГАЛОЧКИ НА ГЛАВНОЙ ВАШУ----*/
+/*----РОЗОВАЯ ГАЛОЧКА ВАШУ----*/
 
 
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:after{
@@ -1487,7 +1487,7 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:afte
 div#lefthome .portal_spacer+.card [href="https://beon.vip/washu/"] [src="/images/verify.png"],
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:after,
 .action_text.pl-2 .action_text_content [href="profile.php?user=washu"] [src="/images/verify.png"]{
-    filter: hue-rotate(123deg) brightness(1.7) saturate(1);
+    filter: hue-rotate(123deg) brightness(1.5) saturate(1);
 }
 
 
