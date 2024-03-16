@@ -78,7 +78,7 @@
 .seBlogComments div[id$="47"].profile_comment_body:after{
     content: '*twerk*' !important;
     display: inline-block;
-    animation: twerk 0.5s !important;
+    animation: twerk 0.5s;
     animation-iteration-count: infinite;
 }
 
