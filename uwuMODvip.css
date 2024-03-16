@@ -1,5 +1,9 @@
 /*гргггрггрггррррррррррр*/
 
+.seBlogComments div[id$="0"].profile_comment_body:after{
+    content: 'хехе';
+}
+
 .seBlogComments div[id$="1"].profile_comment_body:after{
     content: 'uwu';
 }
