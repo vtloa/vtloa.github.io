@@ -40,14 +40,8 @@
     content: '*walks away*';
 }
 
-
 .seBlogComments div[id$="10"].profile_comment_body:after {
-    content: '*блёб*';
-}
-
-
-.seBlogComments div[id$="10"].profile_comment_body:after {
-    content: '*блёб*';
+    content: 'блёб';
 }
 
 .seBlogComments div[id$="11"].profile_comment_body:after {
@@ -99,7 +93,7 @@
 
 
 .seBlogComments div[id$="4"].profile_comment_body:after {
-    content: 'OwO';
+    content: 'OwO' !important;
     display: inline-block;
     animation: OwO 5s;
     animation-iteration-count: infinite;
