@@ -57,6 +57,14 @@
     content: 'хомкаминг...';
 }
 
+.seBlogComments div[id$="7"]+div[id*="6"] .profile_comment_body:after {
+    content: 'реюнион...';
+}
+
+.seBlogComments div[id$="9"]+div[id*="5"] .profile_comment_body:after {
+    content: 'вейкап...';
+}
+
 .seBlogComments div[id$="13"].profile_comment_body:after {
     content: '^_^';
 }
