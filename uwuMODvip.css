@@ -1,137 +1,82 @@
-.seBlogComments1 div[id^="comment_"]:nth-of-type(2n) .profile_comment_body:after {
-    content: 'блёб';
-}
+/*гргггрггрггррррррррррр*/
 
-
-.seBlogComments1 div[id^="comment_"]:nth-of-type(2n+1) .profile_comment_body:after {
+.seBlogComments div[id$="1"].profile_comment_body:after{
     content: 'uwu';
 }
 
 
-.seBlogComments1 div[id^="comment_"]:nth-of-type(2n+1) .profile_comment_body:after {
-    content: 'uwu';
-}
-
-
-/*---------*/
-
-.seBlogComments div[id^="comment_"]:nth-child(odd) .profile_comment_body:after {
-    content: 'uWu';
-}
-
-.seBlogComments div[id^="comment_"]:nth-child(2n+2) .profile_comment_body:after{
-    content: '*boops your nose*';
-}
-.seBlogComments div[id^="comment_"]:nth-child(even) .profile_comment_body:after {
-    content: '^_^';
-}
-.seBlogComments div[id^="comment_"]:nth-child(5n-2) .profile_comment_body:after {
-    content: ':3';
-}
-.seBlogComments div[id^="comment_"]:nth-child(5n-3) .profile_comment_body:after {
-    content: '*walks away*';
-}
-
-.seBlogComments div[id^="comment_"]:nth-child(10) .profile_comment_body:after {
-    content: 'owo';
-}
-.seBlogComments div[id^="comment_"]:nth-child(100n-10) .profile_comment_body:after {
-    content: '*cries*';
-}
-.seBlogComments div[id^="comment_"]:nth-child(100n-15) .profile_comment_body:after {
-    content: '*uWu*';
-}
-.seBlogComments div[id^="comment_"]:nth-child(100n-20) .profile_comment_body:after {
-    content: '^_^';
-}
-
-.seBlogComments div[id^="comment_"]:nth-child(100n-22) .profile_comment_body:after {
-    content: '!!?';
-}
-
-.seBlogComments div[id^="comment_"]:nth-child(100n-25) .profile_comment_body:after {
+.seBlogComments div[id$="2"].profile_comment_body:after {
     content: '*hugs*';
 }
 
-.seBlogComments div[id^="comment_"]:nth-child(100n-5) .profile_comment_body:after {
-    content: '*screams*';
+
+.seBlogComments div[id$="3"].profile_comment_body:after {
+    content: '*boops your nose*';
 }
 
-.seBlogComments div[id^="comment_"]:nth-child(100n-34) .profile_comment_body:after {
+
+.seBlogComments div[id$="5"].profile_comment_body:after{
+    content: 'uwu';
+}
+
+
+.seBlogComments div[id$="6"].profile_comment_body:after {
+    content: '*cries*';
+}
+
+.seBlogComments div[id$="7"].profile_comment_body:after {
+    content: '^_^';
+}
+
+.seBlogComments div[id$="8"].profile_comment_body:after {
+    content: 'о_о';
+}
+
+.seBlogComments div[id$="9"].profile_comment_body:after {
     content: '*walks away*';
 }
 
 
-
-.seBlogComments div[id^="comment_"]:nth-child(28) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(42) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(38) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(71) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(111) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(116) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(135) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(209) .profile_comment_body:after {
-    content: '*huggles tightly*';
+.seBlogComments div[id$="10"].profile_comment_body:after {
+    content: '*блёб*';
 }
 
-.seBlogComments div[id^="comment_"]:nth-child(10) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(25) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(27) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(32) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(40) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(52) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(54) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(56) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(58) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(64) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(70) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(78) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(79) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(90) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(92) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(120) .profile_comment_body:after {
+
+.seBlogComments div[id$="10"].profile_comment_body:after {
+    content: '*блёб*';
+}
+
+.seBlogComments div[id$="11"].profile_comment_body:after {
+    content: 'uwu';
+}
+
+.seBlogComments div[id$="12"].profile_comment_body:after {
     content: 'блёб';
 }
 
 
-.seBlogComments div[id^="comment_"]:nth-child(5) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(12) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(19) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(23) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(40) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(50) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(51) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(56) .profile_comment_body:after {
-    content: '!?!?!?!??!?';
-}
-
-
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(10n+10) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(10n-10) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(30n-10) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(11n+3) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(40n-5) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(11n+7) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(90n-2) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(12n+8) .profile_comment_body:after {
+.seBlogComments div[id$="4"]+div[id*="2"] .profile_comment_body:after {
     content: 'хомкаминг...';
 }
 
+.seBlogComments div[id$="13"].profile_comment_body:after {
+    content: '^_^';
+}
 
-.seBlogComments div[id^="comment_"]:nth-child(10n+10) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(10n-10) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(30n-10) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(11n+3) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(40n-5) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(11n+7) .profile_comment_body:after,
-.seBlogCommentsNONE div[id^="comment_"]:nth-child(90n-2) .profile_comment_body:after,
-.seBlogComments div[id^="comment_"]:nth-child(12n+8) .profile_comment_body:after {
-    content: '*twerk*';
+.seBlogComments div[id$="14"].profile_comment_body:after {
+    content: 'uwu';
+}
+
+
+.seBlogComments div[id$="15"].profile_comment_body:after,
+.seBlogComments div[id*="16"].profile_comment_body:after,
+.seBlogComments div[id*="22"].profile_comment_body:after,
+.seBlogComments div[id$="47"].profile_comment_body:after{
+    content: '*twerk*' !important;
     display: inline-block;
     animation: twerk 0.5s;
     animation-iteration-count: infinite;
 }
-
 
 
 @keyframes twerk {
@@ -149,15 +94,17 @@
 }
 
 
-.seBlogComments div[id^="comment_"]:nth-child(3n+2) .profile_comment_body:after {
+.seBlogComments div[id$="4"].profile_comment_body:after {
     content: 'OwO';
     display: inline-block;
     animation: OwO 5s;
     animation-iteration-count: infinite;
 }
 
+
 @keyframes OwO {
   0%   { transform: scale(1.5); }
   50%  { transform: scale(1); }
   100% { transform: scale(1.5); }
 }
+
