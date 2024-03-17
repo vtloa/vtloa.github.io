@@ -1426,6 +1426,10 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Judas/"]:after,
     filter: invert(1) hue-rotate(-15deg);;
 }
 
+div#lefthome .portal_spacer+.card [onclick="document.getElementById('doclickimage272').src='ad.php?ad_id=272';"] [href="https://beon.vip/Judas/"]:after {
+    display: none;
+}
+
 
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
