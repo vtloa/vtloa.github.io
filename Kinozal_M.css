@@ -1,6 +1,10 @@
 @import url('https://vtloa.github.io/uwuMODvip.css');
 @import url('https://vtloa.github.io/fish.css');
 
+html {
+    overflow-x: hidden;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px),(max-width: 1024px) {
     
 /*-------------------*/
