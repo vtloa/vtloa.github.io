@@ -76,7 +76,7 @@
 
 .seBlogComments div[id$="15"].profile_comment_body:after,
 .seBlogComments div[id*="16"].profile_comment_body:after,
-.seBlogComments div[id*="22"].profile_comment_body:after,
+.seBlogComments div[id*="22"].profile_comment_body2:after,
 .seBlogComments div[id$="47"].profile_comment_body:after{
     content: '*twerk*' !important;
     display: inline-block;
