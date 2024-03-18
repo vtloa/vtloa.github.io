@@ -581,3 +581,58 @@ span#notify_total {
     margin-right: 100px;
     border-radius: 5px;
 }
+
+
+/*-------чо-------*/
+
+
+
+div#userphoto0 {
+    display: none;
+}
+
+div#postcomment_userphotos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100% !important;
+    max-height: 100%;
+    width: 100%;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar {
+    display: block;
+}
+
+img.img-thumbnail {
+    width: 100% !important;
+    image-rendering: pixelated;
+}
+
+
+.card.mb-2.post_home,.seBlogColumnRightPadding,.seBlogComments div[id^="comment_"],.comment_headline,textarea#comment_body,input#comment_submit,
+div#bbcode{
+    position: relative;
+    z-index: 22;
+}
+
+.seBlogComments div[id^="comment_"] {
+    background: #30333d;
+    width: fit-content;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar-track {
+    background: #1a6ae7;
+    border-radius: unset;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar-thumb {
+    background: #b5cdf3;
+    border: 5px solid #b5cdf3;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: unset;
+}
