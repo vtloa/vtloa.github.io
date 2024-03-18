@@ -709,7 +709,7 @@ label.menu__btn {
 
 
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
-    background-color: #7638db;
+    background-color: #6f3cc5 !important;
 }
 
 ul.menu__box {
