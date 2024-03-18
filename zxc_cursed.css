@@ -1077,3 +1077,53 @@ a.navbar-brand [src="/i/logo2.svg"] {
 [src="//beon.fun/i/online.png"] {
     display: none;
 }
+
+
+@media (min-width: 1366px) {
+a.navbar-brand {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a.navbar-brand2:after {
+    content: 'Loading...';
+    content: 'L̴o̸ad̸in̷g̴...';
+    font-size: 16px;
+    font-family: 'Martian Mono', monospace;
+    background: url(https://i.ibb.co/K6XNVkY/image.png) no-repeat center top / 50px;
+    display: block;
+    width: 100px;
+    height: 80px;
+    line-height: 9.7;
+    margin-top: -6px;
+    text-align: center;
+    margin-right: -12px;
+    filter: saturate(1.3);
+    color: #6a38bf;
+}
+    
+a.navbar-brand:after {
+    content: 'Loading...';
+    content: 'L̴o̸ad̸in̷g̴...';
+    font-size: 13px;
+    font-family: 'Martian Mono', monospace;
+    background: url(https://i.ibb.co/K6XNVkY/image.png) no-repeat center top / 100px;
+    display: block;
+    width: 100px;
+    height: 115px;
+    line-height: 19.7;
+    margin-top: -35px;
+    text-align: center;
+    margin-right: 10px;
+    filter: saturate(1.3);
+    color: #6a38bf;
+}
+
+.hamburger-menu {
+    width: 340px;
+}
+
+ul.menu__box {
+    left: 315px;
+}
+}
