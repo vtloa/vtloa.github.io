@@ -1336,4 +1336,8 @@ p.left-menu-text,.left-menu__user-notification.left-menu__unread-notifications a
     color: #545454!important;
 }
 
+.blog__gifts {
+    display: none !important;
+}
+
 
