@@ -1466,3 +1466,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu .p-1 
 
 /*----------------*/
 
+div.menu_item_dropdown a {
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+div.menu_item_dropdown a:hover {
+    background: #7f7f7f29 !important;
+    transition-delay: 0s;
+}
+
+
