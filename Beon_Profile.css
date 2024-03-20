@@ -1408,10 +1408,17 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/Judas/"]:af
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
-.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after,
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after,
-div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
-.blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
+div.profile_action [href="profile.php?user=you"]:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
+    margin-left: 5px;
+    filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
+}
+
+div#profile_comments .profile_comment_author [href="https://beon.vip/you/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
