@@ -1543,10 +1543,10 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Sora101/"]:after,
 
 /*------ГАЛОЧКА ДЛЯ Лилит Всемогущая------*/
 
-.seBlogComments .profile_comment_author [href="https://beon.vip/__Zlobaaaa__/"]:after,
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/__Zlobaaaa__/"]:after,
-div#lefthome .portal_spacer+.card [href="https://beon.vip/__Zlobaaaa__/"]:after,
-.blog_leftprofile [href="https://beon.vip/__Zlobaaaa__/blog/"]:after {
+.seBlogComments .profile_comment_author [href*="Zlobaaaa"]:after,
+h6.card-subtitle.mb-2.text-muted.post_date [href*="Zlobaaaa"]:after,
+div#lefthome .portal_spacer+.card [href^="profile.php?user="][href*="Zlobaaaa"]:after,
+.blog_leftprofile [href*="Zlobaaaa"]:after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1556,7 +1556,7 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/__Zlobaaaa__/"]:after,
 }
 
 
-.action_text.pl-2 .action_text_content [href="profile.php?user=__Zlobaaaa__"]:after {
+.action_text.pl-2 .action_text_content [href^="profile.php?user="][href*="Zlobaaaa"]:after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1564,7 +1564,6 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/__Zlobaaaa__/"]:after,
     background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
     margin-left: 5px;
 }
-
 
 
 /*----ДЛЯ ВСЕХ ЮЗЕРОВ----*/
