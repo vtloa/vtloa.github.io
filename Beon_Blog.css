@@ -1228,10 +1228,10 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Sora101/"]:after,
 
 /*------ГАЛОЧКА ДЛЯ Лилит Всемогущая------*/
 
-.seBlogComments .profile_comment_author [href*="Zlobaaaa"]:after,
-h6.card-subtitle.mb-2.text-muted.post_date [href*="Zlobaaaa"]:after,
-div#lefthome .portal_spacer+.card [href*="Zlobaaaa"]:after,
-.blog_leftprofile [href*="Zlobaaaa"]:after {
+.seBlogComments .profile_comment_author [href="https://beon.vip/__Zlobaaaa__/"]:after,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/__Zlobaaaa__/"]:after,
+div#lefthome .portal_spacer+.card [href="https://beon.vip/__Zlobaaaa__/"]:after,
+.blog_leftprofile [href="https://beon.vip/__Zlobaaaa__/blog/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
