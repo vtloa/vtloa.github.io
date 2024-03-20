@@ -702,10 +702,10 @@ div#designs:hover {
     transform: translateY(-3px);
 }
 
-
 [src="/images/verify.png"] {
-    margin-top: -4px;
+    margin-top: -10px;
 }
+
 blockquote.blockquote {
     border-color: #54b9e7;
     margin: 0px;
