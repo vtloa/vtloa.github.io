@@ -457,7 +457,7 @@ td.profile_leftside img.icon {
 }
 
 [src="/images/verify.png"] {
-    margin-top: -4px;
+    margin-top: -10px;
 }
 
 div.profile_action [href^="profile.php?user="] {
