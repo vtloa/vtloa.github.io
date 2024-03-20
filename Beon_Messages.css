@@ -1581,7 +1581,7 @@ div#message_post [href="https://beon.vip/Satan/"] [src="/images/verify.png"] {
 
 /*------ГАЛОЧКА ДЛЯ Sora Kun------*/
 
-div#message_post [href="https://beon.vip/Sora101/"]:after, div#messages .messages_author [href="https://beon.vip/Sora101/"]:after {
+div#messages_scroll [href="https://beon.vip/Sora101/"]:after, div#messages .messages_author [href="https://beon.vip/Sora101/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1592,7 +1592,7 @@ div#message_post [href="https://beon.vip/Sora101/"]:after, div#messages .message
 
 /*------ГАЛОЧКА ДЛЯ Лилит Всемогущая------*/
 
-div#message_post [href="https://beon.vip/__Zlobaaaa__/"]:after, div#messages .messages_author [href="https://beon.vip/__Zlobaaaa__/"]:after {
+div#messages_scroll [href="https://beon.vip/__Zlobaaaa__/"]:after, div#messages .messages_author [href="https://beon.vip/__Zlobaaaa__/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
