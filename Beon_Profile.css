@@ -1495,6 +1495,18 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/__Zlobaaaa_
     margin-left: 5px;
 }
 
+/*-----------ГАЛОЧКА В ПОДАРКАХ без комментариев ОБЩЕЕ неофициально-----------*/
+
+.gift-from [href="https://beon.vip/Sora101/"]:after,
+.gift-from [href="https://beon.vip/__Zlobaaaa__/"]:after{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
+    margin-left: 5px;
+}
+
 
 /*----------УБРАТЬ АУТЛАЙН С КНОПОК ФОКУСА-------*/
 
