@@ -1477,7 +1477,7 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/Sora101/"]:
 
 /*------ГАЛОЧКА ДЛЯ Лилит Всемогущая------*/
 
-div.profile_action [href^="profile.php?user="][href*="Zlobaaaa"]:after {
+div.profile_action [href="profile.php?user=__Zlobaaaa__"]:after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1486,7 +1486,7 @@ div.profile_action [href^="profile.php?user="][href*="Zlobaaaa"]:after {
     margin-left: 5px;
 }
 
-div#profile_comments .profile_comment_author [href*="Zlobaaaa"]:after {
+div#profile_comments .profile_comment_author [href="https://beon.vip/__Zlobaaaa__/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
