@@ -1535,4 +1535,6 @@ div.menu_item_dropdown a:hover {
     transition-delay: 0s;
 }
 
-
+.gift-from b {
+    font-size: 12px;
+}
