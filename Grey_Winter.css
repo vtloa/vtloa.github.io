@@ -155,7 +155,10 @@ li.p-1 {
     width: 100px;
     height: 100px;
     object-fit: none;
+    object-position: top;
 }
+
+
 .blog_leftphoto {
     text-align: left !important;
     padding: 0px;
