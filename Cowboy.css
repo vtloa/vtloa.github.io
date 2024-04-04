@@ -1222,3 +1222,8 @@ a.actionfriend,
     color: #973131;
 }
 }
+
+
+.user_show * {
+    border: unset;
+}
