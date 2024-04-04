@@ -1050,6 +1050,19 @@ a.post-title:hover,a.user.post-title-user:hover,.post-text a:hover {
     background: #602020;
 }
 
+@media (max-width: 1024px) {
+    .content {
+    width: calc(100% - 440px);
+    margin-left: 10px;
+}
+    div#app {
+    padding: 10px;
+}
+}
+
+
+
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
