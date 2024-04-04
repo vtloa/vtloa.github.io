@@ -1061,7 +1061,9 @@ a.post-title:hover,a.user.post-title-user:hover,.post-text a:hover {
 }
 }
 
-
+.comment-box h2 {
+    color: #0d0d00;
+}
 
 
 /*----МЕДИА----*/
@@ -1216,9 +1218,7 @@ a.actionfriend,
     .blog__tags a {
     display: block;
 }
-}
-
-
-.comment-box h2 {
+    .comment-box h2 {
     color: #973131;
+}
 }
