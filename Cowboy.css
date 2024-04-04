@@ -161,7 +161,7 @@ h3.left-menu-text {
     display: none;
 }
 
-a.blog-subscribe,.left-menu-text [href="/p"],[href="/design/enable"],a.actionignore {
+a.blog-subscribe,.left-menu-text [href="/p"],[href="/design/enable"],a.actionignore,[href="/design/disable"] {
     font-size: 0 !important;
 }
 
@@ -175,7 +175,8 @@ a.blog-subscribe:before {
     font-size: 25px;
 }
 
-[href="/design/enable"]:before {
+[href="/design/enable"]:before,
+[href="/design/disable"]:before {
     content: 'ДИЗ.ВЫКЛ';
     font-size: 25px;
 }
