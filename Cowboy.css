@@ -194,7 +194,7 @@ a.blog-subscribe {
     width: 151px !important;
 }
 
-[href="/design/enable"] {
+[href="/design/enable"],[href="/design/disable"] {
     width: 133px !important;
 }
 
