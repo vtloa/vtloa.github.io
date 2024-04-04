@@ -1066,6 +1066,11 @@ a.post-title:hover,a.user.post-title-user:hover,.post-text a:hover {
 }
 
 
+.user_show * {
+    border: unset;
+}
+
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
@@ -1221,9 +1226,20 @@ a.actionfriend,
     .comment-box h2 {
     color: #973131;
 }
+    .pagination {
+    position: unset;
 }
 
+.crumbs {
+    position: unset;
+    margin-top: 85px !important;
+}
 
-.user_show * {
-    border: unset;
+.pagination a {
+    color: #e0e2cd;
+}
+
+.left-menu {
+    margin-top: 35px !important;
+}
 }
