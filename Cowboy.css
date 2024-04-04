@@ -1217,3 +1217,8 @@ a.actionfriend,
     display: block;
 }
 }
+
+
+.comment-box h2 {
+    color: #973131;
+}
