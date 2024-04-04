@@ -1054,6 +1054,7 @@ a.post-title:hover,a.user.post-title-user:hover,.post-text a:hover {
     .content {
     width: calc(100% - 440px);
     margin-left: 10px;
+    margin-right: 12%;
 }
     div#app {
     padding: 10px;
