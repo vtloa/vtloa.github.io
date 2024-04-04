@@ -1070,6 +1070,9 @@ a.post-title:hover,a.user.post-title-user:hover,.post-text a:hover {
     border: unset;
 }
 
+.pagination a {
+    color: #e0e2cd;
+}
 
 /*----МЕДИА----*/
 
