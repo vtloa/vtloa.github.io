@@ -1038,6 +1038,9 @@ a.navbar-brand {
     color: #0d0d00 !important;
 }
 
+.post-content.post-page .fa-chevron-down:before {
+    color: #0d0d00 !important;
+}
 
 
 
@@ -1073,6 +1076,7 @@ a.post-title:hover,a.user.post-title-user:hover,.post-text a:hover {
 .pagination a {
     color: #e0e2cd;
 }
+
 
 /*----МЕДИА----*/
 
