@@ -1567,7 +1567,7 @@ div#message_post [href="https://beon.vip/GLEBACNK/"] [src="/images/verify.png"] 
 [href="https://beon.vip/washu/"] b [src="/images/verify.png"],
 .messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"],
 div#message_post [href="https://beon.vip/washu/"] [src="/images/verify.png"] {
-    filter: hue-rotate(123deg) brightness(1.5) saturate(1);
+    filter: grayscale(1) brightness(0);
 }
 
 /*----СИНЯЯ ГАЛОЧКА----*/
