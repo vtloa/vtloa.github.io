@@ -586,3 +586,8 @@ span#notify_total {
     max-height: 100px !important;
     max-width: 420px !important;
 }
+
+div#lefthome {
+    background: url(https://i.pinimg.com/originals/1e/5b/41/1e5b416….gif);
+    background-size: 300px;
+}
