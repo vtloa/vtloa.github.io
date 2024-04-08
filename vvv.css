@@ -267,7 +267,6 @@ h2.card-title a, .text-muted, h6.card-subtitle.mb-2.text-muted.post_date a, div#
 }
 
 .post_image img {
-    object-fit: none;
     box-shadow: 0 0 50px #ff000096;
     mix-blend-mode: lighten;
     outline: 1px solid #ac0605;
