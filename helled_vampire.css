@@ -1299,3 +1299,8 @@ label.custom-file-label {
 .post-opt .bookmarked .fas{
     color: #950004 !important;
 }
+
+
+a.navbar-brand {
+    font-size: 0;
+}
