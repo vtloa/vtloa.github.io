@@ -1210,3 +1210,7 @@ a#comment_last_page_top,a#comment_last_page_bottom{
 a.commentReply:before {
     font-size: 13px;
 }
+
+li.p-1 a:hover {
+    transform: rotate(3deg);
+}
