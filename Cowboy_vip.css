@@ -431,6 +431,10 @@ input#comment_submit,button.btn.btn-secondary {
     border-radius: unset !important;
 }
 
+input#comment_submit:hover,button.btn.btn-secondary:hover {
+    background: #0d0d00 !important;
+}
+
 input#comment_submit {
     width: auto;
 }
