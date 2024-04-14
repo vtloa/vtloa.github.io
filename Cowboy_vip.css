@@ -1197,3 +1197,12 @@ div#designs {
 [href^="user_blog_entry.php?blogentry_id=7"] {
     display: none !important;
 }
+
+font.disabled {
+    color: black;
+}
+
+a#comment_next_page_top,a#comment_next_page_bottom,
+a#comment_last_page_top,a#comment_last_page_bottom{
+    color: #973131;
+}
