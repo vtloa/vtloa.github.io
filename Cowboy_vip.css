@@ -1180,3 +1180,8 @@ div[id^="comment_"]:not(div#comment_subscribe):nth-child(5n-2) {
 blockquote.blockquote {
     width: fit-content;
 }
+
+
+div#designs {
+    display: none !important;
+}
