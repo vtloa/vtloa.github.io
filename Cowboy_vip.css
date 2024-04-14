@@ -1206,3 +1206,7 @@ a#comment_next_page_top,a#comment_next_page_bottom,
 a#comment_last_page_top,a#comment_last_page_bottom{
     color: #973131;
 }
+
+a.commentReply:before {
+    font-size: 13px;
+}
