@@ -26,6 +26,10 @@ font-family: "Kelly Slab", sans-serif;
 
 */
 
+.card.mb-2.post_home:has([href="https://beon.vip/you/blog/&category_id=8014"]) {
+    display: none !important;
+}
+
 [src="https://beon.vip/uploads_user/10000/9068/c3eccad64610d73eaef7c6d7688a7ca7.gif"] {
     width: 70px !important;
     filter: grayscale(1) sepia(0.3) brightness(0.9);
