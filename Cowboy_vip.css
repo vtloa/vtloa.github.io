@@ -1189,3 +1189,7 @@ blockquote.blockquote {
 div#designs {
     display: none !important;
 }
+
+[href^="user_blog_entry.php?blogentry_id=7"] {
+    display: none !important;
+}
