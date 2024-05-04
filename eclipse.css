@@ -1346,3 +1346,7 @@ div#preview-area .post-content h1 {
 div#preview-area .post-content span.post-title-date {
     font-size: 0;
 }
+
+.textareabg input[type="submit"]:hover, button.btn.btn-secondary:hover, button.btn.btn-primary:hover, a.btn.btn-outline-primary.mb-2:hover, .form__show-avatars:hover, input[type="button"]:hover {
+    transform: translate(2px, 2px);
+}
