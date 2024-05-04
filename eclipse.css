@@ -1383,3 +1383,7 @@ div#commentpreviewplace br {
 label.menu__btn {
     cursor: pointer !important;
 }
+
+.blog__about a {
+    position: relative;
+}
