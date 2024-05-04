@@ -34,15 +34,8 @@ a.my-menu.for-mobile.d-none.d-md-inline,
 }
 
 
-
-
 .post-avatar:has([href="//princess.beon.fun"]) img {
     content: url(https://i.ibb.co/RHxSQxQ/chert.png);
-}
-
-
-.blog__about.mb-3 img.mw-1002 {
-    content: url(https://i.pinimg.com/564x/21/80/18/2180180a82f1235562b4ab695ed1198a.jpg);
 }
 
 
@@ -155,7 +148,8 @@ a, span {
 
 
 
-.blog__about.mb-3 h3.left-menu-text {
+.blog__about.mb-3 h3.left-menu-text,
+.blog__about h3.left-menu-text{
     opacity: 0;
 }
 
@@ -317,7 +311,7 @@ a,.post-avatar img,.post-avatar:before,span {
     filter: grayscale(1);
 }
 
-.blog__about.mb-3 {
+.blog__about.mb-3,.blog__about {
     padding-top: 20px;
 }
 
@@ -674,9 +668,11 @@ a.menu__item {
 /*----END----*/
 
 
-.blog__about.mb-3 [action="/search"] {
+.blog__about.mb-3 [action="/search"],
+.blog__about [action="/search"]{
     margin-top: 10px;
 }
+
 
 
 /*----КНОПКИ ВВЕРХ ВНИЗ----*/
