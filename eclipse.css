@@ -1316,3 +1316,21 @@ p.quotation {
     position: relative;
 }
 }
+
+/*----UPD----*/
+
+a.btn.btn-outline-primary.mb-3 {
+    border: unset;
+    font-size: 17px;
+    line-height: normal;
+    padding: 5px;
+    margin-bottom: 0px !important;
+}
+
+h1.left-menu-text {
+    color: #9b9b9b;
+}
+
+.btn-outline-primary:hover {
+    background-color: transparent;
+}
