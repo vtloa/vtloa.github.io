@@ -346,7 +346,7 @@ a.readertime:hover {
 }
 
 
-input[type="text"], input[type="submit"] {
+input[type="text"], input[type="submit"],input[type="button"] {
     border: solid 2px black;
     border-image: url(https://i.ibb.co/2qx4hQv/ven4.png) 14 14 14 14 repeat;
     background: black;
@@ -950,7 +950,7 @@ textarea:focus-visible {
 
 
 .textareabg input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary, a.btn.btn-outline-primary.mb-2,
-.form__show-avatars {
+.form__show-avatars,input[type="button"] {
     margin-top: 13px;
     background: url(https://i.ibb.co/25BK70C/metal2-mini2-scroll-button.png);
     color: #c5bfbf !important;
