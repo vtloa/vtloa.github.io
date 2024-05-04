@@ -1375,3 +1375,7 @@ div#commentpreviewplace br {
 .post-content.blog_total_counter+.post-content .post-text {
     padding-top: 50px;
 }
+
+.pagination {
+    color: transparent;
+}
