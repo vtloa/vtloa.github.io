@@ -1356,4 +1356,11 @@ div#commentpreviewplace .comment-content {
     padding: 30px;
     font-size: 14px;
     color: #aba9a9;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+div#commentpreviewplace br {
+    display: unset;
 }
