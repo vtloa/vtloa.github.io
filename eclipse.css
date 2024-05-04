@@ -1350,3 +1350,10 @@ div#preview-area .post-content span.post-title-date {
 .textareabg input[type="submit"]:hover, button.btn.btn-secondary:hover, button.btn.btn-primary:hover, a.btn.btn-outline-primary.mb-2:hover, .form__show-avatars:hover, input[type="button"]:hover {
     transform: translate(2px, 2px);
 }
+
+
+div#commentpreviewplace .comment-content {
+    padding: 30px;
+    font-size: 14px;
+    color: #aba9a9;
+}
