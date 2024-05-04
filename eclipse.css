@@ -1365,3 +1365,7 @@ div#commentpreviewplace .comment-content {
 div#commentpreviewplace br {
     display: unset;
 }
+
+.crumbs a span:hover {
+    color: #ab0000 !important;
+}
