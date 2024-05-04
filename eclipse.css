@@ -1387,3 +1387,7 @@ label.menu__btn {
 .blog__about a {
     position: relative;
 }
+
+.likebutton {
+    color: #5d5d5d;
+}
