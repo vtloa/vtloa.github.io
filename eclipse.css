@@ -1342,3 +1342,7 @@ h1.left-menu-text,.container-fluid,.post-content h1,.textareabg.p-1 {
 div#preview-area .post-content h1 {
     margin-left: 110px;
 }
+
+div#preview-area .post-content span.post-title-date {
+    font-size: 0;
+}
