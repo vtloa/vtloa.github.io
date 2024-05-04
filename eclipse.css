@@ -1379,3 +1379,7 @@ div#commentpreviewplace br {
 .pagination {
     color: transparent;
 }
+
+label.menu__btn {
+    cursor: pointer !important;
+}
