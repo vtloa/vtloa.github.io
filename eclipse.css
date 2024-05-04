@@ -1369,3 +1369,7 @@ div#commentpreviewplace br {
 .crumbs a span:hover {
     color: #ab0000 !important;
 }
+
+.post-content.blog_total_counter+.post-content .post-text {
+    padding-top: 40px;
+}
