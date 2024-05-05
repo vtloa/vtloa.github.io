@@ -83,7 +83,7 @@ div#app {
 
 
 .post-content, .left-menu {
-    background: url(https://i.ibb.co/YtZqJJ3/paper.png);
+    background: url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
     margin: 0px !important;
 }
 
@@ -453,12 +453,12 @@ div#fnplayer-slider-inner {
 
 .post-content {
     background: url(https://i.ibb.co/z4b2mQy/eujkju2.png) no-repeat top right, 
-                url(https://i.ibb.co/YtZqJJ3/paper.png);
+                url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
 }
 
 .post-content.blog_total_counter+.post-content, .post-content.post-page,.comment-content  {
     background: url(https://i.ibb.co/brCY4Rv/mv2.png) no-repeat top right, 
-                url(https://i.ibb.co/YtZqJJ3/paper.png);
+                url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
 }
 
 .row.w-100.mt-3 * {
@@ -630,7 +630,7 @@ ul.menu__box {
     margin-top: 50px;
     left: 0px;
     padding: 0;
-    background: url(https://i.ibb.co/YtZqJJ3/paper.png);
+    background: url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
     border: solid 2px black;
     border-image: url(https://i.ibb.co/2qx4hQv/ven4.png) 14 14 14 14 repeat;
 }
@@ -780,12 +780,12 @@ ul.menu__box {
     height: fit-content;
     padding-bottom: 20px !important;
     background: url(https://i.ibb.co/ZGdCM0G/eujkju2-left.png) no-repeat bottom left,
-                url(https://i.ibb.co/7pnbPcN/eujkju2-right.png) no-repeat bottom right, url(https://i.ibb.co/YtZqJJ3/paper.png);
+                url(https://i.ibb.co/7pnbPcN/eujkju2-right.png) no-repeat bottom right, url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
 }
 
 
 div#newpostform, .textareabg,.modal-content {
-    background: url(https://i.ibb.co/z4b2mQy/eujkju2.png) no-repeat top right, url(https://i.ibb.co/YtZqJJ3/paper.png);
+    background: url(https://i.ibb.co/z4b2mQy/eujkju2.png) no-repeat top right, url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
     margin: 0px !important;
     border: solid 2px black;
     border-image: url(https://i.ibb.co/2qx4hQv/ven4.png) 14 14 14 14 repeat;
@@ -957,7 +957,7 @@ textarea:focus-visible {
     border-radius: unset;
     background: url(https://i.ibb.co/ZGdCM0G/eujkju2-left.png) no-repeat bottom left, 
         url(https://i.ibb.co/7pnbPcN/eujkju2-right.png) no-repeat bottom right, 
-        url(https://i.ibb.co/YtZqJJ3/paper.png);
+        url(https://i.ibb.co/Pjwnjhz/paper-transparent.png);
 }
 
 .modal-header,.modal-footer {
