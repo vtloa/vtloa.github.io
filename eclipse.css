@@ -1306,6 +1306,13 @@ p.quotation {
     .blog__about .text-center{
     position: relative;
 }
+    .left-menu {
+    height: fit-content;
+    padding-bottom: 20px !important;
+    background: url(https://i.ibb.co/ZGdCM0G/eujkju2-left.png) no-repeat bottom left, 
+        url(https://i.ibb.co/7pnbPcN/eujkju2-right.png) no-repeat bottom right, 
+        url(https://i.ibb.co/YtZqJJ3/paper.png);
+}
 }
 
 /*----UPD----*/
