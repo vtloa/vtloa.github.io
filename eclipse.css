@@ -1394,3 +1394,8 @@ label.menu__btn {
         url(https://i.ibb.co/7pnbPcN/eujkju2-right.png) no-repeat bottom right, 
         url(https://i.ibb.co/YtZqJJ3/paper.png);
 }
+
+p.quotation {
+    border-left: solid 2px black;
+    border-image: url(https://i.ibb.co/2qx4hQv/ven4.png) 14 14 14 14 repeat;
+}
