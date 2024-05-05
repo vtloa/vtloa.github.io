@@ -1387,3 +1387,10 @@ label.menu__btn {
 .likebutton {
     color: #5d5d5d;
 }
+
+.modal-content {
+    border-radius: unset;
+    background: url(https://i.ibb.co/ZGdCM0G/eujkju2-left.png) no-repeat bottom left, 
+        url(https://i.ibb.co/7pnbPcN/eujkju2-right.png) no-repeat bottom right, 
+        url(https://i.ibb.co/YtZqJJ3/paper.png);
+}
