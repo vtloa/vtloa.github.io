@@ -1214,3 +1214,7 @@ a.commentReply:before {
 li.p-1 a:hover {
     transform: rotate(3deg);
 }
+
+table.body {
+    padding-top: 0px !important;
+}
