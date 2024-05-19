@@ -941,13 +941,6 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 
 /*-----------------------*/
 
-/*---ВЕСЕННЕЕ ЛОГО---*/
-
-.top_header [src="./images/logo_new.png"],
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu .p-1 [src="./images/logo_new.png"]{
-    content: url(https://beon.vip/uploads_image/a4/8b/a48bb1f138aa6e6838603b4f91c8f1d5.png);
-}
-
 /*----------------*/
 
 div.menu_item_dropdown a {
