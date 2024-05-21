@@ -1135,7 +1135,7 @@ div#fffuuusmiles {
     filter: invert(55%) sepia(34%) saturate(4868%) hue-rotate(18deg) brightness(102%) contrast(88%);
 }
     div.profile_comment_body img {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 }
 
