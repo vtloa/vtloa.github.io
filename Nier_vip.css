@@ -1059,3 +1059,7 @@ div#designs {
     background-color: transparent;
     filter: opacity(0.5);
 }
+
+.page-link:focus {
+    box-shadow: unset;
+}
