@@ -1,0 +1,1039 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&display=swap');
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+/*
+
+font-family: "Comfortaa", sans-serif;
+font-family: "Caveat", cursive;
+font-family: "Alegreya Sans SC", sans-serif;
+
+*/
+
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-family: "Caveat", cursive;
+    font-family: "Alegreya Sans SC", sans-serif;
+    color: #2a2a2a;
+}
+
+
+h2.card-title {
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+}
+
+
+body:before,body:after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+body:before {
+    background: url(https://i.ibb.co/GTCL2Wp/nier-back.png) no-repeat right fixed,
+                url(https://www.transparenttextures.com/patterns/brushed-alum-dark.png);
+    background-size: cover, auto;
+    image-rendering: -webkit-optimize-contrast;
+    background-blend-mode: soft-light;
+}
+
+body:after {
+    background: linear-gradient(45deg, #e0e0dc, transparent) fixed;
+    padding: 0px !important;
+}
+
+[style="padding: 10px; text-align: center; margin-top: 10px;"] {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.copyright {
+    display: none;
+}
+
+
+div#content_flex1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#righthome {
+    padding: 0px;
+    margin-right: auto !important;
+    overflow: visible;
+}
+
+
+div#lefthome div,div#lefthome .card {
+    border: unset !important;
+    border-radius: unset !important;
+}
+
+div#righthome {
+    margin-top: 200px;
+    margin-left: 0%;
+    margin-right: 30% !important;
+}
+
+div#lefthome {
+    width: 30% !important;
+    margin-right: 5%;
+    margin-left: 7%;
+    min-width: 250px;
+}
+
+.seBlogColumnRightPadding {
+    width: 250px !important;
+}
+
+.blog_leftphoto {
+    padding: 0px;
+}
+
+.seBlogColumnRightPadding {
+    position: sticky;
+    top: 25%;
+}
+
+.blog_leftphoto img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+    outline: 2px solid #dfdfdc;
+    opacity: 0;
+}
+
+
+.blog_leftphoto {
+    position: relative;
+}
+
+
+.blog_leftphoto:before {
+    content: '';
+    background: url(https://i.ibb.co/KhXQJMH/lunar-tear.png) no-repeat center / contain;
+    position: absolute;
+    display: block;
+    top: -30px;
+    left: -75px;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    filter: drop-shadow(2px 4px 6px #8483868a) grayscale(1) invert(1) opacity(0.8);
+}
+
+li.p-1 {
+    display: block;
+    padding: 0px !important;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 13px;
+}
+
+
+div#lefthome {
+    text-align: center;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 13px;
+}
+
+
+
+.card.group_members {
+    display: none;
+}
+
+.post {
+    background: linear-gradient(45deg, #dfe0dbcc, #f9f9f980),url(https://www.transparenttextures.com/patterns/beige-paper.png);
+    padding: 20px;
+    box-shadow: 5px 5px 6px #6f6f7296;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.post_image img1 {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+    outline: 2px solid #dfdfdc;
+}
+
+
+div#user_status, .blog_user_status {
+    color: #606060 !important;
+}
+
+h2.card-title:after {
+    content: url(https://i.ibb.co/Yky06gb/lunar-tear-2.png);
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -4px;
+    mix-blend-mode: exclusion;
+    opacity: 0.9;
+}
+
+h2.card-title a {
+    color: #2a2a2a;
+}
+
+span.card-text a,div.profile_comment_body a {
+    font-family: "Caveat", cursive;
+    color: #2a2a2a;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date,h6.card-subtitle.mb-2.text-muted.post_date a {
+    color: #2a2a2a;
+    font-size: 13px;
+}
+
+
+.additional_info.pl-3 {
+    padding: 0px !important;
+}
+
+
+
+.category, .post_data a, p.card-link.post_views, .post_data, .profile_comment_links, .like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    color: #2a2a2a;
+    font-size: 13px;
+}
+
+
+.post_data {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.category {
+    text-align: right;
+}
+
+[onclick^="more_menu"]:before {
+    width: 20px;
+    display: inline-block;
+    text-align: right;
+}
+
+.post_data {
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+.like_button.liked:before, .like_button.liked+span, .category a {
+    color: #363434 !important;
+}
+
+
+.like_button.liked:before {
+    text-shadow: 0px 0px #363434;
+}
+
+
+.blog_leftprofile a {
+    color: #2a2a2a;
+    position: relative;
+    display: block;
+}
+
+.blog_leftprofile1 a:before {
+    content: '';
+    display: block;
+    background: linear-gradient(90deg,transparent, #2a2a2a, transparent);
+    width: 40%;
+    height: 10px;
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+
+.blog_leftsearch input[type="text"] {
+    background: linear-gradient(90deg,transparent, #2a2a2a, transparent);
+    height: 14px;
+    font-size: 12px;
+}
+
+
+
+input[type="text"]::placeholder {
+    color: #e0e0dc;
+}
+
+
+
+ul.seBlogCategoryList a {
+    color: #2a2a2a;
+}
+
+
+.blog_leftprofile {
+    font-family: "Caveat", cursive;
+    font-size: 18px;
+}
+
+
+img {
+    filter: grayscale(1);
+}
+
+
+h6.card-subtitle.mb-2.text-muted.post_date a {
+    display: block;
+    font-family: "Caveat", cursive;
+    font-size: 18px;
+}
+
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    margin-top: 20px;
+}
+
+
+.blog_leftprofile {
+    display: none;
+}
+
+.card-header {
+    display: none;
+}
+.gifts-list {
+    display: none;
+}
+
+li.p-1.left_menu_userphotos_link,li.p-1.left_menu_account_link,li.p-1.left_menu_editprofile_link,
+li.p-1.left_menu_blog_sttings_link{
+    display: none;
+}
+li.p-1.left_menu_blog_link {
+    font-size: 0;
+}
+
+
+li.p-1.left_menu_blog_link a:before {
+    content: 'Все записи';
+    font-size: 13px;
+}
+
+.content .post_container .post_text iframe {
+    filter: grayscale(1);
+}
+
+/*-----УДАЛИТЬ ОТ СООБЩЕСТВА*/
+
+[onclick^="TB_show('Пригласить новых участников"],[href="https://beon.vip/group/1408/&task=fromgroup"],[href="https://beon.vip/group/1408/&task=suggest"] {
+    display: none;
+}
+
+
+.group_desc,div#entry_main {
+    display: none;
+}
+
+
+h2.card-title {
+    max-width: 60%;
+}
+
+/*-----------*/
+
+/*-------------------------------------------------ШАПКА-----*/
+
+.top_header {
+    background: #ebeae8;
+    border: unset;
+    display: block;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 46px;
+    right: 0;
+    bottom: 0;
+    z-index: 222 !important;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.top_header {
+    top: -90px;
+}
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: -55px !important;
+    right: 20px !important;
+    left: unset !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #ebeae8 !important;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) {
+    top: 0px;
+    transition-delay: 0s;
+}
+
+div#menu_main_dropdown>div {
+    display: none;
+}
+
+.top_menu_link_container {
+    display: block !important;
+}
+
+
+
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    top: unset;
+    bottom: -90px !important;
+    transition: 0.5s;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    bottom: -35px !important;
+}
+
+
+
+
+.top_header button.btn.btn-primary {
+    right: 80px;
+    font-size: 0px;
+    line-height: normal;
+}
+
+
+
+
+button#newupdates {
+    right: 140px;
+}
+
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+.top_header table tbody tr td:first-child {
+    width: auto !important;
+}
+
+.top_header div.menu_dropdown {
+    border: unset !important;
+    padding: 0px;
+}
+
+.top_menu_link:hover div.menu_dropdown {
+    border: unset !important;
+}
+
+
+.top_header a.top_menu_item {
+    font-size: 0px !important;
+}
+
+
+
+div.menu_dropdown {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin: 0px;
+    padding-top: 10px !important;
+}
+
+
+div#menu_dropdown_profile {
+    top: 5px;
+    left: 90px;
+}
+
+
+div#menu_dropdown_blog {
+    top: 62px;
+    left: 90px;
+}
+
+div#menu_dropdown_tests {
+    top: 90px;
+    left: 90px;
+}
+
+
+div#menu_dropdown_groups {
+    top: 120px;
+    left: 90px;
+}
+
+div#menu_dropdown_albums {
+    top: 150px;
+    left: 90px;
+}
+
+.top_header div.menu_dropdown {
+    border: unset !important;
+    padding: 0px !important;
+}
+
+[href="user_logout.php"] {
+    display: none !important;
+}
+
+div.menu_dropdown {
+    transition: unset !important;
+}
+
+img.menu_icon2 {
+    display: none;
+}
+
+div.menu_item_dropdown a {
+    color: #d1d2d0 !important;
+    margin-bottom: 4px;
+    text-transform: inherit;
+    background: linear-gradient(90deg,#2a2a2a, #2b2b2ba1);
+    font-size: 12px;
+}
+
+div.menu_dropdown {
+    background: transparent;
+}
+
+
+.top_header a.menu_item:hover {
+    background: linear-gradient(90deg,#2a2a2a, #2b2b2ba1) !important;
+    color: #d1d2d0 !important;
+    transform: translateX(10px);
+}
+
+.top_header a.menu_item {
+    padding: 0px !important;
+    line-height: 2.5;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center;
+}
+
+span#notify_total {
+    position: absolute;
+    left: 0px;
+    border-radius: 0;
+    width: auto;
+    min-width: 33px;
+    height: 33px;
+    bottom: -5px;
+    line-height: 2;
+    font-size: 17px;
+    outline: unset;
+    font-family: 'Sofia Sans', sans-serif;
+    background: #cdcdcb;
+    color: #373737;
+    padding: 0;
+}
+
+
+div#menu_main_dropdown {
+    border: unset;
+}
+
+
+[src="/images/button_down.svg"] {
+    filter: invert(1) contrast(0.1) brightness(1.5);
+}
+
+[src="/images/button_down.svg"] {
+    width: 30px;
+}
+
+
+
+/*----ШАПКА END----*/
+
+.top_header {
+    background: linear-gradient(45deg, #dfe0dbcc, #f9f9f980),url(https://www.transparenttextures.com/patterns/beige-paper.png);
+    box-shadow: 5px 5px 6px #46464696 !important;
+}
+
+
+.card.mb-2.post_home {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+[onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    background: url(https://i.ibb.co/6YvVTFq/weiss-r.png) no-repeat center / contain;
+    width: 150px !important;
+    height: 150px !important;
+    background-color: transparent !important;
+    display: block;
+    position: relative;
+    z-index: 2;
+    top: unset;
+    bottom: unset !important;
+    left: unset !important;
+    right: unset !important;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    background: url(https://i.ibb.co/M2pF44N/weiss2-r.png) no-repeat center / contain;
+    width: 150px !important;
+    height: 150px !important;
+    background-color: transparent !important;
+    display: block;
+    position: relative;
+    z-index: 2;
+    top: unset;
+    bottom: unset !important;
+    left: unset !important;
+    right: unset !important;
+}
+
+.top_menu_link.top_menu_main_link [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    font-size: 0px !important;
+}
+
+.top_header {
+    width: 260px;
+    left: unset;
+    top: 162px !important;
+    bottom: unset;
+    right: 59px;
+    height: 0;
+    padding: 0px !important;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) {
+    height: 300px;
+}
+
+
+.top_header a.top_menu_item {
+    font-size: 18px !important;
+}
+
+td.top_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+[onmouseover^="showMenu('menu_dropdown"], [onmouseover^="showMenu('menu_dropdown"]+div,
+[href="im.php"],
+button.btn.btn-primary1 {
+    display: none;
+}
+
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onmouseover^="showMenu('menu_dropdown"],
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onmouseover^="showMenu('menu_dropdown"]+div,
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [href="im.php"],
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) button#newupdates,
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) button.button_down,
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) button.btn.btn-primary {
+    display: block;
+}
+
+button#newupdates {
+    position: absolute;
+    transform: translate(6px, 124px);
+    z-index: 2;
+}
+
+
+span#notify_total2 {
+    display: block !important;
+    background: red;
+    z-index: 2;
+}
+
+button.btn.btn-primary, button.btn.btn-primary:hover {
+    background: url(https://i.ibb.co/g3mXDSs/rw.png) no-repeat center / contain !important;
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    right: -35px !important;
+    bottom: 0;
+    filter: brightness(.9) contrast(0.6);
+}
+
+
+button#newupdates {
+    background: url(https://i.ibb.co/3YwBBC0/mail-r.png) no-repeat center / contain !important;
+    width: 113px;
+    height: 101px;
+    position: absolute;
+    transform: translate(-10px, 114px);
+    z-index: 1;
+    filter: drop-shadow(2px 4px 6px black) brightness(.9) contrast(0.8);
+    transition: 0.2s linear;
+}
+
+button#newupdates:hover {
+    background: url(https://i.ibb.co/3YwBBC0/mail-r.png) no-repeat center / contain !important;
+    transform: translate(-30px, 114px);
+}
+
+.top_menu_link.top_menu_main_link [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]:hover {
+    transform: translateY(-10px);
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]:hover {
+    transform: unset;
+}
+
+[src="/images/notify.svg"] {
+    display: none;
+}
+
+[onclick="window.scrollTo(0,100000); return false;"] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: transparent !important;
+}
+
+.top_menu_link_container {
+    border-bottom: 1px solid transparent;
+}
+
+.top_menu_link_container {
+    max-width: 0;
+    transition: 0s;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) .top_menu_link_container {
+    border-bottom: 1px solid #959696;
+    max-width: 300px;
+    transition: 1.5s;
+}
+
+
+button.btn.btn-primary {
+    opacity: 0;
+    transition: 0s;
+    pointer-events: none;
+    transform: translate(-30px, -30px);
+}
+
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) button.btn.btn-primary {
+    opacity: 1;
+    transition: 1.5s;
+    pointer-events: visible;
+    transform: translate(-60px, -25px);
+}
+
+.top_menu_link.top_menu_main_link [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    clip-path: polygon(-26% 8%, 97% -10%, 115% 224%, 32% 90%);
+    filter: drop-shadow(2px 8px 4px #0000008a) brightness(.9) contrast(0.8);
+    color: #0000008a;
+}
+
+
+[src="/images/button_down.svg"] {
+    filter: invert(1) contrast(0.1);
+}
+
+.top_header {
+    top: unset !important;
+    bottom: 500px !important;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) {
+    transition-delay: 0s;
+    top: unset !important;
+    bottom: 200px !important;
+}
+
+
+
+@media (min-width: 1920px) {
+    .top_header {
+    right: 175px;
+}
+}
+
+
+.seBlogComments {
+    background: linear-gradient(45deg, #dfe0dbcc, #f9f9f980),url(https://www.transparenttextures.com/patterns/beige-paper.png);
+    padding: 20px;
+    box-shadow: 5px 5px 6px #6f6f7296;
+}
+
+blockquote.blockquote {
+    background: linear-gradient(90deg,#2a2a2a, #2b2b2ba1);
+    font-size: 12px;
+    border: unset;
+    color: #dddddd;
+}
+
+.profile_comment_author b {
+    color: #2a2a2a;
+    font-family: "Caveat", cursive;
+    font-size: 18px;
+}
+
+
+.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after, div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after, .blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
+    filter: brightness(0) contrast(0.5);
+}
+
+button.button_down:hover {
+    background: transparent !important;
+}
+
+
+td.top_menu {
+    padding-top: 35px !important;
+}
+a.top_menu_item {
+    color: #00000080 !important;
+}
+
+[href="./"]:before {
+    content: '◊ Главная ◊';
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 18px;
+    color: #656565;
+    background: #46464600;
+    width: 0;
+    border-bottom: 1px solid transparent;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 7px;
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+.top_header:has(div#menu_main_dropdown[style="display: inline;"]) [href="./"]:before {
+    border-bottom: 1px solid #959696;
+    width: 237px;
+    transition: 1.5s;
+}
+
+.modal-dialog {
+    position: fixed;
+    bottom: 72px;
+    right: 330px;
+    width: 300px;
+    height: 400px;
+}
+
+
+.modal-body, .updatesWrap {
+    height: 200px;
+}
+
+.modal-content {
+    background: linear-gradient(45deg, #dfe0db, #f9f9f9b3),url(https://www.transparenttextures.com/patterns/beige-paper.png);
+    box-shadow: 5px 5px 6px #46464696 !important;
+    border-radius: unset;
+}
+
+button.btn.btn-secondary, input#comment_submit {
+    background: linear-gradient(93deg, #2a2a2a, transparent);
+    font-size: 15px;
+    border-radius: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    box-shadow: 4px 4px 5px #3131315e, inset 0px 0px 20px #e2e2e294;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+.comment_headline,.profile_postcomment {
+    border: unset !important;
+}
+
+.seBlogComments div[id^="comment_"] {
+    margin-bottom: 50px;
+}
+
+ul.seBlogCategoryList {
+    max-height: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+ul.seBlogCategoryList:hover {
+    max-height: 400px;
+}
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b2b2b1;
+    border: 4px solid #2e2e2e;
+}
+
+/*----END----*/
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: linear-gradient(90deg, #dfe0db69, #e2e2e2d4, #dfe0db69);
+    height: 60px;
+    font-size: 12px;
+    line-height: 2;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+
+button.navbar-toggler,button.btn.btn-outline-success,
+    button.btn.btn-outline-success.mr-1.mobile_button {
+    border: unset !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success {
+    position: unset;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button#newupdates, 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button#newupdates:hover {
+    position: unset !important;
+    transform: unset !important;
+    width: 40px;
+    height: 40px;
+    filter: brightness(.9) contrast(0.8);
+}
+
+#mobile_menu .menu_item_dropdown a {
+    border-bottom: 1px solid #959696;
+    background: transparent !important;
+    font-size: 18px;
+    color: #656565 !important;
+}
+    div#mobile_menu {
+    background: #e2e2e2 url(https://www.transparenttextures.com/patterns/beige-paper.png);
+}
+
+.portal_spacer {
+    display: none;
+}
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px), (max-width: 1024px) {
+    button#newupdates, button#newupdates:hover {
+    position: unset !important;
+    transform: unset !important;
+    width: 40px;
+    height: 40px;
+    filter: brightness(.9) contrast(0.8);
+}
+    div#lefthome {
+    width: 100% !important;
+    margin: 0px !important;
+}
+    .seBlogColumnRightPadding {
+    position: sticky;
+    width: 100% !important;
+    top: unset;
+}
+    div#righthome {
+    margin: 0px !important;
+}
+    body:before {
+    background-position: left;
+}
+    
+    .show_menu.header-orange {
+    background: linear-gradient(90deg, transparent, #2a2a2a, transparent);
+    height: 25px;
+    font-size: 12px;
+    padding: 0px;
+    line-height: 2;
+}
+    .seBlogColumnRightPadding {
+    margin-top: 50px;
+}
+    div#lefthome {
+    display: block !important;
+}
+    .show_menu.header-orange {
+    display: none;
+}
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: linear-gradient(90deg, #dfe0db69, #e2e2e2d4, #dfe0db69);
+    height: 60px;
+    font-size: 12px;
+    line-height: 2;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+    [href="./"]:before {
+    position: unset;
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding: 0px;
+    background: url(https://i.ibb.co/KhXQJMH/lunar-tear.png) no-repeat center / contain;
+    filter: drop-shadow(2px 4px 6px #8483868a) grayscale(1) invert(1) opacity(0.8);
+    font-size: 0;
+}
+    button.btn.btn-outline-success {
+    position: relative;
+}
+    li.p-1 {
+    font-size: 16px;
+    margin-top: 3px;
+}
+    .blog_leftsearch input[type="text"] {
+    height: 21px;
+}
+    span#notify_total {
+    position: unset;
+    background: #333332;
+    color: #e4e4e2;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    margin-top: 15px;
+    font-size: 13px;
+}
+    .post {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+    .post_data p:first-child,p.card-link.post_views {
+    margin-right: 20px;
+}
+}
