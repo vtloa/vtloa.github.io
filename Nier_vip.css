@@ -1067,3 +1067,25 @@ div#designs {
 .blog_leftprofile {
     display: none !important;
 }
+
+.updatesDelete {
+    max-width: 180px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.updatesWrap * {
+    color: #010101 !important;
+}
+
+.updatesDelete * {
+    color: #c13a3a !important;
+    line-height: 3.5;
+    font-size: 12px;
+}
+
+.modal-header button.close {
+    display: none;
+}
