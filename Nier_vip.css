@@ -1063,3 +1063,7 @@ div#designs {
 .page-link:focus {
     box-shadow: unset;
 }
+
+.blog_leftprofile {
+    display: none !important;
+}
