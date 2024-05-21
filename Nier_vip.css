@@ -847,7 +847,7 @@ a {
     position: fixed;
     bottom: 72px;
     right: 330px;
-    width: 300px;
+    max-width: 300px;
     height: 400px;
 }
 
