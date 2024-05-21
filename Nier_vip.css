@@ -1036,9 +1036,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu butto
     .post_data p:first-child,p.card-link.post_views {
     margin-right: 20px;
 }
+
+    .modal-dialog {
+    position: unset;
+}
 }
 
 
+/*----UPD ALL----*/
 
 a.page-link, a.page-link:hover {
     padding: 0px !important;
