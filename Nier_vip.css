@@ -1040,16 +1040,15 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu butto
 
 
 
-a.page-link {
+a.page-link,a.page-link:hover {
     padding: 0px !important;
     font-family: "Alegreya Sans SC", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     background: transparent;
     color: #e7e7e7;
     margin-bottom: 15px;
     background: linear-gradient(90deg, transparent, #2a2a2a, transparent);
     height: 14px;
-    font-size: 12px;
     color: #bdbdbd;
 }
 
