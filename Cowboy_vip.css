@@ -1218,3 +1218,7 @@ li.p-1 a:hover {
 table.body {
     padding-top: 0px !important;
 }
+
+div.profile_comment_body img {
+    max-width: 300px;
+}
