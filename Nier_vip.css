@@ -1098,3 +1098,13 @@ div#designs {
 [src="/images/verify.png"] {
     filter: brightness(0) contrast(0.5);
 }
+
+textarea#comment_body {
+    background: #efefef;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: transparent;
+    border-radius: unset;
+    filter: opacity(0.8);
+}
