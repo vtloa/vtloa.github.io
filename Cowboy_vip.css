@@ -1071,6 +1071,10 @@ div#user_status,.blog_user_status {
     color: #e6e7d3 !important;
 }
 
+div#fffuuusmiles {
+    width: 255px !important;
+}
+
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
    div#righthome,div#lefthome {
