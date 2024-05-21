@@ -1234,9 +1234,3 @@ div#bbcode [src^="/images/fffuuusmiles/"]:hover {
     outline-offset: -5px;
     scale: 1.4;
 }
-
-.content .post_container .post_text p.vmp3 iframe {
-    max-height: 98px;
-    mix-blend-mode: exclusion;
-    filter: grayscale(1);
-}
