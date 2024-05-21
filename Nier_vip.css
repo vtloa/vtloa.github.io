@@ -1108,3 +1108,7 @@ div#bbcode [src^="/images/bbcode/"] {
     border-radius: unset;
     filter: opacity(0.8);
 }
+
+blockquote.blockquote {
+    width: fit-content;
+}
