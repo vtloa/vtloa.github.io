@@ -1094,3 +1094,7 @@ div#designs {
 .modal-header button.close {
     display: none;
 }
+
+[src="/images/verify.png"] {
+    filter: brightness(0) contrast(0.5);
+}
