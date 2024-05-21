@@ -1228,3 +1228,9 @@ table.body {
 div.profile_comment_body img {
     max-width: 300px;
 }
+
+div#bbcode [src^="/images/fffuuusmiles/"]:hover {
+    outline: 2px solid #e09520;
+    outline-offset: -5px;
+    scale: 1.4;
+}
