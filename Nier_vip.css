@@ -1049,6 +1049,9 @@ div#bbcode {
     .modal-dialog {
     position: unset;
 }
+    .card.mb-2.post_home {
+    max-width: 100%;
+}
 }
 
 
