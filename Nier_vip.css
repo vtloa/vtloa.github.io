@@ -1135,6 +1135,8 @@ blockquote.blockquote {
     width: fit-content;
 }
 
-h2.card-title a:hover {
+h2.card-title a:hover,
+.card.mt-3.blog_leftmenu a:hover{
     opacity: 0.5;
 }
+
