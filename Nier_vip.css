@@ -1052,6 +1052,13 @@ div#bbcode {
     .card.mb-2.post_home {
     max-width: 100%;
 }
+    .seBlogComments {
+    padding: 0;
+}
+    .seBlogComments div[id^="comment_"] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
 
 
