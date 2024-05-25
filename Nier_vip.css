@@ -950,6 +950,15 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu butto
     display: none;
 }
 
+div#bbcode {
+    width: calc(100% - 200px);
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    div#bbcode {
+    width: 100%;
+}
+}
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px), (max-width: 1024px) {
     button#newupdates, button#newupdates:hover {
@@ -1115,8 +1124,4 @@ blockquote.blockquote {
 
 h2.card-title a:hover {
     opacity: 0.5;
-}
-
-div#bbcode {
-    width: calc(100% - 200px);
 }
