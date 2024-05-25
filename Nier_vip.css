@@ -1112,3 +1112,11 @@ div#bbcode [src^="/images/bbcode/"] {
 blockquote.blockquote {
     width: fit-content;
 }
+
+h2.card-title a:hover {
+    opacity: 0.5;
+}
+
+div#bbcode {
+    width: calc(100% - 200px);
+}
