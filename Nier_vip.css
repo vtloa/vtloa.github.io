@@ -973,6 +973,10 @@ div#bbcode {
     grid-gap: 0vw;
 }
 
+.like_user {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     div#bbcode {
     width: 100%;
