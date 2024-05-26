@@ -1078,7 +1078,7 @@ div#bbcode {
     padding-top: 13px;
 }
     .modal-dialog {
-    max-width: 100%;
+    max-width: 500px;
 }
 }
 
