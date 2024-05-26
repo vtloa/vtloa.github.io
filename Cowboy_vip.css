@@ -896,7 +896,7 @@ div.top_menu_link {
 }
 
 .top_header:has(div#menu_main_dropdown[style="display: inline;"]) [href="./"]:after {
-    top: 43px !important;
+    top: 44px !important;
 }
 
 span#notify_total {
