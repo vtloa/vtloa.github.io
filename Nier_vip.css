@@ -970,7 +970,7 @@ div#bbcode {
 }
 
 .like_user {
-    grid-gap: 0vw;
+    grid-gap: 0 !important;
 }
 
 .like_user {
