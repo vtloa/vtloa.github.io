@@ -1077,6 +1077,9 @@ div#bbcode {
     .seBlogComments {
     padding-top: 13px;
 }
+    .modal-dialog {
+    max-width: 100%;
+}
 }
 
 
