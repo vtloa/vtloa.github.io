@@ -953,6 +953,22 @@ div#bbcode {
     width: calc(100% - 200px);
 }
 
+
+.like_users {
+    width: 290px;
+    height: 200px;
+}
+
+.modal-footer {
+    position: relative;
+    z-index: 2;
+}
+
+.modal-content a {
+    color: #424242;
+    font-size: 11px;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     div#bbcode {
     width: 100%;
