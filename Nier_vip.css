@@ -969,6 +969,10 @@ div#bbcode {
     font-size: 11px;
 }
 
+.like_user {
+    grid-gap: 0vw;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     div#bbcode {
     width: 100%;
@@ -1079,6 +1083,9 @@ div#bbcode {
 }
     .modal-dialog {
     max-width: 500px;
+}
+    .like_users {
+    width: 100%;
 }
 }
 
