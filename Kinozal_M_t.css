@@ -682,5 +682,5 @@ div#bbcode [src^="/images/bbcode/"] {
 
 
 .seBlogComments img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
-    width: 80px !important;
+    width: 100px !important;
 }
