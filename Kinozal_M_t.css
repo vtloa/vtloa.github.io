@@ -679,3 +679,8 @@ div#bbcode [src^="/images/bbcode/"] {
     margin-right: 100px;
     border-radius: 5px;
 }
+
+
+.seBlogComments img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
+    width: 80px !important;
+}
