@@ -1519,3 +1519,29 @@ a#attach_file_click {
 .blog_leftsearch .card-body {
     margin-top: 10px;
 }
+
+
+/*-----------------FIX 03.06.2024---применит ли без хаба хз----------*/
+
+div#righthome:before {
+    content: '';
+    display: block;
+    height: 200px;
+    margin-bottom: 15px;
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png);
+    background-size: auto 200px;
+}
+
+
+.card-header, button.btn.btn-primary {
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -110px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a);
+    background-blend-mode: hard-light;
+    background-size: 1000px, auto;
+}
+
+.card.mt-3.blog_leftmenu .card-header, .card.blog_categories .card-header {
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -110px top, linear-gradient(90deg, #546cf0, #be865c, #529edb);
+    background-blend-mode: hard-light;
+    background-size: 1000px, auto;
+}
+
