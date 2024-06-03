@@ -1513,7 +1513,7 @@ div#righthome:before {
     background-size: 1000px, auto;
 }
 
-button.btn.btn-primary:hover {
+button.btn.btn-primary:hover,button.button_down:hover {
     background: #5b6ef0 !important;
 }
 
