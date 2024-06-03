@@ -1508,7 +1508,7 @@ div#righthome:before {
 }
 
 .card.mt-3.blog_leftmenu .card-header, .card.blog_categories .card-header {
-    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #be865c, #529edb);
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #be865c, #529edb) !important;
     background-blend-mode: hard-light;
     background-size: 1000px, auto !important;
 }
