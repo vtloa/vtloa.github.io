@@ -1517,3 +1517,6 @@ button.btn.btn-primary:hover {
     background: #5b6ef0 !important;
 }
 
+.copyright a, .copyright *, .copyright {
+    font-size: 0px !important;
+}
