@@ -801,9 +801,6 @@ h2.card-title {
     font-size: 20px;
     text-align: center;
     line-height: 2;
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -195px center;
-    background-blend-mode: screen;
     padding: 0;
 }
 
@@ -1031,9 +1028,6 @@ h2.card-title {
     font-size: 20px;
     text-align: center;
     line-height: 2;
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -195px center;
-    background-blend-mode: screen;
     padding: 0;
 }
 
@@ -1247,9 +1241,6 @@ h2.card-title {
     font-size: 20px;
     text-align: center;
     line-height: 2;
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -195px center;
-    background-blend-mode: screen;
     padding: 0;
 }
 
@@ -1512,7 +1503,7 @@ div#righthome:before {
     background-size: 1000px, auto !important;
 }
 
-show_menu.header-orange {
+.show_menu.header-orange {
     background-blend-mode: hard-light;
     border-radius: unset !important;
 }
