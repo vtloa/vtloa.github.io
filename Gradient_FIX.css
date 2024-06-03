@@ -1534,13 +1534,13 @@ div#righthome:before {
 
 
 .card-header, button.btn.btn-primary {
-    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -110px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a);
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a);
     background-blend-mode: hard-light;
     background-size: 1000px, auto;
 }
 
 .card.mt-3.blog_leftmenu .card-header, .card.blog_categories .card-header {
-    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -110px top, linear-gradient(90deg, #546cf0, #be865c, #529edb);
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #be865c, #529edb);
     background-blend-mode: hard-light;
     background-size: 1000px, auto;
 }
