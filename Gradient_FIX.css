@@ -1514,7 +1514,7 @@ div#righthome:before {
 
 show_menu.header-orange {
     background-blend-mode: hard-light;
-    border-radius: unset;
+    border-radius: unset !important;
 }
 
 .card-header {
