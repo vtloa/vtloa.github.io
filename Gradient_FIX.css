@@ -1528,3 +1528,7 @@ div.menu_item_dropdown a:hover {
 [href="im.php"] {
     background: #f7cdbd !important;
 }
+
+[onclick^="subscribe"]:before {
+    font-family: "fontawesome";
+}
