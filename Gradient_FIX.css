@@ -1501,8 +1501,8 @@ div#righthome:before {
 }
 
 
-.card-header, button.btn.btn-primary {
-    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a);
+.card-header, button.btn.btn-primary, button.btn.btn-primary:hover {
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a) !important;
     background-blend-mode: hard-light;
     background-size: 1000px, auto;
 }
@@ -1513,7 +1513,7 @@ div#righthome:before {
     background-size: 1000px, auto;
 }
 
-button.btn.btn-primary:hover,button.button_down:hover {
+button.button_down:hover {
     background: #5b6ef0 !important;
 }
 
