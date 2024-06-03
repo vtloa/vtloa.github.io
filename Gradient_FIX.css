@@ -1502,7 +1502,7 @@ div#righthome:before {
 
 
 .card-header, button.btn.btn-primary, button.btn.btn-primary:hover {
-    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a) !important;
+    background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #bc8eee, #c7b3ff) !important;
     background-blend-mode: hard-light;
     background-size: 1000px, auto !important;
 }
@@ -1528,4 +1528,8 @@ button.button_down:hover {
 div.menu_item_dropdown a:hover {
     background: #fcbe8f !important;
     padding-left: 10px;
+}
+
+[href="im.php"] {
+    background: #f7cdbd !important;
 }
