@@ -1504,13 +1504,17 @@ div#righthome:before {
 .card-header, button.btn.btn-primary, button.btn.btn-primary:hover {
     background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #bc8eee, #ffc08a) !important;
     background-blend-mode: hard-light;
-    background-size: 1000px, auto;
+    background-size: 1000px, auto !important;
 }
 
 .card.mt-3.blog_leftmenu .card-header, .card.blog_categories .card-header {
     background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat left -112px top, linear-gradient(90deg, #546cf0, #be865c, #529edb);
     background-blend-mode: hard-light;
-    background-size: 1000px, auto;
+    background-size: 1000px, auto !important;
+}
+
+.card-header {
+    padding: 0px !important;
 }
 
 button.button_down:hover {
