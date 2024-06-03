@@ -1507,7 +1507,7 @@ div#righthome:before {
     background-size: 1000px, auto !important;
 }
 
-.card.mt-3.blog_leftmenu .card-header, .card.blog_categories .card-header {
+.card.mt-3.blog_leftmenu .card-header, .card.blog_categories .card-header,.show_menu.header-orange {
     background: url(https://i.ibb.co/Vw2LgsL/gradient.png) no-repeat right -100px, linear-gradient(90deg, #546cf0, #d8a877, #529edb) !important;
     background-size: 1000px, auto !important;
 }
