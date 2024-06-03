@@ -1520,3 +1520,8 @@ button.btn.btn-primary:hover,button.button_down:hover {
 .copyright a, .copyright *, .copyright {
     font-size: 0px !important;
 }
+
+div.menu_item_dropdown a:hover {
+    background: #fcbe8f !important;
+    padding-left: 10px;
+}
