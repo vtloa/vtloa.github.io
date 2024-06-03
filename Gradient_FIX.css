@@ -571,41 +571,9 @@ div#righthome:before {
     display: block;
     height: 200px;
     margin-bottom: 15px;
-    background: linear-gradient(90deg, #546cf0, #bc8eee,#ffc08a), 
-      url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat,
-      url(https://i.ibb.co/hLG240Z/loi4jg-3.png) no-repeat right -143px top;
     background-blend-mode: screen;
 }
 
-.card-header {
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -165px center;
-    background-blend-mode: screen;
-}
-
-.card-header, button.btn.btn-primary {
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -275px center;
-    background-blend-mode: screen;
-}
-
-.card.blog_categories .card-header {
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat top -325px center;
-    background-blend-mode: screen;
-}
-
-.card.blog_gifts .card-header {
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -160px center;
-    background-blend-mode: screen;
-}
-
-.card.mt-3.blog_leftmenu .card-header {
-    background: linear-gradient( 90deg , #546cf0, #bc8eee,#ffc08a), 
-                url(https://i.ibb.co/47MDXRS/loi4jg-2.png) no-repeat left -195px center;
-    background-blend-mode: screen;
-}
 
 blockquote.blockquote {
     background: #febf8b;
