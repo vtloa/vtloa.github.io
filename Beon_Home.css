@@ -1618,3 +1618,13 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/schwa/"]:afte
     opacity: 0;
 }
 
+/*---рукожопы правят миром---*/
+
+.comments.p-1 .list-users-home.pt-2 img.rate_photo {
+    display: inline-block;
+}
+
+.comments.p-1 .list-users-home.pt-2 {
+    display: flex;
+}
+
