@@ -1626,5 +1626,6 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/schwa/"]:afte
 
 .comments.p-1 .list-users-home.pt-2 {
     display: flex;
+    margin-bottom: 25px;
 }
 
