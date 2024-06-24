@@ -1409,12 +1409,7 @@ div#mobile_menu {
 
 
 div[id^="comment_"]:not(div#comment_subscribe) {
-    min-height: auto;
-    margin: 0px !important;
-    padding: 5px;
-    margin-bottom: 20px !important;
     background: #0d0d00;
-    padding-left: 10px;
     color: #cec4b7;
 }
 
@@ -1428,10 +1423,6 @@ div[id^="comment_"]:not(div#comment_subscribe) {
 
 div[id^="comment_"]:not(div#comment_subscribe) {
     background: black;
-}
-
-div[id^="comment_"]:not(div#comment_subscribe) {
-    padding-top: 10px !important;
 }
 
 li.p-1 a, .card.blog_categories a,.blog_leftsearch input[type="text"] {
