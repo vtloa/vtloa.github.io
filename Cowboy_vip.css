@@ -1234,3 +1234,154 @@ div#bbcode [src^="/images/fffuuusmiles/"]:hover {
     outline-offset: -5px;
     scale: 1.4;
 }
+
+
+/*---------------КЛИНИКА----------------*/
+
+body {
+    background: #c3baaf;
+}
+
+div#lefthome:before {
+    background: black;
+}
+
+.blog_leftsearch input[type="text"] {
+    box-shadow: unset;
+}
+
+.blog_leftphoto img {
+    content: url(https://beon.vip/uploads_user/10000/9068/c74d420aece0acfc300f066e1cb0fccf.gif);
+    object-position: center;
+}
+
+li.p-1 a, .card.blog_categories a {
+    color: #c3baaf !important;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    border-radius: unset;
+    background-color: #c3baaf;
+}
+
+.blog_leftsearch tr:after,input#comment_submit, button.btn.btn-secondary,#mobile_menu button.btn.btn-primary, #mobile_menu button.btn.btn-primary:hover {
+    background: #d8c8e6 !important;
+    color: black !important;
+}
+
+.comment_headline {
+    color: #c1b9af;
+}
+
+div[id^="comment_"]:not(div#comment_subscribe),
+[id^="grouptopic_"][id$="_postcomment"], [id^="blog"][id$="_postcomment"],div[id^="comment_"]:not(div#comment_subscribe):nth-child(5n-2){
+    background: black;
+}
+
+textarea#comment_body {
+    background: #c3baaf;
+    color: #0d0d00;
+}
+
+[onclick^="subscribe"]:before {
+    color: #d8c8e6;
+}
+
+a#comment_next_page_top, a#comment_next_page_bottom, a#comment_last_page_top, a#comment_last_page_bottom {
+    color: #ffe179;
+}
+
+input#comment_submit:hover, button.btn.btn-secondary:hover {
+    background: #c3baaf !important;
+}
+
+body [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    background: #d8c8e6 !important;
+}
+
+[href="./"]:after,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.navbar-toggler, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success:before{
+    background-color: #f6dc80 !important;
+}
+
+.top_header,div.menu_item_dropdown a {
+    background: #d8c8e6;
+}
+
+.top_header a.menu_item:hover {
+    background: #f6dc80 !important;
+    color: #000000 !important;
+}
+
+.content {
+    background: transparent;
+}
+
+span.card-text a, .profile_comment_author b, .profile_comment_body a {
+    color: #f6dc80;
+}
+
+[src="/images/verify.png"] {
+    filter: invert(1) hue-rotate(266deg) brightness(2) saturate(0.2) !important;
+}
+
+
+::-webkit-scrollbar {
+    width: 20px;
+    background: cadetblue;
+    border: aliceblue;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    background: #c3baaf;
+    border: aliceblue;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0d0d00;
+    border: 4px solid #c3baaf;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0d0d00;
+    border: 4px solid #c3baaf;
+}
+
+.card.mb-2.post_home:first-child {
+    background: #c3baaf;
+}
+
+h2.card-title a, h6.card-subtitle.mb-2.text-muted.post_date a {
+    color: #d8c8e6;
+}
+
+div#user_status, .blog_user_status,
+.card.mb-2.post_home+.card.mb-2.post_home h6.card-subtitle.mb-2.text-muted.post_date, .card.mb-2.post_home+.card.mb-2.post_home div#user_status, .card.mb-2.post_home+.card.mb-2.post_home .blog_user_status, .card.mb-2.post_home+.card.mb-2.post_home .additional_info.pl-3 *, .card.mb-2.post_home+.card.mb-2.post_home .post_data *:before{
+    color: #86736e !important;
+}
+
+blockquote.blockquote {
+    background: #c3baaf;
+    color: #0d0d00;
+}
+
+.card.mb-2.post_home:first-child h2.card-title a,
+.card.mb-2.post_home:first-child h6.card-subtitle.mb-2.text-muted.post_date a{
+    color: black;
+}
+
+.show_menu.header-orange {
+    background: #d8c8e6 !important;
+    color: black !important;
+}
+
+div#lefthome {
+    background: transparent;
+}
+
+div#mobile_menu {
+    background: black;
+    color: #c3baaf;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    color: #c3baaf !important;
+}
