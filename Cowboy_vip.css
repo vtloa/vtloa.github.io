@@ -1417,3 +1417,11 @@ div[id^="comment_"]:not(div#comment_subscribe) {
     padding-left: 10px;
     color: #cec4b7;
 }
+
+.profile_comment_date {
+    color: #c3baaf !important;
+}
+
+.seBlogComments .profile_comment_links *, .seBlogComments .profile_comment_links *:before, .seBlogComments .like_button.liked+span {
+    color: #86736e !important;
+}
