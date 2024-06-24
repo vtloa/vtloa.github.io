@@ -1395,3 +1395,9 @@ div#mobile_menu {
 [src="./uploads_user/10000/9068/97bc45e5cf2e5f2515da38175cd90d2a.gif"] {
     content: url(https://beon.vip/uploads_user/10000/9068/0e6dc7faf69c9454fa4df4a993efa6ae.gif);
 }
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .copyright [onclick="scrolltop(); return false;"] {
+        background-color: #d8c8e6;
+    }
+}
