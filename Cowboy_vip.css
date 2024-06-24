@@ -1385,3 +1385,9 @@ div#mobile_menu {
 #mobile_menu .menu_item_dropdown a {
     color: #c3baaf !important;
 }
+
+
+.modal-content {
+    background: #c3baaf;
+    color: #0d0d00;
+}
