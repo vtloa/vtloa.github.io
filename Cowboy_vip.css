@@ -1428,3 +1428,7 @@ div[id^="comment_"]:not(div#comment_subscribe) {
 li.p-1 a, .card.blog_categories a,.blog_leftsearch input[type="text"] {
     background: black;
 }
+
+.profile_comment_author b:hover, h2.card-title a:hover, h6.card-subtitle.mb-2.text-muted.post_date a:hover, span.card-text a:hover, .profile_comment_body a:hover {
+    color: #9a76b8;
+}
