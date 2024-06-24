@@ -1401,3 +1401,9 @@ div#mobile_menu {
         background-color: #d8c8e6;
     }
 }
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    a#attach_file_click {
+        filter: invert(55%) sepia(34%) saturate(208%) hue-rotate(1deg) brightness(102%) contrast(88%);
+    }
+}
