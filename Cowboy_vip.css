@@ -1425,3 +1425,15 @@ div[id^="comment_"]:not(div#comment_subscribe) {
 .seBlogComments .profile_comment_links *, .seBlogComments .profile_comment_links *:before, .seBlogComments .like_button.liked+span {
     color: #86736e !important;
 }
+
+div[id^="comment_"]:not(div#comment_subscribe) {
+    background: black;
+}
+
+div[id^="comment_"]:not(div#comment_subscribe) {
+    padding-top: 10px !important;
+}
+
+li.p-1 a, .card.blog_categories a,.blog_leftsearch input[type="text"] {
+    background: black;
+}
