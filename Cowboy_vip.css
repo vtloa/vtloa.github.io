@@ -1436,3 +1436,7 @@ li.p-1 a, .card.blog_categories a,.blog_leftsearch input[type="text"] {
 span#notify_total {
     background: #f6dc80;
 }
+
+.card.mb-2.post_home+.card.mb-2.post_home {
+    background: black;
+}
