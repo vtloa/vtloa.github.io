@@ -999,7 +999,7 @@ a.my-menu.for-mobile.d-none.d-md-inline,a.my-menu.for-mobile.mobile-scroll-down.
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
     position: fixed;
     background: #1e1d1d;
-    bottom: 65px;
+    bottom: 60px;
     right: 10px;
     width: 40px;
     height: 40px;
