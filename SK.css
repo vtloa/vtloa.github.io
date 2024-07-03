@@ -1267,3 +1267,46 @@ a.navbar-brand {
     margin-right: 2px;
 }
 }
+
+
+/*----UPD----*/
+
+.modal-content {
+    background: url(https://i.ibb.co/fQkngh5/splash.png) no-repeat left -247px top -215px;
+    background-color: #1e1d1d;
+    color: #c5c4c4;
+}
+
+.modal-header,.modal-footer {
+    border: unset;
+}
+
+.modal-header {
+    color: #c5c4c4;
+}
+
+a.btn.btn-outline-primary.mb-2 {
+    color: #c5c4c4;
+    border: unset;
+}
+
+button.btn.btn-secondary,button.btn.btn-primary,.btn-outline-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #976352;
+    color: #1c1c1c;
+    border: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+
+a.btn.btn-outline-primary.mb-2:hover {
+    color: #c5c4c4 !important;
+}
+
+button.btn.btn-secondary:hover,
+button.btn.btn-primary:hover {
+    opacity: 0.5;
+}
