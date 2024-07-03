@@ -1202,15 +1202,16 @@ a.btn.btn-outline-primary.mb-3 {
     font-size: 14px;
     padding: 0px;
 }
+
 a.navbar-brand {
     position: absolute;
-    left: 5px;
+    left: 0px;
 }
 
 .hamburger-menu {
     position: absolute;
     top: 10px;
-    right: 5px;
+    right: 0px;
     left: unset;
 }
  .crumbs {
