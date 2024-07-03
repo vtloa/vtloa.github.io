@@ -1099,6 +1099,11 @@ a.menu__item {
     font-family: "Noto Sans", sans-serif;
 }
 
+a.btn.btn-outline-primary.mb-3 {
+    border: unset;
+    color: #2a2a2a;
+}
+
 /*----MEDIA----*/
 
 @media (min-width: 1920px) {
