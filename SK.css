@@ -1310,3 +1310,7 @@ button.btn.btn-secondary:hover,
 button.btn.btn-primary:hover {
     opacity: 0.5;
 }
+
+.modal-body a {
+    color: #c98a75;
+}
