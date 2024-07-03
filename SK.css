@@ -1104,6 +1104,10 @@ a.btn.btn-outline-primary.mb-3 {
     color: #2a2a2a;
 }
 
+.btn-outline-primary:hover {
+    background: transparent;
+}
+
 /*----MEDIA----*/
 
 @media (min-width: 1920px) {
