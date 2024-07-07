@@ -1443,7 +1443,7 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/you/"]:afte
 
 [href="https://beon.vip/washu/"] b [src="/images/verify.png"],
 .messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"]{
-    filter: grayscale(1) brightness(0);
+    filter: hue-rotate(125deg) brightness(1.2) saturate(0.9);
 }
 
 
