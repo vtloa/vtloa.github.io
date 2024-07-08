@@ -684,3 +684,10 @@ div#bbcode [src^="/images/bbcode/"] {
 .seBlogComments img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
     width: 100px !important;
 }
+
+
+/*----размер стиков от жибс----*/
+
+div.profile_comment_body:has([src^="https://beon.vip/uploads_user/2000/1518/"]) img {
+    max-width: 300px !important;
+}
