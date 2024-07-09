@@ -247,7 +247,7 @@ div.menu_dropdown {
     max-height: 0px;
     overflow: hidden;
     border-radius: unset !important;
-    padding: 1px;
+    padding: 0px;
     border: 1px solid #fff0 !important;
     transition: 0.1s;
 }
