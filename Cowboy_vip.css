@@ -1246,6 +1246,12 @@ div#lefthome:before {
     background: black;
 }
 
+div#lefthome:before {
+    background: url(https://i.pinimg.com/564x/9a/3f/0c/9a3f0c755d4c6af33e1bc36268fe4a03.jpg) no-repeat center left / contain, 
+                url(https://i.pinimg.com/564x/88/e3/a5/88e3a5f1204a22ac01992171fb8c6340.jpg) no-repeat right center / contain;
+    background-color: #f8f8f8;
+}
+
 .blog_leftsearch input[type="text"] {
     box-shadow: unset;
 }
