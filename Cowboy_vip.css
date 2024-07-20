@@ -1225,7 +1225,7 @@ div#lefthome:before {
 }
 
 .blog_leftphoto img {
-    content: url(https://beon.vip/uploads_user/10000/9068/c74d420aece0acfc300f066e1cb0fccf.gif);
+    content: url(https://i.ibb.co/wChWMcJ/ce8ed7a….jpg);
     object-position: center;
 }
 
@@ -1301,8 +1301,9 @@ span.card-text a, .profile_comment_author b, .profile_comment_body a {
 
 
 .card.mb-2.post_home:first-child {
-    background: #e7e7e7;
+    background: #ffffff;
 }
+
 
 h2.card-title a, h6.card-subtitle.mb-2.text-muted.post_date a {
     color: #b50000;
