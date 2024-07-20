@@ -1399,3 +1399,30 @@ span#notify_total {
 input[type="text"] {
     border: 1px solid #0a0a0a !important;
 }
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 20px;
+    background: #0a0a0a;
+    border: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b90101;
+    border: 4px solid #0a0a0a;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar {
+    width: 10px;
+    background: #b90101;
+    border: #0a0a0a;
+}
+
+div#postcomment_userphotos::-webkit-scrollbar-thumb {
+    background-color: #0a0a0a;
+    border: 2px solid #b90101;
+}
+
+/*----END----*/
