@@ -1335,16 +1335,15 @@ div#lefthome {
 
 div#mobile_menu {
     background: black;
-    color: #c3baaf;
+    color: #ffffff;
 }
 
 #mobile_menu .menu_item_dropdown a {
-    color: #c3baaf !important;
+    color: #ffffff !important;
 }
 
-
 .modal-content {
-    background: #c3baaf;
+    background: #ffffff;
     color: #0d0d00;
 }
 
