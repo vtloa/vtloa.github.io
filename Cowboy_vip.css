@@ -1274,7 +1274,7 @@ body [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown')
 }
 
 [href="./"]:after, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.navbar-toggler, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success:before {
-    background-color: #e7e7e7 !important;
+    background-color: #ffffff !important;
 }
 
 .top_header, div.menu_item_dropdown a {
