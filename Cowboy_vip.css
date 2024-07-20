@@ -1239,17 +1239,12 @@ div#bbcode [src^="/images/fffuuusmiles/"]:hover {
 /*---------------КЛИНИКА----------------*/
 
 body {
-    background: #c3baaf;
+    background: #0a0a0a;
 }
 
 div#lefthome:before {
     background: black;
-}
-
-div#lefthome:before {
-    background: url(https://i.pinimg.com/564x/9a/3f/0c/9a3f0c755d4c6af33e1bc36268fe4a03.jpg) no-repeat center left / contain, 
-                url(https://i.pinimg.com/564x/88/e3/a5/88e3a5f1204a22ac01992171fb8c6340.jpg) no-repeat right center / contain;
-    background-color: #f8f8f8;
+    border: unset;
 }
 
 .blog_leftsearch input[type="text"] {
@@ -1262,7 +1257,7 @@ div#lefthome:before {
 }
 
 li.p-1 a, .card.blog_categories a {
-    color: #c3baaf !important;
+    color: #b50000 !important;
 }
 
 div#bbcode [src^="/images/bbcode/"] {
@@ -1270,8 +1265,8 @@ div#bbcode [src^="/images/bbcode/"] {
     background-color: #c3baaf;
 }
 
-.blog_leftsearch tr:after,input#comment_submit, button.btn.btn-secondary,#mobile_menu button.btn.btn-primary, #mobile_menu button.btn.btn-primary:hover {
-    background: #d8c8e6 !important;
+.blog_leftsearch tr:after, input#comment_submit, button.btn.btn-secondary, #mobile_menu button.btn.btn-primary, #mobile_menu button.btn.btn-primary:hover {
+    background: #990101 !important;
     color: black !important;
 }
 
@@ -1302,16 +1297,15 @@ input#comment_submit:hover, button.btn.btn-secondary:hover {
 }
 
 body [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
-    background: #d8c8e6 !important;
+    background: #b90101 !important;
 }
 
-[href="./"]:after,
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.navbar-toggler, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success:before{
-    background-color: #f6dc80 !important;
+[href="./"]:after, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.navbar-toggler, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success:before {
+    background-color: #e7e7e7 !important;
 }
 
-.top_header,div.menu_item_dropdown a {
-    background: #d8c8e6;
+.top_header, div.menu_item_dropdown a {
+    background: #e7e7e7;
 }
 
 .top_header a.menu_item:hover {
@@ -1352,11 +1346,11 @@ span.card-text a, .profile_comment_author b, .profile_comment_body a {
 }
 
 .card.mb-2.post_home:first-child {
-    background: #c3baaf;
+    background: #e7e7e7;
 }
 
 h2.card-title a, h6.card-subtitle.mb-2.text-muted.post_date a {
-    color: #d8c8e6;
+    color: #b50000;
 }
 
 div#user_status, .blog_user_status,
