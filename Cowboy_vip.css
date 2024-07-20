@@ -1278,7 +1278,7 @@ body [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown')
 }
 
 .top_header, div.menu_item_dropdown a {
-    background: #e7e7e7;
+    background: #ffffff;
 }
 
 .top_header a.menu_item:hover {
