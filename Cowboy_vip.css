@@ -453,32 +453,6 @@ div#bbcode [src^="/images/bbcode/"] {
 }
 
 
-/*----СКРОЛЛ----*/
-
-
-::-webkit-scrollbar {
-    width: 20px;
-    background: #e4e5d1;
-    border: aliceblue;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #0d0d00;
-    border: 4px solid #e6e7d3;
-}
-
-div#postcomment_userphotos::-webkit-scrollbar {
-    width: 10px;
-    background: #e4e5d1;
-    border: aliceblue;
-}
-
-div#postcomment_userphotos::-webkit-scrollbar-thumb {
-    background-color: #0d0d00;
-    border: 2px solid #e6e7d3;
-}
-
-/*----END----*/
 
 
 .userphoto_selected img.img-thumbnail {
@@ -489,7 +463,6 @@ div#postcomment_userphotos::-webkit-scrollbar-thumb {
 .userphoto_selected img.img-thumbnail {
     border-radius: unset;
 }
-
 
 
 
@@ -1326,18 +1299,6 @@ span.card-text a, .profile_comment_author b, .profile_comment_body a {
 }
 
 
-::-webkit-scrollbar-thumb {
-    background-color: #b90101;
-    border: 4px solid #0a0a0a;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #0d0d00;
-    border: 4px solid #0a0a0a;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #0d0d00;
-    border: 4px solid #0a0a0a;
-}
 
 .card.mb-2.post_home:first-child {
     background: #e7e7e7;
