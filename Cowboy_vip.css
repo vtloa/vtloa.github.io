@@ -1450,4 +1450,8 @@ div#bbcode [src^="/images/bbcode/"] {
     color: #ffffff;
 }
 
+a#comment_next_page_top, a#comment_next_page_bottom, a#comment_last_page_top, a#comment_last_page_bottom {
+    color: #990101;
+}
+
 /*----END----*/
