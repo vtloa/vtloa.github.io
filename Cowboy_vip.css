@@ -1439,4 +1439,13 @@ div#bbcode [src^="/images/bbcode/"] {
     background-color: #990101;
 }
 
+.show_menu.header-orange {
+    background: #990101 !important;
+    color: black !important;
+}
+
+.copyright [onclick="scrolltop(); return false;"] {
+     background-color: #990101;
+}
+
 /*----END----*/
