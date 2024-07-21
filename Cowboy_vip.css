@@ -1295,10 +1295,8 @@ span.card-text a, .profile_comment_author b, .profile_comment_body a {
 }
 
 [src="/images/verify.png"] {
-    filter: invert(1) hue-rotate(266deg) brightness(2) saturate(0.2) !important;
+    filter: invert(1) hue-rotate(-14deg) brightness(0.6) saturate(1.5) !important;
 }
-
-
 
 .card.mb-2.post_home:first-child {
     background: #ffffff;
