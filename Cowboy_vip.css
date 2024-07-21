@@ -1425,4 +1425,18 @@ div#postcomment_userphotos::-webkit-scrollbar-thumb {
     border: 2px solid #b90101;
 }
 
+textarea#comment_body {
+    background: #ffffff;
+    color: #0d0d00;
+}
+
+.comment_headline {
+    color: #990101;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    border-radius: unset;
+    background-color: #990101;
+}
+
 /*----END----*/
