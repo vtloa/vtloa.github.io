@@ -1448,4 +1448,8 @@ div#bbcode [src^="/images/bbcode/"] {
      background-color: #990101;
 }
 
+[onclick^="subscribe"]:before {
+    color: #ffffff;
+}
+
 /*----END----*/
