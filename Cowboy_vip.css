@@ -1454,4 +1454,8 @@ a#comment_next_page_top, a#comment_next_page_bottom, a#comment_last_page_top, a#
     color: #990101;
 }
 
+font.disabled {
+    color: #323232;
+}
+
 /*----END----*/
