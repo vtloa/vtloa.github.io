@@ -709,3 +709,7 @@ a.btn.btn-outline-primary.mb-3 {
     line-height: 1.6;
     padding-left: 10px;
 }
+
+.post-content.post-page .post-avatar {
+    margin-top: -70px;
+}
