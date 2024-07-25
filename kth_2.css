@@ -9,3 +9,8 @@ div#app:before {
     background: url(https://i.ibb.co/FwMdYhs/image.png) no-repeat center;
     height: 380px;
 }
+
+
+.bg-white {
+    margin-top: 7px !important;
+}
