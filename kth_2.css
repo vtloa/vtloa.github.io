@@ -18,8 +18,3 @@ div#app:before {
 h3.left-menu-text {
     font-size: 10px;
 }
-
-.blog__tags h3.left-menu-text:before,
-.blog__read-me h3.left-menu-text:before {
-    font-size: 0;
-}
