@@ -1,0 +1,11 @@
+.blog__about img.mw-100 {
+    content: url(https://i.ibb.co/BTV2G29/image.png);
+}
+
+div#app:before {
+    content: '';
+    display: block;
+    width: 100%;
+    background: url(https://i.ibb.co/FwMdYhs/image.png) no-repeat center;
+    height: 380px;
+}
