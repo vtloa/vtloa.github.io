@@ -727,6 +727,10 @@ a.btn.btn-outline-primary.mb-3 {
     filter: saturate(0.7);
 }
 
+.bg-white {
+    margin-top: 7px !important;
+}
+
 /*-------------МЕДИА------------------*/
 
 
