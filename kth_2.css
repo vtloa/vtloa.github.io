@@ -20,11 +20,6 @@ div#app:before {
     font-size: 10px;
 }
 
-.blog__read-me h3.left-menu-text,
-.blog__tags h3.left-menu-text {
-    font-size: 0;
-}
-
 .blog__iread {
     display: none !important;
 }
