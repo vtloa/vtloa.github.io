@@ -31,7 +31,6 @@ a, span {
 /*----------------*/
 
 body.bodybg {
-    background: url(https://i.ibb.co/z2c16S3/image.png) no-repeat center bottom fixed;
     background-color: #e8e8e6;
     background-size: cover;
 }
@@ -177,7 +176,7 @@ img.flag,span.user-drop-menu.cur-p,
 }
 
 div#beon-fnplayer {
-    display: none;
+    display: none !important;
 }
 
 .community__members {
@@ -712,4 +711,180 @@ a.btn.btn-outline-primary.mb-3 {
 
 .post-content.post-page .post-avatar {
     margin-top: -70px;
+}
+
+.emj-dropdown-content {
+    background: #e8e8e6;
+    border: 2px solid #537050;
+    padding: 10px;
+    max-width: 400px;
+    max-height: 265px;
+}
+
+
+.blog__gifts img {
+    width: 40px;
+    filter: saturate(0.7);
+}
+
+/*-------------МЕДИА------------------*/
+
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .left-menu {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px !important;
+}
+
+    main.py-4 {
+    width: 100%;
+    max-width: 100%;
+}
+    div#newpostform,.textareabg {
+    margin: 0px !important;
+    padding: 10px !important;
+}
+    .crumbs {
+    margin: 0px;
+    width: 100%;
+}
+    .post-content {
+    max-width: 100%;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+}
+    .post-text {
+    padding: 0px !important;
+}
+    .row.w-100.mt-3 {
+    margin: 0px;
+    width: 100% !important;
+}
+    .post-avatar {
+    margin: 0px !important;
+}
+    .post-content {
+    padding: 10px;
+}
+    span.comments_count span {
+    font-size: 0px !important;
+}
+    span.comments_count span::before {
+    font-size: 11px;
+}
+    .post-text {
+    padding-left: 10px !important;
+}
+    .post-opt.col-12.col-md-6 {
+    padding: 5px;
+}
+    a.post-title {
+    height: auto;
+    line-height: 2;
+    margin-top: 0px;
+}
+    .fas, .far, .tag_bar > * {
+    font-size: 15px;
+    padding: 0px;
+}
+    .form__show-avatars {
+    background: #60815c;
+    color: #e8e8e6;
+    font-size: 10px;
+    line-height: 2.4;
+}
+    main.py-4 {
+    padding: 10px;
+}
+    .left-menu > div.mobile_open_menu > h3 {
+    font-size: 10px;
+    color: #e8e8e6;
+    font-weight: normal;
+}
+    i.fas.fa-angle-down {
+    margin-top: -1px;
+    transform: translateY(2px);
+}
+    .container {
+    max-width: 100%;
+    transform: unset;
+}
+    .bg-white {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    font-size: 10px;
+    color: #60815c;
+}
+    label.menu__btn {
+    margin: 0px;
+}
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #60815c;
+}
+    .crumbs {
+    margin-left: 10px;
+    width: calc(100% - 20px);
+}
+    ul.menu__box {
+    position: absolute;
+    padding: 0px;
+    background: #e8e8e6;
+    top: 35px;
+    left: 50px;
+    border: 2px solid #60815c;
+}
+    #menu__toggle:checked ~ .menu__box {
+    height: 312px;
+}
+    a.menu__item {
+    font-weight: normal;
+    color: #577554;
+    text-align: center;
+    padding: 0px;
+    font-size: 10px;
+    font-family: "intro";
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+    .comment-box {
+    width: 100%;
+}
+    .post-content.post-page h1 {
+    position: unset;
+}
+    .small-text+[style="display: flex; justify-content: space-between;"], .small-text+[style="display: flex; justify-content: space-between;"]+.text-right {
+    margin: 0px !important;
+}
+    .small-text+[style="display: flex; justify-content: space-between;"] [data-target="#deleteconfirmmodal"] {
+    margin: 0px;
+}
+    .post-content.post-page .post-opt {
+    width: calc(100% - 10px);
+    margin-left: 10px;
+    padding: 10px;
+}
+    .comment-row .post-avatar {
+    margin: 0px !important;
+}
+    .comment-box .comment-base {
+    padding: 0px !important;
+    max-width: 100%;
+}
+    .comment-box .comment-base {
+    border: unset;
+}
+    .comment-row {
+    border: 2px solid #537050;
+    padding: 10px;
+}
+    .comment-box .comment-base {
+    padding-left: 10px !important;
+}
+    span.post-title-date {
+    margin-left: 10px;
+}
 }
