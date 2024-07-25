@@ -731,7 +731,13 @@ a.btn.btn-outline-primary.mb-3 {
     min-width: 100px;
 }
 
+.menu__item:hover {
+    background: #879f854d;
+}
 
+.left-menu a:hover {
+    color: #5775548a !important;
+}
 
 /*-------------МЕДИА------------------*/
 
