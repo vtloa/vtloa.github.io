@@ -727,6 +727,12 @@ a.btn.btn-outline-primary.mb-3 {
     filter: saturate(0.7);
 }
 
+.post-avatar {
+    min-width: 100px;
+}
+
+
+
 /*-------------МЕДИА------------------*/
 
 
