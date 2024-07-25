@@ -14,3 +14,17 @@ div#app:before {
 .bg-white {
     margin-top: 7px !important;
 }
+
+h3.left-menu-text {
+    font-size: 10px;
+}
+
+.blog__read-me h3.left-menu-text,
+.blog__tags h3.left-menu-text{
+    font-size: 10px;
+}
+
+.blog__tags h3.left-menu-text:before,
+.blog__read-me h3.left-menu-text:before {
+    font-size: 0;
+}
