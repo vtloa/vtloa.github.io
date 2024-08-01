@@ -1507,8 +1507,10 @@ table.body {
 
 
 tr.messages_unread {
-    background: #5494e721 !important;
+    background: #54b9e742 !important;
     border-color: #e7effa !important;
+    outline: 1px solid #54b9e74f;
+    outline-offset: -1px;
 }
 
 
