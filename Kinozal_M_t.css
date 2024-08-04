@@ -691,3 +691,7 @@ div#bbcode [src^="/images/bbcode/"] {
 div.profile_comment_body:has([src^="https://beon.vip/uploads_user/2000/1518/"]) img {
     max-width: 300px !important;
 }
+
+img#secure_image {
+    filter: brightness(0.5);
+}
