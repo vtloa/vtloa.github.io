@@ -1,0 +1,152 @@
+.group_desc {
+    display: none;
+}
+
+body {
+    background-image: url(https://beon.fun/blogs/26/79/7926/design/pagebg.jpg?1722774083);
+    background-attachment: fixed, scroll;
+    background-position: bottom right, bottom right;
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+}
+
+body {
+    padding: 10px;
+}
+
+table.body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.top_header,.card-header, div#lefthome .card,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu,
+div#mobile_menu {
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.59), rgba(151, 219, 236, 0.686));
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-repeat: repeat, repeat;
+    background-size: auto, auto;
+    border-radius: 10px;
+    color: rgb(0, 0, 0) !important;
+}
+
+.top_header {
+    border: unset;
+}
+
+
+div#lefthome .card, .post,.top_header, div[id^="comment_"]:not(div#comment_subscribe), textarea#comment_body,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu,
+div#mobile_menu {
+    border-color: rgb(198, 215, 121);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+.top_header {
+    overflow: visible;
+}
+
+.blog_leftsearch input[type="text"] {
+    background: #e0ee9c;
+    border-radius: 10px;
+}
+
+.post, div[id^="comment_"]:not(div#comment_subscribe) {
+    padding: 15px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.49), rgba(151, 219, 236, 0.59));
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-repeat: repeat, repeat;
+    background-size: auto, auto;
+    border-radius: 30px !important;
+}
+
+h2.card-title a {
+    color: #b2c939;
+}
+
+.post a {
+    color: #92a725;
+}
+
+.blog_leftprofile a, .card-header, div#lefthome a, a.top_menu_item,div#user_status,h6.card-subtitle.mb-2.text-muted.post_date,.additional_info.pl-3 *,
+.comment_headline,.copyright {
+    color: #3c77a7 !important;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    color: #3c77a7;
+}
+
+
+span#notify_total, input#comment_submit,div.menu_item_dropdown a:hover,
+.show_menu.header-orange {
+    background: #e0ee9c !important;
+    color: #56811c;
+}
+
+button.btn.btn-primary,button.button_down {
+    background: #6dcafb;
+}
+
+li.p-1 {
+    display: block;
+}
+
+.post {
+    border-radius: 30px;
+}
+
+.comment_headline,.profile_postcomment {
+    border: unset !important;
+}
+
+img.photo,.post_image img {
+    border-radius: 10px;
+}
+
+.show_menu.header-orange {
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#mobile_menu .menu_item_dropdown a {
+    background: transparent;
+}
+
+div#mobile_menu {
+    border-radius: unset !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    width: calc(100% - 20px);
+}
+
+[id^="grouptopic_"][id$="_postcomment"], [id^="blog"][id$="_postcomment"] {
+    background: #ffffffa3;
+    border-radius: 30px;
+}
+
+
+/*-------------------------*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .post {
+    background-color: #ffffff75;
+}
+    .portal_spacer {
+    display: none;
+}
+    #mobile_menu .menu_item_dropdown a {
+    padding: 8px;
+}
+}
