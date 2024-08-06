@@ -36,6 +36,18 @@ td.messages_message [href="https://beon.vip/adminbeon/"]:before{
     filter: contrast(0.1);
 }
 
+
+/*-------ONLY WASHU-------*/
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:before,
+.profile_comment_author [href="https://beon.vip/washu/"]:before,
+.messages_author [href="https://beon.vip/washu/"]:before,
+td.messages_message [href="https://beon.vip/washu/"]:before {
+    background: url(https://www.svgrepo.com/show/503348/flower-tulip.svg) no-repeat center / 20px;
+}
+
+/*------------------------*/
+
 /*1*/
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"],
 .profile_comment_author [href="https://beon.vip/washu/"],
