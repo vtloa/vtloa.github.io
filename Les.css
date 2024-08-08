@@ -25,7 +25,7 @@ body {
 .post,.card-body,div[id^="comment_"]:not(div#comment_subscribe),.gifts-list {
     background: linear-gradient(0deg, #171111, #592c1d6b);
     padding: 20px;
-    border: 2px solid #6a4b40;
+    border: 2px solid #472d24;
     color: #feeee7;
 }
 
