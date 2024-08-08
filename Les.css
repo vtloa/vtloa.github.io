@@ -226,6 +226,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding: 5px !important;
     border: unset !important;
 }
+
+span#notify_total {
+    background-color: #a97054 !important;
+    color: #000000 !important;
+    border-radius: unset;
+}
+
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
