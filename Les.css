@@ -244,7 +244,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 span#notify_total {
     background-color: #a97054 !important;
     color: #000000 !important;
-    border-radius: unset;
 }
 
 div#mobile_menu {
