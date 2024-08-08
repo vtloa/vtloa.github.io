@@ -233,6 +233,9 @@ span#notify_total {
     border-radius: unset;
 }
 
+div#mobile_menu {
+    background: #a5715d;
+}
 
 /*----МЕДИА----*/
 
