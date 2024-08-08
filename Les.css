@@ -1,3 +1,17 @@
+/*------ПРЕДИСЛОВИЕ---------*/
+
+
+[src="https://beon.vip/uploads_user/10000/9068/c3eccad64610d73eaef7c6d7688a7ca7.gif"] {
+    content: url(https://i.pinimg.com/564x/47/5b/5a/475b5ac47999bcb7b228b438075d4ec3.jpg);
+}
+
+[src="./uploads_user/10000/9068/97bc45e5cf2e5f2515da38175cd90d2a.gif"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/0_3242.jpg);
+}
+
+/*-------------------------*/
+
+
 .group_desc {
     display: none;
 }
