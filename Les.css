@@ -224,6 +224,7 @@ button#newupdates {
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     padding: 5px !important;
+    border: unset !important;
 }
 /*----МЕДИА----*/
 
