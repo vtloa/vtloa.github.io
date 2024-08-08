@@ -1,0 +1,248 @@
+.group_desc {
+    display: none;
+}
+
+body {
+    background: url(https://i.ibb.co/7nyGYMq/les.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-color: #191212;
+}
+
+.post,.card-body,div[id^="comment_"]:not(div#comment_subscribe),.gifts-list {
+    background: linear-gradient(0deg, #171111, #592c1d6b);
+    padding: 20px;
+    border: 2px solid #6a4b40;
+    color: #feeee7;
+}
+
+.post {
+    margin-bottom: 100px;
+}
+
+h2.card-title {
+    margin-top: -72px;
+    margin-bottom: 28px;
+}
+
+
+h6.card-subtitle.mb-2.text-muted.post_date, div#user_status,.category,
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before,
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links,
+.profile_comment_date,.like_button.liked+span,.blog_user_status {
+    color: #8d6557 !important;
+}
+
+.like_button.liked:before {
+    text-shadow: 0px 0px #8d6557;
+}
+
+
+div#lefthome .card,.card-header {
+    border: unset;
+}
+
+.card-header,.show_menu.header-orange {
+    color: #d59772;
+    background: #191212;
+}
+
+.post a,div#lefthome a,div[id^="comment_"]:not(div#comment_subscribe) a {
+    color: #d59772 !important;
+}
+
+a.top_menu_item {
+    color: #191212 !important;
+}
+
+
+li.p-1 {
+    list-style: cambodian;
+    color: #191212;
+}
+
+.blog_leftsearch input[type="text"] {
+    background: #19121291;
+}
+
+
+input[type="text"]::placeholder,.comment_headline, .copyright {
+    color: #6e4739 !important;
+}
+
+button.btn.btn-primary,button.button_down {
+    background: #191212;
+    color: #af7764;
+}
+
+[src="/images/button_down.svg"] {
+    filter: sepia(1) saturate(100.5) hue-rotate(-55deg) brightness(0.7);
+}
+
+.top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border: unset;
+    background: linear-gradient(0deg, #17111100, #f18e6d6b);
+    padding: 20px;
+    backdrop-filter: blur(2px);
+}
+
+[src="./images/logo_new.png"] {
+    width: 0;
+}
+
+[href="./"]:before {
+    content: '';
+    background: url(https://avatanplus.com/files/resources/original/56bfbb58d0181152dcf3d314.png) no-repeat center / contain;
+    display: block;
+    width: 90px;
+    height: 67px;
+    margin: auto;
+    filter: brightness(1.5) contrast(0.9) sepia(1) hue-rotate(-21deg);
+}
+
+.content {
+    width: 96% !important;
+    margin-top: 50px;
+}
+
+div#lefthome {
+    margin-right: 30px;
+}
+
+div[id^="comment_"]:not(div#comment_subscribe) {
+    margin-bottom: 35px;
+}
+
+
+.comment_headline,.profile_postcomment {
+    border: unset !important;
+}
+
+textarea#comment_body {
+    background: #feefe8;
+    border-radius: unset;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: #feefe8;
+    border-radius: unset;
+}
+
+input#comment_submit {
+    background: #feefe8;
+    border-radius: unset;
+    color: #191212;
+}
+
+[onclick^="subscribe"]:before {
+    color: #68473e;
+}
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #af7667;
+    outline-offset: -3px;
+    border-radius: unset;
+    filter: sepia(0.5);
+}
+
+div.menu_item_dropdown a {
+    background: #a5715d !important;
+}
+
+
+div.menu_item_dropdown a:hover {
+    background: #724433 !important;
+    color: antiquewhite;
+}
+
+
+.top_menu_link:hover a:not(a.menu_item) {
+    color: #d99479 !important;
+}
+
+
+
+.top_menu_link:hover div.menu_dropdown {
+    border: 1px solid #a5715d !important;
+}
+
+
+button.btn.btn-primary:hover,button.button_down:hover {
+    background: #a97054 !important;
+    color: #2e2520 !important;
+}
+
+button.button_down:hover [src="/images/button_down.svg"] {
+    filter: invert(1) opacity(0.6);
+}
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #191212;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8f6455;
+}
+
+/*----END----*/
+
+ul.seBlogCategoryList li {
+    color: #9b6d5f;
+}
+
+div#designs, a.page-link {
+    background-color: #a97054 !important;
+    color: #2e2520 !important;
+    border-color: #a97054;
+}
+
+blockquote.blockquote {
+    background: #8d6557;
+    border-color: bisque;
+    width: max-content;
+    font-size: 13px !important;
+}
+a#comment_next_page_bottom,a#comment_next_page_top,a#comment_last_page_top,a#comment_last_page_bottom {
+    color: #feefe8;
+}
+
+font.disabled {
+    color: #916251;
+}
+
+.gifts-list img {
+    width: 35px;
+    filter: contrast(0.9) sepia(1) hue-rotate(-21deg);
+}
+
+button#newupdates {
+    background: transparent !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    padding: 5px !important;
+}
+/*----МЕДИА----*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    h2.card-title {
+    margin: unset !important;
+}
+    .post, .card-body, div[id^="comment_"]:not(div#comment_subscribe), .gifts-list {
+    padding: 10px !important;
+}
+    [href="./"]:before {
+    height: 40px !important;
+    width: 40px !important;
+    transform: translateY(10px);
+}
+    button.navbar-toggler, button.navbar-toggler:hover,button.btn.btn-outline-success:before {
+    opacity: 0.8;
+}
+    .post {
+    margin-bottom: 30px !important;
+}
+}
