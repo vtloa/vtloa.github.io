@@ -95,7 +95,6 @@ button.btn.btn-primary,button.button_down {
     border: unset;
     background: linear-gradient(0deg, #17111100, #f18e6d6b);
     padding: 20px;
-    backdrop-filter: blur(2px);
 }
 
 [src="./images/logo_new.png"] {
