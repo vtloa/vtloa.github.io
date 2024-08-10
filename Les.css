@@ -214,7 +214,6 @@ div#designs, a.page-link {
 blockquote.blockquote {
     background: #8d6557;
     border-color: bisque;
-    width: min-content;
     font-size: 13px !important;
 }
 a#comment_next_page_bottom,a#comment_next_page_top,a#comment_last_page_top,a#comment_last_page_bottom {
