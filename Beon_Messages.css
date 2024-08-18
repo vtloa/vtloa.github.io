@@ -1659,6 +1659,15 @@ div.menu_item_dropdown a:hover {
     transition-delay: 0s;
 }
 
+/*-----фикс размера аватарок------*/
 
+div#message_row_photo {
+    text-align: center;
+}
+div#message_row_photo img.photo {
+    width: auto;
+    max-width: 100px;
+    max-height: 300px;
+}
 
 
