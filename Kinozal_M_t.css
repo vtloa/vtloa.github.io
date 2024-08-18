@@ -112,10 +112,6 @@ div#user_status,
     display: none;
 }
 
-.seBlogComments img.photo,
-[style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"]{
-    width: 80px !important;
-}
 
 div#postcomment_userphotos {
     position: absolute;
@@ -516,9 +512,6 @@ input#comment_secure {
 
 
 @media (max-width: 1366px){
-.seBlogComments img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
-    width: 70px !important;
-}
 [src^="/images/fffuuusmiles/"] {
     padding: 80px;
 }
@@ -680,10 +673,6 @@ div#bbcode [src^="/images/bbcode/"] {
     border-radius: 5px;
 }
 
-
-.seBlogComments img.photo, [style="margin-top: 10px; margin-bottom: 20px;"] [style="float: left; text-align: center; width: 110px;"] {
-    width: 100px !important;
-}
 
 
 /*----размер стиков от жибс----*/
