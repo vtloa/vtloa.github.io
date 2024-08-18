@@ -1651,6 +1651,7 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/schwa/"]:afte
 img.photo {
     width: auto;
     max-width: 100px;
+    max-height: 300px;
 }
 
 .post_image {
