@@ -1299,16 +1299,9 @@ div.menu_item_dropdown a:hover {
 .post_image {
     text-align: center;
 }
-.post_image img {
+.post_image img,.seBlogComments img.photo {
     width: auto;
     max-width: 100px;
     max-height: 300px;
 }
-
-.seBlogComments img.photo {
-    width: auto !important;
-    max-width: 100px;
-    max-height: 300px;
-}
-
 
