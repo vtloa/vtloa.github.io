@@ -954,6 +954,10 @@ h3.left-menu-text {
     font-size: 12px;
 }
 
+.pc-menu {
+    box-shadow: 0px 15px 15px -15px #d7d7efd9;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
