@@ -574,7 +574,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
 
 .pc-menu {
     display: block;
-    width: 860px;
+    width: 890px;
     position: absolute;
     top: 0;
     left: 0;
@@ -950,6 +950,9 @@ h3.left-menu-text {
     text-align: center !important;
 }
 
+.pc-menu a {
+    font-size: 12px;
+}
 
 /*----МЕДИА----*/
 
