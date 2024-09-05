@@ -665,7 +665,8 @@ span.emj-dropdown {
     padding: 0px;
 }
 
-.textareabg input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary,a.btn.btn-outline-primary.mb-2,.form__show-avatars {
+.textareabg input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary,a.btn.btn-outline-primary.mb-2,.form__show-avatars,
+.post-content input[type="submit"] {
     color: #ffffff;
     text-align: center;
     background: url(https://www.transparenttextures.com/patterns/ice-age.png);
