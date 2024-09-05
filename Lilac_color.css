@@ -982,7 +982,7 @@ h3.left-menu-text {
     margin: 0px !important;
     width: 100%;
 }
-    .blog__about.mb-3,.blog__about {
+    .blog__about.mb-3,.left-menu > .blog__about {
     position: unset;
     margin-bottom: 84px !important;
 }
