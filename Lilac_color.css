@@ -946,6 +946,10 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+h3.left-menu-text {
+    text-align: center !important;
+}
+
 
 /*----МЕДИА----*/
 
