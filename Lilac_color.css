@@ -938,7 +938,7 @@ a.post-title:hover {
 }
 
 a.btn.btn-outline-primary.mb-3:hover,
-.textareabg input[type="submit"] {
+.textareabg input[type="submit"]:hover {
     filter: saturate(0.5);
 }
 
