@@ -932,6 +932,10 @@ a.post-title:hover {
     color: #b1b1f1;
 }
 
+.crumbs a {
+    margin-left: 10px;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
