@@ -909,9 +909,9 @@ div#newpostform {
 
 
 .left-menu__user-notification.left-menu__unread-message input[type="submit"] {
-    background: #e7e7ff;
+    background: #e4e4ff;
     border-radius: unset;
-    color: #9d9dc1;
+    color: #9d9de1;
 }
 
 .pagination a {
