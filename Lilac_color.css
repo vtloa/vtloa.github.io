@@ -958,6 +958,13 @@ h3.left-menu-text {
     box-shadow: 0px 15px 15px -15px #d7d7efd9;
 }
 
+.pc-menu:hover {
+    transition-delay: 0.2s;
+}
+.pc-menu {
+    transition-delay: 0.2s;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
