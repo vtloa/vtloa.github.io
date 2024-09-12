@@ -1103,3 +1103,9 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 
 /*----------------*/
 
+/*---ОСЕННЕЕ ЛОГО---*/
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/6ae6465181f9270bbcf291c58277e4d3.png);
+}
+
