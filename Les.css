@@ -261,6 +261,7 @@ div#mobile_menu {
     filter: saturate(0.7);
 }
 
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
@@ -281,4 +282,79 @@ div#mobile_menu {
     .post {
     margin-bottom: 30px !important;
 }
+}
+
+
+
+
+
+/*------------------------------------------------------*/
+
+/*---------------------*/
+
+.blog_leftphoto img {
+    width: auto;
+    max-width: 200px;
+}
+
+body {
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/863981955936048809/01E34A517265FEF44B6746DD13171B1A2BED593F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+}
+
+
+.post, .card-body, div[id^="comment_"]:not(div#comment_subscribe), .gifts-list {
+    background: black;
+    padding: 20px;
+    border: 2px solid #606060;
+    color: #feeee7;
+    background-size: cover;
+}
+
+.card-header, .show_menu.header-orange {
+    color: #9d9d9d;
+    background: #863938;
+}
+
+.post a, div#lefthome a, div[id^="comment_"]:not(div#comment_subscribe) a {
+    color: #838383 !important;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date, div#user_status, .category, .like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before, .post_data a, p.card-link.post_views, .post_data, .profile_comment_links, .profile_comment_date, .like_button.liked+span, .blog_user_status {
+    color: #838383 !important;
+}
+
+ul.seBlogCategoryList li {
+    color: #ab2928;
+}
+
+button.btn.btn-primary, button.button_down {
+    background: #863938;
+    color: #c7c7c7;
+}
+
+a.top_menu_item {
+    color: #b5b5b5 !important;
+}
+
+[src="/images/button_down.svg"],[src="/images/button_down.svg"]:hover {
+    filter: saturate(100.5) brightness(0.7);
+}
+
+blockquote.blockquote {
+    background: #863938;
+    border-color: #c5c5c5;
+    font-size: 13px !important;
+    color: white;
+}
+
+input[type="text"]::placeholder, .comment_headline, .copyright {
+    color: #d9d9d9 !important;
+}
+
+font.disabled {
+    color: #d10000;
+}
+
+[onclick^="subscribe"]:before {
+    color: #b9b9b9;
 }
