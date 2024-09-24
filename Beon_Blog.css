@@ -1214,6 +1214,7 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 .messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"], 
 .blog_leftprofile [href="https://beon.vip/washu/blog/"] [src="/images/verify.png"] {
     filter: hue-rotate(125deg) brightness(1.2) saturate(0.9);
+    filter: brightness(0);
 }
 
 
