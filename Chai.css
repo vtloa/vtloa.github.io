@@ -1,0 +1,119 @@
+body {
+    background: url(https://i.pinimg.com/236x/d7/6b/18/d76b18986f1f07a419d173e6da25ec8b.jpg) no-repeat center;
+    background-color: black;
+}
+
+
+
+p.text-muted-foreground.text-\[0\.70rem\].select-none,.rounded-2xl.text-sm.bg-secondary.px-2.font-light.h-fit {
+    display: none;
+}
+
+[class="flex"] {
+    flex-direction: row-reverse;
+}
+
+main.flex-1.overflow-x-hidden.min-h-screen.ml-7 {
+    margin: 0px;
+}
+
+.flex.overflow-x-hidden.h-screen {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.w-80.h-full.border-l.border-l-divider.flex-col.p-4.gap-3.hidden.\32 xl\:flex {
+    border: unset;
+}
+
+.flex.gap-3 {
+    display: block;
+    text-align: center;
+}
+
+.w-80.h-full.border-l.border-l-divider.flex-col.p-4.gap-3.hidden.\32 xl\:flex span.relative.flex.h-auto.w-full.overflow-hidden.rounded-full.shrink-0.grow-0 {
+    display: block;
+    margin: auto;
+    border-radius: unset !important;
+}
+
+button {
+    border-radius: unset !important;
+    border: unset !important;
+}
+/*------------------*/
+
+.p-2 .mt-0.hidden.md\:flex.flex-col.gap-3.items-center img {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.p-2 span.relative.flex.h-auto.w-full.overflow-hidden.rounded-full.shrink-0.grow-0 {
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: unset !important;
+}
+
+.mt-1.max-w-xl.rounded-2xl.px-3.min-h-12.flex.justify-center.py-3.bg-surface-elevation-2 {
+    margin-left: 10px;
+}
+
+.mt-1.max-w-xl.rounded-2xl.px-3.min-h-12.flex.justify-center.py-3.bg-surface-elevation-3 {
+    margin-right: 10px;
+}
+
+.flex-row-reverse {
+    flex-direction: unset;
+}
+
+.items-end {
+    align-items: unset;
+}
+
+.font-display.font-light.swiper-no-swiping {
+    display: block !important;
+    width: 100%;
+}
+
+.md\:ml-6 {
+    margin: 0px;
+}
+
+.max-w-3xl {
+    margin-bottom: 25px;
+}
+
+
+.p-2 .text-small {
+    color: #6ca2ff;
+}
+
+
+.rounded-2xl,.bg-background {
+    border-radius: unset !important;
+    background: #000000b5 !important;
+}
+
+.bg-surface-elevation-1 {
+    border-radius: unset;
+    background: white;
+    color: black;
+}
+
+
+/*-----ПОДПИСЬ------*/
+
+.md\:flex:has([title="Satan"]):after {
+    content: 'ты следующий';
+    text-align: center;
+    font-size: 9px;
+    margin-top: -9px;
+}
+
+
+.md\:flex:has([alt="Niptuniy"]):after {
+    content: 'нормально';
+    text-align: center;
+    font-size: 9px;
+    margin-top: -9px;
+}
