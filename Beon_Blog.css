@@ -1221,9 +1221,9 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 
 /*----СИНЯЯ ГАЛОЧКА САТАНЧИК---*/
 
-[href="https://beon.vip/Satan/"] b [src="/images/verify.png"],
-.messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
-.blog_leftprofile [href="https://beon.vip/Satan/blog/"] [src="/images/verify.png"]{
+[href="https://beon.vip/Satan1/"] b [src="/images/verify.png"],
+.messages_author [href="https://beon.vip/Satan1/"] [src="/images/verify.png"],
+.blog_leftprofile [href="https://beon.vip/Satan1/blog/"] [src="/images/verify.png"]{
     filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
 }
 
