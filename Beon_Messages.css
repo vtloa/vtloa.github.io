@@ -11,10 +11,10 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:befo
 td.messages_message [href="https://beon.vip/washu/"]:before,
 
 /*2*/
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"]:before,
-.profile_comment_author [href="https://beon.vip/Satan/"]:before,
-.messages_author [href="https://beon.vip/Satan/"]:before,
-td.messages_message [href="https://beon.vip/Satan/"]:before,
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan1/"]:before,
+.profile_comment_author [href="https://beon.vip/Satan1/"]:before,
+.messages_author [href="https://beon.vip/Satan1/"]:before,
+td.messages_message [href="https://beon.vip/Satan1/"]:before,
 
 /*3*/
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:before,
@@ -59,10 +59,10 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"],
 td.messages_message [href="https://beon.vip/washu/"],
 
 /*2*/
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"],
-.profile_comment_author [href="https://beon.vip/Satan/"],
-.messages_author [href="https://beon.vip/Satan/"],
-td.messages_message [href="https://beon.vip/Satan/"],
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan1/"],
+.profile_comment_author [href="https://beon.vip/Satan1/"],
+.messages_author [href="https://beon.vip/Satan1/"],
+td.messages_message [href="https://beon.vip/Satan1/"],
 
 /*3*/
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"],
@@ -1591,9 +1591,9 @@ div#message_post [href="https://beon.vip/washu/"] [src="/images/verify.png"] {
 
 /*----СИНЯЯ ГАЛОЧКА----*/
 
-[href="https://beon.vip/Satan/"] b [src="/images/verify.png"],
-.messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
-div#message_post [href="https://beon.vip/Satan/"] [src="/images/verify.png"] {
+[href="https://beon.vip/Satan1/"] b [src="/images/verify.png"],
+.messages_author [href="https://beon.vip/Satan1/"] [src="/images/verify.png"],
+div#message_post [href="https://beon.vip/Satan1/"] [src="/images/verify.png"] {
     filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
 }
 
