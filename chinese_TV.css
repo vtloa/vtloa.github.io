@@ -40,6 +40,10 @@ body {
     display: none !important;
 }
 
+a.page-link {
+    display: none;
+}
+
 ul.seBlogCategoryList {
     display: none;
 }
