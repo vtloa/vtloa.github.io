@@ -503,3 +503,7 @@ table.body:before {
 .comment_headline,.profile_postcomment {
     border: unset !important;
 }
+
+div#bbcode {
+    width: 100%;
+}
