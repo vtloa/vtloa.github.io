@@ -17,6 +17,14 @@ font-family: "Noto Sans Display", sans-serif;
 
 */
 
+/*-----КАРТИНКА В ПРЕДО-----*/
+
+[src="https://beon.vip/uploads_user/10000/9068/c3eccad64610d73eaef7c6d7688a7ca7.gif"] {
+    content: url(https://i.pinimg.com/originals/d5/4b/2f/d54b2f878aba132bafc27c54efa4457b.gif);
+}
+
+/*----------------------*/
+
 html {
     overflow: hidden;
 }
