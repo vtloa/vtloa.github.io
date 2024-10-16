@@ -542,7 +542,7 @@ td.top_menu {
 }
 
 
-::-webkit-scrollbar-track {
+div#righthome::-webkit-scrollbar-track {
 margin-top: 70px !important;
 margin-bottom: 70px !important;
 }
