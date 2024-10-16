@@ -558,3 +558,8 @@ input#comment_submit {
     background: #b11b1b;
     font-size: 11px;
 }
+
+textarea#comment_body {
+    background: black;
+    color: #f0e7ce !important;
+}
