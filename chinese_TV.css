@@ -507,3 +507,28 @@ table.body:before {
 div#bbcode {
     width: 100%;
 }
+
+/*-----ШАПКА ФОНАРЬ-----*/
+
+
+.top_header {
+    display: block;
+    padding: 0px !important;
+    border: unset;
+    width: 175px;
+    background: transparent;
+}
+
+td.top_menu {
+    display: none;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+.top_header [href="./"] {
+    display: block;
+    width: 175px;
+    height: 100px;
+}
