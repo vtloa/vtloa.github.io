@@ -546,3 +546,15 @@ div#righthome::-webkit-scrollbar-track {
 margin-top: 70px !important;
 margin-bottom: 70px !important;
 }
+
+/*----дизайн в ТЕЛЕВИЗОРЕ*/
+
+div#righthome {
+    background: url(https://i.ibb.co/PQGdYty/liko.png) no-repeat bottom right;
+    background-color: #dfd6bd;
+}
+
+input#comment_submit {
+    background: #b11b1b;
+    font-size: 11px;
+}
