@@ -496,3 +496,9 @@ table.body:before {
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {}
+
+
+/*-----------------*/
+.comment_headline,.profile_postcomment {
+    border: unset;
+}
