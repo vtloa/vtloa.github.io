@@ -1518,7 +1518,7 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:afte
 
 /*----ГАЛОЧКИ НА ГЛАВНОЙ САТАНЧИК----*/
 
-h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan1/"]:after {
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan/"]:after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1529,11 +1529,11 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/Satan1/"]:aft
 }
 
 
-[href="https://beon.vip/Satan1/"] b [src="/images/verify.png"], .messages_author [href="https://beon.vip/Satan1/"] [src="/images/verify.png"], .blog_leftprofile [href="https://beon.vip/Satan1/blog/"] [src="/images/verify.png"],
-[href="https://beon.vip/Satan1/"] b [src="/images/verify.png"], .messages_author [href="https://beon.vip/Satan1/"] [src="/images/verify.png"], div#message_post [href="https://beon.vip/Satan1/"] [src="/images/verify.png"],
-.action_text.pl-2 .action_text_content [href="profile.php?user=Satan1"] [src="/images/verify.png"],
-div#lefthome .portal_spacer+.card [href="https://beon.vip/Satan1/"] [src="/images/verify.png"],
-.profile_content [href="profile.php?user=Satan1"] [src="/images/verify.png"] {
+[href="https://beon.vip/Satan/"] b [src="/images/verify.png"], .messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"], .blog_leftprofile [href="https://beon.vip/Satan/blog/"] [src="/images/verify.png"],
+[href="https://beon.vip/Satan/"] b [src="/images/verify.png"], .messages_author [href="https://beon.vip/Satan/"] [src="/images/verify.png"], div#message_post [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
+.action_text.pl-2 .action_text_content [href="profile.php?user=Satan"] [src="/images/verify.png"],
+div#lefthome .portal_spacer+.card [href="https://beon.vip/Satan/"] [src="/images/verify.png"],
+.profile_content [href="profile.php?user=Satan"] [src="/images/verify.png"] {
     filter: hue-rotate(45deg) brightness(0.8) saturate(3.5);
 }
 
