@@ -1,0 +1,51 @@
+body {
+    background-color: #101010;
+}
+
+
+body:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #000, transparent),
+                url(https://i.pinimg.com/originals/01/75/78/017578b6d97b9aab29aa0799369a947a.gif) no-repeat top -500px center;
+    background-size: 1.5px 1.5px, cover;
+    z-index: -1;
+}
+
+
+
+.top_header, div.copyright {
+    background: #efefef !important;
+}
+
+button.btn.btn-primary, button.button_down, a.page-link, a.nav-item.nav-link.active, div#ajax_status a, a.nav-item.nav-link.active, .list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block, .card [onclick="$('#profile_viewers').toggle();"],
+button.btn.btn-secondary {
+    background: #4c81a9;
+}
+
+
+.body,.top_header,.modal-content {
+    filter: invert(1);
+}
+
+img, iframe,
+.list-users-home-photos-link:before,
+div#profile_viewers a:before,
+div#comment_home_body img.menu_icon2,
+.action_text_content [href^="profile.php?user="]:before,
+div#lefthome .card:nth-of-type(14) div#comment_home_body a:before {
+    filter: invert(1);
+}
+
+[src="/images/button_down.svg"] {
+    filter: grayscale(0) !important;
+}
+
+div.copyright {
+    background: transparent !important;
+}
