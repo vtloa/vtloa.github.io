@@ -1,0 +1,48 @@
+html {
+    overflow-x: hidden;
+}
+
+div#__PWS_ROOT__ {
+    background: #ffffff;
+}
+
+img, video {
+    filter: invert(1);
+}
+
+body {
+    filter: invert(1);
+    overflow: hidden;
+}
+
+svg.g_1.gUZ.U9O.kVc,
+.Rk4, .Rk4:hover, .Il7, .Il7:hover {
+    filter: invert(1);
+}
+
+[class="XiG zI7 iyn Hsu"] {
+    background-color: #dbdbdb !important;
+}
+
+div {
+    border-radius: unset !important;
+    border: unset !important;
+}
+
+.qiB {
+    opacity: 0.8;
+    top: 0 !important;
+}
+
+.a3i.imm.zI7.iyn.Hsu {
+    padding: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.X8m.zDA.IZT.tBJ.dyH.iFc.sAJ.H2s {
+    margin-left: 10px;
+}
+
+div {
+    transition: 0s !important;
+}
