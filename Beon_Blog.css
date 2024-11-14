@@ -633,14 +633,10 @@ div#bbcode [src^="/images/bbcode/"] {
 
 
 [src="/images/bbcode/img.gif"] {
-    content: url(https://www.svgrepo.com/show/479308/photo-7.svg);
+    content: url(https://www.svgrepo.com/show/513372/photo.svg);
     padding: 2px;
 }
 
-[src="/images/bbcode/smile.gif"] {
-    content: url(https://www.svgrepo.com/show/352469/smile.svg);
-    padding: 1px !important;
-}
 
 [alt="FFFUUU Смайлы"] {
     content: url(https://beon.vip/images/fffuuusmiles/muhaha.gif);
