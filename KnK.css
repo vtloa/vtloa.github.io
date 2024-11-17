@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+/*
+font-family: 'Martian Mono', monospace;
+*/
+
+body {
+    font-family: 'Martian Mono', monospace;
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+/*---------------АВАТАРКА ГЛАВНАЯ + ГАЛОЧКА----------------------*/
+
+
+.blog_leftphoto [href="https://beon.vip/Satan/blog/"] img {
+    content: url(https://64.media.tumblr.com/b3c95d14f8e0808745114d62ee486273/tumblr_n7t3xeH7b11s5f9ado1_500.gifv);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+[src="https://beon.vip/uploads_user/14000/13807/651199f054ce9ad9d966b7e158384411.png"] {
+    display: none;
+}
+
+[src="https://beon.vip/uploads_user/14000/13807/dacfa8c035d5c6f73afe3816a7ed9884.png"] {
+    display: none;
+}
+
+.blog_leftphoto {
+    filter: grayscale(1);
+}
+
+
+
+[src="/images/verify.png"] {filter: hue-rotate(225deg) brightness(0.8) saturate(3.5);}
+
+.seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after, div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after, .blog_leftprofile [href="https://beon.vip/Satan/you/"]:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
+    margin-left: 5px;
+    filter: hue-rotate(225deg) brightness(0.8) saturate(3.5);
+}
+
+/*---------------------------------------------*/
+
+body {
+    background-color: black;
+}
+
+
+[href="./"] {
+    content: '';
+    display: block;
+    width: 323px;
+    background: url(https://64.media.tumblr.com/a309f727520300253e2249c9c4c63f2d/tumblr_miyl3bVLZY1r11qslo1_500.gifv) left -141px center;
+    filter: brightness(1) saturate(0.9);
+}
+
+
+
+body:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(https://raw.githubusercontent.com/vtloa/vtloa.github.io/refs/heads/master/bek/kk%20noise.png) no-repeat center;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.top_header [src="./images/logo_new.png"] {
+    opacity: 0;
+}
+
+.top_header {
+    border: unset;
+    padding: 0px !important;
+    background: #040402e8;
+}
+
+
+div#lefthome .card,.card-header {
+    border: unset;
+}
+
+
+
+button.btn.btn-primary {
+    border-radius: unset;
+    background: url(https://beon.vip/uploads_user/10000/9068/d6e4e6e50a003f1595e8017b7d3f1f28.png) center bottom;
+    background-size: cover;
+    height: 71px;
+    margin-top: -28px;
+    transform: translateX(18px);
+    filter: brightness(0.9) saturate(0.9);
+    color: #f7ad70ad !important;
+    font-size: 13px;
+    image-rendering: pixelated;
+    width: 187px;
+}
+
+
+button.button_down {
+    border-radius: unset;
+    background: url(https://64.media.tumblr.com/ae4dd9813a9bd4f1f06c6993bcf75ab2/tumblr_nmaohouYcu1tyhnvro2_250.gifv) no-repeat center;
+    height: 71px;
+    transform: translateY(-14px) translateX(9px);
+    width: 74px;
+    margin: 0px;
+}
+
+button#newupdates {
+    background: #121212 !important;
+    transform: translateX(17px) translateY(-14px);
+}
+
+a.top_menu_item {
+    background-color: #121212;
+    color: #504948 !important;
+    height: 71px;
+    display: block;
+    transform: translateY(-20px);
+    margin-left: -13px;
+    line-height: 5.5;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px !important;
+}
+
+td.top_menu {
+    padding: 0px;
+    transform: translateY(-16px);
+}
+
+[src="/images/notify.svg"] {
+    filter: invert(25%) sepia(1%) saturate(3019%) hue-rotate(334deg) brightness(110%) contrast(91%);
+    transform: scale(0.7);
+}
+
+
+.post {
+    color: #c79d39;
+}
+
+a,.profile_comment_date,.comment_headline {
+    color: #504948 !important;
+}
+
+
+.comment_headline,div.profile_postcomment {
+    border: unset;
+}
+
+textarea#comment_body {
+    background-color: #121212;
+    color: #877d7c !important;
+    border: unset;
+    border-radius: unset;
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: #a7762d;
+}
+
+input#comment_submit {
+    background: #a7762d;
+    color: black;
+    width: auto;
+    border-radius: unset;
+}
+
+a#attach_file_click {
+    filter: contrast(0.5);
+}
+
+.blog_leftsearch input[type="text"] {
+    border-radius: unset;
+    background: #322e2e;
+}
+
+div#designs {
+    border-radius: unset;
+    background-color: #322e2e;
+    border: unset;
+}
+
+div#designs {
+    border-radius: unset;
+    background: url(https://beon.vip/uploads_user/10000/9068/3bb93964a7e9f201bf5afb8201bbe5f5.gif) no-repeat center;
+    background-color: transparent;
+    border: unset;
+    width: 40px;
+    height: 40px !important;
+    filter: grayscale(1);
+}
+
+h2.card-title a {
+    position: relative;
+}
+
+h2.card-title a:hover,
+h6.card-subtitle.mb-2.text-muted.post_date a:hover,
+a.menu_item:hover,
+.blog_leftprofile a:hover {
+    background: url(https://beon.vip/uploads_user/10000/9068/bae9b1603afff3be7ebc94d243c112a7.png) no-repeat left;
+    background-color: #504948;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: saturate(0.7);
+}
+
+span#notify_total {
+    transform: translateX(-10px);
+    background: transparent;
+    color: #af6a33;
+    text-shadow: 2px 2px 5px #874f0d;
+}
+
+.post_text.pl-3,div.profile_comment_body {
+    background: url(https://beon.vip/uploads_user/10000/9068/bae9b1603afff3be7ebc94d243c112a7.png) no-repeat right;
+    background-color: #dd9c00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: saturate(0.8);
+}
+
+.card-header {
+    background-color: #dd9c00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: saturate(0.8);
+}
+
+.blog_leftprofile {
+    font-size: 14px;
+}
+
+.gifts-list img {
+    filter: grayscale(1);
+    width: 40px;
+}
