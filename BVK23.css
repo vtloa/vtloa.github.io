@@ -644,27 +644,33 @@ p.card-link.post_comments a {
 }
 
 
-[onmouseover="showMenu('menu_dropdown_profile');"] {
+[onmouseover="showMenu('menu_dropdown_profile');"],
+[onmouseover="showMenu('menu_dropdown_profile');"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top left;
 }
 
-[onmouseover="showMenu('menu_dropdown_blog');"] {
+[onmouseover="showMenu('menu_dropdown_blog');"],
+[onmouseover="showMenu('menu_dropdown_blog');"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -30px left;
 }
 
-[onmouseover="showMenu('menu_dropdown_tests');"] {
+[onmouseover="showMenu('menu_dropdown_tests');"],
+[onmouseover="showMenu('menu_dropdown_tests');"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -300px left;
 }
 
-[onmouseover="showMenu('menu_dropdown_groups');"] {
+[onmouseover="showMenu('menu_dropdown_groups');"],
+[onmouseover="showMenu('menu_dropdown_groups');"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -150px left;
 }
 
-[onmouseover="showMenu('menu_dropdown_albums');"] {
+[onmouseover="showMenu('menu_dropdown_albums');"],
+[onmouseover="showMenu('menu_dropdown_albums');"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -180px left;
 }
 
-[href="im.php"] {
+[href="im.php"],
+[href="im.php"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -60px left;
 }
 
@@ -704,18 +710,20 @@ div#menu_dropdown_profile a {
     font-size: 13px;
 }
 
-.menu_item_dropdown [href="user_account.php"] {
+[href="user_account.php"],
+[href="user_account.php"]:hover {
     font-size: 0px !important;
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -408px left !important;
 }
 
-.menu_item_dropdown [href="user_account.php"]:before {
+[href="user_account.php"]:before {
     content: 'Настройки';
     font-size: 13px;
 }
 
 
-.menu_item_dropdown [href="user_editprofile_photo.php"] {
+[href="user_editprofile_photo.php"],
+[href="user_editprofile_photo.php"]:hover {
     font-size: 0px !important;
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -328px left !important;
 }
@@ -724,14 +732,17 @@ div#menu_dropdown_profile a {
     content: 'Фото профиля';
     font-size: 13px;
 }
-.menu_item_dropdown [onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"] {
+[onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"],
+[onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -517px left !important;
 }
-.menu_item_dropdown [href="user_vault.php"] {
+[href="user_vault.php"],
+[href="user_vault.php"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -438px left !important;
 }
 
-.menu_item_dropdown [href="user_friends.php"] {
+[href="user_friends.php"],
+[href="user_friends.php"]:hover {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -119px left !important;
 }
 
