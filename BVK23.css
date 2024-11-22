@@ -1458,3 +1458,16 @@ button#newupdates {
 blockquote.blockquote {
     margin: 10px;
 }
+
+
+/*----АПДЕЙТ СПУСТЯ 25 ЛЕТ*/
+
+.post_image {
+    text-align: left;
+}
+
+.blog_leftphoto {
+    background: url(https://i.pinimg.com/originals/81/f3/02/81f3022aaa052b204d0b40d8e8a1e219.gif) no-repeat center;
+    min-height: 277px;
+    background-size: cover;
+}
