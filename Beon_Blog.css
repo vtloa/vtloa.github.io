@@ -638,8 +638,8 @@ div#bbcode [src^="/images/bbcode/"] {
 }
 
 div#bbcode [src="/images/bbcode/smile.gif"] {
-    content: url(https://www.svgrepo.com/show/160923/smile-face-with-sunglasses.svg);
-    padding: 2px !important;
+    content: url(https://img.icons8.com/?size=32&id=p16lRV87iNyf&format=png);
+    padding: 0px !important;
 }
 
 [alt="FFFUUU Смайлы"] {
