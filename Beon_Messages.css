@@ -1131,8 +1131,9 @@ td.messages_right {
 }
 
 tr.messages_read:hover {
-    background: #f2f3f4 !important;
+    background: #e9ecef !important;
 }
+
 td.messages_message [style="padding-left: 5px; padding-top: 3px;"] {
     padding: 0 !important;
 
