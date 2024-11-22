@@ -1335,7 +1335,7 @@ button.btn.btn-outline-success:before {
     width: 40px;
     height: 38px;
     display: block;
-    background: url(https://www.svgrepo.com/show/368655/down-small.svg) no-repeat center / 38px;
+    background: url(https://img.icons8.com/?size=24&id=Zc4kstyWP69H&format=png) no-repeat center / 24px;
     opacity: 0.3;
 }
 button.navbar-toggler {
@@ -1344,7 +1344,7 @@ button.navbar-toggler {
 }
 button.navbar-toggler,
 button.navbar-toggler:hover{
-    background: url(https://www.svgrepo.com/show/473880/menu-hamburger.svg) no-repeat center / 32px !important;
+    background: url(https://img.icons8.com/?size=64&id=X5Y6bMrffncp&format=png) no-repeat center / 32px !important;
     opacity: 0.3;
 }
 span.navbar-toggler-icon {
