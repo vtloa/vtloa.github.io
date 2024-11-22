@@ -644,27 +644,27 @@ p.card-link.post_comments a {
 }
 
 
-[onmouseover="showMenu('menu_dropdown_profile');"] {
+.menu_item_dropdown [onmouseover="showMenu('menu_dropdown_profile');"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top left;
 }
 
-[onmouseover="showMenu('menu_dropdown_blog');"] {
+.menu_item_dropdown [onmouseover="showMenu('menu_dropdown_blog');"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -30px left;
 }
 
-[onmouseover="showMenu('menu_dropdown_tests');"] {
+.menu_item_dropdown [onmouseover="showMenu('menu_dropdown_tests');"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -300px left;
 }
 
-[onmouseover="showMenu('menu_dropdown_groups');"] {
+.menu_item_dropdown [onmouseover="showMenu('menu_dropdown_groups');"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -150px left;
 }
 
-[onmouseover="showMenu('menu_dropdown_albums');"] {
+.menu_item_dropdown [onmouseover="showMenu('menu_dropdown_albums');"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -180px left;
 }
 
-[href="im.php"] {
+.menu_item_dropdown [href="im.php"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -60px left;
 }
 
@@ -715,7 +715,7 @@ div#menu_dropdown_profile a {
 }
 
 
-[href="user_editprofile_photo.php"] {
+.menu_item_dropdown [href="user_editprofile_photo.php"] {
     font-size: 0px !important;
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -328px left !important;
 }
@@ -724,14 +724,14 @@ div#menu_dropdown_profile a {
     content: 'Фото профиля';
     font-size: 13px;
 }
-[onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"] {
+.menu_item_dropdown [onclick="loadmodal('/userphotos.php', 'Мои аватарки'); return false"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -517px left !important;
 }
-[href="user_vault.php"] {
+.menu_item_dropdown [href="user_vault.php"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -438px left !important;
 }
 
-[href="user_friends.php"] {
+.menu_item_dropdown [href="user_friends.php"] {
     background: url(https://i.ibb.co/LQftYp6/vk-icon-2.png) no-repeat top -119px left !important;
 }
 
