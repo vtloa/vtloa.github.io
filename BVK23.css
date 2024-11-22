@@ -1482,3 +1482,7 @@ blockquote.blockquote {
     min-height: 277px;
     background-size: cover;
 }
+
+div.menu_item_dropdown a {
+    transition: unset !important;
+}
