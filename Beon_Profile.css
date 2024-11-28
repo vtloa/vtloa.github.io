@@ -1024,26 +1024,26 @@ div#bbcode [src^="/images/bbcode/"] {
 }
 
 [src="/images/bbcode/b.gif"] {
-    content: url(https://www.svgrepo.com/show/509761/bold.svg);
+    content: url(https://beon.vip/uploads_user/10000/9068/a3521dc2e4d8fee70cc120903d1888d8.png);
 }
 
 [src="/images/bbcode/i.gif"] {
-    content: url(https://www.svgrepo.com/show/510029/italic.svg);
+    content: url(https://beon.vip/uploads_user/10000/9068/7f43e0d26e99c3804e78a7ced0da9423.png);
 }
 
 [src="/images/bbcode/u.gif"] {
-    content: url(https://www.svgrepo.com/show/511183/underline.svg);
+    content: url(https://beon.vip/uploads_user/10000/9068/ca4e1d242c1006059316c96929928476.png);
 }
 
 
 [src="/images/bbcode/img.gif"] {
-    content: url(https://www.svgrepo.com/show/479308/photo-7.svg);
-    padding: 2px;
+    content: url(https://beon.vip/uploads_user/10000/9068/1c2372fd8b122377fb5feec8b5d5833f.png);
+    padding: 3px;
 }
 
-[src="/images/bbcode/smile.gif"] {
-    content: url(https://www.svgrepo.com/show/352469/smile.svg);
-    padding: 1px !important;
+div#bbcode [src="/images/bbcode/smile.gif"] {
+    content: url(https://beon.vip/uploads_user/10000/9068/0b1e0b025b376e11d563f04c6212f65e.png);
+    padding: 0px !important;
 }
 
 [alt="FFFUUU Смайлы"] {
