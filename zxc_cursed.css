@@ -1127,3 +1127,47 @@ ul.menu__box {
     left: 315px;
 }
 }
+
+
+/*-------------02.12.24------FIX----*/
+
+.crumbs {
+    position: fixed;
+    right: 55px;
+    bottom: 0;
+    color: black;
+    font-size: 12px;
+}
+
+span.pagination-goto {
+    display: none;
+}
+
+.pagination a {
+    font-size: 14px;
+    background: #161616;
+    background: url(https://i.ibb.co/7jjqtbf/cursed-b2.png);
+    background-color: #1c1c1c;
+    color: #7d45d9 !important;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2;
+    height: 30px;
+}
+
+
+.pagination {
+    font-size: 0;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavior: 'smooth'})"], a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    border: unset;
+}
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .crumbs {
+    position: unset;
+    margin-bottom: 47px !important;
+}
+}
