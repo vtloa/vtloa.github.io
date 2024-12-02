@@ -1171,3 +1171,7 @@ a.my-menu.for-mobile.d-none.d-md-inline, [onclick="window.scroll({top: 0,behavio
     margin-bottom: 47px !important;
 }
 }
+
+.left-menu__friends {
+    display: none !important;
+}
