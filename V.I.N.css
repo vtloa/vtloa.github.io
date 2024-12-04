@@ -17,3 +17,10 @@ div#lefthome a {
 .card-header {
     background: #a90000;
 }
+
+.top_header a {
+    color: red !important;
+}
+.top_header {
+    background: black;
+}
