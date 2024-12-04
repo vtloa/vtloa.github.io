@@ -24,3 +24,8 @@ div#lefthome a {
 .top_header {
     background: black;
 }
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_user/1000/968/e1cd99c595931821d580eb6a7e099ed3.gif);
+    width: 72px;
+}
