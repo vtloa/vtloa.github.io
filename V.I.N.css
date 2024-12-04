@@ -1,0 +1,19 @@
+body {
+    background: url(https://beon.vip/uploads_user/10000/9068/27ba74216d8ca361e54f9f21d129ebc8.jpg);
+}
+
+div[id^="comment_"]:not(a),.post {
+    background: #ffffff;
+}
+
+.seBlogColumnRightPadding {
+    background: black;
+}
+
+div#lefthome a {
+    color: red;
+}
+
+.card-header {
+    background: #a90000;
+}
