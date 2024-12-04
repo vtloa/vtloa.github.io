@@ -23,6 +23,7 @@ div#lefthome a {
 }
 .top_header {
     background: black;
+    height: 65px;
 }
 
 [src="./images/logo_new.png"] {
