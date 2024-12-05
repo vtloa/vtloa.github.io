@@ -865,7 +865,7 @@ li.nav-item [href="/browse_groups.php"]:before {
 }
 
 a.nav-link {
-    background: #f2f3f4 !important;
+    background: #e9ecef !important;
     color: #6c7376 !important;
     margin-right: 10px;
     border-radius: 3px;
