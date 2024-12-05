@@ -793,7 +793,7 @@ button#newupdates:hover {
 }
 
 .recentaction_div {
-    background: #f2f2f2;
+    background: #e9ecef !important;
 }
 
 div#lefthome .card-body {
