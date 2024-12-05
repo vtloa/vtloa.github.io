@@ -478,9 +478,10 @@ div.profile_action [href^="blog.php?user="]:before {
 }
 
 .recentaction_div {
-    background: #f2f2f2;
+    background: #e9ecef;
     padding: 10px;
     width: fit-content;
+    border-radius: 3px;
 }
 
 
