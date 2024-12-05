@@ -1432,6 +1432,7 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Judas/"]:after,
     background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
     margin-left: 5px;
     filter: invert(1) hue-rotate(-15deg);
+    transform: translateY(-1px);
 }
 
 .action_text.pl-2 .action_text_content [href="profile.php?user=Judas"]:after {
