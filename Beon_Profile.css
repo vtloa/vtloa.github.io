@@ -1407,6 +1407,7 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/Judas/"]:af
     background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
     margin-left: 5px;
     filter: invert(1) hue-rotate(-15deg);
+    transform: translateY(-1px);
 }
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
