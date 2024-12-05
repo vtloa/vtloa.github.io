@@ -1537,6 +1537,27 @@ div.menu_item_dropdown a:hover {
     font-size: 12px;
 }
 
+/*----НОВЫЙ ЦВЕТ ПЛАШЕК В ЛЕВОМ МЕНЮ----*/
+
+td.header {
+    background: #f36639;
+    color: white;
+    font-weight: normal !important;
+}
+
+td.profile_leftside [style="margin-bottom: 10px;"]:has([href^="search_advanced.php?cat_"]) td.header {
+    background: #8bc34a;
+}
+
+td.profile_leftside [style="margin-bottom: 10px;"]:has([href="topusers.php"]) td.header {
+    background: #b575b2;
+}
+
+td.profile_leftside [style="margin-bottom: 10px;"]:has([href="https://beon.vip/group/607/"]) td.header {
+    background: #47bebf;
+}
+
+
 /*---ЗИМНЕЕ ЛОГО---*/
 
 [src="./images/logo_new.png"] {
