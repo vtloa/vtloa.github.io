@@ -1534,3 +1534,9 @@ div.menu_item_dropdown a:hover {
 .gift-from b {
     font-size: 12px;
 }
+
+/*---ЗИМНЕЕ ЛОГО---*/
+
+[src="./images/logo_new.png"] {
+    content: url(https://beon.vip/uploads_image/1c/65/1c65abed0129a6f94851b9a1777399bc.png);
+}
