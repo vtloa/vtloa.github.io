@@ -1311,6 +1311,23 @@ div.menu_item_dropdown a:hover {
     max-height: 300px;
 }
 
+/*-------UPD отступы 10пикселей в постах и комментах-------*/
+
+.post {
+    padding: 10px;
+}
+
+div[id^="comment_"]:not(a) {
+    padding-top: 1px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+div#comment_subscribe {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 /*---ЗИМНЕЕ ЛОГО---*/
 
 [src="./images/logo_new.png"] {
