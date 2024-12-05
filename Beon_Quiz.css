@@ -840,10 +840,11 @@ span#notify_total {
 }
 
 a.nav-link {
-    background: #f2f3f4;
+    background: #e9ecef;
     margin-right: 10px;
     margin-bottom: 10px;
     color: #6c7376;
+    border-radius: 3px;
 }
 
 img.photo {
