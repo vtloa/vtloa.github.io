@@ -1323,6 +1323,7 @@ div[id^="comment_"]:not(a) {
     padding-top: 1px;
     padding-left: 10px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 div#comment_subscribe {
