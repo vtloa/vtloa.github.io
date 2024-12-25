@@ -603,5 +603,14 @@ div.top_menu_link {
     padding: 0px !important;
 }
 
-/*--------*/
+/*---НОВОГОДНИЕ---*/
+
+.top_header:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 34px;
+    background: url(https://beon.vip/uploads_user/10000/9068/7a24653a3971c8106e82e91999c1c2cb.png) left -5px top 37px;
+    margin-top: 35px;
+}
 
