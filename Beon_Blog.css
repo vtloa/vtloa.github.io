@@ -39,7 +39,6 @@ td.messages_message [href="https://beon.vip/adminbeon/"]:before{
 
 /*-------ONLY WASHU-------*/
 
-/*
 
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/washu/"]:before,
 .profile_comment_author [href="https://beon.vip/washu/"]:before,
@@ -49,7 +48,6 @@ td.messages_message [href="https://beon.vip/washu/"]:before {
     background: url(https://img.icons8.com/?size=30&id=108215&format=png) no-repeat center / 21px;
 }
 
-*/
 
 /*------------------------*/
 
@@ -1225,7 +1223,6 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 .blog_leftprofile [href="https://beon.vip/washu/blog/"] [src="/images/verify.png"] {
     filter: brightness(0);
     filter: hue-rotate(125deg) brightness(1.2) saturate(0.9);
-    filter: hue-rotate(-20deg) brightness(0.8);
 }
 
 
