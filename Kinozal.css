@@ -614,3 +614,9 @@ div.top_menu_link {
     margin-top: 35px;
 }
 
+
+/*----КУРСОР С МИТОЙ*/
+
+* {cursor: url(https://beon.vip/uploads_user/10000/9068/463adbcfa20596fb17cc847265cb69aa.png) , default!important;}
+a,button,img,input,b {cursor: url(https://beon.vip/uploads_user/10000/9068/5535753499113ac04a367eaa996dc91a.png) , pointer!important;}
+
