@@ -1535,3 +1535,20 @@ input[type="submit"]:hover {
 .post-content h1,.small-text, .small-text+div {
     padding: 0;
 }
+
+
+/*----05.01.25 ФИКС ШАПКИ*/
+
+.bg-white .container-fluid {
+    position: fixed;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: calc(100% - 30px);
+    z-index: 22;
+    height: 0;
+}
+
+ul.menu__box {
+    margin-left: 9px;
+}
