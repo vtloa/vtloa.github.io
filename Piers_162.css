@@ -1552,3 +1552,7 @@ input[type="submit"]:hover {
 ul.menu__box {
     margin-left: 9px;
 }
+
+.bg-white .container-fluid {
+    padding: 0px;
+}
