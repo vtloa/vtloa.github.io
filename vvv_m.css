@@ -107,12 +107,6 @@ div#lefthome .card {
     border: unset;
 }
 
-div#lefthome {
-    background: url(https://i.ibb.co/Qps8ddY/123.gif) no-repeat top center / cover fixed, url(https://i.ibb.co/XsnSpNY/5555-5-1.png) center top / cover fixed;
-    image-rendering: -webkit-optimize-contrast;
-    background-color: #7d091c;
-    background-blend-mode: overlay;
-}
 
 .card-header {
     display: none;
@@ -191,6 +185,12 @@ div#designs {
 }
 div#lefthome,.seBlogColumnRightPadding {
     background: transparent;
+}
+    div#lefthome {
+    background: url(https://i.ibb.co/Qps8ddY/123.gif) no-repeat top center / cover fixed, url(https://i.ibb.co/XsnSpNY/5555-5-1.png) center top / cover fixed;
+    image-rendering: -webkit-optimize-contrast;
+    background-color: #7d091c;
+    background-blend-mode: overlay;
 }
 }
 
