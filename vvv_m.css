@@ -96,7 +96,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 [href="./"]:before {
     content: '\ea26';
     color: #180207;
-    font-size: 21px;
     font-family: 'cappuccicons';
 }
 
@@ -191,6 +190,9 @@ div#lefthome,.seBlogColumnRightPadding {
     image-rendering: -webkit-optimize-contrast;
     background-color: #7d091c;
     background-blend-mode: overlay;
+}
+    [href="./"]:before {
+    font-size: 21px;
 }
 }
 
