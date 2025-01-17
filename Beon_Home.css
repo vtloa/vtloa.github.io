@@ -595,7 +595,7 @@ a.nav-item.nav-link.active:hover,
 a.page-link:hover,button.btn.btn-primary:hover,button.button_down:hover,
 div#ajax_status a:hover,button.btn.btn-outline-success:hover,
 button.navbar-toggler:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
     color: #fdfdfd !important;
 }
 div#lefthome a:hover {
@@ -1108,7 +1108,7 @@ a.nav-item.nav-link {
 }
 
 a.nav-item.nav-link:hover {
-    background: #968e8e;
+    background: #8edcff;
     color: white;
 }
 
