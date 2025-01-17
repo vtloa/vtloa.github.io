@@ -1339,6 +1339,10 @@ a.post-title {
     margin-top: 15px !important;
 }
 
+.blog__about {
+    margin-top: 80px !important;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     .avatars-fullscreen-link-wrapper {
     width: 100% !important;
