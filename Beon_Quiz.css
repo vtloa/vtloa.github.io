@@ -86,7 +86,7 @@ button.button_down {
 
 
 .list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
     color: #fdfdfd !important;
 }
 
@@ -376,7 +376,7 @@ a.active,.paging a {
 }
 
 a.active {
-    background: #968e8e !important;
+    background: #8edcff !important;
 }
 
 .show_menu.header-orange {
@@ -574,7 +574,7 @@ table.quiz_tbl input.text,select {
 }
 
 a.he_quiz_take:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
 }
 
 ul.he_quiz_cats li a:hover {
