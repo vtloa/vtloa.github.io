@@ -245,7 +245,7 @@ button.button_down {
 
 
 .list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
     color: #fdfdfd !important;
 }
 
@@ -405,7 +405,7 @@ td.profile_tab2 a {
 }
 
 td.profile_tab2 a:hover,td.profile_tab a:hover {
-    background: #8d8d8d !important;
+    background: #8edcff !important;
     color: #fff !important;
     font-weight: normal !important;
     border: unset !important;
@@ -746,7 +746,7 @@ img.gift-photo {
 }
 
 td.profile_menu1 a:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
 }
 
 .gifts-list .p-2 {
