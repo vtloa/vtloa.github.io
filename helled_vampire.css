@@ -1304,3 +1304,33 @@ label.custom-file-label {
 a.navbar-brand {
     font-size: 0;
 }
+
+
+/*-----17.01.25 FIX*/
+
+body:before {
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+body:after {
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+
+a.post-title {
+    text-decoration: underline !important;
+}
+
+
+.avatars-fullscreen-link-wrapper a {
+    color: #484848;
+}
+
+.avatars-fullscreen-link-wrapper {
+    background: #121212;
+    border: 1px solid #232323;
+    width: 90% !important;
+    margin-left: 3px;
+}
