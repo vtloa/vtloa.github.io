@@ -85,7 +85,7 @@ button.button_down {
 
 
 .list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
     color: #fdfdfd !important;
 }
 
@@ -450,7 +450,7 @@ select.group_small {
 
 a.nav-link.active:hover,
 .group_pages_top a:hover, .group_pages_bottom a:hover {
-    background: #968e8e !important;
+    background: #8edcff !important;
 }
 
 /*------------*/
