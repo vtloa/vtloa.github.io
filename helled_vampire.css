@@ -1343,6 +1343,10 @@ a.post-title {
     margin-top: 80px !important;
 }
 
+.admin-notification {
+    display: none;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     .avatars-fullscreen-link-wrapper {
     width: 100% !important;
