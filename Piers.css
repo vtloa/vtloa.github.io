@@ -191,7 +191,7 @@ a.navbar-brand:hover {
 
 a.navbar-brand:after {
     content: '';
-    background: url(https://www.svgrepo.com/show/321383/skull-crack.svg);
+    background: url(https://i1.beon.fun/21/15/1521/31/1328731/ssss.png);
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -623,7 +623,7 @@ a.post-title:hover {
 }
 
 [src="/i/user.png"] {
-    content: url(https://www.svgrepo.com/show/321383/skull-crack.svg);
+    content: url(https://i1.beon.fun/21/15/1521/31/1328731/ssss.png);
     width: 20px;
     height: 20px;
     filter: invert(45%) sepia(22%) saturate(4559%) hue-rotate(292deg) brightness(90%) contrast(102%);
@@ -1132,7 +1132,7 @@ a.btn.btn-outline-primary.mb-3:hover,a.btn.btn-outline-primary.mb-2:hover {
 input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary,input[type="button"],.form__show-avatars {
     filter: invert(45%) sepia(22%) saturate(4559%) hue-rotate(292deg) brightness(90%) contrast(102%);
     margin-right: 5px;
-    background: url(https://www.svgrepo.com/show/321383/skull-crack.svg) no-repeat left center / contain;
+    background: url(https://i1.beon.fun/21/15/1521/31/1328731/ssss.png) no-repeat left center / contain;
     padding: 0;
     padding-right: 10px;
     padding-left: 40px;
