@@ -294,6 +294,11 @@ a.nav-link.active {
     color: white !important;
 }
 
+a.nav-link:hover {
+    background: #8edcff;
+    color: white;
+}
+
 .nav-tabs .nav-link {
     border: unset;
 }
