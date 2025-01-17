@@ -1052,7 +1052,7 @@ a.nav-link {
 
 
 a.nav-link:hover,td.messages_right a:hover {
-    background: #8d8d8d !important;
+    background: #8edcff !important;
     color: #fff !important;
 }
 
@@ -1255,7 +1255,7 @@ div#righthome .center a {
 }
 div#righthome .center a:hover {
     text-decoration: unset;
-    background: #8d8d8d !important;
+    background: #8edcff !important;
 }
 
 
