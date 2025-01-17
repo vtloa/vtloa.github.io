@@ -1335,6 +1335,10 @@ a.post-title {
     margin-left: 4px;
 }
 
+.left-menu__user-notification.left-menu__unread-message {
+    margin-top: 15px !important;
+}
+
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     .avatars-fullscreen-link-wrapper {
     width: 100% !important;
