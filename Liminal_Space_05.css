@@ -1037,3 +1037,9 @@ a.navbar-brand img {
 a.navbar-brand {
     top: 0;
 }
+
+/*------------*/
+
+nav.navbar .m2 {
+  font-size: 0;
+}
