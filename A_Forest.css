@@ -1104,3 +1104,7 @@ textarea:focus-visible,
   color: #f47340 !important;
   text-decoration: unset !important;
 }
+
+.nav-link {
+  color: #f4e140 !important;
+}
