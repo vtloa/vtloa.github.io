@@ -1393,3 +1393,7 @@ p.card-link.post_views:before {
     margin-left: 0.25rem;
 }
 
+.like_button.liked+span {
+    margin-right: 10px;
+}
+
