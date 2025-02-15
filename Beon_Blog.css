@@ -1342,3 +1342,46 @@ div#comment_subscribe {
 .pagination.justify-content-end.float-right {
   float: unset !important;
 }
+
+/*------NEW 16.02.25------*/
+
+.profile_comment_links {
+    letter-spacing: unset !important;
+    font-size: 0;
+}
+
+.profile_comment_links .commentEditLink,
+.profile_comment_links .commentDeleteLink {
+    margin-left: 1.25rem;
+}
+
+.like_button.liked+span,
+span.total_likes {
+    font-size: 15px;
+    width: 16px;
+    display: inline-block;
+    text-align: center;
+}
+
+.like_button {
+    font-size: 10px;
+}
+
+.like_button.liked+span:hover,
+span.total_likes:hover {
+    background: #ff838f54;
+    color: #ff838f !important;
+    border-radius: 10px;
+}
+
+[onclick^="more_menu"] {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+}
+
+p.card-link.post_comments a:before,
+p.card-link.post_views:before {
+    margin-right: 4px;
+}
+
