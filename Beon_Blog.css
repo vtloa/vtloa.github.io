@@ -1389,3 +1389,7 @@ p.card-link.post_views:before {
     margin-right: 4px;
 }
 
+.seBlogComments .commentEditLink {
+    margin-left: 0.25rem;
+}
+
