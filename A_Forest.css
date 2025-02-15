@@ -1139,3 +1139,7 @@ textarea:focus-visible,
 .post-opt.col-12.col-md-6 a.tag,.post-text a {
     color: #ed9073 !important;
 }
+
+.left-menu__user-notification.left-menu__unread-message {
+    color: #a5d245;
+}
