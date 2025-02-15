@@ -1363,6 +1363,8 @@ span.total_likes {
     min-width: 16px;
     display: inline-block;
     text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .like_button {
