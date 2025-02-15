@@ -1389,7 +1389,7 @@ p.card-link.post_views:before {
     margin-right: 4px;
 }
 
-.like_button.liked+span {
+.seBlogComments .like_button.liked+span {
     margin-right: 10px;
 }
 
