@@ -1360,7 +1360,7 @@ div#comment_subscribe {
 .like_button.liked+span,
 span.total_likes {
     font-size: 15px;
-    width: 16px;
+    min-width: 16px;
     display: inline-block;
     text-align: center;
 }
@@ -1378,7 +1378,7 @@ span.total_likes:hover {
 
 [onclick^="more_menu"] {
     display: inline-block;
-    width: 16px;
+    min-width: 16px;
     text-align: center;
 }
 
