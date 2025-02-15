@@ -1679,11 +1679,3 @@ img.photo {
 }
 
 
-/*------NEW 16.02.25------*/
-
-[onclick^="more_menu"] {
-    display: inline-block;
-    min-width: 16px;
-    text-align: center;
-}
-
