@@ -1351,3 +1351,12 @@ div#comment_subscribe {
     text-align: center;
 }
 
+.additional_info.pl-3 .like_button.liked+span {
+    margin-left: 5px;
+}
+
+.profile_comment_links .like_button {
+    display: inline-block;
+    width: 18px;
+}
+
