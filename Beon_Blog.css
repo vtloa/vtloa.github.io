@@ -1351,7 +1351,9 @@ div#comment_subscribe {
 }
 
 .profile_comment_links .commentEditLink,
-.profile_comment_links .commentDeleteLink {
+.profile_comment_links .commentDeleteLink,
+.seBlogComments a.commentReply,
+.seBlogComments [onclick^="newmessage"]{
     margin-left: 1.25rem;
 }
 
