@@ -1135,3 +1135,7 @@ textarea:focus-visible,
 }
 
 /*----END----*/
+
+.post-opt.col-12.col-md-6 a.tag,.post-text a {
+    color: #ed9073 !important;
+}
