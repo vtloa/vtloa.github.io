@@ -1108,3 +1108,30 @@ textarea:focus-visible,
 .nav-link {
   color: #f4e140 !important;
 }
+
+::placeholder {
+    color: #f4e14078;
+}
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #07130c;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #587e22;
+}
+.avatar-select-list::-webkit-scrollbar {
+    background: #c6c6c6;
+    width: 10px;
+    border: 4px solid #fafafa;
+}
+
+.avatar-select-list::-webkit-scrollbar-thumb {
+    background-color: #c6c6c6;
+}
+
+/*----END----*/
