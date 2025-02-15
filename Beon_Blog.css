@@ -1354,7 +1354,7 @@ div#comment_subscribe {
 .profile_comment_links .commentDeleteLink,
 .seBlogComments a.commentReply,
 .seBlogComments [onclick^="newmessage"]{
-    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .like_button.liked+span,
