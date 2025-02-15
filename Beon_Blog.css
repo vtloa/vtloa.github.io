@@ -1360,3 +1360,7 @@ div#comment_subscribe {
     width: 18px;
 }
 
+.profile_comment_links .like_button.liked+span {
+    letter-spacing: 0;
+}
+
