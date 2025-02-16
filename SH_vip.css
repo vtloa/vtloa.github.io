@@ -717,7 +717,6 @@ button.btn.btn-outline-success:before {
 }
 
 button#newupdates, button#newupdates:hover {
-    position: relative;
     background: #366df7 !important;
     box-shadow: 4px 4px #ffffff70;
     width: 40px;
