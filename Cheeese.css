@@ -164,7 +164,7 @@ div#menu_main_dropdown>div {
 }
 
 
-a.top_menu_item {
+.top_header a.top_menu_item {
     font-size: 0px !important;
 }
 
