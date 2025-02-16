@@ -168,7 +168,7 @@ div#menu_main_dropdown>div {
     font-size: 0px !important;
 }
 
-a.top_menu_item:before, .top_header [href="./"]:before {
+.top_header a.top_menu_item:before, .top_header [href="./"]:before {
     content: '\ea26';
     color: #836c32;
     font-size: 25px;
