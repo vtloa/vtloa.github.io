@@ -604,7 +604,11 @@ ul.navbar-nav.mr-auto a {
     color: #f4e140;
 }
 
-.top_header [src="/images/notify.svg"], .top_header [src="/images/button_down.svg"] {
+.top_header [src="/images/notify.svg"] {
+    filter: invert(61%) sepia(100%) saturate(298%) hue-rotate(14deg) brightness(124%) contrast(92%);
+}
+
+.top_header [src="/images/button_down.svg"] {
     filter: invert(61%) sepia(100%) saturate(298%) hue-rotate(14deg) brightness(184%) contrast(92%);
 }
 
