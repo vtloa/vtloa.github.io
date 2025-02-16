@@ -1679,4 +1679,6 @@ div#message_row_photo img.photo {
     max-height: 300px;
 }
 
-
+.messages_text img {
+    padding: 3px;
+}
