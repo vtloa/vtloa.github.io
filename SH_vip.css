@@ -892,4 +892,7 @@ div#mobile_photo_wrap {
     top: -110px;
     height: 145px;
 }
+    li.p-1 a {
+    font-size: 13px;
+}
 }
