@@ -665,3 +665,20 @@ blockquote.blockquote {
 .top_header a.top_menu_item:hover:before {
     color: #f47340 !important;
 }
+
+span#notify_total {
+  position: unset;
+  left: unset;
+  border-radius: 0;
+  width: unset;
+  height: unset;
+  bottom: 0px;
+  line-height: unset;
+  font-size: unset;
+  background: transparent !important;
+  outline: unset !important;
+  color: #f5ea41;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 18px;
+  transform: translateY(2px);
+}
