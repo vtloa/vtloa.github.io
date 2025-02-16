@@ -773,6 +773,11 @@ span#notify_total {
     left: -34px;
 }
 
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #161616;
+    outline-offset: -3px;
+}
+
 /*----МЕДИА----*/
 
 
