@@ -119,22 +119,22 @@ div#menu_main_dropdown>div {
     padding: 0;
 }
 
-[src="/images/notify.svg"] {
+.top_header [src="/images/notify.svg"] {
     width: 25px;
     filter: invert(1) sepia(1) brightness(0.4) saturate(9) hue-rotate(-15deg);
 }
 
-[src="/images/button_down.svg"]{
+.top_header [src="/images/button_down.svg"]{
     filter: sepia(1) brightness(0.4) saturate(9) hue-rotate(-15deg);
 }
 
-button.btn.btn-primary {
+.top_header button.btn.btn-primary {
     right: 80px;
     font-size: 0px;
     line-height: normal;
 }
 
-button.btn.btn-primary:before {
+.top_header button.btn.btn-primary:before {
     content: '\ebaf';
     color: #836c32;
     font-size: 25px;
@@ -146,7 +146,7 @@ button.btn.btn-primary:before {
 }
 
 
-[src="./images/logo_new.png"] {
+.top_header [src="./images/logo_new.png"] {
     display: none;
 }
 
