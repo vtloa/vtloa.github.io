@@ -778,6 +778,11 @@ span#notify_total {
     outline-offset: -3px;
 }
 
+.top_header a.menu_item:hover {
+    background: #1f72f3 !important;
+    color: #fbfbfb !important;
+}
+
 /*----МЕДИА----*/
 
 
