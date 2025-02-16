@@ -657,3 +657,7 @@ blockquote.blockquote {
     color: black !important;
     border-color: #f4e140;
 }
+
+.top_header a.top_menu_item:hover:before {
+    color: #f47340 !important;
+}
