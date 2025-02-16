@@ -682,3 +682,48 @@ span#notify_total {
   transform: translateY(2px) !important;
   font-family: 'Spectral', serif;
 }
+
+/*----------------*/
+
+.modal-content {
+  background: linear-gradient(289deg, #2e541c 6%, #091d0fb2), url(https://i.ibb.co/dwdKgtvJ/test.png);
+  border: unset;
+  border-radius: unset;
+}
+
+.modal-footer {
+  border: unset;
+}
+
+.modal-header {
+  border: unset;
+}
+
+
+.btn.btn-secondary {
+    border: 2px outset #c8b624 !important;
+    background: #f4e140 !important;
+    border-radius: 5px !important;
+    border-color: #c8b624 !important;
+    cursor: pointer !important;
+    font-size: 13px !important;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.updatesWrap a {
+  color: #f4e140;
+}
+
+.modal-title {
+  font-family: "Frenchpress freefont";
+  font-size: 23px !important;
+  letter-spacing: 2px;
+  color: #a5d245;
+}
+
+.close {
+  display: none;
+}
