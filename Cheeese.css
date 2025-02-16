@@ -247,10 +247,6 @@ div#menu_dropdown_albums {
 }
 
 
-[href="user_logout.php"] {
-    display: none !important;
-}
-
 div.menu_dropdown {
     transition: unset !important;
 }
