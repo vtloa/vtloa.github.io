@@ -716,7 +716,9 @@ button.btn.btn-outline-success:before {
     filter: invert(1);
 }
 
-button#newupdates, button#newupdates:hover {
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button#newupdates,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button#newupdates:hover {
+    position: relative;
     background: #366df7 !important;
     box-shadow: 4px 4px #ffffff70;
     width: 40px;
