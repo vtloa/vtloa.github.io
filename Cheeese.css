@@ -104,7 +104,7 @@ div#menu_main_dropdown>div {
     left: 20px;
 }
 
-.top_header button#newupdates, button.btn.btn-primary, button.button_down {
+.top_header button#newupdates, .top_header button.btn.btn-primary, .top_header button.button_down {
     background: #fbfbfb !important;
     position: absolute;
     bottom: 20px;
