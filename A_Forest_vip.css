@@ -667,18 +667,17 @@ blockquote.blockquote {
 }
 
 span#notify_total {
-  position: unset;
-  left: unset;
-  border-radius: 0;
-  width: unset;
-  height: unset;
-  bottom: 0px;
-  line-height: unset;
-  font-size: unset;
+  position: unset !important;
+  left: unset !important;
+  border-radius: 0 !important;
+  width: unset !important;
+  height: unset !important;
+  bottom: 0px !important;
+  line-height: unset !important;
+  font-size: unset !important;
   background: transparent !important;
   outline: unset !important;
-  color: #f5ea41;
-  font-family: 'Sofia Sans', sans-serif;
-  font-size: 18px;
-  transform: translateY(2px);
+  color: #f5ea41 !important;
+  font-size: 18px !important;
+  transform: translateY(2px) !important;
 }
