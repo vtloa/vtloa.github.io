@@ -725,7 +725,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu butto
     height: 38px;
 }
 
-span#notify_total {
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu span#notify_total {
     left: -34px;
     transform: translateY(-3px);
     background: #366df7;
