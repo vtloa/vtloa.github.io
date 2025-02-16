@@ -769,6 +769,10 @@ div#mobile_photo_wrap {
     background: transparent !important;
 }
 
+span#notify_total {
+    left: -34px;
+}
+
 /*----МЕДИА----*/
 
 
