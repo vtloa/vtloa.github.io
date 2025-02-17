@@ -1532,3 +1532,10 @@ div.menu_item_dropdown a:hover {
 [onclick^="subscribe"]:before {
     font-family: "fontawesome";
 }
+
+input#comment_submit:hover {
+    background: #dba5be !important;
+}
+input#comment_submit {
+    width: auto !important;
+}
