@@ -727,3 +727,7 @@ span#notify_total {
 .close {
   display: none;
 }
+
+.profile_comment_author b {
+    font-size: 16px;
+}
