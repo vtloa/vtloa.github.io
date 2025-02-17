@@ -731,3 +731,9 @@ span#notify_total {
 .profile_comment_author b {
     font-size: 16px;
 }
+
+/*-----ГАЛОЧКА------*/
+
+[href="https://beon.vip/TokaDerden/blog/"] [src="/images/verify.png"], [href="https://beon.vip/TokaDerden/"] [src="/images/verify.png"] {
+    filter: hue-rotate(-109deg) saturate(0.5) contrast(1.1) brightness(1.2);
+}
