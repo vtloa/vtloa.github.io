@@ -921,3 +921,7 @@ a.page-link, a.page-link:hover {
   font-size: 13px !important;
   border-radius: 3px !important;
 }
+
+.page-link:focus {
+  box-shadow: unset !important;
+}
