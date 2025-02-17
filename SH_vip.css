@@ -911,3 +911,13 @@ span#notify_total {
     font-size: 13px;
 }
 }
+
+
+/*---UPD*/
+
+a.page-link, a.page-link:hover {
+  background: white !important;
+  color: #1f72f3 !important;
+  font-size: 13px !important;
+  border-radius: 3px !important;
+}
