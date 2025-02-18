@@ -925,3 +925,7 @@ a.page-link, a.page-link:hover {
 .page-link:focus {
   box-shadow: unset !important;
 }
+
+div.profile_comment_body img {
+  max-width: 100%;
+}
