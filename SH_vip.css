@@ -929,3 +929,14 @@ a.page-link, a.page-link:hover {
 div.profile_comment_body img {
   max-width: 100%;
 }
+
+blockquote.blockquote {
+  border-color: #2b5fec;
+  margin: 0px;
+}
+
+
+input#comment_submit:hover {
+  background: #161616 !important;
+  color: #ffb72d !important;
+}
