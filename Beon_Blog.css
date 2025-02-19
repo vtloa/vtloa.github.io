@@ -1372,3 +1372,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border: unset !important;
 }
 
+.profile_comment_author {
+    margin-right: 10px !important;
+}
