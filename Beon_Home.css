@@ -1236,6 +1236,8 @@ span#notify_total {
     line-height: normal;
     min-width: unset;
     font-weight: unset;
+    width: 20px;
+    height: 20px;
 }
 button#newupdates {
     padding: 0px;
