@@ -666,11 +666,6 @@ a#attach_file_click {
 }
 
 
-input#comment_submit {
-    width: 163px;
-}
-
-
 .post_text.pl-3,.additional_info.pl-3 {
     padding-left: 10px !important;
 }
