@@ -1566,3 +1566,37 @@ td.profile_leftside [style="margin-bottom: 10px;"]:has([href="https://beon.vip/g
 [src="./images/logo_new2.png"] {
     content: url(https://beon.vip/uploads_image/1c/65/1c65abed0129a6f94851b9a1777399bc.png);
 }
+
+/*-------КНОПКА ОБЗОР ВСЕХ ЗАПИСЕЙ-------*/
+
+div#profile_blog>div {
+    display: flex !important;
+    flex-direction: column-reverse;
+}
+
+div#profile_blog [style="border-top: 1px solid #DDDDDD; padding-top: 10px;"] {
+    border: unset !important;
+}
+
+div#profile_blog [style="border-top: 1px solid #DDDDDD; padding-top: 10px;"] [href^="https://beon.vip/"][href$="/blog/"] {
+    font-size: 15px;
+    background: #54b9e7;
+    color: white;
+    text-decoration: unset !important;
+    padding: 4px;
+    border-radius: 3px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 6px;
+    width: fit-content;
+}
+
+[src="./images/icons/blog_subscribe16.gif"] {
+    margin-top: 4px;
+    margin-right: 10px !important;
+}
+
+div#profile_blog [style="border-top: 1px solid #DDDDDD; padding-top: 10px;"] [href^="https://beon.vip/"][href$="/blog/"]:hover {
+    background: #8edcff !important;
+}
