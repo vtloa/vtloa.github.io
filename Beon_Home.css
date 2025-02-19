@@ -111,7 +111,7 @@ div#lefthome div.menu_item_dropdown a {
 }
 
 div#lefthome {
-    display: grid !important;
+    display: grid;
     align-content: stretch;
     height: fit-content;
 }
