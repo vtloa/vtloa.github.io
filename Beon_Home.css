@@ -1683,3 +1683,7 @@ img.photo {
 div#lefthome[style="display: block;"] {
     display: grid !important;
 }
+
+div#righthome {
+    max-width: 100% !important;
+}
