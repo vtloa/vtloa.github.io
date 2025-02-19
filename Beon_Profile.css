@@ -1600,3 +1600,10 @@ div#profile_blog [style="border-top: 1px solid #DDDDDD; padding-top: 10px;"] [hr
 div#profile_blog [style="border-top: 1px solid #DDDDDD; padding-top: 10px;"] [href^="https://beon.vip/"][href$="/blog/"]:hover {
     background: #8edcff !important;
 }
+
+.show_menu.header-orange {
+    background: #54b9e7;
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+}
