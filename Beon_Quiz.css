@@ -986,3 +986,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border: unset !important;
 }
 
+button.navbar-toggler, button.btn.btn-outline-success.mr-1.mobile_button, button.btn.btn-outline-success {
+    border: unset;
+}
+
