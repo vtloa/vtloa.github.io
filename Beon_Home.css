@@ -1701,3 +1701,7 @@ div#righthome {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     border: unset !important;
 }
+
+div#lefthome .card-body {
+    border-top: unset !important;
+}
