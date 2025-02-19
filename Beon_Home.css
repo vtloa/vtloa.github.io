@@ -1711,3 +1711,11 @@ div#lefthome .card-body {
 div#lefthome .card:nth-of-type(20) {
     order: 3;
 }
+
+/*---------------*/
+
+button.navbar-toggler,
+button.btn.btn-outline-success.mr-1.mobile_button,
+button.btn.btn-outline-success {
+    border: unset;
+}
