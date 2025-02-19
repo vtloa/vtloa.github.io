@@ -1705,3 +1705,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
 div#lefthome .card-body {
     border-top: unset !important;
 }
+
+/*----КТО НА САЙТЕ*/
+
+div#lefthome .card:nth-of-type(20) {
+    order: 3;
+}
