@@ -1682,3 +1682,10 @@ div#message_row_photo img.photo {
 .messages_text img {
     padding: 3px;
 }
+
+.show_menu.header-orange {
+    background: #54b9e7;
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+}
