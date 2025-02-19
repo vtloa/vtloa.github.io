@@ -1687,3 +1687,11 @@ div#lefthome[style="display: block;"] {
 div#righthome {
     max-width: 100% !important;
 }
+
+
+.show_menu.header-orange {
+    background: #54b9e7;
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+}
