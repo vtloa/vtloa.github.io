@@ -1697,3 +1697,7 @@ div#righthome {
     line-height: 2;
     font-size: 16px;
 }
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border: unset !important;
+}
