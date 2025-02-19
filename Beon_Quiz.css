@@ -982,3 +982,7 @@ div.menu_item_dropdown a:hover {
     font-size: 16px;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    border: unset !important;
+}
+
