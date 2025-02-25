@@ -442,6 +442,12 @@ button.btn.btn-outline-success.mr-1.mobile_button:hover{
     background: transparent;
 }
 
+button.navbar-toggler, button.navbar-toggler:hover,
+    button.btn.btn-outline-success:before {
+    opacity: 1;
+    filter: contrast(0.5);
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
@@ -463,11 +469,6 @@ button.btn.btn-outline-success.mr-1.mobile_button:hover{
     display: block;
     width: 100px;
     height: 40px;
-}
-    button.navbar-toggler, button.navbar-toggler:hover,
-    button.btn.btn-outline-success:before {
-    opacity: 1;
-    filter: contrast(0.5);
 }
     [src="/images/notify.svg"] {
     width: 22px;
