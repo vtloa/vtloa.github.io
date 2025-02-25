@@ -436,6 +436,12 @@ div#mobile_menu {
     background: black;
 }
 
+button.navbar-toggler:hover,
+button.btn.btn-outline-success:hover,
+button.btn.btn-outline-success.mr-1.mobile_button:hover{
+    background: transparent;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
