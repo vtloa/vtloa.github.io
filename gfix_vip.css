@@ -241,7 +241,7 @@ li.p-1 {
     display: block;
 }
 
-li.p-1 a,.blog_leftprofile, ul.seBlogCategoryList a {
+li.p-1 a, ul.seBlogCategoryList a {
     mix-blend-mode: difference;
 }
 
