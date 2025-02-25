@@ -462,6 +462,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [src=
     font-weight: normal !important;
 }
 
+ul.seBlogCategoryList {
+    font-size: 11px;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
