@@ -288,7 +288,7 @@ span#notify_total {
     padding: 0px;
     min-width: 25px;
     height: 25px;
-    transform: translateY(8px);
+    transform: translateY(5px);
 }
 
 .post_data * {
