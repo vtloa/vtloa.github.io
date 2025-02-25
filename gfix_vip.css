@@ -458,6 +458,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [src=
     filter: contrast(0.5);
 }
 
+.profile_comment_links * {
+    font-weight: normal !important;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
