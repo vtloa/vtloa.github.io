@@ -1,1 +1,1 @@
-@import url('https://vtloa.github.io/SH_vip_HUB.css')
+@import url('https://vtloa.github.io/gfix_vip_HUB.css')
