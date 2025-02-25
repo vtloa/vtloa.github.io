@@ -471,6 +471,10 @@ ul.seBlogCategoryList {
     color: #5a5a5a !important;
 }
 
+.blog_leftphoto {
+    opacity: 0 !important;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
