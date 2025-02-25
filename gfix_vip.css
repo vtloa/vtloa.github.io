@@ -26,7 +26,7 @@ div#entry_main {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     background: #0a0a0a;
     box-shadow: unset !important;
-    padding: 5px;
+    padding: 5px !important;
 }
 
 .icon {
