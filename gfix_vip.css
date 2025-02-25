@@ -475,6 +475,13 @@ ul.seBlogCategoryList {
     opacity: 0 !important;
 }
 
+.top_header [href="./"] {
+    content: '';
+    display: block;
+    width: 260px;
+    height: 65px;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
