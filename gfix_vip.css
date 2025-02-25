@@ -448,6 +448,16 @@ button.navbar-toggler, button.navbar-toggler:hover,
     filter: contrast(0.5);
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success.mr-1.mobile_button,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu button.btn.btn-outline-success{
+    color: #838383;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu [src="/images/notify.svg"] {
+    width: 22px;
+    filter: contrast(0.5);
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
