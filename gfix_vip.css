@@ -1,0 +1,477 @@
+.group_desc {
+  display: none;
+}
+div#entry_main {
+    display: none !important;
+}
+
+
+/*---------------------*/
+
+
+.top_header > table {
+    background: url(https://beon.vip/uploads_image/a1/9a/a19a16804c0c629c0a728174f1d9170d.png) no-repeat left 85px top;
+    background-size: 150px !important;
+}
+
+.top_header img {
+  opacity: 0;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+
+.top_header,
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: #0a0a0a;
+    box-shadow: unset !important;
+    padding: 5px;
+}
+
+.icon {
+  display: none !important;
+}
+
+.menu_icon2 {
+  display: none !important
+}
+
+body {
+    background: url(https://i.ibb.co/XfpzyNcj/fon.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+.post {
+  width: 60% !important;
+  position: relative;
+  left: 8% !important;
+  margin-bottom: 3rem;
+  background: #0a0a0a;
+  padding: 15px !important;
+}
+
+.additional_info.pl-3,.additional_info.pl-3 a {font-weight: normal;}
+
+
+.post_container .post_text img {max-width: 60% !important;}
+
+.post_container { margin-right: 2%;}
+
+.seBlogComments { display: block; background: #0a0a0a; width: 60%!important; padding-left: 1rem; position: relative; left: 8%!important;}
+
+.card-title a { font-family: "Noto Color Emoji"; 
+                font-size: 1.5rem;
+                font-weight: normal;
+}
+
+
+.post_image div { color: #9b9b9b!important;}
+
+.text-muted { 
+    color:#9b9b9b!important; 
+    font-size: 11px !important;
+} 
+
+div#lefthome {
+    background: url(https://sun9-2.userapi.com/QIXZPEMxdPX7HB7NaOevGkFHVS5EMwfM86DJfg/XDggS4lXKlY.jpg) no-repeat !important;
+    background-size: 330px !important;
+    max-width: 330px;
+}
+
+.seBlogColumnRightPadding {
+    max-height: 878px;
+    overflow-y: scroll;
+}
+
+div {border:none !important;}
+
+
+div,a, td { 
+    color:#9b9b9b !important; 
+    font-weight: bold;
+}
+
+a {
+    transition: 0.25s;
+}
+
+a:hover { text-decoration: none;}
+
+li.p-1 a { font-weight: normal;}
+
+li.p-1 a:hover { text-decoration:none;}
+
+.badge-danger {color:#9b9b9b; background-color:transparent;}
+
+#newupdates { background-image:none !important;}
+
+a.top_menu_item {color:#818484 !important;}
+
+a.top_menu_item:hover {text-decoration:none;}
+
+.menu_dropdown { background: transparent !important;}
+
+.top_header .menu_dropdown a { 
+    background: #252525!important;
+    font-size: 13px !important;
+    color:#a2a2a2!important;
+    transition: 0.25s !important;
+    margin-bottom: 3px;
+}
+
+div.menu_item_dropdown a:hover {
+    background: #979797 !important;
+    color: black !important;
+}
+
+#comment_user_status { font-size: 11px;}
+
+.blockquote {border-left: 3px solid #020202;}
+
+
+.comment_headline {padding-top:5rem; background:transparent;}
+
+#TB_window {background: #151515; border-radius: 0px;}
+#TB_title {border:none;}
+#TB_closeAjaxWindow a:hover {text-decoration: none;}
+#comment_submit {background:#151515; border-radius: 0px; border:none;}
+#comment_submit:hover {color: #242424;}
+#comment_submit:focus {outline:none;}
+input.button {background:transparent; border:none; color:#a5a5a5; transition:0.3s;}
+input.button:hover {color: #242424;}
+img.photo {border:none;}
+.comment_area {background:#242424; border:none;}
+#comment_body {color: #000; color: #a5a5a5;}
+.comment_area:focus {outline:none;}
+#bbcode:hover {opacity:1;}
+
+.modal-content {background-color:#151515; margin: 5px; border:none;}
+.modal-header {border-bottom: none;}
+.modal-footer {border-top: none;}
+.btn-secondary {background-color: #464646; border: none !important;}
+.btn-secondary:focus {outline: none !important; background:#dad5be; border: none !important; color:#808382; box-shadow:none !important;}
+.close {text-shadow:none !important; color: #808382; transition:0.3s;}
+.close:hover {color: #808382;}
+.close:focus {outline:none;}
+
+/*----СКРОЛЛ----*/
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:2px;
+height:0px
+}
+::-webkit-scrollbar-track {
+background-color: #171a23;
+width: 2px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #c3c3c3;
+box-shadow:none;
+}
+::-webkit-resizer{
+
+width:3px;
+height:0px
+}
+::-webkit-scrollbar{
+width: 3px;
+}
+
+/*----END----*/
+
+
+.btn-primary {color:#979797; background: transparent; border:none;}
+.btn-primary:hover {color:#979797;border:none; background:transparent;}
+.btn-primary:focus {color:#979797; background: transparent; border:none; box-shadow: none;}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle,.btn-primary:not(:disabled):not(.disabled):active:focus {color:#979797; background: transparent; border:none; box-shadow: none;}
+
+.button_down {background: transparent!important;}
+.button_down:focus {outline:none;}
+.btn-outline-success:focus, .btn-outline-success.focus {box-shadow:none;}
+
+
+.navbar {border:none;}
+.bg-light {border:none;}
+
+
+.btn-outline-success {border: none; background: transparent; color: #a5a5a5;}
+.btn-outline-success:hover {border: none; color: transparent; background: transparent; transition: 1s;}
+
+#mobile_photo_wrap {background: #151515; padding-bottom: 6px;}
+#mobile_menu .menu_item_dropdown a {background: #151515;}
+
+.portal_spacer {display:none;}
+.navbar-light .navbar-toggler {border-color:transparent;}
+
+
+div,a,td { 
+    text-transform: uppercase !important;
+}
+
+ * {cursor: url('https://cur.cursors-4u.net/others/oth-8/oth726.ani'), url('http://cur.cursors-4u.net/others/oth-8/oth726.png'), auto !important;}
+
+[src="/images/page_load.gif"] {content: url('https://beon.vip/uploads_image/64/8b/648ba1449202403d5eca00f25250fa86.gif');position:relative; top:200px;}
+
+.post_container .post_text img,iframe {filter: grayscale(1); transition: .2s; }
+.post_container .post_text img:hover,iframe:hover {filter: grayscale(0); transition: .2s; }
+
+
+
+
+/*-------------*/
+
+button.btn.btn-primary {
+    background: transparent;
+}
+
+.top_header a,button.btn.btn-primary {
+    font-size: 18px !important;
+}
+
+input[type="text"] {
+    background: #ffffff85 !important;
+    border-radius: unset !important;
+}
+
+li.p-1 {
+    display: block;
+}
+
+li.p-1 a,.blog_leftprofile, ul.seBlogCategoryList a {
+    mix-blend-mode: difference;
+}
+
+.card.group_members {
+    display: none !important;
+}
+
+.gifts-list a img {
+    filter: invert(1);
+}
+.gifts-list a {
+    mix-blend-mode: difference;
+    font-size: 9px;
+}
+
+
+ul.seBlogCategoryList a {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ul.seBlogCategoryList {
+    text-align: center;
+}
+
+.card-header {
+    display: none;
+}
+
+.gifts-list {
+    padding-top: 9px;
+}
+
+div#designs {
+    background-color: #ffffff;
+    filter: invert(1) brightness(0.8);
+}
+
+span#notify_total {
+    background: #121212;
+    color: #6a6a6a;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 0px;
+    min-width: 25px;
+    height: 25px;
+    transform: translateY(8px);
+}
+
+.post_data * {
+    font-weight: normal;
+}
+
+ul.pagination.justify-content-end.float-right {
+    width: fit-content;
+    margin: auto;
+}
+
+a.page-link {
+    background: #0a0a0a !important;
+    border-radius: unset !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.blog_user_status {
+    margin-top: 5px;
+}
+
+[src="/images/button_down.svg"] {
+    opacity: 1 !important;
+    filter: brightness(0.4);
+    transition: 0.2s;
+}
+
+button.button_down:hover,
+button.btn.btn-primary:hover {
+    background: transparent !important;
+}
+
+
+
+[src="/images/button_down.svg"]:hover {
+    filter: brightness(0.7);
+}
+
+.top_header a:hover,
+button.btn.btn-primary:hover,
+.card-title a:hover,
+h6.card-subtitle.mb-2.text-muted.post_date a:hover {
+    color: #c1c1c1 !important;
+}
+
+a.page-link:hover {
+    background: #242424 !important;
+}
+
+li.p-1:hover,ul.seBlogCategoryList li:hover {
+    background: #0a0a0a;
+}
+
+li.p-1:hover {
+    padding-left: 20px !important;
+    transition: 0.1s;
+}
+
+
+.top_header div.menu_dropdown {
+    border: unset !important;
+    padding: 0px;
+}
+
+
+.top_menu_link:hover div.menu_dropdown {
+    border: unset !important;
+}
+
+.seBlogComments {
+    padding: unset;
+}
+
+div[id^="comment_"]:not(a) {
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+blockquote.blockquote {
+    border-color: #6a6a6a;
+    margin: 0px;
+    background: #121212;
+    width: fit-content;
+}
+
+textarea#comment_body,input#comment_submit {
+    border-radius: unset;
+}
+
+input#comment_submit,
+button.btn.btn-secondary {
+    background: #121212;
+    color: #6a6a6a;
+    font-size: 13px;
+    text-transform: inherit;
+    font-weight: bold;
+    border-radius: unset;
+}
+
+input#comment_submit:hover,
+span#notify_total:hover,
+button.btn.btn-secondary:hover {
+    background: #242424 !important;
+    color: #6c6c6c;
+}
+
+
+div#bbcode {
+    width: calc(100% - 210px);
+}
+
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #cbcbcb;
+    outline-offset: -3px;
+    filter: grayscale(1);
+}
+
+div#bbcode [src^="/images/fffuuusmiles/"]:hover {
+    outline: 2px solid #cbcbcb;
+}
+
+div#postcomment_userphotos .p-1 {
+    padding: 7px !important;
+    padding-top: 0px !important;
+}
+
+a#attach_file_click {
+    filter: contrast(0.89);
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: #dbdada;
+    border-radius: 3px;
+    filter: invert(1) brightness(0.5);
+}
+
+
+
+div#mobile_menu {
+    background: black;
+}
+
+/*----МЕДИА----*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .post,.seBlogComments {
+    width: 100% !important;
+    position: unset;
+}
+    div#lefthome {
+    width: 100%;
+    min-width: unset;
+    max-width: 100%;
+}
+    div#lefthome {
+    background-size: cover !important;
+}
+    [href="./"]:before {
+    content: '';
+    background: url(https://beon.vip/uploads_image/a1/9a/a19a16804c0c629c0a728174f1d9170d.png) no-repeat center / contain;
+    display: block;
+    width: 100px;
+    height: 40px;
+}
+    button.navbar-toggler, button.navbar-toggler:hover,
+    button.btn.btn-outline-success:before {
+    opacity: 1;
+    filter: contrast(0.5);
+}
+    [src="/images/notify.svg"] {
+    width: 22px;
+    filter: contrast(0.5);
+}
+    .show_menu.header-orange {
+    background: #0a0a0a;
+    color: #5a5a5a !important;
+}
+    div#bbcode {
+    width: 100%;
+}
+}
