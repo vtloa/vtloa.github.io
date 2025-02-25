@@ -308,7 +308,7 @@ a.page-link {
     font-size: 13px;
 }
 
-.blog_user_status {
+.blog_user_status,div#user_status {
     margin-top: 5px;
 }
 
