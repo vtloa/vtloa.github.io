@@ -439,7 +439,7 @@ div#mobile_menu {
 button.navbar-toggler:hover,
 button.btn.btn-outline-success:hover,
 button.btn.btn-outline-success.mr-1.mobile_button:hover{
-    background: transparent;
+    background: transparent !important;
 }
 
 button.navbar-toggler, button.navbar-toggler:hover,
