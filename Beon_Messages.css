@@ -1572,6 +1572,7 @@ div#messages .messages_author [href="https://beon.vip/Judas/"]:after{
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
+/*
 div#message_post [href="https://beon.vip/you/"]:after, div#messages .messages_author [href="https://beon.vip/you/"]:after {
     content: '';
     display: inline-block;
@@ -1582,6 +1583,7 @@ div#message_post [href="https://beon.vip/you/"]:after, div#messages .messages_au
     filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
     filter: hue-rotate(266deg) brightness(0.7) saturate(2.5);
 }
+*/
 
 
 /*----ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
