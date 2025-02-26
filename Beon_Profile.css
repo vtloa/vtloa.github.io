@@ -1415,28 +1415,10 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/Judas/"]:af
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
-/*
-div.profile_action [href="profile.php?user=you"]:after {
-    content: '';
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
-    margin-left: 5px;
-    filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
-    filter: hue-rotate(266deg) brightness(0.7) saturate(2.5);
+[href="https://beon.vip/you/"] b [src="/images/verify.png"],
+.messages_author [href="https://beon.vip/you/"] [src="/images/verify.png"] {
+    filter: grayscale(1);
 }
-
-div#profile_comments .profile_comment_author [href="https://beon.vip/you/"]:after {
-    content: '';
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
-    margin-left: 5px;
-    filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
-}
-*/
 
 
 /*----ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
