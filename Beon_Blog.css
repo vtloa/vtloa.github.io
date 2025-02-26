@@ -1200,6 +1200,8 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/Judas/"]:after,
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
+/*
+
 .seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after,
 div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 .blog_leftprofile [href="https://beon.vip/you/blog/"]:after {
@@ -1212,6 +1214,8 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
     filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
     filter: hue-rotate(266deg) brightness(0.7) saturate(2.5);
 }
+
+*/
 
 /*----ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
 
