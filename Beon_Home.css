@@ -47,6 +47,16 @@ td.messages_message [href="https://beon.vip/washu/"]:before {
     background: url(https://img.icons8.com/?size=30&id=108215&format=png) no-repeat center / 21px;
 }
 
+/*-------ONLY GLEBACNK-------*/
+
+
+h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:before,
+.profile_comment_author [href="https://beon.vip/GLEBACNK/"]:before,
+.messages_author [href="https://beon.vip/GLEBACNK/"]:before,
+td.messages_message [href="https://beon.vip/GLEBACNK/"]:before {
+    background: url(https://beon.vip/uploads_user/10000/9068/41f816d5a508bb23e755e900843d87a1.png) no-repeat center / 18px;
+}
+
 
 
 /*------------------------*/
