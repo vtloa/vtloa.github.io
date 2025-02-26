@@ -309,7 +309,7 @@ div#mobile_photo img {
 }
 
 img.photo {
-    border: unset;
+    border: unset !important;
 }
 
 td.profile_photo {
@@ -338,6 +338,7 @@ td.profile {
     border: 1px solid #ebebeb;
     border-top: unset;
 }
+
 td.header {
     text-align: center;
 }
@@ -1530,7 +1531,7 @@ div.menu_item_dropdown a:hover {
 
 td.header {
     background: #f36639;
-    color: white;
+    color: white !important;
     font-weight: normal !important;
 }
 
