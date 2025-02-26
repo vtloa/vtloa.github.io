@@ -1484,7 +1484,7 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
 }
 
 
-/*----ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
+/*----ЗЕЛЁНАЯ ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
 
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:after{
     content: '';
@@ -1493,11 +1493,11 @@ h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/GLEBACNK/"]:a
     height: 16px;
     background: url(https://beon.vip/uploads_user/10000/9068/d66cdf2500506e2b39beaa4c8ccb2055.png) no-repeat center / contain;
     margin-left: 5px;
-    filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
+    filter: hue-rotate(241deg) brightness(0.8) saturate(3.5);
 }
 
 div#lefthome .portal_spacer+.card [href="https://beon.vip/GLEBACNK/"] [src="/images/verify.png"] {
-    filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
+    filter: hue-rotate(241deg) brightness(0.8) saturate(3.5);
 }
 
 /*----РОЗОВАЯ ГАЛОЧКА ВАШУ----*/
