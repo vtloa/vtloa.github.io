@@ -1415,6 +1415,7 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/Judas/"]:af
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
+/*
 div.profile_action [href="profile.php?user=you"]:after {
     content: '';
     display: inline-block;
@@ -1435,15 +1436,16 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/you/"]:afte
     margin-left: 5px;
     filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
 }
+*/
 
 
 /*----ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
 
-/*----ФИОЛЕТОВАЯ ГАЛОЧКА----*/
+/*----ЗЕЛЁНАЯ ГАЛОЧКА----*/
 
 [href="https://beon.vip/GLEBACNK/"] b [src="/images/verify.png"],
 .messages_author [href="https://beon.vip/GLEBACNK/"] [src="/images/verify.png"]{
-    filter: hue-rotate(56deg) brightness(0.8) saturate(3.5);
+    filter: hue-rotate(241deg) brightness(0.8) saturate(3.5);
 }
 
 
@@ -1452,7 +1454,7 @@ div#profile_comments .profile_comment_author [href="https://beon.vip/you/"]:afte
 [href="https://beon.vip/washu/"] b [src="/images/verify.png"],
 .messages_author [href="https://beon.vip/washu/"] [src="/images/verify.png"]{
     filter: brightness(0);
-    /*filter: hue-rotate(125deg) brightness(1.2) saturate(0.9);*/
+    filter: hue-rotate(125deg) brightness(1.2) saturate(0.9);
 }
 
 
