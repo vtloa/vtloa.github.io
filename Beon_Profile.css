@@ -179,8 +179,12 @@ div.menu_dropdown {
 
 /*--------head единый---------*/
 
-.header_menu,.top_header {
+.header_menu {
     width: 100%;
+}
+
+.top_header {
+    width: 100% !important;
 }
 .top_header {
     box-shadow: unset !important;
