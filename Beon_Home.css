@@ -1468,6 +1468,7 @@ div#lefthome .portal_spacer+.card [onclick="document.getElementById('doclickimag
 
 /*------ГАЛОЧКА ДЛЯ ИНДЕКСА------*/
 
+/*
 .seBlogComments .profile_comment_author [href="https://beon.vip/you/"]:after,
 h6.card-subtitle.mb-2.text-muted.post_date [href="https://beon.vip/you/"]:after,
 div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
@@ -1492,6 +1493,7 @@ div#lefthome .portal_spacer+.card [href="https://beon.vip/you/"]:after,
     margin-left: 5px;
     filter: hue-rotate(266deg) brightness(0.8) saturate(3.5);
 }
+*/
 
 
 /*----ЗЕЛЁНАЯ ГАЛОЧКА ДЛЯ ЛЕГИОНА-----*/
