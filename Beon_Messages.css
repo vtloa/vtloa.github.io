@@ -1716,3 +1716,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu a {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu a:hover {
     color: #6c7376 !important;
 }
+
+/*-------------*/
+
+div#message_row_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
