@@ -952,7 +952,7 @@ input#comment_submit:hover {
 /*----------------ЗАМЕНА ИКОНОК------------------*/
 
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]::before {
-  content: '\F2EF' !important;
+  content: '\F589' !important;
   font-size: 20px !important;
 }
 
