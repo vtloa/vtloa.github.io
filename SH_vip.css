@@ -9,7 +9,7 @@
 
 [onmouseover="showMenu('menu_dropdown_profile');"], [onmouseover="showMenu('menu_dropdown_blog');"], [onmouseover="showMenu('menu_dropdown_tests');"], [onmouseover="showMenu('menu_dropdown_groups');"], [onmouseover="showMenu('menu_dropdown_albums');"], [href="im.php"], [onmouseover="showMenu('menu_dropdown_albums');"], [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"], .top_header [href="./"],
 .top_header button.btn.btn-primary {
-  font-family: 'bootstrap-icons';
+  font-family: 'bootstrap-icons' !important;
 }
 
 /*
