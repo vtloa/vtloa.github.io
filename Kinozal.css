@@ -630,7 +630,7 @@ a,button,img,input,b {cursor: url(https://beon.vip/uploads_user/10000/9068/55357
 /*----------------ЗАМЕНА ИКОНОК------------------*/
 
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]::before {
-  content: '\F2EF' !important;
+  content: '\F589' !important;
   font-size: 20px !important;
 }
 
