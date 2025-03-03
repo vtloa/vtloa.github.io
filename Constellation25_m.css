@@ -911,3 +911,7 @@ input#comment_submit:hover {
     padding-right: 4px;
     transition: 0.2s;
 }
+
+a#attach_file_click {
+    filter: contrast(0.5);
+}
