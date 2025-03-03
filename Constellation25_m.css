@@ -915,3 +915,7 @@ input#comment_submit:hover {
 a#attach_file_click {
     filter: contrast(0.5);
 }
+
+.post_data a.card-link {
+    color: #868686 !important;
+}
