@@ -292,3 +292,8 @@ div#fffuuusmiles,div#smiles {
     outline: 1px solid #adba9d;
 }
 
+a#comment_last_page_top,
+a#comment_last_page_bottom {
+    color: #ed9278 !important;
+}
+
