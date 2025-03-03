@@ -951,3 +951,7 @@ a#comment_next_page_top,a#comment_next_page_bottom {
   content: '\F7BF' !important;
   font-size: 25px;
 }
+
+input#comment_submit:hover {
+    background: #4f4d4f !important;
+}
