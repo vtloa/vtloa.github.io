@@ -5,7 +5,7 @@
 @font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
 
 [onmouseover="showMenu('menu_dropdown_profile');"], [onmouseover="showMenu('menu_dropdown_blog');"], [onmouseover="showMenu('menu_dropdown_tests');"], [onmouseover="showMenu('menu_dropdown_groups');"], [onmouseover="showMenu('menu_dropdown_albums');"], [href="im.php"], [onmouseover="showMenu('menu_dropdown_albums');"], [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"], .top_header [href="./"],
-.top_header button.btn.btn-primary {
+.top_header button.btn.btn-primary,[href="./"]:before {
   font-family: 'bootstrap-icons' !important;
 }
 
@@ -949,6 +949,5 @@ a#comment_next_page_top,a#comment_next_page_bottom {
 
 .top_header button.btn.btn-primary::before {
   content: '\F7BF' !important;
-  color: #1f72f3;
   font-size: 25px;
 }
