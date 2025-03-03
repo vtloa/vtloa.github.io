@@ -757,3 +757,76 @@ input#comment_secure:focus, input#comment_secure:hover {
 h2.card-title {
     font-size: 24px;
 }
+
+
+/*------FIX 03.03.25*/
+
+div#lefthome .card {
+  border: unset;
+}
+
+div#lefthome .card,
+.top_header div.menu_dropdown, .top_header div.menu_dropdown:hover,
+.top_menu_link:hover div.menu_dropdown{
+  border: unset !important;
+}
+
+.menu_item_dropdown a:hover {
+  filter: unset !important;
+}
+
+button.btn.btn-primary {
+  background: white;
+}
+
+.top_header {
+  border: unset;
+}
+
+.blog_leftsearch input[type="text"] {
+  background: #313131;
+  border-radius: unset;
+}
+
+div#designs {
+  font-size: 0;
+  background: transparent;
+  border: unset;
+}
+
+.show_menu.header-orange {
+  background: gainsboro;
+  color: black;
+  border-radius: unset;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+div#lefthome::before {
+    display: none !important;
+}
+
+#lefthome {
+  max-height: unset !important;
+}
+
+button.navbar-toggler, button.navbar-toggler:hover {
+  background: transparent !important;
+  opacity: 1;
+}
+
+button.btn.btn-outline-success,button.btn.btn-outline-success:hover {
+  background: url(https://img.icons8.com/fluency-systems-regular/2x/down.png) no-repeat center / contain !important;
+  border: unset;
+  text-transform: uppercase;
+  font-size: 0;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+}
+
+button.btn.btn-outline-success::before {
+    opacity: 0;
+}
