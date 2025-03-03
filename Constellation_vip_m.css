@@ -830,3 +830,70 @@ button.btn.btn-outline-success,button.btn.btn-outline-success:hover {
 button.btn.btn-outline-success::before {
     opacity: 0;
 }
+
+.group_desc {
+    display: none;
+}
+
+.post_image {
+    text-align: left;
+}
+
+.post {
+    padding: 0px;
+}
+
+li.p-1:hover, ul.seBlogCategoryList li:hover {
+    background: #171717;
+    transform: unset;
+    transition: 0.2s ease-out;
+}
+
+li.p-1:before, ul.seBlogCategoryList li:before {
+    display: none;
+}
+
+.card.group_members a {
+    color: #565656 !important;
+}
+
+.profile_comment_author,.profile_comment_date {
+    margin-left: 10px;
+    padding: 0px !important;
+}
+
+.like_button.liked:before,
+.like_button.liked+span{
+    color: #cdcdcd !important;
+}
+
+.like_button.liked:before {
+    text-shadow: 0px 0px #cdcdcd;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    font-size: 14px;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+    font-family: 'fontawesome';
+    font-size: 14px;
+    color: #868686;
+}
+
+div#postcomment_form {
+    width: calc(100% - 133px) !important;
+    margin-right: 10px;
+}
+
+div#bbcode {
+    width: calc(100% - 240px);
+}
+
+button.button_down:hover {
+    background-color: transparent !important;
+}
+
+a.page-link {
+    box-shadow: unset !important;
+}
