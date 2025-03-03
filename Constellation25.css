@@ -867,3 +867,7 @@ div#postcomment_form {
 div#bbcode {
     width: calc(100% - 240px);
 }
+
+.post_image {
+    min-height: 100px;
+}
