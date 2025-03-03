@@ -871,3 +871,9 @@ div#bbcode {
 .post_image {
     min-height: 100px;
 }
+
+span#notify_total {
+    min-width: unset;
+    margin: 0px;
+    line-height: 1;
+}
