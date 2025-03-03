@@ -892,3 +892,12 @@ a.page-link {
 .profile_postcomment {
     border: unset !important;
 }
+
+input#comment_submit {
+    border-radius: unset;
+    line-height: 2;
+    padding: 4px !important;
+}
+input#comment_submit:hover {
+    background-color: #ababab !important;
+}
