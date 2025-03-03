@@ -897,3 +897,7 @@ button.button_down:hover {
 a.page-link {
     box-shadow: unset !important;
 }
+
+.profile_postcomment {
+    border: unset !important;
+}
