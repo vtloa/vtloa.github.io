@@ -881,15 +881,6 @@ li.p-1:before, ul.seBlogCategoryList li:before {
     color: #868686;
 }
 
-div#postcomment_form {
-    width: calc(100% - 133px) !important;
-    margin-right: 10px;
-}
-
-div#bbcode {
-    width: calc(100% - 240px);
-}
-
 button.button_down:hover {
     background-color: transparent !important;
 }
