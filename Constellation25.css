@@ -887,3 +887,7 @@ button.btn.btn-primary:active {
 .btn-primary:focus, .btn-primary.focus {
     box-shadow: unset !important;
 }
+
+div#designs:hover {
+    transform: unset;
+}
