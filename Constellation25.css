@@ -877,3 +877,12 @@ span#notify_total {
     margin: 0px;
     line-height: 1;
 }
+
+button.btn.btn-primary:active {
+    background: #fd8f6c !important;
+    border: unset !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: unset !important;
+}
