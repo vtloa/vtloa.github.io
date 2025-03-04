@@ -919,3 +919,7 @@ a#attach_file_click {
 .post_data a.card-link {
     color: #868686 !important;
 }
+
+div[id^="comment_"]:not(a) {
+    margin-bottom: 0px;
+}
