@@ -883,6 +883,7 @@ button.btn.btn-primary:active {
     border: unset !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus,
+.btn-primary:focus, .btn-primary.focus {
     box-shadow: unset !important;
 }
