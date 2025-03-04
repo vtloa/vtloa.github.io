@@ -816,8 +816,8 @@ div#designs:before {
     font-size: 11px;
     color: whitesmoke;
     position: fixed;
-    left: 20px;
-    bottom: 20px;
+    bottom: 10px;
+    right: 10px;
 }
 
 
