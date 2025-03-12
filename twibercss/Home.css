@@ -35,7 +35,7 @@ td.left-panel {
 }
 
 
-.avatar img, .avatar-wrapper {
+.avatar img, .avatar-wrapper,td.left-panel {
     width: auto;
     max-width: 100px;
     height: auto;
@@ -72,7 +72,9 @@ td.unblocked {
 }
 
 
-
+.container.posts,.posts .post .content {
+    padding: 0px !important;
+}
 
 
 td.content {
@@ -95,6 +97,12 @@ td.unblocked {
     padding: 15px;
     max-width: calc(100% - 30px);
 }
+
+.container.posts td.unblocked {
+    max-width: 100%;
+}
+
+
 /*-----------MEDIA*/
 
 
