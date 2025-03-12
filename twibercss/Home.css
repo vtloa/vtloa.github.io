@@ -1,0 +1,109 @@
+/*-----------------УДАЛЯШКИ скрипт добавить---*/
+
+.edited_by {
+    display: none;
+}
+
+/*----------------------------*/
+
+span.link.target {
+    display: none !important;
+}
+
+.message img {
+    max-width: 400px !important;
+}
+
+td.unblocked {
+    width: 100%;
+    display: block;
+    padding: 20px;
+}
+
+td.left-panel {
+    vertical-align: baseline;
+}
+
+.mini-profile {
+    border-radius: unset !important;
+    border: unset;
+    padding: 0px;
+}
+
+.avatar-wrapper.avatar_size_default.avatar-2 {
+    text-align: left;
+}
+
+
+.avatar img, .avatar-wrapper {
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    max-height: 150px;
+}
+
+.mini-profile br {
+    display: none;
+}
+
+span.personal-text,.info:has(span.italic) {
+    max-width: 100px;
+    font-size: 11px;
+    color: #808080!important ;
+    text-align: center !important;
+    display: block;
+    margin-top: 5px;
+}
+
+.info {
+    color: #8BC34A !important;
+}
+
+.mini-profile {
+    max-width: 100px;
+}
+
+a.js-thread__link.thread-link {
+    font-size: 21px;
+}
+
+td.unblocked {
+    padding: 0px;
+}
+
+
+
+
+
+td.content {
+    vertical-align: baseline;
+}
+
+td.left-panel+td.content, .signature {
+    margin-left: 15px !important;
+    width: calc(100% - 30px);
+    display: block;
+}
+
+
+.new-container {
+    display: flex;
+    flex-direction: column;
+}
+
+td.unblocked {
+    padding: 15px;
+    max-width: calc(100% - 30px);
+}
+/*-----------MEDIA*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    div#wrapper {
+    width: 96%;
+    margin: auto !important;
+}
+    .message img {
+    max-width: 100% !important;
+}
+}
