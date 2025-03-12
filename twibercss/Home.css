@@ -18,6 +18,12 @@ div#navigation-menu {
     right: 0;
     border-radius: unset;
     padding: 0px;
+    background: #e7b67c;
+}
+
+#navigation-menu>ul li a {
+    color: #93542a !important;
+    font-size: 15px;
 }
 
 span.link.target {
