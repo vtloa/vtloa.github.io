@@ -11,6 +11,15 @@ body {
     flex-direction: column-reverse;
 }
 
+div#navigation-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: unset;
+    padding: 0px;
+}
+
 span.link.target {
     display: none !important;
 }
@@ -96,6 +105,7 @@ td.left-panel+td.content, .signature {
 .new-container {
     display: flex;
     flex-direction: column;
+    margin-top: 145px;
 }
 
 td.unblocked {
