@@ -18,7 +18,7 @@ div#navigation-menu {
     right: 0;
     border-radius: unset;
     padding: 0px;
-    background: #e7b67c;
+    background: #e7b67c !important;
 }
 
 #navigation-menu>ul li a {
