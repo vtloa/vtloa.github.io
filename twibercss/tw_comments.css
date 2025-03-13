@@ -1,3 +1,11 @@
+.content {
+    max-width: 70%;
+    margin: auto;
+}
+
+
+/*-------------*/
+
 textarea#content {
     width: 100% !important;
     min-height: 100px;
