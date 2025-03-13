@@ -21,6 +21,17 @@ header a {
 
 /*-------------*/
 
+.content {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+img.post_avatar {
+    max-width: 100px;
+    max-height: 162px;
+}
+
 textarea#content {
     width: 100% !important;
     min-height: 100px;
