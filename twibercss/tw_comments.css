@@ -59,7 +59,10 @@ button {
     grid-column: 2 / -1;
 }
 
-
 .comments_content p {
     margin: 0px;
+}
+
+.comment_edit {
+    text-align: right;
 }
