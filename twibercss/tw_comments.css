@@ -1,3 +1,18 @@
+header {
+    background: #a0beff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+header a {
+    font-size: 19px;
+    margin-right: 25px;
+    color: #4e11ff;
+}
+
 .content {
     max-width: 70%;
     margin: auto;
