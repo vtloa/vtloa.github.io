@@ -49,3 +49,7 @@ p.post_content {
     max-height: 162px;
     border-radius: unset;
 }
+
+.post_edit {
+    text-align: right;
+}
