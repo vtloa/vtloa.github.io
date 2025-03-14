@@ -21,3 +21,23 @@
 img.post-avatar {
     max-width: 100px;
 }
+
+/*------ВРЕМЕННО*/
+
+.post-header {
+    display: grid;
+}
+
+img.post-avatar {
+    order: 1;
+}
+
+.post-header {
+    display: grid;
+    float: inline-start;
+}
+
+img.post-avatar {
+    order: 1;
+    margin-right: 15px;
+}
