@@ -12,3 +12,7 @@
 .post {
     order: 1;
 }
+
+.top-users {
+    margin-bottom: 50px;
+}
