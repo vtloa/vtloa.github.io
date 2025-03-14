@@ -88,5 +88,12 @@ textarea#content {
     margin-bottom: 10px;
 }
 
+.comments_content {
+    white-space: pre-wrap;
+}
+
+.comments_content {
+    display: grid;
+}
 
 
