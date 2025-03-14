@@ -19,13 +19,6 @@ img.post_avatar {
     max-height: 162px;
 }
 
-textarea#content {
-    width: 100% !important;
-    min-height: 100px;
-    padding: 5px;
-    font-size: 14px;
-}
-
 .add_comment {
     margin-bottom: 20px;
 }
@@ -72,3 +65,26 @@ textarea#content {
 .comment_edit {
     text-align: right;
 }
+
+textarea#content {
+    width: calc(100% - 120px) !important;
+    min-height: 100px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.avatar_selection {
+    width: 120px;
+    float: right;
+    text-align: center;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.avatar_selection img {
+    max-width: 100px;
+    max-height: 162px;
+}
+
+
+
