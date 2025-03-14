@@ -36,16 +36,6 @@ img.post_avatar {
     width: 100px;
 }
 
-.comment {
-    margin-bottom: 20px;
-}
-
-
-.comments_content {
-    margin-left: 100px;
-    padding-left: 10px;
-}
-
 .comments_content p {
     margin: 0px;
 }
@@ -75,9 +65,28 @@ textarea#content {
     margin-bottom: 10px;
 }
 
+
 .comments_content {
+    margin-left: 100px;
+    padding-left: 10px;
     white-space: pre-wrap;
     display: grid;
 }
 
+.comment_header {
+    display: block;
+}
 
+.comment_avatar {
+    float: left;
+}
+
+.comment {
+    display: block;
+    min-height: 110px;
+    margin-bottom: 40px;
+}
+
+.comments_content {
+    min-height: 50px;
+}
