@@ -1,14 +1,6 @@
-header {
-    background: #a0beff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    z-index: 2;
-}
+@import url('https://vtloa.github.io/twibercss/tw_all.css');
 
-.content {
-  max-width: 70%; margin: auto; margin-top: 100px;
-}
 
+
+
+/*-------------*/
