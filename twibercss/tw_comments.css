@@ -12,6 +12,7 @@
 
 .avatar_selection img.selected {
     outline: 3px solid #8dcd32;
+    outline-offset: -4px;
 }
 
 img.post_avatar {
@@ -67,14 +68,14 @@ img.post_avatar {
 }
 
 textarea#content {
-    width: calc(100% - 120px) !important;
+    width: calc(100% - 135px) !important;
     min-height: 100px;
     padding: 5px;
     font-size: 14px;
 }
 
 .avatar_selection {
-    width: 120px;
+    width: 135px;
     float: right;
     text-align: center;
     max-height: 200px;
@@ -84,6 +85,7 @@ textarea#content {
 .avatar_selection img {
     max-width: 100px;
     max-height: 162px;
+    margin-bottom: 10px;
 }
 
 
