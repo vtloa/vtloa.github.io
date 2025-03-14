@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+div#comments {
+    display: grid;
+}
+
 .avatar_selection img {
     max-width: 100px;
     max-height: 162px;
