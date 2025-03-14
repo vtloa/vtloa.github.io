@@ -19,7 +19,6 @@
 }
 
 
-
 .post_avatar {
     width: 100px;
 }
@@ -27,6 +26,11 @@
 p.post_content {
     margin-left: 100px;
     padding-left: 10px;
+    white-space: pre-wrap;
+    display: grid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 50px;
 }
 
 
@@ -50,7 +54,3 @@ span.post_username {
     float: left;
 }
 
-p.post_content {
-    white-space: pre-wrap;
-    display: grid;
-}
