@@ -49,3 +49,8 @@ span.post_username {
 .post_avatar {
     float: left;
 }
+
+p.post_content {
+    white-space: pre-wrap;
+    display: grid;
+}
