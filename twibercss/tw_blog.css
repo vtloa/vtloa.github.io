@@ -15,31 +15,7 @@
 }
 
 .post {
-    display: grid;
-    grid-column: 1 / -1;
-    grid-template-columns: subgrid;
-    grid-template-rows: -webkit-min-content -webkit-min-content;
-    grid-template-rows: min-content min-content;
     margin-bottom: 50px;
-}
-
-
-h3.post_title {
-    position: relative;
-    z-index: 2;
-    font-size: 23px;
-}
-
-h3.post_title {
-    grid-row: 1 / 2;
-    grid-column: 2 / -1;
-}
-
-small.post_date {
-    height: 24px;
-    font-size: 20px;
-    margin-top: -10px;
-    padding-left: 10px;
 }
 
 
@@ -52,9 +28,6 @@ small.post_date {
 
 p.post_content {
     margin-left: 100px;
-    padding-left: 10px;
-    grid-row: 2 / 2;
-    grid-column: 2 / -1;
 }
 
 
@@ -68,4 +41,12 @@ p.post_content {
 
 .post_edit {
     text-align: right;
+}
+
+span.post_username {
+    display: block;
+}
+
+.post_avatar {
+    float: left;
 }
