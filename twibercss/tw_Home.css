@@ -16,3 +16,7 @@
 .top-users {
     margin-bottom: 50px;
 }
+
+img.post-avatar {
+    max-width: 100px;
+}
