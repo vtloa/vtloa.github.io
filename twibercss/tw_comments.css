@@ -21,6 +21,15 @@ header a {
 
 /*-------------*/
 
+.avatar_selection img {
+    max-width: 100px;
+    max-height: 162px;
+}
+
+.avatar_selection img.selected {
+    outline: 3px solid #8dcd32;
+}
+
 .content {
     max-width: 70%;
     margin: auto;
