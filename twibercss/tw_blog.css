@@ -1,1 +1,8 @@
+.post_body {
+    display: grid;
+}
 
+.create_post {
+    position: unset;
+    order: 1;
+}
