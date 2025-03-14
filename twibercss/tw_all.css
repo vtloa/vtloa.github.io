@@ -1,3 +1,11 @@
+html {
+    font-size: 105%;
+}
+
+span.data_comments, small.post_date {
+    font-size: 11px;
+}
+
 header {
     background: #a0beff;
     position: fixed;
