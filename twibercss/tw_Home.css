@@ -4,3 +4,11 @@
 
 
 /*-------------*/
+
+.content {
+    display: grid;
+}
+
+.post {
+    order: 1;
+}
