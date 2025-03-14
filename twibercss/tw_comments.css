@@ -1,23 +1,6 @@
-header {
-    background: #a0beff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    z-index: 2;
-}
+@import url('https://vtloa.github.io/twibercss/tw_all.css');
 
-header a {
-    font-size: 19px;
-    margin-right: 25px;
-    color: #4e11ff;
-}
 
-.content {
-    max-width: 70%;
-    margin: auto;
-}
 
 
 /*-------------*/
@@ -29,12 +12,6 @@ header a {
 
 .avatar_selection img.selected {
     outline: 3px solid #8dcd32;
-}
-
-.content {
-    max-width: 70%;
-    margin: auto;
-    margin-top: 100px;
 }
 
 img.post_avatar {
@@ -51,11 +28,6 @@ textarea#content {
 
 .add_comment {
     margin-bottom: 20px;
-}
-
-button {
-    line-height: 2;
-    margin-top: 8px;
 }
 
 .user_avatar {
