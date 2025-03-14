@@ -28,6 +28,13 @@ h3.post_title {
     grid-column: 2 / -1;
 }
 
+
+h3.post_title {
+    position: relative;
+    z-index: 22;
+    font-size: 23px;
+}
+
 .post_avatar {
     width: 100px;
     grid-column: 1 / 2;
