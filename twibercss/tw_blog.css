@@ -35,6 +35,14 @@ h3.post_title {
     grid-column: 2 / -1;
 }
 
+small.post_date {
+    height: 24px;
+    font-size: 20px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+
 
 .post_avatar {
     width: 100px;
