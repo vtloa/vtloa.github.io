@@ -20,7 +20,7 @@
     grid-template-columns: subgrid;
     grid-template-rows: -webkit-min-content -webkit-min-content;
     grid-template-rows: min-content min-content;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
