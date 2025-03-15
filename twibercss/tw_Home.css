@@ -41,3 +41,31 @@ img.post-avatar {
     order: 1;
     margin-right: 15px;
 }
+
+
+.content {
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.post_body {
+    width: 100%;
+}
+
+.leftmenu {
+    width: 30%;
+    max-width: 330px;
+}
+
+.post_body {
+    display: grid;
+}
+
+.top-users h2,.online_users h2 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 3;
+}
