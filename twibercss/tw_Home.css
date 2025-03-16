@@ -69,3 +69,49 @@ img.post-avatar {
     text-align: center;
     line-height: 3;
 }
+
+/*-------------ТОП*/
+
+.top-users ul img {
+    width: auto;
+    max-width: 50px;
+    max-height: 81px;
+    margin-top: 10px;
+}
+
+.top-users ul li:first-child img {
+    max-width: 100px;
+    max-height: 162px;
+}
+
+.top-users ul img {
+    order: 1;
+}
+
+.top-users ul li {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.top-users ul li:first-child+li {
+    margin-left: 20px;
+}
+
+.top-users ul li:first-child+li+li {
+    margin-left: 30px;
+}
+
+.top-users ul li:first-child+li+li+li {
+    margin-left: 30px;
+}
+
+.top-users ul li:first-child+li+li+li+li {
+    margin-left: 30px;
+}
+
+.top-users ul li:first-child+li+li img,
+.top-users ul li:first-child+li+li+li img,
+.top-users ul li:first-child+li+li+li+li img {
+    max-width: 40px;
+    max-height: 65px;
+}
