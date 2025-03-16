@@ -41,6 +41,13 @@ p.post_content {
     max-height: 243px;
 }
 
+.post_avatar img {
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    max-height: 162px;
+}
+
 .post_edit {
     text-align: right;
 }
