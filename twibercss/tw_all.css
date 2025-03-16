@@ -46,3 +46,10 @@ button {
     padding: 3px;
 }
 
+h1.notice {
+    width: 500px;
+    position: absolute;
+    top: 130px;
+    left: unset;
+    right: 60px;
+}
