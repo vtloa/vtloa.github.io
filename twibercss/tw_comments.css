@@ -75,6 +75,7 @@ textarea#content {
     padding-left: 10px;
     white-space: pre-wrap;
     display: grid;
+    word-break: break-word;
 }
 
 .comment_header {
