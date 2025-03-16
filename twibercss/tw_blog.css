@@ -85,3 +85,8 @@ img.profile_avatar {
 h3.post_title {
     margin: 0px;
 }
+
+.post_stats {
+    margin-left: 100px;
+    padding-left: 10px;
+}
