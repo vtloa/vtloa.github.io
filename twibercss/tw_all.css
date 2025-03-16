@@ -64,3 +64,14 @@ div#notifications-container h3 {
     text-align: center;
     line-height: 3;
 }
+
+h1.notice:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(https://cdna.artstation.com/p/assets/images/images/070/660/418/original/vincent-atomico-clippit-float-2.gif?1703107721) no-repeat center / contain;
+    position: absolute;
+    bottom: -73px;
+    right: -35px;
+}
