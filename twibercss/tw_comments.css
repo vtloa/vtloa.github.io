@@ -94,3 +94,17 @@ textarea#content {
 .comments_content {
     min-height: 50px;
 }
+
+span.data_comments+span {
+    float: inline-end;
+    line-height: 2;
+    font-size: 10px;
+    color: #727272;
+}
+
+.comment_header [onclick^="likeComment"] {
+    float: right;
+    margin: 0px;
+    line-height: normal;
+    margin-right: 10px;
+}
