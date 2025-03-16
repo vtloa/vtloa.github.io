@@ -16,7 +16,17 @@ body {
     font-family: "Geologica", sans-serif;
 }
 
-span.data_comments, small.post_date {
+a {
+    color: #3F51B5;
+}
+
+.post_stats, small.post_date {
+    font-size: 10px;
+    color: #727272;
+}
+
+
+.post_edit {
     font-size: 11px;
 }
 
