@@ -53,3 +53,14 @@ h1.notice {
     left: unset;
     right: 60px;
 }
+
+div#notifications-container {
+    background: unset;
+    border: unset;
+}
+
+div#notifications-container h3 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 3;
+}
