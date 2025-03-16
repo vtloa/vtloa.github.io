@@ -33,12 +33,12 @@ p.post_content {
     word-break: break-word;
 }
 
-.post_avatar img {
+img.profile_avatar {
+    margin: auto;
     width: auto;
-    max-width: 100px;
-    height: auto;
-    max-height: 162px;
-    border-radius: unset;
+    display: block;
+    max-width: 150px;
+    max-height: 243px;
 }
 
 .post_edit {
