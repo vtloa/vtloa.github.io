@@ -1,27 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+
+font-family: "Geologica", sans-serif;
+
+*/
+
+/*-------------------------*/
+
 html {
-    font-size: 105%;
+    font-size: 14px;
+}
+
+body {
+    font-family: "Geologica", sans-serif;
 }
 
 span.data_comments, small.post_date {
     font-size: 11px;
 }
-
-header {
-    background: #a0beff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    z-index: 2;
-}
-
-header a {
-    font-size: 19px;
-    margin-right: 25px;
-    color: #4e11ff;
-}
-
 
 .content {
     max-width: 70%;
