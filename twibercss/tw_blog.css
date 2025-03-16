@@ -33,7 +33,7 @@ p.post_content {
     word-break: break-word;
 }
 
-img.profile_avatar {
+.profile_body img.profile_avatar {
     margin: auto;
     width: auto;
     display: block;
