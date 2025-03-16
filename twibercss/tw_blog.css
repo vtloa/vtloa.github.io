@@ -18,7 +18,6 @@
     margin-bottom: 50px;
 }
 
-
 .post_avatar {
     width: 100px;
 }
@@ -33,7 +32,6 @@ p.post_content {
     min-height: 50px;
     word-break: break-word;
 }
-
 
 .post_avatar img {
     width: auto;
@@ -82,4 +80,8 @@ img.profile_avatar {
     display: block;
     max-width: 150px;
     max-height: 300px;
+}
+
+h3.post_title {
+    margin: 0px;
 }
