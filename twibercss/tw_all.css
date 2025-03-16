@@ -41,5 +41,8 @@ button {
     margin-top: 8px;
 }
 
-
+.post-content p img {
+    max-width: 400px !important;
+    padding: 3px;
+}
 
