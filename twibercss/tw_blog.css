@@ -75,13 +75,6 @@ span.post_username {
     line-height: 3;
 }
 
-img.profile_avatar {
-    margin: auto;
-    display: block;
-    max-width: 150px;
-    max-height: 300px;
-}
-
 h3.post_title {
     margin: 0px;
 }
