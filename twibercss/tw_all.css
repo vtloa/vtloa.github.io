@@ -8,6 +8,10 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
+:visited {
+    color: #952f98;
+}
+
 html {
     font-size: 14px;
 }
