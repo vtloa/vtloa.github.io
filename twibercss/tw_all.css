@@ -81,11 +81,11 @@ div#unread-count {
     text-align: center;
 }
 
-.left_menu_notifications:has(img.notification-avatar) div#unread-count  {
+div#notifications-container:has(img) div#unread-count  {
     background: transparent;
 }
 
-.left_menu_notifications:has(img.notification-avatar) div#unread-count {
+div#notifications-container:has(img) div#unread-count {
     color: transparent;
 }
 
