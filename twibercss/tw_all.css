@@ -92,6 +92,3 @@ div#unread-count {
 .online_users ul {
     padding: 0px;
 }
-.online_users ul li {
-    display: block !important;
-}
