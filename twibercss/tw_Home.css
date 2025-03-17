@@ -145,3 +145,11 @@ div#notifications-container h3 {
 .top-users h2 {
     background: #E91E63;
 }
+
+.online_users ul li img {
+    margin-right: 10px;
+}
+.online_users ul li {
+    display: flex !important;
+    line-height: 2;
+}
