@@ -166,8 +166,15 @@ small, .post-actions {
 .online_users ul li img {
     margin-right: 10px;
 }
+
 .online_users ul li {
     display: flex !important;
     line-height: 2;
     margin-bottom: 10px;
 }
+
+p.post_content {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
