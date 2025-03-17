@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+summary {
+    cursor: pointer;
+}
+
 .post_body {
     display: grid;
 }
