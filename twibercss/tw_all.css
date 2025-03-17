@@ -87,6 +87,11 @@ div#notifications-container:has(img) div#unread-count  {
     color: transparent;
 }
 
+div#notifications-container h3 {
+    background: #d2dcf2;
+    color: #5b77b0;
+}
+
 .online_users ul {
     padding: 0px;
 }
