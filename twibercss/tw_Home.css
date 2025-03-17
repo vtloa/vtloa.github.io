@@ -118,3 +118,7 @@ img.post-avatar {
     float: left;
 }
 
+small {
+    font-size: 10px;
+    color: #727272;
+}
