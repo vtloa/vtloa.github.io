@@ -16,10 +16,6 @@ h1.notice {
     z-index: 22;
 }
 
-.content {
-    margin-top: 250px;
-}
-
 .leftmenu {
     margin-top: -150px;
 }
@@ -60,6 +56,7 @@ img.post-avatar {
     max-width: 100%;
     display: flex;
     margin: auto;
+    margin-top: 250px;
 }
 
 .post_body {
