@@ -149,3 +149,14 @@ h3.post_title {
 .additional_avatars h2+div div {
     margin-bottom: 5px;
 }
+
+.friends-section ul {
+    padding: 0px;
+}
+
+.friends-section ul li {
+    display: flex !important
+;
+    line-height: 2;
+    margin-bottom: 10px;
+}
