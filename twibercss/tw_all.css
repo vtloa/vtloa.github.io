@@ -83,9 +83,7 @@ div#unread-count {
 
 div#notifications-container:has(img) div#unread-count  {
     background: transparent;
-}
-
-div#notifications-container:has(img) div#unread-count {
+    height: unset;
     color: transparent;
 }
 
