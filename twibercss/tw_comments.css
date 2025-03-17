@@ -80,6 +80,7 @@ textarea#content {
 
 .comment_header {
     display: block;
+    line-height: 1.6;
 }
 
 .comment_avatar {
