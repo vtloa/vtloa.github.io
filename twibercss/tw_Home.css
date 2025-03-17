@@ -60,7 +60,7 @@ img.post-avatar {
     max-width: 100%;
     display: flex;
     margin: auto;
-    margin-top: 250px;
+    /* margin-top: 250px; */
 }
 
 .post_body {
@@ -185,4 +185,9 @@ p.post_content {
     margin-bottom: 0px;
     min-height: 50px;
     word-break: break-word;
+}
+
+.pagination-arrows {
+    margin-top: 63px;
+    margin-bottom: 170px;
 }
