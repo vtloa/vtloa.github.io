@@ -5,8 +5,9 @@
 
 /*-------------*/
 
-summary {
+.profile_body summary {
     cursor: pointer;
+    line-height: 4;
 }
 
 .post_body {
@@ -88,6 +89,10 @@ span.post_username {
     color: white;
     font-weight: normal;
     background: #8BC34A;
+}
+
+.profile_setting h2 {
+    background: #2196F3;
 }
 
 h3.post_title {
