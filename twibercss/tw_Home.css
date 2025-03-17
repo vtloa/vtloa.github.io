@@ -28,19 +28,13 @@ img.post-avatar {
     display: grid;
 }
 
-img.post-avatar {
-    order: 1;
-}
+
 
 .post-header {
     display: grid;
     float: inline-start;
 }
 
-img.post-avatar {
-    order: 1;
-    margin-right: 15px;
-}
 
 
 .content {
