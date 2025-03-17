@@ -136,3 +136,7 @@ small, .post-actions {
     color: white;
     font-weight: normal;
 }
+
+div#notifications-container h3 {
+    background: #e9dc52;
+}
