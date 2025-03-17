@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+.top-users ul li:first-child:before {
+    content: url(https://img.icons8.com/?size=16&id=1JSk3wvzi9WV&format=png);
+}
+
 .top-users ul {
     padding-left: 20px;
 }
