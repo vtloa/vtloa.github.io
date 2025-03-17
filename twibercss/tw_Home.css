@@ -127,3 +127,40 @@ small, .post-actions {
     font-size: 10px;
     color: #727272;
 }
+
+.ud {
+    display: flex;
+}
+
+.post_header {
+    float: left;
+    margin-right: 10px;
+}
+
+.post {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.data_post {
+    font-size: 10px;
+    color: #727272;
+    line-height: 2;
+    margin-left: 5px;
+}
+
+span.data_comments {
+    margin-left: 5px;
+}
+
+.post [onclick^="likePost"] {
+    margin: 0px;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.post_info {
+    font-size: 10px;
+    color: #727272;
+}
