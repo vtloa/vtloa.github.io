@@ -109,3 +109,7 @@ img.post-avatar {
     max-width: 40px;
     max-height: 65px;
 }
+
+.post_title h3 {
+    margin: 0px;
+}
