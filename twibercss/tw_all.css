@@ -8,7 +8,7 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
-:visited {
+:visited:not(header a) {
     color: #8c2f98;
 }
 
