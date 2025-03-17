@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+.create_post+h2 {
+    margin-top: 0px;
+}
+
 .profile_body summary {
     cursor: pointer;
     line-height: 4;
