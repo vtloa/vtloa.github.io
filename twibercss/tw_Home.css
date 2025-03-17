@@ -56,6 +56,7 @@ img.post-avatar {
 .leftmenu {
     width: 30%;
     max-width: 330px;
+    margin-right: 20px;
 }
 
 .post_body {
