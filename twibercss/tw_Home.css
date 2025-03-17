@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+.leftmenu>div {
+    margin-bottom: 20px;
+}
+
 div#message {
     all: unset !important;
 }
