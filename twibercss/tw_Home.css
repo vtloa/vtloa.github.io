@@ -125,12 +125,14 @@ small, .post-actions {
     color: #727272;
 }
 
-.top-users h2, .online_users h2, div#notifications-container h3  {
+.top-users h2, .online_users h2, div#notifications-container h3 {
     font-size: 14px;
     text-align: center;
     line-height: 2;
     color: white;
     font-weight: normal;
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 .top-users h2 {
