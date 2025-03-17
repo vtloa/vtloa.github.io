@@ -155,8 +155,11 @@ h3.post_title {
 }
 
 .friends-section ul li {
-    display: flex !important
-;
+    display: flex !important;
     line-height: 2;
     margin-bottom: 10px;
+}
+
+.friends-section ul li img {
+    margin-right: 10px;
 }
