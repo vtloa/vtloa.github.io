@@ -169,3 +169,7 @@ h3.post_title {
 .friends-section ul li img {
     margin-right: 10px;
 }
+
+.friends-section h2 {
+    background: #E91E63;
+}
