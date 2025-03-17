@@ -138,3 +138,10 @@ h3.post_title {
     outline: 3px solid #8dcd32;
     outline-offset: -4px;
 }
+
+.additional_avatars h2+div img {
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    max-height: 162px;
+}
