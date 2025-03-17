@@ -155,7 +155,7 @@ div#notifications-container h3 {
 /*-----------------------------*/
 
 
-.content [href^="profile.php?id"]:not(.post .post_username a, .comment a.username):before {
+.content [href^="profile.php?id"]:not(.post .post_username a, .comment a.username, .comment .comment_header a, .ud a):before {
     content: '';
     display: inline-block;
     background: url(https://img.icons8.com/?size=16&id=BbGW_Ep3Ej0j&format=png) no-repeat center / contain;
