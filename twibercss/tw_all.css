@@ -79,3 +79,25 @@ h1.notice:before {
 img.notification-avatar {
     max-width: 30px;
 }
+
+
+div#unread-count {
+    background: url(https://art.pixilart.com/5be6534b9a63ab4.gif) no-repeat center / contain;
+    height: 100px;
+    text-align: center;
+}
+
+.left_menu_notifications:has(img.notification-avatar) div#unread-count  {
+    background: transparent;
+}
+
+.left_menu_notifications:has(img.notification-avatar) div#unread-count {
+    color: transparent;
+}
+
+.online_users ul {
+    padding: 0px;
+}
+.online_users ul li {
+    display: block !important;
+}
