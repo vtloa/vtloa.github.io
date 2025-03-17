@@ -145,3 +145,7 @@ h3.post_title {
     height: auto;
     max-height: 162px;
 }
+
+.additional_avatars h2+div div {
+    margin-bottom: 5px;
+}
