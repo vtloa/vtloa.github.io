@@ -95,3 +95,12 @@ div#notifications-container h3 {
 .online_users ul {
     padding: 0px;
 }
+
+.notification img {
+    margin-right: 10px;
+}
+
+.notification {
+    display: flex;
+    line-height: 2;
+}
