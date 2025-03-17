@@ -172,3 +172,27 @@ h3.post_title {
 .friends-section h2 {
     background: #E91E63;
 }
+
+.gender-section, .birthdate-section, .zodiac-section {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.about-section h2 {
+    display: none;
+}
+
+.gender-section h2, .birthdate-section h2, .zodiac-section h2 {
+    background: transparent;
+    color: #727272;
+    margin: 0px;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.gender-section p,
+.birthdate-section p,
+.zodiac-section p {
+    margin: 0px;
+}
