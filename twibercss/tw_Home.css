@@ -113,3 +113,8 @@ img.post-avatar {
 .post_title h3 {
     margin: 0px;
 }
+
+.post_avatar {
+    float: left;
+}
+
