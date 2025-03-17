@@ -77,10 +77,12 @@ span.post_username {
     width: 100%;
 }
 
-.profile_body h2 {
+.profile_body h2  {
     font-size: 14px;
     text-align: center;
-    line-height: 3;
+    line-height: 2;
+    color: white;
+    font-weight: normal;
 }
 
 h3.post_title {
