@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+.top-users ul {
+    padding-left: 20px;
+}
+
 h1.notice {
     position: absolute;
     top: 0px;
