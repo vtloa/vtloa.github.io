@@ -122,3 +122,7 @@ div#notifications-container h3  {
     color: white;
     font-weight: normal;
 }
+
+.pagination-arrows {
+    margin-top: 50px;
+}
