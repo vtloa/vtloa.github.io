@@ -127,3 +127,12 @@ small, .post-actions {
     font-size: 10px;
     color: #727272;
 }
+
+.top-users h2, .online_users h2 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    background: #8BC34A;
+    color: white;
+    font-weight: normal;
+}
