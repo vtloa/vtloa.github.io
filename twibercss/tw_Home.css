@@ -118,7 +118,7 @@ img.post-avatar {
     float: left;
 }
 
-small {
+small, .post-actions {
     font-size: 10px;
     color: #727272;
 }
