@@ -133,3 +133,41 @@ div#notifications-container h3 {
 .pagination-arrows {
     margin-top: 50px;
 }
+
+/*-------ICON*/
+
+.content2 [href="profile.php?id=6"]:before {
+    content: url(https://img.icons8.com/?size=16&id=_99nEDy9a2dM&format=png);
+    margin-right: 5px;
+}
+
+.content2 [href="profile.php?id=2"]:before {
+    content: url(https://img.icons8.com/?size=16&id=Qm6EQj500-cN&format=png);
+    margin-right: 5px;
+}
+
+
+.content2 [href="profile.php?id=1"]:before {
+    content: url(https://img.icons8.com/?size=16&id=ck9zjaCxdA9T&format=png);
+    margin-right: 5px;
+}
+
+/*-----------------------------*/
+
+
+.content [href^="profile.php?id"]:before {
+    content: '';
+    display: inline-block;
+    background: url(https://img.icons8.com/?size=16&id=BbGW_Ep3Ej0j&format=png) no-repeat center / contain;
+    margin-right: 5px;
+    width: 14px;
+    height: 16px;
+    transform: translateY(3px);
+    filter: saturate(0.7) hue-rotate(-10deg);
+}
+
+.post_username,.ud,.comment_header {
+    line-height: 1.5;
+}
+
+
