@@ -112,3 +112,24 @@ h3.post_title {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.create_post .avatar_selection {
+    align-items: flex-start;
+}
+
+.create_post .avatar_selection img {
+    width: auto;
+    max-width: 100px;
+    object-fit: contain;
+    max-height: 162px;
+}
+
+.create_post textarea, input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.avatar_selection img.selected {
+    outline: 3px solid #8dcd32;
+    outline-offset: -4px;
+}
