@@ -70,6 +70,7 @@ span.post_username {
 .profile_body {
     width: 30%;
     max-width: 330px;
+    margin-right: 30px;
 }
 
 .post_body {
