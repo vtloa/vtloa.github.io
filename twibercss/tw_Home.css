@@ -152,4 +152,5 @@ div#notifications-container h3 {
 .online_users ul li {
     display: flex !important;
     line-height: 2;
+    margin-bottom: 10px;
 }
