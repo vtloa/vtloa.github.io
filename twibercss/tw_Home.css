@@ -5,6 +5,10 @@
 
 /*-------------*/
 
+div#message {
+    all: unset !important;
+}
+
 .content {
     display: grid;
 }
