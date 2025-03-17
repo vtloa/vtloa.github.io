@@ -119,12 +119,17 @@ span.close {
     cursor: pointer;
 }
 
-div#notifications-container h3  {
+div#notifications-container h3 {
     font-size: 14px;
     text-align: center;
     line-height: 2;
     color: white;
     font-weight: normal;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+
 }
 
 .pagination-arrows {
