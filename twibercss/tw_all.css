@@ -88,8 +88,8 @@ div#notifications-container:has(img) div#unread-count  {
 }
 
 div#notifications-container h3 {
-    background: #d2dcf2;
-    color: #5b77b0;
+    background: #FF9800;
+    color: #ffffff;
 }
 
 .online_users ul {
