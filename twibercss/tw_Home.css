@@ -57,6 +57,12 @@ img.post-avatar {
     width: 30%;
     max-width: 330px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.online_users {
+    order: 1;
 }
 
 .post_body {
