@@ -25,7 +25,6 @@ a {
     color: #727272;
 }
 
-
 .post_edit {
     font-size: 11px;
 }
@@ -52,6 +51,7 @@ h1.notice {
     margin-left: auto;
     transform: translateX(-65px);
     margin-top: 35px;
+    top: 20px;
 }
 
 div#notifications-container {
