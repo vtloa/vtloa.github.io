@@ -5,6 +5,21 @@
 
 /*-------------*/
 
+h1.notice {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 22;
+}
+
+.content {
+    margin-top: 250px;
+}
+
+.leftmenu {
+    margin-top: -150px;
+}
+
 .leftmenu>div {
     margin-bottom: 20px;
 }
