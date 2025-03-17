@@ -105,3 +105,12 @@ div#notifications-container h3 {
     line-height: 2;
     margin-bottom: 10px;
 }
+
+span.close {
+    background: #F44336;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
