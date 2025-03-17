@@ -75,3 +75,7 @@ h1.notice:before {
     bottom: -73px;
     right: -35px;
 }
+
+img.notification-avatar {
+    max-width: 30px;
+}
