@@ -184,3 +184,12 @@ button.like-comment-btn {
 button.like-comment-btn:hover {
     transform: scale(0.8) translateY(-5px);
 }
+
+
+button#show-all-notifications {
+    display: none !important;
+}
+
+div#notifications-container:has(img) button#show-all-notifications {
+    display: block !important;
+}
