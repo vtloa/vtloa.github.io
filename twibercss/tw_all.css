@@ -154,25 +154,18 @@ div#notifications-container h3 {
 
 /*-----------------------------*/
 
-
-.content222 [href^="profile.php?id"]:not(.post .post_username a, .comment a.username, .comment .comment_header a, .ud a):before {
-    content: '';
-    display: inline-block;
-    background: url(https://img.icons8.com/?size=16&id=BbGW_Ep3Ej0j&format=png) no-repeat center / contain;
-    margin-right: 5px;
-    width: 14px;
-    height: 16px;
-    transform: translateY(3px);
-    filter: saturate(0.7) hue-rotate(-10deg);
-}
-
 .post_username,.ud,.comment_header {
     line-height: 1.5;
 }
 
+button.like-comment-btn {
+    float: right;
+}
+
 .comment_header [onclick^="likeComment"],
 .post-actions [onclick^="likePost"],
-.post_info [onclick^="likePost"] {
+.post_info [onclick^="likePost"],
+button.like-comment-btn {
     width: 35px;
     height: 24px;
     background: #F44336;
@@ -187,6 +180,7 @@ div#notifications-container h3 {
 
 .comment_header [onclick^="likeComment"]:hover,
 .post-actions [onclick^="likePost"]:hover,
-.post_info [onclick^="likePost"]:hover {
+.post_info [onclick^="likePost"]:hover,
+button.like-comment-btn:hover {
     transform: scale(0.8) translateY(-5px);
 }
