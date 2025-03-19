@@ -8,6 +8,12 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
+span.post_username span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0 !important;
+}
+
 :visited:not(header a) {
     color: #8c2f98;
 }
