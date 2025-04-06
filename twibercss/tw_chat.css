@@ -26,15 +26,11 @@
 
 .message[style="background-color: rgb(232, 244, 255);"] {
     background: transparent !important;
-
 }
-
 
 .message[style="background-color: rgb(232, 244, 255);"]:last-child {
-    background: #0064ff3d !important;
-
+    background: #686f792e !important;
 }
-
 
 .message-user {
   font-weight: bold;
