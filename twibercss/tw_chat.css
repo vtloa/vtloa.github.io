@@ -1,6 +1,5 @@
 .message-content {
   margin-left: 100px;
-  padding-left: 10px;
   white-space: pre-wrap;
   display: grid;
   word-break: break-word;
