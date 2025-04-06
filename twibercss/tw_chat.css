@@ -1,9 +1,14 @@
 .message-content {
-  margin-left: 100px;
-  white-space: pre-wrap;
-  display: grid;
-  word-break: break-word;
-  min-height: 100px;
+    margin-left: 100px;
+    padding-left: 10px;
+    white-space: pre-wrap;
+    display: grid;
+    word-break: break-word;
+    min-height: 100px;
+}
+
+.message-avatar {
+    margin-right: 0px;
 }
 
 .message-avatar {
