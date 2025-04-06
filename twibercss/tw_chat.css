@@ -73,7 +73,7 @@ h1.text-center {
 }
 
 .message-input {
-    height: auto;
+    height: auto !important;
 }
 
 textarea#messageInput {
