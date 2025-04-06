@@ -1,0 +1,87 @@
+.message-content {
+  margin-left: 100px;
+  padding-left: 10px;
+  white-space: pre-wrap;
+  display: grid;
+  word-break: break-word;
+  min-height: 100px;
+}
+
+.message-avatar {
+  float: left;
+  margin: 0px;
+}
+
+.message-time {
+  font-size: 10px;
+  color: #727272;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.message[style="background-color: rgb(232, 244, 255);"] {
+    background: transparent !important;
+
+}
+
+
+.message[style="background-color: rgb(232, 244, 255);"]:last-child {
+    background: #0064ff3d !important;
+
+}
+
+
+.message-user {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/*-------------*/
+
+.row {
+    width: 100%;
+}
+
+div#stickerPicker2 {
+    display: none;
+}
+
+h1.text-center {
+    text-align: left !important;
+}
+
+.chat-container {
+    height: 100%;
+}
+
+.chat_body {
+    width: 80%;
+    position: fixed;
+    top: 2%;
+    left: 20%;
+    right: 20%;
+    height: 96%;
+}
+
+.message-input {
+    position: relative;
+}
+
+.message-input {
+    height: auto;
+}
+
+textarea#messageInput {
+    min-height: 75px;
+}
+
+div#stickerPicker {
+    position: absolute;
+    top: -130px;
+    right: 40px;
+}
