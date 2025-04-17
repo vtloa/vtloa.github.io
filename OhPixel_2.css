@@ -404,6 +404,11 @@ select#addtag-img-size, select#addtag-img-align, select#upload-img-size, select#
     color: #3490dc;
 }
 
+textarea::selection {
+    background: #b0b0b0;
+    color: #272727;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
