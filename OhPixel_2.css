@@ -372,6 +372,38 @@ h3.left-menu-text {
     color: #403f3f !important;
 }
 
+.modal-header,.modal-footer {
+    background: #959595;
+}
+
+
+.modal-content {
+    color: #ebebeb !important;
+    border-color: white;
+    background: transparent;
+    border: unset;
+}
+
+button.btn.btn-secondary, button.btn.btn-primary,a.btn.btn-outline-primary.mb-2 {
+    background: #e3e3e3;
+    border: 1px dotted #b3b4bc;
+    color: #383838 !important;
+}
+
+.modal-body {
+    color: #202020 !important;
+}
+
+select#addtag-img-size, select#addtag-img-align, select#upload-img-size, select#upload-img-align {
+    border: 1px dotted #323131;
+    border-radius: 5px;
+    color: #1b1b1b;
+}
+
+.modal-body a {
+    color: #56b5c3;
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
