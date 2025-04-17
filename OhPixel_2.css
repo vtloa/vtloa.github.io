@@ -1,0 +1,482 @@
+@import url('https://vtloa.github.io/OhPixel.css');
+
+[src="//i1.beon.fun/21/15/1521/7/1399107/ppe-black.png"] {
+    content: url(https://i1.beon.fun/21/15/1521/54/1399754/shchshch2.png);
+}
+
+.blog__about.mb-3 img.mw-100 {
+    filter: opacity(0.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer__infolinks.p-1 {
+    font-size: 0;
+    padding: 0px !important;
+}
+
+div#page__admincontact a {
+    color: #595959;
+}
+div#page__admincontact {
+    margin-top: 15px;
+    color: #838383;
+}
+
+body.bodybg {
+    background: #dcdcdc;
+}
+
+[src="//i0.beon.fun/21/15/1521/avatars/52.png?1661867163"],
+[src="//beon.fun/i/design-off.png"] {
+    filter: grayscale(1);
+}
+
+
+img.flag {
+    display: none;
+}
+
+span.user-drop-menu.cur-p {
+    margin: 0px;
+}
+
+
+.bg-white:before {
+    filter: grayscale(1);
+}
+
+
+.bg-white:before,.bg-white:after {
+    display: none;
+}
+
+.bg-white {
+    border-color: white;
+    background: #acacac;
+}
+
+body.bodybg {
+    background: #dedede;
+}
+
+
+a.navbar-brand, a.my-menu.for-mobile.d-none.d-md-inline:before, .crumbs a, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before, .pagination {
+    color: #8f8f8f !important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background: #9a9a9a;
+    box-shadow: 1px -1px #ffffff, -2px 1px #ffffff;
+}
+
+.content:before {
+    background: url(https://i.ibb.co/whP5S6gv/dreamcafewrapper-top.png);
+}
+
+.content:after,.left-menu:after {
+    background: url(https://i.ibb.co/chqmy324/dreamcafewrapper-bottom.png) right;
+}
+
+.content {
+    background: url(https://i.ibb.co/Xfyq5V4k/dreamcafewrapper-right.png) repeat-y top -14px right 0px,
+                url(https://i.ibb.co/6c1ZpD1V/dreamcafewrapper-left.png) repeat-y top -16px left 3px;
+}
+
+.left-menu {
+    background: url(https://i.ibb.co/Xfyq5V4k/dreamcafewrapper-right.png) repeat-y bottom -14px right 0px,
+                url(https://i.ibb.co/6c1ZpD1V/dreamcafewrapper-left.png) repeat-y bottom -16px left 3px;
+}
+
+h3.left-menu-text {
+    background: url(https://i.ibb.co/LXtM9cJy/dreamcafebutton.png) no-repeat center !important;
+}
+
+/*-------------------*/
+
+.blog__about.mb-3 {
+    margin-bottom: 0px !important;
+}
+
+span.crumb-item, .left-menu *,
+a.user.post-title-user, .row.w-100 a, .row.w-100 span, .comment-text+div *,
+.post-row, .comment-row,.sign,span.post-title-date,.fa-chevron-down:before,.post-row a,
+.sign, .post-opt.col-12.col-md-6 div, span.post-title-date,div#newpostform,
+.post-content h1, .small-text, .small-text+div a, .comment-box h2, .comment-box__message-partial.comment-content,
+.comment-box__message-partial.comment-content a,
+span.post-title-date+a {
+    color: #716f6f !important;
+}
+
+div#fnplayer-slider, div#fnplayer-volume {
+    height: 3px;
+    background: #cecece;
+}
+
+div#fnplayer-slider-inner, div#fnplayer-volume-inner {
+    background: #89898b;
+    height: 3px;
+}
+
+div#fnplayer-volume-inner {
+    border: unset !important;
+}
+
+button#fnplayer-play {
+    background: #89898b;
+}
+
+.left-menu input[type="text"], input[type="submit"], textarea {
+    background: #e3e3e3;
+    border: 1px dotted #a6a6a6;
+}
+
+input[type="submit"] {
+    background: #b3b4b5 !important;
+    color: #fdfdfd !important;
+}
+
+::placeholder {
+    color: #6f6f6f !important;
+}
+
+.user:before {
+    filter: grayscale(1);
+}
+
+a.post-title,.content h1  {
+    font-size: 30px;
+    color: #89898b !important;
+}
+
+.content h1 {
+    padding: 0px;
+}
+
+.row.w-100 a.tag,.comment-text a,form#messageform,.post-row a {
+    color: #434343 !important;
+}
+
+input[type="text"], input[type="submit"], textarea {
+    background: #e3e3e3;
+    border: 1px dotted #b3b4bc;
+}
+
+.col-md-4 {
+    margin: 10px;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    color: #7a7777 !important;
+}
+
+div#beon-fnplayer {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    position: relative;
+    background: transparent;
+    margin-left: 30px;
+    width: calc(100% - 60px);
+}
+
+.post-avatar img {
+    border: 1px dotted #959493;
+    border-radius: 3px;
+}
+
+a.post-title:hover {
+    color: #454647 !important;
+}
+
+
+/*----СКРОЛЛ----*/
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b9b9b9;
+    border: 1px dotted #737373;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 0px;
+    width: 0px;
+    border: 1px dotted #737373;
+}
+
+::selection {
+    background: #dee6ec;
+    color: #272727;
+}
+
+/*----------------*/
+
+div#newpostform {
+    padding: 20px !important;
+}
+
+.avatars-fullscreen-link-wrapper a {
+    color: #3e3e3e;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #ffffffd4;
+}
+
+p.quotation {
+    color: #5d5d5d;
+    border-left: 2px solid #a9a9a7;
+    padding: 0px;
+    padding-left: 10px;
+    background: #dee6ec;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #f4859a !important;
+}
+
+.left-menu a:hover {
+    color: #2d2d2d !important;
+    text-decoration: underline !important;
+}
+
+textarea, input[type="text"] {
+    color: #414141;
+}
+
+.post-row a:not(.row.w-100.mt-3 a) {
+    text-decoration: underline !important;
+}
+
+ul.menu__box {
+    box-shadow: 5px -5px 0px #bbbbbb78;
+}
+
+ul.menu__box {
+    border: 1px dotted #848484;
+}
+
+
+.menu__item:hover {
+    background-color: #c8c7c4;
+    color: #1b1b1b;
+}
+
+textarea {
+    padding: 10px;
+}
+
+input.w-100 {
+    padding-left: 10px;
+}
+
+a.navbar-brand:hover, a.my-menu.for-mobile.d-none.d-md-inline:hover {
+    color: #373737 !important;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #7b7b7b !important;
+}
+
+
+.bg-white .container-fluid:before {
+    content: '';
+    display: block;
+    background: url(https://i.ibb.co/YBPjj9X/dreamcafewrapper-top.png) left;
+    height: 18px;
+    width: calc(100% - 10px);
+    position: absolute;
+    top: -9px;
+    left: 8px;
+    filter: grayscale(1);
+    z-index: -1;
+}
+
+.bg-white .container-fluid:after {
+    content: '';
+    display: block;
+    background: url(https://i.ibb.co/dc02fft/dreamcafewrapper-bottom.png) left;
+    height: 18px;
+    width: calc(100% - 10px);
+    position: absolute;
+    bottom: -12px;
+    right: 2px;
+    filter: grayscale(1);
+}
+
+
+.bg-white {
+    background-color: transparent;
+    width: 935px;
+    margin-right: 22px !important;
+    border: unset;
+}
+
+.bg-white .m2:before {
+    content: '';
+    display: block;
+    width: calc(100% - 10px);
+    background: #ffffff;
+    height: 40px;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    z-index: -1;
+}
+
+.bg-white:before, .bg-white:after {
+    content: '';
+    background: url(https://i.ibb.co/6c1ZpD1V/dreamcafewrapper-left.png) no-repeat left;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -5px;
+    top: 1px;
+}
+
+.bg-white:after {
+    background: url(https://i.ibb.co/Xfyq5V4k/dreamcafewrapper-right.png) no-repeat right;
+    left: unset;
+    right: -12px;
+}
+
+h3.left-menu-text {
+    background: transparent !important;
+}
+
+/*
+
+.blog__about.mb-3 {
+    background: url(https://i.ibb.co/chqmy324/dreamcafewrapper-bottom.png) repeat-x bottom 45px center !important;
+    background-color: white !important;
+    padding-bottom: 80px;
+}
+
+*/
+
+.blog__about.mb-3 {
+    background: url(https://i.ibb.co/VY0HhbM1/dreamcafewrapper-bottom-2.png) no-repeat center bottom 10px;
+    background-color: white !important;
+    padding-bottom: 50px;
+}
+
+
+/*
+
+.community__moders,.community__members,.blog__read-me,.blog__tags {
+    background: url(https://i.ibb.co/chqmy324/dreamcafewrapper-bottom.png) repeat-x bottom 4px center !important;
+    background-color: white !important;
+    padding-bottom: 39px !important;
+}
+
+*/
+
+.community__moders, .community__members, .blog__read-me, .blog__tags {
+    background: url(https://i.ibb.co/VY0HhbM1/dreamcafewrapper-bottom-2.png) no-repeat center bottom !important;
+    background-color: white !important;
+    padding-bottom: 39px !important;
+}
+
+/*
+
+.community__moders,
+.community__members {
+    height: 136px;
+}
+
+.community__moders h3.left-menu-text,
+.community__moders p.left-menu-text {
+    transform: translateY(-10px);
+}
+
+.community__members {
+    height: 137px;
+}
+
+.community__members h3.left-menu-text,
+.community__members .left-menu-text {
+    transform: translateY(10px);
+}
+
+.community__members {
+    height: 137px;
+    background-position: bottom 10px center !important;
+}
+
+.blog__read-me {
+    background-position: bottom 20px center !important;
+    height: 360px;
+}
+
+.blog__tags {
+    background-position: bottom 44px center !important;
+    padding-bottom: 95px !important;
+}
+
+.blog__tags {
+    max-height: 1849px;
+    overflow: hidden;
+    background: white !important;
+}
+
+*/
+
+
+.left-menu__user-notification.left-menu__unread-notifications h3.left-menu-text:before {
+    content: 'УВЕДОМЛЕНИЯ';
+}
+
+.notifications__comments.left-menu__user-notification h3.left-menu-text:before {
+    content: 'КОММЕНТАРИИ';
+}
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text:before {
+    content: 'СООБЩЕНИЯ';
+}
+
+/*----МЕДИА----*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .bg-white {
+    border-radius: 0px;
+}
+    .bg-white+.crumbs {
+        background: #959595;
+        border-color: white;
+        margin-top: 80px !important;
+}
+    .left-menu > div.mobile_open_menu > h3,.fa-angle-down:before {
+        color: #89898b !important;
+}
+    
+    .bg-white {
+    width: 100% !important;
+    margin: 0px !important;
+}
+    .bg-white:before, .bg-white:after, .bg-white .container-fluid:before,.bg-white .m2:before {
+    display: none;
+}
+    .bg-white {
+    background: white;
+    margin-top: -2px !important;
+}
+    .bg-white .container-fluid:after {
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: -17px;
+}
+    .pagination, .pagination a {
+    color: white !important;
+}
+}
