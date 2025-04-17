@@ -444,4 +444,15 @@ textarea::selection {
     .pagination, .pagination a {
     color: white !important;
 }
+    .content {
+   background-position: left top, right top !important;
+}
+
+   .left-menu {
+    background-position: left top, right top !important;
+}
+
+   .left-menu > div.mobile_open_menu > h3, .fa-angle-down:before {
+    font-size: 17px;   
+}
 }
