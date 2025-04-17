@@ -368,6 +368,10 @@ input[type="submit"]:hover {
     color: #434343 !important;
 }
 
+h3.left-menu-text {
+    filter: grayscale(1);
+}
+
 /*----МЕДИА----*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
