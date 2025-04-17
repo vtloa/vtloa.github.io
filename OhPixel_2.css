@@ -206,7 +206,7 @@ a.post-title:hover {
 }
 
 ::selection {
-    background: #dee6ec;
+    background: #e3e3e3;
     color: #272727;
 }
 
@@ -228,7 +228,7 @@ p.quotation {
     border-left: 2px solid #a9a9a7;
     padding: 0px;
     padding-left: 10px;
-    background: #dee6ec;
+    background: #e3e3e3;
 }
 
 .liked .fas, .reposted .fas, .bookmarked .fas {
