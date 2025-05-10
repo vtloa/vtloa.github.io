@@ -296,3 +296,8 @@ body:has(.video-container) span.badge.bg-success.me-2 {
 }
 
 /*----END----*/
+
+body:has(.video-container) :focus {
+    box-shadow: unset !important;
+}
+
