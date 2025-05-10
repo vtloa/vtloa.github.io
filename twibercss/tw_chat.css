@@ -301,3 +301,6 @@ body:has(.video-container) :focus {
     box-shadow: unset !important;
 }
 
+body:has(.video-container) textarea#messageInput::placeholder {
+    color: #878787;
+}
