@@ -227,7 +227,7 @@ body:has(.video-container) .message-avatar {
 
 body:has(.video-container) .message-content {
     margin-left: 50px;
-    min-height: 50px;
+    min-height: 55px;
 }
 
 body:has(.video-container) .message[style="background-color: rgb(232, 244, 255);"]:last-child {
