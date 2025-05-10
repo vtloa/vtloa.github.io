@@ -81,3 +81,221 @@ div#stickerPicker {
     top: -130px;
     right: 40px;
 }
+
+
+/*-----------------КИНОЗАЛ*/
+
+body:has(.video-container) {
+    background: #1A1A1A;
+}
+
+body:has(.video-container) .leftmenu {
+    display: none;
+}
+
+body:has(.video-container) h1.text-center {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 222222;
+    background: #464646;
+    height: 50px;
+}
+
+h1.text-center a {
+    content: url(https://img.icons8.com/?size=32&id=9nrdq1x4pi4a&format=png);
+    filter: invert(1) contrast(0.5);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+body:has(.video-container) .video-container {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 68%;
+    height: calc(100% - 130px);
+}
+
+body:has(.video-container) .card.h-100 {
+    position: fixed;
+    right: 0;
+    height: 81px !important;
+    border: unset;
+    top: 60px;
+    background: #343434;
+    border-radius: unset;
+}
+
+body:has(.video-container) .chat-container {
+    border: unset;
+    border-radius: unset;
+}
+
+body:has(.video-container) div#messagesContainer {
+    position: fixed;
+    top: 138px;
+    right: 0;
+    height: calc(100% - 260px);
+    overflow-y: auto;
+    border: unset;
+    background: #333;
+    padding: 0;
+    border-top: 1px solid #636363;
+}
+
+body:has(.video-container) .message-input {
+    position: fixed;
+    bottom: 10px;
+    background: #343434;
+}
+
+
+body:has(.video-container) .card.h-100,
+body:has(.video-container) div#messagesContainer,
+body:has(.video-container) .message-input {
+    width: calc(32% - 20px);
+    right: 10px;
+}
+
+
+
+body:has(.video-container) div#stickerPicker {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 68%;
+    top: unset;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+body:has(.video-container) div#stickerPicker img {
+    height: 50px;
+    width: 50px;
+}
+
+body:has(.video-container) ul#stickerTabs {
+    border: unset;
+}
+
+body:has(.video-container) a.nav-link {
+    height: 50px !important;
+    border-radius: unset !important;
+    line-height: normal !important;
+    background: #464646 !important;
+    border: unset !important;
+    color: #cacaca !important;
+    margin-top: 5px;
+    width: 50px;
+    font-size: 14px;
+    padding: 0px;
+    text-align: center;
+}
+
+body:has(.video-container) li.nav-item {
+    margin-left: 5px;
+}
+
+body:has(.video-container) li.nav-item+li.nav-item {
+    margin-left: 10px;
+}
+
+
+body:has(.video-container) button#stickerBtn {
+    display: none;
+}
+
+
+
+
+
+
+
+body:has(.video-container) .message {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+body:has(.video-container) .message-avatar {
+    max-width: 50px;
+    max-height: 81px;
+    border-radius: 100%;
+}
+
+body:has(.video-container) .message-content {
+    margin-left: 50px;
+    min-height: 50px;
+}
+
+body:has(.video-container) .message[style="background-color: rgb(232, 244, 255);"]:last-child {
+    background: #b9c9df2e !important;
+}
+
+body:has(.video-container) .message-input {
+    border: unset;
+}
+
+body:has(.video-container) textarea#messageInput {
+    color: #FFF;
+    background-color: #464646;
+    border: unset;
+    border-radius: unset;
+    min-height: 50px;
+}
+
+body:has(.video-container) .card-header.d-flex.justify-content-between.align-items-center {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    border: unset;
+}
+
+body:has(.video-container) p.text-muted.mb-0 {
+    color: #a8a8a8 !important;
+}
+
+body:has(.video-container) .card-body.py-2 {
+    background: #333333;
+    padding: 0px !important;
+    line-height: 2;
+    padding-left: 15px !important;
+}
+
+
+body:has(.video-container) button.btn.btn-primary {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: unset;
+    background: #464646;
+    border: unset;
+    color: #8f8f8f;
+}
+
+body:has(.video-container) span.badge.bg-success.me-2 {
+    filter: grayscale(1);
+    border-radius: unset;
+    font-weight: normal;
+}
+
+
+/*----СКРОЛЛ----*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5b5b5b;
+}
+
+/*----END----*/
