@@ -210,16 +210,13 @@ body:has(.video-container) button#stickerBtn {
 
 
 
-
-
-
-
 body:has(.video-container) .message {
     padding: 10px;
     border-radius: 5px;
     background-color: transparent;
     color: #ffffff;
     margin-bottom: 0px;
+    border-radius: unset;
 }
 
 body:has(.video-container) .message-avatar {
@@ -234,7 +231,7 @@ body:has(.video-container) .message-content {
 }
 
 body:has(.video-container) .message[style="background-color: rgb(232, 244, 255);"]:last-child {
-    background: #b9c9df2e !important;
+    background: #464646 !important;
 }
 
 body:has(.video-container) .message-input {
