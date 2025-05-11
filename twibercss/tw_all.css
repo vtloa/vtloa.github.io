@@ -16,6 +16,11 @@ span.post_username span,
     line-height: 0 !important;
 }
 
+.post_info {
+    font-size: 10px;
+    color: #727272;
+}
+
 :visited:not(header a) {
     color: #8c2f98;
 }
