@@ -200,3 +200,15 @@ h3.post_title {
 .about-section {
     color: #727272;
 }
+
+
+
+.post_content {
+  margin-left: 100px;
+  white-space: pre-wrap;
+  display: grid;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 50px;
+  word-break: break-word;
+}
