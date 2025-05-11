@@ -56,12 +56,13 @@ h1.text-center {
 }
 
 .chat_body {
-    width: 80%;
-    position: fixed;
-    top: 2%;
-    left: 20%;
-    right: 20%;
-    height: 96%;
+  width: 80% !important;
+  position: fixed;
+  top: 2%;
+  left: 0;
+  right: 0;
+  height: 96%;
+  margin: auto;
 }
 
 .message-input {
