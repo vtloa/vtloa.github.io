@@ -215,3 +215,7 @@ h3.post_title {
 .post_content img {
   padding: 3px;
 }
+
+.post_avatar {
+  margin-right: 10px;
+}
