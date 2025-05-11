@@ -99,8 +99,8 @@ img.post-avatar {
 }
 
 .top-users ul li:first-child img {
-    max-width: 100px;
-    max-height: 162px;
+    max-width: 200px;
+    max-height: 324;
 }
 
 .top-users ul img {
