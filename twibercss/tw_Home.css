@@ -10,7 +10,8 @@
 }
 
 .top-users ul {
-    padding-left: 20px;
+    padding-left: 0px;
+    text-align: center;
 }
 
 h1.notice {
@@ -93,14 +94,15 @@ img.post-avatar {
 
 .top-users ul img {
     width: auto;
-    max-width: 50px;
-    max-height: 81px;
+    max-width: 100px;
+    max-height: 162px;
     margin-top: 10px;
 }
 
 .top-users ul li:first-child img {
     max-width: 200px;
     max-height: 324;
+    margin: auto;
 }
 
 .top-users ul img {
@@ -128,11 +130,9 @@ img.post-avatar {
     margin-left: 30px;
 }
 
-.top-users ul li:first-child+li+li img,
-.top-users ul li:first-child+li+li+li img,
-.top-users ul li:first-child+li+li+li+li img {
-    max-width: 40px;
-    max-height: 65px;
+.top-users ul li:first-child+li+li img, .top-users ul li:first-child+li+li+li img, .top-users ul li:first-child+li+li+li+li img {
+    max-width: 50px;
+    max-height: 81px;
 }
 
 .post_title h3 {
