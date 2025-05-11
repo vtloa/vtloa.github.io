@@ -199,3 +199,7 @@ button#show-all-notifications {
 div#notifications-container:has(img) button#show-all-notifications {
     display: block !important;
 }
+
+.post_content img {
+  max-width: 400px !important;
+}
