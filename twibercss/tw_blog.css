@@ -229,3 +229,8 @@ small.post_date {
     padding-left: 5px;
 }
 
+.post_info {
+    font-size: 10px;
+    color: #727272;
+}
+
