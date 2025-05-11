@@ -65,6 +65,11 @@ h1.text-center {
   margin: auto;
 }
 
+body:has(.leftmenu)  .chat_body {
+  left: 18%;
+}
+
+
 .message-input {
     position: relative;
 }
