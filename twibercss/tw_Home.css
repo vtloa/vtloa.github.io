@@ -112,19 +112,19 @@ img.post-avatar {
     margin-bottom: 10px;
 }
 
-.top-users ul li:first-child+li {
+.top-users ul li:first-child+li2 {
     margin-left: 20px;
 }
 
-.top-users ul li:first-child+li+li {
+.top-users ul li:first-child+li+li2 {
     margin-left: 30px;
 }
 
-.top-users ul li:first-child+li+li+li {
+.top-users ul li:first-child+li+li+li2 {
     margin-left: 30px;
 }
 
-.top-users ul li:first-child+li+li+li+li {
+.top-users ul li:first-child+li+li+li+li2 {
     margin-left: 30px;
 }
 
