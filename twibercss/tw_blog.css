@@ -202,7 +202,6 @@ h3.post_title {
 }
 
 
-
 .post_content {
   margin-left: 100px;
   white-space: pre-wrap;
@@ -211,4 +210,8 @@ h3.post_title {
   margin-bottom: 0px;
   min-height: 50px;
   word-break: break-word;
+}
+
+.post_content img {
+  padding: 3px;
 }
