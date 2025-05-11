@@ -219,3 +219,13 @@ h3.post_title {
 .post_avatar {
   margin-right: 10px;
 }
+
+.post-author {
+    display: flex;
+    align-items: center;
+}
+
+small.post_date {
+    padding-left: 5px;
+}
+
