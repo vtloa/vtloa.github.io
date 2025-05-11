@@ -8,6 +8,10 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
+.post_username a+span {
+    font-weight: bold;
+}
+
 span.post_username span {
     font-weight: bold;
     font-size: 16px;
