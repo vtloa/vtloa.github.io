@@ -339,7 +339,10 @@ label, button {
 
 /*------*/
 
-
+.post_content {
+    white-space: pre-wrap;
+    display: inline-block;
+}
 
 /*----------MDEIA*/
 
