@@ -33,7 +33,6 @@
 
 p.post_content {
     margin-left: 110px;
-    white-space: pre-wrap;
     display: grid;
     margin-top: 0px;
     margin-bottom: 0px;
