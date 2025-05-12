@@ -345,12 +345,12 @@ label, button {
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     .leftmenu,.profile_body {
-    margin: 0px;
-    width: 100%;
-    max-width: unset;
+    margin: 0px !important;
+    width: 100% !important;
+    max-width: unset !important;
 }
     .content {
-    flex-direction: column;
+    flex-direction: column !important;
 }
     p.post_content + [style="text-align: center;"] img {
     max-width: 400px !important;
@@ -360,21 +360,21 @@ label, button {
     max-width: 100% !important;
 }
     header {
-    padding: 10px;
+    padding: 10px !important;
 }
     .profile-header-container {
-    width: 100%;
+    width: 100% !important;
 }
     header a {
-    margin: 0px;
+    margin: 0px !important;
 }
     .pagination-arrows {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
     body:has(.ud) .content {
-    width: 100%;
+    width: 100% !important;
     max-width: 100% !important;
-    margin: auto;
+    margin: auto !important;
     margin-top: 125px;
 }
 }
