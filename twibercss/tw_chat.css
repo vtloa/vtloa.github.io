@@ -288,6 +288,16 @@ body:has(.video-container) span.badge.bg-success.me-2 {
     font-weight: normal;
 }
 
+.video-controls {
+  z-index: 3333;
+  bottom: unset;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+}
+
 
 /*----СКРОЛЛ----*/
 
