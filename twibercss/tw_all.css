@@ -12,7 +12,7 @@ font-family: "Geologica", sans-serif;
   text-align: center;
 }
 
-.bb-content br {
+.bb-content br, .post_content br {
   display: none;
 }
 
