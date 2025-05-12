@@ -375,7 +375,7 @@ label, button {
     width: 100% !important;
     max-width: 100% !important;
     margin: auto !important;
-    margin-top: 125px;
+    margin-top: 125px !important;
 }
 }
 
