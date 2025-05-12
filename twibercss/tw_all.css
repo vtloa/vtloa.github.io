@@ -12,6 +12,10 @@ font-family: "Geologica", sans-serif;
   text-align: center;
 }
 
+.bb-content br {
+  display: none;
+}
+
 .post_info {
     font-size: 10px;
     color: #727272;
