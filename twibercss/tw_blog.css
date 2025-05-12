@@ -233,3 +233,7 @@ small.post_date {
     color: #727272;
 }
 
+.post_content {
+    margin-left: 0;
+}
+
