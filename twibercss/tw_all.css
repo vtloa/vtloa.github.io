@@ -209,3 +209,173 @@ span.post_username span,
     font-size: 16px !important;
     line-height: 0 !important;
 }
+
+/*------------------------------------*/
+
+header [href="home.php"]:first-child {
+    content: url(https://img.icons8.com/?size=32&id=9nrdq1x4pi4a&format=png);
+    filter: invert(1) contrast(0.5);
+    transform: translateY(10px);
+}
+
+h1.notice {
+    display: none;
+}
+
+/*-----------------------------------*/
+
+.setting button {
+    padding: 5px;
+    border: 2px outset #3da9ff;
+    font-size: 13px;
+    background: #3da9ff;
+    border-radius: 3px;
+    line-height: normal;
+    color: #001a2f;
+}
+
+/*----------------*/
+
+
+.post_avatar {
+    float: left;
+    text-align: center;
+}
+
+.profile-header-container {
+    width: 100%;
+    border-radius: unset;
+}
+
+summary {
+    background: url(https://img.icons8.com/?size=32&id=UCX4DI82AU0H&format=png) no-repeat center / contain;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    font-size: 0px;
+    cursor: pointer;
+}
+
+.setting {
+    position: fixed;
+    top: 95px;
+    right: 20px;
+    width: 350px;
+    z-index: 22;
+    background: #2196f352;
+}
+
+.setting details {
+    width: 100%;
+}
+
+.setting .about-section h2 {
+    display: block;
+}
+
+.setting h2:not(.gender-section h2,.birthdate-section h2, .zodiac-section h2) {
+    font-size: 14px;
+    background: #a7a7a7;
+    text-align: center;
+    line-height: 2;
+    color: black;
+    font-weight: normal;
+}
+
+.profile_setting {
+    overflow-y: scroll;
+    height: 600px;
+    outline: 7px solid #03a9f44d;
+    padding: 5px;
+}
+
+
+.setting .gender-section h2, .setting .birthdate-section h2, .setting .zodiac-section h2 {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.setting .about-section, .setting .nickname-section {
+    text-align: center;
+}
+
+
+[action="update_profile_header.php"] div label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+[action="update_profile_header.php"] div label+label {
+    color: #007bff;
+}
+
+[name="profile_header_url"] {
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    background: #2196f340;
+}
+
+[name="profile_header_url"]::placeholder {
+    color: transparent;
+}
+
+label, button {
+    cursor: pointer;
+}
+
+.about-section [name="about"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.current-header img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+/*------*/
+
+
+
+/*----------MDEIA*/
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+    .leftmenu,.profile_body {
+    margin: 0px;
+    width: 100%;
+    max-width: unset;
+}
+    .content {
+    flex-direction: column;
+}
+    p.post_content + [style="text-align: center;"] img {
+    max-width: 400px !important;
+}
+    p.post_content iframe,.post-content p img, p.post_content img, .comments_content p img,p.post_content + [style="text-align: center;"] img,.post_content img,
+    .post_content iframe {
+    max-width: 100% !important;
+}
+    header {
+    padding: 10px;
+}
+    .profile-header-container {
+    width: 100%;
+}
+    header a {
+    margin: 0px;
+}
+    .pagination-arrows {
+    margin-bottom: 20px;
+}
+    body:has(.ud) .content {
+    width: 100%;
+    max-width: 100% !important;
+    margin: auto;
+    margin-top: 125px;
+}
+}
+
