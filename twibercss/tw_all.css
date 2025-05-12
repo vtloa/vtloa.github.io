@@ -352,6 +352,20 @@ label, button {
     display: inline-block;
 }
 
+
+body:has(.post_title h2) .post_content {
+  white-space: unset;
+  display: inline-block;
+}
+
+body:has(.post_title h2) .bb-content {
+  white-space: pre-wrap;
+}
+
+body:has(.post_title h2) .post_content p {
+  margin: 0px;
+}
+
 /*----------MDEIA*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
