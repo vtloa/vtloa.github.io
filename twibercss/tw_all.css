@@ -366,11 +366,6 @@ body:has(.post_title h2) .post_content p {
   margin: 0px;
 }
 
-.bb-img-container img {
-  width: auto;
-  max-width: 100% !important;
-}
-
 .bb-content {
   overflow-wrap: anywhere;
 }
