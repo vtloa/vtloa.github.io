@@ -237,6 +237,10 @@ small.post_date {
     margin-left: 0;
 }
 
+.bb-content {
+    white-space: pre-wrap;
+}
+
 /*---------------------------*/
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
     .post_content {
