@@ -238,7 +238,7 @@ small.post_date {
 }
 
 .bb-content {
-    white-space: pre-wrap;
+  white-space: pre-line;
 }
 
 /*---------------------------*/
