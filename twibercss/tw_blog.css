@@ -203,12 +203,12 @@ h3.post_title {
 
 .post_content {
   margin-left: 100px;
-  white-space: pre-wrap;
   display: grid;
   margin-top: 0px;
   margin-bottom: 0px;
   min-height: 50px;
   word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .post_content img {
