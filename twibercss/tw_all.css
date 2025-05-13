@@ -348,10 +348,9 @@ label, button {
 /*------*/
 
 .post_content {
-  white-space: pre-wrap;
-  display: grid;
+    display: grid;
+    overflow-wrap: anywhere;
 }
-
 
 body:has(.post_title h2) .post_content {
   white-space: unset;
@@ -359,7 +358,7 @@ body:has(.post_title h2) .post_content {
 }
 
 body:has(.post_title h2) .bb-content {
-  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 body:has(.post_title h2) .post_content p {
