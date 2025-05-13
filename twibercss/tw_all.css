@@ -371,6 +371,11 @@ body:has(.post_title h2) .post_content p {
   max-width: 100% !important;
 }
 
+.bb-content {
+    overflow-wrap: anywhere;
+}
+
+
 /*----------MDEIA*/
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
