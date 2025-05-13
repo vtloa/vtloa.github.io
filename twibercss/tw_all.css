@@ -372,7 +372,7 @@ body:has(.post_title h2) .post_content p {
 }
 
 .bb-content {
-    overflow-wrap: anywhere;
+  overflow-wrap: anywhere;
 }
 
 
