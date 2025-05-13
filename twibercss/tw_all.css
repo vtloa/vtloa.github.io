@@ -373,6 +373,10 @@ body:has(.post_title h2) .post_content p {
     margin-right: 5px;
 }
 
+.bb-content img {
+    padding: 3px;
+}
+
 
 /*----------MDEIA*/
 
