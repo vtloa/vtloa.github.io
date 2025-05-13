@@ -8,6 +8,10 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
+.bb-content br, .post_content br {
+    display: none;
+}
+
 .bb-center {
   text-align: center;
 }
