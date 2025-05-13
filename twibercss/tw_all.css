@@ -11,11 +11,6 @@ font-family: "Geologica", sans-serif;
 .bb-center {
   text-align: center;
 }
-
-.bb-content br, .post_content br {
-  display: none;
-}
-
 .post_info {
     font-size: 10px;
     color: #727272;
