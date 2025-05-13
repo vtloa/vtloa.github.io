@@ -8,6 +8,10 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
+h3.post_title {
+    overflow-wrap: anywhere;
+}
+
 .bb-content br, .post_content br {
     display: none;
 }
