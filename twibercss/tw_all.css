@@ -8,7 +8,7 @@ font-family: "Geologica", sans-serif;
 
 /*-------------------------*/
 
-h3.post_title {
+.post_title {
     overflow-wrap: anywhere;
 }
 
