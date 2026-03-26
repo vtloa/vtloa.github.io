@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BagInventory Design Preview</title>
+    <!-- Подключаем похожий шрифт для теста -->
+    <style>
+        /* Эмуляция фона игры (просто темный фон для контраста) */
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #222; /* Имитация фона карты */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            font-family: "GameFont", Verdana, sans-serif; /* Замени на свой шрифт, если нужно */
+        }
+
+        /* Контейнер, имитирующий разрешение игры 1104x624 */
+        #game-window {
+            width: 1104px;
+            height: 624px;
+            position: relative;
+            border: 1px solid #000;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            background-image: url('img/PICTURES/YOUR_BACKGROUND.png'); /* Можно поставить свой фон */
+            background-size: cover;
+            background-color: #3a3a3a;
+        }
+
+        /* ========================================== */
+        /* СТИЛИ ПЛАГИНА (НАЧАЛО)                     */
+        /* Скопировано 1-в-1 из твоего плагина        */
+        /* ========================================== */
+        
+        #bag-inventory-root {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 100; font-family: "GameFont", sans-serif; pointer-events: none; 
+            display: flex; justify-content: center; align-items: center;
+        }
+        #ui-controls {
+            position: absolute; top: 20px; right: 20px;
+            display: flex; flex-direction: column; gap: 10px;
+            z-index: 2000; pointer-events: auto;
+        }
+        .ui-btn {
+            padding: 10px 20px; border: 2px solid #fff; border-radius: 5px;
+            color: #fff; font-size: 16px; cursor: pointer;
+            font-family: "GameFont", sans-serif; text-align: center; min-width: 120px;
+        }
+        #exit-btn { background: #884444; } #exit-btn:hover { background: #aa5555; }
+        #shake-btn { background: #558855; } #shake-btn:hover { background: #66aa66; }
+
+        @keyframes bag-shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        .bag-shaking { animation: bag-shake 0.5s; }
+
+        #req-panel {
+            width: 180px; background: rgba(0, 0, 0, 0.85); border: 2px solid #aaa;
+            border-radius: 8px; padding: 15px; pointer-events: auto; color: #fff;
+            margin-right: 20px; display: none; 
+        }
+        /* Я добавил класс visible, чтобы показать панель */
+        #req-panel.visible { display: block; } 
+        #req-panel h3 { margin: 0 0 10px 0; text-align: center; color: #ffffcc; font-size: 18px; border-bottom: 1px solid #555; padding-bottom: 5px; }
+        #req-list { list-style: none; padding: 0; margin: 0; font-size: 14px; }
+        #req-list li { margin-bottom: 8px; display: flex; align-items: center; }
+        #req-list li .icon { width: 24px; height: 24px; margin-right: 8px; background-size: contain; background-repeat: no-repeat; }
+        #req-list li.done { color: #00ff00; text-decoration: line-through; opacity: 0.7; }
+        #req-list li.active { color: #fff; }
+
+        #main-area { display: flex; flex-direction: column; align-items: center; pointer-events: auto; }
+
+        #top-row { display: none; align-items: center; justify-content: center; margin-bottom: 15px; }
+        #top-row.visible { display: flex; }
+        
+        #give-area {
+            width: 200px; height: 70px; border: 3px dashed #ccc; background: rgba(0, 0, 0, 0.6);
+            color: #ccc; display: flex; justify-content: center; align-items: center;
+            font-size: 16px; border-radius: 8px; position: relative; overflow: hidden;
+        }
+        #confirm-btn {
+            margin-left: 15px; padding: 12px 20px; background: #4a6fa5;
+            border: 2px solid #fff; border-radius: 5px; color: #fff;
+            font-size: 16px; cursor: pointer;
+        }
+        #confirm-btn:hover { background: #5a7fb5; }
+
+        #bag-container {
+            width: 500px; height: 320px; border: 4px solid #fff; border-radius: 10px;
+            background: rgba(20, 20, 20, 0.8); box-shadow: 0 0 20px rgba(0,0,0,0.8);
+            overflow: hidden; position: relative; transition: width 0.3s, height 0.3s;
+        }
+        /* В квестовом режиме сумка меньше */
+        #bag-container.quest-mode { width: 400px; height: 260px; }
+
+        #info-window {
+            position: absolute; bottom: 30px; left: 50%;
+            transform: translateX(-50%); width: 600px; min-height: 60px;
+            background: rgba(0, 0, 0, 0.85); border: 2px solid #fff; border-radius: 8px;
+            color: #fff; padding: 10px 15px; box-sizing: border-box; pointer-events: none;
+            display: flex; flex-direction: column; justify-content: center; text-align: center;
+        }
+        #info-window .name { font-size: 20px; font-weight: bold; margin-bottom: 5px; color: #ffffcc; }
+        #info-window .desc { font-size: 14px; line-height: 1.4; color: #ccc; }
+
+        .bag-item {
+            position: absolute; width: 32px; height: 32px; cursor: grab;
+            user-select: none; z-index: 1;
+            transition: left 0.4s ease-out, top 0.4s ease-out, transform 0.1s;
+            /* Демо-стиль для иконок (цветные квадратики) */
+            background-color: rgba(255, 255, 255, 0.2); 
+        }
+        .bag-item:hover { transform: scale(1.1) !important; z-index: 500 !important; }
+        .bag-item.active { cursor: grabbing; z-index: 1000 !important; transform: scale(1.3) !important; transition: none; }
+        .bag-item.removed {
+            transition: opacity 0.3s, transform 0.3s;
+            opacity: 0; transform: scale(1.5) !important; pointer-events: none;
+        }
+
+        /* ========================================== */
+        /* ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ДЕМО                 */
+        /* (Чтобы было видно иконки, так как нет IconSet) */
+        /* ========================================== */
+        .bag-item {
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 0 #000;
+        }
+        /* Разные цвета для предметов */
+        .item-potion { background: #d9534f; }
+        .item-key { background: #f0ad4e; }
+        .item-sword { background: #5bc0de; }
+        .item-shield { background: #5cb85c; }
+
+    </style>
+</head>
+<body>
+
+    <!-- Окно игры -->
+    <div id="game-window">
+        
+        <!-- Корень интерфейса сумки -->
+        <div id="bag-inventory-root">
+            <div id="ui-controls">
+                <button id="exit-btn" class="ui-btn">Выход</button>
+                <button id="shake-btn" class="ui-btn">Встряхнуть</button>
+            </div>
+
+            <!-- Панель квеста (добавил класс visible) -->
+            <div id="req-panel" class="visible">
+                <h3>Требуется:</h3>
+                <ul id="req-list">
+                    <li class="active">
+                        <span class="icon" style="background-color: #d9534f; width:24px; height:24px; display:inline-block;"></span>
+                        <span>Зелье x3</span>
+                    </li>
+                    <li class="done">
+                        <span class="icon" style="background-color: #f0ad4e; width:24px; height:24px; display:inline-block;"></span>
+                        <span>Ключ x1</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="main-area">
+                <!-- Верхняя панель передачи (добавил класс visible) -->
+                <div id="top-row" class="visible">
+                    <div id="give-area">Перетащите сюда</div>
+                    <button id="confirm-btn">Передать</button>
+                </div>
+                
+                <!-- Сумка (добавил класс quest-mode) -->
+                <div id="bag-container" class="quest-mode">
+                    <!-- Демо-предметы -->
+                    <div class="bag-item item-potion" style="left: 50px; top: 40px; transform: rotate(10deg);">Зелье</div>
+                    <div class="bag-item item-key" style="left: 150px; top: 120px; transform: rotate(-5deg);">Ключ</div>
+                    <div class="bag-item item-sword" style="left: 220px; top: 60px; transform: rotate(25deg);">Меч</div>
+                    <div class="bag-item item-shield" style="left: 80px; top: 180px; transform: rotate(-15deg);">Щит</div>
+                    <div class="bag-item item-potion" style="left: 300px; top: 150px; transform: rotate(5deg);">Зелье</div>
+                </div>
+            </div>
+
+            <div id="info-window">
+                <div class="name">Наведите на предмет</div>
+                <div class="desc">Это демонстрационное описание предмета в информационном окне.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Скрипт для функционала демо (Тряска и Тащить-Бросить) -->
+    <script>
+        const bagContainer = document.getElementById('bag-container');
+        const shakeBtn = document.getElementById('shake-btn');
+        const giveArea = document.getElementById('give-area');
+
+        // 1. Логика тряски
+        shakeBtn.addEventListener('click', () => {
+            bagContainer.classList.add('bag-shaking');
+            setTimeout(() => bagContainer.classList.remove('bag-shaking'), 500);
+
+            // Рандомное перемещение предметов
+            const items = bagContainer.querySelectorAll('.bag-item');
+            items.forEach(item => {
+                const maxX = bagContainer.clientWidth - 32;
+                const maxY = bagContainer.clientHeight - 32;
+                item.style.left = Math.random() * maxX + 'px';
+                item.style.top = Math.random() * maxY + 'px';
+                item.style.transform = `rotate(${Math.random() * 40 - 20}deg)`;
+            });
+        });
+
+        // 2. Логика перетаскивания (Drag & Drop)
+        let draggedItem = null;
+        let shiftX, shiftY;
+
+        document.addEventListener('mousedown', (e) => {
+            if (e.target.classList.contains('bag-item')) {
+                draggedItem = e.target;
+                draggedItem.classList.add('active');
+                
+                // Вычисляем смещение курсора относительно левого верхнего угла элемента
+                const rect = draggedItem.getBoundingClientRect();
+                shiftX = e.clientX - rect.left;
+                shiftY = e.clientY - rect.top;
+
+                // Перемещаем в body, чтобы было поверх всего
+                document.body.appendChild(draggedItem);
+                draggedItem.style.position = 'fixed';
+                draggedItem.style.left = (e.clientX - shiftX) + 'px';
+                draggedItem.style.top = (e.clientY - shiftY) + 'px';
+            }
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (draggedItem) {
+                draggedItem.style.left = (e.clientX - shiftX) + 'px';
+                draggedItem.style.top = (e.clientY - shiftY) + 'px';
+            }
+        });
+
+        document.addEventListener('mouseup', (e) => {
+            if (!draggedItem) return;
+            draggedItem.classList.remove('active');
+
+            const bagRect = bagContainer.getBoundingClientRect();
+            const giveRect = giveArea.getBoundingClientRect();
+
+            // Проверка попадания в область передачи
+            if (e.clientX >= giveRect.left && e.clientX <= giveRect.right &&
+                e.clientY >= giveRect.top && e.clientY <= giveRect.bottom) {
+                
+                giveArea.appendChild(draggedItem);
+                draggedItem.style.position = 'absolute';
+                draggedItem.style.left = (Math.random() * (giveArea.clientWidth - 32)) + 'px';
+                draggedItem.style.top = (Math.random() * (giveArea.clientHeight - 32)) + 'px';
+                draggedItem.style.transform = 'none';
+                draggedItem.style.zIndex = 5;
+            } 
+            // Проверка попадания обратно в сумку
+            else if (e.clientX >= bagRect.left && e.clientX <= bagRect.right &&
+                     e.clientY >= bagRect.top && e.clientY <= bagRect.bottom) {
+                
+                bagContainer.appendChild(draggedItem);
+                draggedItem.style.position = 'absolute';
+                draggedItem.style.left = (e.clientX - bagRect.left - shiftX) + 'px';
+                draggedItem.style.top = (e.clientY - bagRect.top - shiftY) + 'px';
+                draggedItem.style.zIndex = '';
+                draggedItem.style.transform = `rotate(${Math.random() * 20 - 10}deg)`;
+            }
+            // Если отпустили вне зон — возвращаем в сумку (или удаляем, но в демо вернем)
+            else {
+                if (draggedItem.parentElement === document.body) {
+                    bagContainer.appendChild(draggedItem);
+                    draggedItem.style.position = 'absolute';
+                    draggedItem.style.left = '100px';
+                    draggedItem.style.top = '100px';
+                }
+            }
+
+            draggedItem = null;
+        });
+    </script>
+</body>
+</html>
