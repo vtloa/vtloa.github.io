@@ -1778,3 +1778,11 @@ div#page__admincontact {
 span.font-snowblue {
     display: none;
 }
+
+
+
+/*---- 02.04.2026 ----*/
+
+.post-row .d-flex {
+    height: unset;
+}
